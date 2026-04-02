@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Molecular Basis of Inheritance - NEET MCQ Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="timer" id="timer">
+        <span class="timer-icon">⏱</span>
+        <span id="timerDisplay">00:00:00</span>
+    </div>
+
+    <div class="container">
+        <div class="header">
+            <h1>🧬 Molecular Basis of Inheritance</h1>
+            <h2>Complete NEET MCQ Question Bank</h2>
+            <div class="subtitle">Chapter 6 | Class XII Biology | 498 Questions</div>
+        </div>
+
+        <!-- Dashboard -->
+        <div class="dashboard">
+            <div class="stat-card">
+                <div class="stat-number" id="totalQ">498</div>
+                <div class="stat-label">Total Questions</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="attempted">0</div>
+                <div class="stat-label">Attempted</div>
+            </div>
+            <div class="stat-card correct">
+                <div class="stat-number" id="correctCount">0</div>
+                <div class="stat-label">Correct</div>
+            </div>
+            <div class="stat-card wrong">
+                <div class="stat-number" id="wrongCount">0</div>
+                <div class="stat-label">Wrong</div>
+            </div>
+            <div class="stat-card accuracy">
+                <div class="stat-number" id="accuracy">0%</div>
+                <div class="stat-label">Accuracy</div>
+            </div>
+        </div>
+
+        <!-- Mode Toggle -->
+        <div class="mode-toggle">
+            <label>Practice Mode</label>
+            <div class="toggle-switch">
+                <input type="checkbox" id="examMode">
+                <span class="toggle-slider"></span>
+            </div>
+            <label>Exam Mode</label>
+            &nbsp;&nbsp;|&nbsp;&nbsp;
+            <label>Show Explanations: </label>
+            <div class="toggle-switch">
+                <input type="checkbox" id="autoExplain" checked>
+                <span class="toggle-slider"></span>
+            </div>
+        </div>
+
+        <!-- Topic Filter -->
+        <div class="topic-filter">
+            <h3>📋 Filter by Topic</h3>
+            <div class="filter-buttons" id="filterButtons"></div>
+        </div>
+
+        <!-- Controls -->
+        <div class="controls">
+            <button class="control-btn btn-primary" onclick="toggleNavigator()">📊 Question Map</button>
+            <button class="control-btn btn-warning" onclick="showBookmarked()">⭐ Bookmarked</button>
+            <button class="control-btn btn-secondary" onclick="showWrongOnly()">❌ Review Wrong</button>
+            <button class="control-btn btn-success" onclick="showResults()">📈 Results</button>
+            <button class="control-btn btn-danger" onclick="resetQuiz()">🔄 Reset</button>
+        </div>
+
+        <!-- Progress -->
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+        <div class="progress-text" id="progressText">Question 1 of 498</div>
+
+        <!-- Question Navigator -->
+        <div class="q-navigator" id="qNavigator">
+            <h3>Question Navigator</h3>
+            <input type="text" class="search-box" id="searchBox" placeholder="🔍 Search questions by keyword..."
+                oninput="searchQuestions()">
+            <div class="q-nav-grid" id="qNavGrid"></div>
+        </div>
+
+        <!-- Questions Container -->
+        <div id="questionsContainer"></div>
+
+        <!-- Navigation -->
+        <div class="navigation">
+            <button class="control-btn btn-secondary" id="prevBtn" onclick="navigateQ(-1)">← Previous</button>
+            <span class="page-info" id="pageInfo"></span>
+            <button class="control-btn btn-primary" id="nextBtn" onclick="navigateQ(1)">Next →</button>
+        </div>
+    </div>
+
+    <!-- Results Modal -->
+    <div class="modal-overlay" id="resultsModal">
+        <div class="modal">
+            <h2>📊 Quiz Results</h2>
+            <div class="score-circle" id="scoreCircle">
+                <div class="score-percent" id="scorePercent">0%</div>
+                <div class="score-label">ACCURACY</div>
+            </div>
+            <div class="result-details" id="resultDetails"></div>
+            <br>
+            <button class="control-btn btn-primary" onclick="closeModal()">Close</button>
+            &nbsp;
+            <button class="control-btn btn-warning" onclick="downloadResults()">📥 Download Report</button>
+        </div>
+    </div>
+
+
+    <script src="questions.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
