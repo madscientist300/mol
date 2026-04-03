@@ -157,10 +157,10 @@ const CHAPTERS = [
         unit: "Unit VIII",
         emoji: "🦠",
         name: "Microbes in Human Welfare",
-        file: null,
-        questionCount: 0,
+        file: "questions_microbes.js",
+        questionCount: 276,
         topics: ["Antibiotics", "Biogas", "Fermentation", "Sewage Treatment", "Vaccines"],
-        status: "coming-soon"
+        status: "available"
     },
     {
         id: "organisms_populations",

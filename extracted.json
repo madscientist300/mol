@@ -1,0 +1,1302 @@
+[
+  {
+    "id": 1,
+    "topic": "Introduction",
+    "q": "Consider the following statements regarding microbes:<br>(i) Prions are proteinaceous infectious agents<br>(ii) Bacteria and fungi can form colonies visible to naked eye on nutritive media<br>(iii) Microbes are found only in moderate environmental conditions<br>(iv) All microbes are harmful to humans<br><br>Which of the above statements are <b>correct</b>?",
+    "options": [
+      "(i) and (ii) only",
+      "(i) and (iii) only",
+      "(i), (ii) and (iv)",
+      "All of the above"
+    ],
+    "correct": 0,
+    "explanation": "Statements (i) and (ii) are correct per NCERT. Statement (iii) is wrong – microbes thrive even in extreme environments (thermal vents at 100°C, under snow, acidic environments). Statement (iv) is wrong – several microbes are beneficial."
+  },
+  {
+    "id": 2,
+    "topic": "Introduction",
+    "q": "Which of the following is <b>NOT</b> listed as a type of microbe in NCERT?",
+    "options": [
+      "Viroids",
+      "Prions",
+      "Lichens",
+      "Protozoa"
+    ],
+    "correct": 2,
+    "explanation": "NCERT lists protozoa, bacteria, fungi, microscopic viruses, viroids, and prions as microbes. Lichens (symbiotic association of algae/cyanobacteria and fungi) are NOT listed as microbes in this context."
+  },
+  {
+    "id": 3,
+    "topic": "Introduction",
+    "q": "Assertion (A): Microbes can survive in thermal vents where temperatures may be as high as 100°C.<br>Reason (R): All microbes are thermophilic in nature.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "correct": 2,
+    "explanation": "Assertion is true – NCERT mentions microbes in geysers at 100°C. Reason is false – NOT all microbes are thermophilic. Only specific extremophilic microbes tolerate such conditions."
+  },
+  {
+    "id": 4,
+    "topic": "Introduction",
+    "q": "Prions differ from viroids in being:",
+    "options": [
+      "Nucleic acid-based infectious agents",
+      "Proteinaceous infectious agents",
+      "Cellular micro-organisms",
+      "Lipid-enclosed particles"
+    ],
+    "correct": 1,
+    "explanation": "Prions are proteinaceous infectious agents (lacking nucleic acid). Viroids are free RNA molecules without protein coat. This is a very frequently tested NEET distinction."
+  },
+  {
+    "id": 5,
+    "topic": "Introduction",
+    "q": "Microbes have been found in all of the following extreme habitats <b>EXCEPT</b>:",
+    "options": [
+      "Deep inside geysers at 100°C",
+      "Under layers of snow several metres thick",
+      "Highly acidic environments",
+      "Complete vacuum of outer space"
+    ],
+    "correct": 3,
+    "explanation": "NCERT mentions thermal vents (100°C), deep soil, under thick snow layers, and highly acidic environments. Vacuum of outer space is NOT mentioned."
+  },
+  {
+    "id": 6,
+    "topic": "Introduction",
+    "q": "Which of the following statements is <b>incorrect</b> about microbes?",
+    "options": [
+      "All microbes are pathogenic in nature",
+      "Microbes are present in soil, water, air and inside organisms",
+      "Prions are proteinaceous infectious agents",
+      "Bacteria and fungi can form visible colonies on nutritive media"
+    ],
+    "correct": 0,
+    "explanation": "'All microbes are pathogenic' is incorrect. NCERT explicitly states that several microbes are useful to humans in diverse ways. This is the most common misconception tested in NEET."
+  },
+  {
+    "id": 7,
+    "topic": "Introduction",
+    "q": "Cultures of microbes grown on nutritive media forming visible colonies are useful for:",
+    "options": [
+      "Gene therapy only",
+      "Studies on micro-organisms",
+      "Vaccine production only",
+      "Antibiotic extraction only"
+    ],
+    "correct": 1,
+    "explanation": "NCERT states: 'Such cultures are useful in studies on micro-organisms.' This is a direct line-based NCERT fact."
+  },
+  {
+    "id": 8,
+    "topic": "Introduction",
+    "q": "Which group among microbes includes <b>only</b> acellular members?",
+    "options": [
+      "Bacteria and fungi",
+      "Protozoa and bacteria",
+      "Viruses, viroids and prions",
+      "Fungi and protozoa"
+    ],
+    "correct": 2,
+    "explanation": "Viruses, viroids, and prions are all acellular. Bacteria are prokaryotic cells, protozoa are unicellular eukaryotes, and fungi are eukaryotic – all cellular."
+  },
+  {
+    "id": 9,
+    "topic": "Introduction",
+    "q": "Which of the following Kingdoms of living organisms contains <b>exclusively microscopic</b> members?",
+    "options": [
+      "Plantae",
+      "Animalia",
+      "Monera",
+      "Fungi"
+    ],
+    "correct": 2,
+    "explanation": "Kingdom Monera (bacteria and cyanobacteria) are exclusively microscopic. Fungi includes both microscopic (yeasts, moulds) and macroscopic (mushrooms) forms. Plantae and Animalia have macroscopic members."
+  },
+  {
+    "id": 10,
+    "topic": "Introduction",
+    "q": "Assertion (A): Microbes are present even inside our bodies.<br>Reason (R): All microbes that exist inside the human body are pathogenic.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "correct": 2,
+    "explanation": "Assertion is true – NCERT states microbes are present inside our bodies and other organisms. Reason is false – many microbes inside the body are beneficial (e.g., LAB in stomach check disease-causing microbes)."
+  },
+  {
+    "id": 11,
+    "topic": "Introduction",
+    "q": "Read the following statements and select the <b>correct</b> option:<br>Statement I: Viruses are always microscopic.<br>Statement II: Fungi are always microscopic.",
+    "options": [
+      "Both Statement I and II are correct",
+      "Only Statement I is correct",
+      "Only Statement II is correct",
+      "Both Statement I and II are incorrect"
+    ],
+    "correct": 1,
+    "explanation": "Statement I is correct – viruses are always microscopic. Statement II is incorrect – fungi include macroscopic forms like mushrooms. NCERT lists 'microscopic animal and plant viruses' confirming their microscopic nature, while fungi range from microscopic to macroscopic."
+  },
+  {
+    "id": 12,
+    "topic": "Introduction",
+    "q": "Which of the following can form visible colonies on nutritive media?",
+    "options": [
+      "Viruses and viroids",
+      "Bacteria and fungi",
+      "Prions and viroids",
+      "Viruses and prions"
+    ],
+    "correct": 1,
+    "explanation": "NCERT specifically states: 'Microbes like bacteria and many fungi can be grown on nutritive media to form colonies that can be seen with the naked eyes.' Viruses, viroids, and prions cannot form colonies on nutritive media as they are obligate intracellular/acellular."
+  },
+  {
+    "id": 13,
+    "topic": "Introduction",
+    "q": "Consider the following sites:<br>(i) Deep inside geysers (thermal vents)<br>(ii) Deep in the soil<br>(iii) Under layers of snow several metres thick<br>(iv) Highly acidic environments<br><br>According to NCERT, microbes can exist at:",
+    "options": [
+      "(i) and (ii) only",
+      "(i), (ii) and (iii) only",
+      "(ii), (iii) and (iv) only",
+      "All – (i), (ii), (iii) and (iv)"
+    ],
+    "correct": 3,
+    "explanation": "NCERT explicitly lists ALL four extreme environments as places where microbes are present even when no other life-form could exist. This is a complete list-based factual question."
+  },
+  {
+    "id": 14,
+    "topic": "Introduction",
+    "q": "Which of the following is the <b>smallest</b> infectious agent that lacks both nucleic acid and cellular structure?",
+    "options": [
+      "Viroid",
+      "Virus",
+      "Prion",
+      "Mycoplasma"
+    ],
+    "correct": 2,
+    "explanation": "Prions are proteinaceous infectious agents – they lack nucleic acid and cellular structure. Viroids are RNA without protein coat. Viruses have nucleic acid (DNA/RNA) with protein coat. Mycoplasma is the smallest cell (has both nucleic acid and cell membrane)."
+  },
+  {
+    "id": 15,
+    "topic": "Introduction",
+    "q": "The diversity of microbes includes all of the following <b>EXCEPT</b>:",
+    "options": [
+      "Protozoa and bacteria",
+      "Fungi and viruses",
+      "Viroids and prions",
+      "Bryophytes and pteridophytes"
+    ],
+    "correct": 3,
+    "explanation": "Bryophytes and pteridophytes are macroscopic plant groups, NOT microbes. NCERT lists protozoa, bacteria, fungi, microscopic viruses, viroids, and prions as diverse microbes."
+  },
+  {
+    "id": 16,
+    "topic": "Microbes in Household Products",
+    "q": "Which of the following bacteria is responsible for the conversion of milk into curd?",
+    "options": [
+      "Acetobacter aceti",
+      "Lactobacillus",
+      "Streptococcus thermophilus",
+      "Propionibacterium sharmanii"
+    ],
+    "correct": 1,
+    "explanation": "NCERT states: 'Micro-organisms such as Lactobacillus and others commonly called lactic acid bacteria (LAB) grow in milk and convert it to curd.' This is a high-frequency NEET question."
+  },
+  {
+    "id": 17,
+    "topic": "Microbes in Household Products",
+    "q": "During curd formation, LAB produce acids that:<br>(i) Coagulate milk proteins<br>(ii) Completely digest milk proteins<br>(iii) Partially digest milk proteins<br><br>Select the <b>correct</b> option:",
+    "options": [
+      "(i) and (ii) only",
+      "(i) and (iii) only",
+      "(ii) and (iii) only",
+      "(i), (ii) and (iii)"
+    ],
+    "correct": 1,
+    "explanation": "NCERT uses the word 'partially' – 'LAB produce acids that coagulate and PARTIALLY digest the milk proteins.' 'Completely digest' is wrong. The word 'partially' is a very common NEET trap."
+  },
+  {
+    "id": 18,
+    "topic": "Microbes in Household Products",
+    "q": "Conversion of milk to curd improves its nutritional quality by increasing:",
+    "options": [
+      "Vitamin C",
+      "Vitamin B12",
+      "Vitamin D",
+      "Vitamin A"
+    ],
+    "correct": 1,
+    "explanation": "NCERT explicitly states: 'converting milk to curd, which also improves its nutritional quality by increasing vitamin B12.' Students often confuse this with other B vitamins – a classic NEET trap."
+  },
+  {
+    "id": 19,
+    "topic": "Microbes in Household Products",
+    "q": "Assertion (A): A small amount of curd is added to fresh milk as inoculum for curd preparation.<br>Reason (R): The inoculum contains millions of Lactic Acid Bacteria (LAB) that multiply at suitable temperature.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "correct": 0,
+    "explanation": "Both are true and R correctly explains A. NCERT states: 'A small amount of curd added to the fresh milk as inoculum or starter contain millions of LAB, which at suitable temperatures multiply, thus converting milk to curd.'"
+  },
+  {
+    "id": 20,
+    "topic": "Microbes in Household Products",
+    "q": "LAB in our stomach play a beneficial role by:",
+    "options": [
+      "Producing vitamin C",
+      "Checking disease-causing microbes",
+      "Digesting cellulose",
+      "Producing hydrochloric acid"
+    ],
+    "correct": 1,
+    "explanation": "NCERT states: 'In our stomach too, the LAB play very beneficial role in checking disease-causing microbes.' This is a high-yield NEET fact."
+  },
+  {
+    "id": 21,
+    "topic": "Microbes in Household Products",
+    "q": "The puffed-up appearance of dough used for making dosa and idli is due to:",
+    "options": [
+      "Production of O₂ gas",
+      "Production of CO₂ gas",
+      "Production of N₂ gas",
+      "Absorption of water vapour"
+    ],
+    "correct": 1,
+    "explanation": "NCERT states: 'The puffed-up appearance of dough is due to the production of CO₂ gas.' This CO₂ is produced during fermentation."
+  },
+  {
+    "id": 22,
+    "topic": "Microbes in Household Products",
+    "q": "The dough used for making <b>dosa and idli</b> is fermented by:",
+    "options": [
+      "Baker's yeast",
+      "Bacteria",
+      "Fungi",
+      "Protozoa"
+    ],
+    "correct": 1,
+    "explanation": "NCERT states: 'The dough which is used for making foods such as dosa and idli is also fermented by bacteria.' This is a MAJOR NEET trap – students confuse this with yeast (which is used for bread). Dosa/idli = bacteria; Bread = yeast."
+  },
+  {
+    "id": 23,
+    "topic": "Microbes in Household Products",
+    "q": "Baker's yeast used for making bread is:",
+    "options": [
+      "Saccharomyces cerevisiae",
+      "Propionibacterium sharmanii",
+      "Lactobacillus",
+      "Aspergillus niger"
+    ],
+    "correct": 0,
+    "explanation": "NCERT states: 'the dough which is used for making bread is fermented using baker's yeast (Saccharomyces cerevisiae).' This is a direct NCERT fact tested repeatedly in NEET."
+  },
+  {
+    "id": 24,
+    "topic": "Microbes in Household Products",
+    "q": "'Toddy' is a traditional drink made by:",
+    "options": [
+      "Fermenting grape juice",
+      "Fermenting sap from palms",
+      "Fermenting rice water",
+      "Fermenting sugarcane juice"
+    ],
+    "correct": 1,
+    "explanation": "NCERT states: 'Toddy, a traditional drink of some parts of southern India is made by fermenting sap from palms.'"
+  },
+  {
+    "id": 25,
+    "topic": "Microbes in Household Products",
+    "q": "Toddy is a traditional drink of some parts of:",
+    "options": [
+      "Northern India",
+      "Eastern India",
+      "Southern India",
+      "Western India"
+    ],
+    "correct": 2,
+    "explanation": "NCERT specifically mentions: 'Toddy, a traditional drink of some parts of southern India.' This regional detail is a factual NEET point."
+  },
+  {
+    "id": 26,
+    "topic": "Microbes in Household Products",
+    "q": "The large holes in 'Swiss cheese' are due to:",
+    "options": [
+      "Production of O₂ by Lactobacillus",
+      "Production of CO₂ by Propionibacterium sharmanii",
+      "Mechanical pressing during manufacture",
+      "Production of H₂S by Streptococcus"
+    ],
+    "correct": 1,
+    "explanation": "NCERT states: 'the large holes in Swiss cheese are due to production of a large amount of CO₂ by a bacterium named Propionibacterium sharmanii.' This is one of the most frequently asked NEET facts."
+  },
+  {
+    "id": 27,
+    "topic": "Microbes in Household Products",
+    "q": "'Roquefort cheese' is ripened by growing:",
+    "options": [
+      "Specific bacteria on them",
+      "Specific fungi on them",
+      "Specific algae on them",
+      "Specific protozoa on them"
+    ],
+    "correct": 1,
+    "explanation": "NCERT states: 'The Roquefort cheese are ripened by growing a specific fungi on them, which gives them a particular flavour.' Bacteria vs fungi is a classic NEET trap for Swiss cheese vs Roquefort cheese."
+  },
+  {
+    "id": 28,
+    "topic": "Microbes in Household Products",
+    "q": "Consider the following statements:<br>(i) Swiss cheese – Propionibacterium sharmanii<br>(ii) Roquefort cheese – Specific fungi<br>(iii) Bread – Saccharomyces cerevisiae<br>(iv) Dosa/Idli – Saccharomyces cerevisiae<br><br>Which of the above microbe–product matchings are <b>correct</b>?",
+    "options": [
+      "(i), (ii) and (iii) only",
+      "(i), (ii) and (iv) only",
+      "(ii), (iii) and (iv) only",
+      "All of the above"
+    ],
+    "correct": 0,
+    "explanation": "Statements (i), (ii), and (iii) are correct. Statement (iv) is wrong – dosa/idli dough is fermented by BACTERIA, not by Saccharomyces cerevisiae (baker's yeast). Baker's yeast is for bread. This is the most common student error."
+  },
+  {
+    "id": 29,
+    "topic": "Microbes in Household Products",
+    "q": "Assertion (A): Cheese is one of the oldest food items in which microbes were used.<br>Reason (R): Different varieties of cheese get characteristic texture, flavour, and taste from the specific microbes used.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "correct": 1,
+    "explanation": "Both A and R are true. However, R does not explain WHY cheese is one of the OLDEST food items – it only explains why varieties differ. The 'oldest' status is a historical fact, not explained by specificity of microbes."
+  },
+  {
+    "id": 30,
+    "topic": "Microbes in Household Products",
+    "q": "Which of the following metabolic pathway is responsible for CO₂ production during dough fermentation?",
+    "options": [
+      "Aerobic respiration",
+      "Anaerobic respiration / Fermentation",
+      "Photosynthesis",
+      "Chemosynthesis"
+    ],
+    "correct": 1,
+    "explanation": "NCERT asks: 'Can you tell which metabolic pathway is taking place resulting in the formation of CO₂?' – The answer is fermentation (anaerobic respiration), as microbes break down sugars anaerobically producing CO₂ and ethanol/organic acids."
+  },
+  {
+    "id": 31,
+    "topic": "Microbes in Household Products",
+    "q": "Which of the following food items are made by fermentation using microbes?<br>(i) Fish<br>(ii) Soyabean<br>(iii) Bamboo shoots<br>(iv) Cheese",
+    "options": [
+      "(i) and (ii) only",
+      "(i), (ii) and (iii) only",
+      "(iii) and (iv) only",
+      "All – (i), (ii), (iii) and (iv)"
+    ],
+    "correct": 3,
+    "explanation": "NCERT states: 'Microbes are also used to ferment fish, soyabean and bamboo-shoots to make foods' and cheese also involves microbial fermentation. So all four are correct."
+  },
+  {
+    "id": 32,
+    "topic": "Microbes in Household Products",
+    "q": "Which of the following is <b>incorrectly</b> matched?",
+    "options": [
+      "Curd – Lactobacillus",
+      "Bread – Saccharomyces cerevisiae",
+      "Swiss cheese – Propionibacterium sharmanii",
+      "Dosa and idli – Saccharomyces cerevisiae"
+    ],
+    "correct": 3,
+    "explanation": "Dosa and idli dough is fermented by BACTERIA, not by Saccharomyces cerevisiae. S. cerevisiae (baker's yeast) is used for bread. This mismatch is one of the most tested NEET traps."
+  },
+  {
+    "id": 33,
+    "topic": "Microbes in Household Products",
+    "q": "The term 'inoculum' or 'starter' in curd formation refers to:",
+    "options": [
+      "Fresh milk without any microbe",
+      "A small amount of curd added to fresh milk",
+      "A chemical enzyme added to milk",
+      "Rennet extracted from calf stomach"
+    ],
+    "correct": 1,
+    "explanation": "NCERT states: 'A small amount of curd added to the fresh milk as inoculum or starter contain millions of LAB.' The inoculum provides the initial population of LAB needed for fermentation."
+  },
+  {
+    "id": 34,
+    "topic": "Microbes in Household Products",
+    "q": "Read the following statements:<br>Statement I: LAB produce acids that coagulate and completely digest milk proteins.<br>Statement II: Conversion of milk to curd increases vitamin B12 content.<br><br>Select the correct option:",
+    "options": [
+      "Both Statements I and II are correct",
+      "Both Statements I and II are incorrect",
+      "Statement I is incorrect but Statement II is correct",
+      "Statement I is correct but Statement II is incorrect"
+    ],
+    "correct": 2,
+    "explanation": "Statement I is incorrect – LAB PARTIALLY digest milk proteins, not completely. Statement II is correct – NCERT explicitly states that curd formation increases vitamin B12. The word 'partially' vs 'completely' is a deliberate NEET trap."
+  },
+  {
+    "id": 35,
+    "topic": "Microbes in Household Products",
+    "q": "Which of the following is a <b>correct</b> difference between Swiss cheese and Roquefort cheese?",
+    "options": [
+      "Swiss cheese – fungi; Roquefort cheese – bacteria",
+      "Swiss cheese – Propionibacterium sharmanii; Roquefort cheese – specific fungi",
+      "Swiss cheese – Lactobacillus; Roquefort cheese – Saccharomyces",
+      "Both are ripened by the same microorganism"
+    ],
+    "correct": 1,
+    "explanation": "Swiss cheese – large holes due to CO₂ by bacterium Propionibacterium sharmanii. Roquefort cheese – ripened by specific fungi for flavour. Option A reverses the organisms, which is the classic trap."
+  },
+  {
+    "id": 36,
+    "topic": "Microbes in Household Products",
+    "q": "The specificity of different varieties of cheese in terms of texture, flavour and taste comes from:",
+    "options": [
+      "The type of milk used",
+      "The microbes used",
+      "The temperature of storage",
+      "The country of origin"
+    ],
+    "correct": 1,
+    "explanation": "NCERT states: 'Different varieties of cheese are known by their characteristic texture, flavour and taste, the specificity coming from the microbes used.' This is a direct NCERT line."
+  },
+  {
+    "id": 37,
+    "topic": "Microbes in Household Products",
+    "q": "Assertion (A): The dough used for making dosa and idli shows a puffed-up appearance.<br>Reason (R): Baker's yeast (Saccharomyces cerevisiae) ferments the dough producing CO₂.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is NOT the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "correct": 2,
+    "explanation": "Assertion is true – dosa/idli dough does show puffed-up appearance. Reason is false – dosa/idli dough is fermented by BACTERIA, NOT baker's yeast. Baker's yeast is used for bread. This is a CRITICAL distinction in NEET."
+  },
+  {
+    "id": 38,
+    "topic": "Microbes in Household Products",
+    "q": "Which of the following vitamins is increased in nutritional quality when milk is converted to curd?",
+    "options": [
+      "Vitamin B1 (Thiamine)",
+      "Vitamin B2 (Riboflavin)",
+      "Vitamin B12 (Cobalamin)",
+      "Vitamin B6 (Pyridoxine)"
+    ],
+    "correct": 2,
+    "explanation": "NCERT specifically mentions vitamin B12. Students often select B2 or B6 by guessing. B12 (Cobalamin) is the ONLY correct answer as per NCERT. This is a very high-frequency NEET question."
+  },
+  {
+    "id": 39,
+    "topic": "Microbes in Household Products",
+    "q": "Consider the following:<br>(a) Curd → Lactobacillus<br>(b) Bread → Saccharomyces cerevisiae<br>(c) Swiss cheese → Propionibacterium sharmanii<br>(d) Toddy → Fermentation of sap from palms<br><br>How many of the above are <b>correctly</b> matched?",
+    "options": [
+      "Only two",
+      "Only three",
+      "All four",
+      "Only one"
+    ],
+    "correct": 2,
+    "explanation": "All four are correctly matched as per NCERT. (a) Curd = Lactobacillus ✓ (b) Bread = Saccharomyces cerevisiae ✓ (c) Swiss cheese = Propionibacterium sharmanii ✓ (d) Toddy = palm sap fermentation ✓."
+  },
+  {
+    "id": 40,
+    "topic": "Microbes in Household Products",
+    "q": "In the context of curd formation, which of the following is <b>NOT</b> a role of LAB?",
+    "options": [
+      "Coagulation of milk proteins",
+      "Partial digestion of milk proteins",
+      "Increasing vitamin B12 content",
+      "Complete hydrolysis of lactose to galactose and glucose only"
+    ],
+    "correct": 3,
+    "explanation": "NCERT mentions LAB coagulate and partially digest milk proteins, and improve nutritional quality by increasing vitamin B12. 'Complete hydrolysis of lactose to galactose and glucose only' is NOT mentioned in NCERT as a role of LAB in curd formation."
+  },
+  {
+    "id": 41,
+    "topic": "Microbes in Household Products",
+    "q": "Which of the following statements about 'Toddy' is <b>correct</b>?<br>(i) It is a traditional drink<br>(ii) It is popular in some parts of southern India<br>(iii) It is made by fermenting sap from palms<br>(iv) It is a non-fermented beverage",
+    "options": [
+      "(i), (ii) and (iii) only",
+      "(i) and (iv) only",
+      "(ii), (iii) and (iv) only",
+      "All of the above"
+    ],
+    "correct": 0,
+    "explanation": "Statements (i), (ii), and (iii) are correct per NCERT. Statement (iv) is wrong – toddy IS a fermented drink. NCERT states: 'Toddy, a traditional drink of some parts of southern India is made by FERMENTING sap from palms.'"
+  },
+  {
+    "id": 42,
+    "topic": "Microbes in Household Products",
+    "q": "Which of the following statements is correct regarding Swiss cheese?<br>Statement I: Large holes in Swiss cheese are due to CO₂ production.<br>Statement II: The CO₂ is produced by a fungus named Propionibacterium sharmanii.",
+    "options": [
+      "Both Statements I and II are correct",
+      "Both Statements I and II are incorrect",
+      "Statement I is correct but Statement II is incorrect",
+      "Statement I is incorrect but Statement II is correct"
+    ],
+    "correct": 2,
+    "explanation": "Statement I is correct – large holes are due to CO₂. Statement II is incorrect – Propionibacterium sharmanii is a BACTERIUM, not a fungus. This bacteria vs fungi distinction is a classic NEET conceptual trap."
+  },
+  {
+    "id": 43,
+    "topic": "Microbes in Household Products",
+    "q": "Match the following and select the <b>correct</b> option:<br>(a) Lactobacillus → (i) Bread<br>(b) Saccharomyces cerevisiae → (ii) Curd<br>(c) Propionibacterium sharmanii → (iii) Roquefort cheese<br>(d) Specific fungi → (iv) Swiss cheese",
+    "options": [
+      "a-ii, b-i, c-iv, d-iii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-ii, b-i, c-iii, d-iv",
+      "a-iv, b-iii, c-ii, d-i"
+    ],
+    "correct": 0,
+    "explanation": "Correct matching: Lactobacillus → Curd (ii); Saccharomyces cerevisiae → Bread (i); Propionibacterium sharmanii → Swiss cheese (iv); Specific fungi → Roquefort cheese (iii). This tests all four organism-product associations from NCERT."
+  },
+  {
+    "id": 44,
+    "topic": "Microbes in Industrial Products",
+    "q": "Large vessels used for growing microbes on an industrial scale are called:",
+    "options": [
+      "Bioreactors",
+      "Fermentors",
+      "Incubators",
+      "Autoclaves"
+    ],
+    "correct": 1,
+    "explanation": "NCERT states: 'Production on an industrial scale, requires growing microbes in very large vessels called fermentors.'"
+  },
+  {
+    "id": 45,
+    "topic": "Microbes in Industrial Products",
+    "q": "The yeast <i>Saccharomyces cerevisiae</i> used for fermenting malted cereals and fruit juices is commonly called:",
+    "options": [
+      "Baker's yeast",
+      "Brewer's yeast",
+      "Toddy yeast",
+      "Cheese yeast"
+    ],
+    "correct": 1,
+    "explanation": "NCERT states: 'for this purpose the same yeast Saccharomyces cerevisiae used for bread-making and commonly called brewer\\'s yeast, is used for fermenting malted cereals and fruit juices...'"
+  },
+  {
+    "id": 46,
+    "topic": "Microbes in Industrial Products",
+    "q": "Which metabolic reaction is performed by brewer's yeast to produce ethanol?",
+    "options": [
+      "Aerobic respiration",
+      "Anaerobic respiration",
+      "Photosynthesis",
+      "Chemosynthesis"
+    ],
+    "correct": 1,
+    "explanation": "Yeast breaks down sugars anaerobically (fermentation) producing ethanol and CO₂."
+  },
+  {
+    "id": 47,
+    "topic": "Microbes in Industrial Products",
+    "q": "Which of the following alcoholic drinks are produced <b>without distillation</b> of the fermented broth?",
+    "options": [
+      "Wine and rum",
+      "Whisky and brandy",
+      "Wine and beer",
+      "Beer and rum"
+    ],
+    "correct": 2,
+    "explanation": "NCERT specifies: 'Wine and beer are produced without distillation whereas whisky, brandy and rum are produced by distillation.'"
+  },
+  {
+    "id": 48,
+    "topic": "Microbes in Industrial Products",
+    "q": "Which of the following sets of alcoholic drinks are produced by <b>distillation</b> of the fermented broth?",
+    "options": [
+      "Wine, beer and brandy",
+      "Whisky, brandy and rum",
+      "Wine, rum and whisky",
+      "Beer, whisky and rum"
+    ],
+    "correct": 1,
+    "explanation": "NCERT states: 'whereas whisky, brandy and rum are produced by distillation of the fermented broth.'"
+  },
+  {
+    "id": 49,
+    "topic": "Microbes in Industrial Products",
+    "q": "The type of alcoholic drink obtained depends on:<br>(i) The type of raw material used for fermentation<br>(ii) The type of processing (with or without distillation)<br>(iii) The temperature of the fermentor only",
+    "options": [
+      "(i) only",
+      "(ii) only",
+      "(i) and (ii) only",
+      "(i), (ii) and (iii)"
+    ],
+    "correct": 2,
+    "explanation": "NCERT states: 'Depending on the type of the raw material used for fermentation and the type of processing (with or without distillation) different types of alcoholic drinks are obtained.'"
+  },
+  {
+    "id": 50,
+    "topic": "Microbes in Industrial Products",
+    "q": "The word 'antibiotic' literally means:",
+    "options": [
+      "Against life (with reference to humans)",
+      "Pro life (with reference to disease-causing organisms)",
+      "Against life (in the context of disease-causing organisms)",
+      "Against all microscopic life exclusively"
+    ],
+    "correct": 2,
+    "explanation": "NCERT states: 'Anti is a Greek word that means against, and bio means life, together they mean against life (in the context of disease causing organisms)...'"
+  },
+  {
+    "id": 51,
+    "topic": "Microbes in Industrial Products",
+    "q": "<b>Assertion (A):</b> Antibiotics are 'against life' for humans.<br><b>Reason (R):</b> Antibiotics can kill or retard the growth of human cells.",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is NOT the correct explanation of A",
+      "A is true but R is false",
+      "Both A and R are false"
+    ],
+    "correct": 3,
+    "explanation": "Assertion is false. NCERT states: 'whereas with reference to human beings, they are pro life and not against.' Reason is also false, as they target microbes, not human cells."
+  },
+  {
+    "id": 52,
+    "topic": "Microbes in Industrial Products",
+    "q": "The first antibiotic to be discovered was:",
+    "options": [
+      "Streptomycin",
+      "Penicillin",
+      "Tetracycline",
+      "Ampicillin"
+    ],
+    "correct": 1,
+    "explanation": "NCERT states: 'Penicillin was the first antibiotic to be discovered, and it was a chance discovery.'"
+  },
+  {
+    "id": 53,
+    "topic": "Microbes in Industrial Products",
+    "q": "Alexander Fleming discovered penicillin while working on which bacteria?",
+    "options": [
+      "Streptococcus",
+      "Staphylococci",
+      "Salmonella",
+      "Lactobacillus"
+    ],
+    "correct": 1,
+    "explanation": "NCERT states: 'Alexander Fleming while working on Staphylococci bacteria, once observed a mould growing in one of his unwashed culture plates...'"
+  },
+  {
+    "id": 54,
+    "topic": "Microbes in Industrial Products",
+    "q": "The mould observed by Fleming around which Staphylococci could not grow was:",
+    "options": [
+      "Penicillium chrysogenum",
+      "Penicillium notatum",
+      "Aspergillus niger",
+      "Monascus purpureus"
+    ],
+    "correct": 1,
+    "explanation": "NCERT states: 'he named it Penicillin after the mould Penicillium notatum.'"
+  },
+  {
+    "id": 55,
+    "topic": "Microbes in Industrial Products",
+    "q": "The full potential of penicillin as an effective antibiotic was established by:",
+    "options": [
+      "Alexander Fleming alone",
+      "Ernest Chain and Howard Florey",
+      "Edward Jenner and Louis Pasteur",
+      "Watson and Crick"
+    ],
+    "correct": 1,
+    "explanation": "NCERT states: 'However, its full potential as an effective antibiotic was established much later by Ernest Chain and Howard Florey.'"
+  },
+  {
+    "id": 56,
+    "topic": "Microbes in Industrial Products",
+    "q": "Which antibiotic was extensively used to treat American soldiers wounded in World War II?",
+    "options": [
+      "Streptomycin",
+      "Penicillin",
+      "Terramycin",
+      "Erythromycin"
+    ],
+    "correct": 1,
+    "explanation": "NCERT states: 'This antibiotic was extensively used to treat American soldiers wounded in World War II.'"
+  },
+  {
+    "id": 57,
+    "topic": "Microbes in Industrial Products",
+    "q": "The Nobel Prize in 1945 for the discovery of Penicillin was awarded to:",
+    "options": [
+      "Alexander Fleming only",
+      "Ernest Chain and Howard Florey only",
+      "Alexander Fleming, Ernest Chain and Howard Florey",
+      "Alexander Fleming and Selman Waksman"
+    ],
+    "correct": 2,
+    "explanation": "NCERT states: 'Fleming, Chain and Florey were awarded the Nobel Prize in 1945, for this discovery.'"
+  },
+  {
+    "id": 58,
+    "topic": "Microbes in Industrial Products",
+    "q": "Match the diseases with their common Indian names according to NCERT:<br>(a) Whooping cough - (i) Gal ghotu<br>(b) Diphtheria - (ii) Kusht rog<br>(c) Leprosy - (iii) Kali khansi",
+    "options": [
+      "a-i, b-iii, c-ii",
+      "a-iii, b-i, c-ii",
+      "a-iii, b-ii, c-i",
+      "a-ii, b-i, c-iii"
+    ],
+    "correct": 1,
+    "explanation": "NCERT lists: 'whooping cough (kali khansi), diphtheria (gal ghotu) and leprosy (kusht rog)'."
+  },
+  {
+    "id": 59,
+    "topic": "Microbes in Industrial Products",
+    "q": "Match the microbe with its product:<br>(1) Aspergillus niger<br>(2) Acetobacter aceti<br>(3) Clostridium butylicum<br>(4) Lactobacillus<br>with<br>(a) Acetic acid<br>(b) Lactic acid<br>(c) Citric acid<br>(d) Butyric acid",
+    "options": [
+      "1-c, 2-a, 3-d, 4-b",
+      "1-b, 2-c, 3-a, 4-d",
+      "1-d, 2-a, 3-c, 4-b",
+      "1-c, 2-d, 3-a, 4-b"
+    ],
+    "correct": 0,
+    "explanation": "Aspergillus niger (Citric acid); Acetobacter aceti (Acetic acid); Clostridium butylicum (Butyric acid); Lactobacillus (Lactic acid)."
+  },
+  {
+    "id": 60,
+    "topic": "Microbes in Industrial Products",
+    "q": "Which of the following is a <b>fungal</b> source of organic acid?",
+    "options": [
+      "Acetobacter aceti",
+      "Clostridium butylicum",
+      "Aspergillus niger",
+      "Lactobacillus"
+    ],
+    "correct": 2,
+    "explanation": "NCERT explicitly notes: 'Aspergillus niger (a fungus)...' The other three listed are bacteria."
+  },
+  {
+    "id": 61,
+    "topic": "Microbes in Industrial Products",
+    "q": "<i>Acetobacter aceti</i> produces:",
+    "options": [
+      "Citric acid",
+      "Acetic acid",
+      "Butyric acid",
+      "Lactic acid"
+    ],
+    "correct": 1,
+    "explanation": "NCERT states: 'Acetobacter aceti (a bacterium) of acetic acid'."
+  },
+  {
+    "id": 62,
+    "topic": "Microbes in Industrial Products",
+    "q": "<i>Clostridium butylicum</i> is a:",
+    "options": [
+      "Fungus",
+      "Bacterium",
+      "Yeast",
+      "Virus"
+    ],
+    "correct": 1,
+    "explanation": "NCERT explicitly notes: 'Clostridium butylicum (a bacterium)...'"
+  },
+  {
+    "id": 63,
+    "topic": "Microbes in Industrial Products",
+    "q": "Which enzymes are used in detergent formulations to remove oily stains from laundry?",
+    "options": [
+      "Pectinases",
+      "Lipases",
+      "Proteases",
+      "Amylases"
+    ],
+    "correct": 1,
+    "explanation": "NCERT states: 'Lipases are used in detergent formulations and are helpful in removing oily stains from the laundry.'"
+  },
+  {
+    "id": 64,
+    "topic": "Microbes in Industrial Products",
+    "q": "Bottled fruit juices bought from the market are clearer than home-made juices because they are clarified using:",
+    "options": [
+      "Lipases and proteases",
+      "Pectinases and proteases",
+      "Amylases and pectinases",
+      "Cellulases and lipases"
+    ],
+    "correct": 1,
+    "explanation": "NCERT states: 'This is because the bottled juices are clarified by the use of pectinases and proteases.'"
+  },
+  {
+    "id": 65,
+    "topic": "Microbes in Industrial Products",
+    "q": "Streptokinase is produced by the bacterium:",
+    "options": [
+      "Staphylococcus",
+      "Streptococcus",
+      "Lactobacillus",
+      "Monascus"
+    ],
+    "correct": 1,
+    "explanation": "NCERT states: 'Streptokinase produced by the bacterium Streptococcus...'"
+  },
+  {
+    "id": 66,
+    "topic": "Microbes in Industrial Products",
+    "q": "Streptokinase is modified by genetic engineering and used as a:",
+    "options": [
+      "Blood-cholesterol lowering agent",
+      "Immunosuppressive agent",
+      "'Clot buster'",
+      "Anticoagulant during blood donation"
+    ],
+    "correct": 2,
+    "explanation": "NCERT states: '...modified by genetic engineering is used as a clot buster for removing clots from the blood vessels...'"
+  },
+  {
+    "id": 67,
+    "topic": "Microbes in Industrial Products",
+    "q": "Streptokinase is highly useful for patients who:",
+    "options": [
+      "Have undergone organ transplantation",
+      "Suffer from high blood cholesterol",
+      "Have undergone myocardial infarction",
+      "Require continuous blood transfusions"
+    ],
+    "correct": 2,
+    "explanation": "NCERT states: '...for removing clots from the blood vessels of patients who have undergone myocardial infarction leading to heart attack.'"
+  },
+  {
+    "id": 68,
+    "topic": "Microbes in Industrial Products",
+    "q": "Cyclosporin A is used as:",
+    "options": [
+      "A clot buster",
+      "An immunosuppressive agent in organ-transplant patients",
+      "A blood-cholesterol lowering agent",
+      "A detergent enzyme"
+    ],
+    "correct": 1,
+    "explanation": "NCERT states: 'Another bioactive molecule, cyclosporin A, that is used as an immunosuppressive agent in organ-transplant patients...'"
+  },
+  {
+    "id": 69,
+    "topic": "Microbes in Industrial Products",
+    "q": "Cyclosporin A is produced by:",
+    "options": [
+      "Monascus purpureus",
+      "Trichoderma polysporum",
+      "Streptococcus",
+      "Aspergillus niger"
+    ],
+    "correct": 1,
+    "explanation": "NCERT states: '...produced by the fungus Trichoderma polysporum.'"
+  },
+  {
+    "id": 70,
+    "topic": "Microbes in Industrial Products",
+    "q": "<i>Trichoderma polysporum</i> is a:",
+    "options": [
+      "Bacterium",
+      "Fungus",
+      "Virus",
+      "Protozoan"
+    ],
+    "correct": 1,
+    "explanation": "NCERT states: '...produced by the fungus Trichoderma polysporum.'"
+  },
+  {
+    "id": 71,
+    "topic": "Microbes in Industrial Products",
+    "q": "Statins are produced by:",
+    "options": [
+      "The fungus Trichoderma polysporum",
+      "The bacterium Streptococcus",
+      "The yeast Monascus purpureus",
+      "The mould Penicillium notatum"
+    ],
+    "correct": 2,
+    "explanation": "NCERT states: 'Statins produced by the yeast Monascus purpureus...'"
+  },
+  {
+    "id": 72,
+    "topic": "Microbes in Industrial Products",
+    "q": "<i>Monascus purpureus</i> is a type of:",
+    "options": [
+      "Bacterium",
+      "Fungus",
+      "Yeast",
+      "Alga"
+    ],
+    "correct": 2,
+    "explanation": "NCERT states: 'Statins produced by the yeast Monascus purpureus...'"
+  },
+  {
+    "id": 73,
+    "topic": "Microbes in Industrial Products",
+    "q": "Statins have been commercialised as:",
+    "options": [
+      "Clot busters",
+      "Immunosuppressive agents",
+      "Blood-cholesterol lowering agents",
+      "Antibiotics"
+    ],
+    "correct": 2,
+    "explanation": "NCERT states: 'Statins... have been commercialised as blood-cholesterol lowering agents.'"
+  },
+  {
+    "id": 74,
+    "topic": "Microbes in Industrial Products",
+    "q": "Statins act by:",
+    "options": [
+      "Promoting the synthesis of cholesterol",
+      "Competitively inhibiting the enzyme responsible for synthesis of cholesterol",
+      "Allosterically inhibiting the enzyme responsible for synthesis of cholesterol",
+      "Breaking down cholesterol molecules in the blood"
+    ],
+    "correct": 1,
+    "explanation": "NCERT states: 'It acts by competitively inhibiting the enzyme responsible for synthesis of cholesterol.'"
+  },
+  {
+    "id": 75,
+    "topic": "Microbes in Industrial Products",
+    "q": "Consider the following combinations:<br>(i) Trichoderma polysporum - Cyclosporin A (Immunosuppressive agent)<br>(ii) Monascus purpureus - Statins (Blood-cholesterol lowering agent)<br>(iii) Streptococcus - Streptokinase (Clot buster)<br>(iv) Penicillium notatum - Penicillin (Antibiotic)<br>How many of the above are <b>correctly</b> matched?",
+    "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All four"
+    ],
+    "correct": 3,
+    "explanation": "All four matchings are correctly derived directly from NCERT lines. They are the most frequently tested bioactive molecule pairings in NEET."
+  },
+  {
+    "id": 76,
+    "topic": "Microbes in Sewage Treatment",
+    "q": "The major component of municipal waste-water (sewage) is:",
+    "options": [
+      "Agricultural runoff",
+      "Industrial effluents",
+      "Human excreta",
+      "Suspended clay particles"
+    ],
+    "correct": 2,
+    "explanation": "NCERT states: 'A major component of this waste water is human excreta. This municipal waste-water is also called sewage.'"
+  },
+  {
+    "id": 77,
+    "topic": "Microbes in Sewage Treatment",
+    "q": "Treatment of waste water in sewage treatment plants is carried out by:",
+    "options": [
+      "Autotrophic microbes naturally present in sewage",
+      "Heterotrophic microbes naturally present in the sewage",
+      "Chemosynthetic microbes added artificially",
+      "Pathogenic microbes added artificially"
+    ],
+    "correct": 1,
+    "explanation": "NCERT states: 'Treatment of waste water is done by the heterotrophic microbes naturally present in the sewage.'"
+  },
+  {
+    "id": 78,
+    "topic": "Microbes in Sewage Treatment",
+    "q": "Primary treatment of sewage basically involves:",
+    "options": [
+      "Biological removal of organic matter",
+      "Physical removal of particles through filtration and sedimentation",
+      "Anaerobic digestion of sludge",
+      "Aerobic breakdown of fungal flocs"
+    ],
+    "correct": 1,
+    "explanation": "NCERT states: 'These treatment steps basically involve physical removal of particles – large and small – from the sewage through filtration and sedimentation.'"
+  },
+  {
+    "id": 79,
+    "topic": "Microbes in Sewage Treatment",
+    "q": "During primary treatment of sewage, floating debris is initially removed by:",
+    "options": [
+      "Sedimentation",
+      "Sequential filtration",
+      "Aeration",
+      "Anaerobic digestion"
+    ],
+    "correct": 1,
+    "explanation": "NCERT states: 'initially, floating debris is removed by sequential filtration.'"
+  },
+  {
+    "id": 80,
+    "topic": "Microbes in Sewage Treatment",
+    "q": "In primary treatment, the grit which represents soil and small pebbles is removed by:",
+    "options": [
+      "Sequential filtration",
+      "Sedimentation",
+      "Aeration",
+      "Flocculation"
+    ],
+    "correct": 1,
+    "explanation": "NCERT states: 'Then the grit (soil and small pebbles) are removed by sedimentation.'"
+  },
+  {
+    "id": 81,
+    "topic": "Microbes in Sewage Treatment",
+    "q": "All solids that settle during the primary treatment of sewage form the:",
+    "options": [
+      "Activated sludge",
+      "Primary sludge",
+      "Flocs",
+      "Primary effluent"
+    ],
+    "correct": 1,
+    "explanation": "NCERT states: 'All solids that settle form the primary sludge, and the supernatant forms the effluent.'"
+  },
+  {
+    "id": 82,
+    "topic": "Microbes in Sewage Treatment",
+    "q": "What forms the primary effluent?",
+    "options": [
+      "The sedimented solids",
+      "The supernatant from primary settling tank",
+      "The anaerobically digested sludge",
+      "The water flowing out from anaerobic digesters"
+    ],
+    "correct": 1,
+    "explanation": "NCERT states: 'and the supernatant forms the effluent. The effluent from the primary settling tank is taken for secondary treatment.'"
+  },
+  {
+    "id": 83,
+    "topic": "Microbes in Sewage Treatment",
+    "q": "Secondary treatment of sewage is fundamentally a:",
+    "options": [
+      "Physical process",
+      "Chemical process",
+      "Biological process",
+      "Mechanical process"
+    ],
+    "correct": 2,
+    "explanation": "NCERT specifically labels it: 'Secondary treatment or Biological treatment'."
+  },
+  {
+    "id": 84,
+    "topic": "Microbes in Sewage Treatment",
+    "q": "During secondary treatment, the primary effluent is initially passed into:",
+    "options": [
+      "Anaerobic sludge digesters",
+      "Large aeration tanks",
+      "Secondary settling tanks",
+      "Chlorination tanks"
+    ],
+    "correct": 1,
+    "explanation": "NCERT states: 'The primary effluent is passed into large aeration tanks where it is constantly agitated mechanically and air is pumped into it.'"
+  },
+  {
+    "id": 85,
+    "topic": "Microbes in Sewage Treatment",
+    "q": "'Flocs' in the context of sewage treatment refer to:",
+    "options": [
+      "Masses of viruses associated with algae",
+      "Masses of bacteria associated with fungal filaments to form mesh like structures",
+      "Solid inorganic sediment",
+      "Anaerobic bacteria growing in digesters"
+    ],
+    "correct": 1,
+    "explanation": "NCERT defines flocs as: '(masses of bacteria associated with fungal filaments to form mesh like structures).'"
+  },
+  {
+    "id": 86,
+    "topic": "Microbes in Sewage Treatment",
+    "q": "Which type of microbes exhibit vigorous growth in the aeration tanks during secondary treatment?",
+    "options": [
+      "Anaerobic useful microbes",
+      "Aerobic useful microbes",
+      "Pathogenic viruses",
+      "Methanogens"
+    ],
+    "correct": 1,
+    "explanation": "NCERT states: 'This allows vigorous growth of useful aerobic microbes into flocs...'"
+  },
+  {
+    "id": 87,
+    "topic": "Microbes in Sewage Treatment",
+    "q": "While growing in the aeration tanks, the microbes significantly reduce the:",
+    "options": [
+      "Volume of the effluent",
+      "BOD (biochemical oxygen demand) of the effluent",
+      "Toxicity of heavy metals",
+      "Number of pathogens directly"
+    ],
+    "correct": 1,
+    "explanation": "NCERT states: 'While growing, these microbes consume the major part of the organic matter in the effluent. This significantly reduces the BOD (biochemical oxygen demand) of the effluent.'"
+  },
+  {
+    "id": 88,
+    "topic": "Microbes in Sewage Treatment",
+    "q": "BOD refers to the amount of oxygen that would be consumed if all the organic matter in one litre of water were oxidized by:",
+    "options": [
+      "Chemical oxidants",
+      "Viruses",
+      "Bacteria",
+      "Fungi"
+    ],
+    "correct": 2,
+    "explanation": "NCERT states: 'BOD refers to the amount of the oxygen that would be consumed if all the organic matter in one litre of water were oxidised by bacteria.'"
+  },
+  {
+    "id": 89,
+    "topic": "Microbes in Sewage Treatment",
+    "q": "A greater BOD of waste water implies:",
+    "options": [
+      "Lesser polluting potential",
+      "More polluting potential",
+      "Zero organic matter",
+      "Fully treated water"
+    ],
+    "correct": 1,
+    "explanation": "NCERT states: 'The greater the BOD of waste water, more is its polluting potential.'"
+  },
+  {
+    "id": 90,
+    "topic": "Microbes in Sewage Treatment",
+    "q": "The BOD test provides an <b>indirect</b> measure of:",
+    "options": [
+      "The amount of heavy metals present",
+      "The rate of photosynthesis in water",
+      "The organic matter present in the water",
+      "The physical grit and pebbles"
+    ],
+    "correct": 2,
+    "explanation": "NCERT states: 'The BOD test measures the rate of uptake of oxygen by micro-organisms... indirectly, BOD is a measure of the organic matter present in the water.'"
+  },
+  {
+    "id": 91,
+    "topic": "Microbes in Sewage Treatment",
+    "q": "After significant reduction of BOD, the effluent is passed into a settling tank where bacterial flocs sediment. This resulting sediment is called:",
+    "options": [
+      "Primary sludge",
+      "Activated sludge",
+      "Secondary effluent",
+      "Supernatant"
+    ],
+    "correct": 1,
+    "explanation": "NCERT states: 'Once the BOD of sewage or waste water is reduced significantly, the effluent is then passed into a settling tank where the bacterial flocs are allowed to sediment. This sediment is called activated sludge.'"
+  },
+  {
+    "id": 92,
+    "topic": "Microbes in Sewage Treatment",
+    "q": "What happens to a <b>small part</b> of the activated sludge?",
+    "options": [
+      "It is released directly into rivers",
+      "It is converted directly into biogas",
+      "It is pumped back into the aeration tank to serve as the inoculum",
+      "It is treated with chlorine and discarded"
+    ],
+    "correct": 2,
+    "explanation": "NCERT states: 'A small part of the activated sludge is pumped back into the aeration tank to serve as the inoculum.'"
+  },
+  {
+    "id": 93,
+    "topic": "Microbes in Sewage Treatment",
+    "q": "The remaining <b>major part</b> of the activated sludge is pumped into large tanks called:",
+    "options": [
+      "Aeration tanks",
+      "Primary settling tanks",
+      "Anaerobic sludge digesters",
+      "Bioreactors"
+    ],
+    "correct": 2,
+    "explanation": "NCERT states: 'The remaining major part of the sludge is pumped into large tanks called anaerobic sludge digesters.'"
+  },
+  {
+    "id": 94,
+    "topic": "Microbes in Sewage Treatment",
+    "q": "Inside the anaerobic sludge digesters, what process takes place?",
+    "options": [
+      "Aerobic bacteria break down organic matter",
+      "Fungal filaments form mesh-like structures",
+      "Anaerobic bacteria digest the bacteria and fungi in the sludge",
+      "Physical settling of grit occurs"
+    ],
+    "correct": 2,
+    "explanation": "NCERT states: 'Here, other kinds of bacteria, which grow anaerobically, digest the bacteria and the fungi in the sludge.'"
+  },
+  {
+    "id": 95,
+    "topic": "Microbes in Sewage Treatment",
+    "q": "During digestion in anaerobic sludge digesters, the bacteria produce a mixture of gases that constitutes biogas. This mixture includes:",
+    "options": [
+      "Methane, oxygen and hydrogen",
+      "Methane, hydrogen sulphide and carbon dioxide",
+      "Carbon dioxide, oxygen and nitrogen",
+      "Methane, carbon monoxide and nitrogen"
+    ],
+    "correct": 1,
+    "explanation": "NCERT explicitly lists the gases: 'bacteria produce a mixture of gases such as methane, hydrogen sulphide and carbon dioxide. These gases form biogas...'"
+  },
+  {
+    "id": 96,
+    "topic": "Microbes in Sewage Treatment",
+    "q": "The biogas produced during sewage treatment can be used as a source of energy because it is:",
+    "options": [
+      "Non-flammable",
+      "Inflammable",
+      "Liquid at room temperature",
+      "Rich in atmospheric oxygen"
+    ],
+    "correct": 1,
+    "explanation": "NCERT states: 'These gases form biogas and can be used as source of energy as it is inflammable.'"
+  },
+  {
+    "id": 97,
+    "topic": "Microbes in Sewage Treatment",
+    "q": "Till date, which methodology is used practically worldwide for treating sewage and remains unrivaled by man-made technology?",
+    "options": [
+      "Chemical oxidation treatment",
+      "Microbial treatment",
+      "Radiation treatment",
+      "Advanced mechanical filtration exclusively"
+    ],
+    "correct": 1,
+    "explanation": "NCERT states: 'Till date, no man- made technology has been able to rival the microbial treatment of sewage.'"
+  },
+  {
+    "id": 98,
+    "topic": "Microbes in Sewage Treatment",
+    "q": "The untreated sewage discharged directly into rivers leads to their pollution and a major increase in:",
+    "options": [
+      "Non-communicable diseases",
+      "Airborne diseases",
+      "Water-borne diseases",
+      "Genetic disorders"
+    ],
+    "correct": 2,
+    "explanation": "NCERT states: 'untreated sewage is often discharged directly into rivers leading to their pollution and increase in water-borne diseases.'"
+  },
+  {
+    "id": 99,
+    "topic": "Microbes in Sewage Treatment",
+    "q": "The Ganga Action Plan and Yamuna Action Plan were initiated by:",
+    "options": [
+      "The Ministry of Health and Family Welfare",
+      "The Ministry of Earth Sciences",
+      "The Ministry of Environment and Forests",
+      "The Central Pollution Control Board (CPCB) individually"
+    ],
+    "correct": 2,
+    "explanation": "NCERT states: 'The Ministry of Environment and Forests has initiated Ganga Action Plan and Yamuna Action Plan to save these major rivers of our country from pollution.'"
+  },
+  {
+    "id": 100,
+    "topic": "Microbes in Sewage Treatment",
+    "q": "Select the correct sequence of events in sewage treatment:<br>(i) Passage of primary effluent into aeration tank<br>(ii) Sedimentation of grit<br>(iii) Digestion by anaerobic bacteria<br>(iv) Sedimentation of flocs to form activated sludge",
+    "options": [
+      "(i) → (ii) → (iii) → (iv)",
+      "(ii) → (i) → (iv) → (iii)",
+      "(ii) → (i) → (iii) → (iv)",
+      "(iv) → (i) → (ii) → (iii)"
+    ],
+    "correct": 1,
+    "explanation": "Correct order: (ii) Sedimentation of grit (Primary) → (i) Aeration tank (Secondary starts) → (iv) Sedimentation of flocs (Activated sludge formed) → (iii) Sludge put into anaerobic digestor."
+  }
+]
