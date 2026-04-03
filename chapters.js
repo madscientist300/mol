@@ -135,10 +135,10 @@ const CHAPTERS = [
         unit: "Unit VI",
         emoji: "🧪",
         name: "Principles of Inheritance and Variation",
-        file: null,
-        questionCount: 0,
+        file: "questions_inheritance_variation.js",
+        questionCount: 370,
         topics: ["Mendel's Laws", "Dominance", "Blood Groups", "Linkage", "Mutations"],
-        status: "coming-soon"
+        status: "available"
     },
     {
         id: "mol_basis",
