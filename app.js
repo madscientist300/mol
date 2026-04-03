@@ -20,11 +20,21 @@ const state = {
 };
 
 // ── Init ───────────────────────────────────────────────
-document.addEventListener("DOMContentLoaded", () => {
-    if (!allQuestions || !allQuestions.length) {
+// app.js is loaded dynamically after DOM is ready, so we call init directly.
+(function initApp() {
+    if (typeof allQuestions === 'undefined' || !allQuestions || !allQuestions.length) {
         document.getElementById("questionsContainer").innerHTML =
             "<p style='color:#ff5252;text-align:center;padding:40px'>Failed to load questions.</p>";
         return;
+    }
+
+    // Update header from chapter registry if available
+    const ch = window.currentChapter;
+    if (ch) {
+        document.getElementById("chapterTitle").textContent   = ch.emoji + " " + ch.name;
+        document.getElementById("chapterMeta").textContent    =
+            ch.class + " Biology | " + allQuestions.length + " Questions";
+        document.title = ch.name + " — NEET MCQ Quiz";
     }
 
     // Update total count
@@ -44,7 +54,7 @@ document.addEventListener("DOMContentLoaded", () => {
         state.showExplanations = this.checked;
         renderCurrentPage();
     });
-});
+})();
 
 // ── Timer ──────────────────────────────────────────────
 function startTimer() {
@@ -504,7 +514,8 @@ function downloadResults() {
     ).length;
     const acc = answered > 0 ? Math.round((correct / answered) * 100) : 0;
 
-    let txt = `NEET Quiz Report – Molecular Basis of Inheritance\n`;
+    const chName = (window.currentChapter && window.currentChapter.name) || "NEET Biology";
+    let txt = `NEET Quiz Report – ${chName}\n`;
     txt += `Date: ${new Date().toLocaleString()}\n`;
     txt += `Accuracy: ${acc}% | Correct: ${correct} | Wrong: ${answered - correct} | Attempted: ${answered}/${allQuestions.length}\n\n`;
 

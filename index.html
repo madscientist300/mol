@@ -3,121 +3,367 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Molecular Basis of Inheritance - NEET MCQ Quiz</title>
-    <link rel="stylesheet" href="style.css">
+    <title>NEET Biology MCQ | Complete Question Bank</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Inter', 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #0a0a1a 0%, #0f0c29 40%, #1a0a2e 70%, #0d1117 100%);
+            color: #e0e0e0;
+            min-height: 100vh;
+            padding: 0 0 60px;
+        }
+
+        /* ── Hero ── */
+        .hero {
+            text-align: center;
+            padding: 60px 20px 40px;
+            position: relative;
+            overflow: hidden;
+        }
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -80px; left: 50%;
+            transform: translateX(-50%);
+            width: 600px; height: 600px;
+            background: radial-gradient(ellipse, rgba(0,212,255,0.08) 0%, transparent 70%);
+            pointer-events: none;
+        }
+        .hero-badge {
+            display: inline-block;
+            background: rgba(0,212,255,0.12);
+            border: 1px solid rgba(0,212,255,0.3);
+            color: #00d4ff;
+            font-size: 12px;
+            font-weight: 600;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            padding: 6px 18px;
+            border-radius: 20px;
+            margin-bottom: 20px;
+        }
+        .hero h1 {
+            font-size: clamp(28px, 5vw, 52px);
+            font-weight: 800;
+            background: linear-gradient(135deg, #fff 0%, #a0d8ef 50%, #00d4ff 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            line-height: 1.15;
+            margin-bottom: 14px;
+        }
+        .hero p {
+            font-size: 16px;
+            color: #8090b0;
+            max-width: 500px;
+            margin: 0 auto 32px;
+            line-height: 1.7;
+        }
+
+        /* ── Stats Bar ── */
+        .stats-bar {
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            flex-wrap: wrap;
+            margin-bottom: 10px;
+        }
+        .stat-pill {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(255,255,255,0.04);
+            border: 1px solid rgba(255,255,255,0.08);
+            padding: 10px 20px;
+            border-radius: 50px;
+            font-size: 13px;
+            font-weight: 500;
+        }
+        .stat-pill .val { color: #00d4ff; font-weight: 700; font-size: 15px; }
+        .stat-pill .lbl { color: #6070a0; }
+
+        /* ── Section ── */
+        .section {
+            max-width: 1100px;
+            margin: 48px auto 0;
+            padding: 0 20px;
+        }
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            margin-bottom: 22px;
+        }
+        .class-badge {
+            font-size: 12px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            padding: 5px 14px;
+            border-radius: 20px;
+            text-transform: uppercase;
+        }
+        .class-badge.class11 {
+            background: rgba(168,85,247,0.15);
+            color: #c084fc;
+            border: 1px solid rgba(168,85,247,0.3);
+        }
+        .class-badge.class12 {
+            background: rgba(0,212,255,0.12);
+            color: #00d4ff;
+            border: 1px solid rgba(0,212,255,0.25);
+        }
+        .section-title {
+            font-size: 18px;
+            font-weight: 700;
+            color: #e0e0e0;
+        }
+        .section-count {
+            margin-left: auto;
+            font-size: 12px;
+            color: #505080;
+        }
+
+        /* ── Chapter Grid ── */
+        .chapter-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+            gap: 16px;
+        }
+
+        /* ── Card ── */
+        .chapter-card {
+            background: linear-gradient(145deg, #12122a, #0e0e22);
+            border: 1px solid rgba(255,255,255,0.07);
+            border-radius: 18px;
+            padding: 22px 20px 18px;
+            position: relative;
+            overflow: hidden;
+            transition: transform 0.25s, box-shadow 0.25s, border-color 0.25s;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .chapter-card::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0;
+            height: 3px;
+            border-radius: 18px 18px 0 0;
+        }
+        .chapter-card.class11::before { background: linear-gradient(90deg, #7c3aed, #a855f7); }
+        .chapter-card.class12::before { background: linear-gradient(90deg, #0099cc, #00d4ff); }
+
+        /* Available */
+        .chapter-card.available {
+            cursor: pointer;
+        }
+        .chapter-card.available:hover {
+            transform: translateY(-5px);
+            border-color: rgba(0,212,255,0.25);
+            box-shadow: 0 12px 40px rgba(0,0,0,0.4), 0 0 0 1px rgba(0,212,255,0.1);
+        }
+        .chapter-card.available.class11:hover {
+            border-color: rgba(168,85,247,0.3);
+            box-shadow: 0 12px 40px rgba(0,0,0,0.4), 0 0 0 1px rgba(168,85,247,0.15);
+        }
+        .chapter-card.available:hover .start-btn { opacity: 1; transform: translateY(0); }
+
+        /* Coming soon */
+        .chapter-card.coming-soon {
+            opacity: 0.45;
+            cursor: not-allowed;
+            filter: grayscale(0.4);
+        }
+
+        .card-emoji {
+            font-size: 32px;
+            line-height: 1;
+        }
+        .card-name {
+            font-size: 14px;
+            font-weight: 700;
+            color: #d0d0e8;
+            line-height: 1.4;
+        }
+        .card-topics {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+            flex: 1;
+        }
+        .topic-pill {
+            font-size: 10px;
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.08);
+            padding: 3px 8px;
+            border-radius: 10px;
+            color: #707090;
+        }
+        .card-footer {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 4px;
+        }
+        .q-count {
+            font-size: 12px;
+            font-weight: 600;
+            color: #00e676;
+        }
+        .q-count.zero { color: #404070; }
+        .coming-soon-badge {
+            font-size: 10px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: #404065;
+            background: rgba(255,255,255,0.03);
+            border: 1px solid rgba(255,255,255,0.06);
+            padding: 3px 10px;
+            border-radius: 10px;
+        }
+        .start-btn {
+            font-size: 12px;
+            font-weight: 700;
+            color: #000;
+            background: linear-gradient(135deg, #00d4ff, #00b8e0);
+            padding: 6px 14px;
+            border-radius: 20px;
+            border: none;
+            cursor: pointer;
+            opacity: 0;
+            transform: translateY(4px);
+            transition: opacity 0.2s, transform 0.2s;
+            pointer-events: none;
+            white-space: nowrap;
+        }
+        .chapter-card.class11 .start-btn {
+            background: linear-gradient(135deg, #a855f7, #9333ea);
+            color: #fff;
+        }
+        .chapter-card.available:hover .start-btn {
+            pointer-events: all;
+        }
+
+        /* ── Footer ── */
+        .footer {
+            text-align: center;
+            margin-top: 60px;
+            font-size: 12px;
+            color: #303050;
+            letter-spacing: 0.5px;
+        }
+
+        /* ── Responsive ── */
+        @media (max-width: 600px) {
+            .chapter-grid { grid-template-columns: 1fr 1fr; gap: 12px; }
+            .chapter-card { padding: 16px 14px 14px; }
+            .card-emoji { font-size: 26px; }
+            .card-name { font-size: 12px; }
+            .start-btn { opacity: 1; transform: none; pointer-events: all; }
+        }
+        @media (max-width: 380px) {
+            .chapter-grid { grid-template-columns: 1fr; }
+        }
+    </style>
 </head>
 <body>
 
-    <div class="timer" id="timer">
-        <span class="timer-icon">⏱</span>
-        <span id="timerDisplay">00:00:00</span>
-    </div>
-
-    <div class="container">
-        <div class="header">
-            <h1>🧬 Molecular Basis of Inheritance</h1>
-            <h2>Complete NEET MCQ Question Bank</h2>
-            <div class="subtitle">Chapter 6 | Class XII Biology | 498 Questions</div>
-        </div>
-
-        <!-- Dashboard -->
-        <div class="dashboard">
-            <div class="stat-card">
-                <div class="stat-number" id="totalQ">498</div>
-                <div class="stat-label">Total Questions</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-number" id="attempted">0</div>
-                <div class="stat-label">Attempted</div>
-            </div>
-            <div class="stat-card correct">
-                <div class="stat-number" id="correctCount">0</div>
-                <div class="stat-label">Correct</div>
-            </div>
-            <div class="stat-card wrong">
-                <div class="stat-number" id="wrongCount">0</div>
-                <div class="stat-label">Wrong</div>
-            </div>
-            <div class="stat-card accuracy">
-                <div class="stat-number" id="accuracy">0%</div>
-                <div class="stat-label">Accuracy</div>
-            </div>
-        </div>
-
-        <!-- Mode Toggle -->
-        <div class="mode-toggle">
-            <label>Practice Mode</label>
-            <div class="toggle-switch">
-                <input type="checkbox" id="examMode">
-                <span class="toggle-slider"></span>
-            </div>
-            <label>Exam Mode</label>
-            &nbsp;&nbsp;|&nbsp;&nbsp;
-            <label>Show Explanations: </label>
-            <div class="toggle-switch">
-                <input type="checkbox" id="autoExplain" checked>
-                <span class="toggle-slider"></span>
-            </div>
-        </div>
-
-        <!-- Topic Filter -->
-        <div class="topic-filter">
-            <h3>📋 Filter by Topic</h3>
-            <div class="filter-buttons" id="filterButtons"></div>
-        </div>
-
-        <!-- Controls -->
-        <div class="controls">
-            <button class="control-btn btn-primary" onclick="toggleNavigator()">📊 Question Map</button>
-            <button class="control-btn btn-warning" onclick="showBookmarked()">⭐ Bookmarked</button>
-            <button class="control-btn btn-secondary" onclick="showWrongOnly()">❌ Review Wrong</button>
-            <button class="control-btn btn-success" onclick="showResults()">📈 Results</button>
-            <button class="control-btn btn-danger" onclick="resetQuiz()">🔄 Reset</button>
-        </div>
-
-        <!-- Progress -->
-        <div class="progress-container">
-            <div class="progress-bar" id="progressBar"></div>
-        </div>
-        <div class="progress-text" id="progressText">Question 1 of 498</div>
-
-        <!-- Question Navigator -->
-        <div class="q-navigator" id="qNavigator">
-            <h3>Question Navigator</h3>
-            <input type="text" class="search-box" id="searchBox" placeholder="🔍 Search questions by keyword..."
-                oninput="searchQuestions()">
-            <div class="q-nav-grid" id="qNavGrid"></div>
-        </div>
-
-        <!-- Questions Container -->
-        <div id="questionsContainer"></div>
-
-        <!-- Navigation -->
-        <div class="navigation">
-            <button class="control-btn btn-secondary" id="prevBtn" onclick="navigateQ(-1)">← Previous</button>
-            <span class="page-info" id="pageInfo"></span>
-            <button class="control-btn btn-primary" id="nextBtn" onclick="navigateQ(1)">Next →</button>
+    <!-- Hero -->
+    <div class="hero">
+        <div class="hero-badge">🎯 NEET Biology</div>
+        <h1>Complete MCQ<br>Question Bank</h1>
+        <p>Chapter-wise practice with detailed NCERT explanations, smart filters, and real-time performance tracking.</p>
+        <div class="stats-bar" id="statsBar">
+            <!-- filled by JS -->
         </div>
     </div>
 
-    <!-- Results Modal -->
-    <div class="modal-overlay" id="resultsModal">
-        <div class="modal">
-            <h2>📊 Quiz Results</h2>
-            <div class="score-circle" id="scoreCircle">
-                <div class="score-percent" id="scorePercent">0%</div>
-                <div class="score-label">ACCURACY</div>
-            </div>
-            <div class="result-details" id="resultDetails"></div>
-            <br>
-            <button class="control-btn btn-primary" onclick="closeModal()">Close</button>
-            &nbsp;
-            <button class="control-btn btn-warning" onclick="downloadResults()">📥 Download Report</button>
+    <!-- Class XI -->
+    <div class="section" id="section11">
+        <div class="section-header">
+            <span class="class-badge class11">Class XI</span>
+            <span class="section-title">Biology — Part 1</span>
+            <span class="section-count" id="count11"></span>
         </div>
+        <div class="chapter-grid" id="grid11"></div>
     </div>
 
+    <!-- Class XII -->
+    <div class="section" id="section12">
+        <div class="section-header">
+            <span class="class-badge class12">Class XII</span>
+            <span class="section-title">Biology — Part 2</span>
+            <span class="section-count" id="count12"></span>
+        </div>
+        <div class="chapter-grid" id="grid12"></div>
+    </div>
 
-    <script src="questions.js"></script>
-    <script src="app.js"></script>
+    <div class="footer">NEET Biology MCQ Bank &nbsp;·&nbsp; For Academic Practice Only</div>
+
+    <script src="chapters.js"></script>
+    <script>
+        function buildStats() {
+            const total = CHAPTERS.length;
+            const available = CHAPTERS.filter(c => c.status === 'available').length;
+            const totalQ = CHAPTERS.reduce((s, c) => s + (c.questionCount || 0), 0);
+            const bar = document.getElementById('statsBar');
+            bar.innerHTML = `
+                <div class="stat-pill"><span class="val">${total}</span><span class="lbl">Chapters</span></div>
+                <div class="stat-pill"><span class="val">${available}</span><span class="lbl">Ready</span></div>
+                <div class="stat-pill"><span class="val">${totalQ.toLocaleString()}</span><span class="lbl">Questions</span></div>
+            `;
+        }
+
+        function buildCard(ch) {
+            const isAvailable = ch.status === 'available';
+            const topicPills = ch.topics.slice(0, 4).map(t =>
+                `<span class="topic-pill">${t}</span>`
+            ).join('');
+
+            const footer = isAvailable
+                ? `<span class="q-count">${ch.questionCount} Questions</span>
+                   <button class="start-btn">Start →</button>`
+                : `<span class="q-count zero">0 Questions</span>
+                   <span class="coming-soon-badge">Coming Soon</span>`;
+
+            const card = document.createElement('div');
+            card.className = `chapter-card ${ch.class === '11th' ? 'class11' : 'class12'} ${ch.status}`;
+            card.innerHTML = `
+                <div class="card-emoji">${ch.emoji}</div>
+                <div class="card-name">${ch.name}</div>
+                <div class="card-topics">${topicPills}</div>
+                <div class="card-footer">${footer}</div>
+            `;
+            if (isAvailable) {
+                card.addEventListener('click', () => {
+                    window.location.href = `quiz.html?ch=${ch.id}`;
+                });
+            }
+            return card;
+        }
+
+        function render() {
+            buildStats();
+            const grid11 = document.getElementById('grid11');
+            const grid12 = document.getElementById('grid12');
+            const ch11 = CHAPTERS.filter(c => c.class === '11th');
+            const ch12 = CHAPTERS.filter(c => c.class === '12th');
+
+            ch11.forEach(ch => grid11.appendChild(buildCard(ch)));
+            ch12.forEach(ch => grid12.appendChild(buildCard(ch)));
+
+            document.getElementById('count11').textContent =
+                `${ch11.filter(c => c.status === 'available').length} / ${ch11.length} available`;
+            document.getElementById('count12').textContent =
+                `${ch12.filter(c => c.status === 'available').length} / ${ch12.length} available`;
+        }
+
+        render();
+    </script>
 </body>
 </html>

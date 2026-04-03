@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEET MCQ Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="timer" id="timer">
+        <span class="timer-icon">⏱</span>
+        <span id="timerDisplay">00:00:00</span>
+    </div>
+
+    <div class="container">
+        <div class="header">
+            <!-- Back button -->
+            <div style="margin-bottom:12px">
+                <a href="index.html" style="color:#8090b0;font-size:13px;text-decoration:none;display:inline-flex;align-items:center;gap:6px;transition:color 0.2s"
+                   onmouseover="this.style.color='#00d4ff'" onmouseout="this.style.color='#8090b0'">
+                    ← All Chapters
+                </a>
+            </div>
+            <h1 id="chapterTitle">🧬 NEET Biology</h1>
+            <h2 id="chapterSubtitle">Complete NEET MCQ Question Bank</h2>
+            <div class="subtitle" id="chapterMeta">Loading...</div>
+        </div>
+
+        <!-- Dashboard -->
+        <div class="dashboard">
+            <div class="stat-card">
+                <div class="stat-number" id="totalQ">—</div>
+                <div class="stat-label">Total Questions</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="attempted">0</div>
+                <div class="stat-label">Attempted</div>
+            </div>
+            <div class="stat-card correct">
+                <div class="stat-number" id="correctCount">0</div>
+                <div class="stat-label">Correct</div>
+            </div>
+            <div class="stat-card wrong">
+                <div class="stat-number" id="wrongCount">0</div>
+                <div class="stat-label">Wrong</div>
+            </div>
+            <div class="stat-card accuracy">
+                <div class="stat-number" id="accuracy">0%</div>
+                <div class="stat-label">Accuracy</div>
+            </div>
+        </div>
+
+        <!-- Mode Toggle -->
+        <div class="mode-toggle">
+            <label>Practice Mode</label>
+            <div class="toggle-switch">
+                <input type="checkbox" id="examMode">
+                <span class="toggle-slider"></span>
+            </div>
+            <label>Exam Mode</label>
+            &nbsp;&nbsp;|&nbsp;&nbsp;
+            <label>Show Explanations: </label>
+            <div class="toggle-switch">
+                <input type="checkbox" id="autoExplain" checked>
+                <span class="toggle-slider"></span>
+            </div>
+        </div>
+
+        <!-- Topic Filter -->
+        <div class="topic-filter">
+            <h3>📋 Filter by Topic</h3>
+            <div class="filter-buttons" id="filterButtons"></div>
+        </div>
+
+        <!-- Controls -->
+        <div class="controls">
+            <button class="control-btn btn-primary" onclick="toggleNavigator()">📊 Question Map</button>
+            <button class="control-btn btn-warning" onclick="showBookmarked()">⭐ Bookmarked</button>
+            <button class="control-btn btn-secondary" onclick="showWrongOnly()">❌ Review Wrong</button>
+            <button class="control-btn btn-success" onclick="showResults()">📈 Results</button>
+            <button class="control-btn btn-danger" onclick="resetQuiz()">🔄 Reset</button>
+        </div>
+
+        <!-- Progress -->
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+        <div class="progress-text" id="progressText">Loading questions...</div>
+
+        <!-- Question Navigator -->
+        <div class="q-navigator" id="qNavigator">
+            <h3>Question Navigator</h3>
+            <input type="text" class="search-box" id="searchBox"
+                   placeholder="🔍 Search questions by keyword..."
+                   oninput="searchQuestions()">
+            <div class="q-nav-grid" id="qNavGrid"></div>
+        </div>
+
+        <!-- Questions Container -->
+        <div id="questionsContainer">
+            <div style="text-align:center;padding:60px;color:#555575">
+                <div style="font-size:36px;margin-bottom:16px">⏳</div>
+                <div style="font-size:16px">Loading questions...</div>
+            </div>
+        </div>
+
+        <!-- Navigation -->
+        <div class="navigation">
+            <button class="control-btn btn-secondary" id="prevBtn" onclick="navigateQ(-1)">← Previous</button>
+            <span class="page-info" id="pageInfo"></span>
+            <button class="control-btn btn-primary" id="nextBtn" onclick="navigateQ(1)">Next →</button>
+        </div>
+    </div>
+
+    <!-- Results Modal -->
+    <div class="modal-overlay" id="resultsModal">
+        <div class="modal">
+            <h2>📊 Quiz Results</h2>
+            <div class="score-circle" id="scoreCircle">
+                <div class="score-percent" id="scorePercent">0%</div>
+                <div class="score-label">ACCURACY</div>
+            </div>
+            <div class="result-details" id="resultDetails"></div>
+            <br>
+            <button class="control-btn btn-primary" onclick="closeModal()">Close</button>
+            &nbsp;
+            <button class="control-btn btn-warning" onclick="downloadResults()">📥 Download Report</button>
+        </div>
+    </div>
+
+    <!-- Load chapter registry first -->
+    <script src="chapters.js"></script>
+
+    <!-- Dynamically load correct questions file, then app.js -->
+    <script>
+        (function () {
+            const params = new URLSearchParams(window.location.search);
+            const chId   = params.get('ch') || 'mol_basis';
+            window.currentChapter = CHAPTERS.find(c => c.id === chId) || null;
+
+            const ch = window.currentChapter;
+
+            // Update page title immediately
+            if (ch) {
+                document.title = ch.name + ' — NEET MCQ Quiz';
+                document.getElementById('chapterTitle').textContent   = ch.emoji + ' ' + ch.name;
+                document.getElementById('chapterSubtitle').textContent = 'Complete NEET MCQ Question Bank';
+                document.getElementById('chapterMeta').textContent    =
+                    ch.class + ' Biology | ' + (ch.questionCount || 0) + ' Questions';
+            }
+
+            // No questions file → show placeholder
+            if (!ch || !ch.file) {
+                document.getElementById('questionsContainer').innerHTML = `
+                    <div style="text-align:center;padding:80px 20px;color:#555575">
+                        <div style="font-size:52px;margin-bottom:20px">${ch ? ch.emoji : '📚'}</div>
+                        <div style="font-size:20px;font-weight:700;color:#8090b0;margin-bottom:10px">
+                            ${ch ? ch.name : 'Chapter'} — Coming Soon
+                        </div>
+                        <div style="font-size:14px;color:#404060;margin-bottom:28px">
+                            MCQs for this chapter are currently being prepared.<br>Check back soon!
+                        </div>
+                        <a href="index.html"
+                           style="display:inline-block;padding:12px 28px;background:linear-gradient(135deg,#00d4ff,#0099cc);
+                                  color:#000;font-weight:700;border-radius:12px;text-decoration:none;font-size:14px">
+                           ← Back to Chapters
+                        </a>
+                    </div>`;
+                document.getElementById('progressText').textContent = 'No questions available';
+                document.getElementById('totalQ').textContent = '0';
+                return;
+            }
+
+            // Load questions file, then app.js
+            const qScript  = document.createElement('script');
+            qScript.src    = ch.file;
+            qScript.onload = function () {
+                const aScript = document.createElement('script');
+                aScript.src   = 'app.js';
+                document.body.appendChild(aScript);
+            };
+            qScript.onerror = function () {
+                document.getElementById('questionsContainer').innerHTML =
+                    `<p style="color:#ff5252;text-align:center;padding:60px;font-size:16px">
+                        ⚠️ Failed to load questions for this chapter.
+                     </p>`;
+            };
+            document.head.appendChild(qScript);
+        })();
+    </script>
+</body>
+</html>
