@@ -78,10 +78,10 @@ const CHAPTERS = [
         unit: "Unit IV",
         emoji: "🔄",
         name: "Cell Cycle and Cell Division",
-        file: null,
-        questionCount: 0,
-        topics: ["Mitosis", "Meiosis", "Interphase", "Checkpoints"],
-        status: "coming-soon"
+        file: "questions_cell_cycle.js",
+        questionCount: 282,
+        topics: ["Mitosis", "Meiosis", "Interphase", "Checkpoints", "Cell Cycle", "Phases of Cell Cycle", "Karyokinesis - Prophase", "Karyokinesis - Metaphase", "Karyokinesis - Anaphase", "Karyokinesis - Telophase", "Karyokinesis - General", "Cytokinesis", "Significance of Mitosis", "Meiosis - Introduction", "Meiosis - Prophase I", "Meiosis - Metaphase I", "Meiosis - Anaphase I", "Meiosis - Telophase I", "Meiosis - Interkinesis", "Meiosis - General", "Meiosis II - Prophase II", "Meiosis II - Metaphase II", "Meiosis II - Anaphase II", "Meiosis II - Telophase II", "Meiosis II - General", "Significance of Meiosis", "Summary - Cell Cycle", "Summary - Interphase", "Summary - Mitosis", "Summary - Meiosis", "Summary - Integrative"],
+        status: "available"
     },
     {
         id: "photosynthesis",
@@ -168,10 +168,10 @@ const CHAPTERS = [
         unit: "Unit X",
         emoji: "🐾",
         name: "Organisms and Populations",
-        file: null,
-        questionCount: 0,
-        topics: ["Habitat", "Niche", "Biome", "Population Attributes", "Interactions"],
-        status: "coming-soon"
+        file: "questions_organisms_populations.js",
+        questionCount: 350,
+        topics: ["Habitat", "Niche", "Biome", "Population Attributes", "Interactions", "Introduction - Organisms and Population", "Populations - Population Attributes", "Population Growth", "Growth Models", "Life History Variation", "Population Interactions", "Predation", "Competition", "Parasitism", "Commensalism", "Mutualism", "Summary - Revision"],
+        status: "available"
     },
     {
         id: "ecosystem",
