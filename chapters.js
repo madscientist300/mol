@@ -67,10 +67,10 @@ const CHAPTERS = [
         unit: "Unit IV",
         emoji: "🧫",
         name: "Cell: The Unit of Life",
-        file: null,
-        questionCount: 0,
-        topics: ["Organelles", "Plasma Membrane", "Nucleus", "Mitochondria", "Chloroplast"],
-        status: "coming-soon"
+        file: "questions_cell_unit_life.js",
+        questionCount: 350,
+        topics: ["Introduction to Cell Biology", "Cell Theory", "Prokaryotic Cells", "Ribosomes and Inclusion Bodies / Eukaryotic Cells", "Cell Membrane", "Cell Wall, Endomembrane System, Golgi, Lysosomes, Vacuoles", "Plastids, Ribosomes, Cytoskeleton", "Cilia and Flagella", "Centrosome, Centrioles, Nucleus, Microbodies", "Organelles", "Plasma Membrane", "Nucleus", "Mitochondria", "Chloroplast", "Summary – Cell: The Unit of Life"],
+        status: "available"
     },
     {
         id: "cell_cycle",
