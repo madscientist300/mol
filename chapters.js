@@ -179,10 +179,10 @@ const CHAPTERS = [
         unit: "Unit X",
         emoji: "🌳",
         name: "Ecosystem",
-        file: null,
-        questionCount: 0,
-        topics: ["Food Chain", "Energy Flow", "Nutrient Cycling", "Productivity", "Succession"],
-        status: "coming-soon"
+        file: "questions_ecosystem.js",
+        questionCount: 240,
+        topics: ["Ecosystem – Introduction & Structure and Function", "Decomposition", "Food Chain", "Energy Flow", "Ecological Pyramids", "Ecosystem – Summary", "Nutrient Cycling", "Productivity", "Succession"],
+        status: "available"
     },
     {
         id: "biodiversity",
@@ -190,9 +190,9 @@ const CHAPTERS = [
         unit: "Unit X",
         emoji: "🌏",
         name: "Biodiversity and Conservation",
-        file: null,
-        questionCount: 0,
-        topics: ["Hotspots", "IUCN", "Conservation", "Mass Extinction", "Biosphere Reserves"],
-        status: "coming-soon"
+        file: "questions_biodiversity.js",
+        questionCount: 385,
+        topics: ["Introduction to Biodiversity & Levels of Biodiversity", "World's Biodiversity & India's Biodiversity", "Patterns of Biodiversity", "The Importance of Species Diversity to the Ecosystem", "Loss of Biodiversity", "Biodiversity Conservation – Why Conserve?", "How Do We Conserve Biodiversity?", "Summary – Biodiversity and Conservation"],
+        status: "available"
     }
 ];
