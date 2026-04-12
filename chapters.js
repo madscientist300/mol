@@ -45,10 +45,10 @@ const CHAPTERS = [
         unit: "Unit III",
         emoji: "🌸",
         name: "Morphology of Flowering Plants",
-        file: null,
-        questionCount: 0,
-        topics: ["Root", "Stem", "Leaf", "Flower", "Fruit", "Seed"],
-        status: "coming-soon"
+        file: "questions_morphology_flowering.js",
+        questionCount: 477,
+        topics: ["Introduction", "Root", "Stem", "Leaf", "Flower", "Fruit", "Seed", "Semi-technical Description of a Flowering Plant", "Solanaceae"],
+        status: "available"
     },
     {
         id: "anatomy_flowering",
