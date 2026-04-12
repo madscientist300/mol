@@ -12,10 +12,10 @@ const CHAPTERS = [
         unit: "Unit I",
         emoji: "🌍",
         name: "The Living World",
-        file: null,
-        questionCount: 0,
-        topics: ["Biodiversity", "Nomenclature", "Taxonomy", "Classification Keys"],
-        status: "coming-soon"
+        file: "questions_the_living_world.js",
+        questionCount: 223,
+        topics: ["Introduction - The Living World","Diversity in the Living World","Taxonomic Categories","Species","Genus","Family","Order","Class","Phylum","Kingdom","Family, Order, Class - Integrated","Phylum & Kingdom - Integrated","Family, Order, Class, Phylum, Kingdom - Integrated","Summary & Table 1.1"],
+        status: "available"
     },
     {
         id: "bio_classification",
@@ -56,10 +56,23 @@ const CHAPTERS = [
         unit: "Unit III",
         emoji: "🔭",
         name: "Anatomy of Flowering Plants",
-        file: null,
-        questionCount: 0,
-        topics: ["Tissues", "Xylem", "Phloem", "Cambium", "Cross-sections"],
-        status: "coming-soon"
+        file: "questions_anatomy_flowering.js",
+        questionCount: 224,
+        topics: [
+            "Introduction to Plant Anatomy", 
+            "The Tissue System", 
+            "Epidermal Tissue System",
+            "The Ground Tissue System",
+            "The Vascular Tissue System",
+            "Dicotyledonous Root",
+            "Monocotyledonous Root",
+            "Dicotyledonous Stem",
+            "Monocotyledonous Stem",
+            "Dorsiventral (Dicotyledonous) Leaf",
+            "Isobilateral (Monocotyledonous) Leaf",
+            "Summary"
+        ],
+        status: "available"
     },
     {
         id: "cell_unit_life",

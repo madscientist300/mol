@@ -54,17 +54,17 @@
         <!-- Mode Toggle -->
         <div class="mode-toggle">
             <label>Practice Mode</label>
-            <div class="toggle-switch">
+            <label class="toggle-switch">
                 <input type="checkbox" id="examMode">
                 <span class="toggle-slider"></span>
-            </div>
+            </label>
             <label>Exam Mode</label>
             &nbsp;&nbsp;|&nbsp;&nbsp;
             <label>Show Explanations: </label>
-            <div class="toggle-switch">
+            <label class="toggle-switch">
                 <input type="checkbox" id="autoExplain" checked>
                 <span class="toggle-slider"></span>
-            </div>
+            </label>
         </div>
 
         <!-- Topic Filter -->
@@ -134,6 +134,11 @@
 
     <!-- Dynamically load correct questions file, then app.js -->
     <script>
+        // --- Authentication Check ---
+        if (!localStorage.getItem('neet_auth_session')) {
+            window.location.href = 'index.html';
+        }
+
         (function () {
             const params = new URLSearchParams(window.location.search);
             const chId   = params.get('ch') || 'mol_basis';
