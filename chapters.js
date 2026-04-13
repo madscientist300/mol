@@ -34,10 +34,10 @@ const CHAPTERS = [
         unit: "Unit I",
         emoji: "🌱",
         name: "Plant Kingdom",
-        file: null,
-        questionCount: 0,
-        topics: ["Algae", "Bryophytes", "Pteridophytes", "Gymnosperms", "Angiosperms"],
-        status: "coming-soon"
+        file: "questions_plant_kingdom.js",
+        questionCount: 286,
+        topics: ["Introduction – Plant Kingdom","Algae","Bryophytes","Pteridophytes","Gymnosperms","Gymnosperm Reproduction","Plant Kingdom Summary – Comparative"],
+        status: "available"
     },
     {
         id: "morphology_flowering",
