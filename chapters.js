@@ -148,10 +148,10 @@ const CHAPTERS = [
         unit: "V",
         emoji: "💨",
         name: "Respiration in Plants",
-        file: null,
-        questionCount: 0,
-        topics: ["Glycolysis", "Krebs Cycle", "ETS", "ATP Yield", "RQ"],
-        status: "coming-soon"
+        file: "questions_respiration_plants.js",
+        questionCount: 343,
+        topics: ["Introduction – Respiration in Plants", "Do Plants Breathe?", "Glycolysis", "Fermentation", "Aerobic Respiration – Pyruvate Oxidation", "Tricarboxylic Acid Cycle", "ETS and Oxidative Phosphorylation", "Respiratory Balance Sheet", "Amphibolic Pathway", "Respiratory Quotient", "Summary – Respiration in Plants (Integrative)"],
+        status: "available"
     },
     {
         id: "plant_growth",
