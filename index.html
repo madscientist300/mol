@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
-        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+        *,
+        *::before,
+        *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
         body {
             font-family: 'Inter', 'Segoe UI', sans-serif;
@@ -24,19 +31,23 @@
             position: relative;
             overflow: hidden;
         }
+
         .hero::before {
             content: '';
             position: absolute;
-            top: -80px; left: 50%;
+            top: -80px;
+            left: 50%;
             transform: translateX(-50%);
-            width: 600px; height: 600px;
-            background: radial-gradient(ellipse, rgba(0,212,255,0.08) 0%, transparent 70%);
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(ellipse, rgba(0, 212, 255, 0.08) 0%, transparent 70%);
             pointer-events: none;
         }
+
         .hero-badge {
             display: inline-block;
-            background: rgba(0,212,255,0.12);
-            border: 1px solid rgba(0,212,255,0.3);
+            background: rgba(0, 212, 255, 0.12);
+            border: 1px solid rgba(0, 212, 255, 0.3);
             color: #00d4ff;
             font-size: 12px;
             font-weight: 600;
@@ -46,6 +57,7 @@
             border-radius: 20px;
             margin-bottom: 20px;
         }
+
         .hero h1 {
             font-size: clamp(28px, 5vw, 52px);
             font-weight: 800;
@@ -56,6 +68,7 @@
             line-height: 1.15;
             margin-bottom: 14px;
         }
+
         .hero p {
             font-size: 16px;
             color: #8090b0;
@@ -72,19 +85,28 @@
             flex-wrap: wrap;
             margin-bottom: 10px;
         }
+
         .stat-pill {
             display: flex;
             align-items: center;
             gap: 8px;
-            background: rgba(255,255,255,0.04);
-            border: 1px solid rgba(255,255,255,0.08);
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid rgba(255, 255, 255, 0.08);
             padding: 10px 20px;
             border-radius: 50px;
             font-size: 13px;
             font-weight: 500;
         }
-        .stat-pill .val { color: #00d4ff; font-weight: 700; font-size: 15px; }
-        .stat-pill .lbl { color: #6070a0; }
+
+        .stat-pill .val {
+            color: #00d4ff;
+            font-weight: 700;
+            font-size: 15px;
+        }
+
+        .stat-pill .lbl {
+            color: #6070a0;
+        }
 
         /* ── Section ── */
         .section {
@@ -92,12 +114,14 @@
             margin: 48px auto 0;
             padding: 0 20px;
         }
+
         .section-header {
             display: flex;
             align-items: center;
             gap: 14px;
             margin-bottom: 22px;
         }
+
         .class-badge {
             font-size: 12px;
             font-weight: 700;
@@ -106,21 +130,25 @@
             border-radius: 20px;
             text-transform: uppercase;
         }
+
         .class-badge.class11 {
-            background: rgba(168,85,247,0.15);
+            background: rgba(168, 85, 247, 0.15);
             color: #c084fc;
-            border: 1px solid rgba(168,85,247,0.3);
+            border: 1px solid rgba(168, 85, 247, 0.3);
         }
+
         .class-badge.class12 {
-            background: rgba(0,212,255,0.12);
+            background: rgba(0, 212, 255, 0.12);
             color: #00d4ff;
-            border: 1px solid rgba(0,212,255,0.25);
+            border: 1px solid rgba(0, 212, 255, 0.25);
         }
+
         .section-title {
             font-size: 18px;
             font-weight: 700;
             color: #e0e0e0;
         }
+
         .section-count {
             margin-left: auto;
             font-size: 12px;
@@ -137,7 +165,7 @@
         /* ── Card ── */
         .chapter-card {
             background: linear-gradient(145deg, #12122a, #0e0e22);
-            border: 1px solid rgba(255,255,255,0.07);
+            border: 1px solid rgba(255, 255, 255, 0.07);
             border-radius: 18px;
             padding: 22px 20px 18px;
             position: relative;
@@ -147,30 +175,45 @@
             flex-direction: column;
             gap: 10px;
         }
+
         .chapter-card::before {
             content: '';
             position: absolute;
-            top: 0; left: 0; right: 0;
+            top: 0;
+            left: 0;
+            right: 0;
             height: 3px;
             border-radius: 18px 18px 0 0;
         }
-        .chapter-card.class11::before { background: linear-gradient(90deg, #7c3aed, #a855f7); }
-        .chapter-card.class12::before { background: linear-gradient(90deg, #0099cc, #00d4ff); }
+
+        .chapter-card.class11::before {
+            background: linear-gradient(90deg, #7c3aed, #a855f7);
+        }
+
+        .chapter-card.class12::before {
+            background: linear-gradient(90deg, #0099cc, #00d4ff);
+        }
 
         /* Available */
         .chapter-card.available {
             cursor: pointer;
         }
+
         .chapter-card.available:hover {
             transform: translateY(-5px);
-            border-color: rgba(0,212,255,0.25);
-            box-shadow: 0 12px 40px rgba(0,0,0,0.4), 0 0 0 1px rgba(0,212,255,0.1);
+            border-color: rgba(0, 212, 255, 0.25);
+            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(0, 212, 255, 0.1);
         }
+
         .chapter-card.available.class11:hover {
-            border-color: rgba(168,85,247,0.3);
-            box-shadow: 0 12px 40px rgba(0,0,0,0.4), 0 0 0 1px rgba(168,85,247,0.15);
+            border-color: rgba(168, 85, 247, 0.3);
+            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(168, 85, 247, 0.15);
         }
-        .chapter-card.available:hover .start-btn { opacity: 1; transform: translateY(0); }
+
+        .chapter-card.available:hover .start-btn {
+            opacity: 1;
+            transform: translateY(0);
+        }
 
         /* Coming soon */
         .chapter-card.coming-soon {
@@ -183,49 +226,59 @@
             font-size: 32px;
             line-height: 1;
         }
+
         .card-name {
             font-size: 14px;
             font-weight: 700;
             color: #d0d0e8;
             line-height: 1.4;
         }
+
         .card-topics {
             display: flex;
             flex-wrap: wrap;
             gap: 5px;
             flex: 1;
         }
+
         .topic-pill {
             font-size: 10px;
-            background: rgba(255,255,255,0.05);
-            border: 1px solid rgba(255,255,255,0.08);
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.08);
             padding: 3px 8px;
             border-radius: 10px;
             color: #707090;
         }
+
         .card-footer {
             display: flex;
             align-items: center;
             justify-content: space-between;
             margin-top: 4px;
         }
+
         .q-count {
             font-size: 12px;
             font-weight: 600;
             color: #00e676;
         }
-        .q-count.zero { color: #404070; }
+
+        .q-count.zero {
+            color: #404070;
+        }
+
         .coming-soon-badge {
             font-size: 10px;
             font-weight: 700;
             letter-spacing: 1px;
             text-transform: uppercase;
             color: #404065;
-            background: rgba(255,255,255,0.03);
-            border: 1px solid rgba(255,255,255,0.06);
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.06);
             padding: 3px 10px;
             border-radius: 10px;
         }
+
         .start-btn {
             font-size: 12px;
             font-weight: 700;
@@ -241,10 +294,12 @@
             pointer-events: none;
             white-space: nowrap;
         }
+
         .chapter-card.class11 .start-btn {
             background: linear-gradient(135deg, #a855f7, #9333ea);
             color: #fff;
         }
+
         .chapter-card.available:hover .start-btn {
             pointer-events: all;
         }
@@ -258,329 +313,287 @@
             letter-spacing: 0.5px;
         }
 
-        /* ── Auth Overlay ── */
-        .auth-overlay {
+        /* ── Lock Screen ── */
+        #lockScreen {
             position: fixed;
-            top: 0; left: 0; right: 0; bottom: 0;
-            background: linear-gradient(135deg, #0a0a1a 0%, #0f0c29 40%, #1a0a2e 70%, #0d1117 100%);
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, #06060f 0%, #0a0820 40%, #100820 70%, #080b12 100%);
             z-index: 9999;
             display: flex;
             align-items: center;
             justify-content: center;
             padding: 20px;
-            backdrop-filter: blur(10px);
-            -webkit-backdrop-filter: blur(10px);
         }
-        .auth-box {
-            background: rgba(255,255,255,0.03);
-            border: 1px solid rgba(255,255,255,0.08);
-            border-radius: 24px;
-            padding: 40px;
+
+        #lockScreen::before {
+            content: '';
+            position: absolute;
+            width: 700px;
+            height: 700px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: radial-gradient(ellipse, rgba(0, 180, 255, 0.06) 0%, transparent 65%);
+            animation: breathe 5s ease-in-out infinite;
+            pointer-events: none;
+        }
+
+        @keyframes breathe {
+
+            0%,
+            100% {
+                transform: translate(-50%, -50%) scale(1);
+                opacity: 0.6;
+            }
+
+            50% {
+                transform: translate(-50%, -50%) scale(1.15);
+                opacity: 1;
+            }
+        }
+
+        @keyframes shake {
+
+            0%,
+            100% {
+                transform: translateX(0);
+            }
+
+            15% {
+                transform: translateX(-10px);
+            }
+
+            30% {
+                transform: translateX(10px);
+            }
+
+            45% {
+                transform: translateX(-8px);
+            }
+
+            60% {
+                transform: translateX(8px);
+            }
+
+            75% {
+                transform: translateX(-4px);
+            }
+
+            90% {
+                transform: translateX(4px);
+            }
+        }
+
+        @keyframes successPulse {
+            0% {
+                box-shadow: 0 0 0 0 rgba(0, 230, 118, 0.5);
+            }
+
+            70% {
+                box-shadow: 0 0 0 18px rgba(0, 230, 118, 0);
+            }
+
+            100% {
+                box-shadow: 0 0 0 0 rgba(0, 230, 118, 0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(24px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        #lockBox {
+            background: rgba(255, 255, 255, 0.025);
+            border: 1px solid rgba(255, 255, 255, 0.07);
+            border-radius: 28px;
+            padding: 48px 40px 40px;
             width: 100%;
             max-width: 400px;
             text-align: center;
-            box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+            box-shadow: 0 30px 80px rgba(0, 0, 0, 0.6);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            position: relative;
+            z-index: 1;
+            animation: fadeInUp 0.5s ease;
         }
-        .auth-logo {
-            font-size: 48px;
-            margin-bottom: 20px;
-        }
-        .auth-title {
-            font-size: 24px;
-            font-weight: 700;
-            color: #fff;
-            margin-bottom: 10px;
-        }
-        .auth-subtitle {
-            font-size: 14px;
-            color: #8090b0;
-            margin-bottom: 30px;
-            line-height: 1.5;
-        }
-        .auth-input-group {
-            margin-bottom: 20px;
-            text-align: left;
-        }
-        .auth-label {
-            display: block;
-            font-size: 12px;
-            color: #a0a0c0;
-            margin-bottom: 8px;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-        .auth-input {
-            width: 100%;
-            background: rgba(0,0,0,0.3);
-            border: 1px solid rgba(255,255,255,0.1);
-            color: #fff;
-            padding: 14px 16px;
-            border-radius: 12px;
-            font-size: 16px;
-            outline: none;
-            transition: border-color 0.2s;
-            font-family: inherit;
-        }
-        .auth-input:focus { border-color: #00d4ff; }
-        .auth-btn {
-            width: 100%;
-            background: linear-gradient(135deg, #00d4ff, #00b8e0);
-            color: #000;
-            font-weight: 700;
-            font-size: 16px;
-            padding: 14px;
-            border: none;
-            border-radius: 12px;
-            cursor: pointer;
-            transition: transform 0.2s, box-shadow 0.2s;
-            font-family: inherit;
-        }
-        .auth-btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 8px 20px rgba(0,212,255,0.3);
-        }
-        .auth-hidden { display: none !important; }
 
-        .auth-toggle {
-            margin-top: 22px;
+        #lockBox.shake {
+            animation: shake 0.5s ease;
+        }
+
+        #lockIcon {
+            font-size: 52px;
+            margin-bottom: 18px;
+            line-height: 1;
+            filter: drop-shadow(0 0 18px rgba(0, 180, 255, 0.4));
+        }
+
+        #lockTitle {
+            font-size: 26px;
+            font-weight: 800;
+            background: linear-gradient(135deg, #fff 0%, #a0d8ef 50%, #00d4ff 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 8px;
+        }
+
+        #lockSub {
             font-size: 13px;
             color: #6070a0;
+            margin-bottom: 32px;
+            line-height: 1.6;
         }
-        .auth-toggle span {
-            color: #00d4ff;
+
+        #keyInput {
+            width: 100%;
+            background: rgba(0, 0, 0, 0.35);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            color: #fff;
+            padding: 15px 18px;
+            border-radius: 14px;
+            font-size: 17px;
+            font-family: inherit;
+            outline: none;
+            transition: border-color 0.25s, box-shadow 0.25s;
+            letter-spacing: 2px;
+            text-align: center;
+            margin-bottom: 14px;
+        }
+
+        #keyInput:focus {
+            border-color: rgba(0, 212, 255, 0.5);
+            box-shadow: 0 0 0 3px rgba(0, 212, 255, 0.08);
+        }
+
+        #unlockBtn {
+            width: 100%;
+            background: linear-gradient(135deg, #00d4ff, #0099cc);
+            color: #000;
+            font-weight: 800;
+            font-size: 15px;
+            padding: 15px;
+            border: none;
+            border-radius: 14px;
             cursor: pointer;
-            font-weight: 600;
-            transition: color 0.2s;
+            transition: transform 0.2s, box-shadow 0.2s, opacity 0.2s;
+            font-family: inherit;
+            letter-spacing: 0.5px;
         }
-        .auth-toggle span:hover { color: #66e0ff; }
 
-        .auth-error {
-            background: rgba(255,60,60,0.1);
-            border: 1px solid rgba(255,60,60,0.25);
-            color: #ff8080;
-            border-radius: 10px;
-            padding: 10px 14px;
+        #unlockBtn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 28px rgba(0, 212, 255, 0.35);
+        }
+
+        #unlockBtn:active {
+            transform: scale(0.98);
+        }
+
+        #lockError {
+            margin-top: 16px;
             font-size: 13px;
-            margin-bottom: 16px;
+            color: #ff7070;
+            min-height: 20px;
+            transition: opacity 0.3s;
+            font-weight: 500;
+        }
+
+        /* ── Lock Button (shown when unlocked) ── */
+        #lockBtn {
             display: none;
-        }
-        .auth-error.visible { display: block; }
-
-        .auth-divider {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            margin: 20px 0;
-            color: #404065;
-            font-size: 12px;
-        }
-        .auth-divider::before, .auth-divider::after {
-            content: '';
-            flex: 1;
-            height: 1px;
-            background: rgba(255,255,255,0.07);
-        }
-
-        .logout-btn {
-            position: absolute;
-            top: 20px;
-            right: 20px;
-            background: rgba(255,255,255,0.05);
-            border: 1px solid rgba(255,255,255,0.1);
-            color: #e0e0e0;
+            position: fixed;
+            top: 18px;
+            right: 18px;
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            color: #8090b0;
             padding: 8px 16px;
             border-radius: 20px;
             font-size: 12px;
             font-weight: 600;
             cursor: pointer;
-            transition: background 0.2s, color 0.2s;
-            z-index: 100;
-        }
-        .logout-btn:hover {
-            background: rgba(255,255,255,0.1);
-            color: #fff;
+            transition: background 0.2s, color 0.2s, border-color 0.2s;
+            z-index: 1000;
+            font-family: inherit;
+            letter-spacing: 0.3px;
         }
 
-        /* ── Admin Panel ── */
-        .admin-overlay {
-            position: fixed;
-            top: 0; left: 0; right: 0; bottom: 0;
-            background: rgba(0,0,0,0.85);
-            z-index: 99998;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 20px;
-            backdrop-filter: blur(6px);
+        #lockBtn:hover {
+            background: rgba(255, 80, 80, 0.1);
+            border-color: rgba(255, 80, 80, 0.3);
+            color: #ff8080;
         }
-        .admin-panel {
-            background: #0d0d1f;
-            border: 1px solid rgba(0,212,255,0.2);
-            border-radius: 20px;
-            padding: 32px;
-            width: 100%;
-            max-width: 700px;
-            max-height: 85vh;
-            overflow-y: auto;
-            box-shadow: 0 20px 60px rgba(0,0,0,0.6);
-        }
-        .admin-header {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            margin-bottom: 24px;
-        }
-        .admin-title {
-            font-size: 18px;
-            font-weight: 700;
-            color: #00d4ff;
-        }
-        .admin-close {
-            background: rgba(255,255,255,0.06);
-            border: 1px solid rgba(255,255,255,0.1);
-            color: #aaa;
-            width: 32px; height: 32px;
-            border-radius: 50%;
-            font-size: 16px;
-            cursor: pointer;
-            display: flex; align-items: center; justify-content: center;
-            transition: background 0.2s;
-        }
-        .admin-close:hover { background: rgba(255,255,255,0.12); color: #fff; }
-        .admin-stats-row {
-            display: flex;
-            gap: 12px;
-            margin-bottom: 20px;
-            flex-wrap: wrap;
-        }
-        .admin-stat {
-            background: rgba(0,212,255,0.07);
-            border: 1px solid rgba(0,212,255,0.15);
-            border-radius: 12px;
-            padding: 12px 20px;
-            text-align: center;
-            flex: 1; min-width: 100px;
-        }
-        .admin-stat .av { font-size: 24px; font-weight: 800; color: #00d4ff; }
-        .admin-stat .al { font-size: 11px; color: #6070a0; margin-top: 2px; }
-        .admin-table {
-            width: 100%;
-            border-collapse: collapse;
-            font-size: 13px;
-        }
-        .admin-table th {
-            text-align: left;
-            padding: 10px 12px;
-            color: #6070a0;
-            font-size: 11px;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            border-bottom: 1px solid rgba(255,255,255,0.06);
-        }
-        .admin-table td {
-            padding: 10px 12px;
-            color: #d0d0e8;
-            border-bottom: 1px solid rgba(255,255,255,0.04);
-            word-break: break-all;
-        }
-        .admin-table tr:last-child td { border-bottom: none; }
-        .admin-table tr:hover td { background: rgba(255,255,255,0.02); }
-        .admin-empty {
-            text-align: center;
-            color: #404065;
-            padding: 40px;
-            font-size: 14px;
-        }
-        .admin-export-btn {
-            margin-top: 20px;
-            background: rgba(0,212,255,0.1);
-            border: 1px solid rgba(0,212,255,0.25);
-            color: #00d4ff;
-            padding: 10px 20px;
-            border-radius: 10px;
-            font-size: 13px;
-            font-weight: 600;
-            cursor: pointer;
-            width: 100%;
-            transition: background 0.2s;
-            font-family: inherit;
-        }
-        .admin-export-btn:hover { background: rgba(0,212,255,0.18); }
 
         /* ── Responsive ── */
         @media (max-width: 600px) {
-            .chapter-grid { grid-template-columns: 1fr 1fr; gap: 12px; }
-            .chapter-card { padding: 16px 14px 14px; }
-            .card-emoji { font-size: 26px; }
-            .card-name { font-size: 12px; }
-            .start-btn { opacity: 1; transform: none; pointer-events: all; }
+            .chapter-grid {
+                grid-template-columns: 1fr 1fr;
+                gap: 12px;
+            }
+
+            .chapter-card {
+                padding: 16px 14px 14px;
+            }
+
+            .card-emoji {
+                font-size: 26px;
+            }
+
+            .card-name {
+                font-size: 12px;
+            }
+
+            .start-btn {
+                opacity: 1;
+                transform: none;
+                pointer-events: all;
+            }
         }
+
         @media (max-width: 380px) {
-            .chapter-grid { grid-template-columns: 1fr; }
+            .chapter-grid {
+                grid-template-columns: 1fr;
+            }
         }
     </style>
 </head>
+
 <body>
 
-    <!-- Auth Overlay -->
-    <div id="authOverlay" class="auth-overlay auth-hidden">
-        <div id="authBox" class="auth-box">
-            <div class="auth-logo">🧬</div>
-            <h2 class="auth-title" id="authTitle">Welcome Back</h2>
-            <p class="auth-subtitle" id="authSubtitle">Sign in to access the NEET Question Bank.</p>
-
-            <div class="auth-error" id="authError"></div>
-
-            <!-- Register-only fields -->
-            <div class="auth-input-group" id="nameGroup" style="display:none;">
-                <label class="auth-label">Full Name</label>
-                <input type="text" id="nameInput" class="auth-input" placeholder="Your name" autocomplete="name">
-            </div>
-
-            <div class="auth-input-group" id="mobileGroup" style="display:none;">
-                <label class="auth-label">Mobile Number</label>
-                <input type="tel" id="mobileInput" class="auth-input" placeholder="10-digit mobile number" maxlength="10" autocomplete="tel">
-            </div>
-
-            <div class="auth-input-group">
-                <label class="auth-label">Email Address</label>
-                <input type="email" id="emailInput" class="auth-input" placeholder="you@example.com" autocomplete="email">
-            </div>
-
-            <div class="auth-input-group">
-                <label class="auth-label">Password</label>
-                <input type="password" id="passwordInput" class="auth-input" placeholder="Enter your password" autocomplete="current-password">
-            </div>
-
-            <button class="auth-btn" id="authSubmitBtn">Sign In</button>
-
-            <div class="auth-toggle" id="authToggleText">
-                Don't have an account? <span id="authToggleLink">Create one</span>
-            </div>
+    <!-- Lock Screen -->
+    <div id="lockScreen">
+        <div id="lockBox">
+            <div id="lockIcon">🔬</div>
+            <h1 id="lockTitle">NEET Biology</h1>
+            <p id="lockSub">Enter your access key to continue</p>
+            <input type="password" id="keyInput" placeholder="••••••••••" autocomplete="off" spellcheck="false">
+            <button id="unlockBtn">Unlock →</button>
+            <div id="lockError"></div>
         </div>
     </div>
 
-    <!-- Admin Panel -->
-    <div id="adminOverlay" class="admin-overlay auth-hidden">
-        <div class="admin-panel">
-            <div class="admin-header">
-                <span class="admin-title">🛡️ Admin — Registered Users</span>
-                <button class="admin-close" id="adminCloseBtn">✕</button>
-            </div>
-            <div class="admin-stats-row" id="adminStatsRow"></div>
-            <div id="adminTableWrap"></div>
-            <button class="admin-export-btn" id="adminExportBtn">⬇ Export as CSV</button>
-        </div>
-    </div>
-
-    <button id="logoutBtn" class="logout-btn auth-hidden">Sign Out</button>
+    <!-- Lock button (visible when unlocked) -->
+    <button id="lockBtn">🔒 Lock</button>
 
     <!-- Hero -->
     <div class="hero">
         <div class="hero-badge">🎯 NEET Biology</div>
         <h1>Complete MCQ<br>Question Bank</h1>
-        <p>Chapter-wise practice with detailed NCERT explanations, smart filters, and real-time performance tracking.</p>
+        <p>Chapter-wise practice with detailed NCERT explanations, smart filters, and real-time performance tracking.
+        </p>
         <div class="stats-bar" id="statsBar">
             <!-- filled by JS -->
         </div>
@@ -666,196 +679,113 @@
                 `${ch12.filter(c => c.status === 'available').length} / ${ch12.length} available`;
         }
 
-        // --- Authentication Logic (Email-based) ---
-        const USERS_KEY = 'neet_users';      // { email: { name, passwordHash } }
-        const SESSION_KEY = 'neet_auth_session'; // stored email when logged in
+        const _ak = '31dc8b51';
 
-        // Simple hash — good enough for localStorage-only auth
-        function simpleHash(str) {
-            let hash = 0;
-            for (let i = 0; i < str.length; i++) {
-                hash = (Math.imul(31, hash) + str.charCodeAt(i)) | 0;
+        const SESSION_KEY = 'neet_unlocked_v2';
+        let wrongAttempts = 0;
+        let lockoutUntil = 0;
+        let lockoutTimer = null;
+
+        function _h(s) {
+            let h = 5381;
+            for (let i = 0; i < s.length; i++) {
+                h = ((h << 5) + h) + s.charCodeAt(i);
+                h = h & h;
             }
-            return hash.toString(16);
+            return (h >>> 0).toString(16);
         }
 
-        function getUsers() {
-            try { return JSON.parse(localStorage.getItem(USERS_KEY)) || {}; }
-            catch { return {}; }
+        function showApp() {
+            document.getElementById('lockScreen').style.display = 'none';
+            document.getElementById('lockBtn').style.display = 'block';
+            render(); // build chapter cards
         }
 
-        function showError(msg) {
-            const el = document.getElementById('authError');
-            el.textContent = msg;
-            el.classList.add('visible');
-        }
-        function clearError() {
-            const el = document.getElementById('authError');
-            el.textContent = '';
-            el.classList.remove('visible');
+        function showLock() {
+            document.getElementById('lockScreen').style.display = 'flex';
+            document.getElementById('lockBtn').style.display = 'none';
+            document.getElementById('keyInput').value = '';
+            document.getElementById('lockError').textContent = '';
         }
 
-        let isRegisterMode = false;
-
-        function setMode(register) {
-            isRegisterMode = register;
-            clearError();
-            const show = v => v ? 'block' : 'none';
-            document.getElementById('nameGroup').style.display   = show(register);
-            document.getElementById('mobileGroup').style.display = show(register);
-            document.getElementById('authTitle').textContent = register ? 'Create Account' : 'Welcome Back';
-            document.getElementById('authSubtitle').textContent = register
-                ? 'Register to start practising NEET Biology MCQs.'
-                : 'Sign in to access the NEET Question Bank.';
-            document.getElementById('authSubmitBtn').textContent = register ? 'Create Account' : 'Sign In';
-            document.getElementById('authToggleText').innerHTML = register
-                ? 'Already have an account? <span id="authToggleLink">Sign in</span>'
-                : 'Don\'t have an account? <span id="authToggleLink">Create one</span>';
-            document.getElementById('passwordInput').setAttribute('autocomplete',
-                register ? 'new-password' : 'current-password');
-            document.getElementById('authToggleLink').addEventListener('click', () => setMode(!isRegisterMode));
-        }
-
-        function checkAuth() {
-            const session = localStorage.getItem(SESSION_KEY);
-            if (session) {
-                document.getElementById('authOverlay').classList.add('auth-hidden');
-                document.getElementById('logoutBtn').classList.remove('auth-hidden');
+        function checkSession() {
+            if (sessionStorage.getItem(SESSION_KEY) === '1') {
+                showApp();
             } else {
-                document.getElementById('authOverlay').classList.remove('auth-hidden');
-                document.getElementById('logoutBtn').classList.add('auth-hidden');
+                showLock();
             }
         }
 
-        document.getElementById('authSubmitBtn').addEventListener('click', () => {
-            clearError();
-            const email = document.getElementById('emailInput').value.trim().toLowerCase();
-            const password = document.getElementById('passwordInput').value;
+        function setLockError(msg) {
+            document.getElementById('lockError').textContent = msg;
+        }
 
-            if (!email || !/^[^@]+@[^@]+\.[^@]+$/.test(email)) {
-                showError('Please enter a valid email address.'); return;
+        function tryUnlock() {
+            const now = Date.now();
+
+            // Cooldown check
+            if (now < lockoutUntil) {
+                const secs = Math.ceil((lockoutUntil - now) / 1000);
+                setLockError(`Too many attempts. Try again in ${secs}s.`);
+                return;
             }
-            if (password.length < 6) {
-                showError('Password must be at least 6 characters.'); return;
-            }
 
-            const users = getUsers();
+            const input = document.getElementById('keyInput').value;
+            if (!input) { setLockError('Please enter your access key.'); return; }
 
-            if (isRegisterMode) {
-                const name   = document.getElementById('nameInput').value.trim();
-                const mobile = document.getElementById('mobileInput').value.trim();
-                if (!name)   { showError('Please enter your full name.'); return; }
-                if (!/^[6-9]\d{9}$/.test(mobile)) {
-                    showError('Please enter a valid 10-digit Indian mobile number.'); return;
+            if (_h(input) === _ak) {
+                wrongAttempts = 0;
+                lockoutUntil = 0;
+                clearInterval(lockoutTimer);
+                sessionStorage.setItem(SESSION_KEY, '1');
+                setLockError('');
+                document.getElementById('lockBox').style.boxShadow =
+                    '0 0 0 2px rgba(0,230,118,0.6), 0 30px 80px rgba(0,0,0,0.6)';
+                setTimeout(() => { document.getElementById('lockBox').style.boxShadow = ''; showApp(); }, 350);
+            } else {
+                wrongAttempts++;
+                document.getElementById('keyInput').value = '';
+
+                const box = document.getElementById('lockBox');
+                box.classList.remove('shake');
+                void box.offsetWidth;
+                box.classList.add('shake');
+                setTimeout(() => box.classList.remove('shake'), 600);
+
+                if (wrongAttempts >= 3) {
+                    lockoutUntil = Date.now() + 30000;
+                    wrongAttempts = 0;
+                    // Live countdown
+                    lockoutTimer = setInterval(() => {
+                        const remaining = Math.ceil((lockoutUntil - Date.now()) / 1000);
+                        if (remaining <= 0) {
+                            clearInterval(lockoutTimer);
+                            setLockError('');
+                        } else {
+                            setLockError(`Access denied. Try again in ${remaining}s.`);
+                        }
+                    }, 500);
+                    setLockError('Access denied. Try again in 30s.');
+                } else {
+                    const left = 3 - wrongAttempts;
+                    setLockError(`Incorrect key — ${left} attempt${left === 1 ? '' : 's'} left.`);
                 }
-                if (users[email]) { showError('An account with this email already exists. Please sign in.'); return; }
-                users[email] = { name, mobile, passwordHash: simpleHash(password), registeredAt: new Date().toISOString() };
-                localStorage.setItem(USERS_KEY, JSON.stringify(users));
-                localStorage.setItem(SESSION_KEY, email);
-                checkAuth();
-            } else {
-                if (!users[email]) { showError('No account found. Please create one first.'); return; }
-                if (users[email].passwordHash !== simpleHash(password)) {
-                    showError('Incorrect password. Please try again.'); return;
-                }
-                localStorage.setItem(SESSION_KEY, email);
-                checkAuth();
             }
-        });
-
-        // Allow Enter key submission
-        ['nameInput', 'mobileInput', 'emailInput', 'passwordInput'].forEach(id => {
-            const el = document.getElementById(id);
-            if (el) el.addEventListener('keydown', e => {
-                if (e.key === 'Enter') document.getElementById('authSubmitBtn').click();
-            });
-        });
-
-        // ── Admin Panel ──
-        function openAdmin() {
-            const users = getUsers();
-            const entries = Object.entries(users); // [[email, {name,mobile,...}]]
-
-            // Stats
-            document.getElementById('adminStatsRow').innerHTML = `
-                <div class="admin-stat"><div class="av">${entries.length}</div><div class="al">Registered Users</div></div>
-                <div class="admin-stat"><div class="av">${entries.filter(([,u])=>u.mobile).length}</div><div class="al">With Mobile</div></div>
-            `;
-
-            // Table
-            const wrap = document.getElementById('adminTableWrap');
-            if (entries.length === 0) {
-                wrap.innerHTML = '<p class="admin-empty">No users registered yet.</p>';
-            } else {
-                let rows = entries.map(([email, u]) => {
-                    const date = u.registeredAt ? new Date(u.registeredAt).toLocaleDateString('en-IN', {day:'2-digit',month:'short',year:'numeric'}) : '—';
-                    return `<tr>
-                        <td>${u.name || '—'}</td>
-                        <td>${email}</td>
-                        <td>${u.mobile || '—'}</td>
-                        <td>${date}</td>
-                    </tr>`;
-                }).join('');
-                wrap.innerHTML = `<table class="admin-table">
-                    <thead><tr><th>Name</th><th>Email</th><th>Mobile</th><th>Registered</th></tr></thead>
-                    <tbody>${rows}</tbody>
-                </table>`;
-            }
-
-            document.getElementById('adminOverlay').classList.remove('auth-hidden');
         }
 
-        document.getElementById('adminCloseBtn').addEventListener('click', () => {
-            document.getElementById('adminOverlay').classList.add('auth-hidden');
+        // Events
+        document.getElementById('unlockBtn').addEventListener('click', tryUnlock);
+        document.getElementById('keyInput').addEventListener('keydown', e => {
+            if (e.key === 'Enter') tryUnlock();
+        });
+        document.getElementById('lockBtn').addEventListener('click', () => {
+            sessionStorage.removeItem(SESSION_KEY);
+            showLock();
         });
 
-        // Triple-click the footer to open admin panel
-        let footerClicks = 0, footerTimer;
-        document.querySelector('.footer').addEventListener('click', () => {
-            footerClicks++;
-            clearTimeout(footerTimer);
-            footerTimer = setTimeout(() => { footerClicks = 0; }, 600);
-            if (footerClicks >= 3) { footerClicks = 0; openAdmin(); }
-        });
-        document.querySelector('.footer').style.cursor = 'default';
-
-        // CSV Export
-        document.getElementById('adminExportBtn').addEventListener('click', () => {
-            const users = getUsers();
-            const entries = Object.entries(users);
-            if (!entries.length) { alert('No users to export.'); return; }
-            const header = 'Name,Email,Mobile,Registered At';
-            const rows = entries.map(([email, u]) =>
-                `"${u.name||""}"`,`"${email}"`,`"${u.mobile||""}"`,`"${u.registeredAt||""}"`.replace(/undefined/g,'')
-            );
-            // fix: proper CSV rows
-            const csvRows = entries.map(([email, u]) =>
-                [`"${(u.name||"").replace(/"/g,'""')}"`, `"${email}"`, `"${u.mobile||""}"`, `"${u.registeredAt||""}"` ].join(',')
-            );
-            const csv = [header, ...csvRows].join('\n');
-            const blob = new Blob([csv], {type:'text/csv'});
-            const a = document.createElement('a');
-            a.href = URL.createObjectURL(blob);
-            a.download = 'neet_registered_users.csv';
-            a.click();
-        });
-
-        const doLogout = () => {
-            localStorage.removeItem(SESSION_KEY);
-            document.getElementById('emailInput').value = '';
-            document.getElementById('passwordInput').value = '';
-            document.getElementById('nameInput').value = '';
-            document.getElementById('mobileInput').value = '';
-            setMode(false);
-            checkAuth();
-        };
-
-        document.getElementById('logoutBtn').addEventListener('click', doLogout);
-
-        // Initialize
-        setMode(false);
-        checkAuth();
-        render();
+        // Boot
+        checkSession();
     </script>
 </body>
+
 </html>

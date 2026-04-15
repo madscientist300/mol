@@ -134,9 +134,10 @@
 
     <!-- Dynamically load correct questions file, then app.js -->
     <script>
-        // --- Authentication Check ---
-        if (!localStorage.getItem('neet_auth_session')) {
-            window.location.href = 'index.html';
+        // --- Access Guard ---
+        // Redirect to lock screen if no valid session
+        if (sessionStorage.getItem('neet_unlocked_v2') !== '1') {
+            window.location.replace('index.html');
         }
 
         (function () {
