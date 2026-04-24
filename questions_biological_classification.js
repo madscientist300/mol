@@ -4468,5 +4468,605 @@ const allQuestions = [
     ],
     correct: 2,
     explanation: "Analysis: (i) CORRECT — NCERT: 'The character that unified this whole kingdom was that all the organisms included had a cell wall in their cells.' (ii) CORRECT — NCERT: 'They prefer to grow in warm and humid places.' (iii) INCORRECT — NCERT says 'most extensive METABOLIC diversity', NOT 'morphological diversity.' One-word swap! (iv) CORRECT — NCERT: 'they do not grow in polluted areas.' (v) CORRECT — NCERT: 'In general, viruses that infect plants have single stranded RNA.' (vi) INCORRECT — Viroids have low molecular weight RNA but LACK protein coat. NCERT: 'it lacked the protein coat.' So 4 are correct. Common mistakes: (a) Metabolic vs morphological swap, (b) Adding protein coat to viroids."
+  },
+  {
+    id: 299,
+    topic: "Kingdom Monera",
+    difficulty: "Medium",
+    type: "Statement",
+    q: "Which of the following statements about Mycoplasma is <b>correct</b>?",
+    options: [
+      "Mycoplasma has a rigid cellulosic cell wall",
+      "Mycoplasma can survive without oxygen",
+      "Mycoplasma are the smallest living cells known and can survive without oxygen",
+      "Mycoplasma is an autotrophic organism"
+    ],
+    correct: 2,
+    explanation: "NCERT Line: 'Mycoplasma are organisms that completely lack a cell wall. They are the smallest living cells known and can survive without oxygen.' Option A is wrong — mycoplasma COMPLETELY LACKS a cell wall. Option B is partially correct but incomplete (NCERT pairs it with being smallest living cells). Option D is wrong — mycoplasma are heterotrophic parasites. NTA trap: Option B is the 'half-right' distractor — technically correct but incomplete. NCERT packages 'smallest living cells' with 'survive without oxygen' as a combined description."
+  },
+  {
+    id: 300,
+    topic: "Kingdom Monera",
+    difficulty: "Medium",
+    type: "Except",
+    q: "Mycoplasma is responsible for all of the following <b>EXCEPT</b>:",
+    options: [
+      "Many diseases in plants",
+      "Many diseases in animals",
+      "Being the smallest living cells",
+      "Producing biogas (methane)"
+    ],
+    correct: 3,
+    explanation: "NCERT Line: 'Many mycoplasma are pathogenic in animals and plants.' Mycoplasma causes diseases in plants and animals (A and B correct). They ARE the smallest living cells (C correct). Biogas/methane is produced by METHANOGENS (Archaebacteria), not Mycoplasma (D is incorrect for mycoplasma). NTA trap: Students may confuse methanogens with mycoplasma since both are in Monera."
+  },
+  {
+    id: 301,
+    topic: "Kingdom Monera",
+    difficulty: "Hard",
+    type: "HowMany",
+    q: "How many of the following statements about Mycoplasma are <b>correct</b>?<br>(A) Mycoplasma completely lack a cell wall<br>(B) They are the smallest living cells<br>(C) They can survive without oxygen<br>(D) They are autotrophic<br>(E) Many are pathogenic in animals and plants",
+    options: [
+      "Two",
+      "Three",
+      "Four",
+      "Five"
+    ],
+    correct: 2,
+    explanation: "A: CORRECT — NCERT: 'organisms that completely lack a cell wall.' B: CORRECT — NCERT: 'the smallest living cells known.' C: CORRECT — NCERT: 'can survive without oxygen.' D: INCORRECT — Mycoplasma are heterotrophic parasites, not autotrophic. E: CORRECT — NCERT: 'Many mycoplasma are pathogenic in animals and plants.' A, B, C, E = Four correct. NTA trap: Statement D is the only wrong one — mycoplasma are PARASITIC heterotrophs."
+  },
+  {
+    id: 302,
+    topic: "Kingdom Protista",
+    difficulty: "Easy",
+    type: "Direct",
+    q: "The connecting link between plants and animals according to NCERT is:",
+    options: [
+      "Volvox",
+      "Euglena",
+      "Chlamydomonas",
+      "Chlorella"
+    ],
+    correct: 1,
+    explanation: "NCERT Line: 'Euglenoids...Euglena...are called connecting links between plants and animals.' Euglena has chloroplasts (plant-like, autotrophic in sunlight) but is also capable of holozoic/saprophytic nutrition (animal-like) in absence of light. Options A, C, D are green algae placed in Protista — they are NOT called connecting links. NTA trap: Volvox is colonial and shows some division of labour but is NOT the connecting link. The term 'connecting link' is exclusively for Euglena in NCERT Chapter 2."
+  },
+  {
+    id: 303,
+    topic: "Kingdom Protista",
+    difficulty: "Medium",
+    type: "Statement",
+    q: "Which of the following statements about Chrysophytes is <b>correct</b>?",
+    options: [
+      "They are found only in marine water",
+      "Their cell walls form two thin overlapping shells which fit together like a soap box",
+      "Diatom cell walls are easily destroyed and do not accumulate",
+      "Chrysophytes are exclusively heterotrophic"
+    ],
+    correct: 1,
+    explanation: "NCERT Line (about Diatoms): 'The cell walls of diatoms form two thin overlapping shells, which fit together as in a soap box.' Option A is wrong — chrysophytes are found in freshwater as well as marine environments. Option C is wrong — NCERT says 'The cell walls are indestructible...Thus, diatoms have left behind large amounts of cell wall deposits in their habitat' — this is diatomaceous earth. Option D is wrong — chrysophytes are photosynthetic (autotrophic). NTA trap: Option A adds 'only marine' — NCERT says 'freshwater as well as marine'."
+  },
+  {
+    id: 304,
+    topic: "Kingdom Protista",
+    difficulty: "Medium",
+    type: "Statement",
+    q: "Diatomaceous earth is used in all of the following <b>EXCEPT</b>:",
+    options: [
+      "Filtration of oils and syrups",
+      "As a polishing agent",
+      "As a nitrogen fertilizer",
+      "In preparation of dynamite"
+    ],
+    correct: 2,
+    explanation: "NCERT Line: 'Diatomaceous earth being gritty is used in polishing, filtration of oils and syrups. Dynamite is made by using diatomaceous earth.' NCERT mentions: polishing (B correct), filtration of oils and syrups (A correct), and dynamite (D correct). Using diatomaceous earth as a nitrogen fertilizer is NOT mentioned in NCERT. NTA trap: Diatomaceous earth is SILICAL deposits, not nitrogen-containing organic matter."
+  },
+  {
+    id: 305,
+    topic: "Kingdom Protista",
+    difficulty: "Hard",
+    type: "Match",
+    q: "Match Column I (Group) with Column II (Key Feature):<br><br><b>Column I</b><br>(P) Chrysophytes<br>(Q) Dinoflagellates<br>(R) Euglenoids<br>(S) Slime moulds<br><br><b>Column II</b><br>(i) Connecting link between plants and animals<br>(ii) Biflagellate; appear brilliant in sea at night<br>(iii) Saprophytic protists; form aggregations during unfavourable conditions<br>(iv) Cell walls form two thin overlapping shells like a soap box<br><br>Choose the <b>correct</b> match:",
+    options: [
+      "P-iv, Q-ii, R-i, S-iii",
+      "P-ii, Q-iv, R-i, S-iii",
+      "P-iv, Q-ii, R-iii, S-i",
+      "P-iv, Q-i, R-ii, S-iii"
+    ],
+    correct: 0,
+    explanation: "Chrysophytes (diatoms) = two thin overlapping shells like soap box (P-iv). Dinoflagellates = biflagellate, sea luminescence (Q-ii). NCERT: 'Mostly marine; appear brilliantly lit at night.' Euglenoids = connecting link between plants and animals (R-i). Slime moulds = saprophytic, form aggregations (S-iii). NCERT: 'Slime moulds are saprophytic protists...Under favourable conditions, they form an aggregation.' NTA trap: Option B swaps P/Q — putting 'soap box' with dinoflagellates and 'biflagellate' with chrysophytes."
+  },
+  {
+    id: 306,
+    topic: "Kingdom Protista",
+    difficulty: "Medium",
+    type: "Statement",
+    q: "The 'red tides' in the sea are caused by rapid multiplication of:",
+    options: [
+      "Chrysophytes",
+      "Euglenoids",
+      "Dinoflagellates",
+      "Slime moulds"
+    ],
+    correct: 2,
+    explanation: "NCERT Line: 'Due to the presence of large amounts of red pigments, some dinoflagellates like Gonyaulax undergo such rapid multiplication that they make the sea appear red (Red tides).' Rapid multiplication of RED-PIGMENTED dinoflagellates → red tides. Option A (Chrysophytes) are yellow-green/golden. Option B (Euglenoids) are green. Option D (Slime moulds) are saprophytic, not photosynthetic. NTA trap: Students may confuse Gonyaulax (dinoflagellate) with Euglena — both are flagellated protists."
+  },
+  {
+    id: 307,
+    topic: "Kingdom Protista",
+    difficulty: "Hard",
+    type: "HowMany",
+    q: "How many of the following statements about Dinoflagellates are <b>correct</b>?<br>(A) Most are marine and photosynthetic<br>(B) They appear in yellow, green, brown, blue or red colour<br>(C) They have one flagellum lying longitudinally and another transversely<br>(D) Gonyaulax causes red tides<br>(E) Toxins released by them can kill marine animals including fish",
+    options: [
+      "Two",
+      "Three",
+      "Four",
+      "Five"
+    ],
+    correct: 3,
+    explanation: "A: CORRECT — NCERT: 'Mostly marine and photosynthetic.' B: CORRECT — NCERT: 'They may be yellow, green, brown, blue or red depending on the main pigments present in their cells.' C: CORRECT — NCERT: 'They have two flagella; one lies longitudinally and the other transversely in a furrow between the wall plates.' D: CORRECT — NCERT: 'some dinoflagellates like Gonyaulax undergo rapid multiplication...red tides.' E: CORRECT — NCERT: 'toxins released by them may even kill other marine animals such as fishes.' All five are correct. NTA trap: No false statement — this tests recall of ALL five dinoflagellate features together."
+  },
+  {
+    id: 308,
+    topic: "Kingdom Protista",
+    difficulty: "Medium",
+    type: "Statement",
+    q: "Which of the following is <b>correct</b> about Protozoans?",
+    options: [
+      "All protozoans are free-living and none are parasitic",
+      "All protozoans are believed to be primitive relatives of animals",
+      "Protozoans reproduce exclusively by binary fission",
+      "All protozoans possess cilia as their locomotory organ"
+    ],
+    correct: 1,
+    explanation: "NCERT Line: 'All protozoans are heterotrophs and live as predators or parasites. They are believed to be primitive relatives of animals.' Option A is wrong — protozoans include parasites (e.g., Plasmodium, Trypanosoma). Option C is wrong — ciliates reproduce by conjugation too, and reproduction is not exclusively binary fission. Option D is wrong — different protozoans use pseudopodia (Amoeba), flagella (Trypanosoma), cilia (Paramoecium), or no organelle (Sporozoans/Plasmodium). NTA trap: Option A uses 'none are parasitic' — absolute language that contradicts NCERT."
+  },
+  {
+    id: 309,
+    topic: "Kingdom Protista",
+    difficulty: "Hard",
+    type: "Match",
+    q: "Match Column I (Protozoan) with Column II (Locomotory organ/Feature):<br><br><b>Column I</b><br>(P) Amoeboid protozoans<br>(Q) Flagellated protozoans<br>(R) Ciliated protozoans<br>(S) Sporozoans<br><br><b>Column II</b><br>(i) Lack locomotory organelles; cause diseases<br>(ii) Pseudopodia; found in sea water, fresh water and soil<br>(iii) Cilia; water is driven through oral groove to gullet<br>(iv) Flagella; many are parasites<br><br>Choose the <b>correct</b> match:",
+    options: [
+      "P-ii, Q-iv, R-iii, S-i",
+      "P-iii, Q-iv, R-ii, S-i",
+      "P-ii, Q-i, R-iii, S-iv",
+      "P-iv, Q-ii, R-iii, S-i"
+    ],
+    correct: 0,
+    explanation: "Amoeboid = pseudopodia, fresh/salt water and soil (P-ii). NCERT: 'They move and capture their prey by putting out pseudopodia.' Flagellated = flagella, many are parasites (Q-iv). NCERT: 'some members are free-living while others are parasitic.' Ciliated = cilia, oral groove (R-iii). NCERT: 'These are aquatic, actively moving organisms because of thousands of cilia. They have a cavity (gullet) that opens to the outside of the cell surface. The cilia help in the movement of food...into the gullet.' Sporozoans = no locomotory organelle, pathogenic (S-i). NCERT: 'This includes diverse organisms that have an infectious spore-like stage in their life cycle.' NTA trap: Option B swaps P and R (amoeba vs ciliate)."
+  },
+  {
+    id: 310,
+    topic: "Kingdom Protista",
+    difficulty: "Easy",
+    type: "Direct",
+    q: "Sleeping sickness in humans is caused by:",
+    options: [
+      "Plasmodium vivax",
+      "Trypanosoma",
+      "Entamoeba",
+      "Leishmania"
+    ],
+    correct: 1,
+    explanation: "NCERT Line: 'Trypanosoma (causing sleeping sickness).' This is a direct recall question. Option A (Plasmodium vivax) causes malaria. Option C (Entamoeba) causes amoebic dysentery. Option D (Leishmania) causes kala-azar. NTA trap: All four options are pathogenic protozoans — students must match each pathogen with its specific disease. Sleeping sickness = Trypanosoma = flagellated protozoan."
+  },
+  {
+    id: 311,
+    topic: "Kingdom Protista",
+    difficulty: "Hard",
+    type: "HowMany",
+    q: "How many of the following are correctly matched as per NCERT?<br>(A) Amoeba — Amoeboid protozoan<br>(B) Trypanosoma — Flagellated protozoan causing sleeping sickness<br>(C) Paramoecium — Ciliated protozoan<br>(D) Plasmodium — Sporozoan causing malaria<br>(E) Euglena — Sporozoan",
+    options: [
+      "Two",
+      "Three",
+      "Four",
+      "Five"
+    ],
+    correct: 2,
+    explanation: "A: CORRECT — NCERT gives Amoeba as example of amoeboid protozoans. B: CORRECT — NCERT: 'Trypanosoma (causing sleeping sickness)' is flagellated. C: CORRECT — Paramoecium is the classic example of ciliated protozoan. D: CORRECT — NCERT: 'Plasmodium (causing malaria)...this includes diverse organisms that have an infectious spore-like stage' = sporozoans. E: INCORRECT — Euglena is an EUGLENOID, NOT a sporozoan. It is a connecting link between plants and animals. A, B, C, D = Four correct. NTA trap: Option E is the common confusion — Euglena looks motile like a flagellate but is classified as Euglenoid."
+  },
+  {
+    id: 312,
+    topic: "Kingdom Fungi",
+    difficulty: "Medium",
+    type: "Statement",
+    q: "Which of the following is <b>correct</b> about the mycelium of fungi?",
+    options: [
+      "Mycelium is always aseptate and multinucleate",
+      "Mycelium can be loose or compact organisation of hyphae",
+      "The body of all fungi consists of only single-celled structures",
+      "All hyphae of fungi are septate"
+    ],
+    correct: 1,
+    explanation: "NCERT Line: 'The fungi form a group of thread-like hyphae which form a network called mycelium. The mycelium may be loose or in compact organisation.' Option A is wrong — hyphae can be septate or aseptate (coenocytic). Option C is wrong — NCERT says 'except yeasts which are unicellular, fungi are multicellular.' Option D is wrong — some hyphae are aseptate (coenocytic). NTA trap: Option A uses 'always' — NCERT says SOME hyphae are aseptate, SOME are septate."
+  },
+  {
+    id: 313,
+    topic: "Kingdom Fungi",
+    difficulty: "Medium",
+    type: "Statement",
+    q: "Which of the following is <b>correct</b> about the mode of nutrition in fungi?",
+    options: [
+      "All fungi are photosynthetic autotrophs",
+      "Fungi are obligate parasites only",
+      "Fungi are heterotrophic organisms showing absorptive nutrition",
+      "Fungi can synthesise their food using sunlight"
+    ],
+    correct: 2,
+    explanation: "NCERT Line: 'Fungi are heterotrophic organisms.' They absorb nutrients by secreting digestive enzymes into the substrate (absorptive nutrition). They cannot photosynthesise (no chlorophyll). Options A and D describe autotrophic nutrition — fungi lack chlorophyll. Option B says 'obligate parasites only' — many fungi are saprophytes. NTA trap: Option B is partially correct (some ARE obligate parasites) but 'only' makes it wrong since most fungi are SAPROPHYTES."
+  },
+  {
+    id: 314,
+    topic: "Kingdom Fungi",
+    difficulty: "Medium",
+    type: "Statement",
+    q: "Which of the following features correctly describes Phycomycetes?",
+    options: [
+      "They are found in dung and have septate hyphae",
+      "They are found in aquatic habitats and as obligate parasites; mycelium is aseptate and coenocytic",
+      "They are found in soil and have septate multinucleate hyphae",
+      "They form fruiting bodies called ascocarps"
+    ],
+    correct: 1,
+    explanation: "NCERT Line: 'Members of Phycomycetes are found in aquatic habitats and on decaying wood in moist and damp places or as obligate parasites on plants. The mycelium is aseptate and coenocytic.' Option A gives wrong hyphae type (septate) and wrong habitat. Option C is also wrong (septate). Option D describes Ascomycetes (ascocarps are their fruiting bodies). NTA trap: Option C partially resembles Phycomycetes habitat (soil may be moist) but the key NCERT features are aseptate + coenocytic mycelium."
+  },
+  {
+    id: 315,
+    topic: "Kingdom Fungi",
+    difficulty: "Hard",
+    type: "Match",
+    q: "Match Column I (Class of Fungi) with Column II (Key Feature):<br><br><b>Column I</b><br>(P) Phycomycetes<br>(Q) Ascomycetes<br>(R) Basidiomycetes<br>(S) Deuteromycetes<br><br><b>Column II</b><br>(i) Reproduce only by asexual conidia; no sexual stage known<br>(ii) Aseptate, coenocytic mycelium; zoospores or aplanospores<br>(iii) Basidiospores on basidium; mushrooms, bracket fungi, puffballs<br>(iv) Sac fungi; sexual spores = ascospores in asci<br><br>Choose the <b>correct</b> match:",
+    options: [
+      "P-ii, Q-iv, R-iii, S-i",
+      "P-iv, Q-ii, R-iii, S-i",
+      "P-ii, Q-iv, R-i, S-iii",
+      "P-ii, Q-i, R-iii, S-iv"
+    ],
+    correct: 0,
+    explanation: "Phycomycetes = aseptate coenocytic mycelium, zoospores/aplanospores (P-ii). Ascomycetes = sac fungi, ascospores in asci (Q-iv). NCERT: 'The sexual spores are called ascospores which are produced endogenously in sac-like asci.' Basidiomycetes = basidiospores on basidium, mushrooms/puffballs (R-iii). Deuteromycetes = only asexual conidia, no sexual stage (S-i). NCERT: 'The deuteromycetes reproduce only by asexual spores known as conidia.' NTA trap: Option B swaps P/Q — putting ascospores with Phycomycetes and coenocytic mycelium with Ascomycetes."
+  },
+  {
+    id: 316,
+    topic: "Kingdom Fungi",
+    difficulty: "Medium",
+    type: "Statement",
+    q: "Which of the following is <b>correctly</b> matched as per NCERT?",
+    options: [
+      "Aspergillus — Basidiomycetes; produces penicillin",
+      "Penicillium — Ascomycetes; produces bread mould",
+      "Neurospora — Ascomycetes; extensively used in biochemical and genetic work",
+      "Agaricus — Ascomycetes; common mushroom"
+    ],
+    correct: 2,
+    explanation: "NCERT Line: 'Neurospora is used extensively in biochemical and genetic work.' Neurospora is an Ascomycete (sac fungus). Option A is wrong — Aspergillus is an Ascomycetes/Deuteromycetes, NOT Basidiomycetes; penicillin is from Penicillium, not Aspergillus. Option B is wrong — bread mould is Rhizopus (Phycomycetes), not Penicillium. Option D is wrong — Agaricus is a BASIDIOMYCETES (common mushroom), not Ascomycetes. NTA trap: Option D looks right to students who know Agaricus is a mushroom but forget its classification is Basidiomycetes."
+  },
+  {
+    id: 317,
+    topic: "Kingdom Fungi",
+    difficulty: "Hard",
+    type: "HowMany",
+    q: "How many of the following organisms belong to Basidiomycetes as per NCERT?<br>(A) Agaricus (mushroom)<br>(B) Ustilago (smut)<br>(C) Puccinia (rust)<br>(D) Neurospora<br>(E) Puffballs<br>(F) Bracket fungi",
+    options: [
+      "Three",
+      "Four",
+      "Five",
+      "Six"
+    ],
+    correct: 2,
+    explanation: "NCERT Line: 'The basidiomycetes include forms like mushrooms, bracket fungi or puffballs...Common examples are Agaricus (mushroom), Ustilago (smut) and Puccinia (rust fungus).' A: CORRECT (Agaricus). B: CORRECT (Ustilago). C: CORRECT (Puccinia). D: INCORRECT — Neurospora is an ASCOMYCETES, not Basidiomycetes. E: CORRECT (puffballs). F: CORRECT (bracket fungi). A, B, C, E, F = Five correct. NTA trap: Neurospora is the 'intruder' — it is Ascomycetes, not Basidiomycetes."
+  },
+  {
+    id: 318,
+    topic: "Kingdom Fungi",
+    difficulty: "Medium",
+    type: "Statement",
+    q: "Deuteromycetes are also called 'imperfect fungi' because:",
+    options: [
+      "They are morphologically primitive and have no proper cell walls",
+      "Only their asexual phase is known; sexual stage has not been observed",
+      "They have very slow growth rate in nature",
+      "Their sexual spores are very small and imperfect in structure"
+    ],
+    correct: 1,
+    explanation: "NCERT Line: 'Deuteromycetes — commonly known as imperfect fungi because only the asexual or vegetative phases of these fungi are known.' The 'imperfect' classification is because the sexual (perfect) stage is unknown — only asexual reproduction via conidia is observed. Options A, C, D introduce concepts not in NCERT. NTA trap: Students may guess 'primitive' or 'slow growth' from general biology but the NCERT reason is purely about absence of sexual stage."
+  },
+  {
+    id: 319,
+    topic: "Kingdom Fungi",
+    difficulty: "Medium",
+    type: "Statement",
+    q: "Which of the following is <b>correct</b> about Alternaria?",
+    options: [
+      "It belongs to Ascomycetes and produces ascospores",
+      "It belongs to Deuteromycetes and helps in decomposition of litter",
+      "It belongs to Basidiomycetes and causes smut disease",
+      "It belongs to Phycomycetes and has aseptate mycelium"
+    ],
+    correct: 1,
+    explanation: "NCERT Line: 'Trichoderma, Alternaria, Colletotrichum...These fungi help in decomposition of litter and thereby help in mineral cycling.' Alternaria belongs to Deuteromycetes. Option A is wrong — Alternaria is not an Ascomycete. Option C is wrong — Ustilago causes smut (Basidiomycetes). Option D is wrong — Phycomycetes have aseptate mycelium but Alternaria is Deuteromycetes. NTA trap: Alternaria is a well-known pathogen but in NCERT it is primarily mentioned for decomposition of litter in the Deuteromycetes context."
+  },
+  {
+    id: 320,
+    topic: "Kingdom Fungi",
+    difficulty: "Hard",
+    type: "AR",
+    q: "<b>Assertion (A):</b> Lichens do not grow in areas with air pollution.<br><b>Reason (R):</b> Lichens are very sensitive to SO₂ pollution in the environment.",
+    options: [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is NOT the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    correct: 0,
+    explanation: "A is TRUE — NCERT: 'They do not grow in polluted areas.' R is TRUE — NCERT: 'they are very sensitive to SO₂ pollution in the environment. Hence they serve as pollution indicators.' R correctly explains A — the reason they don't grow in polluted areas is SPECIFICALLY because of SO₂ sensitivity that damages the symbiotic partners. NCERT explicitly links SO₂ sensitivity (R) to non-growth in polluted areas (A) as cause-effect. NTA trap: Students might choose B thinking the reason needs broader context, but NCERT directly links SO₂ sensitivity to their absence in polluted areas."
+  },
+  {
+    id: 321,
+    topic: "Kingdom Fungi",
+    difficulty: "Medium",
+    type: "Statement",
+    q: "Which of the following pairs correctly represents the partners in a lichen?",
+    options: [
+      "Algae + Bryophytes in symbiotic association",
+      "Algae or Cyanobacteria + Fungi in symbiotic association",
+      "Fungi + Bacteria in mutualistic association",
+      "Algae + Mycoplasma in symbiotic association"
+    ],
+    correct: 1,
+    explanation: "NCERT Line: 'Lichens are symbiotic associations between algae and fungi. The algal component is known as phycobiont and fungal component as mycobiont, which are autotrophic and heterotrophic respectively.' NCERT also mentions that the algal partner can be cyanobacteria (blue-green algae). Option A replaces fungi with bryophytes. Options C and D have wrong partners. NTA trap: Option A is tempting since both algae and bryophytes are 'plant-like' but the partner in lichen is always FUNGI."
+  },
+  {
+    id: 322,
+    topic: "Viruses",
+    difficulty: "Easy",
+    type: "Direct",
+    q: "Who first crystallised the Tobacco Mosaic Virus (TMV) in 1935?",
+    options: [
+      "Dimitri Ivanowsky",
+      "M.W. Beijerinck",
+      "W.M. Stanley",
+      "Pasteur"
+    ],
+    correct: 2,
+    explanation: "NCERT Line: 'W.M. Stanley (1935) showed that viruses could be crystallised and crystals consist largely of proteins. He also showed the virus to be inert except when in contact with the host cells. The first crystallised virus was Tobacco Mosaic Virus (TMV).' Option A (Ivanowsky) is who first showed the filterable nature of TMV in 1892. Option B (Beijerinck) called it 'Contagium vivum fluidum.' NTA trap: Ivanowsky and Stanley are both associated with TMV — Ivanowsky for discovery of its filterable nature, Stanley for crystallisation."
+  },
+  {
+    id: 323,
+    topic: "Viruses",
+    difficulty: "Hard",
+    type: "Match",
+    q: "Match Column I (Scientist) with Column II (Contribution to virology):<br><br><b>Column I</b><br>(P) Ivanowsky<br>(Q) M.W. Beijerinck<br>(R) W.M. Stanley<br>(S) Louis Pasteur<br><br><b>Column II</b><br>(i) Crystallised TMV; showed virus is proteins<br>(ii) Called infectious agent 'Contagium vivum fluidum'<br>(iii) Showed tobacco mosaic disease is caused by a filterable agent<br>(iv) Worked on rabies; coined the term 'virus'<br><br>Choose the <b>correct</b> match:",
+    options: [
+      "P-iii, Q-ii, R-i, S-iv",
+      "P-ii, Q-iii, R-i, S-iv",
+      "P-iii, Q-i, R-ii, S-iv",
+      "P-iii, Q-ii, R-iv, S-i"
+    ],
+    correct: 0,
+    explanation: "Ivanowsky (1892) → filterable nature of TMV (P-iii). NCERT: 'Ivanowsky (1892) recognised certain microbes as being smaller than bacteria...could pass through Chamberland filter-candles.' Beijerinck → called it Contagium vivum fluidum (Q-ii). NCERT: 'Beijerinck (1898) demonstrated that the extract of the infected tobacco plants could cause infection in healthy plants...called this fluid as Contagium vivum fluidum.' Stanley → crystallised TMV (R-i). Pasteur → rabies, coined 'virus' (S-iv). NCERT: 'Pasteur suggested the name 'virus' for such agents.' NTA trap: Option B swaps Ivanowsky and Beijerinck's contributions — a classic timeline confusion."
+  },
+  {
+    id: 324,
+    topic: "Viruses",
+    difficulty: "Hard",
+    type: "HowMany",
+    q: "How many of the following statements about viruses are <b>correct</b>?<br>(A) Viruses have their own metabolic machinery<br>(B) Viruses are acellular<br>(C) Viruses contain both DNA and RNA simultaneously<br>(D) In plant viruses, single stranded RNA is the most common genetic material<br>(E) Bacteriophages mostly have double stranded DNA",
+    options: [
+      "Two",
+      "Three",
+      "Four",
+      "Five"
+    ],
+    correct: 1,
+    explanation: "A: INCORRECT — NCERT: Viruses are 'obligate parasites' that do NOT have their own metabolic machinery — they use host machinery. B: CORRECT — Viruses are acellular (not made of cells). C: INCORRECT — Viruses contain either DNA OR RNA (never both simultaneously). D: CORRECT — NCERT: 'In general, viruses that infect plants have single stranded RNA and viruses that infect animals have either single or double stranded RNA or double stranded DNA.' E: CORRECT — NCERT: 'Bacteriophages are mostly double stranded DNA viruses.' B, D, E = Three correct. NTA trap: Statement A is a HIGH-YIELD trap — viruses do NOT have their own metabolism, they are obligate intracellular parasites."
+  },
+  {
+    id: 325,
+    topic: "Viruses",
+    difficulty: "Medium",
+    type: "Statement",
+    q: "Which of the following statements about the genetic material of viruses is <b>correct</b>?",
+    options: [
+      "All viruses contain double stranded DNA",
+      "Animal viruses always have single stranded RNA",
+      "Plant viruses generally have single stranded RNA; animal viruses can have single or double stranded RNA or double stranded DNA",
+      "Bacteriophages always contain single stranded RNA"
+    ],
+    correct: 2,
+    explanation: "NCERT Line: 'In general, viruses that infect plants have single stranded RNA and viruses that infect animals have either single or double stranded RNA or double stranded DNA. Bacteriophages are mostly double stranded DNA viruses.' Option A is wrong — viruses can have RNA too. Option B is wrong — animal viruses can have DNA as well. Option D is wrong — bacteriophages are mostly DOUBLE STRANDED DNA. NTA trap: Option D reverses RNA/DNA for bacteriophages — a classic NCERT line swap."
+  },
+  {
+    id: 326,
+    topic: "Viruses",
+    difficulty: "Medium",
+    type: "Except",
+    q: "Viruses cause all of the following diseases <b>EXCEPT</b>:",
+    options: [
+      "Mumps",
+      "Smallpox",
+      "Citrus canker",
+      "AIDS"
+    ],
+    correct: 2,
+    explanation: "NCERT Line: 'Viruses cause diseases in plants, animals and humans as well. In humans they are responsible for diseases like mumps, small pox, herpes and influenza. AIDS is also cause by a virus.' Citrus canker is a BACTERIAL disease. NCERT: 'Cholera, typhoid, tetanus, citrus canker are well known diseases caused by different bacteria.' NTA trap: Citrus canker is the #1 highest-yield 'disease-organism' pairing in NEET — it is a bacterial disease that students falsely attribute to virus or fungi."
+  },
+  {
+    id: 327,
+    topic: "Viroids",
+    difficulty: "Easy",
+    type: "Direct",
+    q: "Viroids were discovered by:",
+    options: [
+      "W.M. Stanley",
+      "T.O. Diener",
+      "Dimitri Ivanowsky",
+      "Carl Woese"
+    ],
+    correct: 1,
+    explanation: "NCERT Line: 'In 1971, T.O. Diener discovered a new infectious agent that was smaller than viruses and caused potato spindle tuber disease.' Viroids = discovered by T.O. Diener (1971). Option A (Stanley) crystallised TMV. Option C (Ivanowsky) discovered filterable nature of TMV. Option D (Woese) proposed 3-domain system. NTA trap: All four scientists are covered in NCERT biology — mixing up their contributions is a classic NTA question format."
+  },
+  {
+    id: 328,
+    topic: "Viroids",
+    difficulty: "Medium",
+    type: "Statement",
+    q: "Which of the following correctly describes viroids?",
+    options: [
+      "A free RNA that lacks a protein coat",
+      "A DNA segment without a protein coat",
+      "A segment with both RNA and protein coat smaller than viruses",
+      "A virus with only a protein coat and no nucleic acid"
+    ],
+    correct: 0,
+    explanation: "NCERT Line: 'It was found to be a free RNA; it lacked the protein coat that is found in viruses, hence the name viroid.' Key features of viroids: (1) FREE RNA (not DNA), (2) LACK protein coat, (3) smaller than viruses. Option B says DNA — wrong, viroids have RNA. Option C says 'with protein coat' — wrong, viroids LACK protein coat. Option D says only protein, no nucleic acid — that describes prions, not viroids. NTA trap: The most tested viroid fact is absence of protein coat. Students may confuse viroids with defective viruses."
+  },
+  {
+    id: 329,
+    topic: "Viroids",
+    difficulty: "Hard",
+    type: "AR",
+    q: "<b>Assertion (A):</b> Viroids are considered more infectious agents than viruses.<br><b>Reason (R):</b> Viroids consist of free RNA without a protein coat, which makes them smaller and simpler than viruses.",
+    options: [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is NOT the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    correct: 3,
+    explanation: "A is FALSE — NCERT does NOT state that viroids are 'more infectious than viruses.' NCERT only says they are 'smaller than viruses' and cause plant diseases. R is TRUE — NCERT: 'a free RNA; it lacked the protein coat...it was smaller than viruses.' The reason correctly describes viroid structure but the assertion is factually unsupported by NCERT. NTA trap: R is a correct NCERT statement, but A makes a comparative claim ('more infectious') that NCERT never makes — this tests careful reading of absolute comparisons."
+  },
+  {
+    id: 330,
+    topic: "Cross-topic: Kingdom Comparison",
+    difficulty: "Hard",
+    type: "Match",
+    q: "Match Column I (Kingdom) with Column II (Mode of Nutrition as per Table 2.1):<br><br><b>Column I</b><br>(P) Monera<br>(Q) Fungi<br>(R) Plantae<br>(S) Animalia<br><br><b>Column II</b><br>(i) Heterotrophic (Holozoic/Saprophytic etc.)<br>(ii) Autotrophic (Photosynthetic)<br>(iii) Autotrophic (Chemosynthetic and Photosynthetic) + Heterotrophic (Saprophytic/Parasitic)<br>(iv) Heterotrophic (Saprophytic/Parasitic)<br><br>Choose the <b>correct</b> match:",
+    options: [
+      "P-iii, Q-iv, R-ii, S-i",
+      "P-iv, Q-iii, R-ii, S-i",
+      "P-iii, Q-i, R-ii, S-iv",
+      "P-ii, Q-iv, R-iii, S-i"
+    ],
+    correct: 0,
+    explanation: "From Table 2.1: Monera = both autotrophic (chemosynthetic + photosynthetic) AND heterotrophic (saprophytic/parasitic) = (iii). Fungi = saprophytic/parasitic heterotrophic = (iv). Plantae = photosynthetic autotrophic = (ii). Animalia = holozoic/saprophytic heterotrophic = (i). NTA trap: Option B swaps Monera and Fungi — giving Monera only the saprophytic/parasitic mode. The KEY distinction is Monera has BOTH autotrophic and heterotrophic modes; Fungi has ONLY heterotrophic (saprophytic/parasitic)."
+  },
+  {
+    id: 331,
+    topic: "Cross-topic: Comprehensive Comparison",
+    difficulty: "Hard",
+    type: "HowMany",
+    q: "How many of the following statements are <b>correct</b> as per NCERT?<br>(A) Slime moulds form spores that are covered by hard protective walls<br>(B) The fruiting body of Basidiomycetes bears basidiospores exogenously<br>(C) Ascospores are produced endogenously in sac-like asci<br>(D) In Phycomycetes, sexual reproduction is by zygospore, oospore or ascospore<br>(E) Conidia are produced exogenously in Deuteromycetes",
+    options: [
+      "Two",
+      "Three",
+      "Four",
+      "Five"
+    ],
+    correct: 1,
+    explanation: "A: CORRECT — NCERT: 'Slime moulds...form an aggregation...finally forms spores. Spores are covered by hard protective walls and survive under unfavourable conditions.' B: CORRECT — NCERT: 'The fruiting bodies...bear the basidiospores. The basidiospores are exogenously produced on the basidium.' C: CORRECT — NCERT: 'The sexual spores are called ascospores which are produced endogenously in sac-like asci.' D: INCORRECT — In Phycomycetes, sexual reproduction produces oospores, zygospores or aplanospores — NOT ascospores. Ascospores are in Ascomycetes. E: CORRECT — NCERT: 'Deuteromycetes reproduce only by asexual spores known as conidia...produced exogenously.' A, B, C, E = Four correct. NTA trap: Statement D inserts 'ascospore' which belongs to Ascomycetes — class swap trap."
+  },
+  {
+    id: 332,
+    topic: "Cross-topic: All Kingdoms",
+    difficulty: "Hard",
+    type: "Statement",
+    q: "Which of the following correctly describes the SEXUAL reproduction type in the respective fungal class?",
+    options: [
+      "Ascomycetes — oospores or zygospores",
+      "Phycomycetes — ascospores in asci",
+      "Basidiomycetes — basidiospores on basidium",
+      "Deuteromycetes — by conidia on conidiophores"
+    ],
+    correct: 2,
+    explanation: "NCERT: Basidiomycetes produce basidiospores exogenously on basidium (C correct). Option A is wrong — oospores/zygospores are Phycomycetes sexual spores. Option B is wrong — ascospores in asci are Ascomycetes, not Phycomycetes. Option D is wrong — conidia (Deuteromycetes) are ASEXUAL spores, not sexual spores. NTA trap: Option D confuses asexual (conidia) with sexual reproduction — conidia are ASEXUAL. Also, Deuteromycetes have NO known sexual stage."
+  },
+  {
+    id: 333,
+    topic: "Cross-topic: Disease-Kingdom",
+    difficulty: "Hard",
+    type: "Match",
+    q: "Match Column I (Disease/Condition) with Column II (Causative Organism/Kingdom):<br><br><b>Column I</b><br>(P) Sleeping sickness<br>(Q) Malaria<br>(R) Late blight of potato<br>(S) Bread mould<br><br><b>Column II</b><br>(i) Rhizopus — Phycomycetes<br>(ii) Phytophthora — Phycomycetes<br>(iii) Plasmodium — Sporozoans (Protista)<br>(iv) Trypanosoma — Flagellated Protozoans (Protista)<br><br>Choose the <b>correct</b> match:",
+    options: [
+      "P-iv, Q-iii, R-ii, S-i",
+      "P-iii, Q-iv, R-i, S-ii",
+      "P-iv, Q-iii, R-i, S-ii",
+      "P-iv, Q-ii, R-iii, S-i"
+    ],
+    correct: 0,
+    explanation: "Sleeping sickness = Trypanosoma (flagellated protozoan) (P-iv). Malaria = Plasmodium (sporozoan) (Q-iii). Late blight of potato = Phytophthora (Phycomycetes) (R-ii). NCERT: 'Albugo (the common plant parasite on mustard), Phytophthora...are examples of Phycomycetes.' Bread mould = Rhizopus (Phycomycetes) (S-i). NTA trap: Option C swaps late blight (Phytophthora) and bread mould (Rhizopus). Both are Phycomycetes but different examples."
+  },
+  {
+    id: 334,
+    topic: "Cross-topic: Comprehensive Chapter 2",
+    difficulty: "Hard",
+    type: "HowMany",
+    q: "How many of the following are <b>correctly</b> stated as per NCERT Chapter 2?<br>(A) Prions are misfolded proteins that are infectious<br>(B) Viroids are found free in host cell without integrating into chromosome<br>(C) Bacteriorhodopsin is produced by halophiles to carry out photosynthesis<br>(D) Lichens grow very slowly — about 1 mm per year<br>(E) The algal component of lichen is called mycobiont",
+    options: [
+      "One",
+      "Two",
+      "Three",
+      "Four"
+    ],
+    correct: 1,
+    explanation: "A: CORRECT — NCERT: 'The infectious proteins called prions are the causative agents of certain diseases. These have misfolded proteins.' B: CORRECT — NCERT: 'viroid is free RNA...not integrated into chromosome' (implied by its 'free' nature). C: INCORRECT — NCERT: 'Some of the halophiles...use bacteriorhodopsin for photosynthesis' — but NCERT classifies this under Archaebacteria, not protists. Actually, NCERT does say halophiles use bacteriorhodopsin. This is CORRECT. D: INCORRECT — NCERT: 'Lichens are very good pollution indicators...they grow very slowly — about 1 cm per year' (1 cm, NOT 1 mm). E: INCORRECT — The ALGAL component is called PHYCOBIONT; MYCOBIONT is the fungal component — reversed. A, C correct (2). NTA trap: Option E reverses phycobiont/mycobiont. Option D changes 1 cm to 1 mm — unit swap trap. Common mistakes: Phycobiont vs mycobiont and 1 cm vs 1 mm."
+  },
+  {
+    id: 335,
+    topic: "Cross-topic: Comprehensive Chapter 2",
+    difficulty: "Medium",
+    type: "Statement",
+    q: "Select the <b>correct</b> statement about Lichens from NCERT:",
+    options: [
+      "In lichens, the algal component (mycobiont) is autotrophic",
+      "The fungi in lichen mainly absorbs water and nutrients and provides shelter to algae",
+      "The algal component of lichen is called mycobiont",
+      "Lichens grow at a rate of 1 mm per year"
+    ],
+    correct: 1,
+    explanation: "NCERT Line: 'In lichens the fungi component provides the protective covering while the algal component carries out photosynthesis. The fungal partner mainly absorbs water and nutrients.' Option A is wrong — MYCOBIONT is the FUNGAL component (not algal); the ALGAL component (PHYCOBIONT) is autotrophic. Option C reverses phycobiont/mycobiont. Option D — NCERT says growth rate of 1 CM per year (not 1 mm). NTA trap: Options A and C test whether students know that MYCOBIONT = fungal partner and PHYCOBIONT = algal partner. This reversal is tested nearly every year."
+  },
+  {
+    id: 336,
+    topic: "Cross-topic: Reproduction in Kingdoms",
+    difficulty: "Hard",
+    type: "HowMany",
+    q: "How many of the following statements about reproduction in fungi are <b>correct</b> as per NCERT?<br>(A) Vegetative reproduction in fungi occurs by fragmentation, budding and fission<br>(B) Asexual reproduction in fungi occurs by spore formation only<br>(C) In conidia formation, spores are produced exogenously on special mycelium called conidiophores<br>(D) In Ascomycetes, sexual spores are called ascospores produced endogenously in asci<br>(E) Fusion of two gametes during sexual reproduction in fungi is called karyogamy",
+    options: [
+      "Two",
+      "Three",
+      "Four",
+      "Five"
+    ],
+    correct: 1,
+    explanation: "A: CORRECT — NCERT: 'Vegetative reproduction: by fragmentation, fission in unicellular fungi and by budding.' B: INCORRECT — NCERT lists multiple asexual modes: zoospores, aplanospores, conidia, sporangiospores — NOT only spore formation. C: CORRECT — NCERT: 'Conidia are exogenously produced on special mycelium called conidiophores.' D: CORRECT — NCERT: 'ascospores which are produced endogenously in sac-like asci (singular ascus).' E: INCORRECT — Karyogamy is the FUSION OF NUCLEI (not gametes). Fusion of gametes is PLASMOGAMY. The two are distinct steps. A, C, D = Three correct. NTA trap: Statement E swaps karyogamy and plasmogamy. Plasmogamy = fusion of protoplasms of gametes; Karyogamy = fusion of nuclei. This is a HIGH-YIELD NTA distinction."
+  },
+  {
+    id: 337,
+    topic: "Cross-topic: Comprehensive Revision",
+    difficulty: "Hard",
+    type: "HowMany",
+    q: "How many of the following statements are <b>correct</b> as per NCERT Chapter 2?<br>(A) Bacteria are the sole members of Kingdom Monera<br>(B) Chrysophytes include diatoms and golden algae<br>(C) Euglenoids have protein-rich layer called pellicle instead of cell wall<br>(D) Fungi store food as glycogen like animals<br>(E) Viroids were discovered in 1992 by Ivanowsky",
+    options: [
+      "Two",
+      "Three",
+      "Four",
+      "Five"
+    ],
+    correct: 1,
+    explanation: "A: CORRECT — NCERT: 'Bacteria are the sole members of the Kingdom Monera.' B: CORRECT — NCERT: 'Chrysophytes: This group includes diatoms and golden algae (desmids).' C: CORRECT — NCERT: 'Instead of cell wall, they have a protein rich layer called pellicle.' D: CORRECT — NCERT: 'Like animals, fungi also store food as glycogen.' E: INCORRECT — Viroids were discovered in 1971 by T.O. Diener (NOT 1992 by Ivanowsky). Ivanowsky discovered filterable nature of TMV in 1892. A, B, C, D = Four correct. NTA trap: Statement E has TWO errors — wrong year (1971 not 1992) and wrong scientist (Diener not Ivanowsky). This is the 'double error' trap where both the year and scientist are swapped."
+  },
+  {
+    id: 338,
+    topic: "Cross-topic: Grand Finale",
+    difficulty: "Hard",
+    type: "Statement",
+    q: "Which combination of statements from NCERT Chapter 2 are ALL <b>correct</b>?<br>I. Whittaker (1969) proposed 5-kingdom classification based on 5 criteria including habitat<br>II. Methanogens in gut of ruminants help produce biogas (methane)<br>III. Cyanobacteria fix nitrogen using heterocysts<br>IV. Dinoflagellates cause red tides due to large amounts of red pigments<br>V. Viroids lack protein coat and consist of free RNA<br>VI. The algal component of lichen is called mycobiont",
+    options: [
+      "II, III, IV and V only",
+      "I, II, III and IV only",
+      "II, III, V and VI only",
+      "I, II, IV and V only"
+    ],
+    correct: 0,
+    explanation: "I: WRONG — Habitat is NOT one of Whittaker's 5 criteria. His criteria are: cell structure, body organisation, mode of nutrition, reproduction, phylogenetic relationships. II: CORRECT — NCERT: 'Methanogens...responsible for production of methane (biogas) from the dung of these animals.' III: CORRECT — NCERT: 'fix atmospheric nitrogen in specialised cells called heterocysts.' IV: CORRECT — NCERT: 'due to the presence of large amounts of red pigments...make the sea appear red (Red tides).' V: CORRECT — NCERT: 'a free RNA; it lacked the protein coat.' VI: WRONG — MYCOBIONT is the FUNGAL component; PHYCOBIONT is the algal component. II, III, IV, V correct. NTA trap: This integrates the TWO most common errors in Chapter 2 into one question — Whittaker's 'habitat' trap (Statement I) and the mycobiont/phycobiont reversal (Statement VI)."
   }
 ];

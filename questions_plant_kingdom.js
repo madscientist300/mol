@@ -3714,5 +3714,401 @@ const allQuestions = [
     ],
     correct: 1,
     explanation: "Sporophyte independence increases: Bryophytes (sporophyte dependent on gametophyte) → Pteridophytes (sporophyte independent and dominant) → Gymnosperms (sporophyte dominant, produces seeds, gametophyte fully dependent)."
+  },
+
+  // ===== ANGIOSPERMS (Q287–Q305) =====
+  {
+    id: 287,
+    topic: "Angiosperms",
+    q: "Angiosperms differ from gymnosperms in having:",
+    options: [
+      "Pollen grains",
+      "Seeds",
+      "Flowers and fruits enclosing seeds",
+      "Vascular tissue"
+    ],
+    correct: 2,
+    explanation: "The defining feature of angiosperms is that the seeds are enclosed within a fruit (ripened ovary), hence also called flowering plants. Gymnosperms also have pollen, seeds, and vascular tissue — but their seeds are naked (not enclosed in fruit)."
+  },
+  {
+    id: 288,
+    topic: "Angiosperms",
+    q: "The term 'angiosperm' literally means:",
+    options: [
+      "Naked seed",
+      "Enclosed seed",
+      "Flowering plant only",
+      "Vascular plant"
+    ],
+    correct: 1,
+    explanation: "Angiosperm is derived from Greek: 'angios' = vessel/container and 'sperma' = seed. So angiosperm literally means 'enclosed seed' — seeds are enclosed within a fruit (the ripened ovary). Gymnosperm = 'naked seed.'"
+  },
+  {
+    id: 289,
+    topic: "Angiosperms",
+    q: "Angiosperms are the most dominant plant group on Earth today. Which of the following <b>correctly</b> lists reasons for their success?<br>(i) Presence of flowers for pollination<br>(ii) Seeds enclosed in fruits for dispersal<br>(iii) Vessel elements for efficient water transport<br>(iv) Dependence on water for fertilisation",
+    options: [
+      "(i), (ii) and (iii) only",
+      "(i), (ii), (iii) and (iv)",
+      "(iv) only",
+      "(i) and (iv) only"
+    ],
+    correct: 0,
+    explanation: "Angiosperms' ecological success is attributed to flowers (aid in pollination), enclosed seeds/fruits (aid in dispersal), and vessel elements (for efficient water and mineral transport). Dependence on water for fertilisation is a DISADVANTAGE — angiosperms are independent of water for fertilisation (unlike bryophytes and pteridophytes)."
+  },
+  {
+    id: 290,
+    topic: "Angiosperms",
+    q: "Angiosperms are divided into two classes based on the number of cotyledons. Which of the following is <b>incorrect</b>?",
+    options: [
+      "Monocots have one cotyledon",
+      "Dicots have two cotyledons",
+      "Monocots have reticulate venation",
+      "Dicots have tap root system"
+    ],
+    correct: 2,
+    explanation: "Monocots have parallel venation (NOT reticulate). Reticulate venation is characteristic of dicots. Other statements are correct: monocots have 1 cotyledon, dicots have 2 cotyledons, and dicots typically have tap root systems."
+  },
+  {
+    id: 291,
+    topic: "Angiosperms",
+    q: "<b>Assertion (A):</b> Angiosperms are the most evolved group of plants.<br><b>Reason (R):</b> They have well-differentiated vascular tissue with vessels, enclose seeds in fruits, and show double fertilisation.",
+    options: [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is not the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    correct: 0,
+    explanation: "Angiosperms are the most advanced (evolved) group in the plant kingdom (A). Their advanced status is due to presence of vessels in xylem for efficient water transport, seeds enclosed in fruits, and the unique double fertilisation process (R). R correctly provides the structural and reproductive reasons for A."
+  },
+  {
+    id: 292,
+    topic: "Angiosperms",
+    q: "Double fertilisation, a unique feature of angiosperms, involves:",
+    options: [
+      "Two pollen grains fusing with one egg cell",
+      "One pollen grain fusing with two egg cells",
+      "Fusion of one male gamete with the egg (syngamy) AND fusion of another male gamete with the secondary nucleus (triple fusion)",
+      "Fusion of two polar nuclei only, without fertilisation"
+    ],
+    correct: 2,
+    explanation: "Double fertilisation in angiosperms involves: (1) Syngamy — one male gamete + egg cell → zygote (2n), and (2) Triple fusion — other male gamete + two polar nuclei → Primary Endosperm Nucleus (3n). Both events are called 'double fertilisation' since two fusion events occur involving two male gametes."
+  },
+  {
+    id: 293,
+    topic: "Angiosperms",
+    q: "The endosperm in angiosperms is:",
+    options: [
+      "Diploid (2n), formed from fertilisation of egg",
+      "Haploid (n), formed from polar nuclei directly",
+      "Triploid (3n), formed by triple fusion",
+      "Tetraploid (4n), formed by double fertilisation"
+    ],
+    correct: 2,
+    explanation: "Endosperm is formed by triple fusion — one male gamete (n) + two polar nuclei (n + n) = Primary Endosperm Nucleus (3n = triploid). Endosperm nourishes the developing embryo. This triploid endosperm is unique to angiosperms."
+  },
+  {
+    id: 294,
+    topic: "Angiosperms",
+    q: "In angiosperms, the phloem differs from that of gymnosperms by the presence of:",
+    options: [
+      "Sieve cells instead of sieve tubes",
+      "Companion cells along with sieve tube elements",
+      "Absence of all living cells",
+      "Tracheids instead of vessels"
+    ],
+    correct: 1,
+    explanation: "Angiosperm phloem has sieve tube elements associated with companion cells. Gymnosperm phloem has sieve cells but LACKS companion cells. The presence of companion cells is a distinctive feature of angiosperm phloem."
+  },
+  {
+    id: 295,
+    topic: "Angiosperms",
+    q: "Which of the following features is <b>exclusively</b> found in angiosperms among all plant groups?",
+    options: [
+      "Presence of seeds",
+      "Presence of vascular tissue",
+      "Double fertilisation and formation of triploid endosperm",
+      "Presence of vessels in xylem"
+    ],
+    correct: 2,
+    explanation: "Double fertilisation leading to triploid (3n) endosperm is exclusively found in angiosperms. Seeds are also in gymnosperms. Vascular tissue is in pteridophytes and gymnosperms. Vessel elements are present in some gymnosperms too (e.g., Gnetum)."
+  },
+  {
+    id: 296,
+    topic: "Angiosperms",
+    q: "The fruit in angiosperms is derived from:",
+    options: [
+      "The ovule after fertilisation",
+      "The ripened ovary after fertilisation",
+      "The entire flower after pollination",
+      "The pericarp alone"
+    ],
+    correct: 1,
+    explanation: "A fruit is a ripened ovary. After fertilisation, the ovary wall (pericarp) develops into the fruit wall, enclosing the seeds (developed from ovules). This enclosure of seeds distinguishes angiosperms from gymnosperms where seeds are naked."
+  },
+  {
+    id: 297,
+    topic: "Angiosperms",
+    q: "Consider the following:<br>(i) Angiosperms have vessels in xylem<br>(ii) Gymnosperms have only tracheids in xylem<br>(iii) Angiosperms have companion cells in phloem<br>(iv) Gymnosperms have companion cells in phloem<br><br>How many are correct?",
+    options: [
+      "One",
+      "Two",
+      "Three",
+      "Four"
+    ],
+    correct: 2,
+    explanation: "(i) CORRECT — angiosperms have vessels (highly efficient water conducting elements). (ii) CORRECT — gymnosperms lack vessels; they have only tracheids. (iii) CORRECT — angiosperm phloem has companion cells. (iv) INCORRECT — gymnosperm phloem lacks companion cells; it has sieve cells but NO companion cells. Three are correct."
+  },
+  {
+    id: 298,
+    topic: "Angiosperms",
+    q: "The flower is considered a modified:",
+    options: [
+      "Vegetative shoot",
+      "Sporophyll-bearing condensed shoot",
+      "Leaf",
+      "Underground structure"
+    ],
+    correct: 1,
+    explanation: "A flower is a condensed, modified shoot bearing sporophylls (stamens = microsporophylls; carpels = megasporophylls). This interpretation links the flower to the sporangia-bearing structures of pteridophytes and gymnosperms, reflecting evolutionary continuity."
+  },
+  {
+    id: 299,
+    topic: "Angiosperms",
+    q: "<b>Assertion (A):</b> In angiosperms, fertilisation can occur without the presence of water.<br><b>Reason (R):</b> Pollen tube delivers the male gametes directly to the egg cell inside the ovule.",
+    options: [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is not the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    correct: 0,
+    explanation: "Unlike bryophytes and pteridophytes where motile sperms swim in water to the egg, angiosperms (and gymnosperms) produce pollen tubes that carry male gametes directly to the egg. This eliminates dependence on water for fertilisation. R correctly explains A."
+  },
+  {
+    id: 300,
+    topic: "Angiosperms",
+    q: "Which of the following statements correctly differentiates monocots from dicots?<br>(i) Monocots: fibrous roots, parallel venation, flower parts in 3s<br>(ii) Dicots: tap roots, reticulate venation, flower parts in 4s or 5s<br>(iii) Monocots: vascular bundles are scattered<br>(iv) Dicots: vascular bundles arranged in a ring",
+    options: [
+      "(i) and (ii) only",
+      "(i), (ii) and (iii) only",
+      "(i), (ii), (iii) and (iv)",
+      "(iii) and (iv) only"
+    ],
+    correct: 2,
+    explanation: "All four statements are correct. Monocots have fibrous roots, parallel venation, flower parts in multiples of 3, and scattered vascular bundles. Dicots have tap roots, reticulate venation, flower parts in 4s or 5s, and ring-arranged vascular bundles."
+  },
+  {
+    id: 301,
+    topic: "Angiosperms",
+    q: "The gametophyte generation in angiosperms is represented by:",
+    options: [
+      "The entire plant body",
+      "Pollen grain (male gametophyte) and embryo sac (female gametophyte)",
+      "Only the ovule",
+      "The endosperm only"
+    ],
+    correct: 1,
+    explanation: "In angiosperms, the gametophyte is highly reduced and entirely dependent on the sporophyte. The male gametophyte = pollen grain (2-celled or 3-celled structure). The female gametophyte = embryo sac (7-celled, 8-nucleate structure). Both are microscopic and nutritionally dependent on the sporophyte."
+  },
+  {
+    id: 302,
+    topic: "Angiosperms",
+    q: "The embryo sac of a typical angiosperm is:",
+    options: [
+      "7-celled and 8-nucleate",
+      "4-celled and 4-nucleate",
+      "8-celled and 8-nucleate",
+      "3-celled and 6-nucleate"
+    ],
+    correct: 0,
+    explanation: "A typical (Polygonum type) angiosperm embryo sac is 7-celled and 8-nucleate: 3 antipodal cells, 2 synergids, 1 egg cell, and 1 central cell with 2 polar nuclei. The central cell thus has 2 nuclei — making 8 nuclei total in 7 cells."
+  },
+  {
+    id: 303,
+    topic: "Angiosperms",
+    q: "<b>Assertion (A):</b> Angiosperms are the most successful land plants today.<br><b>Reason (R):</b> They have adapted to almost all habitats and show maximum diversity in form.",
+    options: [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is not the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    correct: 0,
+    explanation: "Angiosperms are the most successful plant group (A) because they have colonised almost every terrestrial and aquatic habitat and show maximum diversity in growth form — trees, shrubs, herbs, aquatics, parasites, carnivores, etc. (R). This ecological flexibility explains their dominance."
+  },
+  {
+    id: 304,
+    topic: "Angiosperms",
+    q: "Which of the following is <b>absent</b> in angiosperms compared to gymnosperms?",
+    options: [
+      "Pollen grains",
+      "Seeds",
+      "Naked ovules (ovules not enclosed in ovary)",
+      "Vascular tissue"
+    ],
+    correct: 2,
+    explanation: "Gymnosperms have naked ovules — ovules not enclosed in an ovary. In angiosperms, ovules are enclosed within the ovary. After fertilisation, the ovary becomes the fruit. The enclosed nature of ovules/seeds is the key difference. Pollen grains, seeds, and vascular tissue are present in both."
+  },
+  {
+    id: 305,
+    topic: "Angiosperms",
+    q: "Identify the <b>incorrectly</b> matched pair:",
+    options: [
+      "Monocot example — Wheat, Maize, Rice",
+      "Dicot example — Mango, Pea, Sunflower",
+      "Monocot — reticulate venation",
+      "Dicot — tap root system"
+    ],
+    correct: 2,
+    explanation: "Monocots have PARALLEL venation (not reticulate). Reticulate (net-like) venation is characteristic of dicots. Examples of monocots (wheat, maize, rice) and dicots (mango, pea, sunflower), and dicots having tap roots — all are correct. Option C alone is incorrect."
+  },
+
+  // ===== ADVANCED GYMNOSPERM QUESTIONS (Q306–Q309) =====
+  {
+    id: 306,
+    topic: "Gymnosperms",
+    q: "Among gymnosperms, which genus contains the vessel elements in its xylem — making it exceptional among gymnosperms?",
+    options: [
+      "Pinus",
+      "Cycas",
+      "Gnetum",
+      "Cedrus"
+    ],
+    correct: 2,
+    explanation: "Gnetum is exceptional among gymnosperms in possessing vessel elements in its xylem, a feature typically associated with angiosperms. Most other gymnosperms (Pinus, Cycas) have only tracheids. This is an important NEET distinction."
+  },
+  {
+    id: 307,
+    topic: "Gymnosperms",
+    q: "The coralloid roots of Cycas contain:",
+    options: [
+      "Mycorrhizal fungi for mineral absorption",
+      "Nitrogen-fixing cyanobacteria (Anabaena, Nostoc)",
+      "Parasitic nematodes",
+      "Rhizobium bacteria for nitrogen fixation"
+    ],
+    correct: 1,
+    explanation: "NCERT states that Cycas has special coralloid roots which contain N₂-fixing cyanobacteria such as Anabaena and Nostoc. This nitrogen fixation provides the plant with usable nitrogen. Rhizobium is found in legumes (dicots), not gymnosperms."
+  },
+  {
+    id: 308,
+    topic: "Gymnosperms",
+    q: "<b>Assertion (A):</b> In gymnosperms, the male and female gametophytes are dependent on the sporophyte.<br><b>Reason (R):</b> Gymnosperms show a drastic reduction of the gametophyte generation compared to pteridophytes.",
+    options: [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is not the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    correct: 0,
+    explanation: "In gymnosperms, the gametophyte is highly reduced and entirely enclosed within and dependent on the sporophyte tissues (A). This represents a significant reduction compared to pteridophytes where both gametophyte and sporophyte are independent (R). R correctly explains A as part of the evolutionary trend."
+  },
+  {
+    id: 309,
+    topic: "Gymnosperms",
+    q: "The microsporophylls and megasporophylls in gymnosperms are arranged to form:",
+    options: [
+      "Strobili (cones)",
+      "Flowers",
+      "Fruits",
+      "Thalli"
+    ],
+    correct: 0,
+    explanation: "NCERT states: 'The microsporophylls and the megasporophylls are arranged spirally or in a whorled fashion on an axis to form lax or compact strobili or cones.' Strobili/cones are equivalent to the flower in gymnosperms — but they are NOT true flowers."
+  },
+
+  // ===== COMPREHENSIVE CROSS-KINGDOM SUMMARY MCQs (Q310–Q316) =====
+  {
+    id: 310,
+    topic: "Plant Kingdom Summary – Comparative",
+    q: "Which of the following correctly shows the <b>increasing</b> order of complexity and evolutionary advancement among plant groups?",
+    options: [
+      "Algae → Bryophytes → Pteridophytes → Gymnosperms → Angiosperms",
+      "Bryophytes → Algae → Gymnosperms → Pteridophytes → Angiosperms",
+      "Angiosperms → Gymnosperms → Pteridophytes → Bryophytes → Algae",
+      "Algae → Pteridophytes → Bryophytes → Gymnosperms → Angiosperms"
+    ],
+    correct: 0,
+    explanation: "The correct ascending order of evolutionary complexity is: Algae (simplest, no true organs) → Bryophytes (no vascular tissue) → Pteridophytes (vascular tissue, no seeds) → Gymnosperms (seeds, naked) → Angiosperms (seeds enclosed in fruit, most complex). Option A is correct."
+  },
+  {
+    id: 311,
+    topic: "Plant Kingdom Summary – Comparative",
+    q: "Consider the following:<br>(i) Algae — no alternation of generations<br>(ii) Bryophytes — gametophyte dominant<br>(iii) Pteridophytes — sporophyte dominant<br>(iv) Gymnosperms — gametophyte dominant<br><br>How many are correct?",
+    options: [
+      "One",
+      "Two",
+      "Three",
+      "Four"
+    ],
+    correct: 1,
+    explanation: "(i) INCORRECT — algae do show alternation of generations (e.g., Ectocarpus has isomorphic AoG). (ii) CORRECT — in bryophytes, the gametophyte is the dominant, independent generation. (iii) CORRECT — in pteridophytes, the sporophyte (fern plant) is dominant and independent. (iv) INCORRECT — in gymnosperms, the SPOROPHYTE is dominant; gametophyte is highly reduced and dependent. Two are correct."
+  },
+  {
+    id: 312,
+    topic: "Plant Kingdom Summary – Comparative",
+    q: "Which of the following groups requires water as a medium for fertilisation?<br>(i) Algae<br>(ii) Bryophytes<br>(iii) Pteridophytes<br>(iv) Gymnosperms<br>(v) Angiosperms",
+    options: [
+      "(i), (ii) and (iii) only",
+      "(i), (ii), (iii) and (iv)",
+      "(iv) and (v) only",
+      "(i), (ii), (iii), (iv) and (v)"
+    ],
+    correct: 0,
+    explanation: "Algae, bryophytes, and pteridophytes all require water for fertilisation — their sperms are motile (flagellated) and swim to the egg. Gymnosperms and angiosperms evolved the pollen tube mechanism, eliminating water dependence for fertilisation. This was a major evolutionary advance."
+  },
+  {
+    id: 313,
+    topic: "Plant Kingdom Summary – Comparative",
+    q: "<b>Assertion (A):</b> Gymnosperms and angiosperms are better suited for terrestrial life than bryophytes and pteridophytes.<br><b>Reason (R):</b> Seed plants do not require water for fertilisation and produce seeds that protect the embryo.",
+    options: [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is not the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    correct: 0,
+    explanation: "Both true. Seed plants (gymnosperms + angiosperms) are better adapted to land (A) because: (1) they don't need water for fertilisation (pollen tube mechanism), and (2) seeds provide a protected, nutrient-rich package for embryo development (R). These two features together explain why seed plants dominate terrestrial ecosystems."
+  },
+  {
+    id: 314,
+    topic: "Plant Kingdom Summary – Comparative",
+    q: "Select the <b>incorrect</b> comparison between gymnosperms and angiosperms:",
+    options: [
+      "Gymnosperms: naked seeds; Angiosperms: seeds enclosed in fruit",
+      "Gymnosperms: xylem has only tracheids (mostly); Angiosperms: xylem has vessels",
+      "Gymnosperms: double fertilisation; Angiosperms: single fertilisation",
+      "Gymnosperms: phloem lacks companion cells; Angiosperms: phloem has companion cells"
+    ],
+    correct: 2,
+    explanation: "Option C is INCORRECT and reversed. Double fertilisation is EXCLUSIVELY an angiosperm feature. Gymnosperms show single fertilisation — one male gamete fuses with the egg to form the zygote. Options A, B, and D are all correctly stated comparisons."
+  },
+  {
+    id: 315,
+    topic: "Plant Kingdom Summary – Comparative",
+    q: "Which of the following is a <b>correct</b> match between a plant group and its unique feature?",
+    options: [
+      "Bryophytes — first vascular plants to colonise land",
+      "Pteridophytes — first plants with vascular tissue and true roots, stem and leaves",
+      "Gymnosperms — enclosed seeds within fruit",
+      "Algae — multicellular sex organs with sterile jacket layer"
+    ],
+    correct: 1,
+    explanation: "Pteridophytes are the first vascular plants — they have xylem and phloem, true roots, stems and leaves. Bryophytes are non-vascular ('amphibians of plant kingdom'). Gymnosperms have naked seeds (not enclosed). Multicellular sex organs with sterile jacket layer are present in bryophytes and pteridophytes, not algae."
+  },
+  {
+    id: 316,
+    topic: "Plant Kingdom Summary – Comparative",
+    q: "Consider the following matching of structural terms:<br>(i) Holdfast, Stipe, Frond — Brown algae body parts<br>(ii) Rhizoids, Stem, Leaves — Bryophyte body parts<br>(iii) Rhizome, Fronds, Sori — Pteridophyte features<br>(iv) Microsporophylls, Megasporophylls, Strobili — Gymnosperm reproductive structures<br><br>How many pairs are correctly matched?",
+    options: [
+      "One",
+      "Two",
+      "Three",
+      "Four"
+    ],
+    correct: 3,
+    explanation: "All four are correctly matched: (i) Brown algae body = holdfast (anchorage) + stipe (stalk) + frond (leaf-like). (ii) Bryophytes have rhizoids (instead of roots), stem-like and leaf-like structures. (iii) Ferns have rhizome (underground stem), fronds (large leaves), and sori (spore clusters). (iv) Gymnosperms have microsporophylls and megasporophylls arranged into strobili/cones. All four correct."
   }
 ];
