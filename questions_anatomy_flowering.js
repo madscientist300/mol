@@ -2780,5 +2780,229 @@ const allQuestions = [
   ],
   correct: 3,
   explanation: "Option D is REVERSED — bulliform cells are present in ISOBILATERAL (monocot) leaves and ABSENT in dorsiventral (dicot) leaves. All other options correctly state the differences."
+},
+
+// ===== SECONDARY GROWTH (Q225–Q236) =====
+{
+  id: 225,
+  topic: "Secondary Growth",
+  q: "Secondary growth in plants results in an increase in:",
+  options: ["Length of the plant", "Girth (thickness) of the stem and root", "Number of leaves", "Number of flowers"],
+  correct: 1,
+  explanation: "NCERT: 'The increase in girth of the stem or root is called secondary growth.' It is the result of activity of lateral meristems (vascular cambium and cork cambium). Primary growth results in length increase."
+},
+{
+  id: 226,
+  topic: "Secondary Growth",
+  q: "The lateral meristems responsible for secondary growth in dicots are:<br>(i) Vascular cambium<br>(ii) Cork cambium (phellogen)<br>(iii) Apical meristem<br>(iv) Intercalary meristem",
+  options: ["(i) and (ii) only", "(iii) and (iv) only", "(i), (ii) and (iii)", "(i), (ii), (iii) and (iv)"],
+  correct: 0,
+  explanation: "Secondary growth is caused by two lateral meristems: (1) vascular cambium — adds secondary xylem (wood) and secondary phloem, and (2) cork cambium (phellogen) — produces periderm. Apical and intercalary meristems are primary meristems responsible for primary (length) growth."
+},
+{
+  id: 227,
+  topic: "Secondary Growth",
+  q: "The vascular cambium in a young dicotyledonous stem is initially present as:",
+  options: ["A complete ring", "Strips within vascular bundles (intrafascicular cambium)", "Part of the pericycle", "Part of the endodermis"],
+  correct: 1,
+  explanation: "NCERT: In a young dicot stem, vascular cambium exists only as 'strips of meristematic cells' within each vascular bundle between xylem and phloem — this is the intrafascicular cambium. It later forms a complete ring by addition of interfascicular cambium from medullary rays."
+},
+{
+  id: 228,
+  topic: "Secondary Growth",
+  q: "The interfascicular cambium arises from:",
+  options: ["Intrafascicular cambium", "Parenchymatous cells of medullary rays", "Endodermis", "Pericycle"],
+  correct: 1,
+  explanation: "NCERT: 'The parenchymatous cells lying between the intrafascicular cambium, i.e., cells of the medullary rays, become meristematic and form the interfascicular cambium.' Together, intrafascicular and interfascicular cambium join to form a continuous ring."
+},
+{
+  id: 229,
+  topic: "Secondary Growth",
+  q: "<b>Assertion (A):</b> Vascular cambium in a dicot stem forms a complete ring from initially discrete strips.<br><b>Reason (R):</b> Medullary ray cells become meristematic to form interfascicular cambium, connecting the intrafascicular strips.",
+  options: [
+    "Both A and R are true and R is the correct explanation of A",
+    "Both A and R are true but R is NOT the correct explanation of A",
+    "A is true but R is false",
+    "A is false but R is true"
+  ],
+  correct: 0,
+  explanation: "Both are true. The initially discrete strips of intrafascicular cambium are connected by interfascicular cambium (arising from medullary ray parenchyma), forming a complete cambial ring (A). R correctly explains the cellular mechanism by which this ring is established."
+},
+{
+  id: 230,
+  topic: "Secondary Growth",
+  q: "The product formed on the outer side of the vascular cambium ring is:",
+  options: ["Secondary xylem (wood)", "Secondary phloem", "Primary xylem", "Cork"],
+  correct: 1,
+  explanation: "NCERT: Vascular cambium is bifacial — it cuts new cells on both sides. Cells cut towards the outside become secondary phloem, while cells cut towards the inside (pith) become secondary xylem (wood). More secondary xylem is produced than phloem."
+},
+{
+  id: 231,
+  topic: "Secondary Growth",
+  q: "Annual rings (growth rings) in wood are formed due to:",
+  options: [
+    "Activity of apical meristem alternating with dormancy",
+    "Alternating activity of vascular cambium in spring (forming spring wood) and autumn (forming autumn wood)",
+    "Periodic activity of cork cambium",
+    "Alternating primary and secondary growth phases"
+  ],
+  correct: 1,
+  explanation: "NCERT: Annual rings result from the alternating activity of the vascular cambium. In spring, large-celled, less dense spring wood (early wood) is formed; in autumn, small-celled, dense autumn wood (late wood) is formed. One pair of spring + autumn wood = one year's growth = one annual ring."
+},
+{
+  id: 232,
+  topic: "Secondary Growth",
+  q: "Heartwood (duramen) differs from sapwood (alburnum) in that heartwood:",
+  options: [
+    "Is the outer, living, functional wood",
+    "Is dark coloured, non-functional in water conduction, and contains tannins/resins",
+    "Has active xylem vessels and is involved in water transport",
+    "Is formed last and is the youngest wood"
+  ],
+  correct: 1,
+  explanation: "NCERT: Heartwood (inner, old secondary xylem) is dark-coloured, filled with tannins, resins, oils etc., and is non-functional in water conduction. Sapwood (outer, newer secondary xylem) is lighter in colour, functional in water conduction, and contains living cells. Heartwood provides mechanical support."
+},
+{
+  id: 233,
+  topic: "Secondary Growth",
+  q: "Cork cambium (phellogen) is formed from:",
+  options: ["Vascular cambium", "Cortical cells of epidermis or just below it", "Endodermis", "Pericycle cells"],
+  correct: 1,
+  explanation: "NCERT: 'A strip of secondary meristem — the cork cambium or phellogen — differentiated from cortical cells.' It arises from the outer cortex (just below epidermis) in young dicot stems undergoing secondary growth."
+},
+{
+  id: 234,
+  topic: "Secondary Growth",
+  q: "The phellogen (cork cambium) cuts cells towards:",
+  options: [
+    "The outside only — forming cork (phellem)",
+    "The inside only — forming secondary cortex (phelloderm)",
+    "The outside forming cork and the inside forming secondary cortex (phelloderm)",
+    "Both sides forming only secondary phloem"
+  ],
+  correct: 2,
+  explanation: "NCERT: Phellogen (cork cambium) is bifacial — it cuts phellem (cork) on the outer side and phelloderm (secondary cortex) on the inner side. Together, phellem + phellogen + phelloderm = Periderm."
+},
+{
+  id: 235,
+  topic: "Secondary Growth",
+  q: "The periderm consists of:",
+  options: [
+    "Cork only",
+    "Phellogen + phellem + phelloderm",
+    "Epidermis + hypodermis + cortex",
+    "Vascular cambium + secondary xylem"
+  ],
+  correct: 1,
+  explanation: "NCERT: 'The phellogen, phellem and phelloderm are collectively called periderm.' Phellem = cork (outer layer), Phellogen = cork cambium (middle), Phelloderm = secondary cortex (inner layer). Periderm replaces epidermis during secondary growth."
+},
+{
+  id: 236,
+  topic: "Secondary Growth",
+  q: "Lenticels are pores found in the bark of woody plants. Their primary function is:",
+  options: [
+    "Water absorption from the atmosphere",
+    "Gaseous exchange through the bark in place of stomata",
+    "Absorption of minerals",
+    "Release of excess water (guttation)"
+  ],
+  correct: 1,
+  explanation: "NCERT: 'Lenticels are pores that permit the exchange of gases between the outer atmosphere and the inner tissues of the stem.' They are present in the periderm and allow O₂ and CO₂ exchange that cannot occur through the suberised cork cells."
+},
+
+// ===== ADVANCED CROSS-TOPIC SUMMARY (Q237–Q244) =====
+{
+  id: 237,
+  topic: "Summary",
+  q: "Which of the following is the correct sequence of layers from outside to inside in a dicotyledonous root?",
+  options: [
+    "Epiblema → Endodermis → Cortex → Pericycle → Vascular bundles",
+    "Epiblema → Cortex → Endodermis → Pericycle → Vascular bundles",
+    "Epidermis → Pericycle → Cortex → Endodermis → Vascular bundles",
+    "Epiblema → Cortex → Pericycle → Endodermis → Vascular bundles"
+  ],
+  correct: 1,
+  explanation: "The correct outside-to-inside sequence in a dicot root is: Epiblema (outermost) → Cortex (multiple parenchyma layers) → Endodermis (innermost layer of cortex with casparian strips) → Pericycle (one or few layers) → Vascular bundles (xylem and phloem alternately). Option B is correct."
+},
+{
+  id: 238,
+  topic: "Summary",
+  q: "Which of the following is correctly matched?",
+  options: [
+    "Casparian strips — Pericycle — Suberin",
+    "Bulliform cells — Dorsiventral leaf — Water storage",
+    "Passage cells — Endodermis — Allow water/mineral flow to stele",
+    "Bundle sheath — Dicot stem — Sclerenchyma cells"
+  ],
+  correct: 2,
+  explanation: "Passage cells are thin-walled cells of the endodermis that lack casparian strips and allow water and minerals to pass into the stele. Casparian strips are in the endodermis (not pericycle). Bulliform cells are in isobilateral (monocot) leaves. Bundle sheath in monocot leaves is parenchymatous, not sclerenchymatous."
+},
+{
+  id: 239,
+  topic: "Summary",
+  q: "<b>Assertion (A):</b> Monocotyledonous roots differ from dicotyledonous roots in having more xylem strands (polyarch).<br><b>Reason (R):</b> Monocotyledonous roots generally have more than 6 xylem strands whereas dicot roots typically have 2–6.",
+  options: [
+    "Both A and R are true and R is the correct explanation of A",
+    "Both A and R are true but R is NOT the correct explanation of A",
+    "A is true but R is false",
+    "A is false but R is true"
+  ],
+  correct: 0,
+  explanation: "Both are true. NCERT states monocot roots have many xylem bundles (polyarch — typically more than 6) while dicot roots are diarch to hexarch (2–6 xylem strands). R provides the specific numerical/structural basis for A."
+},
+{
+  id: 240,
+  topic: "Summary",
+  q: "Consider the following comparisons between dicot and monocot stems:<br>(i) Dicot: vascular bundles arranged in a ring; Monocot: vascular bundles scattered<br>(ii) Dicot: open vascular bundles with cambium; Monocot: closed vascular bundles without cambium<br>(iii) Dicot: well-defined cortex and pith; Monocot: pith not distinct<br>(iv) Dicot: hypodermis collenchymatous; Monocot: hypodermis sclerenchymatous<br><br>How many are correct?",
+  options: ["One", "Two", "Three", "Four"],
+  correct: 3,
+  explanation: "All four statements are correct per NCERT. (i) Dicot VBs in a ring; monocot VBs scattered. (ii) Dicot = open (cambium present); monocot = closed (no cambium). (iii) Dicot has distinct cortex and pith (pith mediums the ring of VBs); monocot pith is not well distinguished from ground tissue. (iv) Dicot hypodermis = collenchyma; monocot hypodermis = sclerenchyma."
+},
+{
+  id: 241,
+  topic: "Summary",
+  q: "Select the <b>incorrect</b> statement about the sclerenchymatous bundle sheath in monocot leaves:",
+  options: [
+    "It surrounds each vascular bundle",
+    "It contains chloroplasts for photosynthesis",
+    "It is made up of sclerenchymatous cells",
+    "It provides mechanical support to vascular bundles"
+  ],
+  correct: 1,
+  explanation: "NCERT states the bundle sheath in monocot (isobilateral) leaves is made of sclerenchymatous cells. Sclerenchyma cells are dead at maturity and do NOT contain chloroplasts. Chloroplast-containing bundle sheath is a feature of C4 plants (Kranz anatomy), not the general monocot leaf description in NCERT anatomy."
+},
+{
+  id: 242,
+  topic: "Summary",
+  q: "<b>Assertion (A):</b> Secondary growth does not occur in monocotyledonous plants.<br><b>Reason (R):</b> Monocots lack vascular cambium which is essential for secondary growth.",
+  options: [
+    "Both A and R are true and R is the correct explanation of A",
+    "Both A and R are true but R is NOT the correct explanation of A",
+    "A is true but R is false",
+    "A is false but R is true"
+  ],
+  correct: 0,
+  explanation: "Both are true. Monocots generally do not show secondary growth (A) because their vascular bundles are closed (no cambium between xylem and phloem). Without vascular cambium, no secondary xylem or phloem can be produced (R). R correctly explains A."
+},
+{
+  id: 243,
+  topic: "Summary",
+  q: "Which of the following correctly describes the pith (medulla) of a dicotyledonous stem?",
+  options: [
+    "Located at the periphery of the stem, made of sclerenchyma",
+    "Central region made of large parenchymatous cells with intercellular spaces",
+    "A single layer of barrel-shaped cells",
+    "Absent in dicot stems"
+  ],
+  correct: 1,
+  explanation: "NCERT: In dicot stem, pith (medulla) is made up of 'large parenchymatous cells with or without intercellular spaces' and occupies the central region. Pith is absent or represented by a hollow cavity in many monocot stems."
+},
+{
+  id: 244,
+  topic: "Summary",
+  q: "Consider the following statements about secondary growth:<br>(i) Vascular cambium produces secondary xylem on its inner side<br>(ii) Secondary phloem is produced on the outer side of vascular cambium<br>(iii) Cork cambium produces cork on the outer side and secondary cortex on the inner side<br>(iv) Lenticels allow gaseous exchange through cork<br><br>How many are correct?",
+  options: ["One", "Two", "Three", "Four"],
+  correct: 3,
+  explanation: "All four are correct: (i) Vascular cambium → secondary xylem (wood) inward. (ii) Vascular cambium → secondary phloem outward. (iii) Cork cambium → phellem (cork) outward + phelloderm inward. (iv) Lenticels are pores in cork for gaseous exchange, replacing stomata. All four statements are directly from NCERT."
 }
 ];

@@ -2800,5 +2800,198 @@ const allQuestions = [
   "options": ["Fig-wasp mutualism", "Orchid Ophrys and bee", "Mycorrhizal association", "Lichen formation"],
   "correct": 1,
   "explanation": "NCERT states: 'The Mediterranean orchid Ophrys employs sexual deceit to get pollination done by a species of bee.' No other example of sexual deceit is mentioned."
+},
+
+// ===== ABIOTIC FACTORS (Q351–Q358) =====
+{
+  "id": 351,
+  "topic": "Introduction - Organisms and Population",
+  "q": "Which of the following is the most ecologically relevant environmental variable as per NCERT?",
+  "options": ["Humidity", "Temperature", "Light", "Soil"],
+  "correct": 1,
+  "explanation": "NCERT states: 'Temperature is the most ecologically relevant environmental variable.' It affects enzyme kinetics, metabolic activity, organism physiology, and consequently shapes where species can live."
+},
+{
+  "id": 352,
+  "topic": "Introduction - Organisms and Population",
+  "q": "A few organisms can tolerate and thrive in a wide range of temperatures. Such organisms are called:",
+  "options": ["Stenothermal", "Eurythermal", "Thermophilic", "Cryophilic"],
+  "correct": 1,
+  "explanation": "NCERT states: 'Organisms that can tolerate and thrive in a wide range of temperatures are called eurythermal.' Organisms restricted to a narrow range of temperatures are called stenothermal."
+},
+{
+  "id": 353,
+  "topic": "Introduction - Organisms and Population",
+  "q": "<b>Assertion (A):</b> Mango trees cannot survive in temperate regions like Germany.<br><b>Reason (R):</b> Temperature determines the geographic distribution of species and their metabolic activity.",
+  "options": ["Both A and R are correct, and R is the correct explanation of A", "Both A and R are correct, but R is not the correct explanation of A", "A is correct but R is incorrect", "A is incorrect but R is correct"],
+  "correct": 0,
+  "explanation": "Both are correct. Temperature shapes geographic distribution — mango requires warm tropical temperatures. NCERT uses the mango tree in Germany example to illustrate how temperature restricts distribution. R correctly explains A."
+},
+{
+  "id": 354,
+  "topic": "Introduction - Organisms and Population",
+  "q": "The light intensity on the ocean floor is nearly zero. Which organisms are <b>NOT</b> found at great depths in the ocean?",
+  "options": ["Deep-sea fishes", "Chemosynthetic bacteria", "Photosynthetic organisms (plants/algae)", "Detritivores"],
+  "correct": 2,
+  "explanation": "NCERT states: 'Many plants are adapted to low light conditions, and many others (the so-called sun plants) fail to survive.' At great ocean depths, light cannot penetrate — so photosynthetic organisms cannot survive there. Deep-sea fishes and chemosynthetic bacteria do not depend on light."
+},
+{
+  "id": 355,
+  "topic": "Introduction - Organisms and Population",
+  "q": "Which of the following correctly describes the role of water in the distribution of organisms?",
+  "options": [
+    "Water affects organisms only through rainfall patterns",
+    "The productivity and distribution of plants is largely determined by water availability; saline water affects osmoregulation",
+    "Water affects only aquatic organisms",
+    "Water availability has no bearing on species distribution in terrestrial habitats"
+  ],
+  "correct": 1,
+  "explanation": "NCERT states: 'The productivity and distribution of plants is largely determined by water availability.' It also notes that aquatic organisms face challenges with salinity (e.g., freshwater vs marine organisms cannot easily exchange). Both terrestrial and aquatic organisms are affected by water."
+},
+{
+  "id": 356,
+  "topic": "Introduction - Organisms and Population",
+  "q": "An organism that is restricted to a narrow range of temperature is called:",
+  "options": ["Eurythermal", "Euryhaline", "Stenothermal", "Stenohaline"],
+  "correct": 2,
+  "explanation": "NCERT defines stenothermal as organisms 'restricted to a narrow range of temperature.' Eurythermal organisms can tolerate wide temperature ranges. Euryhaline/stenohaline refer to salinity tolerance."
+},
+{
+  "id": 357,
+  "topic": "Introduction - Organisms and Population",
+  "q": "In the context of light, which of the following is <b>correct</b> as per NCERT?",
+  "options": [
+    "Only the quality (wavelength) of light matters for photosynthesis, not intensity",
+    "For photosynthesis, plants need only visible spectrum; UV and infrared are useless",
+    "Many plants are adapted to low light conditions; the diapause in insects is regulated by light",
+    "Light has no effect on animal behaviour"
+  ],
+  "correct": 2,
+  "explanation": "NCERT mentions: plants are adapted to low or high light conditions. Photoperiod (day length = light duration) determines seasonal breeding in many animals and insects, including diapause. Light quality and duration affect both plants (photosynthesis, photoperiodism) and animals (breeding cycles)."
+},
+{
+  "id": 358,
+  "topic": "Introduction - Organisms and Population",
+  "q": "The soil environment includes all of the following factors EXCEPT:",
+  "options": ["Soil composition", "Grain size", "Aggregation of soil particles", "Ambient temperature of the air above soil"],
+  "correct": 3,
+  "explanation": "NCERT states: 'The nature of the soil in different places varies; it depends on the soil composition, grain size and aggregation.' Ambient air temperature is a separate abiotic factor. Soil itself is characterized by its physical composition, particle size, and aggregation pattern."
+},
+
+// ===== r-K SELECTION AND LIFE HISTORY VARIATION (Q359–Q363) =====
+{
+  "id": 359,
+  "topic": "Life History Variation",
+  "q": "Organisms living in an unpredictable or unstable environment are selected for:<br>(i) High reproductive rate (r)<br>(ii) Semelparity (single reproductive event)<br>(iii) Large body size<br>(iv) Iteroparity (multiple reproductive events)",
+  "options": ["(i) and (ii) only", "(i) and (iv) only", "(iii) and (iv) only", "(ii) and (iii) only"],
+  "correct": 0,
+  "explanation": "NCERT discusses how habitat stability influences life history strategies. In unpredictable environments, r-selection favors high reproductive rates and semelparity (single large reproductive effort, e.g., Pacific salmon). In stable/predictable environments, K-selection favors iteroparity and fewer, well-cared-for offspring."
+},
+{
+  "id": 360,
+  "topic": "Life History Variation",
+  "q": "Which of the following pairs correctly represents organisms with <b>semelparous</b> reproduction?",
+  "options": ["Elephant and humans", "Pacific salmon and bamboo", "Cheetah and wolf", "Crow and sparrow"],
+  "correct": 1,
+  "explanation": "Semelparity = single reproductive event in a lifetime. NCERT examples include Pacific salmon (dies after spawning) and bamboo (flowers once, produces seeds, then dies). Elephants and humans reproduce multiple times (iteroparity)."
+},
+{
+  "id": 361,
+  "topic": "Life History Variation",
+  "q": "<b>Assertion (A):</b> Some organisms invest huge resources in each offspring but produce very few offspring.<br><b>Reason (R):</b> This strategy ensures higher survival rate of each offspring through parental care.",
+  "options": ["Both A and R are correct, and R is the correct explanation of A", "Both A and R are correct, but R is not the correct explanation of A", "A is correct but R is incorrect", "A is incorrect but R is correct"],
+  "correct": 0,
+  "explanation": "NCERT notes the trade-off between number of offspring and investment per offspring. Organisms like elephants and humans produce few offspring but invest heavily in parental care, increasing each offspring's survival probability. R correctly explains the evolutionary logic of A."
+},
+{
+  "id": 362,
+  "topic": "Life History Variation",
+  "q": "The trade-off between the number of offspring and parental care is best illustrated by which pair?",
+  "options": ["Oyster produces millions of eggs (no parental care) vs elephant (1–2 offspring with extensive care)", "Frog produces eggs vs bird produces eggs", "Bacteria vs virus reproduction", "Annual vs perennial plants"],
+  "correct": 0,
+  "explanation": "NCERT emphasizes the trade-off: oysters produce millions of eggs with no parental investment (high r-strategy), while elephants produce 1–2 offspring with extensive parental care (K-strategy). This illustrates the inverse relationship between offspring number and parental investment."
+},
+{
+  "id": 363,
+  "topic": "Life History Variation",
+  "q": "In species that produce a large number of small-sized offspring, the parental investment per offspring is:",
+  "options": ["High, ensuring low mortality", "Low, resulting in high mortality of offspring", "Medium, regulated by population density", "Zero, as offspring are all self-sufficient"],
+  "correct": 1,
+  "explanation": "NCERT discusses how life history evolution involves trade-offs. Species producing many small offspring (r-strategists like fish, frogs, oysters) invest little per offspring — leading to high mortality. Few survive to reproduce. The opposite strategy (K-strategists) produces fewer, well-nourished offspring with better survival."
+},
+
+// ===== POPULATION INTERACTIONS – AMENSALISM & ADVANCED (Q364–Q367) =====
+{
+  "id": 364,
+  "topic": "Population Interactions",
+  "q": "Amensalism is a type of interaction where:",
+  "options": [
+    "Both species benefit from the interaction",
+    "One species is harmed while the other is unaffected",
+    "Both species are harmed",
+    "One species benefits while the other is unaffected"
+  ],
+  "correct": 1,
+  "explanation": "Amensalism involves two species where one is harmed and the other is neither harmed nor benefited. Example: Penicillium producing penicillin harms bacteria (the bacterium is harmed; the fungus is unaffected). In the NCERT table, amensalism is shown as (–, 0) — one minus, one neutral."
+},
+{
+  "id": 365,
+  "topic": "Population Interactions",
+  "q": "In NCERT's table of population interactions, which symbol pair correctly represents <b>mutualism</b>?",
+  "options": ["(+, –)", "(–, –)", "(+, 0)", "(+, +)"],
+  "correct": 3,
+  "explanation": "In NCERT's interaction table: Mutualism = (+, +) — both species benefit. Predation/Parasitism = (+, –) — one benefits, one harmed. Competition = (–, –) — both harmed. Commensalism = (+, 0) — one benefits, other unaffected."
+},
+{
+  "id": 366,
+  "topic": "Predation",
+  "q": "Which of the following is an example of a plant using <b>chemical defence</b> against herbivores as mentioned in NCERT?",
+  "options": [
+    "Thorns and spines of cacti",
+    "Quinine in Cinchona bark, strychnine in Nux vomica, opium in poppy",
+    "Waxy cuticle of leaves",
+    "Root system depth in savanna grasses"
+  ],
+  "correct": 1,
+  "explanation": "NCERT explicitly states: 'Plants have evolved an astonishing variety of chemical substances... many of these are chemical substances which make them unpalatable to grazers — quinine (Cinchona), strychnine (Nux vomica), opium (poppy).' Thorns are morphological defences; cuticle prevents desiccation, not predation."
+},
+{
+  "id": 367,
+  "topic": "Predation",
+  "q": "<b>Assertion (A):</b> In predator-prey relationships, predator population size is directly dependent on prey population size.<br><b>Reason (R):</b> If prey population increases, predators get more food and increase; as predators increase, prey population decreases due to heavy predation.",
+  "options": ["Both A and R are correct, and R is the correct explanation of A", "Both A and R are correct, but R is not the correct explanation of A", "A is correct but R is incorrect", "A is incorrect but R is correct"],
+  "correct": 0,
+  "explanation": "Both are true. NCERT describes the oscillating nature of predator-prey dynamics: prey increase → predators increase → prey decrease → predators decrease. This cycle (shown in Lotka-Volterra oscillations) demonstrates that predator population is directly dependent on prey population. R correctly explains A."
+},
+
+// ===== COMPREHENSIVE SUMMARY MCQs (Q368–Q370) =====
+{
+  "id": 368,
+  "topic": "Summary - Revision",
+  "q": "Consider the following interactions and their effect notation:<br>(i) Predation — (+, –)<br>(ii) Competition — (–, –)<br>(iii) Commensalism — (+, 0)<br>(iv) Mutualism — (+, –)<br><br>How many are correctly matched?",
+  "options": ["One", "Two", "Three", "Four"],
+  "correct": 2,
+  "explanation": "(i) Predation = (+, –): predator gains, prey loses — CORRECT. (ii) Competition = (–, –): both harmed — CORRECT. (iii) Commensalism = (+, 0): one benefits, other unaffected — CORRECT. (iv) Mutualism should be (+, +) not (+, –) — INCORRECT. Three are correctly matched."
+},
+{
+  "id": 369,
+  "topic": "Summary - Revision",
+  "q": "Which of the following is an <b>incorrect</b> statement about adaptations?",
+  "options": [
+    "Desert plants (CAM) keep stomata open at night to minimise water loss",
+    "Seals have more RBCs than normal to store more oxygen for diving",
+    "Mammals from colder climates have smaller limbs and ears to reduce heat loss (Allen's rule)",
+    "A deep-sea fish placed in shallow water will survive as it can adapt immediately"
+  ],
+  "correct": 3,
+  "explanation": "Deep-sea organisms are adapted to extremely high pressure and cannot survive in shallow water — they cannot adapt 'immediately.' CAM plants keeping stomata open at night (Option A) is correct. Seals having more RBCs (B) is correct. Allen's rule (C) — smaller appendages in cold climates to reduce heat loss — is correct. Option D describes impossible immediate adaptation."
+},
+{
+  "id": 370,
+  "topic": "Summary - Revision",
+  "q": "Match the following population interaction examples correctly:<br>(i) Mycorrhizae on plant roots — (a) Parasitism<br>(ii) Cuscuta on hedge plants — (b) Mutualism<br>(iii) Egret picking insects from cattle back — (c) Commensalism<br>(iv) Barnacles on a whale — (d) Commensalism<br><br>How many are correctly matched?",
+  "options": ["One", "Two", "Three", "Four"],
+  "correct": 3,
+  "explanation": "(i) Mycorrhizae = Mutualism (b) — fungus + plant root, both benefit. CORRECT. (ii) Cuscuta = Parasitism (a) — Cuscuta derives nutrients from host plant which is harmed. CORRECT. (iii) Egret picking insects from cattle = Commensalism (c) — egret benefits (food), cattle unaffected. CORRECT. (iv) Barnacles on whale = Commensalism (d) — barnacles get transport, whale unaffected. CORRECT. All four are correctly matched."
 }
 ];
