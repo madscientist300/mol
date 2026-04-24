@@ -35,7 +35,7 @@ const CHAPTERS = [
         emoji: "🌱",
         name: "Plant Kingdom",
         file: "questions_plant_kingdom.js",
-        questionCount: 286,
+        questionCount: 316,
         topics: ["Introduction – Plant Kingdom","Algae","Bryophytes","Pteridophytes","Gymnosperms","Gymnosperm Reproduction","Plant Kingdom Summary – Comparative"],
         status: "available"
     },
@@ -46,7 +46,7 @@ const CHAPTERS = [
         emoji: "🌸",
         name: "Morphology of Flowering Plants",
         file: "questions_morphology_flowering.js",
-        questionCount: 477,
+        questionCount: 502,
         topics: ["Introduction", "Root", "Stem", "Leaf", "Flower", "Fruit", "Seed", "Semi-technical Description of a Flowering Plant", "Solanaceae"],
         status: "available"
     },
@@ -57,7 +57,7 @@ const CHAPTERS = [
         emoji: "🔭",
         name: "Anatomy of Flowering Plants",
         file: "questions_anatomy_flowering.js",
-        questionCount: 224,
+        questionCount: 244,
         topics: [
             "Introduction to Plant Anatomy", 
             "The Tissue System", 
@@ -70,7 +70,8 @@ const CHAPTERS = [
             "Monocotyledonous Stem",
             "Dorsiventral (Dicotyledonous) Leaf",
             "Isobilateral (Monocotyledonous) Leaf",
-            "Summary"
+            "Summary",
+            "Secondary Growth"
         ],
         status: "available"
     },
@@ -184,7 +185,7 @@ const CHAPTERS = [
         emoji: "🧪",
         name: "Principles of Inheritance and Variation",
         file: "questions_inheritance_variation.js",
-        questionCount: 370,
+        questionCount: 400,
         topics: ["Mendel's Laws", "Dominance", "Blood Groups", "Linkage", "Mutations"],
         status: "available"
     },
@@ -195,7 +196,7 @@ const CHAPTERS = [
         emoji: "🧬",
         name: "Molecular Basis of Inheritance",
         file: "questions.js",
-        questionCount: 479,
+        questionCount: 500,
         topics: ["DNA Structure", "Replication", "Transcription", "Translation", "Lac Operon", "HGP", "DNA Fingerprinting"],
         status: "available"
     },
@@ -217,7 +218,7 @@ const CHAPTERS = [
         emoji: "🐾",
         name: "Organisms and Populations",
         file: "questions_organisms_populations.js",
-        questionCount: 350,
+        questionCount: 370,
         topics: ["Habitat", "Niche", "Biome", "Population Attributes", "Interactions", "Introduction - Organisms and Population", "Populations - Population Attributes", "Population Growth", "Growth Models", "Life History Variation", "Population Interactions", "Predation", "Competition", "Parasitism", "Commensalism", "Mutualism", "Summary - Revision"],
         status: "available"
     },
