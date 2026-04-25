@@ -174,7 +174,7 @@ const CHAPTERS = [
         emoji: "🌺",
         name: "Sexual Reproduction in Flowering Plants",
         file: "questions_sexual_reproduction.js",
-        questionCount: 268,
+        questionCount: 298,
         topics: ["Pollination", "Fertilisation", "Embryo Development", "Apomixis"],
         status: "available"
     },
