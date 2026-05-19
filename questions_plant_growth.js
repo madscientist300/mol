@@ -3,10 +3,10 @@
 //  Chapter: Class XI | Unit V
 // ─────────────────────────────────────────────────────────────
 
-const QUESTIONS_PLANT_GROWTH = [
+const allQuestions = [
   {
     "id": 1,
-    "topic": "Plant Growth and Development – Introduction",
+    "topic": "Plant Growth and Development",
     "difficulty": "Medium",
     "type": "Statement",
     "q": "Which of the following statements is <b>correct</b> regarding plant development?<br>(a) Development is the sum of growth, differentiation, and reproduction<br>(b) Development is the sum of two processes: growth and differentiation<br>(c) Development is synonymous with growth only<br>(d) Development refers to differentiation but not growth",
@@ -21,7 +21,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 2,
-    "topic": "Plant Growth and Development – Introduction",
+    "topic": "Plant Growth and Development",
     "difficulty": "Easy",
     "type": "Direct",
     "q": "According to NCERT, the first step in the process of plant growth is:",
@@ -36,7 +36,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 3,
-    "topic": "Plant Growth and Development – Introduction",
+    "topic": "Plant Growth and Development",
     "difficulty": "Hard",
     "type": "Statement",
     "q": "Read the following statements:<br>I. All cells of a plant are descendents of the endosperm<br>II. The development from zygote to mature plant follows a random and unordered sequence<br>III. Trees continue to increase in height or girth over a period of time<br>IV. Leaves, flowers and fruits have unlimited dimensions<br><br>Which of the above statements is/are <b>correct</b>?",
@@ -51,7 +51,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 4,
-    "topic": "Plant Growth and Development – Introduction",
+    "topic": "Plant Growth and Development",
     "difficulty": "Hard",
     "type": "HowMany",
     "q": "How many of the following statements are <b>correct</b>?<br>(A) Development of a mature plant from zygote follows a precise and highly ordered succession of events<br>(B) The first step in plant growth is cell elongation<br>(C) Seeds go into a period of suspended growth or rest in absence of favourable conditions<br>(D) Factors governing plant development are only extrinsic in nature<br>(E) Leaves, flowers and fruits appear and fall periodically",
@@ -66,7 +66,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 5,
-    "topic": "Plant Growth and Development – Introduction",
+    "topic": "Plant Growth and Development",
     "difficulty": "Medium",
     "type": "AR",
     "q": "<b>Assertion (A):</b> All cells of a plant have different structural and functional attributes despite being descendents of the same zygote.<br><b>Reason (R):</b> Development is the sum of growth and differentiation.",
@@ -81,7 +81,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 6,
-    "topic": "Plant Growth and Development – Introduction",
+    "topic": "Plant Growth and Development",
     "difficulty": "Medium",
     "type": "Except",
     "q": "All of the following are mentioned as plant structures that arise in an orderly sequence during development, <b>EXCEPT:</b>",
@@ -96,7 +96,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 7,
-    "topic": "Plant Growth and Development – Introduction",
+    "topic": "Plant Growth and Development",
     "difficulty": "Medium",
     "type": "Statement",
     "q": "Which of the following is <b>incorrect</b> with reference to plant growth and development?",
@@ -111,7 +111,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 8,
-    "topic": "Plant Growth and Development – Introduction",
+    "topic": "Plant Growth and Development",
     "difficulty": "Easy",
     "type": "Direct",
     "q": "According to NCERT, the factors which govern and control developmental processes in plants are:",
@@ -126,7 +126,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 9,
-    "topic": "Plant Growth and Development – Introduction",
+    "topic": "Plant Growth and Development",
     "difficulty": "Hard",
     "type": "HowMany",
     "q": "How many of the following statements are <b>incorrect</b>?<br>(A) All plant cells are descendents of the zygote<br>(B) Development of mature plant from zygote follows a random series of events<br>(C) Trees show limited increase in height over time<br>(D) Vegetative phase precedes flowering in plants<br>(E) Leaves, flowers and fruits have limited dimensions",
@@ -141,7 +141,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 10,
-    "topic": "Plant Growth and Development – Introduction",
+    "topic": "Plant Growth and Development",
     "difficulty": "Hard",
     "type": "Match",
     "q": "Match Column I with Column II:<br><br><b>Column I</b><br>(P) Development<br>(Q) Zygote<br>(R) Seed dormancy<br>(S) Intrinsic factors<br><br><b>Column II</b><br>(i) Fertilised egg<br>(ii) Suspended growth or rest<br>(iii) Growth + Differentiation<br>(iv) Internal to the plant<br><br>Choose the <b>correct</b> match:",
@@ -156,7 +156,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 11,
-    "topic": "Plant Growth and Development – Introduction",
+    "topic": "Plant Growth and Development",
     "difficulty": "Medium",
     "type": "Statement",
     "q": "Select the <b>correct</b> statement regarding plant development:",
@@ -171,7 +171,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 12,
-    "topic": "Plant Growth and Development – Introduction",
+    "topic": "Plant Growth and Development",
     "difficulty": "Medium",
     "type": "Except",
     "q": "During development, a complex body organisation produces all of the following, <b>EXCEPT:</b>",
@@ -186,7 +186,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 13,
-    "topic": "Plant Growth and Development – Introduction",
+    "topic": "Plant Growth and Development",
     "difficulty": "Medium",
     "type": "HowMany",
     "q": "How many of the following features are correctly associated with <b>trees</b> as mentioned in the NCERT introduction?<br>(A) Continue to increase in height over time<br>(B) Continue to increase in girth over time<br>(C) Their leaves have limited dimensions<br>(D) Their flowers appear and fall periodically<br>(E) They show unlimited increase in root length only",
@@ -201,7 +201,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 14,
-    "topic": "Plant Growth and Development – Introduction",
+    "topic": "Plant Growth and Development",
     "difficulty": "Hard",
     "type": "AR",
     "q": "<b>Assertion (A):</b> Leaves, flowers and fruits of a tree have limited dimensions and appear and fall periodically.<br><b>Reason (R):</b> Trees continue to increase in height or girth indefinitely over a period of time.",
@@ -216,7 +216,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 15,
-    "topic": "Plant Growth and Development – Introduction",
+    "topic": "Plant Growth and Development",
     "difficulty": "Easy",
     "type": "Statement",
     "q": "Which of the following is a <b>correct</b> statement about the zygote in context of plant development?",
@@ -231,7 +231,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 16,
-    "topic": "Plant Growth and Development – Introduction",
+    "topic": "Plant Growth and Development",
     "difficulty": "Easy",
     "type": "Direct",
     "q": "When seeds do not get favourable conditions for growth, they go into a period of:",
@@ -246,7 +246,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 17,
-    "topic": "Plant Growth and Development – Introduction",
+    "topic": "Plant Growth and Development",
     "difficulty": "Hard",
     "type": "Statement",
     "q": "Read the following statements and select the <b>incorrect</b> one:<br>(a) Vegetative phase precedes flowering in a plant<br>(b) The complex body organisation eventually leads to death<br>(c) All plant organs are made up of a single type of tissue<br>(d) Seeds resume metabolic activities once favourable conditions return",
@@ -261,7 +261,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 18,
-    "topic": "Plant Growth and Development – Introduction",
+    "topic": "Plant Growth and Development",
     "difficulty": "Medium",
     "type": "HowMany",
     "q": "How many of the following represent the correct developmental sequence as mentioned in NCERT?<br>(A) Seed → Seedling<br>(B) Seedling → Plantlet<br>(C) Plantlet → Mature plant<br>(D) Mature plant → Spore formation<br>(E) Development ends with formation of seeds",
@@ -276,7 +276,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 19,
-    "topic": "Plant Growth and Development – Introduction",
+    "topic": "Plant Growth and Development",
     "difficulty": "Hard",
     "type": "Statement",
     "q": "Identify the <b>correct</b> pair of statements:<br>I. Development from zygote to mature plant is a random process<br>II. Structure and function of plant cells can potentially be altered<br>III. The first step in plant growth is cell differentiation<br>IV. Intrinsic factors refer to internal factors of the plant",
@@ -291,7 +291,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 20,
-    "topic": "Plant Growth and Development – Introduction",
+    "topic": "Plant Growth and Development",
     "difficulty": "Hard",
     "type": "Except",
     "q": "According to NCERT, all of the following are questions raised in the introduction of Plant Growth and Development, <b>EXCEPT:</b>",
@@ -306,7 +306,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 21,
-    "topic": "Plant Growth and Development – Introduction",
+    "topic": "Plant Growth and Development",
     "difficulty": "Medium",
     "type": "Direct",
     "q": "According to NCERT, which of the following shows <b>limited</b> dimensions?",
@@ -321,7 +321,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 22,
-    "topic": "Plant Growth and Development – Introduction",
+    "topic": "Plant Growth and Development",
     "difficulty": "Hard",
     "type": "Statement",
     "q": "Consider the following statements about seeds:<br>I. Seeds germinate only when favourable conditions exist<br>II. In unfavourable conditions, seeds undergo irreversible dormancy<br>III. When favourable conditions return, seeds resume metabolic activities<br>IV. Seed germination is the last step in plant growth<br><br>Which statements are <b>correct</b>?",
@@ -336,7 +336,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 23,
-    "topic": "Plant Growth and Development – Introduction",
+    "topic": "Plant Growth and Development",
     "difficulty": "Hard",
     "type": "HowMany",
     "q": "How many of the following statements are <b>correct</b> as per NCERT?<br>(A) All plant organs are made up of a variety of tissues<br>(B) There is a relationship between the structure of a cell and the function it performs<br>(C) All cells of a plant are descendents of the endosperm<br>(D) Development from zygote follows a precise and highly ordered succession of events<br>(E) Extrinsic factors refer to factors internal to the plant",
@@ -351,7 +351,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 24,
-    "topic": "Plant Growth and Development – Introduction",
+    "topic": "Plant Growth and Development",
     "difficulty": "Medium",
     "type": "Match",
     "q": "Match the following terms from NCERT with their descriptions:<br><br><b>Column I</b><br>(P) Growth<br>(Q) Differentiation<br>(R) Development<br>(S) Intrinsic factors<br><br><b>Column II</b><br>(i) Arises from zygote through ordered events<br>(ii) Internal factors of the plant<br>(iii) Cells acquiring different structural attributes<br>(iv) Increase in size or mass<br><br>Choose the <b>correct</b> match:",
@@ -366,7 +366,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 25,
-    "topic": "Plant Growth and Development – Introduction",
+    "topic": "Plant Growth and Development",
     "difficulty": "Medium",
     "type": "AR",
     "q": "<b>Assertion (A):</b> Seeds go into a period of suspended growth or rest in absence of favourable conditions.<br><b>Reason (R):</b> Once favourable conditions return, seeds resume metabolic activities and growth takes place.",
@@ -381,7 +381,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 26,
-    "topic": "Plant Growth and Development – Introduction",
+    "topic": "Plant Growth and Development",
     "difficulty": "Easy",
     "type": "Statement",
     "q": "Which of the following correctly defines the term 'zygote' as per NCERT?",
@@ -396,7 +396,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 27,
-    "topic": "Plant Growth and Development – Introduction",
+    "topic": "Plant Growth and Development",
     "difficulty": "Hard",
     "type": "Except",
     "q": "According to NCERT, in the complex body organisation formed during development, all of the following are produced <b>EXCEPT:</b>",
@@ -411,7 +411,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 28,
-    "topic": "Plant Growth and Development – Introduction",
+    "topic": "Plant Growth and Development",
     "difficulty": "Medium",
     "type": "Statement",
     "q": "Which of the following statements is <b>incorrect</b>?",
@@ -426,7 +426,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 29,
-    "topic": "Plant Growth and Development – Introduction",
+    "topic": "Plant Growth and Development",
     "difficulty": "Easy",
     "type": "Direct",
     "q": "Which phase precedes flowering in a plant, as mentioned in NCERT?",
@@ -441,7 +441,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 30,
-    "topic": "Plant Growth and Development – Introduction",
+    "topic": "Plant Growth and Development",
     "difficulty": "Hard",
     "type": "Statement",
     "q": "Consider the following:<br>I. Trees — increase in height and girth — unlimited<br>II. Leaves — increase in dimensions — limited<br>III. Flowers — appear and fall — periodically<br>IV. Seeds — in unfavourable conditions — active rapid growth<br><br>Select the option with all <b>correct</b> statements:",
@@ -456,7 +456,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 31,
-    "topic": "Plant Growth and Development – Growth",
+    "topic": "Plant Growth and Development",
     "difficulty": "Medium",
     "type": "Statement",
     "q": "Which of the following statements <b>correctly</b> defines growth as per NCERT?<br>(a) Growth is a reversible temporary increase in size of an organ<br>(b) Growth is an irreversible permanent increase in size of an organ or its parts or even of an individual cell<br>(c) Growth is an irreversible permanent increase in size of an organ only, not of individual cells<br>(d) Growth is any measurable change in shape irrespective of permanence",
@@ -471,7 +471,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 32,
-    "topic": "Plant Growth and Development – Growth",
+    "topic": "Plant Growth and Development",
     "difficulty": "Easy",
     "type": "Direct",
     "q": "Growth at a cellular level is principally a consequence of increase in the amount of:",
@@ -486,7 +486,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 33,
-    "topic": "Plant Growth and Development – Growth",
+    "topic": "Plant Growth and Development",
     "difficulty": "Hard",
     "type": "Statement",
     "q": "Read the following statements carefully:<br>I. Growth is accompanied by metabolic processes that are only anabolic in nature<br>II. Expansion of a leaf is considered as growth<br>III. Swelling of a piece of wood placed in water is considered as growth<br>IV. Growth occurs at the expense of energy<br><br>Which of the above statements is/are <b>correct</b>?",
@@ -501,7 +501,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 34,
-    "topic": "Plant Growth and Development – Growth",
+    "topic": "Plant Growth and Development",
     "difficulty": "Hard",
     "type": "HowMany",
     "q": "How many of the following are <b>correct</b> parameters used to measure growth as mentioned in NCERT?<br>(A) Increase in fresh weight<br>(B) Increase in dry weight<br>(C) Increase in chlorophyll content<br>(D) Increase in length<br>(E) Increase in area and volume",
@@ -516,7 +516,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 35,
-    "topic": "Plant Growth and Development – Growth",
+    "topic": "Plant Growth and Development",
     "difficulty": "Medium",
     "type": "AR",
     "q": "<b>Assertion (A):</b> Plants retain the capacity for unlimited growth throughout their life.<br><b>Reason (R):</b> Plants possess meristems at certain locations in their body whose cells have the capacity to divide and self-perpetuate.",
@@ -531,7 +531,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 36,
-    "topic": "Plant Growth and Development – Growth",
+    "topic": "Plant Growth and Development",
     "difficulty": "Medium",
     "type": "Except",
     "q": "All of the following are listed as parameters to measure growth in NCERT, <b>EXCEPT:</b>",
@@ -546,7 +546,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 37,
-    "topic": "Plant Growth and Development – Growth",
+    "topic": "Plant Growth and Development",
     "difficulty": "Medium",
     "type": "Statement",
     "q": "Which of the following is <b>incorrect</b> regarding meristems and plant growth?",
@@ -561,7 +561,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 38,
-    "topic": "Plant Growth and Development – Growth",
+    "topic": "Plant Growth and Development",
     "difficulty": "Easy",
     "type": "Direct",
     "q": "One single maize root apical meristem can give rise to more than _______ new cells per hour:",
@@ -576,7 +576,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 39,
-    "topic": "Plant Growth and Development – Growth",
+    "topic": "Plant Growth and Development",
     "difficulty": "Hard",
     "type": "HowMany",
     "q": "How many of the following statements are <b>correct</b>?<br>(A) In maize root apical meristem, growth is expressed as increase in cell number<br>(B) In watermelon, growth is expressed as increase in cell size<br>(C) Growth of a pollen tube is measured in terms of its surface area<br>(D) Growth in a dorsiventral leaf is denoted by increase in surface area<br>(E) Cells in a watermelon may increase in size by upto 3,50,000 times",
@@ -591,7 +591,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 40,
-    "topic": "Plant Growth and Development – Growth",
+    "topic": "Plant Growth and Development",
     "difficulty": "Hard",
     "type": "Match",
     "q": "Match Column I with Column II:<br><br><b>Column I (Plant/Structure)</b><br>(P) Maize root apical meristem<br>(Q) Watermelon cells<br>(R) Pollen tube<br>(S) Dorsiventral leaf<br><br><b>Column II (Growth Parameter)</b><br>(i) Increase in surface area<br>(ii) Increase in cell number<br>(iii) Increase in length<br>(iv) Increase in cell size<br><br>Choose the <b>correct</b> match:",
@@ -606,7 +606,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 41,
-    "topic": "Plant Growth and Development – Growth",
+    "topic": "Plant Growth and Development",
     "difficulty": "Medium",
     "type": "Statement",
     "q": "Select the <b>correct</b> statement regarding primary and secondary growth in plants:",
@@ -621,7 +621,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 42,
-    "topic": "Plant Growth and Development – Growth",
+    "topic": "Plant Growth and Development",
     "difficulty": "Medium",
     "type": "Except",
     "q": "Lateral meristems appear later in life in all of the following, <b>EXCEPT:</b>",
@@ -636,7 +636,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 43,
-    "topic": "Plant Growth and Development – Growth",
+    "topic": "Plant Growth and Development",
     "difficulty": "Hard",
     "type": "HowMany",
     "q": "How many of the following statements are <b>incorrect</b>?<br>(A) Growth is an irreversible permanent increase in size<br>(B) Swelling of a piece of wood in water is an example of true growth<br>(C) Open form of growth means new cells are always added by meristematic activity<br>(D) Cells produced by meristems retain the capacity to divide throughout life<br>(E) Growth is accompanied by only anabolic metabolic processes",
@@ -651,7 +651,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 44,
-    "topic": "Plant Growth and Development – Growth",
+    "topic": "Plant Growth and Development",
     "difficulty": "Hard",
     "type": "AR",
     "q": "<b>Assertion (A):</b> Growth of a pollen tube is measured in terms of its length.<br><b>Reason (R):</b> Growth in a dorsiventral leaf is measured by an increase in surface area.",
@@ -666,7 +666,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 45,
-    "topic": "Plant Growth and Development – Growth",
+    "topic": "Plant Growth and Development",
     "difficulty": "Easy",
     "type": "Statement",
     "q": "Which of the following is a <b>correct</b> statement about plant growth as per NCERT?",
@@ -681,7 +681,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 46,
-    "topic": "Plant Growth and Development – Growth",
+    "topic": "Plant Growth and Development",
     "difficulty": "Easy",
     "type": "Direct",
     "q": "Cells in a watermelon may increase in size by upto:",
@@ -696,7 +696,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 47,
-    "topic": "Plant Growth and Development – Growth",
+    "topic": "Plant Growth and Development",
     "difficulty": "Medium",
     "type": "Statement",
     "q": "Which of the following is <b>incorrect</b> about primary growth in plants?",
@@ -711,7 +711,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 48,
-    "topic": "Plant Growth and Development – Growth",
+    "topic": "Plant Growth and Development",
     "difficulty": "Hard",
     "type": "HowMany",
     "q": "How many of the following statements are <b>correct</b>?<br>(A) Growth of a pollen tube is measured in terms of surface area<br>(B) Growth in a dorsiventral leaf is measured by increase in length<br>(C) Maize root apical meristem gives rise to more than 17,500 new cells per hour<br>(D) Watermelon cells may increase in size by upto 3,50,000 times<br>(E) Growth in maize is expressed as increase in cell size",
@@ -726,7 +726,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 49,
-    "topic": "Plant Growth and Development – Growth",
+    "topic": "Plant Growth and Development",
     "difficulty": "Hard",
     "type": "Statement",
     "q": "Identify the <b>correct</b> pair of statements:<br>I. In watermelon, growth is expressed as increase in cell number<br>II. In maize root apical meristem, growth is expressed as increase in cell number<br>III. Product cells of meristems retain the capacity to divide indefinitely<br>IV. Open form of growth is unique to animal systems",
@@ -741,7 +741,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 50,
-    "topic": "Plant Growth and Development – Growth",
+    "topic": "Plant Growth and Development",
     "difficulty": "Medium",
     "type": "Except",
     "q": "The open form of growth in plants involves all of the following features, <b>EXCEPT:</b>",
@@ -756,7 +756,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 51,
-    "topic": "Plant Growth and Development – Growth",
+    "topic": "Plant Growth and Development",
     "difficulty": "Easy",
     "type": "Direct",
     "q": "Growth of a pollen tube is measured in terms of:",
@@ -771,7 +771,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 52,
-    "topic": "Plant Growth and Development – Growth",
+    "topic": "Plant Growth and Development",
     "difficulty": "Hard",
     "type": "Statement",
     "q": "Consider the following statements:<br>I. Vascular cambium and cork-cambium are lateral meristems<br>II. Lateral meristems appear later in life in dicots and gymnosperms<br>III. Lateral meristems are responsible for primary growth<br>IV. Secondary growth results in increase in girth of organs<br><br>Which statements are <b>correct</b>?",
@@ -786,7 +786,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 53,
-    "topic": "Plant Growth and Development – Growth",
+    "topic": "Plant Growth and Development",
     "difficulty": "Hard",
     "type": "HowMany",
     "q": "How many of the following statements are <b>correct</b> as per NCERT?<br>(A) Growth is regarded as one of the most fundamental and conspicuous characteristics of a living being<br>(B) Growth is generally accompanied by only catabolic metabolic processes<br>(C) Increase in protoplasm is easy to measure directly<br>(D) The form of growth wherein new cells are always being added by meristematic activity is called open form of growth<br>(E) Product cells of meristems soon lose the capacity to divide",
@@ -801,7 +801,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 54,
-    "topic": "Plant Growth and Development – Growth",
+    "topic": "Plant Growth and Development",
     "difficulty": "Medium",
     "type": "Match",
     "q": "Match Column I with Column II:<br><br><b>Column I (Meristem Type)</b><br>(P) Root apical meristem<br>(Q) Shoot apical meristem<br>(R) Vascular cambium<br>(S) Cork-cambium<br><br><b>Column II (Growth Type)</b><br>(i) Primary growth<br>(ii) Secondary growth<br><br>Choose the <b>correct</b> match:",
@@ -816,7 +816,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 55,
-    "topic": "Plant Growth and Development – Growth",
+    "topic": "Plant Growth and Development",
     "difficulty": "Medium",
     "type": "AR",
     "q": "<b>Assertion (A):</b> Swelling of a piece of wood when placed in water is not considered true growth.<br><b>Reason (R):</b> Growth is defined as an irreversible permanent increase in size.",
@@ -831,7 +831,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 56,
-    "topic": "Plant Growth and Development – Growth",
+    "topic": "Plant Growth and Development",
     "difficulty": "Easy",
     "type": "Statement",
     "q": "Which of the following correctly describes the growth measurement in a dorsiventral leaf?",
@@ -846,7 +846,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 57,
-    "topic": "Plant Growth and Development – Growth",
+    "topic": "Plant Growth and Development",
     "difficulty": "Hard",
     "type": "Except",
     "q": "All of the following are characteristics of meristematic cells as described in NCERT, <b>EXCEPT:</b>",
@@ -861,7 +861,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 58,
-    "topic": "Plant Growth and Development – Growth",
+    "topic": "Plant Growth and Development",
     "difficulty": "Medium",
     "type": "Statement",
     "q": "Which of the following statements is <b>incorrect</b>?",
@@ -876,7 +876,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 59,
-    "topic": "Plant Growth and Development – Growth",
+    "topic": "Plant Growth and Development",
     "difficulty": "Easy",
     "type": "Direct",
     "q": "Secondary growth in plants is caused by:",
@@ -891,7 +891,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 60,
-    "topic": "Plant Growth and Development – Growth",
+    "topic": "Plant Growth and Development",
     "difficulty": "Hard",
     "type": "Statement",
     "q": "Read the following statements and identify the <b>correct</b> combination:<br>I. Growth is an irreversible permanent increase in size<br>II. One single maize root apical meristem can give rise to more than 3,50,000 new cells per hour<br>III. Cells in watermelon may increase in size by upto 17,500 times<br>IV. Growth at cellular level is principally a consequence of increase in the amount of protoplasm<br>V. Increase in protoplasm is difficult to measure directly",
@@ -1476,7 +1476,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 99,
-    "topic": "Phases of Growth + Growth Rates (Cross-Concept)",
+    "topic": "Cross-Concept",
     "difficulty": "Hard",
     "type": "Match",
     "q": "Match Column I with Column II:<br><br><b>Column I</b><br>(P) Meristematic phase — cell feature<br>(Q) Elongation phase — cell feature<br>(R) Arithmetic growth — curve type<br>(S) Geometric growth — curve type<br><br><b>Column II</b><br>(i) Sigmoid/S-curve<br>(ii) Increased vacuolation and new cell wall deposition<br>(iii) Linear curve<br>(iv) Rich protoplasm, large nuclei, thin cellulosic walls<br><br>Choose the <b>correct</b> match:",
@@ -1551,7 +1551,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 104,
-    "topic": "Phases of Growth + Growth Rates (Cross-Concept)",
+    "topic": "Cross-Concept",
     "difficulty": "Hard",
     "type": "HowMany",
     "q": "How many of the following statements are <b>correct</b>?<br>(A) Meristematic phase cells have thin cellulosic walls with abundant plasmodesmata<br>(B) Maturation phase cells attain maximal size with wall thickening<br>(C) In arithmetic growth, root elongation at constant rate gives a sigmoid curve<br>(D) In geometric growth, limited nutrient supply leads to stationary phase<br>(E) 'r' in W1 = W0 e^rt is called elongation per unit time",
@@ -1611,7 +1611,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 108,
-    "topic": "Phases of Growth + Growth Rates (Cross-Concept)",
+    "topic": "Cross-Concept",
     "difficulty": "Hard",
     "type": "HowMany",
     "q": "How many of the following statements are <b>incorrect</b>?<br>(A) In the meristematic phase, cells have secondary thick walls<br>(B) In the maturation phase, cells attain maximal size with protoplasmic modifications<br>(C) In geometric growth, only one daughter cell continues to divide<br>(D) In arithmetic growth formula, r stands for efficiency index<br>(E) Absolute growth rate is total growth per unit time",
@@ -1641,7 +1641,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 110,
-    "topic": "Phases of Growth + Growth Rates (Cross-Concept)",
+    "topic": "Cross-Concept",
     "difficulty": "Hard",
     "type": "Match",
     "q": "Match Column I with Column II:<br><br><b>Column I (Term)</b><br>(P) Absolute growth rate<br>(Q) Relative growth rate<br>(R) New cell wall deposition<br>(S) Wall thickening<br>(T) Efficiency index<br><br><b>Column II (Description/Phase)</b><br>(i) Elongation phase<br>(ii) Total growth per unit time<br>(iii) 'r' in W1 = W0 e^rt<br>(iv) Maturation phase<br>(v) Growth per unit time per unit initial parameter<br><br>Choose the <b>correct</b> match:",
@@ -2136,7 +2136,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 143,
-    "topic": "Conditions for Growth + Differentiation (Cross-Concept)",
+    "topic": "Cross-Concept",
     "difficulty": "Hard",
     "type": "HowMany",
     "q": "How many of the following statements are <b>correct</b>?<br>(A) Turgidity of cells helps in extension growth<br>(B) Water provides the medium for enzymatic activities<br>(C) During differentiation, cells undergo changes only in cell walls, not protoplasm<br>(D) Tracheary elements lose protoplasm and develop lignocellulosic secondary walls<br>(E) Nutrients are required only for energy and not for protoplasm synthesis",
@@ -2286,7 +2286,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 153,
-    "topic": "Dedifferentiation + Redifferentiation",
+    "topic": "Cross-Concept",
     "difficulty": "Medium",
     "type": "AR",
     "q": "<b>Assertion (A):</b> Products of redifferentiation are cells that have lost the capacity to divide but perform specific functions.<br><b>Reason (R):</b> Redifferentiation occurs in cells produced by meristems that were formed through dedifferentiation.",
@@ -2301,7 +2301,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 154,
-    "topic": "Conditions for Growth + Differentiation (Cross-Concept)",
+    "topic": "Cross-Concept",
     "difficulty": "Hard",
     "type": "Statement",
     "q": "Read the following statements and identify the <b>incorrect</b> one:<br>(a) Plant growth is intimately linked to water status of the plant<br>(b) Tracheary elements develop primary thin cellulosic walls to transport water<br>(c) Differentiation in plants is open because same meristem produces cells with different structures<br>(d) Formation of cork cambium from parenchyma is dedifferentiation",
@@ -2361,7 +2361,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 158,
-    "topic": "Conditions for Growth + Differentiation (Cross-Concept)",
+    "topic": "Cross-Concept",
     "difficulty": "Hard",
     "type": "HowMany",
     "q": "How many of the following statements are <b>correct</b>?<br>(A) Oxygen helps in releasing metabolic energy essential for growth<br>(B) Nutrients include both macro and micro essential elements<br>(C) Tracheary elements carry water under extreme tension<br>(D) Dedifferentiation means cells permanently lose the capacity to divide<br>(E) Cells at the periphery of root meristem differentiate as root-cap cells",
@@ -2391,7 +2391,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 160,
-    "topic": "Conditions for Growth + Open Differentiation (Cross-Concept)",
+    "topic": "Cross-Concept",
     "difficulty": "Hard",
     "type": "Statement",
     "q": "Read the following statements carefully:<br>I. Water is required for cell enlargement and provides medium for enzymatic activities<br>II. Environmental signals like light and gravity affect certain phases of growth<br>III. Open differentiation means that the final structure at maturity is determined by the location of the cell<br>IV. Cells positioned away from root apical meristem differentiate as epidermis<br>V. Nutrients are required only for releasing metabolic energy<br><br>Which combination of statements is <b>correct</b>?",
@@ -2556,7 +2556,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 171,
-    "topic": "Plant Growth Regulators – Characteristics",
+    "topic": "Plant Growth Regulators",
     "difficulty": "Medium",
     "type": "Statement",
     "q": "Which of the following is <b>correct</b> about the characteristics of plant growth regulators?",
@@ -2571,7 +2571,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 172,
-    "topic": "Plant Growth Regulators – Chemical Nature",
+    "topic": "Plant Growth Regulators",
     "difficulty": "Medium",
     "type": "Except",
     "q": "All of the following correctly represent the chemical nature of a PGR, <b>EXCEPT:</b>",
@@ -2586,7 +2586,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 173,
-    "topic": "Plant Growth Regulators – Chemical Nature",
+    "topic": "Plant Growth Regulators",
     "difficulty": "Hard",
     "type": "HowMany",
     "q": "How many of the following PGR-chemical nature pairs are <b>correctly</b> matched?<br>(A) IAA — Indole compound<br>(B) Kinetin — Terpene<br>(C) ABA — Derivative of carotenoids<br>(D) GA₃ — Adenine derivative<br>(E) Ethylene — Gas (C₂H₄)",
@@ -2601,7 +2601,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 174,
-    "topic": "Plant Growth Regulators – Classification",
+    "topic": "Plant Growth Regulators",
     "difficulty": "Medium",
     "type": "Statement",
     "q": "Select the <b>incorrect</b> statement about the classification of PGRs:",
@@ -2616,7 +2616,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 175,
-    "topic": "Plant Growth Regulators – Ethylene",
+    "topic": "Plant Growth Regulators",
     "difficulty": "Medium",
     "type": "AR",
     "q": "<b>Assertion (A):</b> Ethylene could fit either the growth promoter or growth inhibitor group.<br><b>Reason (R):</b> Ethylene is largely an inhibitor of growth activities.",
@@ -2631,7 +2631,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 176,
-    "topic": "PGR Discovery – Auxin",
+    "topic": "PGR Discovery",
     "difficulty": "Easy",
     "type": "Direct",
     "q": "Auxin was isolated by F.W. Went from tips of coleoptiles of:",
@@ -2646,7 +2646,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 177,
-    "topic": "PGR Discovery – Auxin",
+    "topic": "PGR Discovery",
     "difficulty": "Hard",
     "type": "Statement",
     "q": "Consider the following statements about auxin discovery:<br>I. Charles Darwin and Francis Darwin observed phototropism in coleoptiles of oat seedlings<br>II. The tip of coleoptile was the site of transmittable influence<br>III. F.W. Went isolated auxin from tips of coleoptiles of canary grass<br>IV. Coleoptiles grew towards the light source showing phototropism<br><br>Which statements are <b>correct</b>?",
@@ -2661,7 +2661,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 178,
-    "topic": "PGR Discovery – Gibberellin",
+    "topic": "PGR Discovery",
     "difficulty": "Hard",
     "type": "HowMany",
     "q": "How many of the following statements about gibberellin discovery are <b>correct</b>?<br>(A) 'Bakanae' means foolish seedling disease<br>(B) It affected rice seedlings<br>(C) It was caused by a fungal pathogen Gibberella fujikuroi<br>(D) E. Kurosawa (1926) treated rice seedlings with sterile filtrates of the fungus<br>(E) F.W. Went first reported the symptoms of bakanae disease",
@@ -2676,7 +2676,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 179,
-    "topic": "PGR Discovery – Cytokinin",
+    "topic": "PGR Discovery",
     "difficulty": "Medium",
     "type": "Except",
     "q": "According to NCERT, the callus from internodal segments of tobacco stems proliferated when auxin was supplemented with all of the following, <b>EXCEPT:</b>",
@@ -2691,7 +2691,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 180,
-    "topic": "PGR Discovery – Cytokinin",
+    "topic": "PGR Discovery",
     "difficulty": "Hard",
     "type": "Statement",
     "q": "Read the following statements about kinetin discovery:<br>I. F. Skoog worked with internodal segments of tobacco stems<br>II. Miller et al. (1955) identified and crystallised kinetin<br>III. Kinetin was described as a cytokinesis promoting active substance<br>IV. Skoog discovered kinetin from rice seedlings<br><br>Which statements are <b>correct</b>?",
@@ -2706,7 +2706,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 181,
-    "topic": "PGR Discovery – ABA",
+    "topic": "PGR Discovery",
     "difficulty": "Easy",
     "type": "Direct",
     "q": "According to NCERT, which three inhibitors were later proved to be chemically identical and named abscisic acid (ABA)?",
@@ -2721,7 +2721,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 182,
-    "topic": "PGR Discovery – All Five",
+    "topic": "PGR Discovery",
     "difficulty": "Hard",
     "type": "Match",
     "q": "Match Column I (Scientist) with Column II (Discovery/Contribution):<br><br><b>Column I</b><br>(P) Charles Darwin & Francis Darwin<br>(Q) F.W. Went<br>(R) E. Kurosawa (1926)<br>(S) Miller et al. (1955)<br><br><b>Column II</b><br>(i) Identified and crystallised kinetin<br>(ii) Isolated auxin from oat coleoptile tips<br>(iii) Observed phototropism in canary grass coleoptiles<br>(iv) Reported bakanae disease symptoms with sterile filtrates<br><br>Choose the <b>correct</b> match:",
@@ -2736,7 +2736,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 183,
-    "topic": "PGR Discovery – Ethylene",
+    "topic": "PGR Discovery",
     "difficulty": "Medium",
     "type": "Statement",
     "q": "Which of the following is <b>incorrect</b> about the discovery of ethylene?",
@@ -2751,7 +2751,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 184,
-    "topic": "Plant Growth Regulators – Classification",
+    "topic": "Plant Growth Regulators",
     "difficulty": "Hard",
     "type": "HowMany",
     "q": "How many of the following are listed as <b>growth promoting activities</b> of PGRs in NCERT?<br>(A) Cell division<br>(B) Cell enlargement<br>(C) Pattern formation<br>(D) Dormancy<br>(E) Tropic growth<br>(F) Flowering, fruiting and seed formation<br>(G) Abscission",
@@ -2766,7 +2766,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 185,
-    "topic": "Plant Growth Regulators – Classification",
+    "topic": "Plant Growth Regulators",
     "difficulty": "Hard",
     "type": "AR",
     "q": "<b>Assertion (A):</b> Auxins, gibberellins and cytokinins are called plant growth promoters.<br><b>Reason (R):</b> They are involved in growth promoting activities such as cell division, cell enlargement, pattern formation, tropic growth, flowering, fruiting and seed formation.",
@@ -2781,7 +2781,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 186,
-    "topic": "Plant Growth Regulators – Chemical Nature",
+    "topic": "Plant Growth Regulators",
     "difficulty": "Hard",
     "type": "Statement",
     "q": "Read the following statements and identify the <b>correct</b> ones:<br>I. IAA is an indole compound<br>II. ABA is a terpene<br>III. Kinetin is an adenine derivative<br>IV. GA₃ is a derivative of carotenoids<br>V. Ethylene is a gaseous PGR with formula C₂H₄",
@@ -2811,7 +2811,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 188,
-    "topic": "PGR Discovery – Gibberellin",
+    "topic": "PGR Discovery",
     "difficulty": "Easy",
     "type": "Direct",
     "q": "The 'bakanae' (foolish seedling) disease of rice seedlings was caused by the fungal pathogen:",
@@ -2826,7 +2826,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 189,
-    "topic": "Development – Plasticity",
+    "topic": "Development",
     "difficulty": "Hard",
     "type": "Statement",
     "q": "Consider the following about plasticity and heterophylly:<br>I. Heterophylly in cotton is due to environment<br>II. Heterophylly in buttercup is due to environment<br>III. Plasticity means plants form the same structure regardless of conditions<br>IV. Larkspur shows heterophylly where juvenile and mature leaves differ<br><br>Which statements are <b>correct</b>?",
@@ -2841,7 +2841,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 190,
-    "topic": "PGR – Chemical Nature + Discovery (Cross-Concept)",
+    "topic": "Cross-Concept",
     "difficulty": "Hard",
     "type": "Match",
     "q": "Match Column I (PGR) with Column II (Chemical Nature):<br><br><b>Column I</b><br>(P) Auxin (IAA)<br>(Q) Gibberellic acid (GA₃)<br>(R) Kinetin<br>(S) ABA<br><br><b>Column II</b><br>(i) Terpene<br>(ii) Indole compound<br>(iii) Adenine derivative<br>(iv) Derivative of carotenoids<br><br>Choose the <b>correct</b> match:",
@@ -2856,7 +2856,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 191,
-    "topic": "PGR Discovery – Darwin",
+    "topic": "PGR Discovery",
     "difficulty": "Easy",
     "type": "Direct",
     "q": "Charles Darwin and Francis Darwin observed phototropism in the coleoptiles of:",
@@ -2871,7 +2871,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 192,
-    "topic": "Plant Growth Regulators – Classification",
+    "topic": "Plant Growth Regulators",
     "difficulty": "Medium",
     "type": "Statement",
     "q": "Which of the following is <b>incorrect</b> about the functional classification of PGRs?",
@@ -2886,7 +2886,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 193,
-    "topic": "PGR Discovery – All (Cross-Concept)",
+    "topic": "Cross-Concept",
     "difficulty": "Hard",
     "type": "HowMany",
     "q": "How many of the following scientist-discovery pairs are <b>correctly</b> matched as per NCERT?<br>(A) Charles Darwin — Phototropism in canary grass<br>(B) F.W. Went — Auxin isolation from canary grass tips<br>(C) E. Kurosawa (1926) — Bakanae disease symptoms with sterile filtrates<br>(D) Miller et al. (1955) — Kinetin identification and crystallisation<br>(E) H.H. Cousins (1910) — Volatile substance from ripened oranges",
@@ -2901,7 +2901,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 194,
-    "topic": "PGR Discovery – Cytokinin",
+    "topic": "PGR Discovery",
     "difficulty": "Medium",
     "type": "Except",
     "q": "According to NCERT, callus proliferation from tobacco stem internodal segments required auxin supplemented with all of the following, <b>EXCEPT:</b>",
@@ -2916,7 +2916,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 195,
-    "topic": "Development + PGR Classification (Cross-Concept)",
+    "topic": "Cross-Concept",
     "difficulty": "Hard",
     "type": "Statement",
     "q": "Read the following statements:<br>I. Development = growth + differentiation<br>II. Intrinsic factors include intracellular (genetic) and intercellular (PGRs)<br>III. Auxins, gibberellins, cytokinins and ABA are all growth promoters<br>IV. Extrinsic factors include light, temperature, water, oxygen and nutrition<br>V. Ethylene is largely an inhibitor of growth activities<br><br>Which combination is <b>correct</b>?",
@@ -2931,7 +2931,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 196,
-    "topic": "Development – Plasticity",
+    "topic": "Development",
     "difficulty": "Medium",
     "type": "AR",
     "q": "<b>Assertion (A):</b> Heterophylly in cotton, coriander and larkspur is an example of plasticity.<br><b>Reason (R):</b> In these plants, leaves of the juvenile plant are different in shape from those in mature plants.",
@@ -2946,7 +2946,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 197,
-    "topic": "PGR Discovery – ABA",
+    "topic": "PGR Discovery",
     "difficulty": "Easy",
     "type": "Direct",
     "q": "The three inhibitors — inhibitor-B, abscission II and dormin — were later proved to be chemically identical and named:",
@@ -2961,7 +2961,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 198,
-    "topic": "Plant Growth Regulators – Chemical Nature",
+    "topic": "Plant Growth Regulators",
     "difficulty": "Medium",
     "type": "Statement",
     "q": "Select the <b>correct</b> statement about plant growth regulators:",
@@ -2976,7 +2976,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 199,
-    "topic": "PGR Discovery – All (Cross-Concept)",
+    "topic": "Cross-Concept",
     "difficulty": "Hard",
     "type": "HowMany",
     "q": "How many of the following statements are <b>incorrect</b>?<br>(A) Darwin observed phototropism in oat coleoptiles<br>(B) Went isolated auxin from oat seedling coleoptile tips<br>(C) Kurosawa (1926) worked with sterile filtrates on tobacco seedlings<br>(D) Miller et al. (1955) identified kinetin as a cytokinesis promoting substance<br>(E) Cousins (1910) confirmed release of volatile substance from ripened bananas that hastened ripening of oranges",
@@ -2991,7 +2991,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 200,
-    "topic": "PGR – Chemical Nature + Classification (Cross-Concept)",
+    "topic": "Cross-Concept",
     "difficulty": "Hard",
     "type": "Match",
     "q": "Match Column I (PGR) with Column II (Chemical Nature + Functional Group):<br><br><b>Column I</b><br>(P) Auxin (IAA)<br>(Q) ABA<br>(R) GA₃<br>(S) Ethylene<br><br><b>Column II</b><br>(i) Indole compound — Growth promoter<br>(ii) Carotenoid derivative — Growth inhibitor<br>(iii) Terpene — Growth promoter<br>(iv) Gas (C₂H₄) — Largely inhibitor<br><br>Choose the <b>correct</b> match:",
@@ -3021,7 +3021,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 202,
-    "topic": "PGR Discovery – Gibberellin",
+    "topic": "PGR Discovery",
     "difficulty": "Medium",
     "type": "Except",
     "q": "All of the following are correctly associated with gibberellin discovery, <b>EXCEPT:</b>",
@@ -3036,7 +3036,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 203,
-    "topic": "PGR – Chemical Nature",
+    "topic": "PGR",
     "difficulty": "Hard",
     "type": "AR",
     "q": "<b>Assertion (A):</b> PGRs are small, simple molecules of diverse chemical composition.<br><b>Reason (R):</b> PGRs include indole compounds, adenine derivatives, carotenoid derivatives, terpenes and gases.",
@@ -3051,7 +3051,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 204,
-    "topic": "Development + PGR (Cross-Concept)",
+    "topic": "Cross-Concept",
     "difficulty": "Hard",
     "type": "Statement",
     "q": "Read the following statements:<br>I. Heterophylly in buttercup is due to phases of life (juvenile vs mature)<br>II. PGRs are intercellular intrinsic factors controlling development<br>III. ABA is a growth promoter like auxins and gibberellins<br>IV. Ethylene could fit either promoter or inhibitor group<br>V. Kinetin is an adenine derivative identified by Miller et al. (1955)<br><br>Which statements are <b>correct</b>?",
@@ -3066,7 +3066,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 205,
-    "topic": "PGR Discovery – All (Comprehensive)",
+    "topic": "PGR Discovery",
     "difficulty": "Hard",
     "type": "HowMany",
     "q": "How many of the following plant-scientist associations are <b>correct</b>?<br>(A) Canary grass — Charles Darwin<br>(B) Oat seedlings — F.W. Went<br>(C) Rice seedlings — E. Kurosawa<br>(D) Tobacco stems — Miller et al.<br>(E) Ripened oranges — H.H. Cousins",
@@ -3081,7 +3081,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 206,
-    "topic": "Development – Heterophylly",
+    "topic": "Development",
     "difficulty": "Medium",
     "type": "Except",
     "q": "All of the following correctly describe heterophylly as per NCERT, <b>EXCEPT:</b>",
@@ -3096,7 +3096,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 207,
-    "topic": "PGR – Ethylene",
+    "topic": "PGR",
     "difficulty": "Medium",
     "type": "Statement",
     "q": "Which of the following is <b>correct</b> about ethylene as per NCERT?",
@@ -3111,7 +3111,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 208,
-    "topic": "Development + PGR (Cross-Concept Integration)",
+    "topic": "Cross-Concept",
     "difficulty": "Hard",
     "type": "HowMany",
     "q": "How many of the following statements are <b>correct</b>?<br>(A) Development in plants is under the control of both intrinsic and extrinsic factors<br>(B) Intracellular intrinsic factors include genetic factors<br>(C) Intercellular intrinsic factors include chemicals like PGRs<br>(D) ABA is a carotenoid derivative and belongs to the growth promoter group<br>(E) Discovery of all five major PGR groups has been accidental",
@@ -3126,7 +3126,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 209,
-    "topic": "PGR Discovery – Comprehensive",
+    "topic": "PGR Discovery",
     "difficulty": "Hard",
     "type": "Match",
     "q": "Match Column I (Scientist/Year) with Column II (Contribution):<br><br><b>Column I</b><br>(P) Cousins (1910)<br>(Q) Kurosawa (1926)<br>(R) Miller et al. (1955)<br>(S) Mid-1960s researchers<br><br><b>Column II</b><br>(i) Kinetin identification and crystallisation<br>(ii) Purification of inhibitor-B, abscission II and dormin (= ABA)<br>(iii) Volatile substance from ripened oranges hastening banana ripening<br>(iv) Sterile filtrates of Gibberella fujikuroi causing bakanae symptoms in rice<br><br>Choose the <b>correct</b> match:",
@@ -3141,7 +3141,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 210,
-    "topic": "Development + PGR (Ultimate Cross-Concept)",
+    "topic": "Cross-Concept",
     "difficulty": "Hard",
     "type": "Statement",
     "q": "Read the following statements and identify the <b>correct</b> combination:<br>I. Plasticity is exemplified by heterophylly in cotton, coriander, larkspur and buttercup<br>II. In buttercup, heterophylly is due to environment (air vs water leaves)<br>III. Auxins, gibberellins, cytokinins and ABA are all growth promoters<br>IV. GA₃ is a terpene and ABA is a derivative of carotenoids<br>V. Ethylene is a gaseous PGR that could fit either promoter or inhibitor group",
@@ -3201,7 +3201,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 214,
-    "topic": "Auxins – Apical Dominance",
+    "topic": "Auxins",
     "difficulty": "Medium",
     "type": "AR",
     "q": "<b>Assertion (A):</b> Removal of shoot tips (decapitation) usually results in the growth of lateral buds.<br><b>Reason (R):</b> The growing apical bud produces auxin which inhibits the growth of lateral (axillary) buds — a phenomenon called apical dominance.",
@@ -3276,7 +3276,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 219,
-    "topic": "Auxins – Comprehensive",
+    "topic": "Auxins",
     "difficulty": "Hard",
     "type": "HowMany",
     "q": "How many of the following physiological effects are correctly attributed to <b>auxins</b> as per NCERT?<br>(A) Initiate rooting in stem cuttings<br>(B) Promote flowering in pineapples<br>(C) Induce parthenocarpy in tomatoes<br>(D) Speed up malting process in brewing<br>(E) Kill dicotyledonous weeds (2,4-D)<br>(F) Bolting in rosette plants",
@@ -3291,7 +3291,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 220,
-    "topic": "Auxins – Applications",
+    "topic": "Auxins",
     "difficulty": "Hard",
     "type": "Match",
     "q": "Match Column I (Auxin Type) with Column II (Classification):<br><br><b>Column I</b><br>(P) IAA<br>(Q) IBA<br>(R) NAA<br>(S) 2,4-D<br><br><b>Column II</b><br>(i) Synthetic auxin<br>(ii) Natural auxin<br><br>Choose the <b>correct</b> match:",
@@ -3366,7 +3366,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 225,
-    "topic": "Gibberellins – Sugarcane",
+    "topic": "Gibberellins",
     "difficulty": "Medium",
     "type": "AR",
     "q": "<b>Assertion (A):</b> Spraying sugarcane crop with gibberellins increases the yield by as much as 20 tonnes per acre.<br><b>Reason (R):</b> Gibberellins increase the length of the sugarcane stem where carbohydrate is stored as sugar.",
@@ -3471,7 +3471,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 232,
-    "topic": "Ethylene – Effects",
+    "topic": "Ethylene",
     "difficulty": "Hard",
     "type": "Match",
     "q": "Match Column I (Ethylene Effect) with Column II (Specific Example):<br><br><b>Column I</b><br>(P) Breaks dormancy<br>(Q) Promotes internode elongation<br>(R) Promotes female flowers<br>(S) Induces flowering<br><br><b>Column II</b><br>(i) Pineapples and mango<br>(ii) Deep water rice<br>(iii) Cucumbers<br>(iv) Peanut seeds and potato tubers<br><br>Choose the <b>correct</b> match:",
@@ -3516,7 +3516,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 235,
-    "topic": "Ethylene – Ethephon",
+    "topic": "Ethylene",
     "difficulty": "Medium",
     "type": "AR",
     "q": "<b>Assertion (A):</b> Ethephon is the most widely used compound as a source of ethylene.<br><b>Reason (R):</b> Ethephon in aqueous solution is readily absorbed and transported within the plant and releases ethylene slowly.",
@@ -3561,7 +3561,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 238,
-    "topic": "Auxin vs Cytokinin – Apical Dominance",
+    "topic": "Cross-Concept",
     "difficulty": "Hard",
     "type": "Match",
     "q": "Match Column I (PGR) with Column II (Role in Apical Dominance/Senescence):<br><br><b>Column I</b><br>(P) Auxin<br>(Q) Cytokinin<br>(R) ABA<br>(S) GA<br><br><b>Column II</b><br>(i) Overcomes apical dominance<br>(ii) Promotes/causes apical dominance<br>(iii) Delays senescence<br>(iv) Antagonist to GAs<br><br>Choose the <b>correct</b> match:",
@@ -3576,7 +3576,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 239,
-    "topic": "Ethylene – Pineapple",
+    "topic": "Ethylene",
     "difficulty": "Hard",
     "type": "Statement",
     "q": "Consider the following statements about pineapple:<br>I. Auxins promote flowering in pineapples<br>II. Ethylene initiates flowering and synchronises fruit-set in pineapples<br>III. Gibberellins promote flowering in pineapples<br>IV. Both auxins and ethylene have roles in pineapple flowering<br><br>Which statements are <b>correct</b>?",
@@ -3591,7 +3591,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 240,
-    "topic": "ABA vs Ethylene – Dormancy/Germination",
+    "topic": "Cross-Concept",
     "difficulty": "Hard",
     "type": "HowMany",
     "q": "How many of the following statements are <b>correct</b>?<br>(A) ABA inhibits seed germination<br>(B) Ethylene breaks seed and bud dormancy<br>(C) ABA induces dormancy to help seeds withstand desiccation<br>(D) Ethylene inhibits seed germination<br>(E) ABA breaks seed dormancy",
@@ -3606,7 +3606,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 241,
-    "topic": "Gibberellins – Bolting",
+    "topic": "Gibberellins",
     "difficulty": "Easy",
     "type": "Direct",
     "q": "According to NCERT, gibberellins promote bolting (internode elongation just prior to flowering) in:",
@@ -3621,7 +3621,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 242,
-    "topic": "Gibberellins – Comprehensive",
+    "topic": "Gibberellins",
     "difficulty": "Medium",
     "type": "Statement",
     "q": "Which of the following is <b>incorrect</b> about gibberellins?",
@@ -3651,7 +3651,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 244,
-    "topic": "Ethylene – Ethephon Applications",
+    "topic": "Ethylene",
     "difficulty": "Medium",
     "type": "Except",
     "q": "Ethephon is used for all of the following, <b>EXCEPT:</b>",
@@ -3681,7 +3681,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 246,
-    "topic": "All PGRs – Senescence",
+    "topic": "All PGRs",
     "difficulty": "Hard",
     "type": "HowMany",
     "q": "How many of the following PGR-senescence relationships are <b>correctly</b> stated as per NCERT?<br>(A) Gibberellins delay senescence<br>(B) Ethylene promotes senescence<br>(C) Cytokinins delay leaf senescence via nutrient mobilisation<br>(D) ABA promotes senescence<br>(E) Auxins delay senescence in all stages",
@@ -3696,7 +3696,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 247,
-    "topic": "Auxin vs Ethylene – Pineapple",
+    "topic": "Cross-Concept",
     "difficulty": "Hard",
     "type": "AR",
     "q": "<b>Assertion (A):</b> Both auxins and ethylene are involved in flowering in pineapples.<br><b>Reason (R):</b> Auxins promote flowering in pineapples while ethylene initiates flowering and synchronises fruit-set in pineapples.",
@@ -3711,7 +3711,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 248,
-    "topic": "ABA – Stress Hormone",
+    "topic": "ABA",
     "difficulty": "Medium",
     "type": "Statement",
     "q": "ABA is called the 'stress hormone' because it:",
@@ -3726,7 +3726,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 249,
-    "topic": "All PGRs – Dormancy",
+    "topic": "All PGRs",
     "difficulty": "Hard",
     "type": "Except",
     "q": "Regarding dormancy, all of the following are correct as per NCERT, <b>EXCEPT:</b>",
@@ -3741,7 +3741,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 250,
-    "topic": "All PGRs – Comprehensive Effects",
+    "topic": "All PGRs",
     "difficulty": "Hard",
     "type": "Match",
     "q": "Match Column I (PGR) with Column II (Specific Effect):<br><br><b>Column I</b><br>(P) Auxin<br>(Q) Gibberellin<br>(R) Ethylene<br>(S) ABA<br><br><b>Column II</b><br>(i) Stomatal closure and stress tolerance<br>(ii) Parthenocarpy in tomatoes<br>(iii) Malting in brewing industry (GA₃)<br>(iv) Respiratory climacteric during fruit ripening<br><br>Choose the <b>correct</b> match:",
@@ -3756,7 +3756,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 251,
-    "topic": "Cytokinins – Kinetin vs Zeatin",
+    "topic": "Cross-Concept",
     "difficulty": "Hard",
     "type": "Statement",
     "q": "Consider the following statements about cytokinins:<br>I. Kinetin is a modified form of adenine, a purine<br>II. Kinetin occurs naturally in plants<br>III. Zeatin was isolated from corn-kernels and coconut milk<br>IV. Kinetin was discovered from autoclaved herring sperm DNA<br>V. Zeatin does not occur naturally in plants<br><br>Which statements are <b>correct</b>?",
@@ -3771,7 +3771,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 252,
-    "topic": "Ethylene – Comprehensive",
+    "topic": "Ethylene",
     "difficulty": "Hard",
     "type": "HowMany",
     "q": "How many of the following are effects of <b>ethephon</b> as per NCERT?<br>(A) Hastens fruit ripening in tomatoes and apples<br>(B) Accelerates abscission (thinning of cotton, cherry, walnut)<br>(C) Promotes female flowers in cucumbers<br>(D) Speeds up malting in brewing industry<br>(E) Induces flowering in mango",
@@ -3786,7 +3786,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 253,
-    "topic": "ABA – Antagonist",
+    "topic": "ABA",
     "difficulty": "Medium",
     "type": "AR",
     "q": "<b>Assertion (A):</b> ABA acts as an antagonist to GAs in most situations.<br><b>Reason (R):</b> ABA is a general plant growth inhibitor while GAs are growth promoters.",
@@ -3801,7 +3801,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 254,
-    "topic": "Auxins – 2,4-D",
+    "topic": "Auxins",
     "difficulty": "Medium",
     "type": "Statement",
     "q": "Select the <b>correct</b> statement about 2,4-D:",
@@ -3816,7 +3816,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 255,
-    "topic": "Gibberellins – Conifers",
+    "topic": "Gibberellins",
     "difficulty": "Medium",
     "type": "Except",
     "q": "According to NCERT, spraying juvenile conifers with GAs leads to all of the following, <b>EXCEPT:</b>",
@@ -3831,7 +3831,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 256,
-    "topic": "All PGRs – Plant-PGR Association",
+    "topic": "All PGRs",
     "difficulty": "Hard",
     "type": "Match",
     "q": "Match Column I (Plant) with Column II (PGR Effect):<br><br><b>Column I</b><br>(P) Deep water rice<br>(Q) Sugarcane<br>(R) Cucumber<br>(S) Peanut seeds<br><br><b>Column II</b><br>(i) GA increases stem length and yield by 20 tonnes/acre<br>(ii) Ethylene promotes female flowers<br>(iii) Ethylene breaks seed dormancy, initiates germination<br>(iv) Ethylene promotes rapid internode/petiole elongation<br><br>Choose the <b>correct</b> match:",
@@ -3846,7 +3846,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 257,
-    "topic": "Gibberellins – Numerical",
+    "topic": "Gibberellins",
     "difficulty": "Medium",
     "type": "Statement",
     "q": "Which of the following numerical facts about gibberellins is <b>correct</b> as per NCERT?",
@@ -3861,7 +3861,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 258,
-    "topic": "All PGRs – Interactions",
+    "topic": "All PGRs",
     "difficulty": "Hard",
     "type": "HowMany",
     "q": "How many of the following PGR interactions/events are mentioned in NCERT?<br>(A) Dormancy in seeds/buds involves multiple PGRs<br>(B) Abscission involves more than one PGR<br>(C) Senescence involves multiple PGR interactions<br>(D) Apical dominance involves interaction of PGRs<br>(E) ABA acts as an antagonist to auxins",
@@ -3876,7 +3876,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 259,
-    "topic": "Cytokinins – Effects",
+    "topic": "Cytokinins",
     "difficulty": "Easy",
     "type": "Direct",
     "q": "According to NCERT, cytokinins help overcome:",
@@ -3891,7 +3891,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 260,
-    "topic": "All PGRs – Cross-Concept",
+    "topic": "Cross-Concept",
     "difficulty": "Hard",
     "type": "Statement",
     "q": "Read the following statements:<br>I. Auxin causes apical dominance; cytokinin overcomes it<br>II. GA delays senescence; ethylene promotes senescence<br>III. ABA induces dormancy; ethylene breaks dormancy<br>IV. ABA promotes seed germination; ethylene inhibits it<br>V. ABA acts as antagonist to GAs<br><br>Which combination is <b>correct</b>?",
@@ -3906,7 +3906,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 261,
-    "topic": "Auxins – Stage-Dependent Effects",
+    "topic": "Auxins",
     "difficulty": "Hard",
     "type": "Except",
     "q": "According to NCERT, auxins help to prevent fruit and leaf drop at early stages but promote abscission of older mature leaves and fruits. All of the following correctly describe auxin effects, <b>EXCEPT:</b>",
@@ -3921,7 +3921,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 262,
-    "topic": "All PGRs – Elongation Effects",
+    "topic": "All PGRs",
     "difficulty": "Hard",
     "type": "Match",
     "q": "Match Column I (Plant/Structure) with Column II (PGR Responsible for Elongation):<br><br><b>Column I</b><br>(P) Grape stalks — length increase<br>(Q) Sugarcane stem — length increase<br>(R) Deep water rice — internode/petiole elongation<br>(S) Beet, cabbage — bolting (internode elongation)<br><br><b>Column II</b><br>(i) Ethylene<br>(ii) Gibberellin<br><br>Choose the <b>correct</b> match:",
@@ -3936,7 +3936,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 263,
-    "topic": "Cytokinins – Nutrient Mobilisation",
+    "topic": "Cytokinins",
     "difficulty": "Medium",
     "type": "Statement",
     "q": "Which of the following is <b>correct</b> about cytokinins and senescence?",
@@ -3951,7 +3951,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 264,
-    "topic": "Auxins + Ethylene – Abscission",
+    "topic": "Cross-Concept",
     "difficulty": "Hard",
     "type": "HowMany",
     "q": "How many of the following statements about abscission are <b>correct</b> as per NCERT?<br>(A) Auxins prevent fruit and leaf drop at early stages<br>(B) Auxins promote abscission of older mature leaves and fruits<br>(C) Ethylene promotes senescence and abscission of leaves and flowers<br>(D) Ethephon accelerates abscission (thinning of cotton, cherry, walnut)<br>(E) ABA promotes abscission as its primary role",
@@ -3966,7 +3966,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 265,
-    "topic": "All PGRs – Intrinsic Control",
+    "topic": "All PGRs",
     "difficulty": "Medium",
     "type": "AR",
     "q": "<b>Assertion (A):</b> For any and every phase of growth, differentiation and development of plants, one or the other PGR has some role to play.<br><b>Reason (R):</b> PGR roles could be complementary or antagonistic, individualistic or synergistic.",
@@ -3981,7 +3981,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 266,
-    "topic": "Gibberellins – Apple",
+    "topic": "Gibberellins",
     "difficulty": "Medium",
     "type": "Statement",
     "q": "Select the <b>incorrect</b> statement about gibberellin effects on fruits:",
@@ -3996,7 +3996,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 267,
-    "topic": "Ethylene – Potato and Peanut",
+    "topic": "Ethylene",
     "difficulty": "Easy",
     "type": "Direct",
     "q": "According to NCERT, ethylene initiates germination in peanut seeds and sprouting of:",
@@ -4011,7 +4011,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 268,
-    "topic": "All PGRs – Flowering",
+    "topic": "All PGRs",
     "difficulty": "Hard",
     "type": "HowMany",
     "q": "How many of the following PGR-flowering associations are <b>correctly</b> stated as per NCERT?<br>(A) Auxins promote flowering in pineapples<br>(B) Ethylene initiates flowering and synchronises fruit-set in pineapples<br>(C) Ethylene induces flowering in mango<br>(D) Gibberellins promote flowering in pineapples<br>(E) Gibberellins promote bolting (just prior to flowering) in rosette plants",
@@ -4026,7 +4026,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 269,
-    "topic": "Auxins – Xylem Differentiation",
+    "topic": "Auxins",
     "difficulty": "Medium",
     "type": "Statement",
     "q": "Which of the following is <b>correct</b> about auxin's role in cell-level processes?",
@@ -4041,7 +4041,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 270,
-    "topic": "Ethylene – Triple Response",
+    "topic": "Ethylene",
     "difficulty": "Medium",
     "type": "Except",
     "q": "Ethylene influences on dicot seedlings include all of the following, <b>EXCEPT:</b>",
@@ -4056,7 +4056,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 271,
-    "topic": "GA – Malting",
+    "topic": "Gibberellins",
     "difficulty": "Medium",
     "type": "AR",
     "q": "<b>Assertion (A):</b> GA₃ is used to speed up the malting process in brewing industry.<br><b>Reason (R):</b> GA₃ was one of the first gibberellins to be discovered and remains the most intensively studied form.",
@@ -4071,7 +4071,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 272,
-    "topic": "All PGRs – Comprehensive Integration",
+    "topic": "All PGRs",
     "difficulty": "Hard",
     "type": "Statement",
     "q": "Read the following carefully and identify the <b>incorrect</b> statement:<br>(a) Auxin: first isolated from human urine; IAA and IBA are natural<br>(b) GA: more than 100 reported; all acidic; GA₃ most studied<br>(c) Cytokinin: kinetin occurs naturally in plants; zeatin from corn-kernels<br>(d) ABA: stress hormone; stimulates stomatal closure; antagonist to GA",
@@ -4086,7 +4086,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 273,
-    "topic": "All PGRs – Discovery Sources",
+    "topic": "All PGRs",
     "difficulty": "Hard",
     "type": "Match",
     "q": "Match Column I (PGR) with Column II (Original Source of Discovery/Isolation):<br><br><b>Column I</b><br>(P) Auxin<br>(Q) Kinetin<br>(R) Zeatin<br>(S) Gibberellic acid<br>(T) Ethylene<br><br><b>Column II</b><br>(i) Autoclaved herring sperm DNA<br>(ii) Ripened oranges (volatile substance)<br>(iii) Human urine<br>(iv) Corn-kernels and coconut milk<br>(v) Gibberella fujikuroi (fungal pathogen)<br><br>Choose the <b>correct</b> match:",
@@ -4101,7 +4101,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 274,
-    "topic": "All PGRs – Comprehensive Effects",
+    "topic": "All PGRs",
     "difficulty": "Hard",
     "type": "HowMany",
     "q": "How many of the following statements are <b>incorrect</b>?<br>(A) Auxins induce parthenocarpy in tomatoes<br>(B) GA₃ speeds up malting in brewing industry<br>(C) Kinetin occurs naturally in plants<br>(D) ABA stimulates opening of stomata<br>(E) Ethylene promotes female flowers in cucumbers<br>(F) 2,4-D kills monocotyledonous weeds<br>(G) Cytokinins promote apical dominance",
@@ -4116,7 +4116,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 275,
-    "topic": "All PGRs – Ultimate Integration",
+    "topic": "All PGRs",
     "difficulty": "Hard",
     "type": "Statement",
     "q": "Read the following statements and identify the <b>correct</b> combination:<br>I. Auxin causes apical dominance; cytokinin overcomes it<br>II. ABA inhibits seed germination; ethylene breaks dormancy and initiates germination<br>III. GA delays senescence; ethylene promotes senescence<br>IV. ABA is the stress hormone; it stimulates stomatal closure<br>V. 2,4-D kills monocot weeds; GA₃ promotes bolting in rosette plants<br>VI. Kinetin is natural; zeatin is synthetic",
@@ -4131,7 +4131,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 276,
-    "topic": "Summary – Growth Definition",
+    "topic": "Summary",
     "difficulty": "Easy",
     "type": "Statement",
     "q": "Which of the following <b>correctly</b> describes growth as per the NCERT Summary?",
@@ -4146,7 +4146,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 277,
-    "topic": "Summary – Meristems and Elongation",
+    "topic": "Summary",
     "difficulty": "Easy",
     "type": "Direct",
     "q": "According to the NCERT Summary, which meristems contribute to the elongation growth of plant axes?",
@@ -4161,7 +4161,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 278,
-    "topic": "Summary – Growth Parameters",
+    "topic": "Summary",
     "difficulty": "Hard",
     "type": "HowMany",
     "q": "How many of the following are listed as parameters of growth in the NCERT Summary?<br>(A) Size<br>(B) Area<br>(C) Length<br>(D) Height<br>(E) Colour<br>(F) Volume<br>(G) Cell number",
@@ -4176,7 +4176,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 279,
-    "topic": "Summary – Phases of Growth",
+    "topic": "Summary",
     "difficulty": "Hard",
     "type": "Statement",
     "q": "According to the NCERT Summary, the three principal phases of growth are:",
@@ -4191,7 +4191,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 280,
-    "topic": "Summary – Differentiation Trigger",
+    "topic": "Summary",
     "difficulty": "Medium",
     "type": "AR",
     "q": "<b>Assertion (A):</b> When a cell loses the capacity to divide, it leads to differentiation.<br><b>Reason (R):</b> Differentiation results in development of structures that is commensurate with the function the cells finally has to perform.",
@@ -4206,7 +4206,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 281,
-    "topic": "Summary – Growth Parameters",
+    "topic": "Summary",
     "difficulty": "Medium",
     "type": "Except",
     "q": "According to the NCERT Summary, growth is expressed in all of the following parameters, <b>EXCEPT:</b>",
@@ -4221,7 +4221,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 282,
-    "topic": "Summary – Indeterminate Growth",
+    "topic": "Summary",
     "difficulty": "Easy",
     "type": "Direct",
     "q": "According to the NCERT Summary, growth in higher plants is:",
@@ -4236,7 +4236,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 283,
-    "topic": "Summary – Development",
+    "topic": "Summary",
     "difficulty": "Medium",
     "type": "Statement",
     "q": "Select the <b>correct</b> statement from the NCERT Summary about development:",
@@ -4251,7 +4251,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 284,
-    "topic": "Summary – PGR Interactions",
+    "topic": "Summary",
     "difficulty": "Hard",
     "type": "HowMany",
     "q": "How many of the following statements about PGRs from the NCERT Summary are <b>correct</b>?<br>(A) PGRs are intercellular intrinsic factors<br>(B) There are five principal groups of PGRs<br>(C) Any PGR has diverse physiological effects on plants<br>(D) Diverse PGRs also manifest similar effects<br>(E) PGRs always act synergistically, never antagonistically",
@@ -4266,7 +4266,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 285,
-    "topic": "Summary – Meristems and Growth Types",
+    "topic": "Summary",
     "difficulty": "Hard",
     "type": "Match",
     "q": "Match Column I (Meristem/Feature) with Column II (Growth Type):<br><br><b>Column I</b><br>(P) Root and shoot apical meristems + intercalary meristem<br>(Q) Lateral meristems (vascular cambium, cork-cambium)<br>(R) Arithmetic growth<br>(S) Geometrical growth<br><br><b>Column II</b><br>(i) Linear curve<br>(ii) Sigmoid/S-curve<br>(iii) Elongation growth of plant axes<br>(iv) Secondary growth (increase in girth)<br><br>Choose the <b>correct</b> match:",
@@ -4281,7 +4281,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 286,
-    "topic": "Summary – Differentiation Sequence",
+    "topic": "Summary",
     "difficulty": "Medium",
     "type": "Statement",
     "q": "According to the NCERT Summary, which sequence is <b>correct</b>?",
@@ -4296,7 +4296,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 287,
-    "topic": "Summary – External Factors",
+    "topic": "Summary",
     "difficulty": "Medium",
     "type": "Except",
     "q": "According to the NCERT Summary, plant growth and development is affected by all of the following external factors, <b>EXCEPT:</b>",
@@ -4311,7 +4311,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 288,
-    "topic": "Summary – Comprehensive",
+    "topic": "Summary",
     "difficulty": "Hard",
     "type": "HowMany",
     "q": "How many of the following statements from the NCERT Summary are <b>correct</b>?<br>(A) Growth conspicuously involves increased protoplasmic material<br>(B) Meristems are the sites of growth in plants<br>(C) Growth is determinate in higher plants<br>(D) Growth is generally sustained at a high rate throughout life<br>(E) When a cell loses the capacity to divide, it leads to differentiation",
@@ -4326,7 +4326,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 289,
-    "topic": "Summary – PGR Classification",
+    "topic": "Summary",
     "difficulty": "Medium",
     "type": "Statement",
     "q": "Which of the following is <b>incorrect</b> as per the NCERT Summary?",
@@ -4341,7 +4341,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 290,
-    "topic": "Summary – Open Differentiation",
+    "topic": "Summary",
     "difficulty": "Medium",
     "type": "AR",
     "q": "<b>Assertion (A):</b> Development in plants could be flexible.<br><b>Reason (R):</b> Differentiation in plants is open.",
@@ -4356,7 +4356,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 291,
-    "topic": "Summary – Protoplasm",
+    "topic": "Summary",
     "difficulty": "Easy",
     "type": "Direct",
     "q": "According to the NCERT Summary, growth conspicuously involves:",
@@ -4371,7 +4371,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 292,
-    "topic": "Summary – PGR Effects",
+    "topic": "Summary",
     "difficulty": "Hard",
     "type": "Statement",
     "q": "Read the following statements from the NCERT Summary:<br>I. Any PGR has diverse physiological effects on plants<br>II. Diverse PGRs also manifest similar effects<br>III. PGRs may act synergistically or antagonistically<br>IV. PGRs always have identical effects on all plant species<br><br>Which statements are <b>correct</b>?",
@@ -4386,7 +4386,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 293,
-    "topic": "Summary – Comprehensive Integration",
+    "topic": "Summary",
     "difficulty": "Hard",
     "type": "HowMany",
     "q": "How many of the following statements are <b>incorrect</b> as per the NCERT Summary?<br>(A) Growth is a reversible increase in size<br>(B) Meristems are the sites of growth in plants<br>(C) Three principal phases of growth are lag, log and senescent<br>(D) Development is the sum of growth and reproduction<br>(E) PGRs are intercellular intrinsic factors<br>(F) Growth is sustained at a high rate throughout life",
@@ -4401,7 +4401,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 294,
-    "topic": "Summary – External Factors",
+    "topic": "Summary",
     "difficulty": "Medium",
     "type": "Except",
     "q": "According to the NCERT Summary, all of the following are external factors affecting plant growth and development, <b>EXCEPT:</b>",
@@ -4416,7 +4416,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 295,
-    "topic": "Summary – Growth Rate",
+    "topic": "Summary",
     "difficulty": "Medium",
     "type": "Statement",
     "q": "Which of the following is <b>correct</b> according to the NCERT Summary about growth rate?",
@@ -4431,7 +4431,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 296,
-    "topic": "Summary – PGR Groups",
+    "topic": "Summary",
     "difficulty": "Easy",
     "type": "Direct",
     "q": "According to the NCERT Summary, PGRs principally belong to how many groups?",
@@ -4446,7 +4446,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 297,
-    "topic": "Summary – Comprehensive Cross-Concept",
+    "topic": "Summary",
     "difficulty": "Hard",
     "type": "Match",
     "q": "Match Column I (Summary Concept) with Column II (Description):<br><br><b>Column I</b><br>(P) Plasticity<br>(Q) Open differentiation<br>(R) Dedifferentiation<br>(S) Synergistic PGR action<br><br><b>Column II</b><br>(i) A differentiated cell regains capacity to divide<br>(ii) Cells from same meristem have different structures at maturity<br>(iii) Flexible development in plants<br>(iv) PGRs working together to enhance each other's effects<br><br>Choose the <b>correct</b> match:",
@@ -4461,7 +4461,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 298,
-    "topic": "Summary – Differentiation Principles",
+    "topic": "Summary",
     "difficulty": "Medium",
     "type": "Statement",
     "q": "According to the NCERT Summary, which of the following is <b>correct</b> about differentiation?",
@@ -4476,7 +4476,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 299,
-    "topic": "Summary – Growth and Differentiation",
+    "topic": "Summary",
     "difficulty": "Hard",
     "type": "HowMany",
     "q": "How many of the following statements are <b>correct</b> as per the NCERT Summary?<br>(A) When a cell loses the capacity to divide, it leads to differentiation<br>(B) Differentiation results in structures commensurate with function<br>(C) A differentiated cell may dedifferentiate and then redifferentiate<br>(D) Differentiation in plants is closed<br>(E) Development could be flexible because differentiation is open",
@@ -4491,7 +4491,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 300,
-    "topic": "Summary – PGRs as Intrinsic Factors",
+    "topic": "Summary",
     "difficulty": "Hard",
     "type": "AR",
     "q": "<b>Assertion (A):</b> Plant growth regulators are intercellular intrinsic factors.<br><b>Reason (R):</b> PGRs are chemical substances that control different differentiation and developmental events.",
@@ -4506,7 +4506,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 301,
-    "topic": "Summary – Growth Characteristics",
+    "topic": "Summary",
     "difficulty": "Hard",
     "type": "Statement",
     "q": "Consider the following statements from the NCERT Summary:<br>I. Growth is one of the most conspicuous events in any living organism<br>II. Growth is a reversible increase in parameters like size and volume<br>III. Growth conspicuously involves increased protoplasmic material<br>IV. Growth is determinate in higher plants<br><br>Which statements are <b>correct</b>?",
@@ -4521,7 +4521,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 302,
-    "topic": "Summary – Meristems",
+    "topic": "Summary",
     "difficulty": "Medium",
     "type": "Except",
     "q": "According to the NCERT Summary, all of the following meristems contribute to elongation growth, <b>EXCEPT:</b>",
@@ -4536,7 +4536,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 303,
-    "topic": "Summary – Flexible Development",
+    "topic": "Summary",
     "difficulty": "Easy",
     "type": "Direct",
     "q": "According to the NCERT Summary, plants exhibit _______ in development:",
@@ -4551,7 +4551,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 304,
-    "topic": "Summary – Arithmetic vs Geometric Growth",
+    "topic": "Summary",
     "difficulty": "Medium",
     "type": "Statement",
     "q": "According to the NCERT Summary, following cell division in root and shoot apical meristem cells, growth could be:",
@@ -4566,7 +4566,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 305,
-    "topic": "Summary – Complete Integration",
+    "topic": "Summary",
     "difficulty": "Hard",
     "type": "Match",
     "q": "Match Column I (Term) with Column II (Description from NCERT Summary):<br><br><b>Column I</b><br>(P) Growth<br>(Q) Differentiation<br>(R) Dedifferentiation<br>(S) Development<br><br><b>Column II</b><br>(i) Sum of growth and differentiation<br>(ii) Cell loses capacity to divide → structural maturation commensurate with function<br>(iii) Irreversible increase in size, area, length, height, volume, cell number<br>(iv) Differentiated cell regains capacity to divide<br><br>Choose the <b>correct</b> match:",
@@ -4581,7 +4581,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 306,
-    "topic": "Summary – Senescent Phase",
+    "topic": "Summary",
     "difficulty": "Easy",
     "type": "Direct",
     "q": "According to the NCERT Summary, the three principal phases of growth are:",
@@ -4596,7 +4596,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 307,
-    "topic": "Summary – PGR Diversity",
+    "topic": "Summary",
     "difficulty": "Medium",
     "type": "Statement",
     "q": "Select the <b>incorrect</b> statement from the NCERT Summary:",
@@ -4611,7 +4611,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 308,
-    "topic": "Summary – Five PGR Groups",
+    "topic": "Summary",
     "difficulty": "Hard",
     "type": "HowMany",
     "q": "How many of the following are correctly listed as one of the five principal PGR groups in the NCERT Summary?<br>(A) Auxins<br>(B) Gibberellins<br>(C) Cytokinins<br>(D) Florigen<br>(E) Abscisic acid<br>(F) Ethylene<br>(G) Brassinosteroids",
@@ -4626,7 +4626,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 309,
-    "topic": "Summary – Growth Site",
+    "topic": "Summary",
     "difficulty": "Easy",
     "type": "Except",
     "q": "According to the NCERT Summary, the sites of growth in plants are meristems. Which of the following is NOT a meristematic region?",
@@ -4641,7 +4641,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 310,
-    "topic": "Summary – Structure and Function",
+    "topic": "Summary",
     "difficulty": "Medium",
     "type": "Statement",
     "q": "According to the NCERT Summary, differentiation results in development of structures that is:",
@@ -4656,7 +4656,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 311,
-    "topic": "Summary – Complete Recap",
+    "topic": "Summary",
     "difficulty": "Hard",
     "type": "AR",
     "q": "<b>Assertion (A):</b> Diverse PGRs manifest similar effects on plants.<br><b>Reason (R):</b> Any PGR has diverse physiological effects on plants.",
@@ -4671,7 +4671,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 312,
-    "topic": "Summary – Ultimate Comprehensive",
+    "topic": "Summary",
     "difficulty": "Hard",
     "type": "HowMany",
     "q": "How many of the following key summary statements are <b>correct</b> as per NCERT?<br>(A) Growth is irreversible and involves increased protoplasm<br>(B) Growth is indeterminate in higher plants<br>(C) Three phases of growth: lag, log, senescent<br>(D) Development = growth + differentiation<br>(E) Plants exhibit plasticity in development<br>(F) PGRs are extrinsic factors controlling growth",
@@ -4686,7 +4686,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 313,
-    "topic": "Summary – Growth Not Sustained",
+    "topic": "Summary",
     "difficulty": "Hard",
     "type": "Statement",
     "q": "Read the following statements from the NCERT Summary:<br>I. Growth is generally sustained at a high rate throughout the life of an organism<br>II. Growth may not be sustained at a high rate throughout life<br>III. One can define three principal phases: lag, log and senescent<br>IV. The three phases prove growth rate is constant<br><br>Which statements are <b>correct</b>?",
@@ -4701,7 +4701,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 314,
-    "topic": "Summary – Complete Factor Classification",
+    "topic": "Summary",
     "difficulty": "Hard",
     "type": "Match",
     "q": "Match Column I (Factor) with Column II (Classification as per NCERT Summary):<br><br><b>Column I</b><br>(P) Plant growth regulators<br>(Q) Light<br>(R) Gravity<br>(S) Genetic factors<br><br><b>Column II</b><br>(i) Extrinsic/External factor<br>(ii) Intercellular intrinsic factor<br>(iii) Intracellular intrinsic factor<br><br>Choose the <b>correct</b> match:",
@@ -4716,7 +4716,7 @@ const QUESTIONS_PLANT_GROWTH = [
   },
   {
     "id": 315,
-    "topic": "Summary – Grand Finale Integration",
+    "topic": "Summary",
     "difficulty": "Hard",
     "type": "Statement",
     "q": "Which of the following combinations of statements from the NCERT Summary are ALL <b>correct</b>?<br>I. Growth is irreversible and indeterminate in higher plants<br>II. Three growth phases: lag, log, senescent<br>III. Development = growth + differentiation; plants show plasticity<br>IV. PGRs are extrinsic factors; they always act synergistically<br>V. Differentiation is open; a differentiated cell may dedifferentiate then redifferentiate<br>VI. Growth involves increased protoplasmic material; meristems are sites of growth",

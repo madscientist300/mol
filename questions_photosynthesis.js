@@ -573,7 +573,7 @@ const allQuestions = [
 },
 {
   id: 45,
-  topic: "Early Experiments - Joseph Priestley",
+  topic: "Early Experiments",
   q: "Joseph Priestley's experiments revealed the essential role of _______ in the growth of green plants.",
   options: [
     "Water",
@@ -586,7 +586,7 @@ const allQuestions = [
 },
 {
   id: 46,
-  topic: "Early Experiments - Joseph Priestley",
+  topic: "Early Experiments",
   q: "Priestley concluded from his bell jar experiments that:",
   options: [
     "Plants damage the air like burning candles",
@@ -599,7 +599,7 @@ const allQuestions = [
 },
 {
   id: 47,
-  topic: "Early Experiments - Joseph Priestley",
+  topic: "Early Experiments",
   q: "Priestley performed his series of experiments on the role of air in plant growth in:",
   options: [
     "1774",
@@ -612,7 +612,7 @@ const allQuestions = [
 },
 {
   id: 48,
-  topic: "Early Experiments - Joseph Priestley",
+  topic: "Early Experiments",
   q: "In Priestley's experiment, which of the following is correct?<br>(i) A candle burning in a closed bell jar gets extinguished<br>(ii) A mouse suffocates in a closed bell jar<br>(iii) A mint plant in the bell jar kept the mouse alive<br>(iv) A mint plant in the bell jar caused the candle to extinguish faster",
   options: [
     "(i), (ii) and (iii) only",
@@ -625,7 +625,7 @@ const allQuestions = [
 },
 {
   id: 49,
-  topic: "Early Experiments - Joseph Priestley",
+  topic: "Early Experiments",
   q: "Priestley concluded that a burning candle or a breathing animal:",
   options: [
     "Produce oxygen that supports plant growth",
@@ -638,7 +638,7 @@ const allQuestions = [
 },
 {
   id: 50,
-  topic: "Early Experiments - Jan Ingenhousz",
+  topic: "Early Experiments",
   q: "Jan Ingenhousz modified Priestley's experiment by:",
   options: [
     "Using a different plant species",
@@ -651,7 +651,7 @@ const allQuestions = [
 },
 {
   id: 51,
-  topic: "Early Experiments - Jan Ingenhousz",
+  topic: "Early Experiments",
   q: "Ingenhousz used an aquatic plant to demonstrate that:",
   options: [
     "Plants absorb CO₂ only in darkness",
@@ -664,7 +664,7 @@ const allQuestions = [
 },
 {
   id: 52,
-  topic: "Early Experiments - Jan Ingenhousz",
+  topic: "Early Experiments",
   q: "Ingenhousz showed that oxygen is released only by:",
   options: [
     "All parts of the plant",
@@ -677,7 +677,7 @@ const allQuestions = [
 },
 {
   id: 53,
-  topic: "Early Experiments - Jan Ingenhousz",
+  topic: "Early Experiments",
   q: "<b>Assertion (A):</b> Jan Ingenhousz showed that sunlight is essential for photosynthesis.<br><b>Reason (R):</b> Priestley had already proved that sunlight is essential for purification of air by plants.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
@@ -690,7 +690,7 @@ const allQuestions = [
 },
 {
   id: 54,
-  topic: "Early Experiments - Jan Ingenhousz",
+  topic: "Early Experiments",
   q: "The correct chronological order of the scientists is:",
   options: [
     "Ingenhousz → Priestley → Sachs → Engelmann",
@@ -703,7 +703,7 @@ const allQuestions = [
 },
 {
   id: 55,
-  topic: "Early Experiments - Julius von Sachs",
+  topic: "Early Experiments",
   q: "Julius von Sachs provided evidence for:",
   options: [
     "Oxygen evolution during photosynthesis",
@@ -716,7 +716,7 @@ const allQuestions = [
 },
 {
   id: 56,
-  topic: "Early Experiments - Julius von Sachs",
+  topic: "Early Experiments",
   q: "Julius von Sachs found that the green substance in plants is located in:",
   options: [
     "Cell wall",
@@ -729,7 +729,7 @@ const allQuestions = [
 },
 {
   id: 57,
-  topic: "Early Experiments - Julius von Sachs",
+  topic: "Early Experiments",
   q: "Which of the following is <b>NOT</b> a contribution of Julius von Sachs?",
   options: [
     "Evidence for production of glucose during plant growth",
@@ -742,7 +742,7 @@ const allQuestions = [
 },
 {
   id: 58,
-  topic: "Early Experiments - Julius von Sachs",
+  topic: "Early Experiments",
   q: "Consider the following statements about Julius von Sachs:<br>(A) He provided evidence for glucose production in plants around 1854<br>(B) He showed glucose is stored as starch<br>(C) He discovered that only green parts of plants make glucose<br>(D) He discovered the role of sunlight in photosynthesis<br><br>Choose the correct statements:",
   options: [
     "(A), (B) and (C) only",
@@ -755,7 +755,7 @@ const allQuestions = [
 },
 {
   id: 59,
-  topic: "Early Experiments - T.W. Engelmann",
+  topic: "Early Experiments",
   q: "T.W. Engelmann's experiment involved:",
   options: [
     "Using a prism to split light and illuminating Cladophora in a suspension of aerobic bacteria",
@@ -768,7 +768,7 @@ const allQuestions = [
 },
 {
   id: 60,
-  topic: "Early Experiments - T.W. Engelmann",
+  topic: "Early Experiments",
   q: "In Engelmann's experiment, aerobic bacteria accumulated mainly in the region of:",
   options: [
     "Green and yellow light",
@@ -781,7 +781,7 @@ const allQuestions = [
 },
 {
   id: 61,
-  topic: "Early Experiments - T.W. Engelmann",
+  topic: "Early Experiments",
   q: "Engelmann used aerobic bacteria in his experiment because:",
   options: [
     "They could fix carbon dioxide",
@@ -794,7 +794,7 @@ const allQuestions = [
 },
 {
   id: 62,
-  topic: "Early Experiments - T.W. Engelmann",
+  topic: "Early Experiments",
   q: "The first action spectrum of photosynthesis described by Engelmann resembles roughly the:",
   options: [
     "Emission spectrum of sunlight",
@@ -807,7 +807,7 @@ const allQuestions = [
 },
 {
   id: 63,
-  topic: "Early Experiments - T.W. Engelmann",
+  topic: "Early Experiments",
   q: "The organism used in Engelmann's experiment was:",
   options: [
     "Spirogyra",
@@ -820,7 +820,7 @@ const allQuestions = [
 },
 {
   id: 64,
-  topic: "Early Experiments - T.W. Engelmann",
+  topic: "Early Experiments",
   q: "<b>Assertion (A):</b> Engelmann described the first action spectrum of photosynthesis.<br><b>Reason (R):</b> He observed that aerobic bacteria accumulated mainly in the region of green light.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
@@ -833,7 +833,7 @@ const allQuestions = [
 },
 {
   id: 65,
-  topic: "Early Experiments - Key Features Known by Mid-19th Century",
+  topic: "Early Experiments",
   q: "By the middle of the nineteenth century, the key features of plant photosynthesis were known. Which of the following correctly represents these?",
   options: [
     "Plants use heat energy to make proteins from CO₂ and water",
@@ -846,7 +846,7 @@ const allQuestions = [
 },
 {
   id: 66,
-  topic: "Early Experiments - Empirical Equation",
+  topic: "Early Experiments",
   q: "The early empirical equation of photosynthesis was represented as:<br>CO₂ + H₂O → [CH₂O] + O₂<br>Here [CH₂O] represents:",
   options: [
     "Formaldehyde",
@@ -859,7 +859,7 @@ const allQuestions = [
 },
 {
   id: 67,
-  topic: "Early Experiments - Cornelius van Niel",
+  topic: "Early Experiments",
   q: "Cornelius van Niel demonstrated that photosynthesis is essentially:",
   options: [
     "A light-independent reaction producing oxygen",
@@ -872,7 +872,7 @@ const allQuestions = [
 },
 {
   id: 68,
-  topic: "Early Experiments - Cornelius van Niel",
+  topic: "Early Experiments",
   q: "Cornelius van Niel's studies were based on:",
   options: [
     "Green algae and cyanobacteria",
@@ -885,7 +885,7 @@ const allQuestions = [
 },
 {
   id: 69,
-  topic: "Early Experiments - Cornelius van Niel",
+  topic: "Early Experiments",
   q: "Van Niel's general equation for photosynthesis is:<br>2H₂A + CO₂ → 2A + CH₂O + H₂O<br>In green plants, H₂A is:",
   options: [
     "H₂S",
@@ -898,7 +898,7 @@ const allQuestions = [
 },
 {
   id: 70,
-  topic: "Early Experiments - Cornelius van Niel",
+  topic: "Early Experiments",
   q: "In purple and green sulphur bacteria, when H₂S is the hydrogen donor, the oxidation product is:",
   options: [
     "O₂",
@@ -911,7 +911,7 @@ const allQuestions = [
 },
 {
   id: 71,
-  topic: "Early Experiments - Cornelius van Niel",
+  topic: "Early Experiments",
   q: "Van Niel inferred that the O₂ evolved by green plants comes from:",
   options: [
     "Carbon dioxide",
@@ -924,7 +924,7 @@ const allQuestions = [
 },
 {
   id: 72,
-  topic: "Early Experiments - Cornelius van Niel",
+  topic: "Early Experiments",
   q: "The inference that O₂ in photosynthesis comes from water and not CO₂ was later proved by:",
   options: [
     "Chromatography techniques",
@@ -937,7 +937,7 @@ const allQuestions = [
 },
 {
   id: 73,
-  topic: "Early Experiments - Cornelius van Niel",
+  topic: "Early Experiments",
   q: "<b>Assertion (A):</b> Some organisms do not release O₂ during photosynthesis.<br><b>Reason (R):</b> In these organisms, the hydrogen donor is H₂S instead of H₂O.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
@@ -950,7 +950,7 @@ const allQuestions = [
 },
 {
   id: 74,
-  topic: "Early Experiments - Correct Equation of Photosynthesis",
+  topic: "Early Experiments",
   q: "The correct overall equation of photosynthesis is:",
   options: [
     "6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂",
@@ -963,7 +963,7 @@ const allQuestions = [
 },
 {
   id: 75,
-  topic: "Early Experiments - Correct Equation of Photosynthesis",
+  topic: "Early Experiments",
   q: "In the overall equation of photosynthesis, 12 molecules of water are used as substrate because:",
   options: [
     "Six molecules provide H₂ and six provide O₂",
@@ -976,7 +976,7 @@ const allQuestions = [
 },
 {
   id: 76,
-  topic: "Early Experiments - Correct Equation of Photosynthesis",
+  topic: "Early Experiments",
   q: "The overall process of photosynthesis is:",
   options: [
     "A single-step reaction",
@@ -989,7 +989,7 @@ const allQuestions = [
 },
 {
   id: 77,
-  topic: "Early Experiments - Cornelius van Niel",
+  topic: "Early Experiments",
   q: "Which of the following scientists was a microbiologist who made a milestone contribution to understanding photosynthesis?",
   options: [
     "Joseph Priestley",
@@ -1002,7 +1002,7 @@ const allQuestions = [
 },
 {
   id: 78,
-  topic: "Early Experiments - Cornelius van Niel",
+  topic: "Early Experiments",
   q: "Select the <b>incorrect</b> statement:",
   options: [
     "In green plants, H₂O is the hydrogen donor and is oxidised to O₂",
@@ -1015,7 +1015,7 @@ const allQuestions = [
 },
 {
   id: 79,
-  topic: "Early Experiments - Scientist Contributions",
+  topic: "Early Experiments",
   q: "Match the scientist with their contribution:<br>(i) Priestley — (P) First action spectrum<br>(ii) Ingenhousz — (Q) Glucose production evidence<br>(iii) Sachs — (R) Role of air in plant growth<br>(iv) Engelmann — (S) Sunlight essential for photosynthesis",
   options: [
     "(i)-R, (ii)-S, (iii)-Q, (iv)-P",
@@ -1028,7 +1028,7 @@ const allQuestions = [
 },
 {
   id: 80,
-  topic: "Early Experiments - Scientist Contributions",
+  topic: "Early Experiments",
   q: "Who discovered oxygen?",
   options: [
     "Jan Ingenhousz",
@@ -1041,7 +1041,7 @@ const allQuestions = [
 },
 {
   id: 81,
-  topic: "Early Experiments - Scientist Contributions",
+  topic: "Early Experiments",
   q: "Consider the following pairs:<br>(i) Priestley (1733-1804)<br>(ii) Ingenhousz (1730-1799)<br>(iii) Engelmann (1843-1909)<br>(iv) Van Niel (1897-1985)<br><br>Who among these was born earliest?",
   options: [
     "Priestley",
@@ -1054,7 +1054,7 @@ const allQuestions = [
 },
 {
   id: 82,
-  topic: "Early Experiments - Cornelius van Niel",
+  topic: "Early Experiments",
   q: "Which of the following represents van Niel's generalised equation of photosynthesis?",
   options: [
     "CO₂ + H₂O → CH₂O + O₂",
@@ -1067,7 +1067,7 @@ const allQuestions = [
 },
 {
   id: 83,
-  topic: "Early Experiments - Cornelius van Niel",
+  topic: "Early Experiments",
   q: "<b>Assertion (A):</b> The O₂ released during photosynthesis in green plants comes from water.<br><b>Reason (R):</b> This was first inferred by van Niel and later proved by radioisotopic techniques.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
@@ -1080,7 +1080,7 @@ const allQuestions = [
 },
 {
   id: 84,
-  topic: "Early Experiments - Scientist Contributions",
+  topic: "Early Experiments",
   q: "The year associated with Julius von Sachs' evidence for glucose production is approximately:",
   options: [
     "1770",
@@ -1093,7 +1093,7 @@ const allQuestions = [
 },
 {
   id: 85,
-  topic: "Early Experiments - Engelmann",
+  topic: "Early Experiments",
   q: "Which of the following statements is correct about Engelmann's experiment?<br>(i) He used a prism to split light<br>(ii) He used Spirogyra as the test organism<br>(iii) Aerobic bacteria accumulated in blue and red light regions<br>(iv) He described the first absorption spectrum of chlorophyll",
   options: [
     "(i) and (iii) only",
@@ -1106,7 +1106,7 @@ const allQuestions = [
 },
 {
   id: 86,
-  topic: "Early Experiments - Scientist Contributions",
+  topic: "Early Experiments",
   q: "Who among the following showed that chlorophyll is located in special bodies within plant cells?",
   options: [
     "T.W. Engelmann",
@@ -1119,7 +1119,7 @@ const allQuestions = [
 },
 {
   id: 87,
-  topic: "Early Experiments - Correct Equation of Photosynthesis",
+  topic: "Early Experiments",
   q: "In the correct equation of photosynthesis, how many molecules of water appear as <b>product</b>?",
   options: [
     "12",
@@ -1132,7 +1132,7 @@ const allQuestions = [
 },
 {
   id: 88,
-  topic: "Early Experiments - Correct Equation of Photosynthesis",
+  topic: "Early Experiments",
   q: "How many molecules of O₂ are released in the overall equation of photosynthesis for one molecule of glucose formed?",
   options: [
     "12",
@@ -1145,7 +1145,7 @@ const allQuestions = [
 },
 {
   id: 89,
-  topic: "Early Experiments - Conceptual Integration",
+  topic: "Early Experiments",
   q: "Which of the following is a correct sequence of discoveries in the history of photosynthesis?",
   options: [
     "O₂ evolution → glucose production → action spectrum → O₂ comes from H₂O",
@@ -1158,7 +1158,7 @@ const allQuestions = [
 },
 {
   id: 90,
-  topic: "Early Experiments - Conceptual Integration",
+  topic: "Early Experiments",
   q: "<b>Assertion (A):</b> Engelmann's action spectrum of photosynthesis matches the absorption spectrum of chlorophyll a and b.<br><b>Reason (R):</b> Maximum photosynthesis occurs in the wavelengths maximally absorbed by chlorophyll.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
@@ -1184,7 +1184,7 @@ const allQuestions = [
 },
 {
   id: 92,
-  topic: "Early Experiments - Cornelius van Niel",
+  topic: "Early Experiments",
   q: "Van Niel's contribution is considered a 'milestone' because he:",
   options: [
     "Discovered chloroplasts",
@@ -1197,7 +1197,7 @@ const allQuestions = [
 },
 {
   id: 93,
-  topic: "Early Experiments - Joseph Priestley",
+  topic: "Early Experiments",
   q: "In Priestley's experiment, the plant used was:",
   options: [
     "Hydrilla",
@@ -1210,7 +1210,7 @@ const allQuestions = [
 },
 {
   id: 94,
-  topic: "Early Experiments - Conceptual Integration",
+  topic: "Early Experiments",
   q: "Which of the following scientists used bacteria in their photosynthesis experiments?<br>(i) T.W. Engelmann<br>(ii) Cornelius van Niel<br>(iii) Joseph Priestley<br>(iv) Jan Ingenhousz",
   options: [
     "(i) and (ii) only",
@@ -1223,7 +1223,7 @@ const allQuestions = [
 },
 {
   id: 95,
-  topic: "Early Experiments - Conceptual Integration",
+  topic: "Early Experiments",
   q: "Which of the following is <b>incorrect</b> about the early empirical equation CO₂ + H₂O → [CH₂O] + O₂?",
   options: [
     "It represents a simplified version of photosynthesis",
@@ -1236,7 +1236,7 @@ const allQuestions = [
 },
 {
   id: 96,
-  topic: "Early Experiments - Ingenhousz",
+  topic: "Early Experiments",
   q: "The bubbles formed around the green parts of the aquatic plant in Ingenhousz's experiment were later identified to be of:",
   options: [
     "Carbon dioxide",
@@ -1249,7 +1249,7 @@ const allQuestions = [
 },
 {
   id: 97,
-  topic: "Early Experiments - Conceptual Integration",
+  topic: "Early Experiments",
   q: "Consider the following:<br>(A) Priestley — discovered oxygen in 1774<br>(B) Ingenhousz — used an aquatic plant<br>(C) Sachs — showed chlorophyll is in chloroplasts<br>(D) Engelmann — used Spirogyra<br>(E) Van Niel — studied sulphur bacteria<br><br>How many of the above statements are correct?",
   options: [
     "Two",
@@ -1262,7 +1262,7 @@ const allQuestions = [
 },
 {
   id: 98,
-  topic: "Early Experiments - Correct Equation of Photosynthesis",
+  topic: "Early Experiments",
   q: "<b>Assertion (A):</b> In the overall equation of photosynthesis, 12 molecules of water are used as substrate.<br><b>Reason (R):</b> Water serves as the hydrogen donor and the source of all O₂ released during photosynthesis.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
@@ -6757,7 +6757,7 @@ const allQuestions = [
 ,
 {
   id: 520,
-  topic: "Factors Affecting Photosynthesis - Introduction",
+  topic: "Factors Affecting Photosynthesis",
   q: "The rate of photosynthesis is important in determining:",
   options: [
     "The colour of flowers",
@@ -6770,7 +6770,7 @@ const allQuestions = [
 },
 {
   id: 521,
-  topic: "Factors Affecting Photosynthesis - Introduction",
+  topic: "Factors Affecting Photosynthesis",
   q: "Photosynthesis is influenced by:",
   options: [
     "Only internal (plant) factors",
@@ -6783,7 +6783,7 @@ const allQuestions = [
 },
 {
   id: 522,
-  topic: "Factors Affecting Photosynthesis - Introduction",
+  topic: "Factors Affecting Photosynthesis",
   q: "Which of the following are internal (plant) factors affecting photosynthesis?<br>(i) Number, size, age and orientation of leaves<br>(ii) Mesophyll cells and chloroplasts<br>(iii) Internal CO₂ concentration<br>(iv) Amount of chlorophyll<br>(v) Availability of sunlight",
   options: [
     "(i), (ii), (iii) and (iv) only",
@@ -6796,7 +6796,7 @@ const allQuestions = [
 },
 {
   id: 523,
-  topic: "Factors Affecting Photosynthesis - Introduction",
+  topic: "Factors Affecting Photosynthesis",
   q: "Which of the following are external factors affecting photosynthesis?",
   options: [
     "Number of chloroplasts and amount of chlorophyll",
@@ -6809,7 +6809,7 @@ const allQuestions = [
 },
 {
   id: 524,
-  topic: "Factors Affecting Photosynthesis - Introduction",
+  topic: "Factors Affecting Photosynthesis",
   q: "The plant or internal factors are dependent on:",
   options: [
     "Soil type only",
@@ -6822,7 +6822,7 @@ const allQuestions = [
 },
 {
   id: 525,
-  topic: "Factors Affecting Photosynthesis - Law of Limiting Factors",
+  topic: "Factors Affecting Photosynthesis",
   q: "Blackman's Law of Limiting Factors was proposed in:",
   options: [
     "1770",
@@ -6835,7 +6835,7 @@ const allQuestions = [
 },
 {
   id: 526,
-  topic: "Factors Affecting Photosynthesis - Law of Limiting Factors",
+  topic: "Factors Affecting Photosynthesis",
   q: "Blackman's Law of Limiting Factors states:",
   options: [
     "All factors equally affect the rate of a chemical process",
@@ -6848,7 +6848,7 @@ const allQuestions = [
 },
 {
   id: 527,
-  topic: "Factors Affecting Photosynthesis - Law of Limiting Factors",
+  topic: "Factors Affecting Photosynthesis",
   q: "At any given point, the rate of photosynthesis is determined by:",
   options: [
     "The factor available in excess",
@@ -6861,7 +6861,7 @@ const allQuestions = [
 },
 {
   id: 528,
-  topic: "Factors Affecting Photosynthesis - Law of Limiting Factors",
+  topic: "Factors Affecting Photosynthesis",
   q: "According to the law of limiting factors, if a plant has optimal light and CO₂ but very low temperature, photosynthesis will:",
   options: [
     "Proceed normally",
@@ -6874,7 +6874,7 @@ const allQuestions = [
 },
 {
   id: 529,
-  topic: "Factors Affecting Photosynthesis - Law of Limiting Factors",
+  topic: "Factors Affecting Photosynthesis",
   q: "<b>Assertion (A):</b> Even when light and CO₂ are optimal, photosynthesis may not occur if temperature is very low.<br><b>Reason (R):</b> According to Blackman's Law, the factor nearest to its minimal value limits the rate of the process.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
@@ -6887,7 +6887,7 @@ const allQuestions = [
 },
 {
   id: 530,
-  topic: "Factors Affecting Photosynthesis - Light",
+  topic: "Factors Affecting Photosynthesis",
   q: "While discussing light as a factor affecting photosynthesis, we need to distinguish between:",
   options: [
     "Light colour and light temperature",
@@ -6900,7 +6900,7 @@ const allQuestions = [
 },
 {
   id: 531,
-  topic: "Factors Affecting Photosynthesis - Light",
+  topic: "Factors Affecting Photosynthesis",
   q: "At low light intensities, the relationship between incident light and CO₂ fixation rates is:",
   options: [
     "Exponential",
@@ -6913,7 +6913,7 @@ const allQuestions = [
 },
 {
   id: 532,
-  topic: "Factors Affecting Photosynthesis - Light",
+  topic: "Factors Affecting Photosynthesis",
   q: "At higher light intensities, the rate of photosynthesis:",
   options: [
     "Continues to increase linearly",
@@ -6926,7 +6926,7 @@ const allQuestions = [
 },
 {
   id: 533,
-  topic: "Factors Affecting Photosynthesis - Light",
+  topic: "Factors Affecting Photosynthesis",
   q: "Light saturation occurs at what percentage of full sunlight?",
   options: [
     "1 per cent",
@@ -6939,7 +6939,7 @@ const allQuestions = [
 },
 {
   id: 534,
-  topic: "Factors Affecting Photosynthesis - Light",
+  topic: "Factors Affecting Photosynthesis",
   q: "Light is rarely a limiting factor in nature because:",
   options: [
     "All plants grow in direct sunlight",
@@ -6952,7 +6952,7 @@ const allQuestions = [
 },
 {
   id: 535,
-  topic: "Factors Affecting Photosynthesis - Light",
+  topic: "Factors Affecting Photosynthesis",
   q: "For which types of plants might light be a limiting factor?",
   options: [
     "Desert plants",
@@ -6965,7 +6965,7 @@ const allQuestions = [
 },
 {
   id: 536,
-  topic: "Factors Affecting Photosynthesis - Light",
+  topic: "Factors Affecting Photosynthesis",
   q: "Increase in incident light beyond a saturation point causes:",
   options: [
     "Further increase in photosynthesis",
@@ -6978,7 +6978,7 @@ const allQuestions = [
 },
 {
   id: 537,
-  topic: "Factors Affecting Photosynthesis - Light",
+  topic: "Factors Affecting Photosynthesis",
   q: "<b>Assertion (A):</b> Very high light intensity decreases photosynthesis.<br><b>Reason (R):</b> Excessive light causes breakdown of chlorophyll (photo-oxidation).",
   options: [
     "Both A and R are true and R is the correct explanation of A",
@@ -6991,7 +6991,7 @@ const allQuestions = [
 },
 {
   id: 538,
-  topic: "Factors Affecting Photosynthesis - CO₂ Concentration",
+  topic: "Factors Affecting Photosynthesis",
   q: "The major limiting factor for photosynthesis is:",
   options: [
     "Light",
@@ -7004,7 +7004,7 @@ const allQuestions = [
 },
 {
   id: 539,
-  topic: "Factors Affecting Photosynthesis - CO₂ Concentration",
+  topic: "Factors Affecting Photosynthesis",
   q: "The concentration of CO₂ in the atmosphere is:",
   options: [
     "Between 0.3 and 0.4 per cent",
@@ -7017,7 +7017,7 @@ const allQuestions = [
 },
 {
   id: 540,
-  topic: "Factors Affecting Photosynthesis - CO₂ Concentration",
+  topic: "Factors Affecting Photosynthesis",
   q: "Increase in CO₂ concentration upto _______ can increase CO₂ fixation rates:",
   options: [
     "0.01 per cent",
@@ -7030,7 +7030,7 @@ const allQuestions = [
 },
 {
   id: 541,
-  topic: "Factors Affecting Photosynthesis - CO₂ Concentration",
+  topic: "Factors Affecting Photosynthesis",
   q: "CO₂ concentration beyond 0.05 per cent can be:",
   options: [
     "Beneficial for all plants",
@@ -7043,7 +7043,7 @@ const allQuestions = [
 },
 {
   id: 542,
-  topic: "Factors Affecting Photosynthesis - CO₂ Concentration",
+  topic: "Factors Affecting Photosynthesis",
   q: "At low light conditions, how do C₃ and C₄ plants respond to high CO₂?",
   options: [
     "Both show increased photosynthesis",
@@ -7056,7 +7056,7 @@ const allQuestions = [
 },
 {
   id: 543,
-  topic: "Factors Affecting Photosynthesis - CO₂ Concentration",
+  topic: "Factors Affecting Photosynthesis",
   q: "At high light intensities:",
   options: [
     "Neither C₃ nor C₄ plants respond to increased CO₂",
@@ -7069,7 +7069,7 @@ const allQuestions = [
 },
 {
   id: 544,
-  topic: "Factors Affecting Photosynthesis - CO₂ Concentration",
+  topic: "Factors Affecting Photosynthesis",
   q: "C₄ plants show CO₂ saturation at about:",
   options: [
     "260 µlL⁻¹",
@@ -7082,7 +7082,7 @@ const allQuestions = [
 },
 {
   id: 545,
-  topic: "Factors Affecting Photosynthesis - CO₂ Concentration",
+  topic: "Factors Affecting Photosynthesis",
   q: "C₃ plants show CO₂ saturation beyond:",
   options: [
     "260 µlL⁻¹",
@@ -7095,7 +7095,7 @@ const allQuestions = [
 },
 {
   id: 546,
-  topic: "Factors Affecting Photosynthesis - CO₂ Concentration",
+  topic: "Factors Affecting Photosynthesis",
   q: "Current availability of CO₂ levels is limiting to:",
   options: [
     "C₄ plants",
@@ -7108,7 +7108,7 @@ const allQuestions = [
 },
 {
   id: 547,
-  topic: "Factors Affecting Photosynthesis - CO₂ Concentration",
+  topic: "Factors Affecting Photosynthesis",
   q: "C₃ plants respond to higher CO₂ concentration by showing increased rates of photosynthesis. This has been utilised for:",
   options: [
     "Growing plants in dark rooms",
@@ -7121,7 +7121,7 @@ const allQuestions = [
 },
 {
   id: 548,
-  topic: "Factors Affecting Photosynthesis - CO₂ Concentration",
+  topic: "Factors Affecting Photosynthesis",
   q: "<b>Assertion (A):</b> Growing C₃ crops in CO₂-enriched greenhouses increases their yield.<br><b>Reason (R):</b> C₃ plants respond to higher CO₂ concentration by showing increased rates of photosynthesis.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
@@ -7134,7 +7134,7 @@ const allQuestions = [
 },
 {
   id: 549,
-  topic: "Factors Affecting Photosynthesis - CO₂ Concentration",
+  topic: "Factors Affecting Photosynthesis",
   q: "Which of the following greenhouse crops are grown in CO₂-enriched atmosphere?",
   options: [
     "Rice and wheat",
@@ -7147,7 +7147,7 @@ const allQuestions = [
 },
 {
   id: 550,
-  topic: "Factors Affecting Photosynthesis - Temperature",
+  topic: "Factors Affecting Photosynthesis",
   q: "The dark reactions are controlled primarily by:",
   options: [
     "Light quality",
@@ -7160,7 +7160,7 @@ const allQuestions = [
 },
 {
   id: 551,
-  topic: "Factors Affecting Photosynthesis - Temperature",
+  topic: "Factors Affecting Photosynthesis",
   q: "Light reactions are:",
   options: [
     "Not affected by temperature at all",
@@ -7173,7 +7173,7 @@ const allQuestions = [
 },
 {
   id: 552,
-  topic: "Factors Affecting Photosynthesis - Temperature",
+  topic: "Factors Affecting Photosynthesis",
   q: "Which group of plants responds better to higher temperatures?",
   options: [
     "C₃ plants",
@@ -7186,7 +7186,7 @@ const allQuestions = [
 },
 {
   id: 553,
-  topic: "Factors Affecting Photosynthesis - Temperature",
+  topic: "Factors Affecting Photosynthesis",
   q: "<b>Assertion (A):</b> C₃ plants have a lower temperature optimum for photosynthesis than C₄ plants.<br><b>Reason (R):</b> C₃ plants undergo photorespiration at higher temperatures, reducing net photosynthesis.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
@@ -7199,7 +7199,7 @@ const allQuestions = [
 },
 {
   id: 554,
-  topic: "Factors Affecting Photosynthesis - Temperature",
+  topic: "Factors Affecting Photosynthesis",
   q: "The temperature optimum for photosynthesis depends on:",
   options: [
     "Only the species of plant",
@@ -7212,7 +7212,7 @@ const allQuestions = [
 },
 {
   id: 555,
-  topic: "Factors Affecting Photosynthesis - Temperature",
+  topic: "Factors Affecting Photosynthesis",
   q: "Tropical plants have _______ temperature optimum compared to temperate plants.",
   options: [
     "A lower",
@@ -7225,7 +7225,7 @@ const allQuestions = [
 },
 {
   id: 556,
-  topic: "Factors Affecting Photosynthesis - Water",
+  topic: "Factors Affecting Photosynthesis",
   q: "The effect of water on photosynthesis is primarily:",
   options: [
     "As a direct reactant in dark reactions",
@@ -7238,7 +7238,7 @@ const allQuestions = [
 },
 {
   id: 557,
-  topic: "Factors Affecting Photosynthesis - Water",
+  topic: "Factors Affecting Photosynthesis",
   q: "Water stress affects photosynthesis by:<br>(i) Causing stomata to close, reducing CO₂ availability<br>(ii) Making leaves wilt, reducing leaf surface area<br>(iii) Reducing metabolic activity of leaves<br>(iv) Directly increasing O₂ concentration",
   options: [
     "(i), (ii) and (iii) only",
@@ -7251,7 +7251,7 @@ const allQuestions = [
 },
 {
   id: 558,
-  topic: "Factors Affecting Photosynthesis - Water",
+  topic: "Factors Affecting Photosynthesis",
   q: "Water stress causes stomata to close, which directly reduces:",
   options: [
     "Light absorption",
@@ -7264,7 +7264,7 @@ const allQuestions = [
 },
 {
   id: 559,
-  topic: "Factors Affecting Photosynthesis - Water",
+  topic: "Factors Affecting Photosynthesis",
   q: "<b>Assertion (A):</b> Water is a reactant in light reactions, yet its main effect on photosynthesis is indirect.<br><b>Reason (R):</b> Water stress mainly affects photosynthesis by causing stomatal closure and leaf wilting, rather than by directly limiting the light reaction.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
@@ -7277,7 +7277,7 @@ const allQuestions = [
 },
 {
   id: 560,
-  topic: "Factors Affecting Photosynthesis - Comprehensive",
+  topic: "Factors Affecting Photosynthesis",
   q: "Which of the following is <b>NOT</b> an internal factor affecting photosynthesis?",
   options: [
     "Number of leaves",
@@ -7290,7 +7290,7 @@ const allQuestions = [
 },
 {
   id: 561,
-  topic: "Factors Affecting Photosynthesis - Comprehensive",
+  topic: "Factors Affecting Photosynthesis",
   q: "Which of the following is <b>NOT</b> an external factor affecting photosynthesis?",
   options: [
     "Sunlight availability",
@@ -7303,7 +7303,7 @@ const allQuestions = [
 },
 {
   id: 562,
-  topic: "Factors Affecting Photosynthesis - CO₂ Concentration",
+  topic: "Factors Affecting Photosynthesis",
   q: "Consider the following statements about C₃ and C₄ plants' response to CO₂:<br>(A) At low light, neither C₃ nor C₄ responds to high CO₂<br>(B) At high light, both respond to increased CO₂<br>(C) C₄ plants saturate at a lower CO₂ concentration than C₃ plants<br>(D) C₃ plants saturate at a lower CO₂ concentration than C₄ plants",
   options: [
     "(A), (B) and (C) only",
@@ -7316,7 +7316,7 @@ const allQuestions = [
 },
 {
   id: 563,
-  topic: "Factors Affecting Photosynthesis - Light",
+  topic: "Factors Affecting Photosynthesis",
   q: "The graph of light intensity vs. rate of photosynthesis shows:",
   options: [
     "A straight line throughout",
@@ -7329,7 +7329,7 @@ const allQuestions = [
 },
 {
   id: 564,
-  topic: "Factors Affecting Photosynthesis - Comprehensive",
+  topic: "Factors Affecting Photosynthesis",
   q: "Match the factor with its key effect on photosynthesis:<br>(i) Light — (P) Major limiting factor; atmospheric levels very low<br>(ii) CO₂ — (Q) Controls dark reactions primarily<br>(iii) Temperature — (R) Rarely limiting; saturation at 10% of full sunlight<br>(iv) Water — (S) Indirect effect through stomatal closure and wilting",
   options: [
     "(i)-R, (ii)-P, (iii)-Q, (iv)-S",
@@ -7342,7 +7342,7 @@ const allQuestions = [
 },
 {
   id: 565,
-  topic: "Factors Affecting Photosynthesis - CO₂ Concentration",
+  topic: "Factors Affecting Photosynthesis",
   q: "<b>Assertion (A):</b> C₄ plants reach CO₂ saturation at a lower concentration than C₃ plants.<br><b>Reason (R):</b> C₄ plants have a CO₂ concentrating mechanism that maintains high CO₂ at the RuBisCO site.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
@@ -7355,7 +7355,7 @@ const allQuestions = [
 },
 {
   id: 566,
-  topic: "Factors Affecting Photosynthesis - Temperature",
+  topic: "Factors Affecting Photosynthesis",
   q: "Which of the following comparisons is correct?",
   options: [
     "C₃ plants: Higher temperature optimum; C₄ plants: Lower temperature optimum",
@@ -7368,7 +7368,7 @@ const allQuestions = [
 },
 {
   id: 567,
-  topic: "Factors Affecting Photosynthesis - Comprehensive",
+  topic: "Factors Affecting Photosynthesis",
   q: "Several factors simultaneously affect photosynthesis. Usually the rate is limited by:",
   options: [
     "All factors equally",
@@ -7381,7 +7381,7 @@ const allQuestions = [
 },
 {
   id: 568,
-  topic: "Factors Affecting Photosynthesis - Light",
+  topic: "Factors Affecting Photosynthesis",
   q: "Which of the following correctly describes the effect of light on photosynthesis?<br>(i) Linear increase at low intensities<br>(ii) Plateau at higher intensities<br>(iii) Saturation at 10% of full sunlight<br>(iv) Chlorophyll breakdown at very high intensities",
   options: [
     "(i) and (ii) only",
@@ -7394,7 +7394,7 @@ const allQuestions = [
 },
 {
   id: 569,
-  topic: "Factors Affecting Photosynthesis - CO₂ Concentration",
+  topic: "Factors Affecting Photosynthesis",
   q: "At low light conditions, increasing CO₂ concentration for C₃ and C₄ plants will:",
   options: [
     "Increase photosynthesis in both",
@@ -7407,7 +7407,7 @@ const allQuestions = [
 },
 {
   id: 570,
-  topic: "Factors Affecting Photosynthesis - Comprehensive",
+  topic: "Factors Affecting Photosynthesis",
   q: "Select the <b>incorrect</b> statement about factors affecting photosynthesis:",
   options: [
     "CO₂ is the major limiting factor for photosynthesis",
@@ -7420,7 +7420,7 @@ const allQuestions = [
 },
 {
   id: 571,
-  topic: "Factors Affecting Photosynthesis - Water",
+  topic: "Factors Affecting Photosynthesis",
   q: "Water stress reduces photosynthesis through:<br>(i) Stomatal closure → reduced CO₂<br>(ii) Leaf wilting → reduced leaf surface area<br>(iii) Reduced metabolic activity<br><br>How many of the above mechanisms are mentioned in NCERT?",
   options: [
     "One",
@@ -7433,7 +7433,7 @@ const allQuestions = [
 },
 {
   id: 572,
-  topic: "Factors Affecting Photosynthesis - Comprehensive",
+  topic: "Factors Affecting Photosynthesis",
   q: "<b>Assertion (A):</b> Several factors simultaneously affect photosynthesis.<br><b>Reason (R):</b> According to Blackman's Law, the rate is determined by the factor nearest to its minimal value.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
@@ -7446,7 +7446,7 @@ const allQuestions = [
 },
 {
   id: 573,
-  topic: "Factors Affecting Photosynthesis - CO₂ Concentration",
+  topic: "Factors Affecting Photosynthesis",
   q: "Which of the following correctly represents the CO₂ saturation points?",
   options: [
     "C₃: ~360 µlL⁻¹; C₄: >450 µlL⁻¹",
@@ -7459,7 +7459,7 @@ const allQuestions = [
 },
 {
   id: 574,
-  topic: "Factors Affecting Photosynthesis - Temperature",
+  topic: "Factors Affecting Photosynthesis",
   q: "Which set of reactions in photosynthesis is more affected by temperature changes?",
   options: [
     "Light reactions",
@@ -7472,7 +7472,7 @@ const allQuestions = [
 },
 {
   id: 575,
-  topic: "Factors Affecting Photosynthesis - Comprehensive",
+  topic: "Factors Affecting Photosynthesis",
   q: "A plant is placed in an environment with optimal temperature, optimal water, and optimal CO₂, but in complete darkness. According to Blackman's Law:",
   options: [
     "Photosynthesis will occur normally",
@@ -7485,7 +7485,7 @@ const allQuestions = [
 },
 {
   id: 576,
-  topic: "Factors Affecting Photosynthesis - CO₂ Concentration",
+  topic: "Factors Affecting Photosynthesis",
   q: "Greenhouse cultivation of tomatoes in CO₂-enriched atmosphere is beneficial because tomatoes are:",
   options: [
     "C₄ plants that need extra CO₂",
@@ -7498,7 +7498,7 @@ const allQuestions = [
 },
 {
   id: 577,
-  topic: "Factors Affecting Photosynthesis - Light",
+  topic: "Factors Affecting Photosynthesis",
   q: "Light quality refers to:",
   options: [
     "The intensity of light",
@@ -7511,7 +7511,7 @@ const allQuestions = [
 },
 {
   id: 578,
-  topic: "Factors Affecting Photosynthesis - Comprehensive",
+  topic: "Factors Affecting Photosynthesis",
   q: "Consider the following:<br>(A) Internal factors: genetic, structural (leaves, chloroplasts), biochemical (chlorophyll, CO₂)<br>(B) External factors: light, temperature, CO₂, water<br>(C) Usually one factor limits the rate at any time<br>(D) All factors have equal effect at all times<br><br>Which are correct?",
   options: [
     "(A), (B) and (C) only",
@@ -7524,7 +7524,7 @@ const allQuestions = [
 },
 {
   id: 579,
-  topic: "Factors Affecting Photosynthesis - Comprehensive",
+  topic: "Factors Affecting Photosynthesis",
   q: "Which of the following is the most accurate statement about the law of limiting factors?",
   options: [
     "It applies only to photosynthesis",
@@ -7537,7 +7537,7 @@ const allQuestions = [
 },
 {
   id: 580,
-  topic: "Factors Affecting Photosynthesis - Light",
+  topic: "Factors Affecting Photosynthesis",
   q: "<b>Assertion (A):</b> Light saturation for photosynthesis occurs at 10% of full sunlight.<br><b>Reason (R):</b> At 10% sunlight, other factors like CO₂ become limiting and the rate cannot increase further.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
@@ -7551,7 +7551,7 @@ const allQuestions = [
 ,
 {
   id: 581,
-  topic: "Summary - Comprehensive Revision",
+  topic: "Summary",
   q: "Green plants make their own food by photosynthesis. During this process, CO₂ from the atmosphere is taken in by leaves through:",
   options: [
     "Lenticels",
@@ -7564,7 +7564,7 @@ const allQuestions = [
 },
 {
   id: 582,
-  topic: "Summary - Comprehensive Revision",
+  topic: "Summary",
   q: "The carbohydrates principally made during photosynthesis are:",
   options: [
     "Sucrose and fructose",
@@ -7577,7 +7577,7 @@ const allQuestions = [
 },
 {
   id: 583,
-  topic: "Summary - Comprehensive Revision",
+  topic: "Summary",
   q: "Photosynthesis takes place in:",
   options: [
     "All parts of the plant equally",
@@ -7590,7 +7590,7 @@ const allQuestions = [
 },
 {
   id: 584,
-  topic: "Summary - Comprehensive Revision",
+  topic: "Summary",
   q: "Within the leaves, the cells responsible for CO₂ fixation are:",
   options: [
     "Epidermal cells",
@@ -7603,7 +7603,7 @@ const allQuestions = [
 },
 {
   id: 585,
-  topic: "Summary - Comprehensive Revision",
+  topic: "Summary",
   q: "Within the chloroplasts:<br>(A) Membranes are sites for light reactions<br>(B) Stroma is the site for the carbon fixing pathway<br>(C) Membranes are sites for the Calvin cycle<br>(D) Stroma is the site for light reactions",
   options: [
     "(A) and (B) only",
@@ -7616,7 +7616,7 @@ const allQuestions = [
 },
 {
   id: 586,
-  topic: "Summary - Comprehensive Revision",
+  topic: "Summary",
   q: "Photosynthesis has two stages:",
   options: [
     "Glycolysis and Krebs cycle",
@@ -7629,7 +7629,7 @@ const allQuestions = [
 },
 {
   id: 587,
-  topic: "Summary - Comprehensive Revision",
+  topic: "Summary",
   q: "In the light reaction, light energy is absorbed by pigments in the antenna and funnelled to:",
   options: [
     "All chlorophyll molecules equally",
@@ -7642,7 +7642,7 @@ const allQuestions = [
 },
 {
   id: 588,
-  topic: "Summary - Comprehensive Revision",
+  topic: "Summary",
   q: "PS I has a reaction centre that absorbs at:",
   options: [
     "680 nm",
@@ -7655,7 +7655,7 @@ const allQuestions = [
 },
 {
   id: 589,
-  topic: "Summary - Comprehensive Revision",
+  topic: "Summary",
   q: "PS II has a reaction centre that absorbs red light at:",
   options: [
     "700 nm",
@@ -7668,7 +7668,7 @@ const allQuestions = [
 },
 {
   id: 590,
-  topic: "Summary - Error Detection (NCERT Summary)",
+  topic: "Summary",
   q: "The NCERT summary states that electrons are 'finally transferred to NAD forming NADH.' Identify the error:",
   options: [
     "There is no error — NAD and NADH are correct",
@@ -7681,7 +7681,7 @@ const allQuestions = [
 },
 {
   id: 591,
-  topic: "Summary - Comprehensive Revision",
+  topic: "Summary",
   q: "During the light reaction, a proton gradient is created across:",
   options: [
     "The outer membrane of the chloroplast",
@@ -7694,7 +7694,7 @@ const allQuestions = [
 },
 {
   id: 592,
-  topic: "Summary - Error Detection (NCERT Summary)",
+  topic: "Summary",
   q: "The NCERT summary mentions 'F₀ part of the ATPase enzyme.' In the context of chloroplasts, the more accurate terminology would be:",
   options: [
     "F₀ is correct for chloroplasts",
@@ -7707,7 +7707,7 @@ const allQuestions = [
 },
 {
   id: 593,
-  topic: "Summary - Comprehensive Revision",
+  topic: "Summary",
   q: "The breakdown of the proton gradient through the F₀ (CF₀) part of ATP synthase releases energy for:",
   options: [
     "Water splitting",
@@ -7720,7 +7720,7 @@ const allQuestions = [
 },
 {
   id: 594,
-  topic: "Summary - Comprehensive Revision",
+  topic: "Summary",
   q: "Splitting of water molecules is associated with:",
   options: [
     "PS I",
@@ -7733,7 +7733,7 @@ const allQuestions = [
 },
 {
   id: 595,
-  topic: "Summary - Comprehensive Revision",
+  topic: "Summary",
   q: "The products of water splitting are:",
   options: [
     "O₂ only",
@@ -7746,7 +7746,7 @@ const allQuestions = [
 },
 {
   id: 596,
-  topic: "Summary - Comprehensive Revision",
+  topic: "Summary",
   q: "In the carbon fixation cycle, CO₂ is added by which enzyme to which molecule?",
   options: [
     "PEPcase to PEP",
@@ -7759,7 +7759,7 @@ const allQuestions = [
 },
 {
   id: 597,
-  topic: "Summary - Comprehensive Revision",
+  topic: "Summary",
   q: "When CO₂ is added to RuBP by RuBisCO, the product is:",
   options: [
     "1 molecule of 6-carbon glucose",
@@ -7772,7 +7772,7 @@ const allQuestions = [
 },
 {
   id: 598,
-  topic: "Summary - Comprehensive Revision",
+  topic: "Summary",
   q: "PGA is then converted to sugar by:",
   options: [
     "The light reactions",
@@ -7785,7 +7785,7 @@ const allQuestions = [
 },
 {
   id: 599,
-  topic: "Summary - Comprehensive Revision",
+  topic: "Summary",
   q: "During the Calvin cycle, the molecules utilised from the light reaction are:",
   options: [
     "O₂ and H₂O",
@@ -7798,7 +7798,7 @@ const allQuestions = [
 },
 {
   id: 600,
-  topic: "Summary - Comprehensive Revision",
+  topic: "Summary",
   q: "RuBisCO also catalyses a wasteful oxygenation reaction in C₃ plants called:",
   options: [
     "Fermentation",
@@ -7811,7 +7811,7 @@ const allQuestions = [
 },
 {
   id: 601,
-  topic: "Summary - Comprehensive Revision",
+  topic: "Summary",
   q: "Some tropical plants show a special type of photosynthesis called:",
   options: [
     "CAM pathway",
@@ -7824,7 +7824,7 @@ const allQuestions = [
 },
 {
   id: 602,
-  topic: "Summary - Comprehensive Revision",
+  topic: "Summary",
   q: "In C₄ plants, the first product of CO₂ fixation in the mesophyll is:",
   options: [
     "A 3-carbon compound (PGA)",
@@ -7837,7 +7837,7 @@ const allQuestions = [
 },
 {
   id: 603,
-  topic: "Summary - Comprehensive Revision",
+  topic: "Summary",
   q: "In C₄ plants, the Calvin pathway for carbohydrate synthesis is carried out in:",
   options: [
     "Mesophyll cells",
@@ -7850,7 +7850,7 @@ const allQuestions = [
 },
 {
   id: 604,
-  topic: "Summary - Comprehensive Revision",
+  topic: "Summary",
   q: "<b>Assertion (A):</b> Photorespiration is described as a 'wasteful' reaction.<br><b>Reason (R):</b> Photorespiration releases CO₂ and consumes ATP without producing sugars or ATP.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
@@ -7863,7 +7863,7 @@ const allQuestions = [
 },
 {
   id: 605,
-  topic: "Summary - Comprehensive Revision",
+  topic: "Summary",
   q: "Consider the complete process of photosynthesis. The correct sequence of major events is:",
   options: [
     "Carbon fixation → Light absorption → Water splitting → Sugar synthesis",
@@ -7876,7 +7876,7 @@ const allQuestions = [
 },
 {
   id: 606,
-  topic: "Summary - Comprehensive Revision",
+  topic: "Summary",
   q: "Which of the following is the correct summary of the light reaction?",
   options: [
     "CO₂ + H₂O → Glucose + O₂",
@@ -7889,7 +7889,7 @@ const allQuestions = [
 },
 {
   id: 607,
-  topic: "Summary - Comprehensive Revision",
+  topic: "Summary",
   q: "Which of the following is the correct summary of the carbon fixing reactions?",
   options: [
     "Light absorbed → electrons excited → NADPH formed",
@@ -7902,7 +7902,7 @@ const allQuestions = [
 },
 {
   id: 608,
-  topic: "Summary - Comprehensive Revision",
+  topic: "Summary",
   q: "Select the <b>incorrect</b> statement from the following:",
   options: [
     "PS I has P700 at its reaction centre",
@@ -7915,7 +7915,7 @@ const allQuestions = [
 },
 {
   id: 609,
-  topic: "Summary - Comprehensive Revision",
+  topic: "Summary",
   q: "<b>Assertion (A):</b> The Calvin pathway is common to both C₃ and C₄ plants.<br><b>Reason (R):</b> In C₄ plants, the Calvin pathway occurs in bundle sheath cells, while in C₃ plants it occurs in mesophyll cells.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
@@ -7928,7 +7928,7 @@ const allQuestions = [
 },
 {
   id: 610,
-  topic: "Summary - Comprehensive Revision",
+  topic: "Summary",
   q: "Which of the following correctly represents the division of labour within the chloroplast?",
   options: [
     "Membranes → Carbon fixation; Stroma → Light reactions",
@@ -7941,7 +7941,7 @@ const allQuestions = [
 },
 {
   id: 611,
-  topic: "Summary - Comprehensive Revision",
+  topic: "Summary",
   q: "Consider the following flow chart of photosynthesis:<br>Light energy → Antenna pigments → Reaction centre (Chl a) → Electron excitation → PS II & PS I → _____ → Proton gradient → ATP<br><br>What fills the blank?",
   options: [
     "Glucose formation",
@@ -7954,7 +7954,7 @@ const allQuestions = [
 },
 {
   id: 612,
-  topic: "Summary - Comprehensive Revision",
+  topic: "Summary",
   q: "The NCERT summary refers to the carbon fixing reactions occurring in the stroma as the 'chemosynthetic pathway.' This is more commonly known as:",
   options: [
     "The light reaction",
@@ -7967,7 +7967,7 @@ const allQuestions = [
 },
 {
   id: 613,
-  topic: "Summary - Comprehensive Revision",
+  topic: "Summary",
   q: "Which of the following molecules is regenerated at the end of the Calvin cycle?",
   options: [
     "PGA",
@@ -7980,7 +7980,7 @@ const allQuestions = [
 },
 {
   id: 614,
-  topic: "Summary - Comprehensive Revision",
+  topic: "Summary",
   q: "In C₄ plants, the initial CO₂ fixation takes place in:",
   options: [
     "Bundle sheath cells",
@@ -7993,7 +7993,7 @@ const allQuestions = [
 },
 {
   id: 615,
-  topic: "Summary - Comprehensive Revision",
+  topic: "Summary",
   q: "<b>Assertion (A):</b> Mesophyll cells have a large number of chloroplasts.<br><b>Reason (R):</b> Chloroplasts are responsible for CO₂ fixation during photosynthesis.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
@@ -8006,7 +8006,7 @@ const allQuestions = [
 },
 {
   id: 616,
-  topic: "Summary - Comprehensive Revision",
+  topic: "Summary",
   q: "Consider the following about C₃ and C₄ plants:<br>(A) C₃: First product is PGA (3C)<br>(B) C₃: Calvin cycle in mesophyll cells<br>(C) C₄: First product is a 4C compound<br>(D) C₄: Calvin cycle in bundle sheath cells<br>(E) C₄: Photorespiration is significant<br><br>How many statements are correct?",
   options: [
     "Three",
@@ -8019,7 +8019,7 @@ const allQuestions = [
 },
 {
   id: 617,
-  topic: "Summary - Comprehensive Revision",
+  topic: "Summary",
   q: "The electrons released from water splitting are transferred to:",
   options: [
     "PS I directly",
@@ -8032,7 +8032,7 @@ const allQuestions = [
 },
 {
   id: 618,
-  topic: "Summary - Comprehensive Revision",
+  topic: "Summary",
   q: "Which of the following represents the correct overall summary of photosynthesis?",
   options: [
     "Light reaction: Light → ATP + NADPH + O₂; Dark reaction: CO₂ + ATP + NADPH → Sugar + RuBP regenerated",
@@ -8045,7 +8045,7 @@ const allQuestions = [
 },
 {
   id: 619,
-  topic: "Summary - Comprehensive Revision",
+  topic: "Summary",
   q: "Which of the following is <b>NOT</b> mentioned as a product of water splitting in the NCERT summary?",
   options: [
     "O₂",
@@ -8058,7 +8058,7 @@ const allQuestions = [
 },
 {
   id: 620,
-  topic: "Summary - Comprehensive Revision",
+  topic: "Summary",
   q: "The NCERT summary uses the term 'chemosynthetic pathway' for the reactions occurring in the stroma. This term should not be confused with:",
   options: [
     "Photosynthesis",
@@ -8071,7 +8071,7 @@ const allQuestions = [
 },
 {
   id: 621,
-  topic: "Summary - Comprehensive Revision",
+  topic: "Summary",
   q: "According to the NCERT summary, the complete process of photosynthesis involves:<br>(i) CO₂ uptake through stomata<br>(ii) Light absorption by antenna pigments<br>(iii) Electron transport through PS II and PS I<br>(iv) Proton gradient formation and ATP synthesis<br>(v) Water splitting at PS II<br>(vi) CO₂ fixation by RuBisCO<br>(vii) Sugar synthesis via Calvin cycle<br><br>How many of these are mentioned in the summary?",
   options: [
     "Five",
@@ -8084,7 +8084,7 @@ const allQuestions = [
 },
 {
   id: 622,
-  topic: "Summary - Error Detection",
+  topic: "Summary",
   q: "Identify how many errors exist in the following NCERT summary statement: 'After absorbing light, electrons are excited and transferred through PS II and PS I and finally to NAD forming NADH.'",
   options: [
     "No errors",
@@ -8097,7 +8097,7 @@ const allQuestions = [
 },
 {
   id: 623,
-  topic: "Summary - Comprehensive Revision",
+  topic: "Summary",
   q: "<b>Assertion (A):</b> The C₄ pathway is a special type of photosynthesis found in some tropical plants.<br><b>Reason (R):</b> In C₄ plants, the first product of CO₂ fixation is a 4-carbon compound formed in mesophyll cells.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
@@ -8110,7 +8110,7 @@ const allQuestions = [
 },
 {
   id: 624,
-  topic: "Summary - Comprehensive Revision",
+  topic: "Summary",
   q: "Which of the following best represents the relationship between light reactions and dark reactions?",
   options: [
     "They are completely independent",
@@ -8123,7 +8123,7 @@ const allQuestions = [
 },
 {
   id: 625,
-  topic: "Summary - Comprehensive Revision",
+  topic: "Summary",
   q: "Which of the following is the correct complete summary of what happens at PS II?",
   options: [
     "P680 absorbs light → electrons excited → water split → O₂ + H⁺ + electrons released → electrons enter ETC",

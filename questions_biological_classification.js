@@ -1141,7 +1141,7 @@ const allQuestions = [
   },
   {
     id: 77,
-    topic: "Kingdom Protista - Chrysophytes",
+    topic: "Kingdom Protista",
     difficulty: "Easy",
     type: "Direct",
     q: "Chrysophytes include:",
@@ -1156,7 +1156,7 @@ const allQuestions = [
   },
   {
     id: 78,
-    topic: "Kingdom Protista - Chrysophytes",
+    topic: "Kingdom Protista",
     difficulty: "Medium",
     type: "Statement",
     q: "Which of the following is <b>incorrect</b> about diatoms?",
@@ -1171,7 +1171,7 @@ const allQuestions = [
   },
   {
     id: 79,
-    topic: "Kingdom Protista - Chrysophytes",
+    topic: "Kingdom Protista",
     difficulty: "Easy",
     type: "Direct",
     q: "The accumulation of diatom cell wall deposits over billions of years is referred to as:",
@@ -1186,7 +1186,7 @@ const allQuestions = [
   },
   {
     id: 80,
-    topic: "Kingdom Protista - Chrysophytes",
+    topic: "Kingdom Protista",
     difficulty: "Medium",
     type: "Except",
     q: "Diatomaceous earth is used for all of the following <b>EXCEPT</b>:",
@@ -1201,7 +1201,7 @@ const allQuestions = [
   },
   {
     id: 81,
-    topic: "Kingdom Protista - Chrysophytes",
+    topic: "Kingdom Protista",
     difficulty: "Medium",
     type: "Statement",
     q: "Which of the following is <b>correct</b> about chrysophytes?",
@@ -1216,7 +1216,7 @@ const allQuestions = [
   },
   {
     id: 82,
-    topic: "Kingdom Protista - Chrysophytes",
+    topic: "Kingdom Protista",
     difficulty: "Medium",
     type: "Statement",
     q: "The chief 'producers' in the oceans are:",
@@ -1231,7 +1231,7 @@ const allQuestions = [
   },
   {
     id: 83,
-    topic: "Kingdom Protista - Dinoflagellates",
+    topic: "Kingdom Protista",
     difficulty: "Medium",
     type: "Statement",
     q: "Which of the following is <b>correct</b> about dinoflagellates?",
@@ -1246,7 +1246,7 @@ const allQuestions = [
   },
   {
     id: 84,
-    topic: "Kingdom Protista - Dinoflagellates",
+    topic: "Kingdom Protista",
     difficulty: "Hard",
     type: "Statement",
     q: "Regarding the flagella of dinoflagellates, which statement is <b>correct</b>?",
@@ -1261,7 +1261,7 @@ const allQuestions = [
   },
   {
     id: 85,
-    topic: "Kingdom Protista - Dinoflagellates",
+    topic: "Kingdom Protista",
     difficulty: "Easy",
     type: "Direct",
     q: "Red tides are caused by rapid multiplication of:",
@@ -1276,7 +1276,7 @@ const allQuestions = [
   },
   {
     id: 86,
-    topic: "Kingdom Protista - Dinoflagellates",
+    topic: "Kingdom Protista",
     difficulty: "Medium",
     type: "Statement",
     q: "Which of the following is <b>correct</b> about red tides?",
@@ -1291,7 +1291,7 @@ const allQuestions = [
   },
   {
     id: 87,
-    topic: "Kingdom Protista - Euglenoids",
+    topic: "Kingdom Protista",
     difficulty: "Medium",
     type: "Statement",
     q: "Which of the following is <b>incorrect</b> about euglenoids?",
@@ -1306,7 +1306,7 @@ const allQuestions = [
   },
   {
     id: 88,
-    topic: "Kingdom Protista - Euglenoids",
+    topic: "Kingdom Protista",
     difficulty: "Hard",
     type: "HowMany",
     q: "How many of the following statements about euglenoids are <b>correct</b>?<br>(i) They are found in stagnant water<br>(ii) They have a protein rich layer called pellicle instead of a cell wall<br>(iii) They have a single flagellum<br>(iv) In the presence of sunlight they are photosynthetic<br>(v) When deprived of sunlight they behave like heterotrophs<br>(vi) Their pigments are identical to those of higher plants",
@@ -1321,7 +1321,7 @@ const allQuestions = [
   },
   {
     id: 89,
-    topic: "Kingdom Protista - Euglenoids",
+    topic: "Kingdom Protista",
     difficulty: "Medium",
     type: "Statement",
     q: "The protein-rich flexible layer in euglenoids is called:",
@@ -1336,7 +1336,7 @@ const allQuestions = [
   },
   {
     id: 90,
-    topic: "Kingdom Protista - Euglenoids",
+    topic: "Kingdom Protista",
     difficulty: "Hard",
     type: "AR",
     q: "<b>Assertion (A):</b> Euglenoids are considered as a connecting link between plants and animals.<br><b>Reason (R):</b> Euglenoids are photosynthetic in the presence of sunlight but behave like heterotrophs when deprived of sunlight.",
@@ -1351,7 +1351,7 @@ const allQuestions = [
   },
   {
     id: 91,
-    topic: "Kingdom Protista - Slime Moulds",
+    topic: "Kingdom Protista",
     difficulty: "Easy",
     type: "Direct",
     q: "Slime moulds are:",
@@ -1366,7 +1366,7 @@ const allQuestions = [
   },
   {
     id: 92,
-    topic: "Kingdom Protista - Slime Moulds",
+    topic: "Kingdom Protista",
     difficulty: "Medium",
     type: "Statement",
     q: "Which of the following is <b>correct</b> about slime moulds?",
@@ -1381,7 +1381,7 @@ const allQuestions = [
   },
   {
     id: 93,
-    topic: "Kingdom Protista - Slime Moulds",
+    topic: "Kingdom Protista",
     difficulty: "Hard",
     type: "HowMany",
     q: "How many of the following statements about slime moulds are <b>correct</b>?<br>(i) They are saprophytic protists<br>(ii) The plasmodium forms under unfavourable conditions<br>(iii) Fruiting bodies bearing spores form during unfavourable conditions<br>(iv) The spores possess true walls<br>(v) Spores are dispersed by water currents",
@@ -1396,7 +1396,7 @@ const allQuestions = [
   },
   {
     id: 94,
-    topic: "Kingdom Protista - Slime Moulds",
+    topic: "Kingdom Protista",
     difficulty: "Medium",
     type: "Statement",
     q: "The spores of slime moulds are:",
@@ -1411,7 +1411,7 @@ const allQuestions = [
   },
   {
     id: 95,
-    topic: "Kingdom Protista - Protozoans",
+    topic: "Kingdom Protista",
     difficulty: "Easy",
     type: "Direct",
     q: "All protozoans are:",
@@ -1426,7 +1426,7 @@ const allQuestions = [
   },
   {
     id: 96,
-    topic: "Kingdom Protista - Protozoans",
+    topic: "Kingdom Protista",
     difficulty: "Medium",
     type: "Match",
     q: "Match the type of protozoan with its locomotory structure:<br><b>Column I</b> &emsp;&emsp;&emsp;&emsp;&emsp; <b>Column II</b><br>(a) Amoeboid protozoans &emsp; (i) Cilia<br>(b) Flagellated protozoans &emsp; (ii) Pseudopodia<br>(c) Ciliated protozoans &emsp;&emsp; (iii) Flagella<br>(d) Sporozoans &emsp;&emsp;&emsp;&emsp;&emsp; (iv) No specific locomotory structure",
@@ -1441,7 +1441,7 @@ const allQuestions = [
   },
   {
     id: 97,
-    topic: "Kingdom Protista - Protozoans",
+    topic: "Kingdom Protista",
     difficulty: "Medium",
     type: "Match",
     q: "Match the protozoan with the disease it causes:<br><b>Column I</b> &emsp;&emsp;&emsp;&emsp; <b>Column II</b><br>(a) Trypanosoma &emsp;&emsp; (i) Malaria<br>(b) Plasmodium &emsp;&emsp;&emsp; (ii) Sleeping sickness<br>(c) Entamoeba &emsp;&emsp;&emsp; (iii) Amoebic dysentery",
@@ -1456,7 +1456,7 @@ const allQuestions = [
   },
   {
     id: 98,
-    topic: "Kingdom Protista - Protozoans",
+    topic: "Kingdom Protista",
     difficulty: "Medium",
     type: "Statement",
     q: "Which of the following is <b>correct</b> about ciliated protozoans?",
@@ -1471,7 +1471,7 @@ const allQuestions = [
   },
   {
     id: 99,
-    topic: "Kingdom Protista - Protozoans",
+    topic: "Kingdom Protista",
     difficulty: "Hard",
     type: "HowMany",
     q: "How many of the following statements about protozoans are <b>correct</b>?<br>(i) All protozoans are heterotrophs<br>(ii) They are believed to be primitive relatives of animals<br>(iii) Marine amoeboid forms have cellulose shells on their surface<br>(iv) Sporozoans have an infectious spore-like stage in their life cycle<br>(v) Paramoecium is an example of ciliated protozoan",
@@ -1486,7 +1486,7 @@ const allQuestions = [
   },
   {
     id: 100,
-    topic: "Kingdom Protista - Protozoans",
+    topic: "Kingdom Protista",
     difficulty: "Easy",
     type: "Direct",
     q: "Sleeping sickness is caused by:",
@@ -1501,7 +1501,7 @@ const allQuestions = [
   },
   {
     id: 101,
-    topic: "Kingdom Protista - Protozoans",
+    topic: "Kingdom Protista",
     difficulty: "Medium",
     type: "Statement",
     q: "Sporozoans are characterised by:",
@@ -1516,7 +1516,7 @@ const allQuestions = [
   },
   {
     id: 102,
-    topic: "Kingdom Protista - Cross-concept",
+    topic: "Cross-Concept",
     difficulty: "Hard",
     type: "Except",
     q: "Which of the following protists does <b>NOT</b> have a cell wall?",
@@ -1531,7 +1531,7 @@ const allQuestions = [
   },
   {
     id: 103,
-    topic: "Kingdom Protista - Cross-concept",
+    topic: "Cross-Concept",
     difficulty: "Hard",
     type: "HowMany",
     q: "How many of the following protistan groups are primarily photosynthetic?<br>(i) Chrysophytes<br>(ii) Dinoflagellates<br>(iii) Euglenoids<br>(iv) Slime moulds<br>(v) Protozoans",
@@ -1546,7 +1546,7 @@ const allQuestions = [
   },
   {
     id: 104,
-    topic: "Kingdom Protista - Cross-concept",
+    topic: "Cross-Concept",
     difficulty: "Hard",
     type: "AR",
     q: "<b>Assertion (A):</b> Diatom cell walls are indestructible and accumulate over billions of years forming diatomaceous earth.<br><b>Reason (R):</b> Diatom cell walls are embedded with cellulose, making them extremely hard.",
@@ -1561,7 +1561,7 @@ const allQuestions = [
   },
   {
     id: 105,
-    topic: "Kingdom Protista - Cross-concept",
+    topic: "Cross-Concept",
     difficulty: "Hard",
     type: "Statement",
     q: "Consider the following statements:<br>(A) Diatom cell wall is made of silica<br>(B) Dinoflagellate cell wall has stiff cellulose plates<br>(C) Euglenoids have a cellulose-rich pellicle<br>(D) Slime mould spores possess true walls<br><br>Which of the above statements are <b>correct</b>?",
@@ -1576,7 +1576,7 @@ const allQuestions = [
   },
   {
     id: 106,
-    topic: "Kingdom Protista - Dinoflagellates",
+    topic: "Kingdom Protista",
     difficulty: "Medium",
     type: "Except",
     q: "Dinoflagellates can appear in all of the following colours <b>EXCEPT</b>:",
@@ -1591,7 +1591,7 @@ const allQuestions = [
   },
   {
     id: 107,
-    topic: "Kingdom Protista - Cross-concept",
+    topic: "Cross-Concept",
     difficulty: "Medium",
     type: "Except",
     q: "All of the following protists are correctly paired with their habitat <b>EXCEPT</b>:",
@@ -1606,7 +1606,7 @@ const allQuestions = [
   },
   {
     id: 108,
-    topic: "Kingdom Protista - Protozoans",
+    topic: "Kingdom Protista",
     difficulty: "Medium",
     type: "Statement",
     q: "Which of the following is <b>correct</b> about amoeboid protozoans?",
@@ -1786,7 +1786,7 @@ const allQuestions = [
   },
   {
     id: 120,
-    topic: "Kingdom Fungi - Phycomycetes",
+    topic: "Kingdom Fungi",
     difficulty: "Medium",
     type: "Statement",
     q: "Which of the following is <b>correct</b> about Phycomycetes?",
@@ -1801,7 +1801,7 @@ const allQuestions = [
   },
   {
     id: 121,
-    topic: "Kingdom Fungi - Phycomycetes",
+    topic: "Kingdom Fungi",
     difficulty: "Medium",
     type: "Statement",
     q: "In Phycomycetes, asexual spores are produced <b>endogenously</b> in:",
@@ -1816,7 +1816,7 @@ const allQuestions = [
   },
   {
     id: 122,
-    topic: "Kingdom Fungi - Phycomycetes",
+    topic: "Kingdom Fungi",
     difficulty: "Hard",
     type: "HowMany",
     q: "How many of the following statements about Phycomycetes are <b>correct</b>?<br>(i) Mycelium is aseptate and coenocytic<br>(ii) Zoospores are non-motile asexual spores<br>(iii) Aplanospores are non-motile<br>(iv) Sexual reproduction involves zygospore formation<br>(v) Gametes can be isogamous, anisogamous or oogamous",
@@ -1831,7 +1831,7 @@ const allQuestions = [
   },
   {
     id: 123,
-    topic: "Kingdom Fungi - Phycomycetes",
+    topic: "Kingdom Fungi",
     difficulty: "Medium",
     type: "Except",
     q: "All of the following are examples of Phycomycetes <b>EXCEPT</b>:",
@@ -1846,7 +1846,7 @@ const allQuestions = [
   },
   {
     id: 124,
-    topic: "Kingdom Fungi - Ascomycetes",
+    topic: "Kingdom Fungi",
     difficulty: "Easy",
     type: "Direct",
     q: "Ascomycetes are commonly known as:",
@@ -1861,7 +1861,7 @@ const allQuestions = [
   },
   {
     id: 125,
-    topic: "Kingdom Fungi - Ascomycetes",
+    topic: "Kingdom Fungi",
     difficulty: "Hard",
     type: "Statement",
     q: "In Ascomycetes, asexual spores (conidia) are produced <b>exogenously</b> on conidiophores, while sexual spores (ascospores) are produced:",
@@ -1876,7 +1876,7 @@ const allQuestions = [
   },
   {
     id: 126,
-    topic: "Kingdom Fungi - Ascomycetes",
+    topic: "Kingdom Fungi",
     difficulty: "Medium",
     type: "Statement",
     q: "Which of the following is <b>correct</b> about Ascomycetes?",
@@ -1891,7 +1891,7 @@ const allQuestions = [
   },
   {
     id: 127,
-    topic: "Kingdom Fungi - Ascomycetes",
+    topic: "Kingdom Fungi",
     difficulty: "Medium",
     type: "Statement",
     q: "Neurospora is used extensively in:",
@@ -1906,7 +1906,7 @@ const allQuestions = [
   },
   {
     id: 128,
-    topic: "Kingdom Fungi - Ascomycetes",
+    topic: "Kingdom Fungi",
     difficulty: "Medium",
     type: "Except",
     q: "All of the following are Ascomycetes <b>EXCEPT</b>:",
@@ -1921,7 +1921,7 @@ const allQuestions = [
   },
   {
     id: 129,
-    topic: "Kingdom Fungi - Basidiomycetes",
+    topic: "Kingdom Fungi",
     difficulty: "Medium",
     type: "Statement",
     q: "Which of the following is <b>incorrect</b> about Basidiomycetes?",
@@ -1936,7 +1936,7 @@ const allQuestions = [
   },
   {
     id: 130,
-    topic: "Kingdom Fungi - Basidiomycetes",
+    topic: "Kingdom Fungi",
     difficulty: "Hard",
     type: "HowMany",
     q: "How many of the following statements about Basidiomycetes are <b>correct</b>?<br>(i) They include mushrooms, bracket fungi and puffballs<br>(ii) Mycelium is aseptate and coenocytic<br>(iii) Asexual spores are generally not found<br>(iv) Sex organs are absent<br>(v) Karyogamy and meiosis take place in the basidium producing four basidiospores",
@@ -1951,7 +1951,7 @@ const allQuestions = [
   },
   {
     id: 131,
-    topic: "Kingdom Fungi - Basidiomycetes",
+    topic: "Kingdom Fungi",
     difficulty: "Medium",
     type: "Statement",
     q: "In Basidiomycetes, plasmogamy is brought about by:",
@@ -1966,7 +1966,7 @@ const allQuestions = [
   },
   {
     id: 132,
-    topic: "Kingdom Fungi - Basidiomycetes",
+    topic: "Kingdom Fungi",
     difficulty: "Easy",
     type: "Direct",
     q: "Basidiospores are produced on fruiting bodies called:",
@@ -1981,7 +1981,7 @@ const allQuestions = [
   },
   {
     id: 133,
-    topic: "Kingdom Fungi - Basidiomycetes",
+    topic: "Kingdom Fungi",
     difficulty: "Hard",
     type: "Match",
     q: "Match the fungal class with its correct example:<br><b>Column I</b> &emsp;&emsp;&emsp;&emsp;&emsp; <b>Column II</b><br>(a) Phycomycetes &emsp;&emsp; (i) Agaricus<br>(b) Ascomycetes &emsp;&emsp; (ii) Alternaria<br>(c) Basidiomycetes &emsp; (iii) Albugo<br>(d) Deuteromycetes &emsp; (iv) Claviceps",
@@ -1996,7 +1996,7 @@ const allQuestions = [
   },
   {
     id: 134,
-    topic: "Kingdom Fungi - Basidiomycetes",
+    topic: "Kingdom Fungi",
     difficulty: "Medium",
     type: "Except",
     q: "All of the following are examples of Basidiomycetes <b>EXCEPT</b>:",
@@ -2011,7 +2011,7 @@ const allQuestions = [
   },
   {
     id: 135,
-    topic: "Kingdom Fungi - Deuteromycetes",
+    topic: "Kingdom Fungi",
     difficulty: "Easy",
     type: "Direct",
     q: "Deuteromycetes are commonly known as:",
@@ -2026,7 +2026,7 @@ const allQuestions = [
   },
   {
     id: 136,
-    topic: "Kingdom Fungi - Deuteromycetes",
+    topic: "Kingdom Fungi",
     difficulty: "Medium",
     type: "Statement",
     q: "Deuteromycetes are called 'imperfect fungi' because:",
@@ -2041,7 +2041,7 @@ const allQuestions = [
   },
   {
     id: 137,
-    topic: "Kingdom Fungi - Deuteromycetes",
+    topic: "Kingdom Fungi",
     difficulty: "Hard",
     type: "Statement",
     q: "Once the perfect (sexual) stages of Deuteromycetes are discovered, they are often moved to:",
@@ -2056,7 +2056,7 @@ const allQuestions = [
   },
   {
     id: 138,
-    topic: "Kingdom Fungi - Deuteromycetes",
+    topic: "Kingdom Fungi",
     difficulty: "Medium",
     type: "HowMany",
     q: "How many of the following statements about Deuteromycetes are <b>correct</b>?<br>(i) Only asexual or vegetative phases are known<br>(ii) They reproduce by asexual spores known as conidia<br>(iii) Mycelium is aseptate and coenocytic<br>(iv) Some are decomposers of litter and help in mineral cycling<br>(v) Alternaria and Trichoderma are examples",
@@ -2071,7 +2071,7 @@ const allQuestions = [
   },
   {
     id: 139,
-    topic: "Kingdom Fungi - Cross-concept",
+    topic: "Cross-Concept",
     difficulty: "Hard",
     type: "Match",
     q: "Match the fungal class with its mycelium type:<br><b>Column I</b> &emsp;&emsp;&emsp;&emsp;&emsp; <b>Column II</b><br>(a) Phycomycetes &emsp;&emsp; (i) Septate and branched<br>(b) Ascomycetes &emsp;&emsp; (ii) Aseptate and coenocytic<br>(c) Basidiomycetes &emsp; (iii) Branched and septate<br>(d) Deuteromycetes &emsp; (iv) Septate and branched",
@@ -2086,7 +2086,7 @@ const allQuestions = [
   },
   {
     id: 140,
-    topic: "Kingdom Fungi - Cross-concept",
+    topic: "Cross-Concept",
     difficulty: "Hard",
     type: "HowMany",
     q: "How many of the following fungal classes have <b>septate</b> mycelium?<br>(i) Phycomycetes<br>(ii) Ascomycetes<br>(iii) Basidiomycetes<br>(iv) Deuteromycetes",
@@ -2101,7 +2101,7 @@ const allQuestions = [
   },
   {
     id: 141,
-    topic: "Kingdom Fungi - Cross-concept",
+    topic: "Cross-Concept",
     difficulty: "Hard",
     type: "AR",
     q: "<b>Assertion (A):</b> Basidiomycetes do not produce asexual spores.<br><b>Reason (R):</b> Sex organs are absent in Basidiomycetes.",
@@ -2116,7 +2116,7 @@ const allQuestions = [
   },
   {
     id: 142,
-    topic: "Kingdom Fungi - Cross-concept",
+    topic: "Cross-Concept",
     difficulty: "Hard",
     type: "AR",
     q: "<b>Assertion (A):</b> Deuteromycetes are called imperfect fungi and are often reclassified.<br><b>Reason (R):</b> Once the sexual stages of deuteromycetes are discovered, they are moved to ascomycetes or basidiomycetes.",
@@ -2131,7 +2131,7 @@ const allQuestions = [
   },
   {
     id: 143,
-    topic: "Kingdom Fungi - Cross-concept",
+    topic: "Cross-Concept",
     difficulty: "Hard",
     type: "Statement",
     q: "Consider the following statements:<br>(A) In Phycomycetes, spores are endogenously produced in sporangium<br>(B) In Ascomycetes, conidia are produced endogenously on conidiophores<br>(C) In Basidiomycetes, basidiospores are exogenously produced on the basidium<br>(D) In Deuteromycetes, conidia are the only means of reproduction<br><br>Which of the above statements are <b>correct</b>?",
@@ -2146,7 +2146,7 @@ const allQuestions = [
   },
   {
     id: 144,
-    topic: "Kingdom Fungi - Cross-concept",
+    topic: "Cross-Concept",
     difficulty: "Medium",
     type: "Except",
     q: "All of the following fungi have septate mycelium <b>EXCEPT</b>:",
@@ -2191,7 +2191,7 @@ const allQuestions = [
   },
   {
     id: 147,
-    topic: "Kingdom Protista - Conceptual",
+    topic: "Kingdom Protista",
     difficulty: "Medium",
     type: "Statement",
     q: "Kingdom Protista is considered to form a link with the kingdoms dealing with:",
@@ -2206,7 +2206,7 @@ const allQuestions = [
   },
   {
     id: 148,
-    topic: "Kingdom Protista - Conceptual",
+    topic: "Kingdom Protista",
     difficulty: "Medium",
     type: "AR",
     q: "<b>Assertion (A):</b> The boundaries of Kingdom Protista are not well defined.<br><b>Reason (R):</b> What may be a 'photosynthetic protistan' to one biologist may be 'a plant' to another.",
@@ -2221,7 +2221,7 @@ const allQuestions = [
   },
   {
     id: 149,
-    topic: "Kingdom Fungi - Puccinia",
+    topic: "Kingdom Fungi",
     difficulty: "Medium",
     type: "Statement",
     q: "Puccinia, which causes wheat rust, belongs to the class:",
@@ -2236,7 +2236,7 @@ const allQuestions = [
   },
   {
     id: 150,
-    topic: "Kingdom Fungi - Basidiomycetes",
+    topic: "Kingdom Fungi",
     difficulty: "Hard",
     type: "HowMany",
     q: "How many of the following are correctly matched?<br>(i) Agaricus — Mushroom<br>(ii) Ustilago — Rust fungus<br>(iii) Puccinia — Smut<br>(iv) Rhizopus — Bread mould<br>(v) Albugo — Parasitic fungus on mustard",
@@ -2251,7 +2251,7 @@ const allQuestions = [
   },
   {
     id: 151,
-    topic: "Kingdom Fungi - Ascomycetes",
+    topic: "Kingdom Fungi",
     difficulty: "Easy",
     type: "Direct",
     q: "The scientific name of yeast is:",
@@ -2266,7 +2266,7 @@ const allQuestions = [
   },
   {
     id: 152,
-    topic: "Kingdom Fungi - Ascomycetes",
+    topic: "Kingdom Fungi",
     difficulty: "Medium",
     type: "Statement",
     q: "Which of the following pairs of edible ascomycetes are considered delicacies?",
@@ -2281,7 +2281,7 @@ const allQuestions = [
   },
   {
     id: 153,
-    topic: "Kingdom Fungi - Basidiomycetes",
+    topic: "Kingdom Fungi",
     difficulty: "Medium",
     type: "Statement",
     q: "Rusts and smuts are examples of which class of fungi that grow as parasites in living plant bodies?",
@@ -2296,7 +2296,7 @@ const allQuestions = [
   },
   {
     id: 154,
-    topic: "Kingdom Fungi - Cross-concept",
+    topic: "Cross-Concept",
     difficulty: "Hard",
     type: "Match",
     q: "Match the fungus with its common name/association:<br><b>Column I</b> &emsp;&emsp;&emsp;&emsp; <b>Column II</b><br>(a) Ustilago &emsp;&emsp;&emsp; (i) Bread mould<br>(b) Puccinia &emsp;&emsp;&emsp; (ii) Smut<br>(c) Rhizopus &emsp;&emsp;&emsp; (iii) Rust fungus<br>(d) Albugo &emsp;&emsp;&emsp;&emsp; (iv) Parasitic on mustard",
@@ -2311,7 +2311,7 @@ const allQuestions = [
   },
   {
     id: 155,
-    topic: "Kingdom Fungi - Phycomycetes",
+    topic: "Kingdom Fungi",
     difficulty: "Medium",
     type: "Statement",
     q: "Which of the following is <b>correct</b> about Phycomycetes habitat?",
@@ -2326,7 +2326,7 @@ const allQuestions = [
   },
   {
     id: 156,
-    topic: "Kingdom Fungi - Absorption",
+    topic: "Kingdom Fungi",
     difficulty: "Medium",
     type: "Statement",
     q: "Most fungi are heterotrophic and obtain their nutrition by:",
@@ -2341,7 +2341,7 @@ const allQuestions = [
   },
   {
     id: 157,
-    topic: "Cross-topic - Prokaryotic vs Eukaryotic",
+    topic: "Cross-Concept",
     difficulty: "Hard",
     type: "HowMany",
     q: "How many of the following kingdoms in Whittaker's classification contain <b>eukaryotic</b> organisms?<br>(i) Monera<br>(ii) Protista<br>(iii) Fungi<br>(iv) Plantae<br>(v) Animalia",
@@ -2356,7 +2356,7 @@ const allQuestions = [
   },
   {
     id: 158,
-    topic: "Cross-topic - Nutrition Comparison",
+    topic: "Cross-Concept",
     difficulty: "Hard",
     type: "HowMany",
     q: "How many of the following kingdoms show <b>BOTH</b> autotrophic and heterotrophic modes of nutrition?<br>(i) Monera<br>(ii) Protista<br>(iii) Fungi<br>(iv) Plantae<br>(v) Animalia",
@@ -2371,7 +2371,7 @@ const allQuestions = [
   },
   {
     id: 159,
-    topic: "Cross-topic - Cell Wall Comparison",
+    topic: "Cross-Concept",
     difficulty: "Hard",
     type: "Statement",
     q: "Consider the following statements about cell wall composition:<br>(A) Monera — Polysaccharide and amino acid (noncellulosic)<br>(B) Fungi — Chitin and polysaccharides<br>(C) Plantae — Cellulose<br>(D) Dinoflagellates — Silica plates<br><br>Which of the above statements are <b>correct</b>?",
@@ -2386,7 +2386,7 @@ const allQuestions = [
   },
   {
     id: 160,
-    topic: "Cross-topic - Examples Classification",
+    topic: "Cross-Concept",
     difficulty: "Hard",
     type: "Except",
     q: "All of the following organisms belong to Kingdom Protista <b>EXCEPT</b>:",
@@ -2401,7 +2401,7 @@ const allQuestions = [
   },
   {
     id: 161,
-    topic: "Cross-topic - Comprehensive Classification",
+    topic: "Cross-Concept",
     difficulty: "Hard",
     type: "Match",
     q: "Match the organism with its correct kingdom:<br><b>Column I</b> &emsp;&emsp;&emsp;&emsp; <b>Column II</b><br>(a) Anabaena &emsp;&emsp;&emsp; (i) Protista<br>(b) Amoeba &emsp;&emsp;&emsp; (ii) Monera<br>(c) Penicillium &emsp;&emsp; (iii) Fungi<br>(d) Paramoecium &emsp; (iv) Protista",
@@ -2416,7 +2416,7 @@ const allQuestions = [
   },
   {
     id: 162,
-    topic: "Kingdom Fungi - Basidiomycetes",
+    topic: "Kingdom Fungi",
     difficulty: "Medium",
     type: "Direct",
     q: "The number of basidiospores produced per basidium is:",
@@ -2431,7 +2431,7 @@ const allQuestions = [
   },
   {
     id: 163,
-    topic: "Kingdom Fungi - Phycomycetes",
+    topic: "Kingdom Fungi",
     difficulty: "Medium",
     type: "Statement",
     q: "In Phycomycetes, the sexual spore formed by fusion of two gametes is called:",
@@ -2446,7 +2446,7 @@ const allQuestions = [
   },
   {
     id: 164,
-    topic: "Cross-topic - Silica Structures",
+    topic: "Cross-Concept",
     difficulty: "Hard",
     type: "Statement",
     q: "Silica is found in which of the following structures?<br>(A) Cell walls of diatoms<br>(B) Shells of marine amoeboid protozoans<br>(C) Cell wall of dinoflagellates<br>(D) Pellicle of euglenoids",
@@ -2476,7 +2476,7 @@ const allQuestions = [
   },
   {
     id: 166,
-    topic: "Kingdom Protista - Slime Moulds",
+    topic: "Kingdom Protista",
     difficulty: "Medium",
     type: "Statement",
     q: "Select the <b>correct</b> statement about the feeding mechanism of slime moulds:",
@@ -2491,7 +2491,7 @@ const allQuestions = [
   },
   {
     id: 167,
-    topic: "Cross-topic - Saprophytes vs Parasites",
+    topic: "Cross-Concept",
     difficulty: "Medium",
     type: "Statement",
     q: "In fungi, saprophytes and parasites differ in that:",
@@ -2506,7 +2506,7 @@ const allQuestions = [
   },
   {
     id: 168,
-    topic: "Kingdom Fungi - Ascomycetes",
+    topic: "Kingdom Fungi",
     difficulty: "Medium",
     type: "Statement",
     q: "Which of the following is <b>correct</b> about the fruiting bodies of Ascomycetes?",
@@ -2521,7 +2521,7 @@ const allQuestions = [
   },
   {
     id: 169,
-    topic: "Cross-topic - Endogenous vs Exogenous",
+    topic: "Cross-Concept",
     difficulty: "Hard",
     type: "HowMany",
     q: "How many of the following spore-producing structures produce spores <b>endogenously</b>?<br>(i) Sporangium in Phycomycetes<br>(ii) Conidiophores in Ascomycetes<br>(iii) Asci in Ascomycetes<br>(iv) Basidia in Basidiomycetes",
@@ -2536,7 +2536,7 @@ const allQuestions = [
   },
   {
     id: 170,
-    topic: "Cross-topic - Fungal Classes Comparison",
+    topic: "Cross-Concept",
     difficulty: "Hard",
     type: "Statement",
     q: "Consider the following statements:<br>(A) Phycomycetes — aseptate, coenocytic, zygospore<br>(B) Ascomycetes — septate, conidia (exogenous), ascospores (endogenous)<br>(C) Basidiomycetes — septate, sex organs present, basidiospores (endogenous)<br>(D) Deuteromycetes — septate, only conidia, no known sexual stage<br><br>Which of the above statements are <b>correct</b>?",
@@ -2551,7 +2551,7 @@ const allQuestions = [
   },
   {
     id: 171,
-    topic: "Cross-topic - Disease and Organism",
+    topic: "Cross-Concept",
     difficulty: "Hard",
     type: "Except",
     q: "All of the following disease-causing organisms belong to Kingdom Protista <b>EXCEPT</b>:",
@@ -2566,7 +2566,7 @@ const allQuestions = [
   },
   {
     id: 172,
-    topic: "Kingdom Fungi - Deuteromycetes",
+    topic: "Kingdom Fungi",
     difficulty: "Medium",
     type: "Except",
     q: "All of the following are examples of Deuteromycetes <b>EXCEPT</b>:",
@@ -2581,7 +2581,7 @@ const allQuestions = [
   },
   {
     id: 173,
-    topic: "Cross-topic - Body Organisation",
+    topic: "Cross-Concept",
     difficulty: "Medium",
     type: "Statement",
     q: "Which of the following kingdoms has body organisation described as 'multicellular/loose tissue' in Whittaker's classification?",
@@ -2596,7 +2596,7 @@ const allQuestions = [
   },
   {
     id: 174,
-    topic: "Cross-topic - Complete Kingdom Comparison",
+    topic: "Cross-Concept",
     difficulty: "Hard",
     type: "HowMany",
     q: "How many of the following statements about Whittaker's Five Kingdom classification are <b>correct</b>?<br>(i) Monera includes all prokaryotic organisms<br>(ii) Protista includes all unicellular eukaryotic organisms<br>(iii) Fungi are exclusively autotrophic<br>(iv) Plantae body organisation is tissue/organ level<br>(v) Animalia shows heterotrophic nutrition including holozoic mode",
@@ -2611,7 +2611,7 @@ const allQuestions = [
   },
   {
     id: 175,
-    topic: "Kingdom Fungi - Ascomycetes Detail",
+    topic: "Kingdom Fungi",
     difficulty: "Medium",
     type: "Statement",
     q: "In Ascomycetes, conidia on germination produce:",
@@ -2626,7 +2626,7 @@ const allQuestions = [
   },
   {
     id: 176,
-    topic: "Cross-topic - Comprehensive Organism-Kingdom",
+    topic: "Cross-Concept",
     difficulty: "Hard",
     type: "HowMany",
     q: "How many of the following organisms are correctly placed in their respective kingdoms?<br>(i) Nostoc — Monera<br>(ii) Euglena — Protista<br>(iii) Agaricus — Fungi (Basidiomycetes)<br>(iv) Saccharomyces — Protista<br>(v) Gonyaulax — Protista",
@@ -2941,7 +2941,7 @@ const allQuestions = [
   },
   {
     id: 197,
-    topic: "Cross-topic: Plantae vs Animalia",
+    topic: "Cross-Concept",
     difficulty: "Hard",
     type: "Match",
     q: "Match the feature with the correct kingdom:<br><b>Column I (Feature)</b> &emsp;&emsp;&emsp; <b>Column II (Kingdom)</b><br>(a) Cell wall made of cellulose &emsp; (i) Animalia<br>(b) Food stored as glycogen &emsp;&emsp; (ii) Plantae<br>(c) Holozoic nutrition &emsp;&emsp;&emsp;&emsp; (iii) Animalia<br>(d) Alternation of generations &emsp; (iv) Plantae",
@@ -2956,7 +2956,7 @@ const allQuestions = [
   },
   {
     id: 198,
-    topic: "Cross-topic: Plantae vs Animalia",
+    topic: "Cross-Concept",
     difficulty: "Hard",
     type: "Statement",
     q: "Consider the following statements:<br>(A) Plants show alternation of generations while animals do not<br>(B) Plants store food as starch while animals store food as glycogen or fat<br>(C) Both plant and animal cells have cell walls made of cellulose<br>(D) Plants are autotrophic while animals are heterotrophic<br><br>Which of the above statements are <b>correct</b>?",
@@ -2971,7 +2971,7 @@ const allQuestions = [
   },
   {
     id: 199,
-    topic: "Cross-topic: Plantae vs Animalia",
+    topic: "Cross-Concept",
     difficulty: "Medium",
     type: "Statement",
     q: "Which of the following is a distinguishing feature of Kingdom Animalia that sets it apart from Kingdom Plantae?",
@@ -2986,7 +2986,7 @@ const allQuestions = [
   },
   {
     id: 200,
-    topic: "Cross-topic: All Five Kingdoms",
+    topic: "Cross-Concept",
     difficulty: "Hard",
     type: "HowMany",
     q: "How many of the following kingdoms in Whittaker's classification have organisms that are <b>exclusively heterotrophic</b>?<br>(i) Monera<br>(ii) Protista<br>(iii) Fungi<br>(iv) Plantae<br>(v) Animalia",
@@ -3001,7 +3001,7 @@ const allQuestions = [
   },
   {
     id: 201,
-    topic: "Cross-topic: Cell Wall Comparison",
+    topic: "Cross-Concept",
     difficulty: "Hard",
     type: "Match",
     q: "Match the kingdom with its cell wall status:<br><b>Column I</b> &emsp;&emsp; <b>Column II</b><br>(a) Monera &emsp;&emsp; (i) Cellulose cell wall<br>(b) Fungi &emsp;&emsp;&emsp; (ii) Cell wall absent<br>(c) Plantae &emsp;&emsp; (iii) Chitin and polysaccharides<br>(d) Animalia &emsp; (iv) Noncellulosic (polysaccharide + amino acid)",
@@ -3016,7 +3016,7 @@ const allQuestions = [
   },
   {
     id: 202,
-    topic: "Cross-topic: Nutrition Across Kingdoms",
+    topic: "Cross-Concept",
     difficulty: "Hard",
     type: "Statement",
     q: "Which of the following correctly describes the mode of nutrition in fungi and animals respectively?",
@@ -3046,7 +3046,7 @@ const allQuestions = [
   },
   {
     id: 204,
-    topic: "Cross-topic: Partially Heterotrophic",
+    topic: "Cross-Concept",
     difficulty: "Medium",
     type: "Except",
     q: "All of the following are partially heterotrophic members of Kingdom Plantae <b>EXCEPT</b>:",
@@ -3076,7 +3076,7 @@ const allQuestions = [
   },
   {
     id: 206,
-    topic: "Cross-topic: Five Kingdoms Overview",
+    topic: "Cross-Concept",
     difficulty: "Hard",
     type: "HowMany",
     q: "How many of the following statements are <b>correct</b>?<br>(i) Plantae members have eukaryotic cells with prominent chloroplasts<br>(ii) Animalia members digest food in an internal cavity<br>(iii) Plants follow indefinite growth while animals follow definite growth<br>(iv) Animals store food as starch<br>(v) Cuscuta is an insectivorous plant",
@@ -3091,7 +3091,7 @@ const allQuestions = [
   },
   {
     id: 207,
-    topic: "Cross-topic: Storage Products",
+    topic: "Cross-Concept",
     difficulty: "Medium",
     type: "Statement",
     q: "The food storage forms in plants and animals respectively are:",
@@ -3106,7 +3106,7 @@ const allQuestions = [
   },
   {
     id: 208,
-    topic: "Cross-topic: Comprehensive",
+    topic: "Cross-Concept",
     difficulty: "Hard",
     type: "AR",
     q: "<b>Assertion (A):</b> Animals follow a definite growth pattern unlike plants.<br><b>Reason (R):</b> Animals grow into adults that have a definite shape and size.",
@@ -3601,7 +3601,7 @@ const allQuestions = [
   },
   {
     id: 241,
-    topic: "Cross-topic: Virus vs Viroid vs Prion",
+    topic: "Cross-Concept",
     difficulty: "Hard",
     type: "Match",
     q: "Match the infectious agent with its composition:<br><b>Column I</b> &emsp;&emsp; <b>Column II</b><br>(a) Virus &emsp;&emsp;&emsp; (i) Free RNA only (no protein coat)<br>(b) Viroid &emsp;&emsp; (ii) Abnormally folded protein only<br>(c) Prion &emsp;&emsp;&emsp; (iii) Nucleoprotein (nucleic acid + protein coat)",
@@ -3616,7 +3616,7 @@ const allQuestions = [
   },
   {
     id: 242,
-    topic: "Cross-topic: Virus vs Viroid vs Prion",
+    topic: "Cross-Concept",
     difficulty: "Hard",
     type: "HowMany",
     q: "How many of the following statements are <b>correct</b>?<br>(i) Viruses are nucleoproteins containing either RNA or DNA<br>(ii) Viroids are free RNA with a protein coat<br>(iii) Prions are abnormally folded proteins causing neurological diseases<br>(iv) No virus contains both RNA and DNA<br>(v) Viroids cause potato spindle tuber disease",
@@ -3646,7 +3646,7 @@ const allQuestions = [
   },
   {
     id: 244,
-    topic: "Cross-topic: Comprehensive",
+    topic: "Cross-Concept",
     difficulty: "Hard",
     type: "Except",
     q: "All of the following are correctly matched <b>EXCEPT</b>:",
@@ -3661,7 +3661,7 @@ const allQuestions = [
   },
   {
     id: 245,
-    topic: "Cross-topic: Virus-Viroid-Prion-Lichen Comprehensive",
+    topic: "Cross-Concept",
     difficulty: "Hard",
     type: "Statement",
     q: "Consider the following statements:<br>(A) Viruses are obligate parasites and are inert outside their specific host cell<br>(B) Viroids have a protein coat of low molecular weight<br>(C) Prions cause bovine spongiform encephalopathy (BSE) and Creutzfeldt-Jacob disease (CJD)<br>(D) Lichens are symbiotic associations where phycobiont is autotrophic and mycobiont is heterotrophic<br><br>Which of the above statements are <b>correct</b>?",
@@ -3676,7 +3676,7 @@ const allQuestions = [
   },
   {
     id: 246,
-    topic: "Cross-topic: Years and Scientists",
+    topic: "Cross-Concept",
     difficulty: "Hard",
     type: "Match",
     q: "Match the scientist with the correct year:<br><b>Column I</b> &emsp;&emsp;&emsp;&emsp; <b>Column II</b><br>(a) Ivanowsky &emsp;&emsp; (i) 1971<br>(b) Beijerinck &emsp;&emsp; (ii) 1892<br>(c) Stanley &emsp;&emsp;&emsp;&emsp; (iii) 1898<br>(d) Diener &emsp;&emsp;&emsp;&emsp; (iv) 1935",
@@ -3691,7 +3691,7 @@ const allQuestions = [
   },
   {
     id: 247,
-    topic: "Cross-topic: Complete Chapter Integration",
+    topic: "Cross-Concept",
     difficulty: "Hard",
     type: "HowMany",
     q: "How many of the following infectious agents contain <b>nucleic acid</b>?<br>(i) Virus<br>(ii) Viroid<br>(iii) Prion<br>(iv) Bacteriophage<br>(v) Mycoplasma",
@@ -3721,7 +3721,7 @@ const allQuestions = [
   },
   {
     id: 249,
-    topic: "Summary - Historical",
+    topic: "Summary",
     difficulty: "Easy",
     type: "Direct",
     q: "Who first proposed biological classification of plants and animals on the basis of simple morphological characters?",
@@ -3736,7 +3736,7 @@ const allQuestions = [
   },
   {
     id: 250,
-    topic: "Summary - Historical Sequence",
+    topic: "Summary",
     difficulty: "Medium",
     type: "Statement",
     q: "The correct chronological sequence of classification proposals is:",
@@ -3751,7 +3751,7 @@ const allQuestions = [
   },
   {
     id: 251,
-    topic: "Summary - Monera",
+    topic: "Summary",
     difficulty: "Medium",
     type: "Statement",
     q: "Which of the following is described as 'cosmopolitan in distribution' in the NCERT summary?",
@@ -3766,7 +3766,7 @@ const allQuestions = [
   },
   {
     id: 252,
-    topic: "Summary - Fungi",
+    topic: "Summary",
     difficulty: "Medium",
     type: "Statement",
     q: "According to the NCERT summary, the mode of nutrition in most fungi is:",
@@ -3781,7 +3781,7 @@ const allQuestions = [
   },
   {
     id: 253,
-    topic: "Summary - Fungi Classification",
+    topic: "Summary",
     difficulty: "Easy",
     type: "Direct",
     q: "The number of classes in Kingdom Fungi as mentioned in NCERT is:",
@@ -3796,7 +3796,7 @@ const allQuestions = [
   },
   {
     id: 254,
-    topic: "Summary - Animalia",
+    topic: "Summary",
     difficulty: "Medium",
     type: "Statement",
     q: "According to the NCERT summary, animals reproduce:",
@@ -3811,7 +3811,7 @@ const allQuestions = [
   },
   {
     id: 255,
-    topic: "Summary - Excluded Organisms",
+    topic: "Summary",
     difficulty: "Hard",
     type: "HowMany",
     q: "How many of the following are NOT included in Whittaker's Five Kingdom Classification as per NCERT?<br>(i) Viruses<br>(ii) Viroids<br>(iii) Prions<br>(iv) Lichens<br>(v) Mycoplasma",
@@ -3826,7 +3826,7 @@ const allQuestions = [
   },
   {
     id: 256,
-    topic: "Summary - Cross-concept",
+    topic: "Cross-Concept",
     difficulty: "Hard",
     type: "HowMany",
     q: "How many of the following kingdoms have members that reproduce <b>BOTH</b> asexually and sexually?<br>(i) Monera<br>(ii) Protista<br>(iii) Fungi<br>(iv) Plantae<br>(v) Animalia",
@@ -3841,7 +3841,7 @@ const allQuestions = [
   },
   {
     id: 257,
-    topic: "Summary - Comprehensive",
+    topic: "Summary",
     difficulty: "Hard",
     type: "Statement",
     q: "Consider the following statements from NCERT Summary:<br>(A) Aristotle first proposed biological classification on the basis of morphological characters<br>(B) Whittaker's criteria included cell structure, body organisation, mode of nutrition, reproduction and phylogenetic relationships<br>(C) Bacteria show the most extensive structural diversity<br>(D) Protists have defined nucleus and membrane-bound organelles<br><br>Which of the above statements are <b>correct</b>?",
@@ -3856,7 +3856,7 @@ const allQuestions = [
   },
   {
     id: 258,
-    topic: "Summary - Protista",
+    topic: "Summary",
     difficulty: "Medium",
     type: "Except",
     q: "All of the following are included under Kingdom Protista as per NCERT <b>EXCEPT</b>:",
@@ -3871,7 +3871,7 @@ const allQuestions = [
   },
   {
     id: 259,
-    topic: "Summary - Plantae",
+    topic: "Summary",
     difficulty: "Medium",
     type: "HowMany",
     q: "How many of the following groups are correctly listed under Kingdom Plantae as per NCERT Summary?<br>(i) Algae<br>(ii) Bryophytes<br>(iii) Pteridophytes<br>(iv) Gymnosperms<br>(v) Angiosperms<br>(vi) Fungi",
@@ -3886,7 +3886,7 @@ const allQuestions = [
   },
   {
     id: 260,
-    topic: "Summary - Cross Kingdom Comparison",
+    topic: "Cross-Concept",
     difficulty: "Hard",
     type: "Match",
     q: "Match the kingdom with its defining characteristic as per NCERT Summary:<br><b>Column I</b> &emsp;&emsp;&emsp;&emsp; <b>Column II</b><br>(a) Monera &emsp;&emsp;&emsp; (i) Eukaryotic, chlorophyll-containing<br>(b) Protista &emsp;&emsp;&emsp; (ii) Heterotrophic, multicellular, lacks cell wall<br>(c) Plantae &emsp;&emsp;&emsp; (iii) Most extensive metabolic diversity<br>(d) Animalia &emsp;&emsp; (iv) Single-celled eukaryotes",
@@ -3901,7 +3901,7 @@ const allQuestions = [
   },
   {
     id: 261,
-    topic: "Summary - Comprehensive Revision",
+    topic: "Summary",
     difficulty: "Hard",
     type: "HowMany",
     q: "How many of the following statements from the NCERT Summary are <b>correct</b>?<br>(i) Bacteria may be autotrophic or heterotrophic<br>(ii) Most fungi are saprophytic<br>(iii) Protists reproduce only asexually<br>(iv) Plants exhibit alternation of generations<br>(v) Animals are holozoic in their mode of nutrition",
@@ -3916,7 +3916,7 @@ const allQuestions = [
   },
   {
     id: 262,
-    topic: "Summary - Whittaker's Classification",
+    topic: "Summary",
     difficulty: "Medium",
     type: "Statement",
     q: "Which of the following is <b>NOT</b> one of the main criteria used by Whittaker for Five Kingdom Classification as stated in the NCERT Summary?",
@@ -3931,7 +3931,7 @@ const allQuestions = [
   },
   {
     id: 263,
-    topic: "Summary - Animalia",
+    topic: "Summary",
     difficulty: "Medium",
     type: "Statement",
     q: "Which of the following features of Kingdom Animalia is <b>correctly</b> stated as per the NCERT Summary?",
@@ -3946,7 +3946,7 @@ const allQuestions = [
   },
   {
     id: 264,
-    topic: "Summary - Comprehensive Cross-Kingdom",
+    topic: "Cross-Concept",
     difficulty: "Hard",
     type: "AR",
     q: "<b>Assertion (A):</b> Bacteria show the most extensive metabolic diversity among all organisms.<br><b>Reason (R):</b> Bacteria may be autotrophic (both photosynthetic and chemosynthetic) or heterotrophic (saprophytic, parasitic) in their mode of nutrition.",
@@ -3961,7 +3961,7 @@ const allQuestions = [
   },
   {
     id: 265,
-    topic: "Summary - Plantae Detail",
+    topic: "Summary",
     difficulty: "Medium",
     type: "Statement",
     q: "The life cycle of plants exhibits alternation between which two generations?",
@@ -3976,7 +3976,7 @@ const allQuestions = [
   },
   {
     id: 266,
-    topic: "Summary - Complete Chapter Revision",
+    topic: "Summary",
     difficulty: "Hard",
     type: "HowMany",
     q: "How many of the following organism-kingdom pairings are <b>correct</b>?<br>(i) Nostoc — Monera<br>(ii) Gonyaulax — Protista<br>(iii) Agaricus — Fungi<br>(iv) Cuscuta — Plantae<br>(v) Puccinia — Protista<br>(vi) Trypanosoma — Protista",
@@ -3991,7 +3991,7 @@ const allQuestions = [
   },
   {
     id: 267,
-    topic: "Summary - Comprehensive Integration",
+    topic: "Summary",
     difficulty: "Hard",
     type: "Except",
     q: "All of the following pairs show the correct matching of organism and its characteristic <b>EXCEPT</b>:",
@@ -4006,7 +4006,7 @@ const allQuestions = [
   },
   {
     id: 268,
-    topic: "Summary - Virus/Viroid/Lichen Exclusion",
+    topic: "Summary",
     difficulty: "Medium",
     type: "Statement",
     q: "Which of the following is <b>correct</b> about the organisms not included in Whittaker's Five Kingdom Classification?",
@@ -4021,7 +4021,7 @@ const allQuestions = [
   },
   {
     id: 269,
-    topic: "Summary - Comprehensive Revision",
+    topic: "Summary",
     difficulty: "Hard",
     type: "Statement",
     q: "Consider the following summary statements:<br>(A) Linnaeus classified organisms into five kingdoms<br>(B) Whittaker's classification criteria include phylogenetic relationships<br>(C) Kingdom Protista includes all single-celled eukaryotes<br>(D) Fungi show only asexual reproduction<br><br>Which of the above statements are <b>correct</b>?",
@@ -4036,7 +4036,7 @@ const allQuestions = [
   },
   {
     id: 270,
-    topic: "Summary - Chapter Consolidation",
+    topic: "Summary",
     difficulty: "Hard",
     type: "Match",
     q: "Match the kingdom with its mode of nutrition as per NCERT:<br><b>Column I</b> &emsp;&emsp;&emsp; <b>Column II</b><br>(a) Monera &emsp;&emsp;&emsp; (i) Holozoic<br>(b) Fungi &emsp;&emsp;&emsp;&emsp; (ii) Autotrophic or heterotrophic<br>(c) Plantae &emsp;&emsp;&emsp; (iii) Saprophytic (mostly)<br>(d) Animalia &emsp;&emsp; (iv) Autotrophic (photosynthetic)",
@@ -4051,7 +4051,7 @@ const allQuestions = [
   },
   {
     id: 271,
-    topic: "Summary - Ultimate Revision",
+    topic: "Summary",
     difficulty: "Hard",
     type: "HowMany",
     q: "How many of the following pairs are <b>correctly</b> matched as per the entire chapter?<br>(i) Archaebacteria — Different cell wall structure for survival in extreme conditions<br>(ii) Diatoms — Cell walls embedded with cellulose<br>(iii) Euglenoids — Protein-rich pellicle, mixotrophic<br>(iv) Basidiomycetes — Sex organs absent, basidiospores exogenous<br>(v) Viroids — Free RNA, no protein coat, potato spindle tuber disease<br>(vi) Prions — Abnormally folded protein, mad cow disease",
@@ -4066,7 +4066,7 @@ const allQuestions = [
   },
   {
     id: 272,
-    topic: "Summary - Final Integration",
+    topic: "Summary",
     difficulty: "Hard",
     type: "AR",
     q: "<b>Assertion (A):</b> Fungi were separated from Kingdom Plantae and placed in a separate kingdom in Whittaker's classification.<br><b>Reason (R):</b> Fungi are heterotrophic and have chitin in their cell walls unlike the cellulosic cell wall of green plants.",
@@ -4081,7 +4081,7 @@ const allQuestions = [
   },
   {
     id: 273,
-    topic: "Summary - Final Comprehensive",
+    topic: "Summary",
     difficulty: "Hard",
     type: "Except",
     q: "All of the following facts are stated in the NCERT Summary <b>EXCEPT</b>:",
@@ -4111,7 +4111,7 @@ const allQuestions = [
   },
   {
     id: 275,
-    topic: "Kingdom Fungi - Habitat Preference",
+    topic: "Kingdom Fungi",
     difficulty: "Medium",
     type: "Statement",
     q: "Fungi prefer to grow in:",
@@ -4126,7 +4126,7 @@ const allQuestions = [
   },
   {
     id: 276,
-    topic: "Kingdom Fungi - Practical Application",
+    topic: "Kingdom Fungi",
     difficulty: "Medium",
     type: "AR",
     q: "<b>Assertion (A):</b> We keep food in the refrigerator to prevent it from going bad.<br><b>Reason (R):</b> Low temperature inhibits growth of bacteria and fungi that prefer warm and humid conditions.",
@@ -4141,7 +4141,7 @@ const allQuestions = [
   },
   {
     id: 277,
-    topic: "Kingdom Fungi - Classification Basis",
+    topic: "Kingdom Fungi",
     difficulty: "Medium",
     type: "HowMany",
     q: "How many of the following form the basis for dividing Kingdom Fungi into various classes?<br>(i) Morphology of the mycelium<br>(ii) Mode of spore formation<br>(iii) Fruiting bodies<br>(iv) Habitat and geographical distribution<br>(v) Mode of nutrition",
@@ -4156,7 +4156,7 @@ const allQuestions = [
   },
   {
     id: 278,
-    topic: "Kingdom Fungi - Sexual Spore Matching",
+    topic: "Kingdom Fungi",
     difficulty: "Hard",
     type: "Match",
     q: "Match the sexual spore with the correct fungal class:<br><b>Column I (Spore)</b> &emsp;&emsp; <b>Column II (Class)</b><br>(a) Oospore &emsp;&emsp;&emsp;&emsp; (i) Basidiomycetes<br>(b) Ascospore &emsp;&emsp;&emsp; (ii) Phycomycetes<br>(c) Basidiospore &emsp;&emsp; (iii) Ascomycetes<br>(d) Zygospore &emsp;&emsp;&emsp; (iv) Phycomycetes",
@@ -4171,7 +4171,7 @@ const allQuestions = [
   },
   {
     id: 279,
-    topic: "Kingdom Fungi - Phycomycetes Gametes",
+    topic: "Kingdom Fungi",
     difficulty: "Hard",
     type: "Statement",
     q: "In Phycomycetes, the gametes involved in sexual reproduction can be:",
@@ -4186,7 +4186,7 @@ const allQuestions = [
   },
   {
     id: 280,
-    topic: "Kingdom Fungi - Basidiomycetes Detail",
+    topic: "Kingdom Fungi",
     difficulty: "Medium",
     type: "Statement",
     q: "In Basidiomycetes, although asexual spores are generally not found, the common mode of vegetative reproduction is:",
@@ -4261,7 +4261,7 @@ const allQuestions = [
   },
   {
     id: 285,
-    topic: "Kingdom Protista - Flagellated Protozoans",
+    topic: "Kingdom Protista",
     difficulty: "Medium",
     type: "Statement",
     q: "Flagellated protozoans are:",
@@ -4276,7 +4276,7 @@ const allQuestions = [
   },
   {
     id: 286,
-    topic: "Kingdom Protista - Euglenoids Detail",
+    topic: "Kingdom Protista",
     difficulty: "Medium",
     type: "Statement",
     q: "When euglenoids are deprived of sunlight, they behave like heterotrophs by:",
@@ -4291,7 +4291,7 @@ const allQuestions = [
   },
   {
     id: 287,
-    topic: "Kingdom Protista - Euglenoids",
+    topic: "Kingdom Protista",
     difficulty: "Medium",
     type: "Statement",
     q: "The pigments of euglenoids are:",
@@ -4306,7 +4306,7 @@ const allQuestions = [
   },
   {
     id: 288,
-    topic: "Cross-topic: Cosmopolitan Organisms",
+    topic: "Cross-Concept",
     difficulty: "Hard",
     type: "HowMany",
     q: "How many of the following are described as 'cosmopolitan' in NCERT Chapter 2?<br>(i) Bacteria<br>(ii) Fungi<br>(iii) Protists<br>(iv) Viruses<br>(v) Lichens",
@@ -4321,7 +4321,7 @@ const allQuestions = [
   },
   {
     id: 289,
-    topic: "Kingdom Fungi - Sexual Cycle Detail",
+    topic: "Kingdom Fungi",
     difficulty: "Hard",
     type: "Statement",
     q: "During sexual reproduction in fungi, two haploid hyphae of compatible mating types come together and fuse. In some fungi, the fusion of two haploid cells <b>immediately</b> results in:",
@@ -4336,7 +4336,7 @@ const allQuestions = [
   },
   {
     id: 290,
-    topic: "Cross-topic: Comprehensive Spore Comparison",
+    topic: "Cross-Concept",
     difficulty: "Hard",
     type: "HowMany",
     q: "How many of the following are correctly paired?<br>(i) Zoospores — Motile, asexual, Phycomycetes<br>(ii) Aplanospores — Non-motile, asexual, Phycomycetes<br>(iii) Conidia — Asexual, produced endogenously in Ascomycetes<br>(iv) Ascospores — Sexual, produced endogenously in asci<br>(v) Basidiospores — Sexual, produced exogenously on basidia",
@@ -4351,7 +4351,7 @@ const allQuestions = [
   },
   {
     id: 291,
-    topic: "Kingdom Protista - Ciliated Protozoan Detail",
+    topic: "Kingdom Protista",
     difficulty: "Medium",
     type: "Statement",
     q: "In ciliated protozoans, food is directed into the gullet by:",
@@ -4366,7 +4366,7 @@ const allQuestions = [
   },
   {
     id: 292,
-    topic: "Cross-topic: Endogenous vs Exogenous Complete",
+    topic: "Cross-Concept",
     difficulty: "Hard",
     type: "Statement",
     q: "Consider the following:<br>(A) Sporangiospores in Phycomycetes — Endogenous in sporangium<br>(B) Conidia in Ascomycetes — Exogenous on conidiophores<br>(C) Ascospores in Ascomycetes — Endogenous in asci<br>(D) Basidiospores in Basidiomycetes — Endogenous in basidia<br><br>Which of the above are <b>correct</b>?",
@@ -4381,7 +4381,7 @@ const allQuestions = [
   },
   {
     id: 293,
-    topic: "Cross-topic: Organism Examples — Ultimate Test",
+    topic: "Cross-Concept",
     difficulty: "Hard",
     type: "HowMany",
     q: "How many of the following organism-class pairings within Kingdom Fungi are <b>correct</b>?<br>(i) Mucor — Phycomycetes<br>(ii) Saccharomyces — Ascomycetes<br>(iii) Neurospora — Basidiomycetes<br>(iv) Ustilago — Basidiomycetes<br>(v) Alternaria — Deuteromycetes<br>(vi) Albugo — Ascomycetes",
@@ -4396,7 +4396,7 @@ const allQuestions = [
   },
   {
     id: 294,
-    topic: "Cross-topic: Virus Meaning vs CVF",
+    topic: "Cross-Concept",
     difficulty: "Hard",
     type: "Statement",
     q: "Which of the following correctly differentiates the meaning of 'virus' from '<i>Contagium vivum fluidum</i>'?",
@@ -4426,7 +4426,7 @@ const allQuestions = [
   },
   {
     id: 296,
-    topic: "Kingdom Fungi - Common Examples",
+    topic: "Kingdom Fungi",
     difficulty: "Medium",
     type: "Statement",
     q: "Which of the following is <b>correct</b> as per NCERT?",
@@ -4441,7 +4441,7 @@ const allQuestions = [
   },
   {
     id: 297,
-    topic: "Cross-topic: Comprehensive Disease-Organism-Kingdom",
+    topic: "Cross-Concept",
     difficulty: "Hard",
     type: "Except",
     q: "All of the following disease-organism-kingdom combinations are correct <b>EXCEPT</b>:",
@@ -4456,7 +4456,7 @@ const allQuestions = [
   },
   {
     id: 298,
-    topic: "Cross-topic: Ultimate Chapter Integration",
+    topic: "Cross-Concept",
     difficulty: "Hard",
     type: "HowMany",
     q: "How many of the following statements from Chapter 2 are <b>correct</b>?<br>(i) The character that unified the old Plant kingdom was cell wall<br>(ii) Fungi prefer warm and humid places<br>(iii) Bacteria show the most extensive morphological diversity<br>(iv) Lichens do not grow in polluted areas<br>(v) In general, plant viruses have single stranded RNA<br>(vi) Viroids have low molecular weight RNA with a protein coat",
@@ -4936,7 +4936,7 @@ const allQuestions = [
   },
   {
     id: 330,
-    topic: "Cross-topic: Kingdom Comparison",
+    topic: "Cross-Concept",
     difficulty: "Hard",
     type: "Match",
     q: "Match Column I (Kingdom) with Column II (Mode of Nutrition as per Table 2.1):<br><br><b>Column I</b><br>(P) Monera<br>(Q) Fungi<br>(R) Plantae<br>(S) Animalia<br><br><b>Column II</b><br>(i) Heterotrophic (Holozoic/Saprophytic etc.)<br>(ii) Autotrophic (Photosynthetic)<br>(iii) Autotrophic (Chemosynthetic and Photosynthetic) + Heterotrophic (Saprophytic/Parasitic)<br>(iv) Heterotrophic (Saprophytic/Parasitic)<br><br>Choose the <b>correct</b> match:",
@@ -4951,7 +4951,7 @@ const allQuestions = [
   },
   {
     id: 331,
-    topic: "Cross-topic: Comprehensive Comparison",
+    topic: "Cross-Concept",
     difficulty: "Hard",
     type: "HowMany",
     q: "How many of the following statements are <b>correct</b> as per NCERT?<br>(A) Slime moulds form spores that are covered by hard protective walls<br>(B) The fruiting body of Basidiomycetes bears basidiospores exogenously<br>(C) Ascospores are produced endogenously in sac-like asci<br>(D) In Phycomycetes, sexual reproduction is by zygospore, oospore or ascospore<br>(E) Conidia are produced exogenously in Deuteromycetes",
@@ -4966,7 +4966,7 @@ const allQuestions = [
   },
   {
     id: 332,
-    topic: "Cross-topic: All Kingdoms",
+    topic: "Cross-Concept",
     difficulty: "Hard",
     type: "Statement",
     q: "Which of the following correctly describes the SEXUAL reproduction type in the respective fungal class?",
@@ -4981,7 +4981,7 @@ const allQuestions = [
   },
   {
     id: 333,
-    topic: "Cross-topic: Disease-Kingdom",
+    topic: "Cross-Concept",
     difficulty: "Hard",
     type: "Match",
     q: "Match Column I (Disease/Condition) with Column II (Causative Organism/Kingdom):<br><br><b>Column I</b><br>(P) Sleeping sickness<br>(Q) Malaria<br>(R) Late blight of potato<br>(S) Bread mould<br><br><b>Column II</b><br>(i) Rhizopus — Phycomycetes<br>(ii) Phytophthora — Phycomycetes<br>(iii) Plasmodium — Sporozoans (Protista)<br>(iv) Trypanosoma — Flagellated Protozoans (Protista)<br><br>Choose the <b>correct</b> match:",
@@ -4996,7 +4996,7 @@ const allQuestions = [
   },
   {
     id: 334,
-    topic: "Cross-topic: Comprehensive Chapter 2",
+    topic: "Cross-Concept",
     difficulty: "Hard",
     type: "HowMany",
     q: "How many of the following are <b>correctly</b> stated as per NCERT Chapter 2?<br>(A) Prions are misfolded proteins that are infectious<br>(B) Viroids are found free in host cell without integrating into chromosome<br>(C) Bacteriorhodopsin is produced by halophiles to carry out photosynthesis<br>(D) Lichens grow very slowly — about 1 mm per year<br>(E) The algal component of lichen is called mycobiont",
@@ -5011,7 +5011,7 @@ const allQuestions = [
   },
   {
     id: 335,
-    topic: "Cross-topic: Comprehensive Chapter 2",
+    topic: "Cross-Concept",
     difficulty: "Medium",
     type: "Statement",
     q: "Select the <b>correct</b> statement about Lichens from NCERT:",
@@ -5026,7 +5026,7 @@ const allQuestions = [
   },
   {
     id: 336,
-    topic: "Cross-topic: Reproduction in Kingdoms",
+    topic: "Cross-Concept",
     difficulty: "Hard",
     type: "HowMany",
     q: "How many of the following statements about reproduction in fungi are <b>correct</b> as per NCERT?<br>(A) Vegetative reproduction in fungi occurs by fragmentation, budding and fission<br>(B) Asexual reproduction in fungi occurs by spore formation only<br>(C) In conidia formation, spores are produced exogenously on special mycelium called conidiophores<br>(D) In Ascomycetes, sexual spores are called ascospores produced endogenously in asci<br>(E) Fusion of two gametes during sexual reproduction in fungi is called karyogamy",
@@ -5041,7 +5041,7 @@ const allQuestions = [
   },
   {
     id: 337,
-    topic: "Cross-topic: Comprehensive Revision",
+    topic: "Cross-Concept",
     difficulty: "Hard",
     type: "HowMany",
     q: "How many of the following statements are <b>correct</b> as per NCERT Chapter 2?<br>(A) Bacteria are the sole members of Kingdom Monera<br>(B) Chrysophytes include diatoms and golden algae<br>(C) Euglenoids have protein-rich layer called pellicle instead of cell wall<br>(D) Fungi store food as glycogen like animals<br>(E) Viroids were discovered in 1992 by Ivanowsky",
@@ -5056,7 +5056,7 @@ const allQuestions = [
   },
   {
     id: 338,
-    topic: "Cross-topic: Grand Finale",
+    topic: "Cross-Concept",
     difficulty: "Hard",
     type: "Statement",
     q: "Which combination of statements from NCERT Chapter 2 are ALL <b>correct</b>?<br>I. Whittaker (1969) proposed 5-kingdom classification based on 5 criteria including habitat<br>II. Methanogens in gut of ruminants help produce biogas (methane)<br>III. Cyanobacteria fix nitrogen using heterocysts<br>IV. Dinoflagellates cause red tides due to large amounts of red pigments<br>V. Viroids lack protein coat and consist of free RNA<br>VI. The algal component of lichen is called mycobiont",

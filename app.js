@@ -69,7 +69,18 @@ function startTimer() {
 
 // ── Topic Filter ───────────────────────────────────────
 function buildTopicFilters() {
-    const topics = ["All", ...new Set(allQuestions.map((q) => q.topic))];
+    let topics = ["All", ...new Set(allQuestions.map((q) => q.topic))];
+    
+    // Always put these at the end if they exist
+    if (topics.includes("Summary")) {
+        topics.splice(topics.indexOf("Summary"), 1);
+        topics.push("Summary");
+    }
+    if (topics.includes("Cross-Concept")) {
+        topics.splice(topics.indexOf("Cross-Concept"), 1);
+        topics.push("Cross-Concept");
+    }
+    
     const container = document.getElementById("filterButtons");
     container.innerHTML = "";
     topics.forEach((topic) => {
@@ -209,7 +220,19 @@ function renderCurrentPage() {
     document.getElementById("pageInfo").textContent =
         `Page ${state.currentPage + 1} / ${totalPages}`;
     document.getElementById("prevBtn").disabled = state.currentPage === 0;
-    document.getElementById("nextBtn").disabled = state.currentPage >= totalPages - 1;
+    
+    const nextBtn = document.getElementById("nextBtn");
+    if (state.currentPage >= totalPages - 1) {
+        nextBtn.disabled = false;
+        nextBtn.textContent = "Finish ✓";
+        nextBtn.onclick = () => {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        };
+    } else {
+        nextBtn.disabled = false;
+        nextBtn.textContent = "Next →";
+        nextBtn.onclick = () => navigateQ(1);
+    }
 
     updateDashboard();
     updateNavGrid();
