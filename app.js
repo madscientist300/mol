@@ -8,6 +8,7 @@ const state = {
     questionsPerPage: 10,
     filteredQuestions: [],
     activeTopic: "All",
+    activeHots: false,   // true when HOTs filter is active
     answers: {},         // { questionId: selectedIndex }
     bookmarks: new Set(),
     examMode: false,
@@ -69,7 +70,8 @@ function startTimer() {
 
 // ── Topic Filter ───────────────────────────────────────
 function buildTopicFilters() {
-    let topics = ["All", ...new Set(allQuestions.map((q) => q.topic))];
+    // Exclude HOTs questions from regular topic filters
+    let topics = ["All", ...new Set(allQuestions.filter(q => !q.hots).map((q) => q.topic))];
     
     // Always put these at the end if they exist
     if (topics.includes("Summary")) {
@@ -83,12 +85,15 @@ function buildTopicFilters() {
     
     const container = document.getElementById("filterButtons");
     container.innerHTML = "";
+
+    // Build regular topic buttons
     topics.forEach((topic) => {
         const btn = document.createElement("button");
-        btn.className = "filter-btn" + (topic === state.activeTopic ? " active" : "");
+        btn.className = "filter-btn" + (topic === state.activeTopic && !state.activeHots ? " active" : "");
         btn.textContent = topic;
         btn.onclick = () => {
             state.activeTopic = topic;
+            state.activeHots = false;
             state.reviewWrongOnly = false;
             state.reviewBookmarkedOnly = false;
             state.searchKeyword = "";
@@ -100,6 +105,28 @@ function buildTopicFilters() {
         };
         container.appendChild(btn);
     });
+
+    // HOTs button — always last, only if HOTs questions exist
+    const hasHots = allQuestions.some(q => q.hots);
+    if (hasHots) {
+        const hotsBtn = document.createElement("button");
+        hotsBtn.className = "filter-btn hots-btn" + (state.activeHots ? " active" : "");
+        hotsBtn.textContent = "🔥 HOTs";
+        hotsBtn.id = "hotsFilterBtn";
+        hotsBtn.onclick = () => {
+            state.activeHots = true;
+            state.activeTopic = "All";
+            state.reviewWrongOnly = false;
+            state.reviewBookmarkedOnly = false;
+            state.searchKeyword = "";
+            document.getElementById("searchBox").value = "";
+            state.currentPage = 0;
+            document.querySelectorAll(".filter-btn").forEach((b) => b.classList.remove("active"));
+            hotsBtn.classList.add("active");
+            applyFilter();
+        };
+        container.appendChild(hotsBtn);
+    }
 }
 
 // ── Question Navigator Grid ─────────────────────────────
@@ -157,8 +184,13 @@ function jumpToQuestion(qId) {
 function applyFilter() {
     let questions = allQuestions;
 
-    if (state.activeTopic !== "All") {
-        questions = questions.filter((q) => q.topic === state.activeTopic);
+    if (state.activeHots) {
+        questions = questions.filter((q) => q.hots === true);
+    } else if (state.activeTopic !== "All") {
+        questions = questions.filter((q) => q.topic === state.activeTopic && !q.hots);
+    } else {
+        // "All" shows only non-HOTs questions
+        questions = questions.filter((q) => !q.hots);
     }
     if (state.reviewWrongOnly) {
         questions = questions.filter(
@@ -305,6 +337,13 @@ function renderCard(q, container) {
             ${bookmarkBtn}
         </div>
         <div class="question-text">${q.q}</div>
+        ${q.image ? `
+        <div class="question-image-wrap">
+            <a href="${q.image}" target="_blank" title="Click to enlarge">
+                <img src="${q.image}" alt="Question diagram for Q${q.id}" class="question-img">
+            </a>
+            <div class="question-img-hint">🔍 Click image to enlarge</div>
+        </div>` : ''}
         <div class="options">${optionsHtml}</div>
         ${answerBadge}
         ${showAnswerBtn}
