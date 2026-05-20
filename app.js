@@ -249,8 +249,17 @@ function renderCurrentPage() {
         `Page ${state.currentPage + 1} of ${totalPages} ${total < allQuestions.length ? `(${total} filtered)` : `(${allQuestions.length} total)`}`;
 
     // Page info & buttons
-    document.getElementById("pageInfo").textContent =
-        `Page ${state.currentPage + 1} / ${totalPages}`;
+    const pages = getPageNumbers(state.currentPage, totalPages);
+    let pageHtml = `<div class="page-numbers-container">`;
+    pages.forEach(p => {
+        if (p === '...') {
+            pageHtml += `<span class="page-num-btn dots">...</span>`;
+        } else {
+            pageHtml += `<button class="page-num-btn ${p === state.currentPage ? 'active' : ''}" onclick="jumpToPage(${p})">${p + 1}</button>`;
+        }
+    });
+    pageHtml += `</div>`;
+    document.getElementById("pageInfo").innerHTML = pageHtml;
     document.getElementById("prevBtn").disabled = state.currentPage === 0;
     
     const nextBtn = document.getElementById("nextBtn");
@@ -465,6 +474,39 @@ function toggleBookmark(qId) {
 function navigateQ(dir) {
     const totalPages = Math.ceil(state.filteredQuestions.length / state.questionsPerPage);
     state.currentPage = Math.max(0, Math.min(state.currentPage + dir, totalPages - 1));
+    renderCurrentPage();
+    window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+function getPageNumbers(current, total) {
+    const pages = new Set();
+    pages.add(0);
+    pages.add(total - 1);
+    
+    for (let i = Math.max(0, current - 2); i <= Math.min(total - 1, current + 2); i++) {
+        pages.add(i);
+    }
+    
+    const sortedPages = Array.from(pages).sort((a, b) => a - b);
+    
+    const result = [];
+    let prev = null;
+    for (const p of sortedPages) {
+        if (prev !== null) {
+            if (p - prev === 2) {
+                result.push(prev + 1);
+            } else if (p - prev > 2) {
+                result.push('...');
+            }
+        }
+        result.push(p);
+        prev = p;
+    }
+    return result;
+}
+
+function jumpToPage(pageNum) {
+    state.currentPage = pageNum;
     renderCurrentPage();
     window.scrollTo({ top: 0, behavior: "smooth" });
 }

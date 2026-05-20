@@ -150,8 +150,8 @@ const CHAPTERS = [
         emoji: "🧪",
         name: "Principles of Inheritance and Variation",
         file: "questions_inheritance_variation.js",
-        questionCount: 400,
-        topics: ["Mendel's Laws", "Dominance", "Blood Groups", "Linkage", "Mutations"],
+        questionCount: 642,
+        topics: ["Mendel's Laws", "Dominance", "Blood Groups", "Linkage", "Mutations", "HOTs"],
         status: "available"
     },
     {
