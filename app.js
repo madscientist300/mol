@@ -1,3 +1,35 @@
+// --- PIN Protection Logic ---
+window.checkPin = function() {
+    const pinInput = document.getElementById('pin-input');
+    const errorMsg = document.getElementById('pin-error');
+    if (!pinInput) return;
+    
+    if (pinInput.value === '76426') {
+        sessionStorage.setItem('app_unlocked', 'true');
+        document.getElementById('pin-lock-overlay').style.display = 'none';
+        if (errorMsg) errorMsg.style.display = 'none';
+    } else {
+        if (errorMsg) errorMsg.style.display = 'block';
+        pinInput.value = '';
+    }
+};
+
+document.addEventListener("DOMContentLoaded", () => {
+    const pinOverlay = document.getElementById('pin-lock-overlay');
+    const pinInput = document.getElementById('pin-input');
+    if (pinOverlay && pinInput) {
+        if (sessionStorage.getItem('app_unlocked') === 'true') {
+            pinOverlay.style.display = 'none';
+        } else {
+            pinOverlay.style.display = 'flex';
+            pinInput.addEventListener('keypress', (e) => {
+                if (e.key === 'Enter') checkPin();
+            });
+        }
+    }
+});
+// ----------------------------
+
 const iconMap = {
     "Anatomy of Flowering Plants": "Anatomy of flowering plants.png",
     "Biological Classification": "Biological Classification.png",
