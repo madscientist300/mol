@@ -1,642 +1,634 @@
-// =========================================================
-//  NEET Quiz App – Full Feature Implementation
-// =========================================================
-
-// ── State ──────────────────────────────────────────────
-const state = {
-    currentPage: 0,
-    questionsPerPage: 10,
-    filteredQuestions: [],
-    activeTopic: "All",
-    activeHots: false,   // true when HOTs filter is active
-    answers: {},         // { questionId: selectedIndex }
-    bookmarks: new Set(),
-    examMode: false,
-    showExplanations: true,
-    timerInterval: null,
-    elapsedSeconds: 0,
-    reviewWrongOnly: false,
-    reviewBookmarkedOnly: false,
-    searchKeyword: "",
+const iconMap = {
+    "Anatomy of Flowering Plants": "Anatomy of flowering plants.png",
+    "Biological Classification": "Biological Classification.png",
+    "Cell Cycle and Cell Division": "Cell cycle cell division.png",
+    "Cell: The Unit of Life": "Cell The unit of life.png",
+    "Molecular Basis of Inheritance": "Molecular basis of Inheritance.png",
+    "Morphology of Flowering Plants": "Morphology of flowering plants.png",
+    "Photosynthesis in Higher Plants": "Photosynthesis.png",
+    "Plant Growth and Development": "Plant Growth and Development.png",
+    "Plant Kingdom": "Plant kingdom.png",
+    "Respiration in Plants": "Respiration in plants.png",
+    "The Living World": "The living world.png",
+    "Sexual Reproduction in Flowering Plants": "Sexual Reproduction in flowering plants.png",
+    "Principles of Inheritance and Variation": "Principles of Inheritance and Variation.png",
+    "Microbes in Human Welfare": "Microbes in Human Welfare.png",
+    "Organisms and Populations": "Organisms and Populations.png",
+    "Ecosystem": "Ecosystem.png",
+    "Biodiversity and Conservation": "Biodiversity and Conservation.png"
 };
 
-// ── Init ───────────────────────────────────────────────
-// app.js is loaded dynamically after DOM is ready, so we call init directly.
-(function initApp() {
-    if (typeof allQuestions === 'undefined' || !allQuestions || !allQuestions.length) {
-        document.getElementById("questionsContainer").innerHTML =
-            "<p style='color:#ff5252;text-align:center;padding:40px'>Failed to load questions.</p>";
-        return;
-    }
-
-    // Update header from chapter registry if available
-    const ch = window.currentChapter;
-    if (ch) {
-        document.getElementById("chapterTitle").textContent   = ch.emoji + " " + ch.name;
-        document.getElementById("chapterMeta").textContent    =
-            ch.class + " Biology | " + allQuestions.length + " Questions";
-        document.title = ch.name + " — NEET MCQ Quiz";
-    }
-
-    // Update total count
-    document.getElementById("totalQ").innerText = allQuestions.length;
-
-    buildTopicFilters();
-    buildNavGrid();
-    applyFilter();
-    startTimer();
-
-    // Mode toggles
-    document.getElementById("examMode").addEventListener("change", function () {
-        state.examMode = this.checked;
-        renderCurrentPage();
-    });
-    document.getElementById("autoExplain").addEventListener("change", function () {
-        state.showExplanations = this.checked;
-        renderCurrentPage();
-    });
-})();
-
-// ── Timer ──────────────────────────────────────────────
-function startTimer() {
-    state.timerInterval = setInterval(() => {
-        state.elapsedSeconds++;
-        const h = String(Math.floor(state.elapsedSeconds / 3600)).padStart(2, "0");
-        const m = String(Math.floor((state.elapsedSeconds % 3600) / 60)).padStart(2, "0");
-        const s = String(state.elapsedSeconds % 60).padStart(2, "0");
-        document.getElementById("timerDisplay").innerText = `${h}:${m}:${s}`;
-    }, 1000);
-}
-
-// ── Topic Filter ───────────────────────────────────────
-function buildTopicFilters() {
-    // Exclude HOTs questions from regular topic filters
-    let topics = ["All", ...new Set(allQuestions.filter(q => !q.hots).map((q) => q.topic))];
+document.addEventListener('DOMContentLoaded', () => {
+    initCommonUI();
     
-    // Always put these at the end if they exist
-    if (topics.includes("Summary")) {
-        topics.splice(topics.indexOf("Summary"), 1);
-        topics.push("Summary");
+    if (document.getElementById('chapter-grid-11th') || document.getElementById('chapter-grid-12th') || document.getElementById('chapter-grid-container')) {
+        initDashboard();
+    } else if (document.getElementById('quiz-container')) {
+        initQuiz();
     }
-    if (topics.includes("Cross-Concept")) {
-        topics.splice(topics.indexOf("Cross-Concept"), 1);
-        topics.push("Cross-Concept");
-    }
+});
+
+function initCommonUI() {
+    // 1. Mouse Follow Glow
+    const glow = document.createElement('div');
+    glow.classList.add('cursor-glow');
+    document.body.appendChild(glow);
+
+    document.addEventListener('mousemove', (e) => {
+        glow.style.left = e.clientX + 'px';
+        glow.style.top = e.clientY + 'px';
+    });
+
+    // 2. Ambient Particles
+    const particlesContainer = document.createElement('div');
+    particlesContainer.classList.add('particles');
+    document.body.appendChild(particlesContainer);
+
+    const createParticle = () => {
+        const particle = document.createElement('div');
+        particle.classList.add('particle');
+        const size = Math.random() * 4 + 2;
+        const x = Math.random() * window.innerWidth;
+        const duration = Math.random() * 10 + 10;
+        const delay = Math.random() * 5;
+        particle.style.width = size + 'px';
+        particle.style.height = size + 'px';
+        particle.style.left = x + 'px';
+        particle.style.bottom = '-10px';
+        particle.style.animationDuration = duration + 's';
+        particle.style.animationDelay = delay + 's';
+        particlesContainer.appendChild(particle);
+        setTimeout(() => { particle.remove(); }, (duration + delay) * 1000);
+    };
+    setInterval(createParticle, 500);
+
+    // Sidebar Toggle Logic
+    const sidebarToggle = document.getElementById("sidebar-toggle");
+    const sidebar = document.querySelector(".sidebar");
     
-    const container = document.getElementById("filterButtons");
-    container.innerHTML = "";
-
-    // Build regular topic buttons
-    topics.forEach((topic) => {
-        const btn = document.createElement("button");
-        btn.className = "filter-btn" + (topic === state.activeTopic && !state.activeHots ? " active" : "");
-        btn.textContent = topic;
-        btn.onclick = () => {
-            state.activeTopic = topic;
-            state.activeHots = false;
-            state.reviewWrongOnly = false;
-            state.reviewBookmarkedOnly = false;
-            state.searchKeyword = "";
-            document.getElementById("searchBox").value = "";
-            state.currentPage = 0;
-            document.querySelectorAll(".filter-btn").forEach((b) => b.classList.remove("active"));
-            btn.classList.add("active");
-            applyFilter();
-        };
-        container.appendChild(btn);
-    });
-
-    // HOTs button — always last, only if HOTs questions exist
-    const hasHots = allQuestions.some(q => q.hots);
-    if (hasHots) {
-        const hotsBtn = document.createElement("button");
-        hotsBtn.className = "filter-btn hots-btn" + (state.activeHots ? " active" : "");
-        hotsBtn.textContent = "🔥 HOTs";
-        hotsBtn.id = "hotsFilterBtn";
-        hotsBtn.onclick = () => {
-            state.activeHots = true;
-            state.activeTopic = "All";
-            state.reviewWrongOnly = false;
-            state.reviewBookmarkedOnly = false;
-            state.searchKeyword = "";
-            document.getElementById("searchBox").value = "";
-            state.currentPage = 0;
-            document.querySelectorAll(".filter-btn").forEach((b) => b.classList.remove("active"));
-            hotsBtn.classList.add("active");
-            applyFilter();
-        };
-        container.appendChild(hotsBtn);
-    }
-}
-
-// ── Question Navigator Grid ─────────────────────────────
-function buildNavGrid() {
-    const grid = document.getElementById("qNavGrid");
-    grid.innerHTML = "";
-    allQuestions.forEach((q, i) => {
-        const btn = document.createElement("button");
-        btn.className = "q-nav-btn";
-        btn.id = `navBtn-${q.id}`;
-        btn.textContent = q.id;
-        btn.title = q.topic;
-        btn.onclick = () => jumpToQuestion(q.id);
-        grid.appendChild(btn);
-    });
-    updateNavGrid();
-}
-
-function updateNavGrid() {
-    allQuestions.forEach((q) => {
-        const btn = document.getElementById(`navBtn-${q.id}`);
-        if (!btn) return;
-        btn.className = "q-nav-btn";
-        if (q.id in state.answers) {
-            const correct = state.answers[q.id] === q.correct;
-            btn.classList.add(correct ? "correct-nav" : "wrong-nav");
+    if (sidebarToggle && sidebar) {
+        let overlay = document.querySelector(".sidebar-overlay");
+        if (!overlay) {
+            overlay = document.createElement("div");
+            overlay.className = "sidebar-overlay";
+            document.body.appendChild(overlay);
         }
-        if (state.bookmarks.has(q.id)) btn.classList.add("bookmarked-nav");
-    });
-}
 
-function jumpToQuestion(qId) {
-    // Find which page this question is on in the current filteredQuestions
-    const idx = state.filteredQuestions.findIndex((q) => q.id === qId);
-    if (idx === -1) {
-        // Switch to All Topics first
-        state.activeTopic = "All";
-        state.reviewWrongOnly = false;
-        state.reviewBookmarkedOnly = false;
-        applyFilter();
-        const idx2 = state.filteredQuestions.findIndex((q) => q.id === qId);
-        if (idx2 === -1) return;
-        state.currentPage = Math.floor(idx2 / state.questionsPerPage);
-    } else {
-        state.currentPage = Math.floor(idx / state.questionsPerPage);
-    }
-    renderCurrentPage();
-    // Close navigator
-    document.getElementById("qNavigator").classList.remove("show");
-    // Scroll to top
-    window.scrollTo({ top: 0, behavior: "smooth" });
-}
-
-// ── Filter / Search ─────────────────────────────────────
-function applyFilter() {
-    let questions = allQuestions;
-
-    if (state.activeHots) {
-        questions = questions.filter((q) => q.hots === true);
-    } else if (state.activeTopic !== "All") {
-        questions = questions.filter((q) => q.topic === state.activeTopic && !q.hots);
-    } else {
-        // "All" shows only non-HOTs questions
-        questions = questions.filter((q) => !q.hots);
-    }
-    if (state.reviewWrongOnly) {
-        questions = questions.filter(
-            (q) => q.id in state.answers && state.answers[q.id] !== q.correct
-        );
-    }
-    if (state.reviewBookmarkedOnly) {
-        questions = questions.filter((q) => state.bookmarks.has(q.id));
-    }
-    if (state.searchKeyword) {
-        const kw = state.searchKeyword.toLowerCase();
-        questions = questions.filter(
-            (q) =>
-                q.q.toLowerCase().includes(kw) ||
-                q.topic.toLowerCase().includes(kw) ||
-                q.options.some((o) => o.toLowerCase().includes(kw))
-        );
-    }
-
-    state.filteredQuestions = questions;
-    state.currentPage = 0;
-    renderCurrentPage();
-}
-
-function searchQuestions() {
-    state.searchKeyword = document.getElementById("searchBox").value.trim();
-    state.currentPage = 0;
-    applyFilter();
-}
-
-// ── Render ──────────────────────────────────────────────
-function renderCurrentPage() {
-    const container = document.getElementById("questionsContainer");
-    container.innerHTML = "";
-
-    const total = state.filteredQuestions.length;
-    const totalPages = Math.max(1, Math.ceil(total / state.questionsPerPage));
-    state.currentPage = Math.min(state.currentPage, totalPages - 1);
-
-    const start = state.currentPage * state.questionsPerPage;
-    const end = Math.min(start + state.questionsPerPage, total);
-    const pageQuestions = state.filteredQuestions.slice(start, end);
-
-    if (total === 0) {
-        container.innerHTML =
-            "<p style='color:#888;text-align:center;padding:40px'>No questions match the current filter.</p>";
-    } else {
-        pageQuestions.forEach((q) => renderCard(q, container));
-    }
-
-    // Progress bar
-    const answered = Object.keys(state.answers).length;
-    const pct = allQuestions.length ? (answered / allQuestions.length) * 100 : 0;
-    document.getElementById("progressBar").style.width = pct + "%";
-    document.getElementById("progressText").textContent =
-        `Page ${state.currentPage + 1} of ${totalPages} ${total < allQuestions.length ? `(${total} filtered)` : `(${allQuestions.length} total)`}`;
-
-    // Page info & buttons
-    const pages = getPageNumbers(state.currentPage, totalPages);
-    let pageHtml = `<div class="page-numbers-container">`;
-    pages.forEach(p => {
-        if (p === '...') {
-            pageHtml += `<span class="page-num-btn dots">...</span>`;
-        } else {
-            pageHtml += `<button class="page-num-btn ${p === state.currentPage ? 'active' : ''}" onclick="jumpToPage(${p})">${p + 1}</button>`;
-        }
-    });
-    pageHtml += `</div>`;
-    document.getElementById("pageInfo").innerHTML = pageHtml;
-    document.getElementById("prevBtn").disabled = state.currentPage === 0;
-    
-    const nextBtn = document.getElementById("nextBtn");
-    if (state.currentPage >= totalPages - 1) {
-        nextBtn.disabled = false;
-        nextBtn.textContent = "Finish ✓";
-        nextBtn.onclick = () => {
-            window.scrollTo({ top: 0, behavior: "smooth" });
-        };
-    } else {
-        nextBtn.disabled = false;
-        nextBtn.textContent = "Next →";
-        nextBtn.onclick = () => navigateQ(1);
-    }
-
-    updateDashboard();
-    updateNavGrid();
-
-    // Scroll to top of questions
-    container.scrollIntoView({ behavior: "smooth", block: "start" });
-}
-
-function renderCard(q, container) {
-    const isAnswered = q.id in state.answers;
-    const selectedIdx = state.answers[q.id];
-    const isCorrect = isAnswered && selectedIdx === q.correct;
-
-    const card = document.createElement("div");
-    card.className = "question-card";
-    card.id = `card-${q.id}`;
-    if (isAnswered) card.classList.add(isCorrect ? "answered-correct" : "answered-wrong");
-
-
-    // Options HTML
-    let optionsHtml = "";
-    q.options.forEach((opt, i) => {
-        let cls = "option";
-        if (isAnswered) {
-            cls += " disabled";
-            if (i === q.correct) cls += " correct";
-            else if (i === selectedIdx && !isCorrect) cls += " wrong";
-        }
-        const clickAttr = isAnswered ? "" : `onclick="selectAnswer(${q.id}, ${i})"`;
-        optionsHtml += `
-            <div class="${cls}" ${clickAttr} id="opt-${q.id}-${i}">
-                <span class="option-letter">${String.fromCharCode(65 + i)}</span>
-                <span>${opt}</span>
-            </div>`;
-    });
-
-    // Correct answer badge (shown after answering)
-    const answerBadge = isAnswered
-        ? `<div style="margin:12px 0 8px;font-size:13px;color:${isCorrect ? "#00e676" : "#ff5252"}">
-                ${isCorrect ? "✅ Correct!" : `❌ Wrong — Correct answer: <strong>${String.fromCharCode(65 + q.correct)}. ${q.options[q.correct]}</strong>`}
-           </div>`
-        : "";
-
-    // Show Answer button (only for unanswered questions in practice mode)
-    const showAnswerBtn = (!isAnswered && !state.examMode)
-        ? `<button class="show-answer-btn" onclick="revealAnswer(${q.id})">👁 Show Answer</button>`
-        : "";
-
-    // Explanation
-    const showExp = isAnswered && (state.showExplanations || !state.examMode);
-    const explHtml = `
-        <div class="explanation ${showExp ? "show" : ""}" id="exp-${q.id}">
-            <h4>💡 Explanation</h4>
-            <p>${q.explanation}</p>
-        </div>`;
-
-    // Bookmark button
-    const isBookmarked = state.bookmarks.has(q.id);
-    const bookmarkBtn = `<button class="bookmark-btn ${isBookmarked ? "bookmarked" : ""}"
-        onclick="toggleBookmark(${q.id})" id="bm-${q.id}" title="Bookmark">
-        ${isBookmarked ? "⭐" : "☆"}
-    </button>`;
-
-    card.innerHTML = `
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px">
-            <div>
-                <span class="question-number">Q${q.id}</span>
-                <span class="topic-tag">${q.topic}</span>
-            </div>
-            ${bookmarkBtn}
-        </div>
-        <div class="question-text">${q.q}</div>
-        ${q.image ? `
-        <div class="question-image-wrap">
-            <a href="${q.image}" target="_blank" title="Click to enlarge">
-                <img src="${q.image}" alt="Question diagram for Q${q.id}" class="question-img">
-            </a>
-            <div class="question-img-hint">🔍 Click image to enlarge</div>
-        </div>` : ''}
-        <div class="options">${optionsHtml}</div>
-        ${answerBadge}
-        ${showAnswerBtn}
-        ${explHtml}
-    `;
-
-    container.appendChild(card);
-}
-
-// ── Reveal Answer (without penalizing) ─────────────────
-function revealAnswer(qId) {
-    const q = allQuestions.find((x) => x.id === qId);
-    if (!q) return;
-
-    // Highlight correct option only, don't record as answered
-    q.options.forEach((_, i) => {
-        const optEl = document.getElementById(`opt-${qId}-${i}`);
-        if (!optEl) return;
-        optEl.classList.add("disabled");
-        optEl.onclick = null;
-        if (i === q.correct) optEl.classList.add("correct");
-    });
-
-    // Show explanation
-    const exp = document.getElementById(`exp-${qId}`);
-    if (exp) exp.classList.add("show");
-
-    // Remove the show answer button
-    const btn = document.querySelector(`#card-${qId} .show-answer-btn`);
-    if (btn) btn.remove();
-
-    // Add badge showing this was revealed
-    const badge = document.createElement("div");
-    badge.style.cssText = "margin:12px 0 8px;font-size:13px;color:#ffab40";
-    badge.innerHTML = `👁 Answer revealed: <strong>${String.fromCharCode(65 + q.correct)}. ${q.options[q.correct]}</strong>`;
-    const optionsDiv = document.querySelector(`#card-${qId} .options`);
-    if (optionsDiv) optionsDiv.insertAdjacentElement("afterend", badge);
-}
-
-// ── Answer Selection ────────────────────────────────────
-function selectAnswer(qId, selectedIdx) {
-    if (qId in state.answers) return; // already answered
-
-    const q = allQuestions.find((x) => x.id === qId);
-    if (!q) return;
-
-    state.answers[qId] = selectedIdx;
-    updateDashboard();
-    updateNavGrid();
-
-    const card = document.getElementById(`card-${qId}`);
-    if (!card) return;
-
-    const isCorrect = selectedIdx === q.correct;
-    card.classList.add(isCorrect ? "answered-correct" : "answered-wrong");
-
-    // Disable all options & highlight
-    q.options.forEach((_, i) => {
-        const optEl = document.getElementById(`opt-${qId}-${i}`);
-        if (!optEl) return;
-        optEl.classList.add("disabled");
-        optEl.onclick = null;
-        if (i === q.correct) optEl.classList.add("correct");
-        else if (i === selectedIdx) optEl.classList.add("wrong");
-    });
-
-    // Show answer badge
-    const badge = document.createElement("div");
-    badge.style.cssText = "margin:12px 0 8px;font-size:13px;color:" + (isCorrect ? "#00e676" : "#ff5252");
-    badge.innerHTML = isCorrect
-        ? "✅ Correct!"
-        : `❌ Wrong — Correct answer: <strong>${String.fromCharCode(65 + q.correct)}. ${q.options[q.correct]}</strong>`;
-
-    const optionsDiv = card.querySelector(".options");
-    optionsDiv.insertAdjacentElement("afterend", badge);
-
-    // Show explanation
-    if (state.showExplanations) {
-        const exp = document.getElementById(`exp-${qId}`);
-        if (exp) exp.classList.add("show");
-    }
-}
-
-// ── Dashboard ──────────────────────────────────────────
-function updateDashboard() {
-    const answered = Object.keys(state.answers).length;
-    const correct = Object.entries(state.answers).filter(
-        ([id, sel]) => allQuestions.find((q) => q.id == id)?.correct === sel
-    ).length;
-    const wrong = answered - correct;
-    const acc = answered > 0 ? Math.round((correct / answered) * 100) : 0;
-
-    document.getElementById("attempted").innerText = answered;
-    document.getElementById("correctCount").innerText = correct;
-    document.getElementById("wrongCount").innerText = wrong;
-    document.getElementById("accuracy").innerText = acc + "%";
-
-    // Progress bar (overall)
-    const pct = allQuestions.length ? (answered / allQuestions.length) * 100 : 0;
-    document.getElementById("progressBar").style.width = pct + "%";
-}
-
-// ── Bookmark ───────────────────────────────────────────
-function toggleBookmark(qId) {
-    if (state.bookmarks.has(qId)) {
-        state.bookmarks.delete(qId);
-    } else {
-        state.bookmarks.add(qId);
-    }
-    const btn = document.getElementById(`bm-${qId}`);
-    if (btn) {
-        btn.classList.toggle("bookmarked", state.bookmarks.has(qId));
-        btn.textContent = state.bookmarks.has(qId) ? "⭐" : "☆";
-    }
-    updateNavGrid();
-}
-
-// ── Navigation ─────────────────────────────────────────
-function navigateQ(dir) {
-    const totalPages = Math.ceil(state.filteredQuestions.length / state.questionsPerPage);
-    state.currentPage = Math.max(0, Math.min(state.currentPage + dir, totalPages - 1));
-    renderCurrentPage();
-    window.scrollTo({ top: 0, behavior: "smooth" });
-}
-
-function getPageNumbers(current, total) {
-    const pages = new Set();
-    pages.add(0);
-    pages.add(total - 1);
-    
-    for (let i = Math.max(0, current - 2); i <= Math.min(total - 1, current + 2); i++) {
-        pages.add(i);
-    }
-    
-    const sortedPages = Array.from(pages).sort((a, b) => a - b);
-    
-    const result = [];
-    let prev = null;
-    for (const p of sortedPages) {
-        if (prev !== null) {
-            if (p - prev === 2) {
-                result.push(prev + 1);
-            } else if (p - prev > 2) {
-                result.push('...');
+        sidebarToggle.addEventListener("click", () => {
+            if (window.innerWidth <= 992) {
+                sidebar.classList.toggle("open");
+                overlay.classList.toggle("show");
+            } else {
+                sidebar.classList.toggle("hidden");
             }
-        }
-        result.push(p);
-        prev = p;
-    }
-    return result;
-}
+        });
 
-function jumpToPage(pageNum) {
-    state.currentPage = pageNum;
-    renderCurrentPage();
-    window.scrollTo({ top: 0, behavior: "smooth" });
-}
+        overlay.addEventListener("click", () => {
+            sidebar.classList.remove("open");
+            overlay.classList.remove("show");
+        });
 
-function toggleNavigator() {
-    document.getElementById("qNavigator").classList.toggle("show");
-}
-
-// ── Bookmarked / Wrong Review ──────────────────────────
-function showBookmarked() {
-    if (state.bookmarks.size === 0) {
-        alert("No bookmarks yet! Click the ☆ on any question to bookmark it.");
-        return;
-    }
-    state.reviewBookmarkedOnly = true;
-    state.reviewWrongOnly = false;
-    state.activeTopic = "All";
-    state.currentPage = 0;
-    document.querySelectorAll(".filter-btn").forEach((b) => b.classList.remove("active"));
-    applyFilter();
-}
-
-function showWrongOnly() {
-    const wrongIds = Object.entries(state.answers)
-        .filter(([id, sel]) => allQuestions.find((q) => q.id == id)?.correct !== sel);
-    if (wrongIds.length === 0) {
-        alert("No wrong answers yet! Answer some questions first.");
-        return;
-    }
-    state.reviewWrongOnly = true;
-    state.reviewBookmarkedOnly = false;
-    state.activeTopic = "All";
-    state.currentPage = 0;
-    document.querySelectorAll(".filter-btn").forEach((b) => b.classList.remove("active"));
-    applyFilter();
-}
-
-// ── Results Modal ──────────────────────────────────────
-function showResults() {
-    const answered = Object.keys(state.answers).length;
-    const correct = Object.entries(state.answers).filter(
-        ([id, sel]) => allQuestions.find((q) => q.id == id)?.correct === sel
-    ).length;
-    const wrong = answered - correct;
-    const acc = answered > 0 ? Math.round((correct / answered) * 100) : 0;
-
-    // Score colour
-    const circle = document.getElementById("scoreCircle");
-    if (acc >= 70) { circle.style.borderColor = "#00e676"; circle.style.color = "#00e676"; }
-    else if (acc >= 40) { circle.style.borderColor = "#ffab40"; circle.style.color = "#ffab40"; }
-    else { circle.style.borderColor = "#ff5252"; circle.style.color = "#ff5252"; }
-
-    document.getElementById("scorePercent").textContent = acc + "%";
-
-    // Topic breakdown
-    const topicStats = {};
-    Object.entries(state.answers).forEach(([id, sel]) => {
-        const q = allQuestions.find((x) => x.id == id);
-        if (!q) return;
-        if (!topicStats[q.topic]) topicStats[q.topic] = { correct: 0, total: 0 };
-        topicStats[q.topic].total++;
-        if (sel === q.correct) topicStats[q.topic].correct++;
-    });
-
-    const h = String(Math.floor(state.elapsedSeconds / 3600)).padStart(2, "0");
-    const m = String(Math.floor((state.elapsedSeconds % 3600) / 60)).padStart(2, "0");
-    const s = String(state.elapsedSeconds % 60).padStart(2, "0");
-
-    let detailsHtml = `
-        <div class="result-row"><span class="label">Total Questions</span><span class="value">${allQuestions.length}</span></div>
-        <div class="result-row"><span class="label">Attempted</span><span class="value">${answered}</span></div>
-        <div class="result-row"><span class="label" style="color:#00e676">✓ Correct</span><span class="value" style="color:#00e676">${correct}</span></div>
-        <div class="result-row"><span class="label" style="color:#ff5252">✗ Wrong</span><span class="value" style="color:#ff5252">${wrong}</span></div>
-        <div class="result-row"><span class="label">Not Attempted</span><span class="value">${allQuestions.length - answered}</span></div>
-        <div class="result-row"><span class="label">Time Taken</span><span class="value">${h}:${m}:${s}</span></div>`;
-
-    if (Object.keys(topicStats).length) {
-        detailsHtml += `<div style="margin-top:16px;font-weight:600;color:#00d4ff;font-size:13px">📊 Topic Breakdown</div>`;
-        Object.entries(topicStats).forEach(([topic, stat]) => {
-            const tAcc = Math.round((stat.correct / stat.total) * 100);
-            detailsHtml += `
-                <div class="result-row">
-                    <span class="label" style="font-size:12px">${topic}</span>
-                    <span class="value" style="font-size:12px;color:${tAcc >= 70 ? "#00e676" : tAcc >= 40 ? "#ffab40" : "#ff5252"}">${stat.correct}/${stat.total} (${tAcc}%)</span>
-                </div>`;
+        window.addEventListener("resize", () => {
+            if (window.innerWidth > 992) {
+                sidebar.classList.remove("open");
+                overlay.classList.remove("show");
+            } else {
+                sidebar.classList.remove("hidden");
+            }
         });
     }
 
-    document.getElementById("resultDetails").innerHTML = detailsHtml;
-    document.getElementById("resultsModal").style.display = "flex";
-    document.getElementById("resultsModal").classList.add("show");
-}
-
-function closeModal() {
-    document.getElementById("resultsModal").classList.remove("show");
-    document.getElementById("resultsModal").style.display = "none";
-}
-
-function resetQuiz() {
-    if (!confirm("Reset all answers and start over?")) return;
-    location.reload();
-}
-
-// ── Download Report ─────────────────────────────────────
-function downloadResults() {
-    const answered = Object.keys(state.answers).length;
-    const correct = Object.entries(state.answers).filter(
-        ([id, sel]) => allQuestions.find((q) => q.id == id)?.correct === sel
-    ).length;
-    const acc = answered > 0 ? Math.round((correct / answered) * 100) : 0;
-
-    const chName = (window.currentChapter && window.currentChapter.name) || "NEET Biology";
-    let txt = `NEET Quiz Report – ${chName}\n`;
-    txt += `Date: ${new Date().toLocaleString()}\n`;
-    txt += `Accuracy: ${acc}% | Correct: ${correct} | Wrong: ${answered - correct} | Attempted: ${answered}/${allQuestions.length}\n\n`;
-
-    Object.entries(state.answers).forEach(([id, sel]) => {
-        const q = allQuestions.find((x) => x.id == id);
-        if (!q) return;
-        const status = sel === q.correct ? "CORRECT" : "WRONG";
-        txt += `Q${q.id} [${q.topic}] [${status}]\n`;
-        txt += `${q.q.replace(/<[^>]*>/g, "")}\n`;
-        txt += `Your Answer: ${String.fromCharCode(65 + sel)}. ${q.options[sel]}\n`;
-        if (sel !== q.correct) txt += `Correct Answer: ${String.fromCharCode(65 + q.correct)}. ${q.options[q.correct]}\n`;
-        txt += `Explanation: ${q.explanation}\n\n`;
+    const navItems = document.querySelectorAll('.nav-item');
+    navItems.forEach(item => {
+        item.addEventListener('click', () => {
+            navItems.forEach(nav => nav.classList.remove('active'));
+            item.classList.add('active');
+        });
     });
+}
 
-    const blob = new Blob([txt], { type: "text/plain" });
-    const a = document.createElement("a");
-    a.href = URL.createObjectURL(blob);
-    a.download = "neet_quiz_report.txt";
-    a.click();
+let selectedChapterForQuiz = null;
+let selectedTopicsForQuiz = [];
+
+function initDashboard() {
+    const grid11 = document.getElementById('chapter-grid-11th');
+    const grid12 = document.getElementById('chapter-grid-12th');
+    const oldGrid = document.getElementById('chapter-grid-container'); // Fallback
+    
+    const topicModal = document.getElementById('topic-modal');
+    const closeTopicModalBtn = document.getElementById('close-topic-modal-btn');
+    const topicListContainer = document.getElementById('topic-list-container');
+    const startQuizBtn = document.getElementById('start-quiz-btn');
+    const modalTitle = document.getElementById('topic-modal-title');
+    
+    if (typeof CHAPTERS === 'undefined') return;
+    
+    const totalChaptersElem = document.getElementById('stat-total-chapters');
+    const totalMcqsElem = document.getElementById('stat-total-mcqs');
+    
+    if (totalChaptersElem || totalMcqsElem) {
+        const availableChapters = CHAPTERS.filter(c => c.status === 'available');
+        if (totalChaptersElem) totalChaptersElem.textContent = availableChapters.length;
+        if (totalMcqsElem) {
+            const totalMcqs = availableChapters.reduce((sum, c) => sum + (c.questionCount || 0), 0);
+            totalMcqsElem.textContent = totalMcqs.toLocaleString();
+        }
+    }
+    
+    if (grid11) grid11.innerHTML = '';
+    if (grid12) grid12.innerHTML = '';
+    if (oldGrid) oldGrid.innerHTML = '';
+    
+    CHAPTERS.forEach(chapter => {
+        if (chapter.status !== 'available') return;
+        
+        const card = document.createElement('div');
+        card.className = 'chapter-card glass';
+        
+        // Random progress for demo purposes
+        const progress = Math.floor(Math.random() * 60) + 20; 
+        const dashoffset = 100 - progress;
+        
+        const iconFilename = iconMap[chapter.name] || (chapter.name + ".png");
+        
+        card.innerHTML = `
+          <div class="chapter-header">
+            <img src="images/icons/${iconFilename}" alt="${chapter.name}" class="chapter-icon" onerror="this.src='https://cdn-icons-png.flaticon.com/512/2921/2921935.png'; this.style.filter='invert(1) drop-shadow(0 0 10px #00D4FF)'">
+            <div class="chapter-number-badge ${chapter.class === '11th' ? 'badge-cyan' : 'badge-purple'}">Ch ${chapter.chNumber || '-'}</div>
+          </div>
+          <h3 class="chapter-title">${chapter.name}</h3>
+          <div class="chapter-meta">
+            <span><i class="fa-solid fa-layer-group"></i> ${chapter.questionCount || 0} MCQs</span>
+          </div>
+          <div class="topic-pills">
+            ${chapter.topics.slice(0, 2).map(t => `<span class="pill">${t}</span>`).join('')}
+            ${chapter.topics.length > 2 ? `<span class="pill">+${chapter.topics.length - 2}</span>` : ''}
+          </div>
+        `;
+        
+        card.addEventListener('click', () => {
+            selectedChapterForQuiz = chapter;
+            modalTitle.textContent = chapter.name + " (Loading...)";
+            topicListContainer.innerHTML = '<div style="text-align:center; padding: 20px;">Loading question data...</div>';
+            topicModal.classList.add('show');
+            
+            // Function to update the Start Practice button text
+            const updateStartBtnText = (count) => {
+                startQuizBtn.innerHTML = `Start Practice (${count} MCQs)`;
+            };
+            startQuizBtn.innerHTML = `Start Practice (0 MCQs)`;
+            
+            // Load the script
+            const script = document.createElement('script');
+            script.src = chapter.file;
+            script.onload = () => {
+                if (typeof allQuestions === 'undefined') {
+                    topicListContainer.innerHTML = '<div style="text-align:center; color: var(--error-red);">Error loading data.</div>';
+                    return;
+                }
+                
+                modalTitle.textContent = chapter.name;
+                topicListContainer.innerHTML = '';
+                
+                // Sort chapter.topics so "Summary" is at the end
+                const sortedTopics = [...chapter.topics].sort((a, b) => {
+                    if (a.toLowerCase().includes('summary')) return 1;
+                    if (b.toLowerCase().includes('summary')) return -1;
+                    return 0;
+                });
+
+                const getMatchingQuestions = (selectedTopics) => {
+                    if (selectedTopics.length === 0) return [];
+                    return allQuestions.filter(q => {
+                        return selectedTopics.some(t => {
+                            if (t === 'HOTs' && q.hots) return true;
+                            return q.topic === t || q.topic.startsWith(t);
+                        });
+                    });
+                };
+
+                const topicCounts = {};
+                sortedTopics.forEach(t => {
+                    topicCounts[t] = getMatchingQuestions([t]).length;
+                });
+                
+                const allSelectedQs = getMatchingQuestions(sortedTopics);
+
+                // Select All
+                const selectAllDiv = document.createElement('label');
+                selectAllDiv.className = 'topic-item';
+                selectAllDiv.innerHTML = `<input type="checkbox" id="select-all-topics" checked> <span>All Topics <span style="color: var(--text-secondary); font-size: 12px;">(${allSelectedQs.length})</span></span>`;
+                topicListContainer.appendChild(selectAllDiv);
+                
+                const selectAllCheckbox = selectAllDiv.querySelector('input');
+                const topicCheckboxes = [];
+                let currentSelectedCount = allSelectedQs.length;
+                updateStartBtnText(currentSelectedCount);
+                
+                const recalcCount = () => {
+                    const checkedValues = topicCheckboxes.filter(cb => cb.checked).map(cb => cb.value);
+                    const matchingQs = getMatchingQuestions(checkedValues);
+                    updateStartBtnText(matchingQs.length);
+                };
+                
+                sortedTopics.forEach((topic) => {
+                    const count = topicCounts[topic] || 0;
+                    if (count === 0 && topic !== 'HOTs') return;
+                    
+                    const label = document.createElement('label');
+                    label.className = 'topic-item';
+                    label.innerHTML = `<input type="checkbox" value="${topic}" class="topic-cb" checked> <span>${topic} <span style="color: var(--text-secondary); font-size: 12px;">(${count})</span></span>`;
+                    topicListContainer.appendChild(label);
+                    
+                    const cb = label.querySelector('input');
+                    topicCheckboxes.push(cb);
+                    
+                    cb.addEventListener('change', () => {
+                        const allChecked = topicCheckboxes.every(c => c.checked);
+                        selectAllCheckbox.checked = allChecked;
+                        recalcCount();
+                    });
+                });
+                
+                selectAllCheckbox.addEventListener('change', (e) => {
+                    const isChecked = e.target.checked;
+                    topicCheckboxes.forEach(cb => cb.checked = isChecked);
+                    recalcCount();
+                });
+            };
+            script.onerror = () => {
+                topicListContainer.innerHTML = '<div style="text-align:center; color: var(--error-red);">Failed to load questions file.</div>';
+            };
+            
+            const oldScript = document.getElementById('temp-question-script');
+            if (oldScript) oldScript.remove();
+            script.id = 'temp-question-script';
+            document.body.appendChild(script);
+        });
+        
+        if (chapter.class === "11th" && grid11) {
+            grid11.appendChild(card);
+        } else if (chapter.class === "12th" && grid12) {
+            grid12.appendChild(card);
+        } else if (oldGrid) {
+            oldGrid.appendChild(card);
+        }
+    });
+    
+    closeTopicModalBtn.addEventListener('click', () => {
+        topicModal.classList.remove('show');
+    });
+    window.addEventListener("click", (e) => {
+      if (e.target === topicModal) {
+        topicModal.classList.remove("show");
+      }
+    });
+    
+    startQuizBtn.addEventListener('click', () => {
+        const checkboxes = topicListContainer.querySelectorAll('.topic-cb:checked');
+        selectedTopicsForQuiz = Array.from(checkboxes).map(cb => cb.value);
+        
+        if (selectedTopicsForQuiz.length === 0) {
+            alert("Please select at least one topic.");
+            return;
+        }
+        
+        localStorage.setItem('activeQuizConfig', JSON.stringify({
+            chapterId: selectedChapterForQuiz.id,
+            chapterName: selectedChapterForQuiz.name,
+            topics: selectedTopicsForQuiz,
+            file: selectedChapterForQuiz.file
+        }));
+        
+        window.location.href = 'quiz.html';
+    });
+}
+
+let quizQuestions = [];
+let currentQIndex = 0;
+let correctCount = 0;
+let wrongCount = 0;
+let startTime = 0;
+let timerInterval;
+
+function initQuiz() {
+    const configStr = localStorage.getItem('activeQuizConfig');
+    if (!configStr) {
+        window.location.href = 'dashboard.html';
+        return;
+    }
+    const config = JSON.parse(configStr);
+    
+    document.getElementById('quiz-chapter-title').textContent = config.chapterName;
+    const imgEl = document.getElementById('explanation-icon');
+    if (imgEl) {
+        const iconFilename = iconMap[config.chapterName] || (config.chapterName + ".png");
+        imgEl.src = `images/icons/${iconFilename}`;
+        imgEl.onerror = () => { imgEl.src = 'https://cdn-icons-png.flaticon.com/512/2921/2921935.png'; };
+    }
+    
+    // Dynamically load the script
+    const script = document.createElement('script');
+    script.src = config.file;
+    script.onload = () => {
+        if (typeof allQuestions !== 'undefined') {
+            quizQuestions = allQuestions.filter(q => {
+                return config.topics.some(t => {
+                    if (t === 'HOTs' && q.hots) return true;
+                    return q.topic === t || q.topic.startsWith(t);
+                });
+            });
+            if (quizQuestions.length === 0) {
+                // fallback if topics don't match exactly due to string differences
+                quizQuestions = allQuestions; 
+            }
+            startQuizSession();
+        } else {
+            alert("Error loading questions.");
+        }
+    };
+    script.onerror = () => { alert("Error loading question file."); };
+    document.body.appendChild(script);
+}
+
+function startQuizSession() {
+    currentQIndex = 0;
+    correctCount = 0;
+    wrongCount = 0;
+    startTime = Date.now();
+    
+    timerInterval = setInterval(updateTimer, 1000);
+    
+    const prevBtn = document.getElementById('prev-btn');
+    const nextBtn = document.getElementById('next-btn');
+    
+    if (prevBtn) {
+        prevBtn.addEventListener('click', () => {
+            if (currentQIndex > 0) {
+                currentQIndex--;
+                renderQuestion();
+            }
+        });
+    }
+    
+    if (nextBtn) {
+        nextBtn.addEventListener('click', () => {
+            if (currentQIndex < quizQuestions.length - 1) {
+                currentQIndex++;
+                renderQuestion();
+            } else {
+                showResultsModal();
+            }
+        });
+    }
+
+    const gridBtn = document.getElementById('grid-btn');
+    const navigatorModal = document.getElementById('navigator-modal');
+    const closeNavigatorBtn = document.getElementById('close-navigator-btn');
+    
+    if (gridBtn && navigatorModal) {
+        gridBtn.addEventListener('click', () => {
+            renderQuestionNavigator();
+            navigatorModal.classList.add('show');
+        });
+        closeNavigatorBtn.addEventListener('click', () => {
+            navigatorModal.classList.remove('show');
+        });
+        window.addEventListener('click', (e) => {
+            if (e.target === navigatorModal) {
+                navigatorModal.classList.remove('show');
+            }
+        });
+    }
+    
+    renderQuestion();
+}
+
+function renderQuestionNavigator() {
+    const grid = document.getElementById('navigator-grid');
+    if (!grid) return;
+    
+    grid.innerHTML = '';
+    quizQuestions.forEach((q, index) => {
+        const btn = document.createElement('div');
+        btn.className = 'nav-btn';
+        btn.textContent = index + 1;
+        
+        if (q.userStatus === 'correct') {
+            btn.classList.add('correct');
+        } else if (q.userStatus === 'wrong') {
+            btn.classList.add('wrong');
+        }
+        
+        if (index === currentQIndex) {
+            btn.classList.add('current');
+        }
+        
+        btn.addEventListener('click', () => {
+            currentQIndex = index;
+            renderQuestion();
+            document.getElementById('navigator-modal').classList.remove('show');
+        });
+        
+        grid.appendChild(btn);
+    });
+}
+
+function showResultsModal() {
+    clearInterval(timerInterval); // Stop timer
+    
+    const resultsModal = document.getElementById('results-modal');
+    if (!resultsModal) return;
+    
+    const totalQuestions = quizQuestions.length;
+    const unanswered = totalQuestions - (correctCount + wrongCount);
+    const accuracy = totalQuestions > 0 ? Math.round((correctCount / totalQuestions) * 100) : 0;
+    
+    document.getElementById('result-correct').textContent = correctCount;
+    document.getElementById('result-wrong').textContent = wrongCount;
+    
+    const elUnanswered = document.getElementById('result-unanswered');
+    if (elUnanswered) elUnanswered.textContent = unanswered;
+    
+    document.getElementById('result-accuracy').textContent = accuracy + "%";
+    
+    const elapsedSeconds = Math.floor((Date.now() - startTime) / 1000);
+    const m = Math.floor(elapsedSeconds / 60).toString().padStart(2, '0');
+    const s = (elapsedSeconds % 60).toString().padStart(2, '0');
+    document.getElementById('result-time').textContent = `${m}:${s}`;
+    
+    const avgSeconds = totalQuestions > 0 ? Math.round(elapsedSeconds / totalQuestions) : 0;
+    const elAvgTime = document.getElementById('result-avg-time');
+    if (elAvgTime) elAvgTime.textContent = avgSeconds + "s";
+    
+    // Add click handlers for review
+    const cardCorrect = document.getElementById('result-card-correct');
+    const cardWrong = document.getElementById('result-card-wrong');
+    const cardUnanswered = document.getElementById('result-card-unanswered');
+    
+    if (cardCorrect) cardCorrect.onclick = () => reviewQuestions('correct');
+    if (cardWrong) cardWrong.onclick = () => reviewQuestions('wrong');
+    if (cardUnanswered) cardUnanswered.onclick = () => reviewQuestions('unanswered');
+    
+    resultsModal.classList.add('show');
+}
+
+function reviewQuestions(type) {
+    let targetIndex = -1;
+    for (let i = 0; i < quizQuestions.length; i++) {
+        const q = quizQuestions[i];
+        if (type === 'unanswered' && !q.userStatus) {
+            targetIndex = i;
+            break;
+        } else if (q.userStatus === type) {
+            targetIndex = i;
+            break;
+        }
+    }
+    
+    if (targetIndex !== -1) {
+        document.getElementById('results-modal').classList.remove('show');
+        currentQIndex = targetIndex;
+        renderQuestion();
+        
+        // Open navigator to show which ones to review
+        renderQuestionNavigator();
+        const navModal = document.getElementById('navigator-modal');
+        if (navModal) navModal.classList.add('show');
+    } else {
+        alert(`You have no ${type} questions.`);
+    }
+}
+
+function updateTimer() {
+    const elapsed = Math.floor((Date.now() - startTime) / 1000);
+    const m = Math.floor(elapsed / 60).toString().padStart(2, '0');
+    const s = (elapsed % 60).toString().padStart(2, '0');
+    const timerEl = document.getElementById('elapsed-timer');
+    if (timerEl) {
+        timerEl.innerHTML = `<i class="fa-solid fa-clock"></i> ${m}:${s}`;
+    }
+}
+
+function renderQuestion() {
+    if (quizQuestions.length === 0) return;
+    
+    const q = quizQuestions[currentQIndex];
+    document.getElementById('q-text').innerHTML = q.q;
+    document.getElementById('q-topic').textContent = "Topic: " + (q.topic || 'General');
+    
+    const imgContainer = document.getElementById('q-image-container');
+    const imgEl = document.getElementById('q-image');
+    if (imgContainer && imgEl) {
+        if (q.image) {
+            imgEl.src = q.image;
+            imgContainer.style.display = 'block';
+        } else {
+            imgContainer.style.display = 'none';
+            imgEl.src = '';
+        }
+    }
+    
+    const optionsContainer = document.getElementById('q-options');
+    optionsContainer.innerHTML = '';
+    
+    const expCard = document.getElementById('explanation-card');
+    if (expCard) expCard.classList.remove('show');
+    
+    const labels = ['A', 'B', 'C', 'D'];
+    q.options.forEach((optText, index) => {
+        const optDiv = document.createElement('div');
+        optDiv.className = 'option';
+        optDiv.innerHTML = `
+            <div class="option-label">${labels[index]}</div>
+            <div class="option-text">${optText}</div>
+        `;
+        
+        // Restore state if already answered
+        if (q.userStatus) {
+            optionsContainer.classList.add('answered');
+            if (index === q.correct) {
+                optDiv.classList.add('correct');
+            } else if (index === q.userAnswer) {
+                optDiv.classList.add('wrong');
+            }
+            if (index === q.userAnswer || index === q.correct) {
+                 showExplanation(q.userStatus === 'correct', q, labels[q.correct]);
+            }
+        }
+        
+        optDiv.addEventListener('click', () => {
+            if (optionsContainer.classList.contains('answered')) return;
+            optionsContainer.classList.add('answered');
+            q.userAnswer = index;
+            
+            if (index === q.correct) {
+                q.userStatus = 'correct';
+                optDiv.classList.add('correct');
+                correctCount++;
+                document.getElementById('stat-correct').textContent = correctCount;
+                showExplanation(true, q, labels[q.correct]);
+            } else {
+                q.userStatus = 'wrong';
+                optDiv.classList.add('wrong');
+                wrongCount++;
+                document.getElementById('stat-wrong').textContent = wrongCount;
+                
+                // highlight correct one
+                if (optionsContainer.children[q.correct]) {
+                    optionsContainer.children[q.correct].classList.add('correct');
+                }
+                showExplanation(false, q, labels[q.correct]);
+            }
+        });
+        
+        optionsContainer.appendChild(optDiv);
+    });
+    
+    if (!q.userStatus) {
+        optionsContainer.classList.remove('answered');
+    }
+    
+    // Update progress
+    document.getElementById('progress-label').textContent = `Question ${currentQIndex + 1} of ${quizQuestions.length}`;
+    const percent = Math.round(((currentQIndex + 1) / quizQuestions.length) * 100);
+    document.getElementById('progress-percent').textContent = `${percent}% Completed`;
+    document.getElementById('progress-bar-fill').style.width = `${percent}%`;
+
+    // Change Next button to Finish on last question
+    const nextBtn = document.getElementById('next-btn');
+    if (nextBtn) {
+        if (currentQIndex === quizQuestions.length - 1) {
+            nextBtn.innerHTML = 'Finish <i class="fa-solid fa-flag-checkered"></i>';
+            nextBtn.style.background = 'linear-gradient(135deg, var(--success-green), #00b359)';
+            nextBtn.style.color = '#fff';
+        } else {
+            nextBtn.innerHTML = 'Save & Next <i class="fa-solid fa-chevron-right"></i>';
+            nextBtn.style.background = '';
+            nextBtn.style.color = '';
+        }
+    }
+    
+    document.getElementById('prev-btn').disabled = currentQIndex === 0;
+}
+
+function showExplanation(isCorrect, q, correctLabel) {
+    const card = document.getElementById('explanation-card');
+    const badge = document.getElementById('explanation-badge');
+    const text = document.getElementById('explanation-text');
+    
+    if (!card) return;
+    card.classList.add('show');
+    
+    if (isCorrect) {
+        badge.innerHTML = `<i class="fa-solid fa-check-circle"></i> Correct Answer: ${correctLabel}`;
+        badge.style.color = 'var(--success-green)';
+        badge.style.background = 'rgba(0, 230, 118, 0.1)';
+    } else {
+        badge.innerHTML = `<i class="fa-solid fa-xmark-circle"></i> Correct Answer was: ${correctLabel}`;
+        badge.style.color = 'var(--error-red)';
+        badge.style.background = 'rgba(255, 61, 113, 0.1)';
+    }
+    
+    text.innerHTML = q.explanation || "No explanation provided.";
 }

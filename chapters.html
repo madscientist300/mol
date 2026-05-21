@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NEET Bio - Dashboard</title>
+  <link rel="stylesheet" href="app.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+  <div class="dashboard-layout">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="logo-container">
+        <div class="logo-icon">
+          <i class="fa-solid fa-dna" style="color: var(--accent-cyan);"></i>
+        </div>
+        <div class="logo-text text-gradient">NEET Bio</div>
+      </div>
+
+      <nav class="nav-menu">
+        <div class="nav-item"><a href="dashboard.html" style="color: inherit; text-decoration: none;"><i class="fa-solid fa-border-all"></i> Dashboard</a></div>
+        <div class="nav-item active"><i class="fa-solid fa-book-open"></i> Chapters</div>
+        <div class="nav-item"><i class="fa-solid fa-file-contract"></i> Mock Tests</div>
+        <div class="nav-item"><i class="fa-solid fa-dumbbell"></i> Practice</div>
+        <div class="nav-item"><i class="fa-solid fa-bookmark"></i> Bookmarks</div>
+        <div class="nav-item"><i class="fa-solid fa-chart-line"></i> Analytics</div>
+        <div class="nav-item"><i class="fa-solid fa-rotate"></i> Revision Hub</div>
+        <div class="nav-item"><i class="fa-solid fa-trophy"></i> Achievements</div>
+        <div class="nav-item"><i class="fa-solid fa-gear"></i> Settings</div>
+      </nav>
+
+      <div class="profile-card">
+        <div class="profile-avatar">
+          <img src="https://api.dicebear.com/6.x/avataaars/svg?seed=Felix&backgroundColor=0F172A" alt="Avatar">
+        </div>
+        <div class="profile-info">
+          <h4>Alex Kumar</h4>
+          <p>Lvl 42 • 15 Day Streak <i class="fa-solid fa-fire" style="color: var(--warning-amber);"></i></p>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+
+      <!-- Responsive Header -->
+      <header class="dashboard-header">
+        <button id="sidebar-toggle" class="btn btn-secondary" style="padding: 10px 14px;"><i
+            class="fa-solid fa-bars"></i></button>
+      </header>
+
+      <!-- Chapter Grid 11th -->
+      <div class="section-header">
+        <h2 style="font-size: 28px;">Class 11th Chapters</h2>
+      </div>
+
+      <div class="chapter-grid" id="chapter-grid-11th">
+        <!-- Chapters will be dynamically injected here by app.js -->
+      </div>
+
+      <!-- Chapter Grid 12th -->
+      <div class="section-header" style="margin-top: 40px;">
+        <h2>Class 12th Chapters</h2>
+      </div>
+
+      <div class="chapter-grid" id="chapter-grid-12th">
+        <!-- Chapters will be dynamically injected here by app.js -->
+      </div>
+
+      <!-- Topic Selection Modal (dynamically populated) -->
+      <div id="topic-modal" class="modal">
+        <div class="modal-content glass">
+          <div class="modal-header">
+            <h3 id="topic-modal-title">Select Topics</h3>
+            <button id="close-topic-modal-btn" class="close-btn"><i class="fa-solid fa-xmark"></i></button>
+          </div>
+          <div class="modal-body">
+            <div id="topic-list-container" class="topic-list">
+              <!-- Topics will be injected here -->
+            </div>
+            <button id="start-quiz-btn" class="btn btn-primary" style="width: 100%; margin-top: 20px;">Start
+              Practice</button>
+          </div>
+        </div>
+      </div>
+
+    </main>
+  </div>
+
+  <script src="chapters.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,4 +1,4 @@
-const allQuestions = [
+var allQuestions = [
 {
   id: 1,
   topic: "Introduction to Plant Anatomy",
@@ -26,7 +26,7 @@ const allQuestions = [
 {
   id: 4,
   topic: "Introduction to Plant Anatomy",
-  q: "<b>Assertion (A):</b> Different organs of a plant show differences in their internal structure.<br><b>Reason (R):</b> Monocots and dicots within angiosperms are anatomically similar.",
+  q: "<b>Assertion (A):</b> Different organs of a plant show differences in their internal structure.<br><br><b>Reason (R):</b> Monocots and dicots within angiosperms are anatomically similar.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -89,7 +89,7 @@ const allQuestions = [
 {
   id: 10,
   topic: "The Tissue System",
-  q: "<b>Assertion (A):</b> Structure and function of tissues depend on their location in the plant body.<br><b>Reason (R):</b> There are three types of tissue systems classified on the basis of their structure and location.",
+  q: "<b>Assertion (A):</b> Structure and function of tissues depend on their location in the plant body.<br><br><b>Reason (R):</b> There are three types of tissue systems classified on the basis of their structure and location.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -194,7 +194,7 @@ const allQuestions = [
 {
   id: 20,
   topic: "Epidermal Tissue System",
-  q: "<b>Assertion (A):</b> Cuticle is absent in roots.<br><b>Reason (R):</b> Roots need to absorb water and minerals from the soil.",
+  q: "<b>Assertion (A):</b> Cuticle is absent in roots.<br><br><b>Reason (R):</b> Roots need to absorb water and minerals from the soil.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -270,7 +270,7 @@ const allQuestions = [
 {
   id: 27,
   topic: "Epidermal Tissue System",
-  q: "<b>Assertion (A):</b> Guard cells are responsible for opening and closing of stomata.<br><b>Reason (R):</b> Guard cells possess chloroplasts.",
+  q: "<b>Assertion (A):</b> Guard cells are responsible for opening and closing of stomata.<br><br><b>Reason (R):</b> Guard cells possess chloroplasts.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -346,7 +346,7 @@ const allQuestions = [
 {
   id: 34,
   topic: "Epidermal Tissue System",
-  q: "<b>Assertion (A):</b> Trichomes and root hairs are both epidermal appendages.<br><b>Reason (R):</b> Both trichomes and root hairs are multicellular structures.",
+  q: "<b>Assertion (A):</b> Trichomes and root hairs are both epidermal appendages.<br><br><b>Reason (R):</b> Both trichomes and root hairs are multicellular structures.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -422,7 +422,7 @@ const allQuestions = [
 {
   id: 41,
   topic: "Epidermal Tissue System",
-  q: "<b>Assertion (A):</b> The inner wall of guard cells is thicker than the outer wall.<br><b>Reason (R):</b> Differential wall thickening of guard cells helps in the opening and closing mechanism of stomata.",
+  q: "<b>Assertion (A):</b> The inner wall of guard cells is thicker than the outer wall.<br><br><b>Reason (R):</b> Differential wall thickening of guard cells helps in the opening and closing mechanism of stomata.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -514,7 +514,7 @@ const allQuestions = [
 {
   id: 48,
   topic: "The Ground Tissue System",
-  q: "<b>Assertion (A):</b> The ground tissue system includes parenchyma, collenchyma and sclerenchyma.<br><b>Reason (R):</b> The ground tissue system comprises all tissues of the plant body including epidermis.",
+  q: "<b>Assertion (A):</b> The ground tissue system includes parenchyma, collenchyma and sclerenchyma.<br><br><b>Reason (R):</b> The ground tissue system comprises all tissues of the plant body including epidermis.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -641,7 +641,7 @@ const allQuestions = [
 {
   id: 58,
   topic: "The Vascular Tissue System",
-  q: "<b>Assertion (A):</b> Vascular bundles in monocotyledonous stems are called closed.<br><b>Reason (R):</b> Cambium is absent in monocot vascular bundles, so secondary growth does not occur.",
+  q: "<b>Assertion (A):</b> Vascular bundles in monocotyledonous stems are called closed.<br><br><b>Reason (R):</b> Cambium is absent in monocot vascular bundles, so secondary growth does not occur.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -857,7 +857,7 @@ const allQuestions = [
 {
   id: 75,
   topic: "Dicotyledonous Root",
-  q: "<b>Assertion (A):</b> Casparian strips are water-impermeable.<br><b>Reason (R):</b> Casparian strips are made of suberin, a waxy material.",
+  q: "<b>Assertion (A):</b> Casparian strips are water-impermeable.<br><br><b>Reason (R):</b> Casparian strips are made of suberin, a waxy material.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -922,7 +922,7 @@ const allQuestions = [
 {
   id: 80,
   topic: "Dicotyledonous Root",
-  q: "<b>Assertion (A):</b> Endodermis is the innermost layer of the cortex in a dicot root.<br><b>Reason (R):</b> Endodermis is part of the stele.",
+  q: "<b>Assertion (A):</b> Endodermis is the innermost layer of the cortex in a dicot root.<br><br><b>Reason (R):</b> Endodermis is part of the stele.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -1039,7 +1039,7 @@ const allQuestions = [
 {
   id: 89,
   topic: "Monocotyledonous Root",
-  q: "<b>Assertion (A):</b> Monocot roots have more than six xylem bundles.<br><b>Reason (R):</b> Monocot roots undergo extensive secondary growth.",
+  q: "<b>Assertion (A):</b> Monocot roots have more than six xylem bundles.<br><br><b>Reason (R):</b> Monocot roots undergo extensive secondary growth.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -1164,7 +1164,7 @@ const allQuestions = [
 {
   id: 99,
   topic: "Dicotyledonous Root",
-  q: "<b>Assertion (A):</b> The cortex in a dicot root has intercellular spaces.<br><b>Reason (R):</b> The endodermis in a dicot root lacks intercellular spaces.",
+  q: "<b>Assertion (A):</b> The cortex in a dicot root has intercellular spaces.<br><br><b>Reason (R):</b> The endodermis in a dicot root lacks intercellular spaces.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -1177,7 +1177,7 @@ const allQuestions = [
 {
   id: 100,
   topic: "The Ground Tissue System",
-  q: "<b>Assertion (A):</b> Mesophyll is part of the ground tissue system in leaves.<br><b>Reason (R):</b> Mesophyll consists of thin-walled cells containing chloroplasts.",
+  q: "<b>Assertion (A):</b> Mesophyll is part of the ground tissue system in leaves.<br><br><b>Reason (R):</b> Mesophyll consists of thin-walled cells containing chloroplasts.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -1420,7 +1420,7 @@ const allQuestions = [
 {
   id: 119,
   topic: "Dicotyledonous Stem",
-  q: "<b>Assertion (A):</b> Vascular bundles of a dicot stem are called open.<br><b>Reason (R):</b> Cambium is present between xylem and phloem in dicot stem vascular bundles.",
+  q: "<b>Assertion (A):</b> Vascular bundles of a dicot stem are called open.<br><br><b>Reason (R):</b> Cambium is present between xylem and phloem in dicot stem vascular bundles.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -1485,7 +1485,7 @@ const allQuestions = [
 {
   id: 124,
   topic: "Dicotyledonous Stem",
-  q: "<b>Assertion (A):</b> The endodermis in a dicot stem is called the starch sheath.<br><b>Reason (R):</b> The endodermal cells of dicot stem have casparian strips made of suberin.",
+  q: "<b>Assertion (A):</b> The endodermis in a dicot stem is called the starch sheath.<br><br><b>Reason (R):</b> The endodermal cells of dicot stem have casparian strips made of suberin.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -1649,7 +1649,7 @@ const allQuestions = [
 {
   id: 137,
   topic: "Monocotyledonous Stem",
-  q: "<b>Assertion (A):</b> Monocot stems cannot undergo secondary growth.<br><b>Reason (R):</b> Vascular bundles in monocot stems are closed (lack cambium).",
+  q: "<b>Assertion (A):</b> Monocot stems cannot undergo secondary growth.<br><br><b>Reason (R):</b> Vascular bundles in monocot stems are closed (lack cambium).",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -1727,7 +1727,7 @@ const allQuestions = [
 {
   id: 143,
   topic: "Dicotyledonous Stem",
-  q: "<b>Assertion (A):</b> The pericycle of a dicot stem is present as semi-lunar patches of sclerenchyma.<br><b>Reason (R):</b> These patches are present above the phloem and on the inner side of the endodermis.",
+  q: "<b>Assertion (A):</b> The pericycle of a dicot stem is present as semi-lunar patches of sclerenchyma.<br><br><b>Reason (R):</b> These patches are present above the phloem and on the inner side of the endodermis.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -1787,7 +1787,7 @@ const allQuestions = [
 {
   id: 148,
   topic: "Monocotyledonous Stem",
-  q: "<b>Assertion (A):</b> In a monocot stem, the ground tissue is not differentiated into cortex, endodermis, pericycle and pith.<br><b>Reason (R):</b> Vascular bundles in monocot stems are scattered throughout the ground tissue.",
+  q: "<b>Assertion (A):</b> In a monocot stem, the ground tissue is not differentiated into cortex, endodermis, pericycle and pith.<br><br><b>Reason (R):</b> Vascular bundles in monocot stems are scattered throughout the ground tissue.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -1904,7 +1904,7 @@ const allQuestions = [
 {
   id: 157,
   topic: "Dicotyledonous Stem",
-  q: "<b>Assertion (A):</b> In a dicot stem, collenchyma is found in the hypodermis.<br><b>Reason (R):</b> Collenchyma provides mechanical strength to young growing organs due to its flexible nature.",
+  q: "<b>Assertion (A):</b> In a dicot stem, collenchyma is found in the hypodermis.<br><br><b>Reason (R):</b> Collenchyma provides mechanical strength to young growing organs due to its flexible nature.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -2191,7 +2191,7 @@ const allQuestions = [
 {
   id: 179,
   topic: "Dorsiventral (Dicotyledonous) Leaf",
-  q: "<b>Assertion (A):</b> The veins in a dicot leaf vary in thickness.<br><b>Reason (R):</b> Dicot leaves show reticulate venation.",
+  q: "<b>Assertion (A):</b> The veins in a dicot leaf vary in thickness.<br><br><b>Reason (R):</b> Dicot leaves show reticulate venation.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -2256,7 +2256,7 @@ const allQuestions = [
 {
   id: 184,
   topic: "Dorsiventral (Dicotyledonous) Leaf",
-  q: "<b>Assertion (A):</b> Palisade parenchyma is the main photosynthetic tissue in a dorsiventral leaf.<br><b>Reason (R):</b> Palisade cells are elongated and arranged vertically with numerous chloroplasts.",
+  q: "<b>Assertion (A):</b> Palisade parenchyma is the main photosynthetic tissue in a dorsiventral leaf.<br><br><b>Reason (R):</b> Palisade cells are elongated and arranged vertically with numerous chloroplasts.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -2386,7 +2386,7 @@ const allQuestions = [
 {
   id: 194,
   topic: "Isobilateral (Monocotyledonous) Leaf",
-  q: "<b>Assertion (A):</b> Bulliform cells are large, empty and colourless.<br><b>Reason (R):</b> Bulliform cells are actively involved in photosynthesis.",
+  q: "<b>Assertion (A):</b> Bulliform cells are large, empty and colourless.<br><br><b>Reason (R):</b> Bulliform cells are actively involved in photosynthesis.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -2438,7 +2438,7 @@ const allQuestions = [
 {
   id: 198,
   topic: "Isobilateral (Monocotyledonous) Leaf",
-  q: "<b>Assertion (A):</b> An isobilateral leaf is called so because both surfaces look similar.<br><b>Reason (R):</b> In an isobilateral leaf, stomata are present on both surfaces and mesophyll is not differentiated.",
+  q: "<b>Assertion (A):</b> An isobilateral leaf is called so because both surfaces look similar.<br><br><b>Reason (R):</b> In an isobilateral leaf, stomata are present on both surfaces and mesophyll is not differentiated.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -2550,7 +2550,7 @@ const allQuestions = [
 {
   id: 207,
   topic: "Isobilateral (Monocotyledonous) Leaf",
-  q: "<b>Assertion (A):</b> In grasses, leaves curl inward during water stress.<br><b>Reason (R):</b> Bulliform cells become flaccid during water stress, causing the leaf to roll inward to minimise water loss.",
+  q: "<b>Assertion (A):</b> In grasses, leaves curl inward during water stress.<br><br><b>Reason (R):</b> Bulliform cells become flaccid during water stress, causing the leaf to roll inward to minimise water loss.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -2667,7 +2667,7 @@ const allQuestions = [
 {
   id: 216,
   topic: "Summary",
-  q: "<b>Assertion (A):</b> The ground tissue system forms the main bulk of the plant.<br><b>Reason (R):</b> It includes cortex, pericycle and pith.",
+  q: "<b>Assertion (A):</b> The ground tissue system forms the main bulk of the plant.<br><br><b>Reason (R):</b> It includes cortex, pericycle and pith.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -2818,7 +2818,7 @@ const allQuestions = [
 {
   id: 229,
   topic: "Secondary Growth",
-  q: "<b>Assertion (A):</b> Vascular cambium in a dicot stem forms a complete ring from initially discrete strips.<br><b>Reason (R):</b> Medullary ray cells become meristematic to form interfascicular cambium, connecting the intrafascicular strips.",
+  q: "<b>Assertion (A):</b> Vascular cambium in a dicot stem forms a complete ring from initially discrete strips.<br><br><b>Reason (R):</b> Medullary ray cells become meristematic to form interfascicular cambium, connecting the intrafascicular strips.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -2940,7 +2940,7 @@ const allQuestions = [
 {
   id: 239,
   topic: "Summary",
-  q: "<b>Assertion (A):</b> Monocotyledonous roots differ from dicotyledonous roots in having more xylem strands (polyarch).<br><b>Reason (R):</b> Monocotyledonous roots generally have more than 6 xylem strands whereas dicot roots typically have 2–6.",
+  q: "<b>Assertion (A):</b> Monocotyledonous roots differ from dicotyledonous roots in having more xylem strands (polyarch).<br><br><b>Reason (R):</b> Monocotyledonous roots generally have more than 6 xylem strands whereas dicot roots typically have 2–6.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -2974,7 +2974,7 @@ const allQuestions = [
 {
   id: 242,
   topic: "Summary",
-  q: "<b>Assertion (A):</b> Secondary growth does not occur in monocotyledonous plants.<br><b>Reason (R):</b> Monocots lack vascular cambium which is essential for secondary growth.",
+  q: "<b>Assertion (A):</b> Secondary growth does not occur in monocotyledonous plants.<br><br><b>Reason (R):</b> Monocots lack vascular cambium which is essential for secondary growth.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",

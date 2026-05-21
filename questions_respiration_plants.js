@@ -1,4 +1,4 @@
-const allQuestions = [
+var allQuestions = [
 {
   id: 1,
   topic: "Introduction – Respiration in Plants",
@@ -15,7 +15,7 @@ const allQuestions = [
 {
   id: 2,
   topic: "Introduction – Respiration in Plants",
-  q: "<b>Assertion (A):</b> ATP is called the energy currency of the cell.<br><b>Reason (R):</b> Energy released during oxidation in respiration is directly used for cellular processes without any intermediate.",
+  q: "<b>Assertion (A):</b> ATP is called the energy currency of the cell.<br><br><b>Reason (R):</b> Energy released during oxidation in respiration is directly used for cellular processes without any intermediate.",
   options: [
     "A is true but R is false",
     "Both A and R are true and R is the correct explanation of A",
@@ -119,7 +119,7 @@ const allQuestions = [
 {
   id: 10,
   topic: "Introduction – Respiration in Plants",
-  q: "<b>Assertion (A):</b> Energy during respiration is released in a series of slow stepwise reactions.<br><b>Reason (R):</b> These reactions are controlled by enzymes, and energy is trapped as chemical energy in the form of ATP.",
+  q: "<b>Assertion (A):</b> Energy during respiration is released in a series of slow stepwise reactions.<br><br><b>Reason (R):</b> These reactions are controlled by enzymes, and energy is trapped as chemical energy in the form of ATP.",
   options: [
     "A is true but R is false",
     "A is false but R is true",
@@ -184,7 +184,7 @@ const allQuestions = [
 {
   id: 15,
   topic: "Introduction – Respiration in Plants",
-  q: "<b>Assertion (A):</b> All food that is respired for life processes ultimately comes from photosynthesis.<br><b>Reason (R):</b> Animals are autotrophic in nature and can synthesize their own food.",
+  q: "<b>Assertion (A):</b> All food that is respired for life processes ultimately comes from photosynthesis.<br><br><b>Reason (R):</b> Animals are autotrophic in nature and can synthesize their own food.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "A is true but R is false",
@@ -236,7 +236,7 @@ const allQuestions = [
 {
   id: 19,
   topic: "Introduction – Respiration in Plants",
-  q: "<b>Assertion (A):</b> In green plants, not all cells, tissues and organs carry out photosynthesis.<br><b>Reason (R):</b> Chloroplasts are most often located in cells of the superficial layers of the plant.",
+  q: "<b>Assertion (A):</b> In green plants, not all cells, tissues and organs carry out photosynthesis.<br><br><b>Reason (R):</b> Chloroplasts are most often located in cells of the superficial layers of the plant.",
   options: [
     "A is true but R is false",
     "Both A and R are true and R is the correct explanation of A",
@@ -340,7 +340,7 @@ const allQuestions = [
 {
   id: 27,
   topic: "Introduction – Respiration in Plants",
-  q: "<b>Assertion (A):</b> Even green plants require food to be translocated to various parts of the plant body.<br><b>Reason (R):</b> All cells of green plants contain chloroplasts and can carry out photosynthesis.",
+  q: "<b>Assertion (A):</b> Even green plants require food to be translocated to various parts of the plant body.<br><br><b>Reason (R):</b> All cells of green plants contain chloroplasts and can carry out photosynthesis.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -457,7 +457,7 @@ const allQuestions = [
 {
   id: 36,
   topic: "Do Plants Breathe?",
-  q: "<b>Assertion (A):</b> During photosynthesis, availability of O₂ is not a problem in photosynthesising cells.<br><b>Reason (R):</b> O₂ is released within the cell during photosynthesis.",
+  q: "<b>Assertion (A):</b> During photosynthesis, availability of O₂ is not a problem in photosynthesising cells.<br><br><b>Reason (R):</b> O₂ is released within the cell during photosynthesis.",
   options: [
     "A is true but R is false",
     "A is false but R is true",
@@ -548,7 +548,7 @@ const allQuestions = [
 {
   id: 43,
   topic: "Do Plants Breathe?",
-  q: "<b>Assertion (A):</b> There is very little transport of gases from one plant part to another.<br><b>Reason (R):</b> Each plant part takes care of its own gas-exchange needs.",
+  q: "<b>Assertion (A):</b> There is very little transport of gases from one plant part to another.<br><br><b>Reason (R):</b> Each plant part takes care of its own gas-exchange needs.",
   options: [
     "A is true but R is false",
     "A is false but R is true",
@@ -626,7 +626,7 @@ const allQuestions = [
 {
   id: 49,
   topic: "Do Plants Breathe?",
-  q: "<b>Assertion (A):</b> Most cells of a plant have at least a part of their surface in contact with air.<br><b>Reason (R):</b> Loose packing of parenchyma cells in leaves, stems and roots provides an interconnected network of air spaces.",
+  q: "<b>Assertion (A):</b> Most cells of a plant have at least a part of their surface in contact with air.<br><br><b>Reason (R):</b> Loose packing of parenchyma cells in leaves, stems and roots provides an interconnected network of air spaces.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -717,7 +717,7 @@ const allQuestions = [
 {
   id: 56,
   topic: "Do Plants Breathe?",
-  q: "<b>Assertion (A):</b> All living organisms retain the enzymatic machinery to partially oxidise glucose without the help of oxygen.<br><b>Reason (R):</b> The first cells on this planet are believed to have lived in an atmosphere that lacked oxygen.",
+  q: "<b>Assertion (A):</b> All living organisms retain the enzymatic machinery to partially oxidise glucose without the help of oxygen.<br><br><b>Reason (R):</b> The first cells on this planet are believed to have lived in an atmosphere that lacked oxygen.",
   options: [
     "A is true but R is false",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -782,7 +782,7 @@ const allQuestions = [
 {
   id: 61,
   topic: "Do Plants Breathe?",
-  q: "<b>Assertion (A):</b> The distance that gases must diffuse even in large, bulky plants is not great.<br><b>Reason (R):</b> Each living cell in a plant is located quite close to the surface of the plant.",
+  q: "<b>Assertion (A):</b> The distance that gases must diffuse even in large, bulky plants is not great.<br><br><b>Reason (R):</b> Each living cell in a plant is located quite close to the surface of the plant.",
   options: [
     "A is false but R is true",
     "A is true but R is false",
@@ -951,7 +951,7 @@ const allQuestions = [
 {
   id: 74,
   topic: "Glycolysis",
-  q: "<b>Assertion (A):</b> Glycolysis is present in all living organisms.<br><b>Reason (R):</b> Glycolysis is the most ancient metabolic pathway that evolved when the Earth's atmosphere lacked oxygen.",
+  q: "<b>Assertion (A):</b> Glycolysis is present in all living organisms.<br><br><b>Reason (R):</b> Glycolysis is the most ancient metabolic pathway that evolved when the Earth's atmosphere lacked oxygen.",
   options: [
     "A is true but R is false",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -1094,7 +1094,7 @@ const allQuestions = [
 {
   id: 85,
   topic: "Glycolysis",
-  q: "<b>Assertion (A):</b> Glycolysis involves partial oxidation of glucose.<br><b>Reason (R):</b> The end product of glycolysis is pyruvic acid, which still contains chemical energy that can be further oxidised.",
+  q: "<b>Assertion (A):</b> Glycolysis involves partial oxidation of glucose.<br><br><b>Reason (R):</b> The end product of glycolysis is pyruvic acid, which still contains chemical energy that can be further oxidised.",
   options: [
     "A is true but R is false",
     "A is false but R is true",
@@ -1159,7 +1159,7 @@ const allQuestions = [
 {
   id: 90,
   topic: "Glycolysis",
-  q: "<b>Assertion (A):</b> In glycolysis, ATP is both consumed and produced.<br><b>Reason (R):</b> ATP is consumed during phosphorylation steps and produced during substrate-level phosphorylation steps.",
+  q: "<b>Assertion (A):</b> In glycolysis, ATP is both consumed and produced.<br><br><b>Reason (R):</b> ATP is consumed during phosphorylation steps and produced during substrate-level phosphorylation steps.",
   options: [
     "Both A and R are true but R is NOT the correct explanation of A",
     "A is true but R is false",
@@ -1237,7 +1237,7 @@ const allQuestions = [
 {
   id: 96,
   topic: "Glycolysis",
-  q: "<b>Assertion (A):</b> The metabolic fate of pyruvate depends on the cellular need.<br><b>Reason (R):</b> All cells mandatorily channel pyruvate into aerobic respiration.",
+  q: "<b>Assertion (A):</b> The metabolic fate of pyruvate depends on the cellular need.<br><br><b>Reason (R):</b> All cells mandatorily channel pyruvate into aerobic respiration.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -1354,7 +1354,7 @@ const allQuestions = [
 {
   id: 105,
   topic: "Fermentation",
-  q: "<b>Assertion (A):</b> During fermentation, NADH+H⁺ is reoxidised to NAD⁺.<br><b>Reason (R):</b> NADH+H⁺ acts as the reducing agent in both lactic acid and alcoholic fermentation.",
+  q: "<b>Assertion (A):</b> During fermentation, NADH+H⁺ is reoxidised to NAD⁺.<br><br><b>Reason (R):</b> NADH+H⁺ acts as the reducing agent in both lactic acid and alcoholic fermentation.",
   options: [
     "A is true but R is false",
     "A is false but R is true",
@@ -1445,7 +1445,7 @@ const allQuestions = [
 {
   id: 112,
   topic: "Fermentation",
-  q: "<b>Assertion (A):</b> Fermentation is described as a hazardous process.<br><b>Reason (R):</b> Either acid or alcohol is produced as end products of fermentation.",
+  q: "<b>Assertion (A):</b> Fermentation is described as a hazardous process.<br><br><b>Reason (R):</b> Either acid or alcohol is produced as end products of fermentation.",
   options: [
     "A is false but R is true",
     "Both A and R are true and R is the correct explanation of A",
@@ -1536,7 +1536,7 @@ const allQuestions = [
 {
   id: 119,
   topic: "Fermentation",
-  q: "<b>Assertion (A):</b> During fermentation, not all the released energy is trapped as high energy bonds of ATP.<br><b>Reason (R):</b> Fermentation involves complete oxidation of glucose.",
+  q: "<b>Assertion (A):</b> During fermentation, not all the released energy is trapped as high energy bonds of ATP.<br><br><b>Reason (R):</b> Fermentation involves complete oxidation of glucose.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "A is true but R is false",
@@ -1601,7 +1601,7 @@ const allQuestions = [
 {
   id: 124,
   topic: "Fermentation",
-  q: "<b>Assertion (A):</b> Yeasts poison themselves to death when alcohol concentration reaches about 13%.<br><b>Reason (R):</b> Alcohol at high concentration is toxic and denatures cellular enzymes of yeast.",
+  q: "<b>Assertion (A):</b> Yeasts poison themselves to death when alcohol concentration reaches about 13%.<br><br><b>Reason (R):</b> Alcohol at high concentration is toxic and denatures cellular enzymes of yeast.",
   options: [
     "A is false but R is true",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -1705,7 +1705,7 @@ const allQuestions = [
 {
   id: 132,
   topic: "Fermentation",
-  q: "<b>Assertion (A):</b> Aerobic respiration is most common in higher organisms.<br><b>Reason (R):</b> Aerobic respiration releases a large amount of energy compared to fermentation.",
+  q: "<b>Assertion (A):</b> Aerobic respiration is most common in higher organisms.<br><br><b>Reason (R):</b> Aerobic respiration releases a large amount of energy compared to fermentation.",
   options: [
     "A is true but R is false",
     "A is false but R is true",
@@ -1809,7 +1809,7 @@ const allQuestions = [
 {
   id: 140,
   topic: "Aerobic Respiration – Pyruvate Oxidation",
-  q: "<b>Assertion (A):</b> Pyruvic acid decarboxylase and pyruvic dehydrogenase catalyse different reactions.<br><b>Reason (R):</b> Pyruvic acid decarboxylase is involved in alcoholic fermentation, while pyruvic dehydrogenase catalyses oxidative decarboxylation of pyruvate in aerobic respiration.",
+  q: "<b>Assertion (A):</b> Pyruvic acid decarboxylase and pyruvic dehydrogenase catalyse different reactions.<br><br><b>Reason (R):</b> Pyruvic acid decarboxylase is involved in alcoholic fermentation, while pyruvic dehydrogenase catalyses oxidative decarboxylation of pyruvate in aerobic respiration.",
   options: [
     "A is true but R is false",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -1926,7 +1926,7 @@ const allQuestions = [
 {
   id: 149,
   topic: "Aerobic Respiration – Pyruvate Oxidation",
-  q: "<b>Assertion (A):</b> The complete oxidation of pyruvate takes place in the mitochondrial matrix.<br><b>Reason (R):</b> The passing on of electrons to molecular O₂ with simultaneous ATP synthesis occurs on the inner mitochondrial membrane.",
+  q: "<b>Assertion (A):</b> The complete oxidation of pyruvate takes place in the mitochondrial matrix.<br><br><b>Reason (R):</b> The passing on of electrons to molecular O₂ with simultaneous ATP synthesis occurs on the inner mitochondrial membrane.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -2004,7 +2004,7 @@ const allQuestions = [
 {
   id: 155,
   topic: "Aerobic Respiration – Pyruvate Oxidation",
-  q: "<b>Assertion (A):</b> During aerobic respiration, electrons removed from hydrogen atoms are ultimately passed to molecular O₂.<br><b>Reason (R):</b> This electron transfer to O₂ is coupled with simultaneous synthesis of ATP.",
+  q: "<b>Assertion (A):</b> During aerobic respiration, electrons removed from hydrogen atoms are ultimately passed to molecular O₂.<br><br><b>Reason (R):</b> This electron transfer to O₂ is coupled with simultaneous synthesis of ATP.",
   options: [
     "A is false but R is true",
     "A is true but R is false",
@@ -2082,7 +2082,7 @@ const allQuestions = [
 {
   id: 161,
   topic: "Aerobic Respiration – Pyruvate Oxidation",
-  q: "<b>Assertion (A):</b> Acetyl CoA is a 2-carbon compound attached to Coenzyme A.<br><b>Reason (R):</b> During oxidative decarboxylation, one carbon of the 3-carbon pyruvic acid is removed as CO₂.",
+  q: "<b>Assertion (A):</b> Acetyl CoA is a 2-carbon compound attached to Coenzyme A.<br><br><b>Reason (R):</b> During oxidative decarboxylation, one carbon of the 3-carbon pyruvic acid is removed as CO₂.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "A is true but R is false",
@@ -2173,7 +2173,7 @@ const allQuestions = [
 {
   id: 168,
   topic: "Aerobic Respiration – Pyruvate Oxidation",
-  q: "<b>Assertion (A):</b> During oxidative decarboxylation, NAD⁺ is reduced to NADH + H⁺.<br><b>Reason (R):</b> Hydrogen atoms removed from pyruvic acid are transferred to NAD⁺.",
+  q: "<b>Assertion (A):</b> During oxidative decarboxylation, NAD⁺ is reduced to NADH + H⁺.<br><br><b>Reason (R):</b> Hydrogen atoms removed from pyruvic acid are transferred to NAD⁺.",
   options: [
     "A is true but R is false",
     "A is false but R is true",
@@ -2290,7 +2290,7 @@ const allQuestions = [
 {
   id: 177,
   topic: "Tricarboxylic Acid Cycle",
-  q: "<b>Assertion (A):</b> During TCA cycle, GTP is synthesised during the conversion of succinyl-CoA to succinic acid.<br><b>Reason (R):</b> In a coupled reaction, GTP is converted to GDP with the simultaneous synthesis of ATP from ADP.",
+  q: "<b>Assertion (A):</b> During TCA cycle, GTP is synthesised during the conversion of succinyl-CoA to succinic acid.<br><br><b>Reason (R):</b> In a coupled reaction, GTP is converted to GDP with the simultaneous synthesis of ATP from ADP.",
   options: [
     "A is true but R is false",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -2433,7 +2433,7 @@ const allQuestions = [
 {
   id: 188,
   topic: "Tricarboxylic Acid Cycle",
-  q: "<b>Assertion (A):</b> The continued operation of the TCA cycle requires the regeneration of NAD⁺ and FAD⁺.<br><b>Reason (R):</b> NAD⁺ and FAD⁺ serve as electron acceptors in TCA cycle reactions, and their reduced forms (NADH, FADH₂) must be reoxidised.",
+  q: "<b>Assertion (A):</b> The continued operation of the TCA cycle requires the regeneration of NAD⁺ and FAD⁺.<br><br><b>Reason (R):</b> NAD⁺ and FAD⁺ serve as electron acceptors in TCA cycle reactions, and their reduced forms (NADH, FADH₂) must be reoxidised.",
   options: [
     "A is false but R is true",
     "A is true but R is false",
@@ -2511,7 +2511,7 @@ const allQuestions = [
 {
   id: 194,
   topic: "Tricarboxylic Acid Cycle",
-  q: "<b>Assertion (A):</b> O₂ is not directly used in the TCA cycle.<br><b>Reason (R):</b> The role of O₂ is to act as the terminal electron acceptor in the electron transport chain, not in the TCA cycle.",
+  q: "<b>Assertion (A):</b> O₂ is not directly used in the TCA cycle.<br><br><b>Reason (R):</b> The role of O₂ is to act as the terminal electron acceptor in the electron transport chain, not in the TCA cycle.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -2563,7 +2563,7 @@ const allQuestions = [
 {
   id: 198,
   topic: "Tricarboxylic Acid Cycle",
-  q: "<b>Assertion (A):</b> OAA is called the first member of the TCA cycle.<br><b>Reason (R):</b> OAA is a 6-carbon compound that condenses with acetyl CoA.",
+  q: "<b>Assertion (A):</b> OAA is called the first member of the TCA cycle.<br><br><b>Reason (R):</b> OAA is a 6-carbon compound that condenses with acetyl CoA.",
   options: [
     "A is true but R is false",
     "Both A and R are true and R is the correct explanation of A",
@@ -2784,7 +2784,7 @@ const allQuestions = [
 {
   id: 215,
   topic: "ETS and Oxidative Phosphorylation",
-  q: "<b>Assertion (A):</b> FADH₂ produces fewer ATP (2) compared to NADH (3).<br><b>Reason (R):</b> FADH₂ donates electrons to Complex II, bypassing Complex I, while NADH donates electrons to Complex I.",
+  q: "<b>Assertion (A):</b> FADH₂ produces fewer ATP (2) compared to NADH (3).<br><br><b>Reason (R):</b> FADH₂ donates electrons to Complex II, bypassing Complex I, while NADH donates electrons to Complex I.",
   options: [
     "A is true but R is false",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -2901,7 +2901,7 @@ const allQuestions = [
 {
   id: 224,
   topic: "ETS and Oxidative Phosphorylation",
-  q: "<b>Assertion (A):</b> F₁ is a peripheral membrane protein complex of ATP synthase.<br><b>Reason (R):</b> F₀ is an integral membrane protein complex forming a proton channel.",
+  q: "<b>Assertion (A):</b> F₁ is a peripheral membrane protein complex of ATP synthase.<br><br><b>Reason (R):</b> F₀ is an integral membrane protein complex forming a proton channel.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "A is true but R is false",
@@ -2979,7 +2979,7 @@ const allQuestions = [
 {
   id: 230,
   topic: "ETS and Oxidative Phosphorylation",
-  q: "<b>Assertion (A):</b> The number of ATP molecules synthesised depends on the nature of the electron donor.<br><b>Reason (R):</b> NADH enters ETS at Complex I while FADH₂ enters at Complex II, resulting in different ATP yields.",
+  q: "<b>Assertion (A):</b> The number of ATP molecules synthesised depends on the nature of the electron donor.<br><br><b>Reason (R):</b> NADH enters ETS at Complex I while FADH₂ enters at Complex II, resulting in different ATP yields.",
   options: [
     "A is false but R is true",
     "Both A and R are true and R is the correct explanation of A",
@@ -3070,7 +3070,7 @@ const allQuestions = [
 {
   id: 237,
   topic: "ETS and Oxidative Phosphorylation",
-  q: "<b>Assertion (A):</b> Oxygen drives the whole process of aerobic respiration.<br><b>Reason (R):</b> Oxygen removes hydrogen from the system by acting as the final hydrogen acceptor, forming water.",
+  q: "<b>Assertion (A):</b> Oxygen drives the whole process of aerobic respiration.<br><br><b>Reason (R):</b> Oxygen removes hydrogen from the system by acting as the final hydrogen acceptor, forming water.",
   options: [
     "Both A and R are true but R is NOT the correct explanation of A",
     "A is true but R is false",
@@ -3135,7 +3135,7 @@ const allQuestions = [
 {
   id: 242,
   topic: "Respiratory Balance Sheet",
-  q: "<b>Assertion (A):</b> The net gain of 38 ATP per glucose during aerobic respiration is only a theoretical value.<br><b>Reason (R):</b> In living systems, all pathways work simultaneously, substrates enter and are withdrawn as needed, and enzymatic rates are controlled by multiple means.",
+  q: "<b>Assertion (A):</b> The net gain of 38 ATP per glucose during aerobic respiration is only a theoretical value.<br><br><b>Reason (R):</b> In living systems, all pathways work simultaneously, substrates enter and are withdrawn as needed, and enzymatic rates are controlled by multiple means.",
   options: [
     "A is true but R is false",
     "A is false but R is true",
@@ -3200,7 +3200,7 @@ const allQuestions = [
 {
   id: 247,
   topic: "Respiratory Balance Sheet",
-  q: "<b>Assertion (A):</b> NADH is oxidised to NAD⁺ rather slowly in fermentation.<br><b>Reason (R):</b> Fermentation lacks the electron transport system which vigorously oxidises NADH in aerobic respiration.",
+  q: "<b>Assertion (A):</b> NADH is oxidised to NAD⁺ rather slowly in fermentation.<br><br><b>Reason (R):</b> Fermentation lacks the electron transport system which vigorously oxidises NADH in aerobic respiration.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "A is true but R is false",
@@ -3382,7 +3382,7 @@ const allQuestions = [
 {
   id: 261,
   topic: "Amphibolic Pathway",
-  q: "<b>Assertion (A):</b> The respiratory pathway is called amphibolic rather than just catabolic.<br><b>Reason (R):</b> Respiratory intermediates are used both during breakdown (catabolism) and synthesis (anabolism) of biomolecules like fatty acids and proteins.",
+  q: "<b>Assertion (A):</b> The respiratory pathway is called amphibolic rather than just catabolic.<br><br><b>Reason (R):</b> Respiratory intermediates are used both during breakdown (catabolism) and synthesis (anabolism) of biomolecules like fatty acids and proteins.",
   options: [
     "A is true but R is false",
     "A is false but R is true",
@@ -3447,7 +3447,7 @@ const allQuestions = [
 {
   id: 266,
   topic: "Amphibolic Pathway",
-  q: "<b>Assertion (A):</b> All carbohydrates are usually first converted into glucose before being used for respiration.<br><b>Reason (R):</b> Glucose is the favoured substrate for respiration.",
+  q: "<b>Assertion (A):</b> All carbohydrates are usually first converted into glucose before being used for respiration.<br><br><b>Reason (R):</b> Glucose is the favoured substrate for respiration.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -3538,7 +3538,7 @@ const allQuestions = [
 {
   id: 273,
   topic: "Amphibolic Pathway",
-  q: "<b>Assertion (A):</b> When fatty acids are used as respiratory substrates, they are degraded to acetyl CoA and enter the Krebs' cycle.<br><b>Reason (R):</b> When the organism needs to synthesise fatty acids, acetyl CoA is withdrawn from the respiratory pathway.",
+  q: "<b>Assertion (A):</b> When fatty acids are used as respiratory substrates, they are degraded to acetyl CoA and enter the Krebs' cycle.<br><br><b>Reason (R):</b> When the organism needs to synthesise fatty acids, acetyl CoA is withdrawn from the respiratory pathway.",
   options: [
     "A is true but R is false",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -3655,7 +3655,7 @@ const allQuestions = [
 {
   id: 282,
   topic: "Respiratory Quotient",
-  q: "<b>Assertion (A):</b> The RQ of fats is less than 1.<br><b>Reason (R):</b> Fats are highly reduced compounds and require more O₂ for oxidation relative to the CO₂ released.",
+  q: "<b>Assertion (A):</b> The RQ of fats is less than 1.<br><br><b>Reason (R):</b> Fats are highly reduced compounds and require more O₂ for oxidation relative to the CO₂ released.",
   options: [
     "A is true but R is false",
     "A is false but R is true",
@@ -3720,7 +3720,7 @@ const allQuestions = [
 {
   id: 287,
   topic: "Respiratory Quotient",
-  q: "<b>Assertion (A):</b> Pure proteins or fats are never used as respiratory substrates in living organisms.<br><b>Reason (R):</b> In living organisms, respiratory substrates are often more than one type.",
+  q: "<b>Assertion (A):</b> Pure proteins or fats are never used as respiratory substrates in living organisms.<br><br><b>Reason (R):</b> In living organisms, respiratory substrates are often more than one type.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -3811,7 +3811,7 @@ const allQuestions = [
 {
   id: 294,
   topic: "Respiratory Quotient",
-  q: "<b>Assertion (A):</b> RQ value of carbohydrates is higher than that of fats.<br><b>Reason (R):</b> Fats have more hydrogen atoms per molecule relative to oxygen, requiring proportionally more O₂ for complete oxidation.",
+  q: "<b>Assertion (A):</b> RQ value of carbohydrates is higher than that of fats.<br><br><b>Reason (R):</b> Fats have more hydrogen atoms per molecule relative to oxygen, requiring proportionally more O₂ for complete oxidation.",
   options: [
     "A is false but R is true",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -3902,7 +3902,7 @@ const allQuestions = [
 {
   id: 301,
   topic: "Respiratory Quotient",
-  q: "<b>Assertion (A):</b> When carbohydrates are used as respiratory substrates, equal amounts of CO₂ and O₂ are evolved and consumed respectively.<br><b>Reason (R):</b> Carbohydrates have a general formula Cₙ(H₂O)ₙ, which already has hydrogen and oxygen in a 2:1 ratio similar to water.",
+  q: "<b>Assertion (A):</b> When carbohydrates are used as respiratory substrates, equal amounts of CO₂ and O₂ are evolved and consumed respectively.<br><br><b>Reason (R):</b> Carbohydrates have a general formula Cₙ(H₂O)ₙ, which already has hydrogen and oxygen in a 2:1 ratio similar to water.",
   options: [
     "A is true but R is false",
     "Both A and R are true and R is the correct explanation of A",
@@ -3993,7 +3993,7 @@ const allQuestions = [
 {
   id: 308,
   topic: "Respiratory Quotient",
-  q: "<b>Assertion (A):</b> The actual RQ of a living organism is rarely exactly 1.0, 0.9 or 0.7.<br><b>Reason (R):</b> In living organisms, respiratory substrates are often more than one; pure proteins or fats are never used as respiratory substrates.",
+  q: "<b>Assertion (A):</b> The actual RQ of a living organism is rarely exactly 1.0, 0.9 or 0.7.<br><br><b>Reason (R):</b> In living organisms, respiratory substrates are often more than one; pure proteins or fats are never used as respiratory substrates.",
   options: [
     "Both A and R are true but R is NOT the correct explanation of A",
     "A is true but R is false",
@@ -4071,7 +4071,7 @@ const allQuestions = [
 {
   id: 314,
   topic: "Summary – Respiration in Plants (Integrative)",
-  q: "<b>Assertion (A):</b> Fermentation takes place in germinating seeds.<br><b>Reason (R):</b> Germinating seeds may experience anaerobic conditions when O₂ supply is limited.",
+  q: "<b>Assertion (A):</b> Fermentation takes place in germinating seeds.<br><br><b>Reason (R):</b> Germinating seeds may experience anaerobic conditions when O₂ supply is limited.",
   options: [
     "A is true but R is false",
     "A is false but R is true",
@@ -4149,7 +4149,7 @@ const allQuestions = [
 {
   id: 320,
   topic: "Summary – Respiration in Plants (Integrative)",
-  q: "<b>Assertion (A):</b> The respiratory pathway is called an amphibolic pathway.<br><b>Reason (R):</b> It involves only catabolism (breakdown of complex molecules).",
+  q: "<b>Assertion (A):</b> The respiratory pathway is called an amphibolic pathway.<br><br><b>Reason (R):</b> It involves only catabolism (breakdown of complex molecules).",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "A is true but R is false",
@@ -4253,7 +4253,7 @@ const allQuestions = [
 {
   id: 328,
   topic: "Summary – Respiration in Plants (Integrative)",
-  q: "<b>Assertion (A):</b> Stomata and lenticels allow gaseous exchange by diffusion in plants.<br><b>Reason (R):</b> Almost all living cells in a plant have their surfaces exposed to air.",
+  q: "<b>Assertion (A):</b> Stomata and lenticels allow gaseous exchange by diffusion in plants.<br><br><b>Reason (R):</b> Almost all living cells in a plant have their surfaces exposed to air.",
   options: [
     "A is true but R is false",
     "A is false but R is true",
@@ -4344,7 +4344,7 @@ const allQuestions = [
 {
   id: 335,
   topic: "Summary – Respiration in Plants (Integrative)",
-  q: "<b>Assertion (A):</b> Glycolysis is described as the initial stage of cellular respiration that takes place in the cytoplasm.<br><b>Reason (R):</b> Glycolysis is the most ancient metabolic pathway and does not require mitochondria.",
+  q: "<b>Assertion (A):</b> Glycolysis is described as the initial stage of cellular respiration that takes place in the cytoplasm.<br><br><b>Reason (R):</b> Glycolysis is the most ancient metabolic pathway and does not require mitochondria.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "A is true but R is false",
@@ -4422,7 +4422,7 @@ const allQuestions = [
 {
   id: 341,
   topic: "Summary – Respiration in Plants (Integrative)",
-  q: "<b>Assertion (A):</b> In eukaryotic organisms, aerobic respiration occurs in the presence of oxygen.<br><b>Reason (R):</b> O₂ is required as the terminal electron acceptor in the electron transport system.",
+  q: "<b>Assertion (A):</b> In eukaryotic organisms, aerobic respiration occurs in the presence of oxygen.<br><br><b>Reason (R):</b> O₂ is required as the terminal electron acceptor in the electron transport system.",
   options: [
     "A is false but R is true",
     "Both A and R are true but R is NOT the correct explanation of A",

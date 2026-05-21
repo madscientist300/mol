@@ -1,4 +1,4 @@
-const allQuestions = [
+var allQuestions = [
 {
   id: 1,
   topic: "Introduction - The Living World",
@@ -262,7 +262,7 @@ const allQuestions = [
 {
   id: 21,
   topic: "Introduction - The Living World",
-  q: "<b>Assertion (A):</b> As scientists, we attempt to answer what the purpose of life is.<br><b>Reason (R):</b> The question 'What is life?' has a philosophical dimension.",
+  q: "<b>Assertion (A):</b> As scientists, we attempt to answer what the purpose of life is.<br><br><b>Reason (R):</b> The question 'What is life?' has a philosophical dimension.",
   options: [
     "Both A and R are true, and R is the correct explanation of A",
     "Both A and R are true, but R is not the correct explanation of A",
@@ -275,7 +275,7 @@ const allQuestions = [
 {
   id: 22,
   topic: "Introduction - The Living World",
-  q: "<b>Assertion (A):</b> Societies with an anthropocentric view of biology registered limited progress in biological knowledge.<br><b>Reason (R):</b> Anthropocentric view places humans at the centre of all biological understanding, limiting broader exploration.",
+  q: "<b>Assertion (A):</b> Societies with an anthropocentric view of biology registered limited progress in biological knowledge.<br><br><b>Reason (R):</b> Anthropocentric view places humans at the centre of all biological understanding, limiting broader exploration.",
   options: [
     "Both A and R are true, and R is the correct explanation of A",
     "Both A and R are true, but R is not the correct explanation of A",
@@ -288,7 +288,7 @@ const allQuestions = [
 {
   id: 23,
   topic: "Introduction - The Living World",
-  q: "<b>Assertion (A):</b> Ernst Mayr was awarded the Nobel Prize for his contribution to evolutionary biology.<br><b>Reason (R):</b> He pioneered the biological species concept.",
+  q: "<b>Assertion (A):</b> Ernst Mayr was awarded the Nobel Prize for his contribution to evolutionary biology.<br><br><b>Reason (R):</b> He pioneered the biological species concept.",
   options: [
     "Both A and R are true, and R is the correct explanation of A",
     "Both A and R are true, but R is not the correct explanation of A",
@@ -418,7 +418,7 @@ const allQuestions = [
 {
   id: 33,
   topic: "Introduction - The Living World",
-  q: "<b>Assertion (A):</b> The biggest spin-off of systematic studies of living organisms was the development of modern medicine.<br><b>Reason (R):</b> Systematic studies led to recognition of sharing of similarities among organisms both horizontally and vertically.",
+  q: "<b>Assertion (A):</b> The biggest spin-off of systematic studies of living organisms was the development of modern medicine.<br><br><b>Reason (R):</b> Systematic studies led to recognition of sharing of similarities among organisms both horizontally and vertically.",
   options: [
     "Both A and R are true, and R is the correct explanation of A",
     "Both A and R are true, but R is not the correct explanation of A",
@@ -796,7 +796,7 @@ const allQuestions = [
   {
     "id": 62,
     "topic": "Diversity in the Living World",
-    "q": "<b>Assertion (A):</b> Local names of organisms create confusion in biological communication.<br><b>Reason (R):</b> Local names vary from place to place, even within a country.",
+    "q": "<b>Assertion (A):</b> Local names of organisms create confusion in biological communication.<br><br><b>Reason (R):</b> Local names vary from place to place, even within a country.",
     "options": [
       "Both A and R are true, and R is the correct explanation of A",
       "Both A and R are true, but R is not the correct explanation of A",
@@ -809,7 +809,7 @@ const allQuestions = [
   {
     "id": 63,
     "topic": "Diversity in the Living World",
-    "q": "<b>Assertion (A):</b> Scientific names ensure that each organism has only one name.<br><b>Reason (R):</b> Scientific names also ensure that a name has not been used for any other known organism.",
+    "q": "<b>Assertion (A):</b> Scientific names ensure that each organism has only one name.<br><br><b>Reason (R):</b> Scientific names also ensure that a name has not been used for any other known organism.",
     "options": [
       "Both A and R are true, and R is the correct explanation of A",
       "Both A and R are true, but R is not the correct explanation of A",
@@ -822,7 +822,7 @@ const allQuestions = [
   {
     "id": 64,
     "topic": "Diversity in the Living World",
-    "q": "<b>Assertion (A):</b> Taxonomy and Systematics are exactly the same in their scope.<br><b>Reason (R):</b> Systematics includes identification, nomenclature, classification and also considers evolutionary relationships.",
+    "q": "<b>Assertion (A):</b> Taxonomy and Systematics are exactly the same in their scope.<br><br><b>Reason (R):</b> Systematics includes identification, nomenclature, classification and also considers evolutionary relationships.",
     "options": [
       "Both A and R are true, and R is the correct explanation of A",
       "Both A and R are true, but R is not the correct explanation of A",
@@ -835,7 +835,7 @@ const allQuestions = [
   {
     "id": 65,
     "topic": "Diversity in the Living World",
-    "q": "<b>Assertion (A):</b> Biological names are Latinised irrespective of their origin.<br><b>Reason (R):</b> Latin was the language of educated Europeans during the development of taxonomy.",
+    "q": "<b>Assertion (A):</b> Biological names are Latinised irrespective of their origin.<br><br><b>Reason (R):</b> Latin was the language of educated Europeans during the development of taxonomy.",
     "options": [
       "Both A and R are true, and R is the correct explanation of A",
       "Both A and R are true, but R is not the correct explanation of A",
@@ -965,7 +965,7 @@ const allQuestions = [
   {
     "id": 75,
     "topic": "Diversity in the Living World",
-    "q": "<b>Assertion (A):</b> As we explore new areas, new organisms are continuously being identified.<br><b>Reason (R):</b> The total number of species on earth has already been fully documented.",
+    "q": "<b>Assertion (A):</b> As we explore new areas, new organisms are continuously being identified.<br><br><b>Reason (R):</b> The total number of species on earth has already been fully documented.",
     "options": [
       "Both A and R are true, and R is the correct explanation of A",
       "Both A and R are true, but R is not the correct explanation of A",
@@ -1135,7 +1135,7 @@ const allQuestions = [
   {
     "id": 88,
     "topic": "Taxonomic Categories",
-    "q": "<b>Assertion (A):</b> Classification is a single step process.<br><b>Reason (R):</b> Each step in classification represents a rank or category.",
+    "q": "<b>Assertion (A):</b> Classification is a single step process.<br><br><b>Reason (R):</b> Each step in classification represents a rank or category.",
     "options": [
       "Both A and R are true, and R is the correct explanation of A",
       "Both A and R are true, but R is not the correct explanation of A",
@@ -1174,7 +1174,7 @@ const allQuestions = [
   {
     "id": 91,
     "topic": "Taxonomic Categories",
-    "q": "<b>Assertion (A):</b> Taxonomic categories are distinct biological entities.<br><b>Reason (R):</b> Organisms placed in a taxonomic category share certain fundamental characteristics.",
+    "q": "<b>Assertion (A):</b> Taxonomic categories are distinct biological entities.<br><br><b>Reason (R):</b> Organisms placed in a taxonomic category share certain fundamental characteristics.",
     "options": [
       "Both A and R are true, and R is the correct explanation of A",
       "Both A and R are true, but R is not the correct explanation of A",
@@ -1317,7 +1317,7 @@ const allQuestions = [
   {
     "id": 102,
     "topic": "Species",
-    "q": "<b>Assertion (A):</b> Species is the lowest taxonomic category.<br><b>Reason (R):</b> A species is a group of individual organisms with fundamental similarities.",
+    "q": "<b>Assertion (A):</b> Species is the lowest taxonomic category.<br><br><b>Reason (R):</b> A species is a group of individual organisms with fundamental similarities.",
     "options": [
       "Both A and R are true, and R is the correct explanation of A",
       "Both A and R are true, but R is not the correct explanation of A",
@@ -1434,7 +1434,7 @@ const allQuestions = [
   {
     "id": 111,
     "topic": "Genus",
-    "q": "<b>Assertion (A):</b> Lion and tiger are placed in the same genus <i>Panthera</i>.<br><b>Reason (R):</b> They share several common features and have more characters in common compared to cat.",
+    "q": "<b>Assertion (A):</b> Lion and tiger are placed in the same genus <i>Panthera</i>.<br><br><b>Reason (R):</b> They share several common features and have more characters in common compared to cat.",
     "options": [
       "Both A and R are true, and R is the correct explanation of A",
       "Both A and R are true, but R is not the correct explanation of A",
@@ -1447,7 +1447,7 @@ const allQuestions = [
   {
     "id": 112,
     "topic": "Genus",
-    "q": "<b>Assertion (A):</b> Cat belongs to the genus <i>Panthera</i>.<br><b>Reason (R):</b> <i>Felis</i> is a different genus from <i>Panthera</i>.",
+    "q": "<b>Assertion (A):</b> Cat belongs to the genus <i>Panthera</i>.<br><br><b>Reason (R):</b> <i>Felis</i> is a different genus from <i>Panthera</i>.",
     "options": [
       "Both A and R are true, and R is the correct explanation of A",
       "Both A and R are true, but R is not the correct explanation of A",
@@ -1551,7 +1551,7 @@ const allQuestions = [
   {
     "id": 120,
     "topic": "Taxonomic Categories",
-    "q": "<b>Assertion (A):</b> In plant taxonomy, the term 'Division' is used instead of 'Phylum'.<br><b>Reason (R):</b> Plants and animals follow different nomenclature codes (ICBN and ICZN respectively).",
+    "q": "<b>Assertion (A):</b> In plant taxonomy, the term 'Division' is used instead of 'Phylum'.<br><br><b>Reason (R):</b> Plants and animals follow different nomenclature codes (ICBN and ICZN respectively).",
     "options": [
       "Both A and R are true, and R is the correct explanation of A",
       "Both A and R are true, but R is not the correct explanation of A",
@@ -1682,7 +1682,7 @@ const allQuestions = [
   {
     "id": 130,
     "topic": "Family",
-    "q": "<b>Assertion (A):</b> Genus <i>Panthera</i> and genus <i>Felis</i> belong to different families.<br><b>Reason (R):</b> Lion and cat show both similarities and differences.",
+    "q": "<b>Assertion (A):</b> Genus <i>Panthera</i> and genus <i>Felis</i> belong to different families.<br><br><b>Reason (R):</b> Lion and cat show both similarities and differences.",
     "options": [
       "Both A and R are true, and R is the correct explanation of A",
       "Both A and R are true, but R is not the correct explanation of A",
@@ -1812,7 +1812,7 @@ const allQuestions = [
   {
     "id": 140,
     "topic": "Order",
-    "q": "<b>Assertion (A):</b> Convolvulaceae and Solanaceae are placed in the same order.<br><b>Reason (R):</b> Both families show similar floral characters.",
+    "q": "<b>Assertion (A):</b> Convolvulaceae and Solanaceae are placed in the same order.<br><br><b>Reason (R):</b> Both families show similar floral characters.",
     "options": [
       "Both A and R are true, and R is the correct explanation of A",
       "Both A and R are true, but R is not the correct explanation of A",
@@ -1890,7 +1890,7 @@ const allQuestions = [
   {
     "id": 146,
     "topic": "Class",
-    "q": "<b>Assertion (A):</b> Class Mammalia has only two orders — Primata and Carnivora.<br><b>Reason (R):</b> NCERT mentions only these two orders under Mammalia.",
+    "q": "<b>Assertion (A):</b> Class Mammalia has only two orders — Primata and Carnivora.<br><br><b>Reason (R):</b> NCERT mentions only these two orders under Mammalia.",
     "options": [
       "Both A and R are true, and R is the correct explanation of A",
       "Both A and R are true, but R is not the correct explanation of A",
@@ -1981,7 +1981,7 @@ const allQuestions = [
   {
     "id": 153,
     "topic": "Phylum",
-    "q": "<b>Assertion (A):</b> The term 'Division' is used for plants instead of 'Phylum'.<br><b>Reason (R):</b> In plants, classes with a few similar characters are grouped into a higher category called Division.",
+    "q": "<b>Assertion (A):</b> The term 'Division' is used for plants instead of 'Phylum'.<br><br><b>Reason (R):</b> In plants, classes with a few similar characters are grouped into a higher category called Division.",
     "options": [
       "Both A and R are true, and R is the correct explanation of A",
       "Both A and R are true, but R is not the correct explanation of A",
@@ -2085,7 +2085,7 @@ const allQuestions = [
   {
     "id": 161,
     "topic": "Kingdom",
-    "q": "<b>Assertion (A):</b> As we move from species to kingdom, the number of common characteristics increases.<br><b>Reason (R):</b> Kingdom is the highest and broadest category in taxonomy.",
+    "q": "<b>Assertion (A):</b> As we move from species to kingdom, the number of common characteristics increases.<br><br><b>Reason (R):</b> Kingdom is the highest and broadest category in taxonomy.",
     "options": [
       "Both A and R are true, and R is the correct explanation of A",
       "Both A and R are true, but R is not the correct explanation of A",
@@ -2163,7 +2163,7 @@ const allQuestions = [
   {
     "id": 167,
     "topic": "Family, Order, Class - Integrated",
-    "q": "<b>Assertion (A):</b> Cat and dog belong to the same order but different families.<br><b>Reason (R):</b> Cat belongs to family Felidae and dog to family Canidae, but both are placed in order Carnivora.",
+    "q": "<b>Assertion (A):</b> Cat and dog belong to the same order but different families.<br><br><b>Reason (R):</b> Cat belongs to family Felidae and dog to family Canidae, but both are placed in order Carnivora.",
     "options": [
       "Both A and R are true, and R is the correct explanation of A",
       "Both A and R are true, but R is not the correct explanation of A",
@@ -2176,7 +2176,7 @@ const allQuestions = [
   {
     "id": 168,
     "topic": "Phylum & Kingdom - Integrated",
-    "q": "<b>Assertion (A):</b> Kingdom Plantae comprises all plants from various phyla.<br><b>Reason (R):</b> In plant classification, the term 'Division' is used instead of 'Phylum'.",
+    "q": "<b>Assertion (A):</b> Kingdom Plantae comprises all plants from various phyla.<br><br><b>Reason (R):</b> In plant classification, the term 'Division' is used instead of 'Phylum'.",
     "options": [
       "Both A and R are true, and R is the correct explanation of A",
       "Both A and R are true, but R is not the correct explanation of A",
@@ -2645,7 +2645,7 @@ const allQuestions = [
   {
     "id": 204,
     "topic": "Summary & Table 1.1",
-    "q": "<b>Assertion (A):</b> Mango and Wheat belong to the same class.<br><b>Reason (R):</b> Both Mango and Wheat belong to Division Angiospermae.",
+    "q": "<b>Assertion (A):</b> Mango and Wheat belong to the same class.<br><br><b>Reason (R):</b> Both Mango and Wheat belong to Division Angiospermae.",
     "options": [
       "Both A and R are true, and R is the correct explanation of A",
       "Both A and R are true, but R is not the correct explanation of A",
@@ -2658,7 +2658,7 @@ const allQuestions = [
   {
     "id": 205,
     "topic": "Summary & Table 1.1",
-    "q": "<b>Assertion (A):</b> Man and Housefly both belong to Kingdom Animalia but differ at the phylum level.<br><b>Reason (R):</b> Man belongs to Phylum Chordata while Housefly belongs to Phylum Arthropoda.",
+    "q": "<b>Assertion (A):</b> Man and Housefly both belong to Kingdom Animalia but differ at the phylum level.<br><br><b>Reason (R):</b> Man belongs to Phylum Chordata while Housefly belongs to Phylum Arthropoda.",
     "options": [
       "Both A and R are true, and R is the correct explanation of A",
       "Both A and R are true, but R is not the correct explanation of A",
@@ -2671,7 +2671,7 @@ const allQuestions = [
   {
     "id": 206,
     "topic": "Summary & Table 1.1",
-    "q": "<b>Assertion (A):</b> Mango belongs to family Solanaceae.<br><b>Reason (R):</b> Mango belongs to genus <i>Mangifera</i>.",
+    "q": "<b>Assertion (A):</b> Mango belongs to family Solanaceae.<br><br><b>Reason (R):</b> Mango belongs to genus <i>Mangifera</i>.",
     "options": [
       "Both A and R are true, and R is the correct explanation of A",
       "Both A and R are true, but R is not the correct explanation of A",
@@ -2840,7 +2840,7 @@ const allQuestions = [
   {
     "id": 219,
     "topic": "Summary & Table 1.1",
-    "q": "<b>Assertion (A):</b> Housefly belongs to phylum Arthropoda and class Insecta.<br><b>Reason (R):</b> Housefly has three pairs of jointed legs and belongs to order Diptera.",
+    "q": "<b>Assertion (A):</b> Housefly belongs to phylum Arthropoda and class Insecta.<br><br><b>Reason (R):</b> Housefly has three pairs of jointed legs and belongs to order Diptera.",
     "options": [
       "Both A and R are true, and R is the correct explanation of A",
       "Both A and R are true, but R is not the correct explanation of A",

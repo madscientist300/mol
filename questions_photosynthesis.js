@@ -1,4 +1,4 @@
-const allQuestions = [
+var allQuestions = [
 {
   id: 1,
   topic: "Introduction - Photosynthesis Overview",
@@ -106,7 +106,7 @@ const allQuestions = [
 {
   id: 9,
   topic: "Introduction - Photosynthesis Overview",
-  q: "<b>Assertion (A):</b> Green plants are called autotrophs.<br><b>Reason (R):</b> Green plants synthesise their own food through chemosynthesis.",
+  q: "<b>Assertion (A):</b> Green plants are called autotrophs.<br><br><b>Reason (R):</b> Green plants synthesise their own food through chemosynthesis.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -119,7 +119,7 @@ const allQuestions = [
 {
   id: 10,
   topic: "Introduction - Photosynthesis Overview",
-  q: "<b>Assertion (A):</b> All living forms on earth depend on sunlight for energy.<br><b>Reason (R):</b> The use of energy from sunlight by plants doing photosynthesis is the basis of life on earth.",
+  q: "<b>Assertion (A):</b> All living forms on earth depend on sunlight for energy.<br><br><b>Reason (R):</b> The use of energy from sunlight by plants doing photosynthesis is the basis of life on earth.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -236,7 +236,7 @@ const allQuestions = [
 {
   id: 19,
   topic: "Introduction - Photosynthesis Overview",
-  q: "<b>Assertion (A):</b> Photosynthesis is the basis of life on earth.<br><b>Reason (R):</b> Photosynthesis provides food and releases nitrogen into the atmosphere.",
+  q: "<b>Assertion (A):</b> Photosynthesis is the basis of life on earth.<br><br><b>Reason (R):</b> Photosynthesis provides food and releases nitrogen into the atmosphere.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -366,7 +366,7 @@ const allQuestions = [
 {
   id: 29,
   topic: "Introduction - Photosynthesis Overview",
-  q: "<b>Assertion (A):</b> Calvin used C14-labelled carbon dioxide in his experiments.<br><b>Reason (R):</b> Radioactive isotopes can be traced through metabolic pathways to map biochemical reactions.",
+  q: "<b>Assertion (A):</b> Calvin used C14-labelled carbon dioxide in his experiments.<br><br><b>Reason (R):</b> Radioactive isotopes can be traced through metabolic pathways to map biochemical reactions.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -431,7 +431,7 @@ const allQuestions = [
 {
   id: 34,
   topic: "Introduction - Photosynthesis Overview",
-  q: "<b>Assertion (A):</b> The two perspectives on biology were apparently irreconcilable.<br><b>Reason (R):</b> They rested on different levels of organisation — one at organismic and above, and the other at cellular and molecular level.",
+  q: "<b>Assertion (A):</b> The two perspectives on biology were apparently irreconcilable.<br><br><b>Reason (R):</b> They rested on different levels of organisation — one at organismic and above, and the other at cellular and molecular level.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -509,7 +509,7 @@ const allQuestions = [
 {
   id: 40,
   topic: "What Do We Know - Basic Requirements of Photosynthesis",
-  q: "<b>Assertion (A):</b> The portion of the leaf enclosed in a test tube with KOH-soaked cotton tested negative for starch.<br><b>Reason (R):</b> KOH absorbs light, preventing photosynthesis.",
+  q: "<b>Assertion (A):</b> The portion of the leaf enclosed in a test tube with KOH-soaked cotton tested negative for starch.<br><br><b>Reason (R):</b> KOH absorbs light, preventing photosynthesis.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -561,7 +561,7 @@ const allQuestions = [
 {
   id: 44,
   topic: "What Do We Know - Basic Requirements of Photosynthesis",
-  q: "<b>Assertion (A):</b> Both a variegated leaf experiment and a black paper experiment prove the same requirement of photosynthesis.<br><b>Reason (R):</b> Both experiments test for the necessity of CO₂.",
+  q: "<b>Assertion (A):</b> Both a variegated leaf experiment and a black paper experiment prove the same requirement of photosynthesis.<br><br><b>Reason (R):</b> Both experiments test for the necessity of CO₂.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -678,7 +678,7 @@ const allQuestions = [
 {
   id: 53,
   topic: "Early Experiments",
-  q: "<b>Assertion (A):</b> Jan Ingenhousz showed that sunlight is essential for photosynthesis.<br><b>Reason (R):</b> Priestley had already proved that sunlight is essential for purification of air by plants.",
+  q: "<b>Assertion (A):</b> Jan Ingenhousz showed that sunlight is essential for photosynthesis.<br><br><b>Reason (R):</b> Priestley had already proved that sunlight is essential for purification of air by plants.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -821,7 +821,7 @@ const allQuestions = [
 {
   id: 64,
   topic: "Early Experiments",
-  q: "<b>Assertion (A):</b> Engelmann described the first action spectrum of photosynthesis.<br><b>Reason (R):</b> He observed that aerobic bacteria accumulated mainly in the region of green light.",
+  q: "<b>Assertion (A):</b> Engelmann described the first action spectrum of photosynthesis.<br><br><b>Reason (R):</b> He observed that aerobic bacteria accumulated mainly in the region of green light.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -938,7 +938,7 @@ const allQuestions = [
 {
   id: 73,
   topic: "Early Experiments",
-  q: "<b>Assertion (A):</b> Some organisms do not release O₂ during photosynthesis.<br><b>Reason (R):</b> In these organisms, the hydrogen donor is H₂S instead of H₂O.",
+  q: "<b>Assertion (A):</b> Some organisms do not release O₂ during photosynthesis.<br><br><b>Reason (R):</b> In these organisms, the hydrogen donor is H₂S instead of H₂O.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -1068,7 +1068,7 @@ const allQuestions = [
 {
   id: 83,
   topic: "Early Experiments",
-  q: "<b>Assertion (A):</b> The O₂ released during photosynthesis in green plants comes from water.<br><b>Reason (R):</b> This was first inferred by van Niel and later proved by radioisotopic techniques.",
+  q: "<b>Assertion (A):</b> The O₂ released during photosynthesis in green plants comes from water.<br><br><b>Reason (R):</b> This was first inferred by van Niel and later proved by radioisotopic techniques.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -1159,7 +1159,7 @@ const allQuestions = [
 {
   id: 90,
   topic: "Early Experiments",
-  q: "<b>Assertion (A):</b> Engelmann's action spectrum of photosynthesis matches the absorption spectrum of chlorophyll a and b.<br><b>Reason (R):</b> Maximum photosynthesis occurs in the wavelengths maximally absorbed by chlorophyll.",
+  q: "<b>Assertion (A):</b> Engelmann's action spectrum of photosynthesis matches the absorption spectrum of chlorophyll a and b.<br><br><b>Reason (R):</b> Maximum photosynthesis occurs in the wavelengths maximally absorbed by chlorophyll.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -1263,7 +1263,7 @@ const allQuestions = [
 {
   id: 98,
   topic: "Early Experiments",
-  q: "<b>Assertion (A):</b> In the overall equation of photosynthesis, 12 molecules of water are used as substrate.<br><b>Reason (R):</b> Water serves as the hydrogen donor and the source of all O₂ released during photosynthesis.",
+  q: "<b>Assertion (A):</b> In the overall equation of photosynthesis, 12 molecules of water are used as substrate.<br><br><b>Reason (R):</b> Water serves as the hydrogen donor and the source of all O₂ released during photosynthesis.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -1394,7 +1394,7 @@ const allQuestions = [
 {
   id: 108,
   topic: "Where Does Photosynthesis Take Place?",
-  q: "<b>Assertion (A):</b> Dark reactions occur in darkness.<br><b>Reason (R):</b> Dark reactions are not directly driven by light.",
+  q: "<b>Assertion (A):</b> Dark reactions occur in darkness.<br><br><b>Reason (R):</b> Dark reactions are not directly driven by light.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -1459,7 +1459,7 @@ const allQuestions = [
 {
   id: 113,
   topic: "Where Does Photosynthesis Take Place?",
-  q: "<b>Assertion (A):</b> There is a clear division of labour within the chloroplast.<br><b>Reason (R):</b> The membrane system traps light and synthesises ATP and NADPH, while the stroma carries out enzymatic sugar synthesis.",
+  q: "<b>Assertion (A):</b> There is a clear division of labour within the chloroplast.<br><br><b>Reason (R):</b> The membrane system traps light and synthesises ATP and NADPH, while the stroma carries out enzymatic sugar synthesis.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -1550,7 +1550,7 @@ const allQuestions = [
 {
   id: 120,
   topic: "Where Does Photosynthesis Take Place?",
-  q: "<b>Assertion (A):</b> Chloroplasts align along the walls of mesophyll cells.<br><b>Reason (R):</b> This alignment helps chloroplasts get optimum quantity of incident light.",
+  q: "<b>Assertion (A):</b> Chloroplasts align along the walls of mesophyll cells.<br><br><b>Reason (R):</b> This alignment helps chloroplasts get optimum quantity of incident light.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -1641,7 +1641,7 @@ const allQuestions = [
 {
   id: 127,
   topic: "Where Does Photosynthesis Take Place?",
-  q: "<b>Assertion (A):</b> Photosynthesis occurs only in the leaves of plants.<br><b>Reason (R):</b> Only leaves contain mesophyll cells with chloroplasts.",
+  q: "<b>Assertion (A):</b> Photosynthesis occurs only in the leaves of plants.<br><br><b>Reason (R):</b> Only leaves contain mesophyll cells with chloroplasts.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -1889,7 +1889,7 @@ const allQuestions = [
 {
   id: 146,
   topic: "Photosynthetic Pigments",
-  q: "<b>Assertion (A):</b> Chlorophyll a is the chief pigment associated with photosynthesis.<br><b>Reason (R):</b> The absorption spectrum of chlorophyll a closely matches the action spectrum of photosynthesis.",
+  q: "<b>Assertion (A):</b> Chlorophyll a is the chief pigment associated with photosynthesis.<br><br><b>Reason (R):</b> The absorption spectrum of chlorophyll a closely matches the action spectrum of photosynthesis.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -1954,7 +1954,7 @@ const allQuestions = [
 {
   id: 151,
   topic: "Photosynthetic Pigments",
-  q: "<b>Assertion (A):</b> Carotenoids protect chlorophyll a from photo-oxidation.<br><b>Reason (R):</b> Carotenoids are accessory pigments located in thylakoid membranes.",
+  q: "<b>Assertion (A):</b> Carotenoids protect chlorophyll a from photo-oxidation.<br><br><b>Reason (R):</b> Carotenoids are accessory pigments located in thylakoid membranes.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -2045,7 +2045,7 @@ const allQuestions = [
 {
   id: 158,
   topic: "Photosynthetic Pigments",
-  q: "<b>Assertion (A):</b> Accessory pigments enable a wider range of wavelengths to be utilised for photosynthesis.<br><b>Reason (R):</b> Accessory pigments absorb light at wavelengths not efficiently absorbed by chlorophyll a and transfer that energy to chlorophyll a.",
+  q: "<b>Assertion (A):</b> Accessory pigments enable a wider range of wavelengths to be utilised for photosynthesis.<br><br><b>Reason (R):</b> Accessory pigments absorb light at wavelengths not efficiently absorbed by chlorophyll a and transfer that energy to chlorophyll a.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -2123,7 +2123,7 @@ const allQuestions = [
 {
   id: 164,
   topic: "Photosynthetic Pigments",
-  q: "<b>Assertion (A):</b> The colour of leaves is due to a single pigment — chlorophyll.<br><b>Reason (R):</b> Chromatographic separation reveals only one green band from leaf extract.",
+  q: "<b>Assertion (A):</b> The colour of leaves is due to a single pigment — chlorophyll.<br><br><b>Reason (R):</b> Chromatographic separation reveals only one green band from leaf extract.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -2214,7 +2214,7 @@ const allQuestions = [
 {
   id: 171,
   topic: "Photosynthetic Pigments",
-  q: "<b>Assertion (A):</b> The action spectrum of photosynthesis is broader than the absorption spectrum of chlorophyll a alone.<br><b>Reason (R):</b> Accessory pigments absorb light at wavelengths not efficiently absorbed by chlorophyll a and contribute to photosynthesis.",
+  q: "<b>Assertion (A):</b> The action spectrum of photosynthesis is broader than the absorption spectrum of chlorophyll a alone.<br><br><b>Reason (R):</b> Accessory pigments absorb light at wavelengths not efficiently absorbed by chlorophyll a and contribute to photosynthesis.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -2345,7 +2345,7 @@ const allQuestions = [
 {
   id: 181,
   topic: "What is Light Reaction?",
-  q: "<b>Assertion (A):</b> PS I functions before PS II during the light reaction.<br><b>Reason (R):</b> PS I was discovered before PS II.",
+  q: "<b>Assertion (A):</b> PS I functions before PS II during the light reaction.<br><br><b>Reason (R):</b> PS I was discovered before PS II.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -2475,7 +2475,7 @@ const allQuestions = [
 {
   id: 191,
   topic: "What is Light Reaction?",
-  q: "<b>Assertion (A):</b> The reaction centre is different in both photosystems.<br><b>Reason (R):</b> PS I has P700 while PS II has P680 as their reaction centre chlorophyll a.",
+  q: "<b>Assertion (A):</b> The reaction centre is different in both photosystems.<br><br><b>Reason (R):</b> PS I has P700 while PS II has P680 as their reaction centre chlorophyll a.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -2709,7 +2709,7 @@ const allQuestions = [
 {
   id: 209,
   topic: "The Electron Transport",
-  q: "<b>Assertion (A):</b> The Z scheme involves both uphill and downhill movement of electrons.<br><b>Reason (R):</b> Light energy is used to push electrons uphill at PS II and PS I, while they move downhill through the electron transport chain.",
+  q: "<b>Assertion (A):</b> The Z scheme involves both uphill and downhill movement of electrons.<br><br><b>Reason (R):</b> Light energy is used to push electrons uphill at PS II and PS I, while they move downhill through the electron transport chain.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -2748,7 +2748,7 @@ const allQuestions = [
 {
   id: 212,
   topic: "The Electron Transport",
-  q: "<b>Assertion (A):</b> Electrons in the Z scheme start from PS I and end at PS II.<br><b>Reason (R):</b> PS I was discovered before PS II.",
+  q: "<b>Assertion (A):</b> Electrons in the Z scheme start from PS I and end at PS II.<br><br><b>Reason (R):</b> PS I was discovered before PS II.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -2800,7 +2800,7 @@ const allQuestions = [
 {
   id: 216,
   topic: "What is Light Reaction?",
-  q: "<b>Assertion (A):</b> The antennae system of a photosystem consists of all pigment molecules including the reaction centre chlorophyll a.<br><b>Reason (R):</b> All pigments in a photosystem function as light harvesting molecules.",
+  q: "<b>Assertion (A):</b> The antennae system of a photosystem consists of all pigment molecules including the reaction centre chlorophyll a.<br><br><b>Reason (R):</b> All pigments in a photosystem function as light harvesting molecules.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -2891,7 +2891,7 @@ const allQuestions = [
 {
   id: 223,
   topic: "The Electron Transport",
-  q: "<b>Assertion (A):</b> NADPH is produced only in the Z scheme of non-cyclic electron transport.<br><b>Reason (R):</b> Electrons from PS I are finally passed to NADP⁺ reducing it to NADPH + H⁺.",
+  q: "<b>Assertion (A):</b> NADPH is produced only in the Z scheme of non-cyclic electron transport.<br><br><b>Reason (R):</b> Electrons from PS I are finally passed to NADP⁺ reducing it to NADPH + H⁺.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -3008,7 +3008,7 @@ const allQuestions = [
 {
   id: 232,
   topic: "The Electron Transport",
-  q: "<b>Assertion (A):</b> The electrons are used up as they pass through the electron transport chain.<br><b>Reason (R):</b> Electrons lose all their energy while moving through cytochromes.",
+  q: "<b>Assertion (A):</b> The electrons are used up as they pass through the electron transport chain.<br><br><b>Reason (R):</b> Electrons lose all their energy while moving through cytochromes.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -3165,7 +3165,7 @@ const allQuestions = [
 {
   id: 244,
   topic: "Splitting of Water",
-  q: "<b>Assertion (A):</b> Oxygen is produced during the light reactions of photosynthesis.<br><b>Reason (R):</b> Oxygen is released as a result of splitting of water associated with PS II.",
+  q: "<b>Assertion (A):</b> Oxygen is produced during the light reactions of photosynthesis.<br><br><b>Reason (R):</b> Oxygen is released as a result of splitting of water associated with PS II.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -3230,7 +3230,7 @@ const allQuestions = [
 {
   id: 249,
   topic: "Splitting of Water",
-  q: "<b>Assertion (A):</b> PS II continuously requires a supply of electrons.<br><b>Reason (R):</b> The excited electrons from PS II are passed to the electron transport chain and need to be replaced.",
+  q: "<b>Assertion (A):</b> PS II continuously requires a supply of electrons.<br><br><b>Reason (R):</b> The excited electrons from PS II are passed to the electron transport chain and need to be replaced.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -3425,7 +3425,7 @@ const allQuestions = [
 {
   id: 264,
   topic: "Cyclic and Non-cyclic Photo-phosphorylation",
-  q: "<b>Assertion (A):</b> Cyclic photophosphorylation does not produce NADPH + H⁺.<br><b>Reason (R):</b> In cyclic flow, the excited electron does not pass to NADP⁺ but is cycled back to PS I.",
+  q: "<b>Assertion (A):</b> Cyclic photophosphorylation does not produce NADPH + H⁺.<br><br><b>Reason (R):</b> In cyclic flow, the excited electron does not pass to NADP⁺ but is cycled back to PS I.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -3490,7 +3490,7 @@ const allQuestions = [
 {
   id: 269,
   topic: "Cyclic and Non-cyclic Photo-phosphorylation",
-  q: "<b>Assertion (A):</b> Cyclic photophosphorylation possibly occurs in stroma lamellae.<br><b>Reason (R):</b> Stroma lamellae lack PS II and NADP reductase enzyme.",
+  q: "<b>Assertion (A):</b> Cyclic photophosphorylation possibly occurs in stroma lamellae.<br><br><b>Reason (R):</b> Stroma lamellae lack PS II and NADP reductase enzyme.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -3568,7 +3568,7 @@ const allQuestions = [
 {
   id: 275,
   topic: "Splitting of Water",
-  q: "<b>Assertion (A):</b> Water splitting releases protons into the thylakoid lumen.<br><b>Reason (R):</b> The water splitting complex is located on the inner side of the thylakoid membrane.",
+  q: "<b>Assertion (A):</b> Water splitting releases protons into the thylakoid lumen.<br><br><b>Reason (R):</b> The water splitting complex is located on the inner side of the thylakoid membrane.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -3659,7 +3659,7 @@ const allQuestions = [
 {
   id: 282,
   topic: "Cyclic and Non-cyclic Photo-phosphorylation",
-  q: "<b>Assertion (A):</b> In cyclic photophosphorylation, water is not split.<br><b>Reason (R):</b> PS II, which is associated with water splitting, is not involved in cyclic photophosphorylation.",
+  q: "<b>Assertion (A):</b> In cyclic photophosphorylation, water is not split.<br><br><b>Reason (R):</b> PS II, which is associated with water splitting, is not involved in cyclic photophosphorylation.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -3763,7 +3763,7 @@ const allQuestions = [
 {
   id: 290,
   topic: "Cyclic and Non-cyclic Photo-phosphorylation",
-  q: "<b>Assertion (A):</b> Non-cyclic photophosphorylation cannot occur in stroma lamellae.<br><b>Reason (R):</b> Stroma lamellae lack PS II and NADP reductase enzyme, both essential for non-cyclic flow.",
+  q: "<b>Assertion (A):</b> Non-cyclic photophosphorylation cannot occur in stroma lamellae.<br><br><b>Reason (R):</b> Stroma lamellae lack PS II and NADP reductase enzyme, both essential for non-cyclic flow.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -3854,7 +3854,7 @@ const allQuestions = [
 {
   id: 297,
   topic: "Cyclic and Non-cyclic Photo-phosphorylation",
-  q: "<b>Assertion (A):</b> In cyclic electron flow, no O₂ is evolved.<br><b>Reason (R):</b> Cyclic electron flow does not involve water splitting as PS II is not involved.",
+  q: "<b>Assertion (A):</b> In cyclic electron flow, no O₂ is evolved.<br><br><b>Reason (R):</b> Cyclic electron flow does not involve water splitting as PS II is not involved.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -4115,7 +4115,7 @@ const allQuestions = [
 {
   id: 317,
   topic: "Chemiosmotic Hypothesis",
-  q: "<b>Assertion (A):</b> The pH of the thylakoid lumen is lower than the pH of the stroma.<br><b>Reason (R):</b> Protons accumulate in the lumen due to water splitting, electron transport, and NADP⁺ reduction.",
+  q: "<b>Assertion (A):</b> The pH of the thylakoid lumen is lower than the pH of the stroma.<br><br><b>Reason (R):</b> Protons accumulate in the lumen due to water splitting, electron transport, and NADP⁺ reduction.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -4219,7 +4219,7 @@ const allQuestions = [
 {
   id: 325,
   topic: "Chemiosmotic Hypothesis",
-  q: "<b>Assertion (A):</b> ATP is synthesised when protons flow from the lumen to the stroma through ATP synthase.<br><b>Reason (R):</b> The conformational change in CF₁ caused by proton flow activates the enzyme to synthesise ATP.",
+  q: "<b>Assertion (A):</b> ATP is synthesised when protons flow from the lumen to the stroma through ATP synthase.<br><br><b>Reason (R):</b> The conformational change in CF₁ caused by proton flow activates the enzyme to synthesise ATP.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -4323,7 +4323,7 @@ const allQuestions = [
 {
   id: 333,
   topic: "Chemiosmotic Hypothesis",
-  q: "<b>Assertion (A):</b> Both photosynthesis and respiration use chemiosmosis for ATP synthesis.<br><b>Reason (R):</b> In both processes, a proton gradient is created across a membrane and ATP synthase uses this gradient.",
+  q: "<b>Assertion (A):</b> Both photosynthesis and respiration use chemiosmosis for ATP synthesis.<br><br><b>Reason (R):</b> In both processes, a proton gradient is created across a membrane and ATP synthase uses this gradient.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -4388,7 +4388,7 @@ const allQuestions = [
 {
   id: 338,
   topic: "Chemiosmotic Hypothesis",
-  q: "<b>Assertion (A):</b> The proton gradient in chloroplasts is created with higher H⁺ concentration in the lumen.<br><b>Reason (R):</b> In mitochondria, the proton gradient has higher H⁺ concentration in the matrix.",
+  q: "<b>Assertion (A):</b> The proton gradient in chloroplasts is created with higher H⁺ concentration in the lumen.<br><br><b>Reason (R):</b> In mitochondria, the proton gradient has higher H⁺ concentration in the matrix.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -4492,7 +4492,7 @@ const allQuestions = [
 {
   id: 346,
   topic: "Chemiosmotic Hypothesis",
-  q: "<b>Assertion (A):</b> NADP reductase activity contributes to the proton gradient.<br><b>Reason (R):</b> NADP reductase removes protons from the stroma for NADP⁺ reduction, decreasing stroma H⁺ concentration.",
+  q: "<b>Assertion (A):</b> NADP reductase activity contributes to the proton gradient.<br><br><b>Reason (R):</b> NADP reductase removes protons from the stroma for NADP⁺ reduction, decreasing stroma H⁺ concentration.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -4623,7 +4623,7 @@ const allQuestions = [
 {
   id: 356,
   topic: "Where Are ATP and NADPH Used?",
-  q: "<b>Assertion (A):</b> The biosynthetic phase stops after some time when light is removed.<br><b>Reason (R):</b> Without light, ATP and NADPH supply from light reactions ceases, and the biosynthetic phase cannot continue without them.",
+  q: "<b>Assertion (A):</b> The biosynthetic phase stops after some time when light is removed.<br><br><b>Reason (R):</b> Without light, ATP and NADPH supply from light reactions ceases, and the biosynthetic phase cannot continue without them.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -4792,7 +4792,7 @@ const allQuestions = [
 {
   id: 369,
   topic: "Where Are ATP and NADPH Used?",
-  q: "<b>Assertion (A):</b> Calvin used radioactive ¹⁴C to trace the path of carbon during photosynthesis.<br><b>Reason (R):</b> Radioactive isotopes can be tracked through metabolic pathways to identify intermediate products.",
+  q: "<b>Assertion (A):</b> Calvin used radioactive ¹⁴C to trace the path of carbon during photosynthesis.<br><br><b>Reason (R):</b> Radioactive isotopes can be tracked through metabolic pathways to identify intermediate products.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -4857,7 +4857,7 @@ const allQuestions = [
 {
   id: 374,
   topic: "Where Are ATP and NADPH Used?",
-  q: "<b>Assertion (A):</b> PGA is a 3-carbon compound and OAA is a 4-carbon compound.<br><b>Reason (R):</b> PGA is the first product of the C₄ pathway and OAA is the first product of the C₃ pathway.",
+  q: "<b>Assertion (A):</b> PGA is a 3-carbon compound and OAA is a 4-carbon compound.<br><br><b>Reason (R):</b> PGA is the first product of the C₄ pathway and OAA is the first product of the C₃ pathway.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -4948,7 +4948,7 @@ const allQuestions = [
 {
   id: 381,
   topic: "Where Are ATP and NADPH Used?",
-  q: "<b>Assertion (A):</b> The discovery of C₃ and C₄ pathways showed that not all plants fix CO₂ in the same way.<br><b>Reason (R):</b> In C₃ plants, PGA is the first product, while in C₄ plants, OAA is the first stable product.",
+  q: "<b>Assertion (A):</b> The discovery of C₃ and C₄ pathways showed that not all plants fix CO₂ in the same way.<br><br><b>Reason (R):</b> In C₃ plants, PGA is the first product, while in C₄ plants, OAA is the first stable product.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -5000,7 +5000,7 @@ const allQuestions = [
 {
   id: 385,
   topic: "Where Are ATP and NADPH Used?",
-  q: "<b>Assertion (A):</b> 'Dark reaction' is a misnomer for the biosynthetic phase.<br><b>Reason (R):</b> The biosynthetic phase depends on ATP and NADPH produced only during light reactions and cannot continue indefinitely in the dark.",
+  q: "<b>Assertion (A):</b> 'Dark reaction' is a misnomer for the biosynthetic phase.<br><br><b>Reason (R):</b> The biosynthetic phase depends on ATP and NADPH produced only during light reactions and cannot continue indefinitely in the dark.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -5144,7 +5144,7 @@ const allQuestions = [
 {
   id: 396,
   topic: "The Primary Acceptor of CO₂",
-  q: "<b>Assertion (A):</b> Scientists expected the primary CO₂ acceptor to be a 2-carbon compound.<br><b>Reason (R):</b> Since the first product (PGA) had 3 carbons, adding 1 carbon from CO₂ to a 2-carbon compound would logically produce a 3-carbon product.",
+  q: "<b>Assertion (A):</b> Scientists expected the primary CO₂ acceptor to be a 2-carbon compound.<br><br><b>Reason (R):</b> Since the first product (PGA) had 3 carbons, adding 1 carbon from CO₂ to a 2-carbon compound would logically produce a 3-carbon product.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -5274,7 +5274,7 @@ const allQuestions = [
 {
   id: 406,
   topic: "The Calvin Cycle",
-  q: "<b>Assertion (A):</b> RuBisCO is more correctly called RuBP carboxylase-oxygenase.<br><b>Reason (R):</b> The enzyme has both carboxylation and oxygenation activities.",
+  q: "<b>Assertion (A):</b> RuBisCO is more correctly called RuBP carboxylase-oxygenase.<br><br><b>Reason (R):</b> The enzyme has both carboxylation and oxygenation activities.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -5417,7 +5417,7 @@ const allQuestions = [
 {
   id: 417,
   topic: "The Calvin Cycle",
-  q: "<b>Assertion (A):</b> Cyclic photophosphorylation is important for the Calvin cycle.<br><b>Reason (R):</b> The Calvin cycle requires more ATP than NADPH per CO₂ fixed, and cyclic photophosphorylation supplies the extra ATP.",
+  q: "<b>Assertion (A):</b> Cyclic photophosphorylation is important for the Calvin cycle.<br><br><b>Reason (R):</b> The Calvin cycle requires more ATP than NADPH per CO₂ fixed, and cyclic photophosphorylation supplies the extra ATP.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -5508,7 +5508,7 @@ const allQuestions = [
 {
   id: 424,
   topic: "The Calvin Cycle",
-  q: "<b>Assertion (A):</b> The Calvin cycle is a cyclic pathway.<br><b>Reason (R):</b> RuBP, the CO₂ acceptor, is regenerated at the end of each turn of the cycle.",
+  q: "<b>Assertion (A):</b> The Calvin cycle is a cyclic pathway.<br><br><b>Reason (R):</b> RuBP, the CO₂ acceptor, is regenerated at the end of each turn of the cycle.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -5612,7 +5612,7 @@ const allQuestions = [
 {
   id: 432,
   topic: "The Calvin Cycle",
-  q: "<b>Assertion (A):</b> RuBP regeneration is crucial for the Calvin cycle.<br><b>Reason (R):</b> Without RuBP, CO₂ cannot be fixed and the cycle would stop.",
+  q: "<b>Assertion (A):</b> RuBP regeneration is crucial for the Calvin cycle.<br><br><b>Reason (R):</b> Without RuBP, CO₂ cannot be fixed and the cycle would stop.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -5703,7 +5703,7 @@ const allQuestions = [
 {
   id: 439,
   topic: "The Primary Acceptor of CO₂",
-  q: "<b>Assertion (A):</b> The discovery that RuBP (5C) is the primary CO₂ acceptor was unexpected.<br><b>Reason (R):</b> Scientists had spent many years trying to identify a 2-carbon compound as the acceptor.",
+  q: "<b>Assertion (A):</b> The discovery that RuBP (5C) is the primary CO₂ acceptor was unexpected.<br><br><b>Reason (R):</b> Scientists had spent many years trying to identify a 2-carbon compound as the acceptor.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -5820,7 +5820,7 @@ const allQuestions = [
 {
   id: 448,
   topic: "The Calvin Cycle",
-  q: "<b>Assertion (A):</b> The Calvin cycle occurs in C₄ plants as well.<br><b>Reason (R):</b> C₄ plants use the C₄ pathway only as an additional CO₂ concentration mechanism, but the actual CO₂ fixation into sugars occurs via the Calvin cycle.",
+  q: "<b>Assertion (A):</b> The Calvin cycle occurs in C₄ plants as well.<br><br><b>Reason (R):</b> C₄ plants use the C₄ pathway only as an additional CO₂ concentration mechanism, but the actual CO₂ fixation into sugars occurs via the Calvin cycle.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -6068,7 +6068,7 @@ const allQuestions = [
 {
   id: 467,
   topic: "C₄ Pathway",
-  q: "<b>Assertion (A):</b> The mesophyll cells of C₄ plants lack RuBisCO enzyme.<br><b>Reason (R):</b> In C₄ plants, the initial CO₂ fixation in mesophyll cells is catalysed by PEPcase, not RuBisCO.",
+  q: "<b>Assertion (A):</b> The mesophyll cells of C₄ plants lack RuBisCO enzyme.<br><br><b>Reason (R):</b> In C₄ plants, the initial CO₂ fixation in mesophyll cells is catalysed by PEPcase, not RuBisCO.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -6211,7 +6211,7 @@ const allQuestions = [
 {
   id: 478,
   topic: "C₄ Pathway",
-  q: "<b>Assertion (A):</b> The Calvin pathway is common to both C₃ and C₄ plants.<br><b>Reason (R):</b> The Calvin pathway is the main biosynthetic pathway that produces sugars in all photosynthetic plants.",
+  q: "<b>Assertion (A):</b> The Calvin pathway is common to both C₃ and C₄ plants.<br><br><b>Reason (R):</b> The Calvin pathway is the main biosynthetic pathway that produces sugars in all photosynthetic plants.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -6393,7 +6393,7 @@ const allQuestions = [
 {
   id: 492,
   topic: "Photorespiration",
-  q: "<b>Assertion (A):</b> Photorespiration is a wasteful process.<br><b>Reason (R):</b> In photorespiration, neither sugars nor ATP are synthesised, and CO₂ is released with utilisation of ATP.",
+  q: "<b>Assertion (A):</b> Photorespiration is a wasteful process.<br><br><b>Reason (R):</b> In photorespiration, neither sugars nor ATP are synthesised, and CO₂ is released with utilisation of ATP.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -6458,7 +6458,7 @@ const allQuestions = [
 {
   id: 497,
   topic: "Photorespiration",
-  q: "<b>Assertion (A):</b> C₄ plants have greater productivity and yields than C₃ plants.<br><b>Reason (R):</b> C₄ plants lack photorespiration, so there is no wasteful loss of CO₂ and ATP.",
+  q: "<b>Assertion (A):</b> C₄ plants have greater productivity and yields than C₃ plants.<br><br><b>Reason (R):</b> C₄ plants lack photorespiration, so there is no wasteful loss of CO₂ and ATP.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -6562,7 +6562,7 @@ const allQuestions = [
 {
   id: 505,
   topic: "C₄ Pathway",
-  q: "<b>Assertion (A):</b> Bundle sheath cells in C₄ plants have no intercellular spaces.<br><b>Reason (R):</b> This prevents CO₂ from leaking out, maintaining high concentration for RuBisCO to function as carboxylase.",
+  q: "<b>Assertion (A):</b> Bundle sheath cells in C₄ plants have no intercellular spaces.<br><br><b>Reason (R):</b> This prevents CO₂ from leaking out, maintaining high concentration for RuBisCO to function as carboxylase.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -6666,7 +6666,7 @@ const allQuestions = [
 {
   id: 513,
   topic: "Photorespiration",
-  q: "<b>Assertion (A):</b> C₄ plants show tolerance to higher temperatures.<br><b>Reason (R):</b> At higher temperatures, the oxygenase activity of RuBisCO increases, but C₄ plants overcome this through their CO₂ concentrating mechanism.",
+  q: "<b>Assertion (A):</b> C₄ plants show tolerance to higher temperatures.<br><br><b>Reason (R):</b> At higher temperatures, the oxygenase activity of RuBisCO increases, but C₄ plants overcome this through their CO₂ concentrating mechanism.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -6731,7 +6731,7 @@ const allQuestions = [
 {
   id: 518,
   topic: "C₄ Pathway and Photorespiration",
-  q: "<b>Assertion (A):</b> In C₄ plants, the mesophyll cells lack RuBisCO while bundle sheath cells lack PEPcase.<br><b>Reason (R):</b> This spatial separation of enzymes ensures that initial CO₂ fixation occurs in mesophyll cells and the Calvin cycle in bundle sheath cells.",
+  q: "<b>Assertion (A):</b> In C₄ plants, the mesophyll cells lack RuBisCO while bundle sheath cells lack PEPcase.<br><br><b>Reason (R):</b> This spatial separation of enzymes ensures that initial CO₂ fixation occurs in mesophyll cells and the Calvin cycle in bundle sheath cells.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -6875,7 +6875,7 @@ const allQuestions = [
 {
   id: 529,
   topic: "Factors Affecting Photosynthesis",
-  q: "<b>Assertion (A):</b> Even when light and CO₂ are optimal, photosynthesis may not occur if temperature is very low.<br><b>Reason (R):</b> According to Blackman's Law, the factor nearest to its minimal value limits the rate of the process.",
+  q: "<b>Assertion (A):</b> Even when light and CO₂ are optimal, photosynthesis may not occur if temperature is very low.<br><br><b>Reason (R):</b> According to Blackman's Law, the factor nearest to its minimal value limits the rate of the process.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -6979,7 +6979,7 @@ const allQuestions = [
 {
   id: 537,
   topic: "Factors Affecting Photosynthesis",
-  q: "<b>Assertion (A):</b> Very high light intensity decreases photosynthesis.<br><b>Reason (R):</b> Excessive light causes breakdown of chlorophyll (photo-oxidation).",
+  q: "<b>Assertion (A):</b> Very high light intensity decreases photosynthesis.<br><br><b>Reason (R):</b> Excessive light causes breakdown of chlorophyll (photo-oxidation).",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -7122,7 +7122,7 @@ const allQuestions = [
 {
   id: 548,
   topic: "Factors Affecting Photosynthesis",
-  q: "<b>Assertion (A):</b> Growing C₃ crops in CO₂-enriched greenhouses increases their yield.<br><b>Reason (R):</b> C₃ plants respond to higher CO₂ concentration by showing increased rates of photosynthesis.",
+  q: "<b>Assertion (A):</b> Growing C₃ crops in CO₂-enriched greenhouses increases their yield.<br><br><b>Reason (R):</b> C₃ plants respond to higher CO₂ concentration by showing increased rates of photosynthesis.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -7187,7 +7187,7 @@ const allQuestions = [
 {
   id: 553,
   topic: "Factors Affecting Photosynthesis",
-  q: "<b>Assertion (A):</b> C₃ plants have a lower temperature optimum for photosynthesis than C₄ plants.<br><b>Reason (R):</b> C₃ plants undergo photorespiration at higher temperatures, reducing net photosynthesis.",
+  q: "<b>Assertion (A):</b> C₃ plants have a lower temperature optimum for photosynthesis than C₄ plants.<br><br><b>Reason (R):</b> C₃ plants undergo photorespiration at higher temperatures, reducing net photosynthesis.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -7265,7 +7265,7 @@ const allQuestions = [
 {
   id: 559,
   topic: "Factors Affecting Photosynthesis",
-  q: "<b>Assertion (A):</b> Water is a reactant in light reactions, yet its main effect on photosynthesis is indirect.<br><b>Reason (R):</b> Water stress mainly affects photosynthesis by causing stomatal closure and leaf wilting, rather than by directly limiting the light reaction.",
+  q: "<b>Assertion (A):</b> Water is a reactant in light reactions, yet its main effect on photosynthesis is indirect.<br><br><b>Reason (R):</b> Water stress mainly affects photosynthesis by causing stomatal closure and leaf wilting, rather than by directly limiting the light reaction.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -7343,7 +7343,7 @@ const allQuestions = [
 {
   id: 565,
   topic: "Factors Affecting Photosynthesis",
-  q: "<b>Assertion (A):</b> C₄ plants reach CO₂ saturation at a lower concentration than C₃ plants.<br><b>Reason (R):</b> C₄ plants have a CO₂ concentrating mechanism that maintains high CO₂ at the RuBisCO site.",
+  q: "<b>Assertion (A):</b> C₄ plants reach CO₂ saturation at a lower concentration than C₃ plants.<br><br><b>Reason (R):</b> C₄ plants have a CO₂ concentrating mechanism that maintains high CO₂ at the RuBisCO site.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -7434,7 +7434,7 @@ const allQuestions = [
 {
   id: 572,
   topic: "Factors Affecting Photosynthesis",
-  q: "<b>Assertion (A):</b> Several factors simultaneously affect photosynthesis.<br><b>Reason (R):</b> According to Blackman's Law, the rate is determined by the factor nearest to its minimal value.",
+  q: "<b>Assertion (A):</b> Several factors simultaneously affect photosynthesis.<br><br><b>Reason (R):</b> According to Blackman's Law, the rate is determined by the factor nearest to its minimal value.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -7538,7 +7538,7 @@ const allQuestions = [
 {
   id: 580,
   topic: "Factors Affecting Photosynthesis",
-  q: "<b>Assertion (A):</b> Light saturation for photosynthesis occurs at 10% of full sunlight.<br><b>Reason (R):</b> At 10% sunlight, other factors like CO₂ become limiting and the rate cannot increase further.",
+  q: "<b>Assertion (A):</b> Light saturation for photosynthesis occurs at 10% of full sunlight.<br><br><b>Reason (R):</b> At 10% sunlight, other factors like CO₂ become limiting and the rate cannot increase further.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -7851,7 +7851,7 @@ const allQuestions = [
 {
   id: 604,
   topic: "Summary",
-  q: "<b>Assertion (A):</b> Photorespiration is described as a 'wasteful' reaction.<br><b>Reason (R):</b> Photorespiration releases CO₂ and consumes ATP without producing sugars or ATP.",
+  q: "<b>Assertion (A):</b> Photorespiration is described as a 'wasteful' reaction.<br><br><b>Reason (R):</b> Photorespiration releases CO₂ and consumes ATP without producing sugars or ATP.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -7916,7 +7916,7 @@ const allQuestions = [
 {
   id: 609,
   topic: "Summary",
-  q: "<b>Assertion (A):</b> The Calvin pathway is common to both C₃ and C₄ plants.<br><b>Reason (R):</b> In C₄ plants, the Calvin pathway occurs in bundle sheath cells, while in C₃ plants it occurs in mesophyll cells.",
+  q: "<b>Assertion (A):</b> The Calvin pathway is common to both C₃ and C₄ plants.<br><br><b>Reason (R):</b> In C₄ plants, the Calvin pathway occurs in bundle sheath cells, while in C₃ plants it occurs in mesophyll cells.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -7994,7 +7994,7 @@ const allQuestions = [
 {
   id: 615,
   topic: "Summary",
-  q: "<b>Assertion (A):</b> Mesophyll cells have a large number of chloroplasts.<br><b>Reason (R):</b> Chloroplasts are responsible for CO₂ fixation during photosynthesis.",
+  q: "<b>Assertion (A):</b> Mesophyll cells have a large number of chloroplasts.<br><br><b>Reason (R):</b> Chloroplasts are responsible for CO₂ fixation during photosynthesis.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -8098,7 +8098,7 @@ const allQuestions = [
 {
   id: 623,
   topic: "Summary",
-  q: "<b>Assertion (A):</b> The C₄ pathway is a special type of photosynthesis found in some tropical plants.<br><b>Reason (R):</b> In C₄ plants, the first product of CO₂ fixation is a 4-carbon compound formed in mesophyll cells.",
+  q: "<b>Assertion (A):</b> The C₄ pathway is a special type of photosynthesis found in some tropical plants.<br><br><b>Reason (R):</b> In C₄ plants, the first product of CO₂ fixation is a 4-carbon compound formed in mesophyll cells.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",

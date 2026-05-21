@@ -7,7 +7,7 @@ const CHAPTERS = [
 
     // ══════════════ CLASS XI ══════════════
     {
-        id: "living_world",
+        id: "living_world", chNumber: 1,
         class: "11th",
         unit: "Unit I",
         emoji: "🌍",
@@ -18,7 +18,7 @@ const CHAPTERS = [
         status: "available"
     },
     {
-        id: "bio_classification",
+        id: "bio_classification", chNumber: 2,
         class: "11th",
         unit: "Unit I",
         emoji: "🔬",
@@ -29,29 +29,29 @@ const CHAPTERS = [
         status: "available"
     },
     {
-        id: "plant_kingdom",
+        id: "plant_kingdom", chNumber: 3,
         class: "11th",
         unit: "Unit I",
         emoji: "🌱",
         name: "Plant Kingdom",
         file: "questions_plant_kingdom.js",
         questionCount: 316,
-        topics: ["Introduction – Plant Kingdom","Algae","Bryophytes","Pteridophytes","Gymnosperms","Gymnosperm Reproduction","Plant Kingdom Summary – Comparative"],
+        topics: ["Introduction – Plant Kingdom","Algae","Bryophytes","Pteridophytes","Gymnosperms","Gymnosperm Reproduction","Angiosperms","Plant Kingdom Summary – Comparative"],
         status: "available"
     },
     {
-        id: "morphology_flowering",
+        id: "morphology_flowering", chNumber: 5,
         class: "11th",
         unit: "Unit III",
         emoji: "🌸",
         name: "Morphology of Flowering Plants",
         file: "questions_morphology_flowering.js",
         questionCount: 502,
-        topics: ["Introduction", "Root", "Stem", "Leaf", "Flower", "Fruit", "Seed", "Semi-technical Description of a Flowering Plant", "Solanaceae"],
+        topics: ["Introduction", "The Root", "The Stem", "The Leaf", "The Inflorescence", "The Flower", "Parts of a Flower", "Androecium", "Gynoecium", "The Fruit", "The Seed", "Semi-technical Description of a Flowering Plant", "Solanaceae", "Summary"],
         status: "available"
     },
     {
-        id: "anatomy_flowering",
+        id: "anatomy_flowering", chNumber: 6,
         class: "11th",
         unit: "Unit III",
         emoji: "🔭",
@@ -76,7 +76,7 @@ const CHAPTERS = [
         status: "available"
     },
     {
-        id: "cell_unit_life",
+        id: "cell_unit_life", chNumber: 8,
         class: "11th",
         unit: "Unit IV",
         emoji: "🧫",
@@ -87,7 +87,7 @@ const CHAPTERS = [
         status: "available"
     },
     {
-        id: "cell_cycle",
+        id: "cell_cycle", chNumber: 10,
         class: "11th",
         unit: "Unit IV",
         emoji: "🔄",
@@ -98,7 +98,7 @@ const CHAPTERS = [
         status: "available"
     },
     {
-        id: "photosynthesis",
+        id: "photosynthesis", chNumber: 13,
         class: "11th",
         unit: "V",
         emoji: "☀️",
@@ -109,7 +109,7 @@ const CHAPTERS = [
         status: "available"
     },
     {
-        id: "respiration_plants",
+        id: "respiration_plants", chNumber: 14,
         class: "11th",
         unit: "V",
         emoji: "💨",
@@ -120,7 +120,7 @@ const CHAPTERS = [
         status: "available"
     },
     {
-        id: "plant_growth",
+        id: "plant_growth", chNumber: 15,
         class: "11th",
         unit: "V",
         emoji: "🌾",
@@ -133,51 +133,51 @@ const CHAPTERS = [
 
     // ══════════════ CLASS XII ══════════════
     {
-        id: "sexual_reproduction",
+        id: "sexual_reproduction", chNumber: 2,
         class: "12th",
         unit: "Unit VI",
         emoji: "🌺",
         name: "Sexual Reproduction in Flowering Plants",
         file: "questions_sexual_reproduction.js",
         questionCount: 526,
-        topics: ["Introduction", "Pre-fertilisation: Structures and Events", "The Pistil, Megasporangium (Ovule) and Embryo Sac", "Pollination", "Agents of Pollination", "Outbreeding Devices", "Pollen-Pistil Interaction", "Double Fertilisation", "Post-fertilisation: Structures and Events", "Seed", "Apomixis and Polyembryony", "Summary - Comprehensive Revision", "Cross-Concept"],
+        topics: ["Introduction", "Pre-fertilisation: Structures and Events", "The Pistil, Megasporangium (Ovule) and Embryo Sac", "Pollination", "Agents of Pollination", "Outbreeding Devices", "Pollen-Pistil Interaction", "Double Fertilisation", "Post-fertilisation: Structures and Events", "Seed", "Apomixis and Polyembryony", "HOTs", "Summary - Comprehensive Revision", "Cross-Concept"],
         status: "available"
     },
     {
-        id: "inheritance_variation",
+        id: "inheritance_variation", chNumber: 5,
         class: "12th",
         unit: "Unit VI",
         emoji: "🧪",
         name: "Principles of Inheritance and Variation",
         file: "questions_inheritance_variation.js",
         questionCount: 642,
-        topics: ["Mendel's Laws", "Dominance", "Blood Groups", "Linkage", "Mutations", "HOTs"],
+        topics: ["Introduction", "Mendel's Laws of Inheritance", "Inheritance of One Gene", "Law of Dominance", "Law of Segregation", "Incomplete Dominance", "Concept of Dominance", "Codominance", "Inheritance of Two Genes", "Law of Independent Assortment", "Chromosomal Theory of Inheritance", "Linkage and Recombination", "Polygenic Inheritance", "Pleiotropy", "Sex Determination", "Sex Determination in Humans", "Sex Determination in Honey Bee", "Mutation", "Pedigree Analysis", "Mutation and Pedigree Analysis", "Mendelian Disorders", "Chromosomal Disorders", "Summary - Comprehensive", "Numerical Genetics", "Comprehensive", "HOTs"],
         status: "available"
     },
     {
-        id: "mol_basis",
+        id: "mol_basis", chNumber: 6,
         class: "12th",
         unit: "Unit VI",
         emoji: "🧬",
         name: "Molecular Basis of Inheritance",
-        file: "questions.js",
+        file: "questions_molecular_basis.js",
         questionCount: 500,
-        topics: ["DNA Structure", "Replication", "Transcription", "Translation", "Lac Operon", "HGP", "DNA Fingerprinting"],
+        topics: ["Introduction", "The DNA", "Polynucleotide Structure", "DNA Double Helix", "Packaging of DNA", "Griffith's Experiment", "Avery et al. Experiment", "Hershey-Chase Experiment", "Properties of Genetic Material", "RNA World", "DNA Replication", "Transcription", "Genetic Code", "Mutations", "tRNA", "Translation", "Gene Regulation", "Lac Operon", "Human Genome Project", "DNA Fingerprinting", "Chapter Summary", "Gene", "Comprehensive"],
         status: "available"
     },
     {
-        id: "microbes",
+        id: "microbes", chNumber: 10,
         class: "12th",
         unit: "Unit VIII",
         emoji: "🦠",
         name: "Microbes in Human Welfare",
         file: "questions_microbes.js",
         questionCount: 276,
-        topics: ["Antibiotics", "Biogas", "Fermentation", "Sewage Treatment", "Vaccines"],
+        topics: ["Introduction", "Microbes in Household Products", "Microbes in Industrial Products – Beverages", "Antibiotics", "Chemicals, Enzymes and Other Bioactive Molecules", "Microbes in Sewage Treatment", "Microbes in Production of Biogas", "Microbes as Biocontrol Agents", "Microbes as Biofertilisers", "Chapter Summary – Comprehensive Revision"],
         status: "available"
     },
     {
-        id: "organisms_populations",
+        id: "organisms_populations", chNumber: 13,
         class: "12th",
         unit: "Unit X",
         emoji: "🐾",
@@ -188,7 +188,7 @@ const CHAPTERS = [
         status: "available"
     },
     {
-        id: "ecosystem",
+        id: "ecosystem", chNumber: 14,
         class: "12th",
         unit: "Unit X",
         emoji: "🌳",
@@ -199,7 +199,7 @@ const CHAPTERS = [
         status: "available"
     },
     {
-        id: "biodiversity",
+        id: "biodiversity", chNumber: 15,
         class: "12th",
         unit: "Unit X",
         emoji: "🌏",

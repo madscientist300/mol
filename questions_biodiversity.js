@@ -1,4 +1,4 @@
-const allQuestions = [
+var allQuestions = [
 {
   id: 1,
   topic: "Introduction to Biodiversity & Levels of Biodiversity",

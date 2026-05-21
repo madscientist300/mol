@@ -3,7 +3,7 @@
 //  Chapter: Class XI | Unit V
 // ─────────────────────────────────────────────────────────────
 
-const allQuestions = [
+var allQuestions = [
   {
     "id": 1,
     "topic": "Plant Growth and Development",
@@ -69,7 +69,7 @@ const allQuestions = [
     "topic": "Plant Growth and Development",
     "difficulty": "Medium",
     "type": "AR",
-    "q": "<b>Assertion (A):</b> All cells of a plant have different structural and functional attributes despite being descendents of the same zygote.<br><b>Reason (R):</b> Development is the sum of growth and differentiation.",
+    "q": "<b>Assertion (A):</b> All cells of a plant have different structural and functional attributes despite being descendents of the same zygote.<br><br><b>Reason (R):</b> Development is the sum of growth and differentiation.",
     "options": [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is NOT the correct explanation of A",
@@ -204,7 +204,7 @@ const allQuestions = [
     "topic": "Plant Growth and Development",
     "difficulty": "Hard",
     "type": "AR",
-    "q": "<b>Assertion (A):</b> Leaves, flowers and fruits of a tree have limited dimensions and appear and fall periodically.<br><b>Reason (R):</b> Trees continue to increase in height or girth indefinitely over a period of time.",
+    "q": "<b>Assertion (A):</b> Leaves, flowers and fruits of a tree have limited dimensions and appear and fall periodically.<br><br><b>Reason (R):</b> Trees continue to increase in height or girth indefinitely over a period of time.",
     "options": [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is NOT the correct explanation of A",
@@ -369,7 +369,7 @@ const allQuestions = [
     "topic": "Plant Growth and Development",
     "difficulty": "Medium",
     "type": "AR",
-    "q": "<b>Assertion (A):</b> Seeds go into a period of suspended growth or rest in absence of favourable conditions.<br><b>Reason (R):</b> Once favourable conditions return, seeds resume metabolic activities and growth takes place.",
+    "q": "<b>Assertion (A):</b> Seeds go into a period of suspended growth or rest in absence of favourable conditions.<br><br><b>Reason (R):</b> Once favourable conditions return, seeds resume metabolic activities and growth takes place.",
     "options": [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is NOT the correct explanation of A",
@@ -519,7 +519,7 @@ const allQuestions = [
     "topic": "Plant Growth and Development",
     "difficulty": "Medium",
     "type": "AR",
-    "q": "<b>Assertion (A):</b> Plants retain the capacity for unlimited growth throughout their life.<br><b>Reason (R):</b> Plants possess meristems at certain locations in their body whose cells have the capacity to divide and self-perpetuate.",
+    "q": "<b>Assertion (A):</b> Plants retain the capacity for unlimited growth throughout their life.<br><br><b>Reason (R):</b> Plants possess meristems at certain locations in their body whose cells have the capacity to divide and self-perpetuate.",
     "options": [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is NOT the correct explanation of A",
@@ -654,7 +654,7 @@ const allQuestions = [
     "topic": "Plant Growth and Development",
     "difficulty": "Hard",
     "type": "AR",
-    "q": "<b>Assertion (A):</b> Growth of a pollen tube is measured in terms of its length.<br><b>Reason (R):</b> Growth in a dorsiventral leaf is measured by an increase in surface area.",
+    "q": "<b>Assertion (A):</b> Growth of a pollen tube is measured in terms of its length.<br><br><b>Reason (R):</b> Growth in a dorsiventral leaf is measured by an increase in surface area.",
     "options": [
       "Both A and R are true but R is NOT the correct explanation of A",
       "Both A and R are true and R is the correct explanation of A",
@@ -819,7 +819,7 @@ const allQuestions = [
     "topic": "Plant Growth and Development",
     "difficulty": "Medium",
     "type": "AR",
-    "q": "<b>Assertion (A):</b> Swelling of a piece of wood when placed in water is not considered true growth.<br><b>Reason (R):</b> Growth is defined as an irreversible permanent increase in size.",
+    "q": "<b>Assertion (A):</b> Swelling of a piece of wood when placed in water is not considered true growth.<br><br><b>Reason (R):</b> Growth is defined as an irreversible permanent increase in size.",
     "options": [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is NOT the correct explanation of A",
@@ -969,7 +969,7 @@ const allQuestions = [
     "topic": "Phases of Growth",
     "difficulty": "Medium",
     "type": "AR",
-    "q": "<b>Assertion (A):</b> Cells in the meristematic phase possess large conspicuous nuclei.<br><b>Reason (R):</b> Meristematic cells are constantly dividing and are rich in protoplasm.",
+    "q": "<b>Assertion (A):</b> Cells in the meristematic phase possess large conspicuous nuclei.<br><br><b>Reason (R):</b> Meristematic cells are constantly dividing and are rich in protoplasm.",
     "options": [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is NOT the correct explanation of A",
@@ -1119,7 +1119,7 @@ const allQuestions = [
     "topic": "Growth Rates",
     "difficulty": "Hard",
     "type": "AR",
-    "q": "<b>Assertion (A):</b> In geometric growth, the growth slows down after the exponential phase leading to a stationary phase.<br><b>Reason (R):</b> This slowing down occurs due to limited nutrient supply.",
+    "q": "<b>Assertion (A):</b> In geometric growth, the growth slows down after the exponential phase leading to a stationary phase.<br><br><b>Reason (R):</b> This slowing down occurs due to limited nutrient supply.",
     "options": [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is NOT the correct explanation of A",
@@ -1269,7 +1269,7 @@ const allQuestions = [
     "topic": "Growth Rates",
     "difficulty": "Medium",
     "type": "AR",
-    "q": "<b>Assertion (A):</b> In arithmetic growth, when the length of an organ is plotted against time, a linear curve is obtained.<br><b>Reason (R):</b> In arithmetic growth, only one daughter cell continues to divide while the other differentiates and matures.",
+    "q": "<b>Assertion (A):</b> In arithmetic growth, when the length of an organ is plotted against time, a linear curve is obtained.<br><br><b>Reason (R):</b> In arithmetic growth, only one daughter cell continues to divide while the other differentiates and matures.",
     "options": [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is NOT the correct explanation of A",
@@ -1419,7 +1419,7 @@ const allQuestions = [
     "topic": "Growth Rates",
     "difficulty": "Medium",
     "type": "AR",
-    "q": "<b>Assertion (A):</b> A smaller leaf and a larger leaf showing the same absolute increase in area may have different relative growth rates.<br><b>Reason (R):</b> Relative growth rate is expressed per unit initial parameter.",
+    "q": "<b>Assertion (A):</b> A smaller leaf and a larger leaf showing the same absolute increase in area may have different relative growth rates.<br><br><b>Reason (R):</b> Relative growth rate is expressed per unit initial parameter.",
     "options": [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is NOT the correct explanation of A",
@@ -1569,7 +1569,7 @@ const allQuestions = [
     "topic": "Phases of Growth",
     "difficulty": "Hard",
     "type": "AR",
-    "q": "<b>Assertion (A):</b> The cells in the phase of elongation show increased vacuolation and cell enlargement.<br><b>Reason (R):</b> The elongation phase is located proximal (away from the tip) to the meristematic zone in the root tip.",
+    "q": "<b>Assertion (A):</b> The cells in the phase of elongation show increased vacuolation and cell enlargement.<br><br><b>Reason (R):</b> The elongation phase is located proximal (away from the tip) to the meristematic zone in the root tip.",
     "options": [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is NOT the correct explanation of A",
@@ -1704,7 +1704,7 @@ const allQuestions = [
     "topic": "Conditions for Growth",
     "difficulty": "Medium",
     "type": "AR",
-    "q": "<b>Assertion (A):</b> Plant growth and further development is intimately linked to the water status of the plant.<br><b>Reason (R):</b> Water is required for cell enlargement, provides turgidity for extension growth, and acts as medium for enzymatic activities.",
+    "q": "<b>Assertion (A):</b> Plant growth and further development is intimately linked to the water status of the plant.<br><br><b>Reason (R):</b> Water is required for cell enlargement, provides turgidity for extension growth, and acts as medium for enzymatic activities.",
     "options": [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is NOT the correct explanation of A",
@@ -1869,7 +1869,7 @@ const allQuestions = [
     "topic": "Differentiation",
     "difficulty": "Hard",
     "type": "AR",
-    "q": "<b>Assertion (A):</b> To form a tracheary element, cells lose their protoplasm and develop lignocellulosic secondary cell walls.<br><b>Reason (R):</b> Tracheary elements carry water to long distances even under extreme tension.",
+    "q": "<b>Assertion (A):</b> To form a tracheary element, cells lose their protoplasm and develop lignocellulosic secondary cell walls.<br><br><b>Reason (R):</b> Tracheary elements carry water to long distances even under extreme tension.",
     "options": [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is NOT the correct explanation of A",
@@ -2019,7 +2019,7 @@ const allQuestions = [
     "topic": "Open Differentiation",
     "difficulty": "Medium",
     "type": "AR",
-    "q": "<b>Assertion (A):</b> Differentiation in plants is open.<br><b>Reason (R):</b> Cells/tissues arising out of the same meristem have different structures at maturity.",
+    "q": "<b>Assertion (A):</b> Differentiation in plants is open.<br><br><b>Reason (R):</b> Cells/tissues arising out of the same meristem have different structures at maturity.",
     "options": [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is NOT the correct explanation of A",
@@ -2184,7 +2184,7 @@ const allQuestions = [
     "topic": "Differentiation, Dedifferentiation, Redifferentiation",
     "difficulty": "Hard",
     "type": "AR",
-    "q": "<b>Assertion (A):</b> Dedifferentiation is exemplified by the formation of interfascicular cambium from fully differentiated parenchyma cells.<br><b>Reason (R):</b> During dedifferentiation, living differentiated cells that have lost the capacity to divide regain the capacity of division under certain conditions.",
+    "q": "<b>Assertion (A):</b> Dedifferentiation is exemplified by the formation of interfascicular cambium from fully differentiated parenchyma cells.<br><br><b>Reason (R):</b> During dedifferentiation, living differentiated cells that have lost the capacity to divide regain the capacity of division under certain conditions.",
     "options": [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is NOT the correct explanation of A",
@@ -2289,7 +2289,7 @@ const allQuestions = [
     "topic": "Cross-Concept",
     "difficulty": "Medium",
     "type": "AR",
-    "q": "<b>Assertion (A):</b> Products of redifferentiation are cells that have lost the capacity to divide but perform specific functions.<br><b>Reason (R):</b> Redifferentiation occurs in cells produced by meristems that were formed through dedifferentiation.",
+    "q": "<b>Assertion (A):</b> Products of redifferentiation are cells that have lost the capacity to divide but perform specific functions.<br><br><b>Reason (R):</b> Redifferentiation occurs in cells produced by meristems that were formed through dedifferentiation.",
     "options": [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is NOT the correct explanation of A",
@@ -2454,7 +2454,7 @@ const allQuestions = [
     "topic": "Development",
     "difficulty": "Medium",
     "type": "AR",
-    "q": "<b>Assertion (A):</b> Heterophylly in buttercup is an example of plasticity.<br><b>Reason (R):</b> In buttercup, the difference in leaf shapes is due to environment — leaves produced in air differ from those produced in water.",
+    "q": "<b>Assertion (A):</b> Heterophylly in buttercup is an example of plasticity.<br><br><b>Reason (R):</b> In buttercup, the difference in leaf shapes is due to environment — leaves produced in air differ from those produced in water.",
     "options": [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is NOT the correct explanation of A",
@@ -2619,7 +2619,7 @@ const allQuestions = [
     "topic": "Plant Growth Regulators",
     "difficulty": "Medium",
     "type": "AR",
-    "q": "<b>Assertion (A):</b> Ethylene could fit either the growth promoter or growth inhibitor group.<br><b>Reason (R):</b> Ethylene is largely an inhibitor of growth activities.",
+    "q": "<b>Assertion (A):</b> Ethylene could fit either the growth promoter or growth inhibitor group.<br><br><b>Reason (R):</b> Ethylene is largely an inhibitor of growth activities.",
     "options": [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is NOT the correct explanation of A",
@@ -2769,7 +2769,7 @@ const allQuestions = [
     "topic": "Plant Growth Regulators",
     "difficulty": "Hard",
     "type": "AR",
-    "q": "<b>Assertion (A):</b> Auxins, gibberellins and cytokinins are called plant growth promoters.<br><b>Reason (R):</b> They are involved in growth promoting activities such as cell division, cell enlargement, pattern formation, tropic growth, flowering, fruiting and seed formation.",
+    "q": "<b>Assertion (A):</b> Auxins, gibberellins and cytokinins are called plant growth promoters.<br><br><b>Reason (R):</b> They are involved in growth promoting activities such as cell division, cell enlargement, pattern formation, tropic growth, flowering, fruiting and seed formation.",
     "options": [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is NOT the correct explanation of A",
@@ -2934,7 +2934,7 @@ const allQuestions = [
     "topic": "Development",
     "difficulty": "Medium",
     "type": "AR",
-    "q": "<b>Assertion (A):</b> Heterophylly in cotton, coriander and larkspur is an example of plasticity.<br><b>Reason (R):</b> In these plants, leaves of the juvenile plant are different in shape from those in mature plants.",
+    "q": "<b>Assertion (A):</b> Heterophylly in cotton, coriander and larkspur is an example of plasticity.<br><br><b>Reason (R):</b> In these plants, leaves of the juvenile plant are different in shape from those in mature plants.",
     "options": [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is NOT the correct explanation of A",
@@ -3039,7 +3039,7 @@ const allQuestions = [
     "topic": "PGR",
     "difficulty": "Hard",
     "type": "AR",
-    "q": "<b>Assertion (A):</b> PGRs are small, simple molecules of diverse chemical composition.<br><b>Reason (R):</b> PGRs include indole compounds, adenine derivatives, carotenoid derivatives, terpenes and gases.",
+    "q": "<b>Assertion (A):</b> PGRs are small, simple molecules of diverse chemical composition.<br><br><b>Reason (R):</b> PGRs include indole compounds, adenine derivatives, carotenoid derivatives, terpenes and gases.",
     "options": [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is NOT the correct explanation of A",
@@ -3204,7 +3204,7 @@ const allQuestions = [
     "topic": "Auxins",
     "difficulty": "Medium",
     "type": "AR",
-    "q": "<b>Assertion (A):</b> Removal of shoot tips (decapitation) usually results in the growth of lateral buds.<br><b>Reason (R):</b> The growing apical bud produces auxin which inhibits the growth of lateral (axillary) buds — a phenomenon called apical dominance.",
+    "q": "<b>Assertion (A):</b> Removal of shoot tips (decapitation) usually results in the growth of lateral buds.<br><br><b>Reason (R):</b> The growing apical bud produces auxin which inhibits the growth of lateral (axillary) buds — a phenomenon called apical dominance.",
     "options": [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is NOT the correct explanation of A",
@@ -3369,7 +3369,7 @@ const allQuestions = [
     "topic": "Gibberellins",
     "difficulty": "Medium",
     "type": "AR",
-    "q": "<b>Assertion (A):</b> Spraying sugarcane crop with gibberellins increases the yield by as much as 20 tonnes per acre.<br><b>Reason (R):</b> Gibberellins increase the length of the sugarcane stem where carbohydrate is stored as sugar.",
+    "q": "<b>Assertion (A):</b> Spraying sugarcane crop with gibberellins increases the yield by as much as 20 tonnes per acre.<br><br><b>Reason (R):</b> Gibberellins increase the length of the sugarcane stem where carbohydrate is stored as sugar.",
     "options": [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is NOT the correct explanation of A",
@@ -3519,7 +3519,7 @@ const allQuestions = [
     "topic": "Ethylene",
     "difficulty": "Medium",
     "type": "AR",
-    "q": "<b>Assertion (A):</b> Ethephon is the most widely used compound as a source of ethylene.<br><b>Reason (R):</b> Ethephon in aqueous solution is readily absorbed and transported within the plant and releases ethylene slowly.",
+    "q": "<b>Assertion (A):</b> Ethephon is the most widely used compound as a source of ethylene.<br><br><b>Reason (R):</b> Ethephon in aqueous solution is readily absorbed and transported within the plant and releases ethylene slowly.",
     "options": [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is NOT the correct explanation of A",
@@ -3699,7 +3699,7 @@ const allQuestions = [
     "topic": "Cross-Concept",
     "difficulty": "Hard",
     "type": "AR",
-    "q": "<b>Assertion (A):</b> Both auxins and ethylene are involved in flowering in pineapples.<br><b>Reason (R):</b> Auxins promote flowering in pineapples while ethylene initiates flowering and synchronises fruit-set in pineapples.",
+    "q": "<b>Assertion (A):</b> Both auxins and ethylene are involved in flowering in pineapples.<br><br><b>Reason (R):</b> Auxins promote flowering in pineapples while ethylene initiates flowering and synchronises fruit-set in pineapples.",
     "options": [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is NOT the correct explanation of A",
@@ -3789,7 +3789,7 @@ const allQuestions = [
     "topic": "ABA",
     "difficulty": "Medium",
     "type": "AR",
-    "q": "<b>Assertion (A):</b> ABA acts as an antagonist to GAs in most situations.<br><b>Reason (R):</b> ABA is a general plant growth inhibitor while GAs are growth promoters.",
+    "q": "<b>Assertion (A):</b> ABA acts as an antagonist to GAs in most situations.<br><br><b>Reason (R):</b> ABA is a general plant growth inhibitor while GAs are growth promoters.",
     "options": [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is NOT the correct explanation of A",
@@ -3969,7 +3969,7 @@ const allQuestions = [
     "topic": "All PGRs",
     "difficulty": "Medium",
     "type": "AR",
-    "q": "<b>Assertion (A):</b> For any and every phase of growth, differentiation and development of plants, one or the other PGR has some role to play.<br><b>Reason (R):</b> PGR roles could be complementary or antagonistic, individualistic or synergistic.",
+    "q": "<b>Assertion (A):</b> For any and every phase of growth, differentiation and development of plants, one or the other PGR has some role to play.<br><br><b>Reason (R):</b> PGR roles could be complementary or antagonistic, individualistic or synergistic.",
     "options": [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is NOT the correct explanation of A",
@@ -4059,7 +4059,7 @@ const allQuestions = [
     "topic": "Gibberellins",
     "difficulty": "Medium",
     "type": "AR",
-    "q": "<b>Assertion (A):</b> GA₃ is used to speed up the malting process in brewing industry.<br><b>Reason (R):</b> GA₃ was one of the first gibberellins to be discovered and remains the most intensively studied form.",
+    "q": "<b>Assertion (A):</b> GA₃ is used to speed up the malting process in brewing industry.<br><br><b>Reason (R):</b> GA₃ was one of the first gibberellins to be discovered and remains the most intensively studied form.",
     "options": [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is NOT the correct explanation of A",
@@ -4194,7 +4194,7 @@ const allQuestions = [
     "topic": "Summary",
     "difficulty": "Medium",
     "type": "AR",
-    "q": "<b>Assertion (A):</b> When a cell loses the capacity to divide, it leads to differentiation.<br><b>Reason (R):</b> Differentiation results in development of structures that is commensurate with the function the cells finally has to perform.",
+    "q": "<b>Assertion (A):</b> When a cell loses the capacity to divide, it leads to differentiation.<br><br><b>Reason (R):</b> Differentiation results in development of structures that is commensurate with the function the cells finally has to perform.",
     "options": [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is NOT the correct explanation of A",
@@ -4344,7 +4344,7 @@ const allQuestions = [
     "topic": "Summary",
     "difficulty": "Medium",
     "type": "AR",
-    "q": "<b>Assertion (A):</b> Development in plants could be flexible.<br><b>Reason (R):</b> Differentiation in plants is open.",
+    "q": "<b>Assertion (A):</b> Development in plants could be flexible.<br><br><b>Reason (R):</b> Differentiation in plants is open.",
     "options": [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is NOT the correct explanation of A",
@@ -4494,7 +4494,7 @@ const allQuestions = [
     "topic": "Summary",
     "difficulty": "Hard",
     "type": "AR",
-    "q": "<b>Assertion (A):</b> Plant growth regulators are intercellular intrinsic factors.<br><b>Reason (R):</b> PGRs are chemical substances that control different differentiation and developmental events.",
+    "q": "<b>Assertion (A):</b> Plant growth regulators are intercellular intrinsic factors.<br><br><b>Reason (R):</b> PGRs are chemical substances that control different differentiation and developmental events.",
     "options": [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is NOT the correct explanation of A",
@@ -4659,7 +4659,7 @@ const allQuestions = [
     "topic": "Summary",
     "difficulty": "Hard",
     "type": "AR",
-    "q": "<b>Assertion (A):</b> Diverse PGRs manifest similar effects on plants.<br><b>Reason (R):</b> Any PGR has diverse physiological effects on plants.",
+    "q": "<b>Assertion (A):</b> Diverse PGRs manifest similar effects on plants.<br><br><b>Reason (R):</b> Any PGR has diverse physiological effects on plants.",
     "options": [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is NOT the correct explanation of A",

@@ -1,10 +1,10 @@
-const allQuestions = [
+var allQuestions = [
     // ===== SET 1: INTRODUCTION (Q1-Q15) =====
     { id: 1, topic: "Introduction", q: "Consider the following statements regarding nucleic acids:<br>(i) DNA acts as genetic material in all living organisms.<br>(ii) RNA acts as genetic material in some viruses.<br>(iii) RNA can function as a catalytic molecule.<br>(iv) RNA always functions only as a messenger molecule.<br><br>Which of the above statements are <b>correct</b>?", options: ["(i) and (ii) only", "(ii) and (iii) only", "(i), (ii) and (iii)", "(ii), (iii) and (iv)"], correct: 1, explanation: "DNA acts as genetic material in most organisms, not all (some viruses use RNA) — so (i) is incorrect. Statement (iv) is wrong because RNA also acts as adapter, structural, and catalytic molecule. Statements (ii) and (iii) are correct per NCERT." },
 
     { id: 2, topic: "Introduction", q: "Which of the following roles is <b>NOT</b> attributed to RNA?", options: ["Genetic material in some viruses", "Adapter molecule", "Catalytic molecule", "Genetic material in majority of organisms"], correct: 3, explanation: "DNA is the genetic material in the majority of organisms. RNA serves as genetic material only in some viruses. RNA also functions as messenger, adapter, structural, and catalytic molecule." },
 
-    { id: 3, topic: "Introduction", q: "<b>Assertion (A):</b> RNA is multifunctional compared to DNA.<br><b>Reason (R):</b> RNA can act as genetic material, messenger, adapter, structural, and catalytic molecule.", options: ["Both A and R are true and R is the correct explanation of A", "Both A and R are true but R is not the correct explanation of A", "A is true but R is false", "A is false but R is true"], correct: 0, explanation: "RNA performs multiple functions — genetic (in some viruses), messenger, adapter (tRNA), structural (rRNA), and catalytic (ribozymes). This diversity makes it multifunctional compared to DNA. R correctly explains A." },
+    { id: 3, topic: "Introduction", q: "<b>Assertion (A):</b> RNA is multifunctional compared to DNA.<br><br><b>Reason (R):</b> RNA can act as genetic material, messenger, adapter, structural, and catalytic molecule.", options: ["Both A and R are true and R is the correct explanation of A", "Both A and R are true but R is not the correct explanation of A", "A is true but R is false", "A is false but R is true"], correct: 0, explanation: "RNA performs multiple functions — genetic (in some viruses), messenger, adapter (tRNA), structural (rRNA), and catalytic (ribozymes). This diversity makes it multifunctional compared to DNA. R correctly explains A." },
 
     { id: 4, topic: "Introduction", q: "The process of formation of RNA from DNA is called:", options: ["Translation", "Replication", "Transcription", "Reverse transcription"], correct: 2, explanation: "Transcription is RNA synthesis from DNA template. Translation is protein synthesis. Replication is DNA→DNA. Reverse transcription is RNA→DNA." },
 
@@ -16,7 +16,7 @@ const allQuestions = [
 
     { id: 8, topic: "Introduction", q: "Which one of the following is <b>not</b> a function of RNA?", options: ["Acts as adapter molecule", "Acts as structural molecule", "Stores hereditary information in majority of organisms", "Acts as catalytic molecule"], correct: 2, explanation: "DNA, not RNA, stores hereditary information in the majority of organisms." },
 
-    { id: 9, topic: "Introduction", q: "<b>Assertion (A):</b> At the time of Mendel, the chemical nature of 'factors' was well established.<br><b>Reason (R):</b> It took over a hundred years after Mendel to establish DNA as the genetic material.", options: ["Both A and R are true and R is the correct explanation of A", "Both A and R are true but R is not the correct explanation of A", "A is false but R is true", "Both A and R are false"], correct: 2, explanation: "Assertion is false — at Mendel's time, the nature of factors was NOT clear. Reason is true." },
+    { id: 9, topic: "Introduction", q: "<b>Assertion (A):</b> At the time of Mendel, the chemical nature of 'factors' was well established.<br><br><b>Reason (R):</b> It took over a hundred years after Mendel to establish DNA as the genetic material.", options: ["Both A and R are true and R is the correct explanation of A", "Both A and R are true but R is not the correct explanation of A", "A is false but R is true", "Both A and R are false"], correct: 2, explanation: "Assertion is false — at Mendel's time, the nature of factors was NOT clear. Reason is true." },
 
     { id: 10, topic: "Introduction", q: "The two types of nucleic acids found in living systems are:", options: ["DNA and mRNA", "DNA and tRNA", "DNA and RNA", "rRNA and tRNA"], correct: 2, explanation: "The two types are DNA (deoxyribonucleic acid) and RNA (ribonucleic acid). mRNA, tRNA, rRNA are subtypes of RNA." },
 
@@ -37,7 +37,7 @@ const allQuestions = [
 
     { id: 18, topic: "The DNA", q: "The genome size of <i>Escherichia coli</i> is:", options: ["5386 nucleotides", "48502 bp", "4.6 × 10⁶ bp", "3.3 × 10⁹ bp"], correct: 2, explanation: "E. coli genome = 4.6 × 10⁶ bp." },
 
-    { id: 19, topic: "The DNA", q: "<b>Assertion (A):</b> The genome size of φ×174 is expressed in nucleotides and not in base pairs.<br><b>Reason (R):</b> φ×174 has single-stranded DNA as its genetic material.", options: ["Both A and R are true and R is the correct explanation of A", "Both A and R are true but R is not the correct explanation of A", "A is true but R is false", "A is false but R is true"], correct: 0, explanation: "φ×174 is single-stranded, so genome is expressed in nucleotides, not base pairs. R correctly explains A." },
+    { id: 19, topic: "The DNA", q: "<b>Assertion (A):</b> The genome size of φ×174 is expressed in nucleotides and not in base pairs.<br><br><b>Reason (R):</b> φ×174 has single-stranded DNA as its genetic material.", options: ["Both A and R are true and R is the correct explanation of A", "Both A and R are true but R is not the correct explanation of A", "A is true but R is false", "A is false but R is true"], correct: 0, explanation: "φ×174 is single-stranded, so genome is expressed in nucleotides, not base pairs. R correctly explains A." },
 
     { id: 20, topic: "The DNA", q: "The length of DNA is usually defined as:", options: ["Number of amino acids", "Number of genes present", "Number of nucleotides or base pairs", "Molecular weight in Daltons"], correct: 2, explanation: "NCERT: the length of DNA is defined as the number of nucleotides or base pairs present in it." },
 
@@ -55,7 +55,7 @@ const allQuestions = [
 
     { id: 27, topic: "The DNA", q: "Which is a <b>correct</b> pair?", options: ["φ×174 – 48502 bp", "Lambda phage – 5386 nucleotides", "E. coli – 3.3 × 10⁹ bp", "Human (haploid) – 3.3 × 10⁹ bp"], correct: 3, explanation: "Human haploid DNA = 3.3 × 10⁹ bp is correct. Others are mismatched." },
 
-    { id: 28, topic: "The DNA", q: "<b>Assertion (A):</b> The length of DNA is a characteristic feature of an organism.<br><b>Reason (R):</b> Different organisms have different numbers of nucleotides/base pairs.", options: ["Both A and R are true and R is the correct explanation of A", "Both A and R are true but R is not the correct explanation of A", "A is true but R is false", "A is false but R is true"], correct: 0, explanation: "The number of nucleotides/base pairs is characteristic. Different organisms have different genome sizes. R explains A." },
+    { id: 28, topic: "The DNA", q: "<b>Assertion (A):</b> The length of DNA is a characteristic feature of an organism.<br><br><b>Reason (R):</b> Different organisms have different numbers of nucleotides/base pairs.", options: ["Both A and R are true and R is the correct explanation of A", "Both A and R are true but R is not the correct explanation of A", "A is true but R is false", "A is false but R is true"], correct: 0, explanation: "The number of nucleotides/base pairs is characteristic. Different organisms have different genome sizes. R explains A." },
 
     // ===== SET 3: STRUCTURE OF POLYNUCLEOTIDE CHAIN (Q29-Q58) =====
     { id: 29, topic: "Polynucleotide Structure", q: "A nucleotide is formed by the linkage of:", options: ["Nitrogenous base + Pentose sugar", "Nitrogenous base + Phosphate group", "Nitrogenous base + Pentose sugar + Phosphate group", "Pentose sugar + Phosphate group"], correct: 2, explanation: "A nucleotide has three components — nitrogenous base, pentose sugar, and phosphate group." },
@@ -84,7 +84,7 @@ const allQuestions = [
 
     { id: 41, topic: "Polynucleotide Structure", q: "What distinguishes RNA from DNA at the sugar level?", options: ["RNA has deoxyribose sugar", "RNA has an additional –OH group at 2' position of ribose", "RNA has an additional –OH group at 3' position", "RNA has a –CH₃ group at 2' position"], correct: 1, explanation: "NCERT: 'In RNA, every nucleotide has an additional –OH group at 2'-position in the ribose.'" },
 
-    { id: 42, topic: "Polynucleotide Structure", q: "<b>Assertion (A):</b> Uracil is found in RNA at the place of thymine.<br><b>Reason (R):</b> Thymine is chemically known as 5-methyl uracil.", options: ["Both A and R are true and R is the correct explanation of A", "Both A and R are true but R is not the correct explanation of A", "A is true but R is false", "A is false but R is true"], correct: 1, explanation: "Both are true. However, the fact that thymine is 5-methyl uracil doesn't explain WHY uracil replaces thymine in RNA." },
+    { id: 42, topic: "Polynucleotide Structure", q: "<b>Assertion (A):</b> Uracil is found in RNA at the place of thymine.<br><br><b>Reason (R):</b> Thymine is chemically known as 5-methyl uracil.", options: ["Both A and R are true and R is the correct explanation of A", "Both A and R are true but R is not the correct explanation of A", "A is true but R is false", "A is false but R is true"], correct: 1, explanation: "Both are true. However, the fact that thymine is 5-methyl uracil doesn't explain WHY uracil replaces thymine in RNA." },
 
     { id: 43, topic: "Polynucleotide Structure", q: "Which is <b>incorrect</b> regarding pyrimidine bases?", options: ["Cytosine is found in both DNA and RNA", "Thymine is found only in DNA", "Uracil is found only in RNA", "Guanine is a pyrimidine base"], correct: 3, explanation: "Guanine is a PURINE, not pyrimidine. Pyrimidines = Cytosine, Thymine, Uracil." },
 
@@ -104,7 +104,7 @@ const allQuestions = [
 
     { id: 51, topic: "Polynucleotide Structure", q: "Which carbon atoms of sugar are involved in phosphodiester linkage?", options: ["1'C and 4'C", "2'C and 5'C", "3'C and 5'C", "1'C and 5'C"], correct: 2, explanation: "The 3'–5' phosphodiester linkage involves 3'C of one sugar and 5'C of the adjacent sugar." },
 
-    { id: 52, topic: "Polynucleotide Structure", q: "<b>Assertion (A):</b> RNA is less stable than DNA.<br><b>Reason (R):</b> RNA has an additional –OH group at 2' position making it more reactive.", options: ["Both A and R are true and R is the correct explanation of A", "Both A and R are true but R is not the correct explanation of A", "A is true but R is false", "A is false but R is true"], correct: 0, explanation: "The 2'-OH in RNA makes it susceptible to hydrolysis and more reactive. R correctly explains A." },
+    { id: 52, topic: "Polynucleotide Structure", q: "<b>Assertion (A):</b> RNA is less stable than DNA.<br><br><b>Reason (R):</b> RNA has an additional –OH group at 2' position making it more reactive.", options: ["Both A and R are true and R is the correct explanation of A", "Both A and R are true but R is not the correct explanation of A", "A is true but R is false", "A is false but R is true"], correct: 0, explanation: "The 2'-OH in RNA makes it susceptible to hydrolysis and more reactive. R correctly explains A." },
 
     { id: 53, topic: "Polynucleotide Structure", q: "How many types of nitrogenous bases are present in DNA?", options: ["3", "4", "5", "2"], correct: 1, explanation: "DNA has 4 bases: Adenine, Guanine (purines) and Cytosine, Thymine (pyrimidines)." },
 
@@ -129,7 +129,7 @@ const allQuestions = [
 
     { id: 63, topic: "DNA Double Helix", q: "Number of hydrogen bonds between Guanine and Cytosine:", options: ["One", "Two", "Three", "Four"], correct: 2, explanation: "G≡C = 3 hydrogen bonds; A=T = 2 hydrogen bonds." },
 
-    { id: 64, topic: "DNA Double Helix", q: "<b>Assertion (A):</b> Distance between two polynucleotide chains remains approximately uniform.<br><b>Reason (R):</b> A purine always pairs with a pyrimidine.", options: ["Both A and R are true and R is the correct explanation of A", "Both A and R are true but R is not the correct explanation of A", "A is true but R is false", "A is false but R is true"], correct: 0, explanation: "Purine (larger) + pyrimidine (smaller) = approximately same combined width for each base pair." },
+    { id: 64, topic: "DNA Double Helix", q: "<b>Assertion (A):</b> Distance between two polynucleotide chains remains approximately uniform.<br><br><b>Reason (R):</b> A purine always pairs with a pyrimidine.", options: ["Both A and R are true and R is the correct explanation of A", "Both A and R are true but R is not the correct explanation of A", "A is true but R is false", "A is false but R is true"], correct: 0, explanation: "Purine (larger) + pyrimidine (smaller) = approximately same combined width for each base pair." },
 
     { id: 65, topic: "DNA Double Helix", q: "The pitch of a DNA double helix is:", options: ["0.34 nm", "2.0 nm", "3.4 nm", "34 nm"], correct: 2, explanation: "Pitch (one complete turn) = 3.4 nm, with ~10 bp per turn. Distance between bp = 0.34 nm." },
 
@@ -157,7 +157,7 @@ const allQuestions = [
 
     { id: 77, topic: "DNA Double Helix", q: "A DNA has 200 Adenine and 300 Guanine. Total hydrogen bonds:", options: ["1000", "1300", "1500", "500"], correct: 1, explanation: "A-T: 200 × 2 = 400. G-C: 300 × 3 = 900. Total = 1300." },
 
-    { id: 78, topic: "DNA Double Helix", q: "<b>Assertion (A):</b> DNA with higher G-C content is more thermally stable.<br><b>Reason (R):</b> G-C has 3 H-bonds vs 2 in A-T.", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 0, explanation: "More G-C = more H-bonds per bp = more energy to denature = higher thermal stability." },
+    { id: 78, topic: "DNA Double Helix", q: "<b>Assertion (A):</b> DNA with higher G-C content is more thermally stable.<br><br><b>Reason (R):</b> G-C has 3 H-bonds vs 2 in A-T.", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 0, explanation: "More G-C = more H-bonds per bp = more energy to denature = higher thermal stability." },
 
     { id: 79, topic: "DNA Double Helix", q: "X-ray diffraction data crucial for DNA structure was produced by:", options: ["Watson and Crick", "Erwin Chargaff", "Friedrich Meischer", "Maurice Wilkins and Rosalind Franklin"], correct: 3, explanation: "Wilkins and Franklin produced the X-ray diffraction data." },
 
@@ -178,7 +178,7 @@ const allQuestions = [
     // Continuing from Q87...
     { id: 87, topic: "DNA Double Helix", q: "If Adenine = 30% of total bases, Cytosine percentage:", options: ["30%", "20%", "40%", "10%"], correct: 1, explanation: "A = T = 30%. A+T = 60%. G+C = 40%. G = C = 20%." },
 
-    { id: 88, topic: "DNA Double Helix", q: "<b>Assertion (A):</b> DNA strands can be separated by heating.<br><b>Reason (R):</b> H-bonds are weak bonds that break at high temperatures.", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 0, explanation: "DNA denaturation occurs on heating because H-bonds between base pairs break at high temperatures." },
+    { id: 88, topic: "DNA Double Helix", q: "<b>Assertion (A):</b> DNA strands can be separated by heating.<br><br><b>Reason (R):</b> H-bonds are weak bonds that break at high temperatures.", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 0, explanation: "DNA denaturation occurs on heating because H-bonds between base pairs break at high temperatures." },
 
     // ===== SET 5: PACKAGING OF DNA HELIX (Q89-Q118) =====
     { id: 89, topic: "Packaging of DNA", q: "Approximate length of DNA in a typical mammalian cell:", options: ["2.2 cm", "2.2 m", "2.2 mm", "2.2 μm"], correct: 1, explanation: "6.6 × 10⁹ bp × 0.34 × 10⁻⁹ m/bp ≈ 2.2 metres." },
@@ -199,7 +199,7 @@ const allQuestions = [
 
     { id: 97, topic: "Packaging of DNA", q: "'Beads-on-string' structure is visualized under:", options: ["Light microscope", "Scanning electron microscope", "Electron microscope", "Naked eye"], correct: 2, explanation: "Nucleosomes appear as beads-on-string when viewed under electron microscope (EM)." },
 
-    { id: 98, topic: "Packaging of DNA", q: "<b>Assertion (A):</b> Negatively charged DNA wraps around positively charged histone octamer.<br><b>Reason (R):</b> Histones are rich in lysine and arginine with positive charges.", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 0, explanation: "Electrostatic attraction between negative DNA and positive histones facilitates nucleosome formation." },
+    { id: 98, topic: "Packaging of DNA", q: "<b>Assertion (A):</b> Negatively charged DNA wraps around positively charged histone octamer.<br><br><b>Reason (R):</b> Histones are rich in lysine and arginine with positive charges.", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 0, explanation: "Electrostatic attraction between negative DNA and positive histones facilitates nucleosome formation." },
 
     { id: 99, topic: "Packaging of DNA", q: "Higher level chromatin packaging requires:", options: ["Only histone proteins", "Non-histone chromosomal (NHC) proteins", "RNA polymerase", "DNA ligase"], correct: 1, explanation: "NCERT: 'packaging at higher level requires Non-histone Chromosomal (NHC) proteins.'" },
 
@@ -221,7 +221,7 @@ const allQuestions = [
 
     { id: 108, topic: "Packaging of DNA", q: "Approximate dimension of a typical nucleus:", options: ["10⁻³ m", "10⁻⁶ m", "10⁻⁹ m", "10⁻¹² m"], correct: 1, explanation: "NCERT: nucleus is approximately 10⁻⁶ m. This contrasts with 2.2 m DNA length." },
 
-    { id: 109, topic: "Packaging of DNA", q: "<b>Assertion (A):</b> DNA packaging is more complex in eukaryotes than prokaryotes.<br><b>Reason (R):</b> Eukaryotes have histones, nucleosomes, and NHC proteins; prokaryotes have only nucleoid.", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 0, explanation: "Eukaryotic packaging involves multiple levels. Prokaryotic is simpler. R explains A." },
+    { id: 109, topic: "Packaging of DNA", q: "<b>Assertion (A):</b> DNA packaging is more complex in eukaryotes than prokaryotes.<br><br><b>Reason (R):</b> Eukaryotes have histones, nucleosomes, and NHC proteins; prokaryotes have only nucleoid.", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 0, explanation: "Eukaryotic packaging involves multiple levels. Prokaryotic is simpler. R explains A." },
 
     { id: 110, topic: "Packaging of DNA", q: "Chromosomes are most condensed during:", options: ["Interphase", "Prophase", "Metaphase", "Telophase"], correct: 2, explanation: "NCERT: chromatin fibers are 'coiled and condensed at metaphase stage.'" },
 
@@ -239,7 +239,7 @@ const allQuestions = [
 
     { id: 117, topic: "Packaging of DNA", q: "Which correctly describes the nucleoid?", options: ["Membrane-bound nucleus of prokaryotes", "Region where prokaryotic DNA is organized with proteins in large loops", "Part of eukaryotic chromatin", "Site of ribosome assembly"], correct: 1, explanation: "Nucleoid is NOT membrane-bound. DNA is organized in large loops held by proteins." },
 
-    { id: 118, topic: "Packaging of DNA", q: "<b>Assertion (A):</b> 2.2 m DNA fits in a nucleus of ~10⁻⁶ m diameter.<br><b>Reason (R):</b> Multiple levels of packaging (nucleosomes → chromatin → chromosomes).", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 0, explanation: "Multiple packaging levels allow extreme compaction. R explains how this is achieved." },
+    { id: 118, topic: "Packaging of DNA", q: "<b>Assertion (A):</b> 2.2 m DNA fits in a nucleus of ~10⁻⁶ m diameter.<br><br><b>Reason (R):</b> Multiple levels of packaging (nucleosomes → chromatin → chromosomes).", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 0, explanation: "Multiple packaging levels allow extreme compaction. R explains how this is achieved." },
 
     // ===== SET 6: GRIFFITH'S EXPERIMENT (Q119-Q129) =====
     { id: 119, topic: "Griffith's Experiment", q: "Griffith's transformation experiment was performed on:", options: ["E. coli", "Streptococcus pneumoniae", "Salmonella typhimurium", "Bacillus subtilis"], correct: 1, explanation: "Griffith (1928) worked with Streptococcus pneumoniae (pneumococcus)." },
@@ -252,7 +252,7 @@ const allQuestions = [
 
     { id: 123, topic: "Griffith's Experiment", q: "About Griffith's experiment:<br>(i) R strain transformed into S<br>(ii) Transforming principle enabled polysaccharide coat synthesis<br>(iii) Griffith concluded DNA was transforming principle<br>(iv) Transfer of genetic material occurred<br><br>Which are correct?", options: ["(i), (ii) and (iv) only", "(i), (ii) and (iii)", "All four", "(ii) and (iii) only"], correct: 0, explanation: "(iii) is WRONG — Griffith did NOT identify it as DNA. He called it 'transforming principle'." },
 
-    { id: 124, topic: "Griffith's Experiment", q: "<b>Assertion (A):</b> Griffith called it 'transforming principle'.<br><b>Reason (R):</b> He could not determine the biochemical nature.", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 0, explanation: "Griffith used a general term because he couldn't identify the exact biochemical nature." },
+    { id: 124, topic: "Griffith's Experiment", q: "<b>Assertion (A):</b> Griffith called it 'transforming principle'.<br><br><b>Reason (R):</b> He could not determine the biochemical nature.", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 0, explanation: "Griffith used a general term because he couldn't identify the exact biochemical nature." },
 
     { id: 125, topic: "Griffith's Experiment", q: "R strain colonies appear rough because:", options: ["Thick peptidoglycan layer", "Lack of polysaccharide coat", "Endospore production", "Presence of flagella"], correct: 1, explanation: "R strain lacks the polysaccharide coat, giving rough colony appearance." },
 
@@ -271,7 +271,7 @@ const allQuestions = [
 
     { id: 132, topic: "Avery et al. Experiment", q: "About Avery et al.:<br>(i) Proteases didn't affect transformation<br>(ii) RNases didn't affect transformation<br>(iii) DNase inhibited transformation<br>(iv) All biologists were convinced<br><br>Which are correct?", options: ["(i), (ii) and (iii) only", "All four", "(i) and (iii) only", "(ii) and (iv) only"], correct: 0, explanation: "(iv) is incorrect — 'not all biologists were convinced.'" },
 
-    { id: 133, topic: "Avery et al. Experiment", q: "<b>Assertion (A):</b> Avery et al. concluded DNA is hereditary material.<br><b>Reason (R):</b> DNase inhibited transformation while proteases and RNases had no effect.", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 0, explanation: "The experimental evidence directly led to the conclusion. R correctly explains A." },
+    { id: 133, topic: "Avery et al. Experiment", q: "<b>Assertion (A):</b> Avery et al. concluded DNA is hereditary material.<br><br><b>Reason (R):</b> DNase inhibited transformation while proteases and RNases had no effect.", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 0, explanation: "The experimental evidence directly led to the conclusion. R correctly explains A." },
 
     { id: 134, topic: "Avery et al. Experiment", q: "Prior to Avery et al., genetic material was thought to be:", options: ["DNA", "RNA", "Protein", "Carbohydrate"], correct: 2, explanation: "Before Avery et al., genetic material was thought to be a protein." },
 
@@ -292,7 +292,7 @@ const allQuestions = [
 
     { id: 142, topic: "Hershey-Chase Experiment", q: "Radioactivity found inside bacteria when phages labelled with:", options: ["³⁵S", "³²P", "¹⁴C", "³H"], correct: 1, explanation: "³²P-labelled DNA was found inside bacteria, confirming DNA enters the cell." },
 
-    { id: 143, topic: "Hershey-Chase Experiment", q: "<b>Assertion (A):</b> Radioactive protein didn't enter bacteria.<br><b>Reason (R):</b> Only DNA of phage enters host cell during infection.", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 0, explanation: "During phage infection, only DNA enters; protein coat stays outside." },
+    { id: 143, topic: "Hershey-Chase Experiment", q: "<b>Assertion (A):</b> Radioactive protein didn't enter bacteria.<br><br><b>Reason (R):</b> Only DNA of phage enters host cell during infection.", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 0, explanation: "During phage infection, only DNA enters; protein coat stays outside." },
 
     { id: 144, topic: "Hershey-Chase Experiment", q: "Basis for using ³²P for DNA and ³⁵S for protein:", options: ["DNA has sulfur; protein has phosphorus", "DNA has phosphorus not sulfur; protein has sulfur not phosphorus", "Both have phosphorus and sulfur", "Neither has phosphorus"], correct: 1, explanation: "DNA has P but no S. Protein has S but no P. This mutual exclusivity allows differential labelling." },
 
@@ -313,7 +313,7 @@ const allQuestions = [
 
     { id: 152, topic: "Properties of Genetic Material", q: "RNA is more labile because:", options: ["Single-stranded", "Contains uracil", "Has 2'-OH group making it reactive", "Has phosphodiester backbone"], correct: 2, explanation: "NCERT: '2'-OH group is a reactive group and makes RNA labile and easily degradable.'" },
 
-    { id: 153, topic: "Properties of Genetic Material", q: "<b>Assertion (A):</b> DNA is less reactive and more stable than RNA.<br><b>Reason (R):</b> DNA lacks the 2'-OH group present in RNA.", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 0, explanation: "Absence of 2'-OH in DNA makes it less reactive and more stable. R explains A." },
+    { id: 153, topic: "Properties of Genetic Material", q: "<b>Assertion (A):</b> DNA is less reactive and more stable than RNA.<br><br><b>Reason (R):</b> DNA lacks the 2'-OH group present in RNA.", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 0, explanation: "Absence of 2'-OH in DNA makes it less reactive and more stable. R explains A." },
 
     { id: 154, topic: "Properties of Genetic Material", q: "Thymine instead of uracil in DNA confers:", options: ["Additional reactivity", "Additional stability", "Catalytic activity", "Faster mutation"], correct: 1, explanation: "NCERT: 'thymine at the place of uracil confers additional stability to DNA.'" },
 
@@ -333,7 +333,7 @@ const allQuestions = [
 
     { id: 162, topic: "Properties of Genetic Material", q: "Proteins fail to qualify as genetic material because:", options: ["Cannot mutate", "Not stable", "Cannot replicate", "Too small"], correct: 2, explanation: "NCERT: 'proteins fail to fulfill first criteria itself' — replication." },
 
-    { id: 163, topic: "Properties of Genetic Material", q: "<b>Assertion (A):</b> RNA is catalytic.<br><b>Reason (R):</b> This makes RNA reactive and less suitable as stable genetic material.", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 0, explanation: "Being catalytic = reactive = undesirable for stable genetic storage." },
+    { id: 163, topic: "Properties of Genetic Material", q: "<b>Assertion (A):</b> RNA is catalytic.<br><br><b>Reason (R):</b> This makes RNA reactive and less suitable as stable genetic material.", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 0, explanation: "Being catalytic = reactive = undesirable for stable genetic storage." },
 
     { id: 164, topic: "Properties of Genetic Material", q: "All criteria for genetic material:", options: ["Replication, Stability, Mutation, Expression", "Replication, Stability, Catalysis, Translation", "Transcription, Translation, Stability, Mutation", "Replication, Mutation, Catalysis, Expression"], correct: 0, explanation: "NCERT four criteria: Replication, Stability, Mutation, Expression." },
 
@@ -349,7 +349,7 @@ const allQuestions = [
 
     { id: 170, topic: "Properties of Genetic Material", q: "Genetic material should not change with:", options: ["Different life cycle stages only", "Age only", "Physiology changes only", "All of the above"], correct: 3, explanation: "NCERT: 'not change with different stages of life cycle, age or with change in physiology.'" },
 
-    { id: 171, topic: "Properties of Genetic Material", q: "<b>Assertion (A):</b> RNA viruses have shorter life spans and evolve faster.<br><b>Reason (R):</b> RNA is less stable and mutates faster.", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 0, explanation: "RNA instability → faster mutations → faster evolution. R explains A." },
+    { id: 171, topic: "Properties of Genetic Material", q: "<b>Assertion (A):</b> RNA viruses have shorter life spans and evolve faster.<br><br><b>Reason (R):</b> RNA is less stable and mutates faster.", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 0, explanation: "RNA instability → faster mutations → faster evolution. R explains A." },
 
     { id: 172, topic: "Properties of Genetic Material", q: "In Griffith's experiment, the property demonstrated even after heating:", options: ["Replication ability", "Stability", "Mutation", "Expression"], correct: 1, explanation: "Stability — heat killed bacteria but didn't destroy genetic material properties." },
 
@@ -370,7 +370,7 @@ const allQuestions = [
 
     { id: 180, topic: "RNA World", q: "RNA's dual role as genetic material and catalyst made it:", options: ["Very stable", "Reactive and hence unstable", "Unable to replicate", "Unable to mutate"], correct: 1, explanation: "Being catalytic made RNA reactive and hence unstable." },
 
-    { id: 181, topic: "RNA World", q: "<b>Assertion (A):</b> DNA evolved from RNA with modifications for stability.<br><b>Reason (R):</b> DNA is double-stranded and has complementary strand for repair.", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 0, explanation: "Double-strandedness allows repair using intact strand as template. R explains A." },
+    { id: 181, topic: "RNA World", q: "<b>Assertion (A):</b> DNA evolved from RNA with modifications for stability.<br><br><b>Reason (R):</b> DNA is double-stranded and has complementary strand for repair.", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 0, explanation: "Double-strandedness allows repair using intact strand as template. R explains A." },
 
     { id: 182, topic: "RNA World", q: "About RNA World:<br>(i) RNA was first genetic material<br>(ii) Life processes evolved around RNA<br>(iii) RNA was catalyst and genetic material<br>(iv) DNA evolved before RNA<br><br>Which correct?", options: ["(i), (ii) and (iii) only", "All four", "(i) and (iv)", "(ii) and (iv)"], correct: 0, explanation: "(iv) is WRONG — RNA evolved first; DNA evolved FROM RNA." },
 
@@ -393,7 +393,7 @@ const allQuestions = [
 
     { id: 191, topic: "DNA Replication", q: "Heavy and light DNA separated by:", options: ["Gel electrophoresis", "CsCl density gradient centrifugation", "Paper chromatography", "Autoradiography"], correct: 1, explanation: "Separated by CsCl density gradient centrifugation. ¹⁵N is NOT radioactive." },
 
-    { id: 192, topic: "DNA Replication", q: "<b>Assertion (A):</b> ¹⁵N is not radioactive.<br><b>Reason (R):</b> ¹⁵N and ¹⁴N are separated only by density differences.", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 0, explanation: "¹⁵N is NOT radioactive; separated based on densities only. R explains the method." },
+    { id: 192, topic: "DNA Replication", q: "<b>Assertion (A):</b> ¹⁵N is not radioactive.<br><br><b>Reason (R):</b> ¹⁵N and ¹⁴N are separated only by density differences.", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 0, explanation: "¹⁵N is NOT radioactive; separated based on densities only. R explains the method." },
 
     { id: 193, topic: "DNA Replication", q: "After one generation in ¹⁴N medium, DNA showed:", options: ["Only heavy band", "Only light band", "One hybrid (intermediate) band", "Two bands — heavy and light"], correct: 2, explanation: "Each DNA has one ¹⁵N + one ¹⁴N strand = hybrid density. One band." },
 
@@ -417,7 +417,7 @@ const allQuestions = [
 
     { id: 203, topic: "DNA Replication", q: "Deoxyribonucleoside triphosphates serve dual purpose as:", options: ["Substrates and inhibitors", "Substrates and energy source", "Energy source and primers", "Catalysts and substrates"], correct: 1, explanation: "Act as substrates AND provide energy (terminal high-energy phosphates like ATP)." },
 
-    { id: 204, topic: "DNA Replication", q: "<b>Assertion (A):</b> dNTPs provide energy for polymerisation.<br><b>Reason (R):</b> Two terminal phosphates are high-energy (like ATP).", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 0, explanation: "Cleavage of terminal phosphate bonds releases energy for polymerisation." },
+    { id: 204, topic: "DNA Replication", q: "<b>Assertion (A):</b> dNTPs provide energy for polymerisation.<br><br><b>Reason (R):</b> Two terminal phosphates are high-energy (like ATP).", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 0, explanation: "Cleavage of terminal phosphate bonds releases energy for polymerisation." },
 
     { id: 205, topic: "DNA Replication", q: "DNA polymerase catalyses polymerisation in direction:", options: ["3'→5'", "5'→3'", "Both directions", "Depends on template"], correct: 1, explanation: "NCERT: 'polymerisation only in one direction, that is 5'→3'.'" },
 
@@ -442,7 +442,7 @@ const allQuestions = [
 
     { id: 215, topic: "DNA Replication", q: "Failure in cell division after replication results in:", options: ["Aneuploidy", "Polyploidy", "Apoptosis", "Mutation"], correct: 1, explanation: "NCERT: 'failure in cell division after DNA replication results into polyploidy.'" },
 
-    { id: 216, topic: "DNA Replication", q: "<b>Assertion (A):</b> Replication and cell division must be coordinated.<br><b>Reason (R):</b> Failed cell division after replication → polyploidy.", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 0, explanation: "Polyploidy demonstrates why coordination is essential. R explains A." },
+    { id: 216, topic: "DNA Replication", q: "<b>Assertion (A):</b> Replication and cell division must be coordinated.<br><br><b>Reason (R):</b> Failed cell division after replication → polyploidy.", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 0, explanation: "Polyploidy demonstrates why coordination is essential. R explains A." },
 
     { id: 217, topic: "DNA Replication", q: "Mistakes during replication result in:", options: ["Polyploidy", "Mutations", "Crossing over", "Transformation"], correct: 1, explanation: "NCERT: 'Any mistake during replication would result into mutations.'" },
 
@@ -474,7 +474,7 @@ const allQuestions = [
 
     { id: 231, topic: "DNA Replication", q: "After 3 generations in ¹⁴N, hybrid and light DNA molecules:", options: ["4 hybrid, 4 light", "2 hybrid, 6 light", "6 hybrid, 2 light", "1 hybrid, 7 light"], correct: 1, explanation: "Total=8. Hybrid=2 (always). Light=8-2=6." },
 
-    { id: 232, topic: "DNA Replication", q: "<b>Assertion (A):</b> Replication doesn't initiate randomly in E. coli DNA.<br><b>Reason (R):</b> There is a definite origin of replication.", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 0, explanation: "Replication originates at a definite region. R explains A." },
+    { id: 232, topic: "DNA Replication", q: "<b>Assertion (A):</b> Replication doesn't initiate randomly in E. coli DNA.<br><br><b>Reason (R):</b> There is a definite origin of replication.", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 0, explanation: "Replication originates at a definite region. R explains A." },
 
     { id: 233, topic: "DNA Replication", q: "E. coli nucleotides polymerised per minute approximately:", options: ["~128,000", "~256,000", "~512,000", "~1,000,000"], correct: 1, explanation: "4.6×10⁶ / 18 min ≈ 256,000 bp/min." },
 
@@ -487,7 +487,7 @@ const allQuestions = [
 
     { id: 237, topic: "Transcription", q: "Why both strands NOT copied:<br>(i) Would code different RNA sequences<br>(ii) Two complementary RNAs form dsRNA<br>(iii) dsRNA prevents translation<br>(iv) Both strands code same protein<br><br>Which correct?", options: ["(i), (ii) and (iii) only", "All four", "(i) and (iv)", "(ii) and (iii) only"], correct: 0, explanation: "(iv) is WRONG — they would code DIFFERENT proteins. (i), (ii), (iii) correct." },
 
-    { id: 238, topic: "Transcription", q: "<b>Assertion (A):</b> If both strands transcribed, two complementary RNAs form dsRNA.<br><b>Reason (R):</b> dsRNA cannot be translated, making transcription futile.", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 0, explanation: "dsRNA prevents translation. R explains why formation of dsRNA is problematic." },
+    { id: 238, topic: "Transcription", q: "<b>Assertion (A):</b> If both strands transcribed, two complementary RNAs form dsRNA.<br><br><b>Reason (R):</b> dsRNA cannot be translated, making transcription futile.", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 0, explanation: "dsRNA prevents translation. R explains why formation of dsRNA is problematic." },
 
     { id: 239, topic: "Transcription", q: "Statement 1: Complementary strands have identical sequences.<br>Statement 2: Both strands would code for different proteins.", options: ["Both correct", "Only S1 correct", "Only S2 correct", "Both incorrect"], correct: 2, explanation: "S1 is WRONG — complementary ≠ identical. S2 is correct." },
 
@@ -503,7 +503,7 @@ const allQuestions = [
 
     { id: 245, topic: "Transcription", q: "Promoter provides binding site for:", options: ["Ribosomes", "RNA polymerase", "DNA polymerase", "tRNA"], correct: 1, explanation: "Promoter provides binding site for RNA polymerase." },
 
-    { id: 246, topic: "Transcription", q: "<b>Assertion (A):</b> Promoter defines template and coding strands.<br><b>Reason (R):</b> Switching promoter with terminator reverses the definitions.", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 0, explanation: "Promoter position defines which strand is template. Switching reverses it." },
+    { id: 246, topic: "Transcription", q: "<b>Assertion (A):</b> Promoter defines template and coding strands.<br><br><b>Reason (R):</b> Switching promoter with terminator reverses the definitions.", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 0, explanation: "Promoter position defines which strand is template. Switching reverses it." },
 
     { id: 247, topic: "Transcription", q: "Terminator is located towards:", options: ["5'-end (upstream)", "3'-end (downstream) of coding strand", "Middle of structural gene", "Within promoter"], correct: 1, explanation: "Terminator is towards 3'-end (downstream) of coding strand." },
 
@@ -517,7 +517,7 @@ const allQuestions = [
 
     { id: 252, topic: "Transcription", q: "Exons are:", options: ["Sequences removed during splicing", "Sequences appearing in mature/processed RNA", "Intervening sequences", "Regulatory sequences upstream of promoter"], correct: 1, explanation: "Exons appear in mature or processed RNA." },
 
-    { id: 253, topic: "Transcription", q: "<b>Assertion (A):</b> Regulatory sequences are called regulatory genes.<br><b>Reason (R):</b> Regulatory sequences code for regulatory proteins.", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 2, explanation: "A is true but R is FALSE — regulatory sequences do NOT code for any RNA or protein." },
+    { id: 253, topic: "Transcription", q: "<b>Assertion (A):</b> Regulatory sequences are called regulatory genes.<br><br><b>Reason (R):</b> Regulatory sequences code for regulatory proteins.", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 2, explanation: "A is true but R is FALSE — regulatory sequences do NOT code for any RNA or protein." },
 
     // Continuing from Q254...
     { id: 254, topic: "Transcription", q: "Correct roles of three RNA types:", options: ["mRNA-template; tRNA-structural; rRNA-adapter", "mRNA-template; tRNA-adapter/reads code; rRNA-structural+catalytic", "mRNA-catalytic; tRNA-template; rRNA-adapter", "mRNA-adapter; tRNA-structural; rRNA-template"], correct: 1, explanation: "mRNA=template, tRNA=adapter (reads code, brings amino acids), rRNA=structural+catalytic." },
@@ -548,7 +548,7 @@ const allQuestions = [
 
     { id: 267, topic: "Transcription", q: "In tailing, what is added to 3'-end?", options: ["Methyl guanosine triphosphate", "100-200 uridylate residues", "200-300 adenylate residues", "50-100 cytidylate residues"], correct: 2, explanation: "200-300 adenylate residues (poly-A tail) added at 3'-end, template-independent." },
 
-    { id: 268, topic: "Transcription", q: "<b>Assertion (A):</b> Tailing is template-independent.<br><b>Reason (R):</b> Adenylate residues added without using DNA template.", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 0, explanation: "Poly-A polymerase adds adenylates without reading a template. R explains A." },
+    { id: 268, topic: "Transcription", q: "<b>Assertion (A):</b> Tailing is template-independent.<br><br><b>Reason (R):</b> Adenylate residues added without using DNA template.", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 0, explanation: "Poly-A polymerase adds adenylates without reading a template. R explains A." },
 
     { id: 269, topic: "Transcription", q: "Splicing involves:", options: ["Addition of cap at 5'-end", "Removal of introns and joining of exons", "Addition of poly-A tail", "Removal of exons and joining of introns"], correct: 1, explanation: "Introns removed, exons joined. Option D is a classic trap." },
 
@@ -579,7 +579,7 @@ const allQuestions = [
 
     { id: 282, topic: "Genetic Code", q: "Exceptions to universal genetic code found in:", options: ["Mitochondrial codons and some protozoans", "All bacteria and fungi", "All plants and animals", "Only viruses"], correct: 0, explanation: "Exceptions in mitochondrial codons and some protozoans." },
 
-    { id: 283, topic: "Genetic Code", q: "<b>Assertion (A):</b> Genetic code is read contiguously without punctuations.<br><b>Reason (R):</b> No spacers or commas between successive codons.", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 0, explanation: "Codons are read one after another without gaps. R explains A." },
+    { id: 283, topic: "Genetic Code", q: "<b>Assertion (A):</b> Genetic code is read contiguously without punctuations.<br><br><b>Reason (R):</b> No spacers or commas between successive codons.", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 0, explanation: "Codons are read one after another without gaps. R explains A." },
 
     { id: 284, topic: "Genetic Code", q: "Chemical method for synthesising RNA with defined bases developed by:", options: ["Gamow", "Nirenberg", "Har Gobind Khorana", "Ochoa"], correct: 2, explanation: "Khorana developed chemical method for synthesising defined RNA molecules." },
 
@@ -605,7 +605,7 @@ const allQuestions = [
 
     { id: 294, topic: "tRNA", q: "Which is <b>incorrect</b> about tRNA?", options: ["Specific for each amino acid", "Initiator tRNA exists", "Specific tRNAs for stop codons exist", "Anticodon loop has bases complementary to codon"], correct: 2, explanation: "NO tRNAs for stop codons. Stop codons recognized by release factors." },
 
-    { id: 295, topic: "tRNA", q: "<b>Assertion (A):</b> Amino acids can't directly read genetic code.<br><b>Reason (R):</b> Amino acids have no structural specialities to read code; tRNA acts as adapter.", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 0, explanation: "Amino acids can't read codons — tRNA bridges the gap. R explains A." },
+    { id: 295, topic: "tRNA", q: "<b>Assertion (A):</b> Amino acids can't directly read genetic code.<br><br><b>Reason (R):</b> Amino acids have no structural specialities to read code; tRNA acts as adapter.", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 0, explanation: "Amino acids can't read codons — tRNA bridges the gap. R explains A." },
 
     { id: 296, topic: "tRNA", q: "tRNA was earlier known as:", options: ["mRNA", "sRNA (soluble RNA)", "rRNA", "hnRNA"], correct: 1, explanation: "tRNA was called sRNA (soluble RNA)." },
 
@@ -622,7 +622,7 @@ const allQuestions = [
 
     { id: 302, topic: "Translation", q: "Charging of tRNA involves:", options: ["tRNA linking to ribosome with GTP", "Amino acid activation and linkage to cognate tRNA with ATP", "Removal of amino acids from tRNA", "Peptide bond formation"], correct: 1, explanation: "Amino acids activated with ATP and linked to cognate tRNA = aminoacylation." },
 
-    { id: 303, topic: "Translation", q: "<b>Assertion (A):</b> Peptide bond formation is energetically favourable with charged tRNAs.<br><b>Reason (R):</b> Amino acids are already activated at cost of ATP during charging.", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 0, explanation: "Prior activation explains why bond formation is energetically favourable." },
+    { id: 303, topic: "Translation", q: "<b>Assertion (A):</b> Peptide bond formation is energetically favourable with charged tRNAs.<br><br><b>Reason (R):</b> Amino acids are already activated at cost of ATP during charging.", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 0, explanation: "Prior activation explains why bond formation is energetically favourable." },
 
     { id: 304, topic: "Translation", q: "Ribosome consists of:", options: ["Only proteins (~80 types)", "Only structural RNAs", "Structural RNAs and about 80 different proteins", "DNA and proteins"], correct: 2, explanation: "Ribosome = structural RNAs + about 80 different proteins." },
 
@@ -634,7 +634,7 @@ const allQuestions = [
 
     { id: 308, topic: "Translation", q: "Peptide bond formation catalysed by:", options: ["DNA polymerase", "RNA polymerase", "23S rRNA (ribozyme) in bacteria", "Protein enzymes only"], correct: 2, explanation: "23S rRNA = ribozyme = catalyses peptide bond formation." },
 
-    { id: 309, topic: "Translation", q: "<b>Assertion (A):</b> Ribosome is cellular factory for protein synthesis.<br><b>Reason (R):</b> Provides structure, catalytic activity (ribozyme), and binding sites.", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 0, explanation: "Ribosome has structural RNAs, proteins, binding sites, and catalytic rRNA. R explains A." },
+    { id: 309, topic: "Translation", q: "<b>Assertion (A):</b> Ribosome is cellular factory for protein synthesis.<br><br><b>Reason (R):</b> Provides structure, catalytic activity (ribozyme), and binding sites.", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 0, explanation: "Ribosome has structural RNAs, proteins, binding sites, and catalytic rRNA. R explains A." },
 
     { id: 310, topic: "Translation", q: "About ribosomes:<br>(i) Structural RNAs + ~80 proteins<br>(ii) Small subunit has 2 amino acid binding sites<br>(iii) 23S rRNA = ribozyme<br>(iv) Exists as single unit when inactive<br><br>How many correct?", options: ["One", "Two", "Three", "Four"], correct: 1, explanation: "(ii) WRONG — 2 sites in LARGE subunit. (iv) WRONG — 2 subunits. Only (i) and (iii) correct = 2." },
 
@@ -652,7 +652,7 @@ const allQuestions = [
 
     { id: 317, topic: "Translation", q: "Correct sequence during translation:<br>(i) Release factor at stop codon<br>(ii) Ribosome binds mRNA at AUG<br>(iii) Amino acids added as ribosome moves<br>(iv) Initiator tRNA recognises AUG", options: ["(ii)→(iv)→(iii)→(i)", "(iv)→(ii)→(i)→(iii)", "(iii)→(ii)→(iv)→(i)", "(i)→(ii)→(iii)→(iv)"], correct: 0, explanation: "Ribosome binds AUG → initiator tRNA → elongation → release factor at stop." },
 
-    { id: 318, topic: "Translation", q: "<b>Assertion (A):</b> Stop codons don't code for amino acids.<br><b>Reason (R):</b> Release factors (not tRNAs) recognize stop codons.", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 0, explanation: "No tRNAs for stop codons. Release factors recognize them. R explains A." },
+    { id: 318, topic: "Translation", q: "<b>Assertion (A):</b> Stop codons don't code for amino acids.<br><br><b>Reason (R):</b> Release factors (not tRNAs) recognize stop codons.", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 0, explanation: "No tRNAs for stop codons. Release factors recognize them. R explains A." },
 
     { id: 319, topic: "Translation", q: "Which is <b>incorrect</b> about translation?", options: ["Ribosome moves codon to codon along mRNA", "Amino acids added per mRNA sequence", "Small subunit has 2 amino acid binding sites", "Polypeptide released at stop codon"], correct: 2, explanation: "2 binding sites are in LARGE subunit, not small." },
 
@@ -673,7 +673,7 @@ const allQuestions = [
 
     { id: 327, topic: "Gene Regulation", q: "About gene regulation:<br>(i) Metabolic/physiological/environmental conditions regulate expression<br>(ii) Development involves coordinated regulation<br>(iii) Gene expression is always constitutive<br>(iv) Prokaryotic regulation mainly at transcriptional initiation<br><br>Which correct?", options: ["(i), (ii) and (iv) only", "All four", "(i) and (iii)", "(ii) and (iv) only"], correct: 0, explanation: "(iii) is WRONG — expression is tightly regulated, not always constitutive." },
 
-    { id: 328, topic: "Gene Regulation", q: "<b>Assertion (A):</b> E. coli won't make β-galactosidase without lactose.<br><b>Reason (R):</b> Enzyme synthesis regulated by metabolic/environmental conditions.", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 0, explanation: "No lactose = no need for enzyme. Regulation based on conditions. R explains A." },
+    { id: 328, topic: "Gene Regulation", q: "<b>Assertion (A):</b> E. coli won't make β-galactosidase without lactose.<br><br><b>Reason (R):</b> Enzyme synthesis regulated by metabolic/environmental conditions.", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 0, explanation: "No lactose = no need for enzyme. Regulation based on conditions. R explains A." },
 
     { id: 329, topic: "Gene Regulation", q: "Regulatory proteins in prokaryotes act as:", options: ["Only activators (positive)", "Only repressors (negative)", "Both activators and repressors", "Neither"], correct: 2, explanation: "Regulatory proteins can be positive (activators) or negative (repressors)." },
 
@@ -689,7 +689,7 @@ const allQuestions = [
 
     { id: 335, topic: "Gene Regulation", q: "Correct sequence of regulatory elements in prokaryotic operon:", options: ["Terminator → Gene → Operator → Promoter", "Promoter → Operator → Structural gene → Terminator", "Operator → Promoter → Terminator → Gene", "Gene → Promoter → Operator → Terminator"], correct: 1, explanation: "Promoter → Operator → Structural gene(s) → Terminator." },
 
-    { id: 336, topic: "Gene Regulation", q: "<b>Assertion (A):</b> Operator binds repressor in most operons.<br><b>Reason (R):</b> Repressor binding blocks RNA polymerase from transcribing.", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 0, explanation: "Repressor on operator physically blocks RNA polymerase. R explains A." },
+    { id: 336, topic: "Gene Regulation", q: "<b>Assertion (A):</b> Operator binds repressor in most operons.<br><br><b>Reason (R):</b> Repressor binding blocks RNA polymerase from transcribing.", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 0, explanation: "Repressor on operator physically blocks RNA polymerase. R explains A." },
 
     { id: 337, topic: "Gene Regulation", q: "Statement 1: Processing-level regulation possible in eukaryotes only.<br>Statement 2: Prokaryotic mRNA needs no processing; eukaryotic hnRNA does.", options: ["Both correct, S2 explains S1", "Both correct, S2 doesn't explain S1", "S1 correct, S2 incorrect", "Both incorrect"], correct: 0, explanation: "Prokaryotic mRNA is directly functional. Eukaryotic needs processing. S2 explains S1." },
 
@@ -726,7 +726,7 @@ const allQuestions = [
 
     { id: 353, topic: "Lac Operon", q: "About lac operon:<br>(i) Repressor synthesised constitutively from i gene<br>(ii) Without lactose, repressor binds operator, blocks transcription<br>(iii) With lactose, repressor inactivated by inducer<br>(iv) Repressor synthesised only when lactose present<br><br>Which correct?", options: ["(i), (ii) and (iii) only", "All four", "(i) and (iv)", "(ii) and (iii) only"], correct: 0, explanation: "(iv) is WRONG — repressor made ALL THE TIME (constitutively). (i), (ii), (iii) correct." },
 
-    { id: 354, topic: "Lac Operon", q: "<b>Assertion (A):</b> Repressor is synthesised constitutively.<br><b>Reason (R):</b> i gene is always expressed regardless of lactose.", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 0, explanation: "i gene is always active → repressor always made. R explains A." },
+    { id: 354, topic: "Lac Operon", q: "<b>Assertion (A):</b> Repressor is synthesised constitutively.<br><br><b>Reason (R):</b> i gene is always expressed regardless of lactose.", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 0, explanation: "i gene is always active → repressor always made. R explains A." },
 
     { id: 355, topic: "Lac Operon", q: "Without lactose, lac operon is:", options: ["ON — all genes transcribed", "OFF — repressor binds operator, blocks RNA polymerase", "Partially active — only z transcribed", "Completely degraded"], correct: 1, explanation: "Repressor binds operator → prevents RNA polymerase → operon OFF." },
 
@@ -736,7 +736,7 @@ const allQuestions = [
 
     { id: 358, topic: "Lac Operon", q: "Which CANNOT act as inducer?", options: ["Lactose", "Allolactose", "Glucose", "Both A and B can"], correct: 2, explanation: "Glucose and galactose cannot act as inducers for lac operon." },
 
-    { id: 359, topic: "Lac Operon", q: "<b>Assertion (A):</b> Low basal expression of lac operon always present.<br><b>Reason (R):</b> Without some permease, lactose can't enter cell to act as inducer.", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 0, explanation: "Some permease needed for lactose entry. R explains why basal expression is essential." },
+    { id: 359, topic: "Lac Operon", q: "<b>Assertion (A):</b> Low basal expression of lac operon always present.<br><br><b>Reason (R):</b> Without some permease, lactose can't enter cell to act as inducer.", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 0, explanation: "Some permease needed for lactose entry. R explains why basal expression is essential." },
 
     { id: 360, topic: "Lac Operon", q: "Lac operon regulation can be viewed as:", options: ["Regulation by product", "Regulation of enzyme synthesis by its substrate", "Regulation by temperature", "Regulation by DNA methylation"], correct: 1, explanation: "Lactose (substrate) regulates β-galactosidase (enzyme) synthesis." },
 
@@ -754,7 +754,7 @@ const allQuestions = [
 
     { id: 367, topic: "Lac Operon", q: "If i gene mutated (non-functional repressor), operon would be:", options: ["Permanently OFF", "Constitutively expressed (always ON)", "Expressed only with lactose", "Unable to produce mRNA"], correct: 1, explanation: "No functional repressor → operator always free → operon always ON." },
 
-    { id: 368, topic: "Lac Operon", q: "<b>Assertion (A):</b> Glucose cannot induce lac operon.<br><b>Reason (R):</b> Only lactose/allolactose interact with and inactivate repressor.", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 0, explanation: "Only lactose/allolactose can inactivate repressor. R explains A." },
+    { id: 368, topic: "Lac Operon", q: "<b>Assertion (A):</b> Glucose cannot induce lac operon.<br><br><b>Reason (R):</b> Only lactose/allolactose interact with and inactivate repressor.", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 0, explanation: "Only lactose/allolactose can inactivate repressor. R explains A." },
 
     { id: 369, topic: "Lac Operon", q: "Consider:<br>(i) Repressor binds operator → OFF<br>(ii) Inducer inactivates repressor → ON<br>(iii) RNA polymerase binds OPERATOR to initiate<br>(iv) Permease transports lactose<br><br>How many correct?", options: ["One", "Two", "Three", "Four"], correct: 2, explanation: "(iii) is WRONG — RNA polymerase binds PROMOTER (not operator). Three correct." },
 
@@ -770,7 +770,7 @@ const allQuestions = [
 
     { id: 375, topic: "Lac Operon", q: "Statement 1: Lac structural genes are polycistronic.<br>Statement 2: Single mRNA from all three genes together.", options: ["Both correct, S2 explains S1", "Both correct, S2 doesn't explain S1", "Only S1 correct", "Only S2 correct"], correct: 0, explanation: "Polycistronic = multiple genes on one mRNA. S2 explains what polycistronic means." },
 
-    { id: 376, topic: "Lac Operon", q: "<b>Assertion (A):</b> Lac operon under negative regulation.<br><b>Reason (R):</b> Repressor binds operator, inhibits transcription.", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 0, explanation: "Repressor inhibiting transcription = negative regulation. R explains A." },
+    { id: 376, topic: "Lac Operon", q: "<b>Assertion (A):</b> Lac operon under negative regulation.<br><br><b>Reason (R):</b> Repressor binds operator, inhibits transcription.", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 0, explanation: "Repressor inhibiting transcription = negative regulation. R explains A." },
 
     { id: 377, topic: "Lac Operon", q: "If promoter deleted, result:", options: ["Constitutive expression", "No transcription of structural genes", "Overproduction of repressor", "Lactose can't enter"], correct: 1, explanation: "No promoter → RNA polymerase can't bind → no transcription." },
 
@@ -786,7 +786,7 @@ const allQuestions = [
 
     { id: 383, topic: "Lac Operon", q: "Correct sequence when lactose available:<br>(i) Repressor binds operator<br>(ii) Lactose enters via permease<br>(iii) Inducer inactivates repressor<br>(iv) RNA polymerase transcribes<br>(v) Repressor constitutively produced", options: ["(v)→(i)→(ii)→(iii)→(iv)", "(ii)→(v)→(iii)→(i)→(iv)", "(v)→(ii)→(iii)→(iv)", "(ii)→(iii)→(v)→(iv)→(i)"], correct: 2, explanation: "Repressor made(v) → lactose enters(ii) → inactivates repressor(iii) → transcription(iv)." },
 
-    { id: 384, topic: "Lac Operon", q: "<b>Assertion (A):</b> Lac operon also under positive regulation.<br><b>Reason (R):</b> Positive regulation involves CAP and cAMP.", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 0, explanation: "NCERT mentions positive regulation exists. CAP-cAMP is the mechanism." },
+    { id: 384, topic: "Lac Operon", q: "<b>Assertion (A):</b> Lac operon also under positive regulation.<br><br><b>Reason (R):</b> Positive regulation involves CAP and cAMP.", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 0, explanation: "NCERT mentions positive regulation exists. CAP-cAMP is the mechanism." },
 
     { id: 385, topic: "Lac Operon", q: "Correct statement about lac operon:", options: ["All 3 genes code for unrelated pathways", "Repressor produced only without lactose", "Galactose acts as inducer", "All 3 products needed for lactose metabolism"], correct: 3, explanation: "All three gene products required for metabolism of lactose." },
 
@@ -811,7 +811,7 @@ const allQuestions = [
 
     { id: 395, topic: "Human Genome Project", q: "Estimated genes in human DNA:", options: ["80,000-1,40,000", "50,000-60,000", "20,000-25,000", "5,000-10,000"], correct: 2, explanation: "~20,000-25,000 genes. Previous estimates of 80,000-1,40,000 were overestimates." },
 
-    { id: 396, topic: "Human Genome Project", q: "<b>Assertion (A):</b> HGP needed high-speed computational devices.<br><b>Reason (R):</b> Enormous data required sophisticated storage/analysis tools.", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 0, explanation: "3 billion bp of data needed computers. R explains A." },
+    { id: 396, topic: "Human Genome Project", q: "<b>Assertion (A):</b> HGP needed high-speed computational devices.<br><br><b>Reason (R):</b> Enormous data required sophisticated storage/analysis tools.", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 0, explanation: "3 billion bp of data needed computers. R explains A." },
 
     { id: 397, topic: "Human Genome Project", q: "ELSI stands for:", options: ["Expressed Loci Sequence Information", "Ethical, Legal, and Social Issues", "Enzymatic Ligation and Sequencing Initiative", "Expressed Sequence Tag Loci Identification"], correct: 1, explanation: "Ethical, Legal, and Social Issues." },
 
@@ -833,7 +833,7 @@ const allQuestions = [
 
     { id: 406, topic: "Human Genome Project", q: "DNA sequencing method developed by:", options: ["Maxam and Gilbert", "Frederick Sanger", "Khorana", "Watson and Crick"], correct: 1, explanation: "Sanger developed the sequencing method. Also credited for amino acid sequencing." },
 
-    { id: 407, topic: "Human Genome Project", q: "<b>Assertion (A):</b> Sanger developed both DNA and protein sequencing methods.<br><b>Reason (R):</b> Sanger won two Nobel Prizes in Chemistry.", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 1, explanation: "Both true, but R doesn't explain WHY he developed both methods." },
+    { id: 407, topic: "Human Genome Project", q: "<b>Assertion (A):</b> Sanger developed both DNA and protein sequencing methods.<br><br><b>Reason (R):</b> Sanger won two Nobel Prizes in Chemistry.", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 1, explanation: "Both true, but R doesn't explain WHY he developed both methods." },
 
     { id: 408, topic: "Human Genome Project", q: "Sequenced fragments assembled using:", options: ["Manual alignment", "Overlapping regions and computer programs", "Random ligation", "Hybridisation probes only"], correct: 1, explanation: "Overlapping regions + specialised computer-based programs." },
 
@@ -867,7 +867,7 @@ const allQuestions = [
 
     { id: 423, topic: "Human Genome Project", q: "SNPs are:", options: ["Repeated sequences (thousands of times)", "Single base DNA differences at ~1.4 million locations", "Large deletions", "Transposable element insertions"], correct: 1, explanation: "1.4 million locations of single base DNA differences." },
 
-    { id: 424, topic: "Human Genome Project", q: "<b>Assertion (A):</b> Total genes (~30,000) much lower than expected.<br><b>Reason (R):</b> &lt;2% of genome codes for proteins; majority is non-coding.", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 0, explanation: "Low protein-coding percentage explains low gene count. R explains A." },
+    { id: 424, topic: "Human Genome Project", q: "<b>Assertion (A):</b> Total genes (~30,000) much lower than expected.<br><br><b>Reason (R):</b> &lt;2% of genome codes for proteins; majority is non-coding.", options: ["Both A and R true, R explains A", "Both true, R doesn't explain A", "A true, R false", "A false, R true"], correct: 0, explanation: "Low protein-coding percentage explains low gene count. R explains A." },
 
     // ===== TOPIC 29: DNA FINGERPRINTING (Q425–Q464) =====
     { id: 425, topic: "DNA Fingerprinting", q: "What percentage of base sequences differ among humans?", options: ["0.001%", "0.01%", "0.1%", "1%"], correct: 2, explanation: "NCERT: '99.9 per cent of base sequence among humans is the same.' Therefore, 0.1% differs. With 3 × 10⁹ bp, this means approximately 3 × 10⁶ (3 million) base pairs differ between two individuals." },
@@ -888,7 +888,7 @@ const allQuestions = [
 
     { id: 433, topic: "DNA Fingerprinting", q: "A DNA polymorphism is defined as a variant (allele) at a locus that occurs in a human population with a frequency greater than:", options: ["0.001", "0.01", "0.1", "0.5"], correct: 1, explanation: "NCERT: 'a DNA polymorphism if more than one variant (allele) at a locus occurs in human population with a frequency greater than 0.01.'" },
 
-    { id: 434, topic: "DNA Fingerprinting", q: "<b>Assertion (A):</b> The probability of polymorphism is higher in non-coding DNA sequences.<br><b>Reason (R):</b> Mutations in non-coding DNA may not have any immediate effect on an individual's reproductive ability.", options: ["Both A and R are true and R is the correct explanation of A", "Both A and R are true but R is not the correct explanation of A", "A is true but R is false", "A is false but R is true"], correct: 0, explanation: "NCERT: 'The probability of such variation to be observed in non-coding DNA sequence would be higher as mutations in these sequences may not have any immediate effect/impact in an individual\'s reproductive ability.' These mutations accumulate over generations. R correctly explains A." },
+    { id: 434, topic: "DNA Fingerprinting", q: "<b>Assertion (A):</b> The probability of polymorphism is higher in non-coding DNA sequences.<br><br><b>Reason (R):</b> Mutations in non-coding DNA may not have any immediate effect on an individual's reproductive ability.", options: ["Both A and R are true and R is the correct explanation of A", "Both A and R are true but R is not the correct explanation of A", "A is true but R is false", "A is false but R is true"], correct: 0, explanation: "NCERT: 'The probability of such variation to be observed in non-coding DNA sequence would be higher as mutations in these sequences may not have any immediate effect/impact in an individual\'s reproductive ability.' These mutations accumulate over generations. R correctly explains A." },
 
     { id: 435, topic: "DNA Fingerprinting", q: "DNA polymorphism ultimately arises due to:", options: ["Recombination only", "Mutations", "Transcription errors", "Translation errors"], correct: 1, explanation: "NCERT: 'Polymorphism (variation at genetic level) arises due to mutations.'" },
 
@@ -912,7 +912,7 @@ const allQuestions = [
 
     { id: 445, topic: "DNA Fingerprinting", q: "The DNA fingerprint pattern is the same in:", options: ["All siblings", "Dizygotic (fraternal) twins", "Monozygotic (identical) twins", "Parent and offspring"], correct: 2, explanation: "NCERT: 'It differs from individual to individual in a population except in the case of monozygotic (identical) twins.' Identical twins have identical DNA, hence identical fingerprints." },
 
-    { id: 446, topic: "DNA Fingerprinting", q: "<b>Assertion (A):</b> DNA fingerprinting can be performed even from a single cell.<br><b>Reason (R):</b> The sensitivity of the technique has been increased by the use of polymerase chain reaction (PCR).", options: ["Both A and R are true and R is the correct explanation of A", "Both A and R are true but R is not the correct explanation of A", "A is true but R is false", "A is false but R is true"], correct: 0, explanation: "NCERT: 'The sensitivity of the technique has been increased by use of polymerase chain reaction (PCR). Consequently, DNA from a single cell is enough to perform DNA fingerprinting analysis.' PCR amplifies the tiny amount of DNA, making analysis possible. R correctly explains A." },
+    { id: 446, topic: "DNA Fingerprinting", q: "<b>Assertion (A):</b> DNA fingerprinting can be performed even from a single cell.<br><br><b>Reason (R):</b> The sensitivity of the technique has been increased by the use of polymerase chain reaction (PCR).", options: ["Both A and R are true and R is the correct explanation of A", "Both A and R are true but R is not the correct explanation of A", "A is true but R is false", "A is false but R is true"], correct: 0, explanation: "NCERT: 'The sensitivity of the technique has been increased by use of polymerase chain reaction (PCR). Consequently, DNA from a single cell is enough to perform DNA fingerprinting analysis.' PCR amplifies the tiny amount of DNA, making analysis possible. R correctly explains A." },
 
     { id: 447, topic: "DNA Fingerprinting", q: "Which of the following tissues can be used for DNA fingerprinting?", options: ["Only blood", "Only hair follicle", "Blood, hair-follicle, skin, bone, saliva, sperm, etc.", "Only sperm cells"], correct: 2, explanation: "NCERT lists: 'blood, hair-follicle, skin, bone, saliva, sperm etc.' Any tissue can be used because DNA polymorphism is the same across all tissues of an individual." },
 
@@ -932,7 +932,7 @@ const allQuestions = [
 
     { id: 455, topic: "DNA Fingerprinting", q: "Match Column I with Column II:<br><br>Column I &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Column II<br>(i) VNTR &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (P) Developed DNA fingerprinting<br>(ii) Alec Jeffreys &nbsp;&nbsp; (Q) Minisatellite<br>(iii) Southern blot &nbsp; (R) 0.1 to 20 kb<br>(iv) VNTR size range (S) Hybridisation technique used in fingerprinting", options: ["(i)–Q, (ii)–P, (iii)–S, (iv)–R", "(i)–P, (ii)–Q, (iii)–R, (iv)–S", "(i)–R, (ii)–S, (iii)–P, (iv)–Q", "(i)–S, (ii)–R, (iii)–Q, (iv)–P"], correct: 0, explanation: "VNTR = minisatellite (Q); Alec Jeffreys = developed DNA fingerprinting (P); Southern blot = hybridisation technique (S); VNTR size = 0.1–20 kb (R)." },
 
-    { id: 456, topic: "DNA Fingerprinting", q: "<b>Assertion (A):</b> Satellite DNA sequences show a high degree of polymorphism and form the basis of DNA fingerprinting.<br><b>Reason (R):</b> Satellite DNA does not code for proteins, and mutations in these regions have no effect on reproductive ability.", options: ["Both A and R are true and R is the correct explanation of A", "Both A and R are true but R is not the correct explanation of A", "A is true but R is false", "A is false but R is true"], correct: 0, explanation: "Satellite DNA is non-coding, so mutations accumulate freely without affecting fitness. This leads to high polymorphism, which is the basis of DNA fingerprinting. R correctly explains why satellite DNA shows high polymorphism (A)." },
+    { id: 456, topic: "DNA Fingerprinting", q: "<b>Assertion (A):</b> Satellite DNA sequences show a high degree of polymorphism and form the basis of DNA fingerprinting.<br><br><b>Reason (R):</b> Satellite DNA does not code for proteins, and mutations in these regions have no effect on reproductive ability.", options: ["Both A and R are true and R is the correct explanation of A", "Both A and R are true but R is not the correct explanation of A", "A is true but R is false", "A is false but R is true"], correct: 0, explanation: "Satellite DNA is non-coding, so mutations accumulate freely without affecting fitness. This leads to high polymorphism, which is the basis of DNA fingerprinting. R correctly explains why satellite DNA shows high polymorphism (A)." },
 
     { id: 457, topic: "DNA Fingerprinting", q: "Which of the following describes the relationship between mutations and DNA polymorphism?", options: ["All mutations become polymorphisms", "If an inheritable mutation occurs at high frequency (>0.01) in a population, it is called DNA polymorphism", "Polymorphisms occur only in coding regions", "Somatic cell mutations are always transmitted to offspring"], correct: 1, explanation: "NCERT: 'if an inheritable mutation is observed in a population at high frequency, it is referred to as DNA polymorphism.' The frequency threshold is >0.01. Not all mutations become polymorphisms — only those that spread through the population." },
 
@@ -957,7 +957,7 @@ const allQuestions = [
 
     { id: 467, topic: "Chapter Summary", q: "Consider the following statements from the chapter summary:<br>(i) DNA is chemically and structurally more stable than RNA.<br>(ii) The hallmark of DNA double helix is H-bonding between bases.<br>(iii) DNA replication is conservative.<br>(iv) The genetic code is read in triplets.<br><br>Which are correct?", options: ["(i), (ii) and (iv) only", "(i), (ii) and (iii) only", "All four", "(i) and (iv) only"], correct: 0, explanation: "Statement (iii) is INCORRECT — DNA replication is semiconservative, not conservative. Statements (i), (ii), and (iv) are correct per NCERT Summary." },
 
-    { id: 468, topic: "Chapter Summary", q: "<b>Assertion (A):</b> In bacteria, mRNA can be directly translated without processing.<br><b>Reason (R):</b> Bacterial genes do not contain introns, so the transcribed mRNA is functional.", options: ["Both A and R are true and R is the correct explanation of A", "Both A and R are true but R is not the correct explanation of A", "A is true but R is false", "A is false but R is true"], correct: 0, explanation: "NCERT Summary: 'In bacteria, the transcribed mRNA is functional, hence can directly be translated.' This is because bacterial genes lack introns (no splicing needed). R correctly explains A." },
+    { id: 468, topic: "Chapter Summary", q: "<b>Assertion (A):</b> In bacteria, mRNA can be directly translated without processing.<br><br><b>Reason (R):</b> Bacterial genes do not contain introns, so the transcribed mRNA is functional.", options: ["Both A and R are true and R is the correct explanation of A", "Both A and R are true but R is not the correct explanation of A", "A is true but R is false", "A is false but R is true"], correct: 0, explanation: "NCERT Summary: 'In bacteria, the transcribed mRNA is functional, hence can directly be translated.' This is because bacterial genes lack introns (no splicing needed). R correctly explains A." },
 
     { id: 469, topic: "Chapter Summary", q: "Which of the following statements correctly relates life and RNA?", options: ["Life began around DNA", "Translation is a process that evolved around RNA, indicating life began around RNA", "Life began around proteins", "RNA has no catalytic role in translation"], correct: 1, explanation: "NCERT Summary: 'Translation is a process that has evolved around RNA, indicating that life began around RNA.' rRNA catalyses peptide bond (ribozyme), tRNA reads code, mRNA provides template — all RNA-based." },
 
@@ -969,7 +969,7 @@ const allQuestions = [
 
     { id: 473, topic: "Chapter Summary", q: "Select the correct combination of features unique to eukaryotic gene expression:", options: ["Split genes, hnRNA processing, polycistronic mRNA", "Split genes, splicing, capping, tailing", "No introns, coupled transcription-translation", "Single RNA polymerase, polycistronic mRNA"], correct: 1, explanation: "Eukaryotic features: split genes (exons + introns), splicing (intron removal), capping (5' methyl guanosine triphosphate), tailing (3' poly-A). Polycistronic mRNA and single RNA polymerase are prokaryotic features. Coupled transcription-translation is also prokaryotic." },
 
-    { id: 474, topic: "Chapter Summary", q: "<b>Assertion (A):</b> Transcription and translation are energetically very expensive processes.<br><b>Reason (R):</b> Because of the high energy cost, these processes have to be tightly regulated.", options: ["Both A and R are true and R is the correct explanation of A", "Both A and R are true but R is not the correct explanation of A", "A is true but R is false", "A is false but R is true"], correct: 0, explanation: "NCERT Summary: 'transcription and translation are energetically very expensive processes, these have to be tightly regulated.' The energy cost is the reason for tight regulation. R correctly explains A." },
+    { id: 474, topic: "Chapter Summary", q: "<b>Assertion (A):</b> Transcription and translation are energetically very expensive processes.<br><br><b>Reason (R):</b> Because of the high energy cost, these processes have to be tightly regulated.", options: ["Both A and R are true and R is the correct explanation of A", "Both A and R are true but R is not the correct explanation of A", "A is true but R is false", "A is false but R is true"], correct: 0, explanation: "NCERT Summary: 'transcription and translation are energetically very expensive processes, these have to be tightly regulated.' The energy cost is the reason for tight regulation. R correctly explains A." },
 
     { id: 475, topic: "Chapter Summary", q: "An example of RNA enzyme (ribozyme) mentioned in NCERT is:", options: ["DNA polymerase", "RNA polymerase", "rRNA that catalyses peptide bond formation", "Restriction endonuclease"], correct: 2, explanation: "NCERT Summary: 'One of the rRNA acts as a catalyst for peptide bond formation, which is an example of RNA enzyme (ribozyme).' Specifically, 23S rRNA in bacteria." },
 

@@ -1,4 +1,4 @@
-const allQuestions = [
+var allQuestions = [
   {
     id: 1,
     topic: "Introduction – Plant Kingdom",
@@ -67,7 +67,7 @@ const allQuestions = [
   {
     id: 6,
     topic: "Introduction – Plant Kingdom",
-    q: "<b>Assertion (A):</b> Artificial systems of classification are not acceptable.<br><b>Reason (R):</b> Vegetative characters are more easily affected by environment than sexual characters.",
+    q: "<b>Assertion (A):</b> Artificial systems of classification are not acceptable.<br><br><b>Reason (R):</b> Vegetative characters are more easily affected by environment than sexual characters.",
     options: [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is not the correct explanation of A",
@@ -184,7 +184,7 @@ const allQuestions = [
   {
     id: 15,
     topic: "Introduction – Plant Kingdom",
-    q: "<b>Assertion (A):</b> Cyanobacteria are no longer classified as algae.<br><b>Reason (R):</b> Cyanobacteria are prokaryotic organisms belonging to Kingdom Monera.",
+    q: "<b>Assertion (A):</b> Cyanobacteria are no longer classified as algae.<br><br><b>Reason (R):</b> Cyanobacteria are prokaryotic organisms belonging to Kingdom Monera.",
     options: [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is not the correct explanation of A",
@@ -262,7 +262,7 @@ const allQuestions = [
   {
     id: 21,
     topic: "Introduction – Plant Kingdom",
-    q: "<b>Assertion (A):</b> Natural classification is considered superior to artificial classification.<br><b>Reason (R):</b> Natural classification considers not only external features but also internal features like anatomy, embryology and phytochemistry.",
+    q: "<b>Assertion (A):</b> Natural classification is considered superior to artificial classification.<br><br><b>Reason (R):</b> Natural classification considers not only external features but also internal features like anatomy, embryology and phytochemistry.",
     options: [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is not the correct explanation of A",
@@ -366,7 +366,7 @@ const allQuestions = [
   {
     id: 29,
     topic: "Introduction – Plant Kingdom",
-    q: "<b>Assertion (A):</b> In numerical taxonomy, each character is given equal importance.<br><b>Reason (R):</b> Numbers and codes are assigned to all characters and data are processed by computers.",
+    q: "<b>Assertion (A):</b> In numerical taxonomy, each character is given equal importance.<br><br><b>Reason (R):</b> Numbers and codes are assigned to all characters and data are processed by computers.",
     options: [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is not the correct explanation of A",
@@ -444,7 +444,7 @@ const allQuestions = [
   {
     id: 35,
     topic: "Introduction – Plant Kingdom",
-    q: "<b>Assertion (A):</b> Artificial systems of classification often separated closely related species.<br><b>Reason (R):</b> They were based on only a few superficial morphological characteristics.",
+    q: "<b>Assertion (A):</b> Artificial systems of classification often separated closely related species.<br><br><b>Reason (R):</b> They were based on only a few superficial morphological characteristics.",
     options: [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is not the correct explanation of A",
@@ -548,7 +548,7 @@ const allQuestions = [
   {
     id: 43,
     topic: "Algae",
-    q: "<b>Assertion (A):</b> Algae are of paramount importance as primary producers in aquatic ecosystems.<br><b>Reason (R):</b> At least half of the total carbon dioxide fixation on earth is carried out by algae.",
+    q: "<b>Assertion (A):</b> Algae are of paramount importance as primary producers in aquatic ecosystems.<br><br><b>Reason (R):</b> At least half of the total carbon dioxide fixation on earth is carried out by algae.",
     options: [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is not the correct explanation of A",
@@ -730,7 +730,7 @@ const allQuestions = [
   {
     id: 57,
     topic: "Algae",
-    q: "<b>Assertion (A):</b> Red algae can occur at great depths in oceans.<br><b>Reason (R):</b> The red pigment r-phycoerythrin enables them to absorb blue-green wavelengths of light that penetrate deep water.",
+    q: "<b>Assertion (A):</b> Red algae can occur at great depths in oceans.<br><br><b>Reason (R):</b> The red pigment r-phycoerythrin enables them to absorb blue-green wavelengths of light that penetrate deep water.",
     options: [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is not the correct explanation of A",
@@ -847,7 +847,7 @@ const allQuestions = [
   {
     id: 66,
     topic: "Algae",
-    q: "<b>Assertion (A):</b> Vegetative reproduction in all three classes of algae occurs by fragmentation.<br><b>Reason (R):</b> Fragmentation is the only method of reproduction found in algae.",
+    q: "<b>Assertion (A):</b> Vegetative reproduction in all three classes of algae occurs by fragmentation.<br><br><b>Reason (R):</b> Fragmentation is the only method of reproduction found in algae.",
     options: [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is not the correct explanation of A",
@@ -962,7 +962,7 @@ const allQuestions = [
   {
     id: 75,
     topic: "Algae",
-    q: "<b>Assertion (A):</b> Brown algae are primarily marine.<br><b>Reason (R):</b> Brown algae possess chlorophyll a, c, carotenoids and the xanthophyll pigment fucoxanthin.",
+    q: "<b>Assertion (A):</b> Brown algae are primarily marine.<br><br><b>Reason (R):</b> Brown algae possess chlorophyll a, c, carotenoids and the xanthophyll pigment fucoxanthin.",
     options: [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is not the correct explanation of A",
@@ -1066,7 +1066,7 @@ const allQuestions = [
   {
     id: 83,
     topic: "Algae",
-    q: "<b>Assertion (A):</b> Algae increase the level of dissolved oxygen in their immediate environment.<br><b>Reason (R):</b> Algae are photosynthetic organisms that release oxygen as a by-product.",
+    q: "<b>Assertion (A):</b> Algae increase the level of dissolved oxygen in their immediate environment.<br><br><b>Reason (R):</b> Algae are photosynthetic organisms that release oxygen as a by-product.",
     options: [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is not the correct explanation of A",
@@ -1157,7 +1157,7 @@ const allQuestions = [
   {
     id: 90,
     topic: "Bryophytes",
-    q: "<b>Assertion (A):</b> The sex organs in bryophytes are multicellular.<br><b>Reason (R):</b> In algae, sex organs are generally unicellular.",
+    q: "<b>Assertion (A):</b> The sex organs in bryophytes are multicellular.<br><br><b>Reason (R):</b> In algae, sex organs are generally unicellular.",
     options: [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is not the correct explanation of A",
@@ -1417,7 +1417,7 @@ const allQuestions = [
   {
     id: 110,
     topic: "Bryophytes",
-    q: "<b>Assertion (A):</b> The sporophyte of mosses is more elaborate than that of liverworts.<br><b>Reason (R):</b> In both mosses and liverworts, the sporophyte consists of foot, seta and capsule.",
+    q: "<b>Assertion (A):</b> The sporophyte of mosses is more elaborate than that of liverworts.<br><br><b>Reason (R):</b> In both mosses and liverworts, the sporophyte consists of foot, seta and capsule.",
     options: [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is not the correct explanation of A",
@@ -1456,7 +1456,7 @@ const allQuestions = [
   {
     id: 113,
     topic: "Bryophytes",
-    q: "<b>Assertion (A):</b> Bryophytes usually occur in damp, humid and shaded localities.<br><b>Reason (R):</b> They require water for the transfer of male gametes (antherozoids) to the archegonium during sexual reproduction.",
+    q: "<b>Assertion (A):</b> Bryophytes usually occur in damp, humid and shaded localities.<br><br><b>Reason (R):</b> They require water for the transfer of male gametes (antherozoids) to the archegonium during sexual reproduction.",
     options: [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is not the correct explanation of A",
@@ -1560,7 +1560,7 @@ const allQuestions = [
   {
     id: 121,
     topic: "Bryophytes",
-    q: "<b>Assertion (A):</b> The plant body of bryophytes is more differentiated than that of algae.<br><b>Reason (R):</b> Bryophytes possess true vascular tissues for conduction.",
+    q: "<b>Assertion (A):</b> The plant body of bryophytes is more differentiated than that of algae.<br><br><b>Reason (R):</b> Bryophytes possess true vascular tissues for conduction.",
     options: [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is not the correct explanation of A",
@@ -1651,7 +1651,7 @@ const allQuestions = [
   {
     id: 128,
     topic: "Bryophytes",
-    q: "<b>Assertion (A):</b> Sphagnum peat is used as packing material for trans-shipment of living material.<br><b>Reason (R):</b> Sphagnum has a remarkable capacity to hold water, keeping the living material moist during transport.",
+    q: "<b>Assertion (A):</b> Sphagnum peat is used as packing material for trans-shipment of living material.<br><br><b>Reason (R):</b> Sphagnum has a remarkable capacity to hold water, keeping the living material moist during transport.",
     options: [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is not the correct explanation of A",
@@ -1742,7 +1742,7 @@ const allQuestions = [
   {
     id: 135,
     topic: "Pteridophytes",
-    q: "<b>Assertion (A):</b> The dominant phase in bryophytes is gametophytic while in pteridophytes it is sporophytic.<br><b>Reason (R):</b> Pteridophytes possess vascular tissues while bryophytes do not.",
+    q: "<b>Assertion (A):</b> The dominant phase in bryophytes is gametophytic while in pteridophytes it is sporophytic.<br><br><b>Reason (R):</b> Pteridophytes possess vascular tissues while bryophytes do not.",
     options: [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is not the correct explanation of A",
@@ -1859,7 +1859,7 @@ const allQuestions = [
   {
     id: 144,
     topic: "Pteridophytes",
-    q: "<b>Assertion (A):</b> The spread of living pteridophytes is limited to narrow geographical regions.<br><b>Reason (R):</b> The gametophytes require cool, damp, shady places and water is needed for fertilisation.",
+    q: "<b>Assertion (A):</b> The spread of living pteridophytes is limited to narrow geographical regions.<br><br><b>Reason (R):</b> The gametophytes require cool, damp, shady places and water is needed for fertilisation.",
     options: [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is not the correct explanation of A",
@@ -1937,7 +1937,7 @@ const allQuestions = [
   {
     id: 150,
     topic: "Pteridophytes",
-    q: "<b>Assertion (A):</b> Heterospory in pteridophytes is considered an important step in evolution.<br><b>Reason (R):</b> In heterosporous pteridophytes, the female gametophyte is retained on the parent sporophyte and the zygote develops into an embryo within it, which is a precursor to seed habit.",
+    q: "<b>Assertion (A):</b> Heterospory in pteridophytes is considered an important step in evolution.<br><br><b>Reason (R):</b> In heterosporous pteridophytes, the female gametophyte is retained on the parent sporophyte and the zygote develops into an embryo within it, which is a precursor to seed habit.",
     options: [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is not the correct explanation of A",
@@ -2067,7 +2067,7 @@ const allQuestions = [
   {
     id: 160,
     topic: "Pteridophytes",
-    q: "<b>Assertion (A):</b> In heterosporous pteridophytes, the female gametophyte is retained on the parent sporophyte for variable periods.<br><b>Reason (R):</b> This facilitates the development of zygotes into young embryos within the female gametophyte.",
+    q: "<b>Assertion (A):</b> In heterosporous pteridophytes, the female gametophyte is retained on the parent sporophyte for variable periods.<br><br><b>Reason (R):</b> This facilitates the development of zygotes into young embryos within the female gametophyte.",
     options: [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is not the correct explanation of A",
@@ -2145,7 +2145,7 @@ const allQuestions = [
   {
     id: 166,
     topic: "Pteridophytes",
-    q: "<b>Assertion (A):</b> Pteridophytes include horsetails and ferns.<br><b>Reason (R):</b> Equisetum is known as horsetail and Dryopteris, Pteris, Adiantum are ferns.",
+    q: "<b>Assertion (A):</b> Pteridophytes include horsetails and ferns.<br><br><b>Reason (R):</b> Equisetum is known as horsetail and Dryopteris, Pteris, Adiantum are ferns.",
     options: [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is not the correct explanation of A",
@@ -2275,7 +2275,7 @@ const allQuestions = [
   {
     id: 176,
     topic: "Pteridophytes",
-    q: "<b>Assertion (A):</b> Pteridophytes require water for sexual reproduction like bryophytes.<br><b>Reason (R):</b> Antherozoids of pteridophytes are motile and need water to swim to the archegonium.",
+    q: "<b>Assertion (A):</b> Pteridophytes require water for sexual reproduction like bryophytes.<br><br><b>Reason (R):</b> Antherozoids of pteridophytes are motile and need water to swim to the archegonium.",
     options: [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is not the correct explanation of A",
@@ -2418,7 +2418,7 @@ const allQuestions = [
   {
     id: 187,
     topic: "Gymnosperms",
-    q: "<b>Assertion (A):</b> Cycas has coralloid roots.<br><b>Reason (R):</b> Coralloid roots of Cycas are associated with N₂-fixing cyanobacteria.",
+    q: "<b>Assertion (A):</b> Cycas has coralloid roots.<br><br><b>Reason (R):</b> Coralloid roots of Cycas are associated with N₂-fixing cyanobacteria.",
     options: [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is not the correct explanation of A",
@@ -2587,7 +2587,7 @@ const allQuestions = [
   {
     id: 200,
     topic: "Gymnosperms",
-    q: "<b>Assertion (A):</b> Pinus is monoecious while Cycas is dioecious.<br><b>Reason (R):</b> In Pinus, male and female cones are on the same tree, while in Cycas they are on different trees.",
+    q: "<b>Assertion (A):</b> Pinus is monoecious while Cycas is dioecious.<br><br><b>Reason (R):</b> In Pinus, male and female cones are on the same tree, while in Cycas they are on different trees.",
     options: [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is not the correct explanation of A",
@@ -2730,7 +2730,7 @@ const allQuestions = [
   {
     id: 211,
     topic: "Gymnosperms",
-    q: "<b>Assertion (A):</b> Gymnosperms do not require water for fertilisation.<br><b>Reason (R):</b> In gymnosperms, pollen tubes carry male gametes to the archegonia.",
+    q: "<b>Assertion (A):</b> Gymnosperms do not require water for fertilisation.<br><br><b>Reason (R):</b> In gymnosperms, pollen tubes carry male gametes to the archegonia.",
     options: [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is not the correct explanation of A",
@@ -2821,7 +2821,7 @@ const allQuestions = [
   {
     id: 218,
     topic: "Gymnosperms",
-    q: "<b>Assertion (A):</b> Seeds of gymnosperms are naked.<br><b>Reason (R):</b> In gymnosperms, ovules are not enclosed by any ovary wall.",
+    q: "<b>Assertion (A):</b> Seeds of gymnosperms are naked.<br><br><b>Reason (R):</b> In gymnosperms, ovules are not enclosed by any ovary wall.",
     options: [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is not the correct explanation of A",
@@ -2925,7 +2925,7 @@ const allQuestions = [
   {
     id: 226,
     topic: "Gymnosperms",
-    q: "<b>Assertion (A):</b> The male gametophyte in gymnosperms is called a pollen grain.<br><b>Reason (R):</b> The male gametophytic generation in gymnosperms is highly reduced and confined to a limited number of cells.",
+    q: "<b>Assertion (A):</b> The male gametophyte in gymnosperms is called a pollen grain.<br><br><b>Reason (R):</b> The male gametophytic generation in gymnosperms is highly reduced and confined to a limited number of cells.",
     options: [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is not the correct explanation of A",
@@ -2990,7 +2990,7 @@ const allQuestions = [
   {
     id: 231,
     topic: "Gymnosperms",
-    q: "<b>Assertion (A):</b> Gymnosperms do not form fruits.<br><b>Reason (R):</b> Ovary is absent in gymnosperms, and fruits develop from the ovary wall.",
+    q: "<b>Assertion (A):</b> Gymnosperms do not form fruits.<br><br><b>Reason (R):</b> Ovary is absent in gymnosperms, and fruits develop from the ovary wall.",
     options: [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is not the correct explanation of A",
@@ -3120,7 +3120,7 @@ const allQuestions = [
   {
     id: 241,
     topic: "Gymnosperm Reproduction",
-    q: "<b>Assertion (A):</b> The female gametophyte in gymnosperms is retained within the megasporangium.<br><b>Reason (R):</b> In gymnosperms, the gametophytes do not have an independent free-living existence.",
+    q: "<b>Assertion (A):</b> The female gametophyte in gymnosperms is retained within the megasporangium.<br><br><b>Reason (R):</b> In gymnosperms, the gametophytes do not have an independent free-living existence.",
     options: [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is not the correct explanation of A",
@@ -3185,7 +3185,7 @@ const allQuestions = [
   {
     id: 246,
     topic: "Gymnosperm Reproduction",
-    q: "<b>Assertion (A):</b> In gymnosperms, water is not required for fertilisation.<br><b>Reason (R):</b> Male gametes are carried to archegonia by pollen tubes, eliminating the need for external water.",
+    q: "<b>Assertion (A):</b> In gymnosperms, water is not required for fertilisation.<br><br><b>Reason (R):</b> Male gametes are carried to archegonia by pollen tubes, eliminating the need for external water.",
     options: [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is not the correct explanation of A",
@@ -3302,7 +3302,7 @@ const allQuestions = [
   {
     id: 255,
     topic: "Plant Kingdom Summary – Comparative",
-    q: "<b>Assertion (A):</b> Gymnosperms are called naked-seeded plants.<br><b>Reason (R):</b> In gymnosperms, ovules are not enclosed by any ovary wall and after fertilisation seeds remain exposed.",
+    q: "<b>Assertion (A):</b> Gymnosperms are called naked-seeded plants.<br><br><b>Reason (R):</b> In gymnosperms, ovules are not enclosed by any ovary wall and after fertilisation seeds remain exposed.",
     options: [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is not the correct explanation of A",
@@ -3432,7 +3432,7 @@ const allQuestions = [
   {
     id: 265,
     topic: "Plant Kingdom Summary – Comparative",
-    q: "<b>Assertion (A):</b> Algae reproduce sexually by formation of gametes which may show isogamy, anisogamy or oogamy.<br><b>Reason (R):</b> In isogamy, gametes are similar in size; in anisogamy, they are dissimilar; in oogamy, a large non-motile female gamete fuses with a smaller motile male gamete.",
+    q: "<b>Assertion (A):</b> Algae reproduce sexually by formation of gametes which may show isogamy, anisogamy or oogamy.<br><br><b>Reason (R):</b> In isogamy, gametes are similar in size; in anisogamy, they are dissimilar; in oogamy, a large non-motile female gamete fuses with a smaller motile male gamete.",
     options: [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is not the correct explanation of A",
@@ -3536,7 +3536,7 @@ const allQuestions = [
   {
     id: 273,
     topic: "Plant Kingdom Summary – Comparative",
-    q: "<b>Assertion (A):</b> The gametophyte of pteridophytes is free-living while that of gymnosperms is not.<br><b>Reason (R):</b> In gymnosperms, both male and female gametophytes remain within sporangia retained on the sporophytes.",
+    q: "<b>Assertion (A):</b> The gametophyte of pteridophytes is free-living while that of gymnosperms is not.<br><br><b>Reason (R):</b> In gymnosperms, both male and female gametophytes remain within sporangia retained on the sporophytes.",
     options: [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is not the correct explanation of A",
@@ -3601,7 +3601,7 @@ const allQuestions = [
   {
     id: 278,
     topic: "Plant Kingdom Summary – Comparative",
-    q: "<b>Assertion (A):</b> Bryophytes possess root-like, leaf-like and stem-like structures but not true roots, stems and leaves.<br><b>Reason (R):</b> True roots, stems and leaves require well-differentiated vascular tissues which are absent in bryophytes.",
+    q: "<b>Assertion (A):</b> Bryophytes possess root-like, leaf-like and stem-like structures but not true roots, stems and leaves.<br><br><b>Reason (R):</b> True roots, stems and leaves require well-differentiated vascular tissues which are absent in bryophytes.",
     options: [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is not the correct explanation of A",
@@ -3679,7 +3679,7 @@ const allQuestions = [
   {
     id: 284,
     topic: "Plant Kingdom Summary – Comparative",
-    q: "<b>Assertion (A):</b> Pteridophytes are more advanced than bryophytes but less advanced than gymnosperms.<br><b>Reason (R):</b> Pteridophytes have vascular tissues and true organs but lack seeds, while gymnosperms produce seeds.",
+    q: "<b>Assertion (A):</b> Pteridophytes are more advanced than bryophytes but less advanced than gymnosperms.<br><br><b>Reason (R):</b> Pteridophytes have vascular tissues and true organs but lack seeds, while gymnosperms produce seeds.",
     options: [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is not the correct explanation of A",
@@ -3772,7 +3772,7 @@ const allQuestions = [
   {
     id: 291,
     topic: "Angiosperms",
-    q: "<b>Assertion (A):</b> Angiosperms are the most evolved group of plants.<br><b>Reason (R):</b> They have well-differentiated vascular tissue with vessels, enclose seeds in fruits, and show double fertilisation.",
+    q: "<b>Assertion (A):</b> Angiosperms are the most evolved group of plants.<br><br><b>Reason (R):</b> They have well-differentiated vascular tissue with vessels, enclose seeds in fruits, and show double fertilisation.",
     options: [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is not the correct explanation of A",
@@ -3876,7 +3876,7 @@ const allQuestions = [
   {
     id: 299,
     topic: "Angiosperms",
-    q: "<b>Assertion (A):</b> In angiosperms, fertilisation can occur without the presence of water.<br><b>Reason (R):</b> Pollen tube delivers the male gametes directly to the egg cell inside the ovule.",
+    q: "<b>Assertion (A):</b> In angiosperms, fertilisation can occur without the presence of water.<br><br><b>Reason (R):</b> Pollen tube delivers the male gametes directly to the egg cell inside the ovule.",
     options: [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is not the correct explanation of A",
@@ -3928,7 +3928,7 @@ const allQuestions = [
   {
     id: 303,
     topic: "Angiosperms",
-    q: "<b>Assertion (A):</b> Angiosperms are the most successful land plants today.<br><b>Reason (R):</b> They have adapted to almost all habitats and show maximum diversity in form.",
+    q: "<b>Assertion (A):</b> Angiosperms are the most successful land plants today.<br><br><b>Reason (R):</b> They have adapted to almost all habitats and show maximum diversity in form.",
     options: [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is not the correct explanation of A",
@@ -3995,7 +3995,7 @@ const allQuestions = [
   {
     id: 308,
     topic: "Gymnosperms",
-    q: "<b>Assertion (A):</b> In gymnosperms, the male and female gametophytes are dependent on the sporophyte.<br><b>Reason (R):</b> Gymnosperms show a drastic reduction of the gametophyte generation compared to pteridophytes.",
+    q: "<b>Assertion (A):</b> In gymnosperms, the male and female gametophytes are dependent on the sporophyte.<br><br><b>Reason (R):</b> Gymnosperms show a drastic reduction of the gametophyte generation compared to pteridophytes.",
     options: [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is not the correct explanation of A",
@@ -4062,7 +4062,7 @@ const allQuestions = [
   {
     id: 313,
     topic: "Plant Kingdom Summary – Comparative",
-    q: "<b>Assertion (A):</b> Gymnosperms and angiosperms are better suited for terrestrial life than bryophytes and pteridophytes.<br><b>Reason (R):</b> Seed plants do not require water for fertilisation and produce seeds that protect the embryo.",
+    q: "<b>Assertion (A):</b> Gymnosperms and angiosperms are better suited for terrestrial life than bryophytes and pteridophytes.<br><br><b>Reason (R):</b> Seed plants do not require water for fertilisation and produce seeds that protect the embryo.",
     options: [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is not the correct explanation of A",

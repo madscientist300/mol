@@ -1,5 +1,5 @@
 // ===== CHAPTER: Cell: The Unit of Life =====
-const allQuestions = [
+var allQuestions = [
 {
   "id": 1,
   "topic": "Introduction to Cell Biology",
@@ -42,7 +42,7 @@ const allQuestions = [
 {
   "id": 4,
   "topic": "Introduction to Cell Biology",
-  "q": "<b>Assertion (A):</b> Cell is considered the fundamental structural and functional unit of all living organisms.<br><b>Reason (R):</b> Anything less than a complete structure of a cell ensures independent living.",
+  "q": "<b>Assertion (A):</b> Cell is considered the fundamental structural and functional unit of all living organisms.<br><br><b>Reason (R):</b> Anything less than a complete structure of a cell ensures independent living.",
   "options": [
     "Both A and R are true and R correctly explains A",
     "Both A and R are true but R does not correctly explain A",
@@ -146,7 +146,7 @@ const allQuestions = [
 {
   "id": 12,
   "topic": "Introduction to Cell Biology",
-  "q": "<b>Assertion (A):</b> Reductionist biology involves using cell-free systems to investigate living processes.<br><b>Reason (R):</b> This approach describes various processes in molecular terms by applying physico-chemical concepts.",
+  "q": "<b>Assertion (A):</b> Reductionist biology involves using cell-free systems to investigate living processes.<br><br><b>Reason (R):</b> This approach describes various processes in molecular terms by applying physico-chemical concepts.",
   "options": [
     "Both A and R are true and R correctly explains A",
     "Both A and R are true but R does not correctly explain A",
@@ -237,7 +237,7 @@ const allQuestions = [
 {
   "id": 19,
   "topic": "Introduction to Cell Biology",
-  "q": "<b>Assertion (A):</b> Unicellular organisms are capable of independent existence.<br><b>Reason (R):</b> A complete cellular structure is essential for independent living.",
+  "q": "<b>Assertion (A):</b> Unicellular organisms are capable of independent existence.<br><br><b>Reason (R):</b> A complete cellular structure is essential for independent living.",
   "options": [
     "Both A and R are true and R correctly explains A",
     "Both A and R are true but R does not correctly explain A",
@@ -354,7 +354,7 @@ const allQuestions = [
 {
   "id": 28,
   "topic": "Introduction to Cell Biology",
-  "q": "<b>Assertion (A):</b> The detailed description of form and appearance of organisms emphasised the unity of life.<br><b>Reason (R):</b> Cell theory emphasised cellular organisation as the basis of unity in living forms.",
+  "q": "<b>Assertion (A):</b> The detailed description of form and appearance of organisms emphasised the unity of life.<br><br><b>Reason (R):</b> Cell theory emphasised cellular organisation as the basis of unity in living forms.",
   "options": [
     "Both A and R are true and R correctly explains A",
     "Both A and R are true but R does not correctly explain A",
@@ -432,7 +432,7 @@ const allQuestions = [
 {
   "id": 34,
   "topic": "Cell Theory",
-  "q": "<b>Assertion (A):</b> Schleiden and Schwann together formulated the cell theory.<br><b>Reason (R):</b> Their theory explained how new cells are formed from pre-existing cells.",
+  "q": "<b>Assertion (A):</b> Schleiden and Schwann together formulated the cell theory.<br><br><b>Reason (R):</b> Their theory explained how new cells are formed from pre-existing cells.",
   "options": [
     "Both A and R are true and R correctly explains A",
     "Both A and R are true but R does not correctly explain A",
@@ -549,7 +549,7 @@ const allQuestions = [
 {
   "id": 43,
   "topic": "Cell Theory",
-  "q": "<b>Assertion (A):</b> Ribosomes are found in both prokaryotic and eukaryotic cells.<br><b>Reason (R):</b> Ribosomes are membrane-bound organelles essential for protein synthesis.",
+  "q": "<b>Assertion (A):</b> Ribosomes are found in both prokaryotic and eukaryotic cells.<br><br><b>Reason (R):</b> Ribosomes are membrane-bound organelles essential for protein synthesis.",
   "options": [
     "Both A and R are true and R correctly explains A",
     "Both A and R are true but R does not correctly explain A",
@@ -666,7 +666,7 @@ const allQuestions = [
 {
   "id": 52,
   "topic": "Cell Theory",
-  "q": "<b>Assertion (A):</b> The onion peel cell has a cell wall as its outer boundary and just within it is the cell membrane.<br><b>Reason (R):</b> The presence of cell wall is a unique character of plant cells as concluded by Schwann.",
+  "q": "<b>Assertion (A):</b> The onion peel cell has a cell wall as its outer boundary and just within it is the cell membrane.<br><br><b>Reason (R):</b> The presence of cell wall is a unique character of plant cells as concluded by Schwann.",
   "options": [
     "Both A and R are true and R correctly explains A",
     "Both A and R are true but R does not correctly explain A",
@@ -770,7 +770,7 @@ const allQuestions = [
 {
   "id": 60,
   "topic": "Cell Theory",
-  "q": "<b>Assertion (A):</b> Prokaryotic cells lack membrane-bound organelles but contain ribosomes.<br><b>Reason (R):</b> Ribosomes are non-membrane bound organelles essential for all cells.",
+  "q": "<b>Assertion (A):</b> Prokaryotic cells lack membrane-bound organelles but contain ribosomes.<br><br><b>Reason (R):</b> Ribosomes are non-membrane bound organelles essential for all cells.",
   "options": [
     "Both A and R are true and R correctly explains A",
     "Both A and R are true but R does not correctly explain A",
@@ -835,7 +835,7 @@ const allQuestions = [
 {
   "id": 65,
   "topic": "Prokaryotic Cells",
-  "q": "<b>Assertion (A):</b> Plasmid DNA is used to monitor bacterial transformation with foreign DNA.<br><b>Reason (R):</b> Plasmid DNA confers certain unique phenotypic characters like resistance to antibiotics.",
+  "q": "<b>Assertion (A):</b> Plasmid DNA is used to monitor bacterial transformation with foreign DNA.<br><br><b>Reason (R):</b> Plasmid DNA confers certain unique phenotypic characters like resistance to antibiotics.",
   "options": [
     "Both A and R are true and R correctly explains A",
     "Both A and R are true but R does not correctly explain A",
@@ -926,7 +926,7 @@ const allQuestions = [
 {
   "id": 72,
   "topic": "Prokaryotic Cells",
-  "q": "<b>Assertion (A):</b> The cell wall of bacteria provides a strong structural support.<br><b>Reason (R):</b> The cell wall prevents the bacterium from bursting or collapsing.",
+  "q": "<b>Assertion (A):</b> The cell wall of bacteria provides a strong structural support.<br><br><b>Reason (R):</b> The cell wall prevents the bacterium from bursting or collapsing.",
   "options": [
     "Both A and R are true and R correctly explains A",
     "Both A and R are true but R does not correctly explain A",
@@ -1030,7 +1030,7 @@ const allQuestions = [
 {
   "id": 80,
   "topic": "Prokaryotic Cells",
-  "q": "<b>Assertion (A):</b> Prokaryotic cells have inclusions as unique structures.<br><b>Reason (R):</b> Prokaryotic cells have membrane-bound organelles like eukaryotes.",
+  "q": "<b>Assertion (A):</b> Prokaryotic cells have inclusions as unique structures.<br><br><b>Reason (R):</b> Prokaryotic cells have membrane-bound organelles like eukaryotes.",
   "options": [
     "Both A and R are true and R correctly explains A",
     "Both A and R are true but R does not correctly explain A",
@@ -1134,7 +1134,7 @@ const allQuestions = [
 {
   "id": 88,
   "topic": "Prokaryotic Cells",
-  "q": "<b>Assertion (A):</b> Mycoplasma lacks a cell wall.<br><b>Reason (R):</b> All prokaryotes have a cell wall surrounding the cell membrane.",
+  "q": "<b>Assertion (A):</b> Mycoplasma lacks a cell wall.<br><br><b>Reason (R):</b> All prokaryotes have a cell wall surrounding the cell membrane.",
   "options": [
     "Both A and R are true and R correctly explains A",
     "Both A and R are true but R does not correctly explain A",
@@ -1277,7 +1277,7 @@ const allQuestions = [
 {
   "id": 99,
   "topic": "Ribosomes and Inclusion Bodies / Eukaryotic Cells",
-  "q": "<b>Assertion (A):</b> The sedimentation coefficient of the prokaryotic ribosome is 70S.<br><b>Reason (R):</b> The sedimentation coefficients of the two subunits (50S and 30S) are directly additive.",
+  "q": "<b>Assertion (A):</b> The sedimentation coefficient of the prokaryotic ribosome is 70S.<br><br><b>Reason (R):</b> The sedimentation coefficients of the two subunits (50S and 30S) are directly additive.",
   "options": [
     "Both A and R are true and R correctly explains A",
     "Both A and R are true but R does not correctly explain A",
@@ -1342,7 +1342,7 @@ const allQuestions = [
 {
   "id": 104,
   "topic": "Ribosomes and Inclusion Bodies / Eukaryotic Cells",
-  "q": "<b>Assertion (A):</b> Eukaryotic cells possess an organised nucleus with a nuclear envelope.<br><b>Reason (R):</b> Prokaryotic cells also have their genetic material organised into chromosomes within a nuclear envelope.",
+  "q": "<b>Assertion (A):</b> Eukaryotic cells possess an organised nucleus with a nuclear envelope.<br><br><b>Reason (R):</b> Prokaryotic cells also have their genetic material organised into chromosomes within a nuclear envelope.",
   "options": [
     "Both A and R are true and R correctly explains A",
     "Both A and R are true but R does not correctly explain A",
@@ -1420,7 +1420,7 @@ const allQuestions = [
 {
   "id": 110,
   "topic": "Ribosomes and Inclusion Bodies / Eukaryotic Cells",
-  "q": "<b>Assertion (A):</b> Inclusion bodies in prokaryotes are not bound by any membrane system.<br><b>Reason (R):</b> Prokaryotic cells generally lack membrane-bound organelles.",
+  "q": "<b>Assertion (A):</b> Inclusion bodies in prokaryotes are not bound by any membrane system.<br><br><b>Reason (R):</b> Prokaryotic cells generally lack membrane-bound organelles.",
   "options": [
     "Both A and R are true and R correctly explains A",
     "Both A and R are true but R does not correctly explain A",
@@ -1511,7 +1511,7 @@ const allQuestions = [
 {
   "id": 117,
   "topic": "Ribosomes and Inclusion Bodies / Eukaryotic Cells",
-  "q": "<b>Assertion (A):</b> All eukaryotic cells have centrioles.<br><b>Reason (R):</b> Centrioles are present in animal cells and absent in almost all plant cells.",
+  "q": "<b>Assertion (A):</b> All eukaryotic cells have centrioles.<br><br><b>Reason (R):</b> Centrioles are present in animal cells and absent in almost all plant cells.",
   "options": [
     "Both A and R are true and R correctly explains A",
     "Both A and R are true but R does not correctly explain A",
@@ -1693,7 +1693,7 @@ const allQuestions = [
 {
   "id": 131,
   "topic": "Cell Membrane",
-  "q": "<b>Assertion (A):</b> The plasma membrane is selectively permeable.<br><b>Reason (R):</b> All molecules can freely pass through the membrane without any energy requirement.",
+  "q": "<b>Assertion (A):</b> The plasma membrane is selectively permeable.<br><br><b>Reason (R):</b> All molecules can freely pass through the membrane without any energy requirement.",
   "options": [
     "Both A and R are true and R correctly explains A",
     "Both A and R are true but R does not correctly explain A",
@@ -1797,7 +1797,7 @@ const allQuestions = [
 {
   "id": 139,
   "topic": "Cell Membrane",
-  "q": "<b>Assertion (A):</b> The nonpolar tails of phospholipids are protected from the aqueous environment.<br><b>Reason (R):</b> The hydrophobic tails are arranged towards the inner part of the bilayer with polar heads facing outward.",
+  "q": "<b>Assertion (A):</b> The nonpolar tails of phospholipids are protected from the aqueous environment.<br><br><b>Reason (R):</b> The hydrophobic tails are arranged towards the inner part of the bilayer with polar heads facing outward.",
   "options": [
     "Both A and R are true and R correctly explains A",
     "Both A and R are true but R does not correctly explain A",
@@ -1875,7 +1875,7 @@ const allQuestions = [
 {
   "id": 145,
   "topic": "Cell Membrane",
-  "q": "<b>Assertion (A):</b> In the human RBC membrane, protein content is higher than lipid content.<br><b>Reason (R):</b> The ratio of protein and lipid is constant across all cell types.",
+  "q": "<b>Assertion (A):</b> In the human RBC membrane, protein content is higher than lipid content.<br><br><b>Reason (R):</b> The ratio of protein and lipid is constant across all cell types.",
   "options": [
     "Both A and R are true and R correctly explains A",
     "Both A and R are true but R does not correctly explain A",
@@ -2044,7 +2044,7 @@ const allQuestions = [
 {
   "id": 158,
   "topic": "Cell Wall, Endomembrane System, Golgi, Lysosomes, Vacuoles",
-  "q": "<b>Assertion (A):</b> The primary wall of a young plant cell is capable of growth.<br><b>Reason (R):</b> As the cell matures, growth capacity gradually diminishes and the secondary wall is formed.",
+  "q": "<b>Assertion (A):</b> The primary wall of a young plant cell is capable of growth.<br><br><b>Reason (R):</b> As the cell matures, growth capacity gradually diminishes and the secondary wall is formed.",
   "options": [
     "Both A and R are true and R correctly explains A",
     "Both A and R are true but R does not correctly explain A",
@@ -2187,7 +2187,7 @@ const allQuestions = [
 {
   "id": 169,
   "topic": "Cell Wall, Endomembrane System, Golgi, Lysosomes, Vacuoles",
-  "q": "<b>Assertion (A):</b> The Golgi apparatus remains in close association with the endoplasmic reticulum.<br><b>Reason (R):</b> Vesicles from the ER fuse with the cis face of the Golgi apparatus for packaging.",
+  "q": "<b>Assertion (A):</b> The Golgi apparatus remains in close association with the endoplasmic reticulum.<br><br><b>Reason (R):</b> Vesicles from the ER fuse with the cis face of the Golgi apparatus for packaging.",
   "options": [
     "Both A and R are true and R correctly explains A",
     "Both A and R are true but R does not correctly explain A",
@@ -2317,7 +2317,7 @@ const allQuestions = [
 {
   "id": 179,
   "topic": "Cell Wall, Endomembrane System, Golgi, Lysosomes, Vacuoles",
-  "q": "<b>Assertion (A):</b> Mitochondria are not considered part of the endomembrane system.<br><b>Reason (R):</b> The functions of mitochondria are not coordinated with the components of the endomembrane system.",
+  "q": "<b>Assertion (A):</b> Mitochondria are not considered part of the endomembrane system.<br><br><b>Reason (R):</b> The functions of mitochondria are not coordinated with the components of the endomembrane system.",
   "options": [
     "Both A and R are true and R correctly explains A",
     "Both A and R are true but R does not correctly explain A",
@@ -2395,7 +2395,7 @@ const allQuestions = [
 {
   "id": 185,
   "topic": "Cell Wall, Endomembrane System, Golgi, Lysosomes, Vacuoles",
-  "q": "<b>Assertion (A):</b> The concentration of ions is significantly higher in the vacuole than in the cytoplasm of plant cells.<br><b>Reason (R):</b> The tonoplast facilitates transport of ions against concentration gradients into the vacuole.",
+  "q": "<b>Assertion (A):</b> The concentration of ions is significantly higher in the vacuole than in the cytoplasm of plant cells.<br><br><b>Reason (R):</b> The tonoplast facilitates transport of ions against concentration gradients into the vacuole.",
   "options": [
     "Both A and R are true and R correctly explains A",
     "Both A and R are true but R does not correctly explain A",
@@ -2668,7 +2668,7 @@ const allQuestions = [
 {
   "id": 206,
   "topic": "Mitochondria",
-  "q": "<b>Assertion (A):</b> Mitochondria are considered semi-autonomous organelles.<br><b>Reason (R):</b> Mitochondria possess their own circular DNA, 70S ribosomes, RNA molecules, and components for protein synthesis.",
+  "q": "<b>Assertion (A):</b> Mitochondria are considered semi-autonomous organelles.<br><br><b>Reason (R):</b> Mitochondria possess their own circular DNA, 70S ribosomes, RNA molecules, and components for protein synthesis.",
   "options": [
     "Both A and R are true and R correctly explains A",
     "Both A and R are true but R does not correctly explain A",
@@ -2707,7 +2707,7 @@ const allQuestions = [
 {
   "id": 209,
   "topic": "Mitochondria",
-  "q": "<b>Assertion (A):</b> The number of mitochondria is higher in metabolically active cells like muscle cells.<br><b>Reason (R):</b> The number of mitochondria per cell depends on the physiological activity of the cells.",
+  "q": "<b>Assertion (A):</b> The number of mitochondria is higher in metabolically active cells like muscle cells.<br><br><b>Reason (R):</b> The number of mitochondria per cell depends on the physiological activity of the cells.",
   "options": [
     "Both A and R are true and R correctly explains A",
     "Both A and R are true but R does not correctly explain A",
@@ -2785,7 +2785,7 @@ const allQuestions = [
 {
   "id": 215,
   "topic": "Mitochondria",
-  "q": "<b>Assertion (A):</b> Cristae increase the efficiency of aerobic respiration in mitochondria.<br><b>Reason (R):</b> Cristae are infoldings of the inner membrane that increase the surface area.",
+  "q": "<b>Assertion (A):</b> Cristae increase the efficiency of aerobic respiration in mitochondria.<br><br><b>Reason (R):</b> Cristae are infoldings of the inner membrane that increase the surface area.",
   "options": [
     "Both A and R are true and R correctly explains A",
     "Both A and R are true but R does not correctly explain A",
@@ -3058,7 +3058,7 @@ const allQuestions = [
 {
   "id": 236,
   "topic": "Plastids, Ribosomes, Cytoskeleton",
-  "q": "<b>Assertion (A):</b> Chloroplasts are considered semi-autonomous organelles.<br><b>Reason (R):</b> Chloroplasts possess their own double-stranded circular DNA, 70S ribosomes, and enzymes for protein synthesis.",
+  "q": "<b>Assertion (A):</b> Chloroplasts are considered semi-autonomous organelles.<br><br><b>Reason (R):</b> Chloroplasts possess their own double-stranded circular DNA, 70S ribosomes, and enzymes for protein synthesis.",
   "options": [
     "Both A and R are true and R correctly explains A",
     "Both A and R are true but R does not correctly explain A",
@@ -3136,7 +3136,7 @@ const allQuestions = [
 {
   "id": 242,
   "topic": "Plastids, Ribosomes, Cytoskeleton",
-  "q": "<b>Assertion (A):</b> The Svedberg unit (S) is indirectly a measure of density and size of ribosomes.<br><b>Reason (R):</b> The sedimentation coefficients of ribosomal subunits are directly additive.",
+  "q": "<b>Assertion (A):</b> The Svedberg unit (S) is indirectly a measure of density and size of ribosomes.<br><br><b>Reason (R):</b> The sedimentation coefficients of ribosomal subunits are directly additive.",
   "options": [
     "Both A and R are true and R correctly explains A",
     "Both A and R are true but R does not correctly explain A",
@@ -3214,7 +3214,7 @@ const allQuestions = [
 {
   "id": 248,
   "topic": "Plastids, Ribosomes, Cytoskeleton",
-  "q": "<b>Assertion (A):</b> Chloroplasts and mitochondria are not part of the endomembrane system.<br><b>Reason (R):</b> Both chloroplasts and mitochondria possess their own DNA, ribosomes, and can divide independently by fission.",
+  "q": "<b>Assertion (A):</b> Chloroplasts and mitochondria are not part of the endomembrane system.<br><br><b>Reason (R):</b> Both chloroplasts and mitochondria possess their own DNA, ribosomes, and can divide independently by fission.",
   "options": [
     "Both A and R are true and R correctly explains A",
     "Both A and R are true but R does not correctly explain A",
@@ -3474,7 +3474,7 @@ const allQuestions = [
 {
   "id": 268,
   "topic": "Cilia and Flagella",
-  "q": "<b>Assertion (A):</b> Prokaryotic flagella and eukaryotic flagella are structurally identical.<br><b>Reason (R):</b> Both prokaryotic and eukaryotic flagella have a 9+2 axonemal arrangement.",
+  "q": "<b>Assertion (A):</b> Prokaryotic flagella and eukaryotic flagella are structurally identical.<br><br><b>Reason (R):</b> Both prokaryotic and eukaryotic flagella have a 9+2 axonemal arrangement.",
   "options": [
     "Both A and R are true and R correctly explains A",
     "Both A and R are true but R does not correctly explain A",
@@ -3526,7 +3526,7 @@ const allQuestions = [
 {
   "id": 272,
   "topic": "Cilia and Flagella",
-  "q": "<b>Assertion (A):</b> Both cilia and flagella emerge from basal bodies.<br><b>Reason (R):</b> Basal bodies are centriole-like structures present at the base of cilia and flagella.",
+  "q": "<b>Assertion (A):</b> Both cilia and flagella emerge from basal bodies.<br><br><b>Reason (R):</b> Basal bodies are centriole-like structures present at the base of cilia and flagella.",
   "options": [
     "Both A and R are true and R correctly explains A",
     "Both A and R are true but R does not correctly explain A",
@@ -3591,7 +3591,7 @@ const allQuestions = [
 {
   "id": 277,
   "topic": "Cilia and Flagella",
-  "q": "<b>Assertion (A):</b> Basal bodies are identical to centrioles.<br><b>Reason (R):</b> NCERT describes basal bodies as centriole-like structures.",
+  "q": "<b>Assertion (A):</b> Basal bodies are identical to centrioles.<br><br><b>Reason (R):</b> NCERT describes basal bodies as centriole-like structures.",
   "options": [
     "Both A and R are true and R correctly explains A",
     "Both A and R are true but R does not correctly explain A",
@@ -3682,7 +3682,7 @@ const allQuestions = [
 {
   "id": 284,
   "topic": "Cilia and Flagella",
-  "q": "<b>Assertion (A):</b> The 9+2 array of microtubules is characteristic of the axoneme of eukaryotic cilia and flagella.<br><b>Reason (R):</b> The arrangement consists of nine doublets of peripheral microtubules and a pair of central microtubules.",
+  "q": "<b>Assertion (A):</b> The 9+2 array of microtubules is characteristic of the axoneme of eukaryotic cilia and flagella.<br><br><b>Reason (R):</b> The arrangement consists of nine doublets of peripheral microtubules and a pair of central microtubules.",
   "options": [
     "Both A and R are true and R correctly explains A",
     "Both A and R are true but R does not correctly explain A",
@@ -3916,7 +3916,7 @@ const allQuestions = [
 {
   "id": 302,
   "topic": "Centrosome, Centrioles, Nucleus, Microbodies",
-  "q": "<b>Assertion (A):</b> The nucleolus is a site for active ribosomal RNA synthesis.<br><b>Reason (R):</b> Larger and more numerous nucleoli are present in cells actively carrying out protein synthesis.",
+  "q": "<b>Assertion (A):</b> The nucleolus is a site for active ribosomal RNA synthesis.<br><br><b>Reason (R):</b> Larger and more numerous nucleoli are present in cells actively carrying out protein synthesis.",
   "options": [
     "Both A and R are true and R correctly explains A",
     "Both A and R are true but R does not correctly explain A",
@@ -4059,7 +4059,7 @@ const allQuestions = [
 {
   "id": 313,
   "topic": "Centrosome, Centrioles, Nucleus, Microbodies",
-  "q": "<b>Assertion (A):</b> The perinuclear space is the space between the two parallel membranes of the nuclear envelope.<br><b>Reason (R):</b> The width of the perinuclear space is 10 to 50 nm.",
+  "q": "<b>Assertion (A):</b> The perinuclear space is the space between the two parallel membranes of the nuclear envelope.<br><br><b>Reason (R):</b> The width of the perinuclear space is 10 to 50 nm.",
   "options": [
     "Both A and R are true and R correctly explains A",
     "Both A and R are true but R does not correctly explain A",
@@ -4111,7 +4111,7 @@ const allQuestions = [
 {
   "id": 317,
   "topic": "Centrosome, Centrioles, Nucleus, Microbodies",
-  "q": "<b>Assertion (A):</b> Chromosomes are visible only during cell division.<br><b>Reason (R):</b> During interphase, the nucleoprotein fibres exist as loose and indistinct chromatin network.",
+  "q": "<b>Assertion (A):</b> Chromosomes are visible only during cell division.<br><br><b>Reason (R):</b> During interphase, the nucleoprotein fibres exist as loose and indistinct chromatin network.",
   "options": [
     "Both A and R are true and R correctly explains A",
     "Both A and R are true but R does not correctly explain A",
@@ -4280,7 +4280,7 @@ const allQuestions = [
 {
   "id": 330,
   "topic": "Summary – Cell: The Unit of Life",
-  "q": "<b>Assertion (A):</b> Grana in chloroplasts is the site of dark reactions.<br><b>Reason (R):</b> Stroma of chloroplasts is the site of light reactions.",
+  "q": "<b>Assertion (A):</b> Grana in chloroplasts is the site of dark reactions.<br><br><b>Reason (R):</b> Stroma of chloroplasts is the site of light reactions.",
   "options": [
     "Both A and R are true and R correctly explains A",
     "Both A and R are true but R does not correctly explain A",
@@ -4384,7 +4384,7 @@ const allQuestions = [
 {
   "id": 338,
   "topic": "Summary – Cell: The Unit of Life",
-  "q": "<b>Assertion (A):</b> Plant cells have a cell wall outside the cell membrane.<br><b>Reason (R):</b> Cell wall is a living, flexible structure that provides selective permeability.",
+  "q": "<b>Assertion (A):</b> Plant cells have a cell wall outside the cell membrane.<br><br><b>Reason (R):</b> Cell wall is a living, flexible structure that provides selective permeability.",
   "options": [
     "Both A and R are true and R correctly explains A",
     "Both A and R are true but R does not correctly explain A",
@@ -4449,7 +4449,7 @@ const allQuestions = [
 {
   "id": 343,
   "topic": "Summary – Cell: The Unit of Life",
-  "q": "<b>Assertion (A):</b> Centrosome and centriole form the basal body of cilia and flagella.<br><b>Reason (R):</b> In animal cells, centrioles also form spindle apparatus during cell division.",
+  "q": "<b>Assertion (A):</b> Centrosome and centriole form the basal body of cilia and flagella.<br><br><b>Reason (R):</b> In animal cells, centrioles also form spindle apparatus during cell division.",
   "options": [
     "Both A and R are true and R correctly explains A",
     "Both A and R are true but R does not correctly explain A",
@@ -4540,7 +4540,7 @@ const allQuestions = [
 {
   "id": 350,
   "topic": "Summary – Cell: The Unit of Life",
-  "q": "<b>Assertion (A):</b> Lysosomes contain enzymes for digestion of all types of macromolecules.<br><b>Reason (R):</b> Lysosomes are double membrane structures formed by the Golgi apparatus.",
+  "q": "<b>Assertion (A):</b> Lysosomes contain enzymes for digestion of all types of macromolecules.<br><br><b>Reason (R):</b> Lysosomes are double membrane structures formed by the Golgi apparatus.",
   "options": [
     "Both A and R are true and R correctly explains A",
     "Both A and R are true but R does not correctly explain A",

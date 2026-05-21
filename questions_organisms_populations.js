@@ -1,5 +1,5 @@
 // ===== CHAPTER: Organisms and Populations =====
-const allQuestions = [
+var allQuestions = [
 {
   "id": 1,
   "topic": "Introduction - Organisms and Population",
@@ -59,7 +59,7 @@ const allQuestions = [
 {
   "id": 8,
   "topic": "Introduction - Organisms and Population",
-  "q": "<b>Assertion (A):</b> 'How-type' questions in biology seek the significance of a biological process.<br><b>Reason (R):</b> 'Why-type' questions in biology seek the mechanism behind a biological process.",
+  "q": "<b>Assertion (A):</b> 'How-type' questions in biology seek the significance of a biological process.<br><br><b>Reason (R):</b> 'Why-type' questions in biology seek the mechanism behind a biological process.",
   "options": ["Both A and R are correct, and R is the correct explanation of A", "Both A and R are correct, but R is not the correct explanation of A", "A is correct but R is incorrect", "Both A and R are incorrect"],
   "correct": 3,
   "explanation": "Both statements are incorrect. As per NCERT, 'How-type' questions seek the mechanism (not significance), and 'Why-type' questions seek the significance (not mechanism). This is a common conceptual trap."
@@ -107,7 +107,7 @@ const allQuestions = [
 {
   "id": 14,
   "topic": "Introduction - Organisms and Population",
-  "q": "<b>Assertion (A):</b> Ecology gives a holistic perspective to biology.<br><b>Reason (R):</b> Ecology studies how organisms interact with other organisms and physical habitats behaving like organised wholes such as population, community, ecosystem or the biosphere.",
+  "q": "<b>Assertion (A):</b> Ecology gives a holistic perspective to biology.<br><br><b>Reason (R):</b> Ecology studies how organisms interact with other organisms and physical habitats behaving like organised wholes such as population, community, ecosystem or the biosphere.",
   "options": ["Both A and R are correct, and R is the correct explanation of A", "Both A and R are correct, but R is not the correct explanation of A", "A is correct but R is incorrect", "A is incorrect but R is correct"],
   "correct": 0,
   "explanation": "Both statements are directly from NCERT. Ecology is described as a thread which gives a holistic perspective to biology because it explains how organisms interact at various levels — populations, communities, ecosystems, and biosphere. R correctly explains A."
@@ -195,7 +195,7 @@ const allQuestions = [
 {
   "id": 25,
   "topic": "Introduction - Organisms and Population",
-  "q": "<b>Assertion (A):</b> Ramdeo Misra is considered the Father of Ecology in India.<br><b>Reason (R):</b> He coined the term 'Ecology' for the first time.",
+  "q": "<b>Assertion (A):</b> Ramdeo Misra is considered the Father of Ecology in India.<br><br><b>Reason (R):</b> He coined the term 'Ecology' for the first time.",
   "options": ["Both A and R are correct, and R is the correct explanation of A", "Both A and R are correct, but R is not the correct explanation of A", "A is correct but R is incorrect", "A is incorrect but R is correct"],
   "correct": 2,
   "explanation": "Assertion is correct — Ramdeo Misra is the Father of Ecology in India. Reason is incorrect — the term 'Ecology' was coined by Ernst Haeckel, not Ramdeo Misra."
@@ -243,7 +243,7 @@ const allQuestions = [
 {
   "id": 31,
   "topic": "Introduction - Organisms and Population",
-  "q": "<b>Assertion (A):</b> Ecology is basically concerned with five levels of biological organisation.<br><b>Reason (R):</b> These five levels include organisms, populations, communities, ecosystems and biomes.",
+  "q": "<b>Assertion (A):</b> Ecology is basically concerned with five levels of biological organisation.<br><br><b>Reason (R):</b> These five levels include organisms, populations, communities, ecosystems and biomes.",
   "options": ["Both A and R are correct, and R is the correct explanation of A", "Both A and R are correct, but R is not the correct explanation of A", "A is correct but R is incorrect", "Both A and R are incorrect"],
   "correct": 3,
   "explanation": "Both are incorrect. NCERT states ecology is concerned with FOUR levels (not five): organisms, populations, communities, and biomes. Ecosystems is not listed in this specific statement."
@@ -315,7 +315,7 @@ const allQuestions = [
 {
   "id": 40,
   "topic": "Populations - Population Attributes",
-  "q": "<b>Assertion (A):</b> Natural selection operates at the individual organism level.<br><b>Reason (R):</b> It is the individual organism that has to cope with a changed environment.",
+  "q": "<b>Assertion (A):</b> Natural selection operates at the individual organism level.<br><br><b>Reason (R):</b> It is the individual organism that has to cope with a changed environment.",
   "options": ["Both A and R are correct, and R is the correct explanation of A", "Both A and R are correct, but R is not the correct explanation of A", "A is incorrect but R is correct", "Both A and R are incorrect"],
   "correct": 2,
   "explanation": "Assertion is incorrect — NCERT states that natural selection operates at the POPULATION level, not individual level. Reason is correct — NCERT states that 'an individual organism is the one that has to cope with a changed environment.' This is a classic trap."
@@ -411,7 +411,7 @@ const allQuestions = [
 {
   "id": 52,
   "topic": "Populations - Population Attributes",
-  "q": "<b>Assertion (A):</b> Total number is always the most appropriate measure of population density.<br><b>Reason (R):</b> In some cases, per cent cover or biomass is a more meaningful measure of population size.",
+  "q": "<b>Assertion (A):</b> Total number is always the most appropriate measure of population density.<br><br><b>Reason (R):</b> In some cases, per cent cover or biomass is a more meaningful measure of population size.",
   "options": ["Both A and R are correct, and R is the correct explanation of A", "Both A and R are correct, but R is not the correct explanation of A", "A is incorrect but R is correct", "A is correct but R is incorrect"],
   "correct": 2,
   "explanation": "Assertion is incorrect — NCERT says total number is 'generally' (not always) the most appropriate measure, and in some cases it is 'meaningless or difficult to determine.' Reason is correct as stated by NCERT."
@@ -475,7 +475,7 @@ const allQuestions = [
 {
   "id": 60,
   "topic": "Populations - Population Attributes",
-  "q": "<b>Assertion (A):</b> Birth rate and death rate in a population are expressed as per capita rates.<br><b>Reason (R):</b> These rates are expressed as change in numbers with respect to members of the population.",
+  "q": "<b>Assertion (A):</b> Birth rate and death rate in a population are expressed as per capita rates.<br><br><b>Reason (R):</b> These rates are expressed as change in numbers with respect to members of the population.",
   "options": ["Both A and R are correct, and R is the correct explanation of A", "Both A and R are correct, but R is not the correct explanation of A", "A is correct but R is incorrect", "A is incorrect but R is correct"],
   "correct": 0,
   "explanation": "Both are correct, and R explains A. NCERT states: 'In a population these rates refer to per capita births and deaths. The rates, hence, expressed are change in numbers (increase or decrease) with respect to members of the population.'"
@@ -539,7 +539,7 @@ const allQuestions = [
 {
   "id": 68,
   "topic": "Populations - Population Attributes",
-  "q": "<b>Assertion (A):</b> Stating that the population density of banyan is low relative to carrot grass based on total number is misleading.<br><b>Reason (R):</b> A single huge banyan tree with a large canopy has an enormous ecological role in the community compared to individual Parthenium plants.",
+  "q": "<b>Assertion (A):</b> Stating that the population density of banyan is low relative to carrot grass based on total number is misleading.<br><br><b>Reason (R):</b> A single huge banyan tree with a large canopy has an enormous ecological role in the community compared to individual Parthenium plants.",
   "options": ["Both A and R are correct, and R is the correct explanation of A", "Both A and R are correct, but R is not the correct explanation of A", "A is correct but R is incorrect", "A is incorrect but R is correct"],
   "correct": 0,
   "explanation": "Both are correct and R correctly explains A. NCERT states that expressing population density of banyan as low relative to Parthenium by number alone 'amounts to underestimating the enormous role of the Banyan in that community.'"
@@ -660,7 +660,7 @@ const allQuestions = [
 {
   "id": 83,
   "topic": "Population Growth",
-  "q": "<b>Assertion (A):</b> Immigration and emigration are always the most important factors affecting population density.<br><b>Reason (R):</b> Under normal conditions, births and deaths are the most important factors influencing population density.",
+  "q": "<b>Assertion (A):</b> Immigration and emigration are always the most important factors affecting population density.<br><br><b>Reason (R):</b> Under normal conditions, births and deaths are the most important factors influencing population density.",
   "options": ["Both A and R are correct, and R is the correct explanation of A", "Both A and R are correct, but R is not the correct explanation of A", "A is incorrect but R is correct", "Both A and R are incorrect"],
   "correct": 2,
   "explanation": "Assertion is incorrect — immigration and emigration assume importance only under special conditions, not always. Reason is correct as stated in NCERT."
@@ -780,7 +780,7 @@ const allQuestions = [
 {
   "id": 98,
   "topic": "Growth Models",
-  "q": "<b>Assertion (A):</b> Any species growing exponentially under unlimited resource conditions can reach enormous population densities in a short time.<br><b>Reason (R):</b> Darwin showed how even a slow growing animal like elephant could reach enormous numbers in the absence of checks.",
+  "q": "<b>Assertion (A):</b> Any species growing exponentially under unlimited resource conditions can reach enormous population densities in a short time.<br><br><b>Reason (R):</b> Darwin showed how even a slow growing animal like elephant could reach enormous numbers in the absence of checks.",
   "options": ["Both A and R are correct, and R is the correct explanation of A", "Both A and R are correct, but R is not the correct explanation of A", "A is correct but R is incorrect", "A is incorrect but R is correct"],
   "correct": 0,
   "explanation": "Both are correct as per NCERT. Darwin's elephant example supports the assertion that exponential growth under unlimited resources leads to enormous population densities. R explains A."
@@ -860,7 +860,7 @@ const allQuestions = [
 {
   "id": 108,
   "topic": "Growth Models",
-  "q": "<b>Assertion (A):</b> The logistic growth model is considered more realistic than the exponential growth model.<br><b>Reason (R):</b> Resources for growth for most animal populations are finite and become limiting sooner or later.",
+  "q": "<b>Assertion (A):</b> The logistic growth model is considered more realistic than the exponential growth model.<br><br><b>Reason (R):</b> Resources for growth for most animal populations are finite and become limiting sooner or later.",
   "options": ["Both A and R are correct, and R is the correct explanation of A", "Both A and R are correct, but R is not the correct explanation of A", "A is correct but R is incorrect", "A is incorrect but R is correct"],
   "correct": 0,
   "explanation": "Both are correct and R explains A. NCERT states: 'Since resources for growth for most animal populations are finite and become limiting sooner or later, the logistic growth model is considered a more realistic one.'"
@@ -940,7 +940,7 @@ const allQuestions = [
 {
   "id": 118,
   "topic": "Growth Models",
-  "q": "<b>Assertion (A):</b> No population of any species in nature has at its disposal unlimited resources to permit exponential growth.<br><b>Reason (R):</b> This leads to competition between individuals for limited resources, and eventually the fittest individuals survive and reproduce.",
+  "q": "<b>Assertion (A):</b> No population of any species in nature has at its disposal unlimited resources to permit exponential growth.<br><br><b>Reason (R):</b> This leads to competition between individuals for limited resources, and eventually the fittest individuals survive and reproduce.",
   "options": ["Both A and R are correct, and R is the correct explanation of A", "Both A and R are correct, but R is not the correct explanation of A", "A is correct but R is incorrect", "A is incorrect but R is correct"],
   "correct": 0,
   "explanation": "Both are correct and directly from NCERT. The limited resources lead to competition, and eventually fittest survive — this explains why exponential growth cannot continue indefinitely."
@@ -1060,7 +1060,7 @@ const allQuestions = [
 {
   "id": 133,
   "topic": "Growth Models",
-  "q": "<b>Assertion (A):</b> A plot of N vs time for exponential growth gives a sigmoid curve.<br><b>Reason (R):</b> Exponential growth occurs when resources are unlimited.",
+  "q": "<b>Assertion (A):</b> A plot of N vs time for exponential growth gives a sigmoid curve.<br><br><b>Reason (R):</b> Exponential growth occurs when resources are unlimited.",
   "options": ["Both A and R are correct, and R is the correct explanation of A", "Both A and R are correct, but R is not the correct explanation of A", "A is incorrect but R is correct", "Both A and R are incorrect"],
   "correct": 2,
   "explanation": "Assertion is incorrect — exponential growth gives a J-shaped curve, NOT a sigmoid curve. Sigmoid (S-shaped) is for logistic growth. Reason is correct."
@@ -1124,7 +1124,7 @@ const allQuestions = [
 {
   "id": 141,
   "topic": "Life History Variation",
-  "q": "<b>Assertion (A):</b> Darwinian fitness refers to the physical strength and survival ability of an organism.<br><b>Reason (R):</b> Populations evolve to maximise their reproductive fitness in the habitat in which they live.",
+  "q": "<b>Assertion (A):</b> Darwinian fitness refers to the physical strength and survival ability of an organism.<br><br><b>Reason (R):</b> Populations evolve to maximise their reproductive fitness in the habitat in which they live.",
   "options": ["Both A and R are correct, and R is the correct explanation of A", "Both A and R are correct, but R is not the correct explanation of A", "A is incorrect but R is correct", "Both A and R are incorrect"],
   "correct": 2,
   "explanation": "Assertion is incorrect — Darwinian fitness refers to REPRODUCTIVE fitness (high r value), not physical strength. Reason is correct as stated in NCERT."
@@ -1164,7 +1164,7 @@ const allQuestions = [
 {
   "id": 146,
   "topic": "Life History Variation",
-  "q": "<b>Assertion (A):</b> Bamboo is an example of an organism that breeds many times during its lifetime.<br><b>Reason (R):</b> Bamboo produces a large number of seeds when it flowers.",
+  "q": "<b>Assertion (A):</b> Bamboo is an example of an organism that breeds many times during its lifetime.<br><br><b>Reason (R):</b> Bamboo produces a large number of seeds when it flowers.",
   "options": ["Both A and R are correct, and R is the correct explanation of A", "Both A and R are correct, but R is not the correct explanation of A", "A is incorrect but R is correct", "A is incorrect and R is also incorrect"],
   "correct": 2,
   "explanation": "Assertion is incorrect — NCERT lists bamboo as an organism that breeds ONLY ONCE in its lifetime (semelparous). Reason is correct — bamboo does produce a large number of seeds during its single flowering event."
@@ -1268,7 +1268,7 @@ const allQuestions = [
 {
   "id": 159,
   "topic": "Population Interactions",
-  "q": "<b>Assertion (A):</b> In nature, animals, plants and microbes cannot live in isolation.<br><b>Reason (R):</b> They interact in various ways to form a biological community.",
+  "q": "<b>Assertion (A):</b> In nature, animals, plants and microbes cannot live in isolation.<br><br><b>Reason (R):</b> They interact in various ways to form a biological community.",
   "options": ["Both A and R are correct, and R is the correct explanation of A", "Both A and R are correct, but R is not the correct explanation of A", "A is correct but R is incorrect", "A is incorrect but R is correct"],
   "correct": 0,
   "explanation": "Both are correct and R explains A. NCERT states: 'animals, plants and microbes do not and cannot live in isolation but interact in various ways to form a biological community.'"
@@ -1308,7 +1308,7 @@ const allQuestions = [
 {
   "id": 164,
   "topic": "Population Interactions",
-  "q": "<b>Assertion (A):</b> Competition is an interaction where both species benefit.<br><b>Reason (R):</b> Competition leads to survival of the fittest.",
+  "q": "<b>Assertion (A):</b> Competition is an interaction where both species benefit.<br><br><b>Reason (R):</b> Competition leads to survival of the fittest.",
   "options": ["Both A and R are correct, and R is the correct explanation of A", "Both A and R are correct, but R is not the correct explanation of A", "A is incorrect but R is correct", "Both A and R are incorrect"],
   "correct": 2,
   "explanation": "Assertion is incorrect — in competition both species LOSE (–/–), not benefit. NCERT states 'both lose in competition.' Reason is correct in a general sense — competition does lead to natural selection favoring the fittest."
@@ -1364,7 +1364,7 @@ const allQuestions = [
 {
   "id": 171,
   "topic": "Life History Variation",
-  "q": "<b>Assertion (A):</b> Oysters produce a small number of large-sized offspring to maximise reproductive fitness.<br><b>Reason (R):</b> Large-sized offspring have better chances of survival.",
+  "q": "<b>Assertion (A):</b> Oysters produce a small number of large-sized offspring to maximise reproductive fitness.<br><br><b>Reason (R):</b> Large-sized offspring have better chances of survival.",
   "options": ["Both A and R are correct, and R is the correct explanation of A", "Both A and R are correct, but R is not the correct explanation of A", "A is incorrect but R is correct", "A is incorrect and R is also incorrect"],
   "correct": 2,
   "explanation": "Assertion is incorrect — NCERT states oysters produce a LARGE number of SMALL-sized offspring, not the reverse. Reason is generally correct — large-sized offspring do tend to have better survival, which is why birds and mammals adopt this strategy."
@@ -1444,7 +1444,7 @@ const allQuestions = [
 {
   "id": 181,
   "topic": "Predation",
-  "q": "<b>Assertion (A):</b> When certain exotic species are introduced into a geographical area, they become invasive and start spreading fast.<br><b>Reason (R):</b> The invaded land does not have the natural predators of the introduced species.",
+  "q": "<b>Assertion (A):</b> When certain exotic species are introduced into a geographical area, they become invasive and start spreading fast.<br><br><b>Reason (R):</b> The invaded land does not have the natural predators of the introduced species.",
   "options": ["Both A and R are correct, and R is the correct explanation of A", "Both A and R are correct, but R is not the correct explanation of A", "A is correct but R is incorrect", "A is incorrect but R is correct"],
   "correct": 0,
   "explanation": "Both are correct and R explains A. NCERT states: 'they become invasive and start spreading fast because the invaded land does not have its natural predators.'"
@@ -1492,7 +1492,7 @@ const allQuestions = [
 {
   "id": 187,
   "topic": "Predation",
-  "q": "<b>Assertion (A):</b> Predators in nature are 'prudent'.<br><b>Reason (R):</b> If a predator is too efficient and overexploits its prey, the prey might become extinct and following it, the predator will also become extinct.",
+  "q": "<b>Assertion (A):</b> Predators in nature are 'prudent'.<br><br><b>Reason (R):</b> If a predator is too efficient and overexploits its prey, the prey might become extinct and following it, the predator will also become extinct.",
   "options": ["Both A and R are correct, and R is the correct explanation of A", "Both A and R are correct, but R is not the correct explanation of A", "A is correct but R is incorrect", "A is incorrect but R is correct"],
   "correct": 0,
   "explanation": "Both are correct and R explains A. NCERT states: 'If a predator is too efficient and overexploits its prey, then the prey might become extinct and following it, the predator will also become extinct for lack of food. This is the reason why predators in nature are prudent.'"
@@ -1588,7 +1588,7 @@ const allQuestions = [
 {
   "id": 199,
   "topic": "Predation",
-  "q": "<b>Assertion (A):</b> Cattle and goats are never seen browsing on Calotropis.<br><b>Reason (R):</b> Calotropis produces highly poisonous cardiac glycosides.",
+  "q": "<b>Assertion (A):</b> Cattle and goats are never seen browsing on Calotropis.<br><br><b>Reason (R):</b> Calotropis produces highly poisonous cardiac glycosides.",
   "options": ["Both A and R are correct, and R is the correct explanation of A", "Both A and R are correct, but R is not the correct explanation of A", "A is correct but R is incorrect", "A is incorrect but R is correct"],
   "correct": 0,
   "explanation": "Both are correct and R explains A. NCERT states: 'The plant produces highly poisonous cardiac glycosides and that is why you never see any cattle or goats browsing on this plant.'"
@@ -1652,7 +1652,7 @@ const allQuestions = [
 {
   "id": 207,
   "topic": "Predation",
-  "q": "<b>Assertion (A):</b> Removal of Pisaster starfish from intertidal communities led to an increase in species diversity.<br><b>Reason (R):</b> Pisaster was preying on invertebrate species causing their decline.",
+  "q": "<b>Assertion (A):</b> Removal of Pisaster starfish from intertidal communities led to an increase in species diversity.<br><br><b>Reason (R):</b> Pisaster was preying on invertebrate species causing their decline.",
   "options": ["Both A and R are correct, and R is the correct explanation of A", "Both A and R are correct, but R is not the correct explanation of A", "A is incorrect but R is incorrect", "Both A and R are incorrect"],
   "correct": 3,
   "explanation": "Both are incorrect. Assertion is wrong — removal of Pisaster led to DECREASE in diversity (>10 species became extinct). Reason is also wrong — Pisaster's predation actually maintained diversity; its removal caused extinction through competition."
@@ -1724,7 +1724,7 @@ const allQuestions = [
 {
   "id": 216,
   "topic": "Predation",
-  "q": "<b>Assertion (A):</b> Nicotine, caffeine, quinine, strychnine and opium are extracted from plants for commercial purposes.<br><b>Reason (R):</b> These chemicals are produced by plants specifically for human use.",
+  "q": "<b>Assertion (A):</b> Nicotine, caffeine, quinine, strychnine and opium are extracted from plants for commercial purposes.<br><br><b>Reason (R):</b> These chemicals are produced by plants specifically for human use.",
   "options": ["Both A and R are correct, and R is the correct explanation of A", "Both A and R are correct, but R is not the correct explanation of A", "A is correct but R is incorrect", "A is incorrect but R is correct"],
   "correct": 2,
   "explanation": "Assertion is correct — these chemicals are commercially extracted from plants. Reason is incorrect — NCERT states these are 'produced by them actually as defences against grazers and browsers,' NOT for human use."
@@ -1780,7 +1780,7 @@ const allQuestions = [
 {
   "id": 223,
   "topic": "Competition",
-  "q": "<b>Assertion (A):</b> Resources must be limiting for competition to occur.<br><b>Reason (R):</b> In interference competition, feeding efficiency of one species is reduced even if resources are abundant.",
+  "q": "<b>Assertion (A):</b> Resources must be limiting for competition to occur.<br><br><b>Reason (R):</b> In interference competition, feeding efficiency of one species is reduced even if resources are abundant.",
   "options": ["Both A and R are correct, and R is the correct explanation of A", "Both A and R are correct, but R is not the correct explanation of A", "A is incorrect but R is correct", "Both A and R are incorrect"],
   "correct": 2,
   "explanation": "Assertion is incorrect — NCERT states 'resources need not be limiting for competition to occur.' Reason is correct — interference competition occurs even when resources are abundant."
@@ -1916,7 +1916,7 @@ const allQuestions = [
 {
   "id": 240,
   "topic": "Competition",
-  "q": "<b>Assertion (A):</b> Evidence for competitive exclusion occurring in nature is always conclusive.<br><b>Reason (R):</b> In laboratory experiments, when resources are limited, the competitively superior species eventually eliminates the other.",
+  "q": "<b>Assertion (A):</b> Evidence for competitive exclusion occurring in nature is always conclusive.<br><br><b>Reason (R):</b> In laboratory experiments, when resources are limited, the competitively superior species eventually eliminates the other.",
   "options": ["Both A and R are correct, and R is the correct explanation of A", "Both A and R are correct, but R is not the correct explanation of A", "A is incorrect but R is correct", "Both A and R are incorrect"],
   "correct": 2,
   "explanation": "Assertion is incorrect — NCERT states 'evidence for such competitive exclusion occurring in nature is not always conclusive.' Reason is correct — laboratory experiments by Gause showed competitive exclusion under limited resources."
@@ -1956,7 +1956,7 @@ const allQuestions = [
 {
   "id": 245,
   "topic": "Competition",
-  "q": "<b>Assertion (A):</b> The Abingdon tortoise in Galapagos became extinct due to predation by goats.<br><b>Reason (R):</b> Goats had greater browsing efficiency than the tortoise.",
+  "q": "<b>Assertion (A):</b> The Abingdon tortoise in Galapagos became extinct due to predation by goats.<br><br><b>Reason (R):</b> Goats had greater browsing efficiency than the tortoise.",
   "options": ["Both A and R are correct, and R is the correct explanation of A", "Both A and R are correct, but R is not the correct explanation of A", "A is incorrect but R is correct", "Both A and R are incorrect"],
   "correct": 2,
   "explanation": "Assertion is incorrect — the tortoise went extinct due to COMPETITION (not predation) with goats. Goats did not eat the tortoise. Reason is correct — NCERT states 'apparently due to the greater browsing efficiency of the goats.'"
@@ -2004,7 +2004,7 @@ const allQuestions = [
 {
   "id": 251,
   "topic": "Competition",
-  "q": "<b>Assertion (A):</b> Competitive exclusion principle is supported by all recent ecological studies.<br><b>Reason (R):</b> Species facing competition might evolve mechanisms like resource partitioning that promote co-existence.",
+  "q": "<b>Assertion (A):</b> Competitive exclusion principle is supported by all recent ecological studies.<br><br><b>Reason (R):</b> Species facing competition might evolve mechanisms like resource partitioning that promote co-existence.",
   "options": ["Both A and R are correct, and R is the correct explanation of A", "Both A and R are correct, but R is not the correct explanation of A", "A is incorrect but R is correct", "Both A and R are incorrect"],
   "correct": 2,
   "explanation": "Assertion is incorrect — NCERT states 'More recent studies do not support such gross generalisations about competition.' Reason is correct — species may evolve resource partitioning for co-existence."
@@ -2148,7 +2148,7 @@ const allQuestions = [
 {
   "id": 269,
   "topic": "Parasitism",
-  "q": "<b>Assertion (A):</b> The female mosquito is considered a parasite.<br><b>Reason (R):</b> The female mosquito needs blood for reproduction.",
+  "q": "<b>Assertion (A):</b> The female mosquito is considered a parasite.<br><br><b>Reason (R):</b> The female mosquito needs blood for reproduction.",
   "options": ["Both A and R are correct, and R is the correct explanation of A", "Both A and R are correct, but R is not the correct explanation of A", "A is incorrect but R is correct", "Both A and R are incorrect"],
   "correct": 2,
   "explanation": "Assertion is incorrect — NCERT explicitly states 'The female mosquito is not considered a parasite, although it needs our blood for reproduction.' Reason is correct — it does need blood for egg development. The mosquito is not a parasite because it doesn't live on/in the host."
@@ -2228,7 +2228,7 @@ const allQuestions = [
 {
   "id": 279,
   "topic": "Parasitism",
-  "q": "<b>Assertion (A):</b> Parasites may render the host more vulnerable to predation.<br><b>Reason (R):</b> Parasites make the host physically weak.",
+  "q": "<b>Assertion (A):</b> Parasites may render the host more vulnerable to predation.<br><br><b>Reason (R):</b> Parasites make the host physically weak.",
   "options": ["Both A and R are correct, and R is the correct explanation of A", "Both A and R are correct, but R is not the correct explanation of A", "A is correct but R is incorrect", "A is incorrect but R is correct"],
   "correct": 0,
   "explanation": "Both are correct and R explains A. NCERT states: 'They might render the host more vulnerable to predation by making it physically weak.'"
@@ -2260,7 +2260,7 @@ const allQuestions = [
 {
   "id": 283,
   "topic": "Parasitism",
-  "q": "<b>Assertion (A):</b> Cuscuta is an ectoparasite of plants.<br><b>Reason (R):</b> Cuscuta has lost its chlorophyll and leaves and derives nutrition from the host plant.",
+  "q": "<b>Assertion (A):</b> Cuscuta is an ectoparasite of plants.<br><br><b>Reason (R):</b> Cuscuta has lost its chlorophyll and leaves and derives nutrition from the host plant.",
   "options": ["Both A and R are correct, and R is the correct explanation of A", "Both A and R are correct, but R is not the correct explanation of A", "A is correct but R is incorrect", "A is incorrect but R is correct"],
   "correct": 0,
   "explanation": "Both are correct. Cuscuta grows on the external surface of the host plant (ectoparasite) and has lost chlorophyll and leaves, deriving nutrition from the host. R explains why Cuscuta is parasitic."
@@ -2348,7 +2348,7 @@ const allQuestions = [
 {
   "id": 294,
   "topic": "Commensalism",
-  "q": "<b>Assertion (A):</b> The orchid growing on a mango tree is a parasite.<br><b>Reason (R):</b> The orchid derives its nutrition from the mango tree.",
+  "q": "<b>Assertion (A):</b> The orchid growing on a mango tree is a parasite.<br><br><b>Reason (R):</b> The orchid derives its nutrition from the mango tree.",
   "options": ["Both A and R are correct, and R is the correct explanation of A", "Both A and R are correct, but R is not the correct explanation of A", "A is incorrect but R is incorrect", "Both A and R are incorrect"],
   "correct": 3,
   "explanation": "Both are incorrect. The orchid is an EPIPHYTE (not a parasite) — it uses the mango tree only for support, NOT for nutrition. The orchid makes its own food. This is commensalism, not parasitism."
@@ -2388,7 +2388,7 @@ const allQuestions = [
 {
   "id": 299,
   "topic": "Parasitism",
-  "q": "<b>Assertion (A):</b> The life cycles of parasites are often complex, involving intermediate hosts or vectors.<br><b>Reason (R):</b> This facilitates parasitisation of the primary host.",
+  "q": "<b>Assertion (A):</b> The life cycles of parasites are often complex, involving intermediate hosts or vectors.<br><br><b>Reason (R):</b> This facilitates parasitisation of the primary host.",
   "options": ["Both A and R are correct, and R is the correct explanation of A", "Both A and R are correct, but R is not the correct explanation of A", "A is correct but R is incorrect", "A is incorrect but R is correct"],
   "correct": 0,
   "explanation": "Both are correct and R explains A. NCERT states: 'The life cycles of parasites are often complex, involving one or two intermediate hosts or vectors to facilitate parasitisation of its primary host.'"
@@ -2404,7 +2404,7 @@ const allQuestions = [
 {
   "id": 301,
   "topic": "Commensalism",
-  "q": "<b>Assertion (A):</b> The interaction between cattle egret and grazing cattle is mutualism.<br><b>Reason (R):</b> The cattle, as they move, stir up and flush out insects benefiting the egret.",
+  "q": "<b>Assertion (A):</b> The interaction between cattle egret and grazing cattle is mutualism.<br><br><b>Reason (R):</b> The cattle, as they move, stir up and flush out insects benefiting the egret.",
   "options": ["Both A and R are correct, and R is the correct explanation of A", "Both A and R are correct, but R is not the correct explanation of A", "A is incorrect but R is correct", "Both A and R are incorrect"],
   "correct": 2,
   "explanation": "Assertion is incorrect — it is COMMENSALISM (not mutualism) because the cattle does not derive any apparent benefit. Reason is correct — the cattle flush out insects that the egret feeds on."
@@ -2468,7 +2468,7 @@ const allQuestions = [
 {
   "id": 309,
   "topic": "Mutualism",
-  "q": "<b>Assertion (A):</b> Mycorrhizae are mutualistic associations.<br><b>Reason (R):</b> Fungi help the plant absorb nutrients from soil while the plant provides carbohydrates to the fungi.",
+  "q": "<b>Assertion (A):</b> Mycorrhizae are mutualistic associations.<br><br><b>Reason (R):</b> Fungi help the plant absorb nutrients from soil while the plant provides carbohydrates to the fungi.",
   "options": ["Both A and R are correct, and R is the correct explanation of A", "Both A and R are correct, but R is not the correct explanation of A", "A is correct but R is incorrect", "A is incorrect but R is correct"],
   "correct": 0,
   "explanation": "Both are correct and R explains A. The mutual benefit (nutrient absorption by fungi and carbohydrate supply by plant) makes it a mutualistic association."
@@ -2596,7 +2596,7 @@ const allQuestions = [
 {
   "id": 325,
   "topic": "Mutualism",
-  "q": "<b>Assertion (A):</b> All orchids offer rewards (nectar/pollen) to their pollinators.<br><b>Reason (R):</b> The Mediterranean orchid Ophrys employs sexual deceit for pollination.",
+  "q": "<b>Assertion (A):</b> All orchids offer rewards (nectar/pollen) to their pollinators.<br><br><b>Reason (R):</b> The Mediterranean orchid Ophrys employs sexual deceit for pollination.",
   "options": ["Both A and R are correct, and R is the correct explanation of A", "Both A and R are correct, but R is not the correct explanation of A", "A is incorrect but R is correct", "Both A and R are incorrect"],
   "correct": 2,
   "explanation": "Assertion is incorrect — NCERT explicitly states 'Not all orchids offer rewards.' Reason is correct — Ophrys uses sexual deceit (no reward) for pollination."
@@ -2668,7 +2668,7 @@ const allQuestions = [
 {
   "id": 334,
   "topic": "Mutualism",
-  "q": "<b>Assertion (A):</b> Plant-animal interactions often involve co-evolution of the mutualists.<br><b>Reason (R):</b> The mutually beneficial system needs to be safeguarded against 'cheaters'.",
+  "q": "<b>Assertion (A):</b> Plant-animal interactions often involve co-evolution of the mutualists.<br><br><b>Reason (R):</b> The mutually beneficial system needs to be safeguarded against 'cheaters'.",
   "options": ["Both A and R are correct, and R is the correct explanation of A", "Both A and R are correct, but R is not the correct explanation of A", "A is correct but R is incorrect", "A is incorrect but R is correct"],
   "correct": 0,
   "explanation": "Both are correct and R explains A. NCERT connects cheaters to co-evolution: 'the mutually beneficial system should also be safeguarded against cheaters...Now you can see why plant-animal interactions often involve co-evolution of the mutualists.'"
@@ -2788,7 +2788,7 @@ const allQuestions = [
 {
   "id": 349,
   "topic": "Mutualism",
-  "q": "<b>Assertion (A):</b> In Ophrys, the orchid must co-evolve if the female bee's colour patterns change.<br><b>Reason (R):</b> Pollination success depends on the resemblance of the orchid petal to the female bee.",
+  "q": "<b>Assertion (A):</b> In Ophrys, the orchid must co-evolve if the female bee's colour patterns change.<br><br><b>Reason (R):</b> Pollination success depends on the resemblance of the orchid petal to the female bee.",
   "options": ["Both A and R are correct, and R is the correct explanation of A", "Both A and R are correct, but R is not the correct explanation of A", "A is correct but R is incorrect", "A is incorrect but R is correct"],
   "correct": 0,
   "explanation": "Both are correct and R explains A. NCERT states: 'If the female bee's colour patterns change even slightly... pollination success will be reduced unless the orchid flower co-evolves to maintain the resemblance of its petal to the female bee.'"
@@ -2822,7 +2822,7 @@ const allQuestions = [
 {
   "id": 353,
   "topic": "Introduction - Organisms and Population",
-  "q": "<b>Assertion (A):</b> Mango trees cannot survive in temperate regions like Germany.<br><b>Reason (R):</b> Temperature determines the geographic distribution of species and their metabolic activity.",
+  "q": "<b>Assertion (A):</b> Mango trees cannot survive in temperate regions like Germany.<br><br><b>Reason (R):</b> Temperature determines the geographic distribution of species and their metabolic activity.",
   "options": ["Both A and R are correct, and R is the correct explanation of A", "Both A and R are correct, but R is not the correct explanation of A", "A is correct but R is incorrect", "A is incorrect but R is correct"],
   "correct": 0,
   "explanation": "Both are correct. Temperature shapes geographic distribution — mango requires warm tropical temperatures. NCERT uses the mango tree in Germany example to illustrate how temperature restricts distribution. R correctly explains A."
@@ -2898,7 +2898,7 @@ const allQuestions = [
 {
   "id": 361,
   "topic": "Life History Variation",
-  "q": "<b>Assertion (A):</b> Some organisms invest huge resources in each offspring but produce very few offspring.<br><b>Reason (R):</b> This strategy ensures higher survival rate of each offspring through parental care.",
+  "q": "<b>Assertion (A):</b> Some organisms invest huge resources in each offspring but produce very few offspring.<br><br><b>Reason (R):</b> This strategy ensures higher survival rate of each offspring through parental care.",
   "options": ["Both A and R are correct, and R is the correct explanation of A", "Both A and R are correct, but R is not the correct explanation of A", "A is correct but R is incorrect", "A is incorrect but R is correct"],
   "correct": 0,
   "explanation": "NCERT notes the trade-off between number of offspring and investment per offspring. Organisms like elephants and humans produce few offspring but invest heavily in parental care, increasing each offspring's survival probability. R correctly explains the evolutionary logic of A."
@@ -2958,7 +2958,7 @@ const allQuestions = [
 {
   "id": 367,
   "topic": "Predation",
-  "q": "<b>Assertion (A):</b> In predator-prey relationships, predator population size is directly dependent on prey population size.<br><b>Reason (R):</b> If prey population increases, predators get more food and increase; as predators increase, prey population decreases due to heavy predation.",
+  "q": "<b>Assertion (A):</b> In predator-prey relationships, predator population size is directly dependent on prey population size.<br><br><b>Reason (R):</b> If prey population increases, predators get more food and increase; as predators increase, prey population decreases due to heavy predation.",
   "options": ["Both A and R are correct, and R is the correct explanation of A", "Both A and R are correct, but R is not the correct explanation of A", "A is correct but R is incorrect", "A is incorrect but R is correct"],
   "correct": 0,
   "explanation": "Both are true. NCERT describes the oscillating nature of predator-prey dynamics: prey increase → predators increase → prey decrease → predators decrease. This cycle (shown in Lotka-Volterra oscillations) demonstrates that predator population is directly dependent on prey population. R correctly explains A."

@@ -1,5 +1,5 @@
 // ===== CHAPTER: Cell Cycle and Cell Division =====
-const allQuestions = [
+var allQuestions = [
 {
   id: 1,
   topic: "Cell Cycle",
@@ -42,7 +42,7 @@ const allQuestions = [
 {
   id: 4,
   topic: "Cell Cycle",
-  q: "<b>Assertion (A):</b> All cells reproduce by dividing into two daughter cells.<br><b>Reason (R):</b> Cycles of growth and division allow a single cell to form a structure consisting of millions of cells.",
+  q: "<b>Assertion (A):</b> All cells reproduce by dividing into two daughter cells.<br><br><b>Reason (R):</b> Cycles of growth and division allow a single cell to form a structure consisting of millions of cells.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -94,7 +94,7 @@ const allQuestions = [
 {
   id: 8,
   topic: "Cell Cycle",
-  q: "<b>Assertion (A):</b> Although cell growth is a continuous process, DNA synthesis occurs only during one specific stage in the cell cycle.<br><b>Reason (R):</b> The events of cell division are under genetic control.",
+  q: "<b>Assertion (A):</b> Although cell growth is a continuous process, DNA synthesis occurs only during one specific stage in the cell cycle.<br><br><b>Reason (R):</b> The events of cell division are under genetic control.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -250,7 +250,7 @@ const allQuestions = [
 {
   id: 20,
   topic: "Phases of Cell Cycle",
-  q: "<b>Assertion (A):</b> After S phase, DNA content doubles but chromosome number remains unchanged.<br><b>Reason (R):</b> During S phase, each chromosome replicates to form two sister chromatids that remain joined at the centromere and are counted as one chromosome.",
+  q: "<b>Assertion (A):</b> After S phase, DNA content doubles but chromosome number remains unchanged.<br><br><b>Reason (R):</b> During S phase, each chromosome replicates to form two sister chromatids that remain joined at the centromere and are counted as one chromosome.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -354,7 +354,7 @@ const allQuestions = [
 {
   id: 28,
   topic: "Phases of Cell Cycle",
-  q: "<b>Assertion (A):</b> In animals, mitotic cell division is only seen in diploid somatic cells.<br><b>Reason (R):</b> Haploid cells can never undergo mitosis.",
+  q: "<b>Assertion (A):</b> In animals, mitotic cell division is only seen in diploid somatic cells.<br><br><b>Reason (R):</b> Haploid cells can never undergo mitosis.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -484,7 +484,7 @@ const allQuestions = [
 {
   id: 38,
   topic: "Phases of Cell Cycle",
-  q: "<b>Assertion (A):</b> Interphase is called the resting phase of the cell cycle.<br><b>Reason (R):</b> During interphase, the cell is neither growing nor metabolically active.",
+  q: "<b>Assertion (A):</b> Interphase is called the resting phase of the cell cycle.<br><br><b>Reason (R):</b> During interphase, the cell is neither growing nor metabolically active.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -679,7 +679,7 @@ const allQuestions = [
 {
   id: 53,
   topic: "Cell Cycle",
-  q: "<b>Assertion (A):</b> All organisms, even the largest, start their life from a single cell.<br><b>Reason (R):</b> Cycles of growth and division allow a single cell to form a structure consisting of millions of cells.",
+  q: "<b>Assertion (A):</b> All organisms, even the largest, start their life from a single cell.<br><br><b>Reason (R):</b> Cycles of growth and division allow a single cell to form a structure consisting of millions of cells.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -913,7 +913,7 @@ const allQuestions = [
 {
   id: 71,
   topic: "Karyokinesis - Prophase",
-  q: "<b>Assertion (A):</b> During prophase, chromosomal material becomes untangled.<br><b>Reason (R):</b> Chromatin condensation occurs during prophase.",
+  q: "<b>Assertion (A):</b> During prophase, chromosomal material becomes untangled.<br><br><b>Reason (R):</b> Chromatin condensation occurs during prophase.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -1030,7 +1030,7 @@ const allQuestions = [
 {
   id: 80,
   topic: "Karyokinesis - Metaphase",
-  q: "<b>Assertion (A):</b> At metaphase, chromosomes are spread through the cytoplasm of the cell.<br><b>Reason (R):</b> The nuclear envelope has completely disintegrated by this stage.",
+  q: "<b>Assertion (A):</b> At metaphase, chromosomes are spread through the cytoplasm of the cell.<br><br><b>Reason (R):</b> The nuclear envelope has completely disintegrated by this stage.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -1134,7 +1134,7 @@ const allQuestions = [
 {
   id: 88,
   topic: "Karyokinesis - Anaphase",
-  q: "<b>Assertion (A):</b> At anaphase, all chromosomes at the metaphase plate split simultaneously.<br><b>Reason (R):</b> Simultaneous splitting ensures equal distribution of genetic material to daughter cells.",
+  q: "<b>Assertion (A):</b> At anaphase, all chromosomes at the metaphase plate split simultaneously.<br><br><b>Reason (R):</b> Simultaneous splitting ensures equal distribution of genetic material to daughter cells.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -1212,7 +1212,7 @@ const allQuestions = [
 {
   id: 94,
   topic: "Karyokinesis - Telophase",
-  q: "<b>Assertion (A):</b> During telophase, individual chromosomes can no longer be seen.<br><b>Reason (R):</b> Chromosomes decondense and each set of chromatin material collects at each of the two poles.",
+  q: "<b>Assertion (A):</b> During telophase, individual chromosomes can no longer be seen.<br><br><b>Reason (R):</b> Chromosomes decondense and each set of chromatin material collects at each of the two poles.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -1342,7 +1342,7 @@ const allQuestions = [
 {
   id: 104,
   topic: "Karyokinesis - General",
-  q: "<b>Assertion (A):</b> Kinetochores and centromeres are the same structure.<br><b>Reason (R):</b> Kinetochores are disc-shaped structures at the surface of centromeres.",
+  q: "<b>Assertion (A):</b> Kinetochores and centromeres are the same structure.<br><br><b>Reason (R):</b> Kinetochores are disc-shaped structures at the surface of centromeres.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -1472,7 +1472,7 @@ const allQuestions = [
 {
   id: 114,
   topic: "Karyokinesis - General",
-  q: "<b>Assertion (A):</b> Telophase is often described as the reverse of prophase.<br><b>Reason (R):</b> Events that occur in prophase (condensation, nuclear envelope breakdown, nucleolus disappearance) are reversed in telophase (decondensation, nuclear envelope reformation, nucleolus reappearance).",
+  q: "<b>Assertion (A):</b> Telophase is often described as the reverse of prophase.<br><br><b>Reason (R):</b> Events that occur in prophase (condensation, nuclear envelope breakdown, nucleolus disappearance) are reversed in telophase (decondensation, nuclear envelope reformation, nucleolus reappearance).",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -1576,7 +1576,7 @@ const allQuestions = [
 {
   id: 122,
   topic: "Karyokinesis - General",
-  q: "<b>Assertion (A):</b> Metaphase is the best stage for counting the number of chromosomes.<br><b>Reason (R):</b> At metaphase, chromosomes are spread through the cytoplasm randomly without any alignment.",
+  q: "<b>Assertion (A):</b> Metaphase is the best stage for counting the number of chromosomes.<br><br><b>Reason (R):</b> At metaphase, chromosomes are spread through the cytoplasm randomly without any alignment.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -1654,7 +1654,7 @@ const allQuestions = [
 {
   id: 128,
   topic: "Cytokinesis",
-  q: "<b>Assertion (A):</b> In animal cells, cytokinesis occurs by cleavage furrow formation (centripetal — outside to inside).<br><b>Reason (R):</b> In plant cells, cytokinesis occurs by cell plate formation (centrifugal — inside to outside).",
+  q: "<b>Assertion (A):</b> In animal cells, cytokinesis occurs by cleavage furrow formation (centripetal — outside to inside).<br><br><b>Reason (R):</b> In plant cells, cytokinesis occurs by cell plate formation (centrifugal — inside to outside).",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -1732,7 +1732,7 @@ const allQuestions = [
 {
   id: 134,
   topic: "Cytokinesis",
-  q: "<b>Assertion (A):</b> Liquid endosperm in coconut is a syncytium.<br><b>Reason (R):</b> In syncytium, cytokinesis follows karyokinesis normally.",
+  q: "<b>Assertion (A):</b> Liquid endosperm in coconut is a syncytium.<br><br><b>Reason (R):</b> In syncytium, cytokinesis follows karyokinesis normally.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -1823,7 +1823,7 @@ const allQuestions = [
 {
   id: 141,
   topic: "Significance of Mitosis",
-  q: "<b>Assertion (A):</b> Cell repair is a significant contribution of mitosis.<br><b>Reason (R):</b> Cells of the upper layer of epidermis, gut lining, and blood cells are constantly replaced.",
+  q: "<b>Assertion (A):</b> Cell repair is a significant contribution of mitosis.<br><br><b>Reason (R):</b> Cells of the upper layer of epidermis, gut lining, and blood cells are constantly replaced.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -1914,7 +1914,7 @@ const allQuestions = [
 {
   id: 148,
   topic: "Meiosis - Introduction",
-  q: "<b>Assertion (A):</b> Meiosis I is initiated after parental chromosomes have replicated to produce identical sister chromatids at S phase.<br><b>Reason (R):</b> DNA replication occurs during interkinesis between meiosis I and meiosis II.",
+  q: "<b>Assertion (A):</b> Meiosis I is initiated after parental chromosomes have replicated to produce identical sister chromatids at S phase.<br><br><b>Reason (R):</b> DNA replication occurs during interkinesis between meiosis I and meiosis II.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -2161,7 +2161,7 @@ const allQuestions = [
 {
   id: 167,
   topic: "Meiosis - Prophase I",
-  q: "<b>Assertion (A):</b> Prophase I of meiosis is typically longer and more complex than prophase of mitosis.<br><b>Reason (R):</b> Prophase I involves synapsis, crossing over, and recombination which do not occur in mitotic prophase.",
+  q: "<b>Assertion (A):</b> Prophase I of meiosis is typically longer and more complex than prophase of mitosis.<br><br><b>Reason (R):</b> Prophase I involves synapsis, crossing over, and recombination which do not occur in mitotic prophase.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -2278,7 +2278,7 @@ const allQuestions = [
 {
   id: 176,
   topic: "Meiosis - Metaphase I",
-  q: "<b>Assertion (A):</b> During metaphase I, microtubules from the same pole attach to the kinetochores of both sister chromatids of a chromosome.<br><b>Reason (R):</b> During metaphase I, homologous chromosomes (not sister chromatids) are to be separated.",
+  q: "<b>Assertion (A):</b> During metaphase I, microtubules from the same pole attach to the kinetochores of both sister chromatids of a chromosome.<br><br><b>Reason (R):</b> During metaphase I, homologous chromosomes (not sister chromatids) are to be separated.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -2304,7 +2304,7 @@ const allQuestions = [
 {
   id: 178,
   topic: "Meiosis - Anaphase I",
-  q: "<b>Assertion (A):</b> During anaphase I, sister chromatids remain associated at their centromeres.<br><b>Reason (R):</b> Centromeres do not split during anaphase I.",
+  q: "<b>Assertion (A):</b> During anaphase I, sister chromatids remain associated at their centromeres.<br><br><b>Reason (R):</b> Centromeres do not split during anaphase I.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -2395,7 +2395,7 @@ const allQuestions = [
 {
   id: 185,
   topic: "Meiosis - Interkinesis",
-  q: "<b>Assertion (A):</b> There is no DNA replication during interkinesis.<br><b>Reason (R):</b> Meiosis involves two sequential divisions but only a single cycle of DNA replication.",
+  q: "<b>Assertion (A):</b> There is no DNA replication during interkinesis.<br><br><b>Reason (R):</b> Meiosis involves two sequential divisions but only a single cycle of DNA replication.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -2720,7 +2720,7 @@ const allQuestions = [
 {
   id: 210,
   topic: "Meiosis - Prophase I",
-  q: "<b>Assertion (A):</b> During diplotene, homologous chromosomes of the bivalents tend to separate from each other.<br><b>Reason (R):</b> The synaptonemal complex dissolves at the beginning of diplotene.",
+  q: "<b>Assertion (A):</b> During diplotene, homologous chromosomes of the bivalents tend to separate from each other.<br><br><b>Reason (R):</b> The synaptonemal complex dissolves at the beginning of diplotene.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -2798,7 +2798,7 @@ const allQuestions = [
 {
   id: 216,
   topic: "Meiosis II - Prophase II",
-  q: "<b>Assertion (A):</b> Prophase II is a much simpler prophase than prophase I.<br><b>Reason (R):</b> Events like synapsis, crossing over, and recombination do not occur in prophase II.",
+  q: "<b>Assertion (A):</b> Prophase II is a much simpler prophase than prophase I.<br><br><b>Reason (R):</b> Events like synapsis, crossing over, and recombination do not occur in prophase II.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -2876,7 +2876,7 @@ const allQuestions = [
 {
   id: 222,
   topic: "Meiosis II - Anaphase II",
-  q: "<b>Assertion (A):</b> During anaphase II, sister chromatids separate.<br><b>Reason (R):</b> The centromere of each chromosome splits simultaneously during anaphase II.",
+  q: "<b>Assertion (A):</b> During anaphase II, sister chromatids separate.<br><br><b>Reason (R):</b> The centromere of each chromosome splits simultaneously during anaphase II.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -2993,7 +2993,7 @@ const allQuestions = [
 {
   id: 231,
   topic: "Meiosis II - General",
-  q: "<b>Assertion (A):</b> Meiosis II is called an equational division.<br><b>Reason (R):</b> During meiosis II, the chromosome number is maintained (not reduced) as sister chromatids separate.",
+  q: "<b>Assertion (A):</b> Meiosis II is called an equational division.<br><br><b>Reason (R):</b> During meiosis II, the chromosome number is maintained (not reduced) as sister chromatids separate.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -3071,7 +3071,7 @@ const allQuestions = [
 {
   id: 237,
   topic: "Significance of Meiosis",
-  q: "<b>Assertion (A):</b> Meiosis reduces chromosome number by half.<br><b>Reason (R):</b> This reduction is essential to conserve the specific chromosome number when gametes fuse during fertilisation.",
+  q: "<b>Assertion (A):</b> Meiosis reduces chromosome number by half.<br><br><b>Reason (R):</b> This reduction is essential to conserve the specific chromosome number when gametes fuse during fertilisation.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -3396,7 +3396,7 @@ const allQuestions = [
 {
   id: 262,
   topic: "Summary - Integrative",
-  q: "<b>Assertion (A):</b> Meiosis II is similar to mitosis.<br><b>Reason (R):</b> During anaphase II, sister chromatids separate, just like in anaphase of mitosis.",
+  q: "<b>Assertion (A):</b> Meiosis II is similar to mitosis.<br><br><b>Reason (R):</b> During anaphase II, sister chromatids separate, just like in anaphase of mitosis.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -3604,7 +3604,7 @@ const allQuestions = [
 {
   id: 278,
   topic: "Summary - Integrative",
-  q: "<b>Assertion (A):</b> Meiosis results in reduction of chromosome number by half, yet conserves the species-specific chromosome number across generations.<br><b>Reason (R):</b> Fertilisation restores the diploid chromosome number that was halved by meiosis.",
+  q: "<b>Assertion (A):</b> Meiosis results in reduction of chromosome number by half, yet conserves the species-specific chromosome number across generations.<br><br><b>Reason (R):</b> Fertilisation restores the diploid chromosome number that was halved by meiosis.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",

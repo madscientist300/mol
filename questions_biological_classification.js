@@ -1,4 +1,4 @@
-const allQuestions = [
+var allQuestions = [
   {
     id: 1,
     topic: "Biological Classification - Introduction",
@@ -199,7 +199,7 @@ const allQuestions = [
     topic: "Biological Classification - Introduction",
     difficulty: "Hard",
     type: "AR",
-    q: "<b>Assertion (A):</b> In Whittaker's classification, Chlamydomonas and Amoeba are placed in the same kingdom.<br><b>Reason (R):</b> Both Chlamydomonas and Amoeba are unicellular eukaryotic organisms.",
+    q: "<b>Assertion (A):</b> In Whittaker's classification, Chlamydomonas and Amoeba are placed in the same kingdom.<br><br><b>Reason (R):</b> Both Chlamydomonas and Amoeba are unicellular eukaryotic organisms.",
     options: [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is NOT the correct explanation of A",
@@ -319,7 +319,7 @@ const allQuestions = [
     topic: "Biological Classification - Introduction",
     difficulty: "Hard",
     type: "AR",
-    q: "<b>Assertion (A):</b> In the earlier classification, fungi were placed under the Plant kingdom.<br><b>Reason (R):</b> Fungi have chitin in their cell wall similar to green plants.",
+    q: "<b>Assertion (A):</b> In the earlier classification, fungi were placed under the Plant kingdom.<br><br><b>Reason (R):</b> Fungi have chitin in their cell wall similar to green plants.",
     options: [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is NOT the correct explanation of A",
@@ -439,7 +439,7 @@ const allQuestions = [
     topic: "Biological Classification - Introduction",
     difficulty: "Hard",
     type: "AR",
-    q: "<b>Assertion (A):</b> Kingdom Protista includes organisms that were earlier placed in both Plant and Animal kingdoms.<br><b>Reason (R):</b> The criteria for classification changed from cell wall to cell structure and mode of nutrition in the five kingdom system.",
+    q: "<b>Assertion (A):</b> Kingdom Protista includes organisms that were earlier placed in both Plant and Animal kingdoms.<br><br><b>Reason (R):</b> The criteria for classification changed from cell wall to cell structure and mode of nutrition in the five kingdom system.",
     options: [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is NOT the correct explanation of A",
@@ -934,7 +934,7 @@ const allQuestions = [
     topic: "Kingdom Monera",
     difficulty: "Hard",
     type: "AR",
-    q: "<b>Assertion (A):</b> Archaebacteria can survive in extreme environmental conditions.<br><b>Reason (R):</b> Archaebacteria have a different cell wall structure compared to other bacteria.",
+    q: "<b>Assertion (A):</b> Archaebacteria can survive in extreme environmental conditions.<br><br><b>Reason (R):</b> Archaebacteria have a different cell wall structure compared to other bacteria.",
     options: [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is NOT the correct explanation of A",
@@ -964,7 +964,7 @@ const allQuestions = [
     topic: "Kingdom Monera",
     difficulty: "Hard",
     type: "AR",
-    q: "<b>Assertion (A):</b> Cyanobacteria are classified as photosynthetic autotrophs.<br><b>Reason (R):</b> Cyanobacteria possess chlorophyll b similar to green plants.",
+    q: "<b>Assertion (A):</b> Cyanobacteria are classified as photosynthetic autotrophs.<br><br><b>Reason (R):</b> Cyanobacteria possess chlorophyll b similar to green plants.",
     options: [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is NOT the correct explanation of A",
@@ -1339,7 +1339,7 @@ const allQuestions = [
     topic: "Kingdom Protista",
     difficulty: "Hard",
     type: "AR",
-    q: "<b>Assertion (A):</b> Euglenoids are considered as a connecting link between plants and animals.<br><b>Reason (R):</b> Euglenoids are photosynthetic in the presence of sunlight but behave like heterotrophs when deprived of sunlight.",
+    q: "<b>Assertion (A):</b> Euglenoids are considered as a connecting link between plants and animals.<br><br><b>Reason (R):</b> Euglenoids are photosynthetic in the presence of sunlight but behave like heterotrophs when deprived of sunlight.",
     options: [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is NOT the correct explanation of A",
@@ -1549,7 +1549,7 @@ const allQuestions = [
     topic: "Cross-Concept",
     difficulty: "Hard",
     type: "AR",
-    q: "<b>Assertion (A):</b> Diatom cell walls are indestructible and accumulate over billions of years forming diatomaceous earth.<br><b>Reason (R):</b> Diatom cell walls are embedded with cellulose, making them extremely hard.",
+    q: "<b>Assertion (A):</b> Diatom cell walls are indestructible and accumulate over billions of years forming diatomaceous earth.<br><br><b>Reason (R):</b> Diatom cell walls are embedded with cellulose, making them extremely hard.",
     options: [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is NOT the correct explanation of A",
@@ -2104,7 +2104,7 @@ const allQuestions = [
     topic: "Cross-Concept",
     difficulty: "Hard",
     type: "AR",
-    q: "<b>Assertion (A):</b> Basidiomycetes do not produce asexual spores.<br><b>Reason (R):</b> Sex organs are absent in Basidiomycetes.",
+    q: "<b>Assertion (A):</b> Basidiomycetes do not produce asexual spores.<br><br><b>Reason (R):</b> Sex organs are absent in Basidiomycetes.",
     options: [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is NOT the correct explanation of A",
@@ -2119,7 +2119,7 @@ const allQuestions = [
     topic: "Cross-Concept",
     difficulty: "Hard",
     type: "AR",
-    q: "<b>Assertion (A):</b> Deuteromycetes are called imperfect fungi and are often reclassified.<br><b>Reason (R):</b> Once the sexual stages of deuteromycetes are discovered, they are moved to ascomycetes or basidiomycetes.",
+    q: "<b>Assertion (A):</b> Deuteromycetes are called imperfect fungi and are often reclassified.<br><br><b>Reason (R):</b> Once the sexual stages of deuteromycetes are discovered, they are moved to ascomycetes or basidiomycetes.",
     options: [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is NOT the correct explanation of A",
@@ -2209,7 +2209,7 @@ const allQuestions = [
     topic: "Kingdom Protista",
     difficulty: "Medium",
     type: "AR",
-    q: "<b>Assertion (A):</b> The boundaries of Kingdom Protista are not well defined.<br><b>Reason (R):</b> What may be a 'photosynthetic protistan' to one biologist may be 'a plant' to another.",
+    q: "<b>Assertion (A):</b> The boundaries of Kingdom Protista are not well defined.<br><br><b>Reason (R):</b> What may be a 'photosynthetic protistan' to one biologist may be 'a plant' to another.",
     options: [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is NOT the correct explanation of A",
@@ -2779,7 +2779,7 @@ const allQuestions = [
     topic: "Kingdom Plantae",
     difficulty: "Hard",
     type: "AR",
-    q: "<b>Assertion (A):</b> Insectivorous plants like Bladderwort and Venus fly trap are considered partially heterotrophic.<br><b>Reason (R):</b> These plants completely lack chlorophyll and cannot perform photosynthesis.",
+    q: "<b>Assertion (A):</b> Insectivorous plants like Bladderwort and Venus fly trap are considered partially heterotrophic.<br><br><b>Reason (R):</b> These plants completely lack chlorophyll and cannot perform photosynthesis.",
     options: [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is NOT the correct explanation of A",
@@ -2929,7 +2929,7 @@ const allQuestions = [
     topic: "Kingdom Animalia",
     difficulty: "Hard",
     type: "AR",
-    q: "<b>Assertion (A):</b> Animals directly or indirectly depend on plants for food.<br><b>Reason (R):</b> Animals are heterotrophic and cannot synthesise their own food.",
+    q: "<b>Assertion (A):</b> Animals directly or indirectly depend on plants for food.<br><br><b>Reason (R):</b> Animals are heterotrophic and cannot synthesise their own food.",
     options: [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is NOT the correct explanation of A",
@@ -3034,7 +3034,7 @@ const allQuestions = [
     topic: "Kingdom Plantae",
     difficulty: "Hard",
     type: "AR",
-    q: "<b>Assertion (A):</b> In the life cycle of plants, the lengths of haploid and diploid phases vary among different groups.<br><b>Reason (R):</b> Plants show alternation of generations where diploid sporophytic and haploid gametophytic phases alternate.",
+    q: "<b>Assertion (A):</b> In the life cycle of plants, the lengths of haploid and diploid phases vary among different groups.<br><br><b>Reason (R):</b> Plants show alternation of generations where diploid sporophytic and haploid gametophytic phases alternate.",
     options: [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is NOT the correct explanation of A",
@@ -3109,7 +3109,7 @@ const allQuestions = [
     topic: "Cross-Concept",
     difficulty: "Hard",
     type: "AR",
-    q: "<b>Assertion (A):</b> Animals follow a definite growth pattern unlike plants.<br><b>Reason (R):</b> Animals grow into adults that have a definite shape and size.",
+    q: "<b>Assertion (A):</b> Animals follow a definite growth pattern unlike plants.<br><br><b>Reason (R):</b> Animals grow into adults that have a definite shape and size.",
     options: [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is NOT the correct explanation of A",
@@ -3379,7 +3379,7 @@ const allQuestions = [
     topic: "Viruses",
     difficulty: "Hard",
     type: "AR",
-    q: "<b>Assertion (A):</b> Viruses are not included in Whittaker's Five Kingdom Classification.<br><b>Reason (R):</b> Viruses are non-cellular organisms and are considered not truly 'living' as they lack a cell structure.",
+    q: "<b>Assertion (A):</b> Viruses are not included in Whittaker's Five Kingdom Classification.<br><br><b>Reason (R):</b> Viruses are non-cellular organisms and are considered not truly 'living' as they lack a cell structure.",
     options: [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is NOT the correct explanation of A",
@@ -3634,7 +3634,7 @@ const allQuestions = [
     topic: "Lichens",
     difficulty: "Hard",
     type: "AR",
-    q: "<b>Assertion (A):</b> Lichens are considered good pollution indicators.<br><b>Reason (R):</b> Lichens do not grow in polluted areas.",
+    q: "<b>Assertion (A):</b> Lichens are considered good pollution indicators.<br><br><b>Reason (R):</b> Lichens do not grow in polluted areas.",
     options: [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is NOT the correct explanation of A",
@@ -3709,7 +3709,7 @@ const allQuestions = [
     topic: "Viruses",
     difficulty: "Medium",
     type: "AR",
-    q: "<b>Assertion (A):</b> Viruses are called obligate parasites.<br><b>Reason (R):</b> Viruses can replicate only inside a living host cell using the host cell machinery.",
+    q: "<b>Assertion (A):</b> Viruses are called obligate parasites.<br><br><b>Reason (R):</b> Viruses can replicate only inside a living host cell using the host cell machinery.",
     options: [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is NOT the correct explanation of A",
@@ -3949,7 +3949,7 @@ const allQuestions = [
     topic: "Cross-Concept",
     difficulty: "Hard",
     type: "AR",
-    q: "<b>Assertion (A):</b> Bacteria show the most extensive metabolic diversity among all organisms.<br><b>Reason (R):</b> Bacteria may be autotrophic (both photosynthetic and chemosynthetic) or heterotrophic (saprophytic, parasitic) in their mode of nutrition.",
+    q: "<b>Assertion (A):</b> Bacteria show the most extensive metabolic diversity among all organisms.<br><br><b>Reason (R):</b> Bacteria may be autotrophic (both photosynthetic and chemosynthetic) or heterotrophic (saprophytic, parasitic) in their mode of nutrition.",
     options: [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is NOT the correct explanation of A",
@@ -4069,7 +4069,7 @@ const allQuestions = [
     topic: "Summary",
     difficulty: "Hard",
     type: "AR",
-    q: "<b>Assertion (A):</b> Fungi were separated from Kingdom Plantae and placed in a separate kingdom in Whittaker's classification.<br><b>Reason (R):</b> Fungi are heterotrophic and have chitin in their cell walls unlike the cellulosic cell wall of green plants.",
+    q: "<b>Assertion (A):</b> Fungi were separated from Kingdom Plantae and placed in a separate kingdom in Whittaker's classification.<br><br><b>Reason (R):</b> Fungi are heterotrophic and have chitin in their cell walls unlike the cellulosic cell wall of green plants.",
     options: [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is NOT the correct explanation of A",
@@ -4129,7 +4129,7 @@ const allQuestions = [
     topic: "Kingdom Fungi",
     difficulty: "Medium",
     type: "AR",
-    q: "<b>Assertion (A):</b> We keep food in the refrigerator to prevent it from going bad.<br><b>Reason (R):</b> Low temperature inhibits growth of bacteria and fungi that prefer warm and humid conditions.",
+    q: "<b>Assertion (A):</b> We keep food in the refrigerator to prevent it from going bad.<br><br><b>Reason (R):</b> Low temperature inhibits growth of bacteria and fungi that prefer warm and humid conditions.",
     options: [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is NOT the correct explanation of A",
@@ -4789,7 +4789,7 @@ const allQuestions = [
     topic: "Kingdom Fungi",
     difficulty: "Hard",
     type: "AR",
-    q: "<b>Assertion (A):</b> Lichens do not grow in areas with air pollution.<br><b>Reason (R):</b> Lichens are very sensitive to SO₂ pollution in the environment.",
+    q: "<b>Assertion (A):</b> Lichens do not grow in areas with air pollution.<br><br><b>Reason (R):</b> Lichens are very sensitive to SO₂ pollution in the environment.",
     options: [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is NOT the correct explanation of A",
@@ -4924,7 +4924,7 @@ const allQuestions = [
     topic: "Viroids",
     difficulty: "Hard",
     type: "AR",
-    q: "<b>Assertion (A):</b> Viroids are considered more infectious agents than viruses.<br><b>Reason (R):</b> Viroids consist of free RNA without a protein coat, which makes them smaller and simpler than viruses.",
+    q: "<b>Assertion (A):</b> Viroids are considered more infectious agents than viruses.<br><br><b>Reason (R):</b> Viroids consist of free RNA without a protein coat, which makes them smaller and simpler than viruses.",
     options: [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is NOT the correct explanation of A",

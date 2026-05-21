@@ -1,5 +1,5 @@
 // ===== CHAPTER: Ecosystem =====
-const allQuestions = [
+var allQuestions = [
 {
   id: 1,
   topic: "Ecosystem – Introduction & Structure and Function",
@@ -120,7 +120,7 @@ const allQuestions = [
 {
   id: 10,
   topic: "Ecosystem – Introduction & Structure and Function",
-  q: "<b>Assertion (A):</b> Energy flow in an ecosystem is unidirectional.<br><b>Reason (R):</b> Energy is dissipated and lost as heat to the environment at each trophic level.",
+  q: "<b>Assertion (A):</b> Energy flow in an ecosystem is unidirectional.<br><br><b>Reason (R):</b> Energy is dissipated and lost as heat to the environment at each trophic level.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -198,7 +198,7 @@ const allQuestions = [
 {
   id: 16,
   topic: "Ecosystem – Introduction & Structure and Function",
-  q: "<b>Assertion (A):</b> A small pond can explain complex interactions of an aquatic ecosystem.<br><b>Reason (R):</b> A pond exhibits all four basic components — productivity, decomposition, energy flow and nutrient cycling.",
+  q: "<b>Assertion (A):</b> A small pond can explain complex interactions of an aquatic ecosystem.<br><br><b>Reason (R):</b> A pond exhibits all four basic components — productivity, decomposition, energy flow and nutrient cycling.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -276,7 +276,7 @@ const allQuestions = [
 {
   id: 22,
   topic: "Ecosystem – Introduction & Structure and Function",
-  q: "<b>Assertion (A):</b> Nutrients cycle repeatedly in an ecosystem.<br><b>Reason (R):</b> Energy flows unidirectionally and is lost as heat at each trophic level.",
+  q: "<b>Assertion (A):</b> Nutrients cycle repeatedly in an ecosystem.<br><br><b>Reason (R):</b> Energy flows unidirectionally and is lost as heat at each trophic level.",
   options: [
     "Both A and R are true but R is not the correct explanation of A",
     "Both A and R are true and R is the correct explanation of A",
@@ -367,7 +367,7 @@ const allQuestions = [
 {
   id: 29,
   topic: "Ecosystem – Introduction & Structure and Function",
-  q: "<b>Assertion (A):</b> Crop fields are considered as ecosystems.<br><b>Reason (R):</b> Crop fields have both biotic and abiotic components that interact with each other.",
+  q: "<b>Assertion (A):</b> Crop fields are considered as ecosystems.<br><br><b>Reason (R):</b> Crop fields have both biotic and abiotic components that interact with each other.",
   options: [
     "A is true but R is false",
     "A is false but R is true",
@@ -588,7 +588,7 @@ const allQuestions = [
 {
   id: 46,
   topic: "Productivity",
-  q: "<b>Assertion (A):</b> Gross primary productivity is always greater than net primary productivity.<br><b>Reason (R):</b> A considerable amount of GPP is utilised by plants in respiration.",
+  q: "<b>Assertion (A):</b> Gross primary productivity is always greater than net primary productivity.<br><br><b>Reason (R):</b> A considerable amount of GPP is utilised by plants in respiration.",
   options: [
     "Both A and R are true but R is not the correct explanation of A",
     "A is true but R is false",
@@ -653,7 +653,7 @@ const allQuestions = [
 {
   id: 51,
   topic: "Productivity",
-  q: "<b>Assertion (A):</b> Oceans have lower productivity than land despite covering 70% of Earth's surface.<br><b>Reason (R):</b> Light availability decreases with depth in oceans, limiting photosynthesis to the euphotic zone.",
+  q: "<b>Assertion (A):</b> Oceans have lower productivity than land despite covering 70% of Earth's surface.<br><br><b>Reason (R):</b> Light availability decreases with depth in oceans, limiting photosynthesis to the euphotic zone.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -757,7 +757,7 @@ const allQuestions = [
 {
   id: 59,
   topic: "Productivity",
-  q: "<b>Assertion (A):</b> Secondary productivity is expressed in the same units as primary productivity.<br><b>Reason (R):</b> Both are measures of the rate of formation of organic matter.",
+  q: "<b>Assertion (A):</b> Secondary productivity is expressed in the same units as primary productivity.<br><br><b>Reason (R):</b> Both are measures of the rate of formation of organic matter.",
   options: [
     "A is true but R is false",
     "A is false but R is true",
@@ -848,7 +848,7 @@ const allQuestions = [
 {
   id: 66,
   topic: "Productivity",
-  q: "<b>Assertion (A):</b> Primary productivity varies in different types of ecosystems.<br><b>Reason (R):</b> Primary productivity depends on plant species, environmental factors, nutrient availability and photosynthetic capacity.",
+  q: "<b>Assertion (A):</b> Primary productivity varies in different types of ecosystems.<br><br><b>Reason (R):</b> Primary productivity depends on plant species, environmental factors, nutrient availability and photosynthetic capacity.",
   options: [
     "A is true but R is false",
     "Both A and R are true but R is not the correct explanation of A",
@@ -1004,7 +1004,7 @@ const allQuestions = [
 {
   id: 78,
   topic: "Decomposition",
-  q: "<b>Assertion (A):</b> Humus undergoes decomposition at an extremely slow rate.<br><b>Reason (R):</b> Humus is highly resistant to microbial action.",
+  q: "<b>Assertion (A):</b> Humus undergoes decomposition at an extremely slow rate.<br><br><b>Reason (R):</b> Humus is highly resistant to microbial action.",
   options: [
     "A is true but R is false",
     "Both A and R are true but R is not the correct explanation of A",
@@ -1121,7 +1121,7 @@ const allQuestions = [
 {
   id: 87,
   topic: "Decomposition",
-  q: "<b>Assertion (A):</b> Decomposition is largely an oxygen-requiring process.<br><b>Reason (R):</b> Anaerobiosis inhibits decomposition and results in build up of organic materials.",
+  q: "<b>Assertion (A):</b> Decomposition is largely an oxygen-requiring process.<br><br><b>Reason (R):</b> Anaerobiosis inhibits decomposition and results in build up of organic materials.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "A is true but R is false",
@@ -1225,7 +1225,7 @@ const allQuestions = [
 {
   id: 95,
   topic: "Decomposition",
-  q: "<b>Assertion (A):</b> In tundra regions, there is a significant build up of organic materials.<br><b>Reason (R):</b> Low temperature inhibits the activity of decomposers.",
+  q: "<b>Assertion (A):</b> In tundra regions, there is a significant build up of organic materials.<br><br><b>Reason (R):</b> Low temperature inhibits the activity of decomposers.",
   options: [
     "A is false but R is true",
     "Both A and R are true and R is the correct explanation of A",
@@ -1316,7 +1316,7 @@ const allQuestions = [
 {
   id: 102,
   topic: "Decomposition",
-  q: "<b>Assertion (A):</b> Humus serves as a reservoir of nutrients.<br><b>Reason (R):</b> Humus is colloidal in nature.",
+  q: "<b>Assertion (A):</b> Humus serves as a reservoir of nutrients.<br><br><b>Reason (R):</b> Humus is colloidal in nature.",
   options: [
     "A is true but R is false",
     "A is false but R is true",
@@ -1420,7 +1420,7 @@ const allQuestions = [
 {
   id: 110,
   topic: "Decomposition",
-  q: "<b>Assertion (A):</b> Detritus rich in lignin decomposes faster than detritus rich in nitrogen.<br><b>Reason (R):</b> Lignin is easily degraded by microbial enzymes.",
+  q: "<b>Assertion (A):</b> Detritus rich in lignin decomposes faster than detritus rich in nitrogen.<br><br><b>Reason (R):</b> Lignin is easily degraded by microbial enzymes.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -1615,7 +1615,7 @@ const allQuestions = [
 {
   id: 125,
   topic: "Energy Flow",
-  q: "<b>Assertion (A):</b> In an aquatic ecosystem, GFC is the major conduit for energy flow.<br><b>Reason (R):</b> In a terrestrial ecosystem, a much larger fraction of energy flows through the DFC than through GFC.",
+  q: "<b>Assertion (A):</b> In an aquatic ecosystem, GFC is the major conduit for energy flow.<br><br><b>Reason (R):</b> In a terrestrial ecosystem, a much larger fraction of energy flows through the DFC than through GFC.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -1758,7 +1758,7 @@ const allQuestions = [
 {
   id: 136,
   topic: "Energy Flow",
-  q: "<b>Assertion (A):</b> The detritus food chain may be connected with the grazing food chain at some levels.<br><b>Reason (R):</b> Some organisms of DFC are prey to the GFC animals and some animals are omnivores.",
+  q: "<b>Assertion (A):</b> The detritus food chain may be connected with the grazing food chain at some levels.<br><br><b>Reason (R):</b> Some organisms of DFC are prey to the GFC animals and some animals are omnivores.",
   options: [
     "A is true but R is false",
     "A is false but R is true",
@@ -1862,7 +1862,7 @@ const allQuestions = [
 {
   id: 144,
   topic: "Energy Flow",
-  q: "<b>Assertion (A):</b> The number of trophic levels in a detritus food chain may not be as restricted as in a grazing food chain.<br><b>Reason (R):</b> The 10 per cent law strictly restricts the number of trophic levels in GFC.",
+  q: "<b>Assertion (A):</b> The number of trophic levels in a detritus food chain may not be as restricted as in a grazing food chain.<br><br><b>Reason (R):</b> The 10 per cent law strictly restricts the number of trophic levels in GFC.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "A is true but R is false",
@@ -1940,7 +1940,7 @@ const allQuestions = [
 {
   id: 150,
   topic: "Energy Flow",
-  q: "<b>Assertion (A):</b> Only 2-10% of PAR sustains the entire living world.<br><b>Reason (R):</b> All organisms are dependent for their food on producers, either directly or indirectly.",
+  q: "<b>Assertion (A):</b> Only 2-10% of PAR sustains the entire living world.<br><br><b>Reason (R):</b> All organisms are dependent for their food on producers, either directly or indirectly.",
   options: [
     "A is false but R is true",
     "Both A and R are true but R is not the correct explanation of A",
@@ -2109,7 +2109,7 @@ const allQuestions = [
 {
   id: 163,
   topic: "Ecological Pyramids",
-  q: "<b>Assertion (A):</b> Pyramid of energy can never be inverted.<br><b>Reason (R):</b> Some energy is always lost as heat when energy flows from one trophic level to the next.",
+  q: "<b>Assertion (A):</b> Pyramid of energy can never be inverted.<br><br><b>Reason (R):</b> Some energy is always lost as heat when energy flows from one trophic level to the next.",
   options: [
     "A is true but R is false",
     "Both A and R are true but R is not the correct explanation of A",
@@ -2239,7 +2239,7 @@ const allQuestions = [
 {
   id: 173,
   topic: "Ecological Pyramids",
-  q: "<b>Assertion (A):</b> Ecological pyramids do not accommodate food webs.<br><b>Reason (R):</b> Ecological pyramids assume a simple food chain, which almost never exists in nature.",
+  q: "<b>Assertion (A):</b> Ecological pyramids do not accommodate food webs.<br><br><b>Reason (R):</b> Ecological pyramids assume a simple food chain, which almost never exists in nature.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -2330,7 +2330,7 @@ const allQuestions = [
 {
   id: 180,
   topic: "Ecological Pyramids",
-  q: "<b>Assertion (A):</b> A given species may occupy more than one trophic level in the same ecosystem at the same time.<br><b>Reason (R):</b> Trophic level represents a functional level, not a species as such.",
+  q: "<b>Assertion (A):</b> A given species may occupy more than one trophic level in the same ecosystem at the same time.<br><br><b>Reason (R):</b> Trophic level represents a functional level, not a species as such.",
   options: [
     "A is true but R is false",
     "Both A and R are true but R is not the correct explanation of A",
@@ -2421,7 +2421,7 @@ const allQuestions = [
 {
   id: 187,
   topic: "Ecological Pyramids",
-  q: "<b>Assertion (A):</b> The pyramid of biomass in a sea is inverted.<br><b>Reason (R):</b> Phytoplankton have a higher rate of reproduction and turnover, maintaining a small standing crop despite high productivity.",
+  q: "<b>Assertion (A):</b> The pyramid of biomass in a sea is inverted.<br><br><b>Reason (R):</b> Phytoplankton have a higher rate of reproduction and turnover, maintaining a small standing crop despite high productivity.",
   options: [
     "Both A and R are true but R is not the correct explanation of A",
     "A is true but R is false",
@@ -2525,7 +2525,7 @@ const allQuestions = [
 {
   id: 195,
   topic: "Ecological Pyramids",
-  q: "<b>Assertion (A):</b> Saprophytes are not given any place in ecological pyramids.<br><b>Reason (R):</b> Saprophytes do not play any significant role in the ecosystem.",
+  q: "<b>Assertion (A):</b> Saprophytes are not given any place in ecological pyramids.<br><br><b>Reason (R):</b> Saprophytes do not play any significant role in the ecosystem.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "A is true but R is false",
@@ -2720,7 +2720,7 @@ const allQuestions = [
 {
   id: 210,
   topic: "Ecosystem – Summary",
-  q: "<b>Assertion (A):</b> The NCERT summary mentions three processes of decomposition while the main text mentions five steps.<br><b>Reason (R):</b> Humification and mineralisation are included in the main text but not explicitly listed in the summary's process list.",
+  q: "<b>Assertion (A):</b> The NCERT summary mentions three processes of decomposition while the main text mentions five steps.<br><br><b>Reason (R):</b> Humification and mineralisation are included in the main text but not explicitly listed in the summary's process list.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is not the correct explanation of A",
@@ -2850,7 +2850,7 @@ const allQuestions = [
 {
   id: 220,
   topic: "Ecosystem – Summary",
-  q: "<b>Assertion (A):</b> Carbon cycle is a gaseous type of nutrient cycle.<br><b>Reason (R):</b> The reservoir for carbon cycle is the atmosphere or hydrosphere.",
+  q: "<b>Assertion (A):</b> Carbon cycle is a gaseous type of nutrient cycle.<br><br><b>Reason (R):</b> The reservoir for carbon cycle is the atmosphere or hydrosphere.",
   options: [
     "A is true but R is false",
     "A is false but R is true",
@@ -2967,7 +2967,7 @@ const allQuestions = [
 {
   id: 229,
   topic: "Ecosystem – Summary",
-  q: "<b>Assertion (A):</b> Phosphorus cycle is a sedimentary type of nutrient cycle.<br><b>Reason (R):</b> Earth's crust is the reservoir for the phosphorus cycle.",
+  q: "<b>Assertion (A):</b> Phosphorus cycle is a sedimentary type of nutrient cycle.<br><br><b>Reason (R):</b> Earth's crust is the reservoir for the phosphorus cycle.",
   options: [
     "Both A and R are true but R is not the correct explanation of A",
     "A is true but R is false",
@@ -3045,7 +3045,7 @@ const allQuestions = [
 {
   id: 235,
   topic: "Ecosystem – Summary",
-  q: "<b>Assertion (A):</b> Energy flow is unidirectional while nutrient cycling is cyclic in an ecosystem.<br><b>Reason (R):</b> Energy is lost as heat at each trophic level but nutrients are repeatedly used through cycling.",
+  q: "<b>Assertion (A):</b> Energy flow is unidirectional while nutrient cycling is cyclic in an ecosystem.<br><br><b>Reason (R):</b> Energy is lost as heat at each trophic level but nutrients are repeatedly used through cycling.",
   options: [
     "A is true but R is false",
     "A is false but R is true",

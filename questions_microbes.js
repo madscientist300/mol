@@ -1,5 +1,5 @@
 // ===== CHAPTER: Microbes in Human Welfare =====
-const allQuestions = [
+var allQuestions = [
   {
     "id": 1,
     "topic": "Introduction",

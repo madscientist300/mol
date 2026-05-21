@@ -1,4 +1,4 @@
-const allQuestions = [
+var allQuestions = [
 {
   id: 1,
   topic: "Introduction",
@@ -106,7 +106,7 @@ const allQuestions = [
 {
   id: 9,
   topic: "Introduction",
-  q: "<b>Assertion (A):</b> Biology remained as a natural history for a long time.<br><b>Reason (R):</b> Before experimental biology was established, naturalists described only biology through observation.",
+  q: "<b>Assertion (A):</b> Biology remained as a natural history for a long time.<br><br><b>Reason (R):</b> Before experimental biology was established, naturalists described only biology through observation.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -197,7 +197,7 @@ const allQuestions = [
 {
   id: 16,
   topic: "Introduction",
-  q: "<b>Assertion (A):</b> Detailed description of organisms in early biology became meaningful in later years.<br><b>Reason (R):</b> The description helped in framing research questions in physiology and evolutionary biology.",
+  q: "<b>Assertion (A):</b> Detailed description of organisms in early biology became meaningful in later years.<br><br><b>Reason (R):</b> The description helped in framing research questions in physiology and evolutionary biology.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -288,7 +288,7 @@ const allQuestions = [
 {
   id: 23,
   topic: "Introduction",
-  q: "<b>Assertion (A):</b> For any successful attempt at classification of higher plants, we need to know standard technical terms and definitions.<br><b>Reason (R):</b> We also need to understand the possible variations in different parts as adaptations to environment.",
+  q: "<b>Assertion (A):</b> For any successful attempt at classification of higher plants, we need to know standard technical terms and definitions.<br><br><b>Reason (R):</b> We also need to understand the possible variations in different parts as adaptations to environment.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -405,7 +405,7 @@ const allQuestions = [
 {
   id: 32,
   topic: "Introduction",
-  q: "<b>Assertion (A):</b> Katherine Esau's book 'Anatomy of Seed Plants' was called Webster's of plant biology.<br><b>Reason (R):</b> The book was encyclopaedic in nature.",
+  q: "<b>Assertion (A):</b> Katherine Esau's book 'Anatomy of Seed Plants' was called Webster's of plant biology.<br><br><b>Reason (R):</b> The book was encyclopaedic in nature.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -665,7 +665,7 @@ const allQuestions = [
 {
   id: 52,
   topic: "The Root",
-  q: "<b>Assertion (A):</b> The tap root system is found in majority of dicotyledonous plants.<br><b>Reason (R):</b> In dicots, the direct elongation of the radicle forms the primary root which bears lateral roots of several orders.",
+  q: "<b>Assertion (A):</b> The tap root system is found in majority of dicotyledonous plants.<br><br><b>Reason (R):</b> In dicots, the direct elongation of the radicle forms the primary root which bears lateral roots of several orders.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -678,7 +678,7 @@ const allQuestions = [
 {
   id: 53,
   topic: "The Root",
-  q: "<b>Assertion (A):</b> In monocotyledonous plants, the primary root persists throughout the life of the plant.<br><b>Reason (R):</b> In monocots, roots originate from the base of the stem forming a fibrous root system.",
+  q: "<b>Assertion (A):</b> In monocotyledonous plants, the primary root persists throughout the life of the plant.<br><br><b>Reason (R):</b> In monocots, roots originate from the base of the stem forming a fibrous root system.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -691,7 +691,7 @@ const allQuestions = [
 {
   id: 54,
   topic: "The Root",
-  q: "<b>Assertion (A):</b> Root hairs help in absorption of water and minerals from the soil.<br><b>Reason (R):</b> Root hairs are formed from epidermal cells in the region of maturation.",
+  q: "<b>Assertion (A):</b> Root hairs help in absorption of water and minerals from the soil.<br><br><b>Reason (R):</b> Root hairs are formed from epidermal cells in the region of maturation.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -821,7 +821,7 @@ const allQuestions = [
 {
   id: 64,
   topic: "The Root",
-  q: "<b>Assertion (A):</b> The root cap helps in pushing the root through the soil.<br><b>Reason (R):</b> The root cap is a hard, lignified structure made of sclerenchyma cells.",
+  q: "<b>Assertion (A):</b> The root cap helps in pushing the root through the soil.<br><br><b>Reason (R):</b> The root cap is a hard, lignified structure made of sclerenchyma cells.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -912,7 +912,7 @@ const allQuestions = [
 {
   id: 71,
   topic: "The Root",
-  q: "<b>Assertion (A):</b> Adventitious roots in banyan tree arise from parts other than the radicle.<br><b>Reason (R):</b> Banyan tree is a monocotyledonous plant.",
+  q: "<b>Assertion (A):</b> Adventitious roots in banyan tree arise from parts other than the radicle.<br><br><b>Reason (R):</b> Banyan tree is a monocotyledonous plant.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -1055,7 +1055,7 @@ const allQuestions = [
 {
   id: 82,
   topic: "The Stem",
-  q: "<b>Assertion (A):</b> The stem conducts photosynthates in addition to water and minerals.<br><b>Reason (R):</b> The stem contains both xylem and phloem tissues.",
+  q: "<b>Assertion (A):</b> The stem conducts photosynthates in addition to water and minerals.<br><br><b>Reason (R):</b> The stem contains both xylem and phloem tissues.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -1094,7 +1094,7 @@ const allQuestions = [
 {
   id: 85,
   topic: "The Stem",
-  q: "<b>Assertion (A):</b> The stem develops from the radicle of the embryo.<br><b>Reason (R):</b> The stem is the ascending part of the plant axis.",
+  q: "<b>Assertion (A):</b> The stem develops from the radicle of the embryo.<br><br><b>Reason (R):</b> The stem is the ascending part of the plant axis.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -1185,7 +1185,7 @@ const allQuestions = [
 {
   id: 92,
   topic: "The Stem",
-  q: "<b>Assertion (A):</b> Some stems perform the function of storage, support, protection and vegetative propagation.<br><b>Reason (R):</b> All stems perform all these functions equally.",
+  q: "<b>Assertion (A):</b> Some stems perform the function of storage, support, protection and vegetative propagation.<br><br><b>Reason (R):</b> All stems perform all these functions equally.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -1276,7 +1276,7 @@ const allQuestions = [
 {
   id: 99,
   topic: "The Stem",
-  q: "<b>Assertion (A):</b> The stem bears both terminal and axillary buds.<br><b>Reason (R):</b> Terminal buds are present at the stem tip while axillary buds are present in the axil of leaves at nodes.",
+  q: "<b>Assertion (A):</b> The stem bears both terminal and axillary buds.<br><br><b>Reason (R):</b> Terminal buds are present at the stem tip while axillary buds are present in the axil of leaves at nodes.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -1809,7 +1809,7 @@ const allQuestions = [
 {
   id: 140,
   topic: "The Leaf",
-  q: "<b>Assertion (A):</b> A compound leaf can be distinguished from a branch bearing simple leaves by checking for buds in the axil of leaflets.<br><b>Reason (R):</b> Buds are absent in the axil of leaflets of compound leaves but present in the axil of simple leaves on a branch.",
+  q: "<b>Assertion (A):</b> A compound leaf can be distinguished from a branch bearing simple leaves by checking for buds in the axil of leaflets.<br><br><b>Reason (R):</b> Buds are absent in the axil of leaflets of compound leaves but present in the axil of simple leaves on a branch.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -1822,7 +1822,7 @@ const allQuestions = [
 {
   id: 141,
   topic: "The Leaf",
-  q: "<b>Assertion (A):</b> In monocots, the leaf base forms a sheath.<br><b>Reason (R):</b> In some leguminous plants, the leaf base becomes swollen forming a pulvinus.",
+  q: "<b>Assertion (A):</b> In monocots, the leaf base forms a sheath.<br><br><b>Reason (R):</b> In some leguminous plants, the leaf base becomes swollen forming a pulvinus.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -1913,7 +1913,7 @@ const allQuestions = [
 {
   id: 148,
   topic: "The Leaf",
-  q: "<b>Assertion (A):</b> Reticulate venation is generally found in dicot leaves.<br><b>Reason (R):</b> In reticulate venation, veinlets form a network pattern.",
+  q: "<b>Assertion (A):</b> Reticulate venation is generally found in dicot leaves.<br><br><b>Reason (R):</b> In reticulate venation, veinlets form a network pattern.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -2056,7 +2056,7 @@ const allQuestions = [
 {
   id: 159,
   topic: "The Inflorescence",
-  q: "<b>Assertion (A):</b> In racemose inflorescence, the main axis has unlimited growth.<br><b>Reason (R):</b> The apex in racemose inflorescence does not terminate in a flower and continues to grow.",
+  q: "<b>Assertion (A):</b> In racemose inflorescence, the main axis has unlimited growth.<br><br><b>Reason (R):</b> The apex in racemose inflorescence does not terminate in a flower and continues to grow.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -2069,7 +2069,7 @@ const allQuestions = [
 {
   id: 160,
   topic: "The Inflorescence",
-  q: "<b>Assertion (A):</b> In cymose inflorescence, growth of the main axis is limited.<br><b>Reason (R):</b> In cymose inflorescence, the main axis terminates in a flower.",
+  q: "<b>Assertion (A):</b> In cymose inflorescence, growth of the main axis is limited.<br><br><b>Reason (R):</b> In cymose inflorescence, the main axis terminates in a flower.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -2160,7 +2160,7 @@ const allQuestions = [
 {
   id: 167,
   topic: "The Inflorescence",
-  q: "<b>Assertion (A):</b> When a shoot tip transforms into a flower, it is always solitary.<br><b>Reason (R):</b> Only one shoot apical meristem exists per shoot tip which transforms into one floral meristem.",
+  q: "<b>Assertion (A):</b> When a shoot tip transforms into a flower, it is always solitary.<br><br><b>Reason (R):</b> Only one shoot apical meristem exists per shoot tip which transforms into one floral meristem.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -2290,7 +2290,7 @@ const allQuestions = [
 {
   id: 177,
   topic: "The Inflorescence",
-  q: "<b>Assertion (A):</b> Floral appendages in a flower are considered homologous to leaves.<br><b>Reason (R):</b> A flower is a modified shoot where floral appendages are produced at successive nodes instead of leaves.",
+  q: "<b>Assertion (A):</b> Floral appendages in a flower are considered homologous to leaves.<br><br><b>Reason (R):</b> A flower is a modified shoot where floral appendages are produced at successive nodes instead of leaves.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -2667,7 +2667,7 @@ const allQuestions = [
 {
   id: 206,
   topic: "The Flower",
-  q: "<b>Assertion (A):</b> In epigynous flowers, the other parts of the flower arise above the ovary.<br><b>Reason (R):</b> The margin of thalamus grows upward enclosing the ovary completely and fusing with it.",
+  q: "<b>Assertion (A):</b> In epigynous flowers, the other parts of the flower arise above the ovary.<br><br><b>Reason (R):</b> The margin of thalamus grows upward enclosing the ovary completely and fusing with it.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -2732,7 +2732,7 @@ const allQuestions = [
 {
   id: 211,
   topic: "The Flower",
-  q: "<b>Assertion (A):</b> The ovary in perigynous flowers is described as half inferior.<br><b>Reason (R):</b> In perigynous flowers, the gynoecium is in the centre and other floral parts are at almost the same level on the rim of thalamus.",
+  q: "<b>Assertion (A):</b> The ovary in perigynous flowers is described as half inferior.<br><br><b>Reason (R):</b> In perigynous flowers, the gynoecium is in the centre and other floral parts are at almost the same level on the rim of thalamus.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -3096,7 +3096,7 @@ const allQuestions = [
 {
   id: 239,
   topic: "Parts of a Flower",
-  q: "<b>Assertion (A):</b> Petals are usually brightly coloured.<br><b>Reason (R):</b> Bright colours attract insects for pollination.",
+  q: "<b>Assertion (A):</b> Petals are usually brightly coloured.<br><br><b>Reason (R):</b> Bright colours attract insects for pollination.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -3109,7 +3109,7 @@ const allQuestions = [
 {
   id: 240,
   topic: "Parts of a Flower",
-  q: "<b>Assertion (A):</b> Sepals are generally green and leaf-like.<br><b>Reason (R):</b> Sepals attract pollinators to the flower.",
+  q: "<b>Assertion (A):</b> Sepals are generally green and leaf-like.<br><br><b>Reason (R):</b> Sepals attract pollinators to the flower.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -3213,7 +3213,7 @@ const allQuestions = [
 {
   id: 248,
   topic: "Parts of a Flower",
-  q: "<b>Assertion (A):</b> Gulmohur shows imbricate aestivation.<br><b>Reason (R):</b> In imbricate aestivation, margins of petals overlap one another but not in any particular direction.",
+  q: "<b>Assertion (A):</b> Gulmohur shows imbricate aestivation.<br><br><b>Reason (R):</b> In imbricate aestivation, margins of petals overlap one another but not in any particular direction.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -3512,7 +3512,7 @@ const allQuestions = [
 {
   id: 271,
   topic: "Androecium",
-  q: "<b>Assertion (A):</b> In lily, stamens are described as epiphyllous.<br><b>Reason (R):</b> In lily, calyx and corolla are not distinct and form a perianth, to which stamens are attached.",
+  q: "<b>Assertion (A):</b> In lily, stamens are described as epiphyllous.<br><br><b>Reason (R):</b> In lily, calyx and corolla are not distinct and form a perianth, to which stamens are attached.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -3525,7 +3525,7 @@ const allQuestions = [
 {
   id: 272,
   topic: "Androecium",
-  q: "<b>Assertion (A):</b> Stamens in brinjal are called epipetalous.<br><b>Reason (R):</b> In brinjal, the stamens are attached to the perianth.",
+  q: "<b>Assertion (A):</b> Stamens in brinjal are called epipetalous.<br><br><b>Reason (R):</b> In brinjal, the stamens are attached to the perianth.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -3629,7 +3629,7 @@ const allQuestions = [
 {
   id: 280,
   topic: "Androecium",
-  q: "<b>Assertion (A):</b> In china rose, stamens are monoadelphous.<br><b>Reason (R):</b> In monoadelphous condition, stamens are united into more than two bundles.",
+  q: "<b>Assertion (A):</b> In china rose, stamens are monoadelphous.<br><br><b>Reason (R):</b> In monoadelphous condition, stamens are united into more than two bundles.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -4045,7 +4045,7 @@ const allQuestions = [
 {
   id: 312,
   topic: "Gynoecium",
-  q: "<b>Assertion (A):</b> In parietal placentation, a false septum may be present.<br><b>Reason (R):</b> The originally one-chambered ovary becomes two-chambered due to the formation of the false septum.",
+  q: "<b>Assertion (A):</b> In parietal placentation, a false septum may be present.<br><br><b>Reason (R):</b> The originally one-chambered ovary becomes two-chambered due to the formation of the false septum.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -4058,7 +4058,7 @@ const allQuestions = [
 {
   id: 313,
   topic: "Gynoecium",
-  q: "<b>Assertion (A):</b> Lotus has apocarpous gynoecium.<br><b>Reason (R):</b> In apocarpous condition, carpels are fused together.",
+  q: "<b>Assertion (A):</b> Lotus has apocarpous gynoecium.<br><br><b>Reason (R):</b> In apocarpous condition, carpels are fused together.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -4188,7 +4188,7 @@ const allQuestions = [
 {
   id: 323,
   topic: "Gynoecium",
-  q: "<b>Assertion (A):</b> After fertilisation, the ovary matures into a fruit.<br><b>Reason (R):</b> The ovules within the ovary develop into seeds after fertilisation.",
+  q: "<b>Assertion (A):</b> After fertilisation, the ovary matures into a fruit.<br><br><b>Reason (R):</b> The ovules within the ovary develop into seeds after fertilisation.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -4279,7 +4279,7 @@ const allQuestions = [
 {
   id: 330,
   topic: "Gynoecium",
-  q: "<b>Assertion (A):</b> Mustard shows parietal placentation.<br><b>Reason (R):</b> In parietal placentation, the ovary is originally one-chambered but may become two-chambered due to false septum.",
+  q: "<b>Assertion (A):</b> Mustard shows parietal placentation.<br><br><b>Reason (R):</b> In parietal placentation, the ovary is originally one-chambered but may become two-chambered due to false septum.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -4500,7 +4500,7 @@ const allQuestions = [
 {
   id: 347,
   topic: "The Fruit",
-  q: "<b>Assertion (A):</b> A fruit is a mature ovary developed after fertilisation.<br><b>Reason (R):</b> A parthenocarpic fruit is also formed after fertilisation.",
+  q: "<b>Assertion (A):</b> A fruit is a mature ovary developed after fertilisation.<br><br><b>Reason (R):</b> A parthenocarpic fruit is also formed after fertilisation.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -4513,7 +4513,7 @@ const allQuestions = [
 {
   id: 348,
   topic: "The Fruit",
-  q: "<b>Assertion (A):</b> Mango and coconut are both classified as drupes.<br><b>Reason (R):</b> Both develop from monocarpellary superior ovaries and are one-seeded.",
+  q: "<b>Assertion (A):</b> Mango and coconut are both classified as drupes.<br><br><b>Reason (R):</b> Both develop from monocarpellary superior ovaries and are one-seeded.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -4617,7 +4617,7 @@ const allQuestions = [
 {
   id: 356,
   topic: "The Fruit",
-  q: "<b>Assertion (A):</b> Parthenocarpic fruits are generally seedless.<br><b>Reason (R):</b> Parthenocarpic fruits develop without fertilisation.",
+  q: "<b>Assertion (A):</b> Parthenocarpic fruits are generally seedless.<br><br><b>Reason (R):</b> Parthenocarpic fruits develop without fertilisation.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -4682,7 +4682,7 @@ const allQuestions = [
 {
   id: 361,
   topic: "The Fruit",
-  q: "<b>Assertion (A):</b> In coconut, the mesocarp is not edible.<br><b>Reason (R):</b> The mesocarp of coconut is fibrous.",
+  q: "<b>Assertion (A):</b> In coconut, the mesocarp is not edible.<br><br><b>Reason (R):</b> The mesocarp of coconut is fibrous.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -5111,7 +5111,7 @@ const allQuestions = [
 {
   id: 394,
   topic: "The Seed",
-  q: "<b>Assertion (A):</b> The coleoptile protects the plumule in monocot seeds.<br><b>Reason (R):</b> The coleorhiza protects the radicle in monocot seeds.",
+  q: "<b>Assertion (A):</b> The coleoptile protects the plumule in monocot seeds.<br><br><b>Reason (R):</b> The coleorhiza protects the radicle in monocot seeds.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -5124,7 +5124,7 @@ const allQuestions = [
 {
   id: 395,
   topic: "The Seed",
-  q: "<b>Assertion (A):</b> In castor seeds, endosperm is a food-storing tissue.<br><b>Reason (R):</b> Castor is an example of a non-endospermic seed.",
+  q: "<b>Assertion (A):</b> In castor seeds, endosperm is a food-storing tissue.<br><br><b>Reason (R):</b> Castor is an example of a non-endospermic seed.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -5215,7 +5215,7 @@ const allQuestions = [
 {
   id: 402,
   topic: "The Seed",
-  q: "<b>Assertion (A):</b> In maize seed, the seed coat is membranous.<br><b>Reason (R):</b> In maize, the seed coat is generally fused with the fruit wall.",
+  q: "<b>Assertion (A):</b> In maize seed, the seed coat is membranous.<br><br><b>Reason (R):</b> In maize, the seed coat is generally fused with the fruit wall.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -5293,7 +5293,7 @@ const allQuestions = [
 {
   id: 408,
   topic: "The Seed",
-  q: "<b>Assertion (A):</b> Bean, gram and pea are non-endospermic seeds.<br><b>Reason (R):</b> In these seeds, the endosperm is consumed during seed development and food is stored in cotyledons.",
+  q: "<b>Assertion (A):</b> Bean, gram and pea are non-endospermic seeds.<br><br><b>Reason (R):</b> In these seeds, the endosperm is consumed during seed development and food is stored in cotyledons.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -5540,7 +5540,7 @@ const allQuestions = [
 {
   id: 427,
   topic: "Semi-technical Description of a Flowering Plant",
-  q: "<b>Assertion (A):</b> In a floral formula, fusion is indicated by brackets while adhesion is indicated by a line above the symbols.<br><b>Reason (R):</b> Fusion (cohesion) involves union of similar parts while adhesion involves union of dissimilar parts.",
+  q: "<b>Assertion (A):</b> In a floral formula, fusion is indicated by brackets while adhesion is indicated by a line above the symbols.<br><br><b>Reason (R):</b> Fusion (cohesion) involves union of similar parts while adhesion involves union of dissimilar parts.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -5631,7 +5631,7 @@ const allQuestions = [
 {
   id: 434,
   topic: "Semi-technical Description of a Flowering Plant",
-  q: "<b>Assertion (A):</b> A floral diagram represents the mother axis as a dot on top.<br><b>Reason (R):</b> The flower is always borne laterally on the mother axis, so the axis is shown at the top for orientation.",
+  q: "<b>Assertion (A):</b> A floral diagram represents the mother axis as a dot on top.<br><br><b>Reason (R):</b> The flower is always borne laterally on the mother axis, so the axis is shown at the top for orientation.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -5735,7 +5735,7 @@ const allQuestions = [
 {
   id: 442,
   topic: "Semi-technical Description of a Flowering Plant",
-  q: "<b>Assertion (A):</b> Epipetalous condition of stamens can be represented in the floral formula.<br><b>Reason (R):</b> Adhesion (union of unlike parts) is shown by a line drawn above the symbols of the concerned floral parts.",
+  q: "<b>Assertion (A):</b> Epipetalous condition of stamens can be represented in the floral formula.<br><br><b>Reason (R):</b> Adhesion (union of unlike parts) is shown by a line drawn above the symbols of the concerned floral parts.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -6112,7 +6112,7 @@ const allQuestions = [
 {
   id: 471,
   topic: "Solanaceae",
-  q: "<b>Assertion (A):</b> In Solanaceae, the gynoecium is described as obliquely placed.<br><b>Reason (R):</b> The two carpels in Solanaceae are not placed in the normal anterior-posterior position but at an oblique angle.",
+  q: "<b>Assertion (A):</b> In Solanaceae, the gynoecium is described as obliquely placed.<br><br><b>Reason (R):</b> The two carpels in Solanaceae are not placed in the normal anterior-posterior position but at an oblique angle.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -6190,7 +6190,7 @@ const allQuestions = [
 {
   id: 477,
   topic: "Solanaceae",
-  q: "<b>Assertion (A):</b> Ashwagandha is obtained from the Solanaceae family.<br><b>Reason (R):</b> Solanaceae members provide many medicinal plants.",
+  q: "<b>Assertion (A):</b> Ashwagandha is obtained from the Solanaceae family.<br><br><b>Reason (R):</b> Solanaceae members provide many medicinal plants.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -6359,7 +6359,7 @@ const allQuestions = [
 {
   id: 490,
   topic: "Summary",
-  q: "<b>Assertion (A):</b> Semi-technical descriptions of families help in classification and identification of flowering plants.<br><b>Reason (R):</b> Floral characteristics form the basis of classification of flowering plants.",
+  q: "<b>Assertion (A):</b> Semi-technical descriptions of families help in classification and identification of flowering plants.<br><br><b>Reason (R):</b> Floral characteristics form the basis of classification of flowering plants.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
@@ -6437,7 +6437,7 @@ const allQuestions = [
 {
   id: 496,
   topic: "Summary",
-  q: "<b>Assertion (A):</b> The root system is either tap root or fibrous.<br><b>Reason (R):</b> Tap roots are found in dicots and fibrous roots in monocots as a general rule.",
+  q: "<b>Assertion (A):</b> The root system is either tap root or fibrous.<br><br><b>Reason (R):</b> Tap roots are found in dicots and fibrous roots in monocots as a general rule.",
   options: [
     "Both A and R are true and R is the correct explanation of A",
     "Both A and R are true but R is NOT the correct explanation of A",
