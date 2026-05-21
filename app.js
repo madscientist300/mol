@@ -314,7 +314,7 @@ let timerInterval;
 function initQuiz() {
     const configStr = localStorage.getItem('activeQuizConfig');
     if (!configStr) {
-        window.location.href = 'dashboard.html';
+        window.location.href = 'index.html';
         return;
     }
     const config = JSON.parse(configStr);
