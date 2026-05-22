@@ -34,10 +34,10 @@
       </div>
 
       <nav class="nav-menu">
-        <div class="nav-item active"><i class="fa-solid fa-border-all"></i> Dashboard</div>
+        <div class="nav-item active" id="nav-dashboard"><i class="fa-solid fa-border-all"></i> Dashboard</div>
         <div class="nav-item"><a href="chapters.html" style="color: inherit; text-decoration: none;"><i class="fa-solid fa-book-open"></i> Chapters</a></div>
         <div class="nav-item"><i class="fa-solid fa-dumbbell"></i> Practice</div>
-        <div class="nav-item"><i class="fa-solid fa-bookmark"></i> Bookmarks</div>
+        <div class="nav-item" id="nav-bookmarks"><i class="fa-solid fa-bookmark"></i> Bookmarks</div>
         <div class="nav-item"><i class="fa-solid fa-chart-line"></i> Analytics</div>
         <div class="nav-item"><i class="fa-solid fa-rotate"></i> Revision Hub</div>
         <div class="nav-item"><i class="fa-solid fa-trophy"></i> Achievements</div>
@@ -64,6 +64,7 @@
             class="fa-solid fa-bars"></i></button>
       </header>
 
+      <div id="dashboard-view">
       <!-- Hero Section -->
       <section class="hero-section glass">
         <div class="hero-bg-gradient"></div>
@@ -133,6 +134,16 @@
 
       <div class="chapter-grid" id="chapter-grid-12th">
         <!-- Chapters will be dynamically injected here by app.js -->
+      </div>
+      </div> <!-- End dashboard-view -->
+
+      <div id="bookmarks-view" style="display: none; padding: 20px 0;">
+        <div class="section-header">
+          <h2>Your Bookmarked MCQs</h2>
+        </div>
+        <div id="bookmarks-container" style="display: flex; flex-direction: column; gap: 20px; padding-bottom: 40px;">
+          <!-- Bookmarks will be injected here -->
+        </div>
       </div>
 
       <!-- Topic Selection Modal (dynamically populated) -->

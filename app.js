@@ -171,6 +171,24 @@ function initDashboard() {
     if (grid12) grid12.innerHTML = '';
     if (oldGrid) oldGrid.innerHTML = '';
     
+    // Tab switching logic for Dashboard and Bookmarks
+    const navDashboard = document.getElementById('nav-dashboard');
+    const navBookmarks = document.getElementById('nav-bookmarks');
+    const dashboardView = document.getElementById('dashboard-view');
+    const bookmarksView = document.getElementById('bookmarks-view');
+    
+    if (navBookmarks && navDashboard && bookmarksView && dashboardView) {
+        navBookmarks.addEventListener('click', () => {
+            dashboardView.style.display = 'none';
+            bookmarksView.style.display = 'block';
+            renderBookmarks();
+        });
+        navDashboard.addEventListener('click', () => {
+            bookmarksView.style.display = 'none';
+            dashboardView.style.display = 'block';
+        });
+    }
+    
     CHAPTERS.forEach(chapter => {
         if (chapter.status !== 'available') return;
         
@@ -336,6 +354,86 @@ function initDashboard() {
     });
 }
 
+function renderBookmarks() {
+    const container = document.getElementById('bookmarks-container');
+    if (!container) return;
+    
+    const bookmarkedMCQs = JSON.parse(localStorage.getItem('bookmarked_mcqs') || '[]');
+    
+    if (bookmarkedMCQs.length === 0) {
+        container.innerHTML = '<div style="text-align: center; color: var(--text-secondary); padding: 40px;">No bookmarks yet. Start practicing and bookmark questions to see them here!</div>';
+        return;
+    }
+    
+    container.innerHTML = '';
+    bookmarkedMCQs.forEach((bookmark) => {
+        const q = bookmark.q;
+        const card = document.createElement('div');
+        card.className = 'question-card glass';
+        card.style.position = 'relative';
+        card.style.marginBottom = '20px';
+        
+        let qText = q.q;
+        if (qText.includes('Assertion') && qText.includes('Reason')) {
+            qText = `<div style="display: flex; flex-direction: column; gap: 12px;">
+                <div>${qText.replace(/(<br\s*\/?>)+/gi, '</div><div>')}</div>
+            </div>`;
+        }
+        
+        let optionsHtml = '';
+        const labels = ['A', 'B', 'C', 'D'];
+        q.options.forEach((opt, i) => {
+            const isCorrect = (i === q.correct);
+            optionsHtml += `
+                <div class="option ${isCorrect ? 'correct' : ''}" style="pointer-events: none;">
+                    <div class="option-label">${labels[i]}</div>
+                    <div class="option-text">${opt}</div>
+                </div>
+            `;
+        });
+        
+        let imageHtml = '';
+        if (q.image) {
+            imageHtml = `<div style="text-align: center; margin-top: 20px;">
+                <img src="${q.image}" alt="Question Image" style="max-width: 100%; max-height: 400px; border-radius: 8px;">
+            </div>`;
+        }
+        
+        card.innerHTML = `
+            <div class="question-header" style="flex-direction: column; gap: 12px; align-items: flex-start; margin-bottom: 20px;">
+                <div style="display: flex; justify-content: space-between; width: 100%; align-items: center;">
+                    <div style="display: flex; gap: 12px; align-items: center; flex-wrap: wrap;">
+                        <span style="background: rgba(139, 92, 246, 0.1); color: var(--accent-purple); padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 600; border: 1px solid rgba(139, 92, 246, 0.2);"><i class="fa-solid fa-book"></i> ${bookmark.chapterName}</span>
+                        <span style="background: rgba(0, 212, 255, 0.1); color: var(--accent-cyan); padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 600; border: 1px solid rgba(0, 212, 255, 0.2);">Topic: ${q.topic || 'General'}</span>
+                    </div>
+                    <button class="remove-bookmark-btn btn btn-secondary" style="padding: 6px 12px; font-size: 12px;" data-id="${bookmark.uniqueId}"><i class="fa-solid fa-trash"></i> Remove</button>
+                </div>
+            </div>
+            <h2 class="question-text" style="font-size: 18px; margin-bottom: 20px;">${qText}</h2>
+            ${imageHtml}
+            <div class="options-container answered" style="margin-top: 20px;">
+                ${optionsHtml}
+            </div>
+            <div style="margin-top: 20px; padding: 15px; background: rgba(0, 230, 118, 0.05); border-left: 4px solid var(--success-green); border-radius: 0 8px 8px 0;">
+                <h4 style="color: var(--success-green); margin-bottom: 8px;"><i class="fa-solid fa-lightbulb"></i> Explanation</h4>
+                <p style="color: var(--text-secondary); font-size: 14px; line-height: 1.6;">${q.explanation || "No explanation provided."}</p>
+            </div>
+        `;
+        
+        container.appendChild(card);
+    });
+    
+    document.querySelectorAll('.remove-bookmark-btn').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            const uniqueId = e.currentTarget.getAttribute('data-id');
+            let bookmarkedMCQs = JSON.parse(localStorage.getItem('bookmarked_mcqs') || '[]');
+            bookmarkedMCQs = bookmarkedMCQs.filter(b => b.uniqueId !== uniqueId);
+            localStorage.setItem('bookmarked_mcqs', JSON.stringify(bookmarkedMCQs));
+            renderBookmarks();
+        });
+    });
+}
+
 let quizQuestions = [];
 let currentQIndex = 0;
 let correctCount = 0;
@@ -433,7 +531,63 @@ function startQuizSession() {
         });
     }
     
+    document.querySelectorAll('.bookmark-btn').forEach(btn => {
+        btn.onclick = toggleBookmark;
+    });
+    
     renderQuestion();
+}
+
+function toggleBookmark() {
+    if (quizQuestions.length === 0) return;
+    const q = quizQuestions[currentQIndex];
+    
+    const configStr = localStorage.getItem('activeQuizConfig');
+    let chapterName = "Unknown";
+    if (configStr) {
+        chapterName = JSON.parse(configStr).chapterName;
+    }
+    
+    const uniqueId = chapterName + "_" + (q.id || q.q);
+    let bookmarkedMCQs = JSON.parse(localStorage.getItem('bookmarked_mcqs') || '[]');
+    
+    const existingIndex = bookmarkedMCQs.findIndex(b => b.uniqueId === uniqueId);
+    
+    if (existingIndex >= 0) {
+        bookmarkedMCQs.splice(existingIndex, 1);
+    } else {
+        bookmarkedMCQs.push({
+            uniqueId: uniqueId,
+            chapterName: chapterName,
+            q: q
+        });
+    }
+    localStorage.setItem('bookmarked_mcqs', JSON.stringify(bookmarkedMCQs));
+    updateBookmarkIcon();
+}
+
+function updateBookmarkIcon() {
+    if (quizQuestions.length === 0) return;
+    const q = quizQuestions[currentQIndex];
+    const configStr = localStorage.getItem('activeQuizConfig');
+    let chapterName = "Unknown";
+    if (configStr) {
+        chapterName = JSON.parse(configStr).chapterName;
+    }
+    const uniqueId = chapterName + "_" + (q.id || q.q);
+    let bookmarkedMCQs = JSON.parse(localStorage.getItem('bookmarked_mcqs') || '[]');
+    const isBookmarked = bookmarkedMCQs.some(b => b.uniqueId === uniqueId);
+    
+    const iconClass = isBookmarked ? "fa-solid fa-bookmark" : "fa-regular fa-bookmark";
+    
+    document.querySelectorAll('.bookmark-btn i').forEach(icon => {
+        icon.className = iconClass;
+        if (isBookmarked) {
+            icon.style.color = "var(--accent-cyan)";
+        } else {
+            icon.style.color = "";
+        }
+    });
 }
 
 function renderQuestionNavigator() {
@@ -647,6 +801,8 @@ function renderQuestion() {
     }
     
     document.getElementById('prev-btn').disabled = currentQIndex === 0;
+    
+    updateBookmarkIcon();
 }
 
 function showExplanation(isCorrect, q, correctLabel) {
