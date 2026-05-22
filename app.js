@@ -546,7 +546,13 @@ function renderQuestion() {
     if (quizQuestions.length === 0) return;
     
     const q = quizQuestions[currentQIndex];
-    document.getElementById('q-text').innerHTML = q.q;
+    let qText = q.q;
+    if (qText.includes('Assertion') && qText.includes('Reason')) {
+        qText = `<div style="display: flex; flex-direction: column; gap: 12px;">
+            <div>${qText.replace(/(<br\s*\/?>)+/gi, '</div><div>')}</div>
+        </div>`;
+    }
+    document.getElementById('q-text').innerHTML = qText;
     document.getElementById('q-topic').textContent = "Topic: " + (q.topic || 'General');
     
     const imgContainer = document.getElementById('q-image-container');
@@ -598,13 +604,15 @@ function renderQuestion() {
                 q.userStatus = 'correct';
                 optDiv.classList.add('correct');
                 correctCount++;
-                document.getElementById('stat-correct').textContent = correctCount;
+                const correctEl = document.getElementById('stat-correct');
+                if (correctEl) correctEl.textContent = correctCount;
                 showExplanation(true, q, labels[q.correct]);
             } else {
                 q.userStatus = 'wrong';
                 optDiv.classList.add('wrong');
                 wrongCount++;
-                document.getElementById('stat-wrong').textContent = wrongCount;
+                const wrongEl = document.getElementById('stat-wrong');
+                if (wrongEl) wrongEl.textContent = wrongCount;
                 
                 // highlight correct one
                 if (optionsContainer.children[q.correct]) {
@@ -622,10 +630,7 @@ function renderQuestion() {
     }
     
     // Update progress
-    document.getElementById('progress-label').textContent = `Question ${currentQIndex + 1} of ${quizQuestions.length}`;
-    const percent = Math.round(((currentQIndex + 1) / quizQuestions.length) * 100);
-    document.getElementById('progress-percent').textContent = `${percent}% Completed`;
-    document.getElementById('progress-bar-fill').style.width = `${percent}%`;
+    document.getElementById('progress-label').textContent = `${currentQIndex + 1}/${quizQuestions.length}`;
 
     // Change Next button to Finish on last question
     const nextBtn = document.getElementById('next-btn');

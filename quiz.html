@@ -11,48 +11,26 @@
 
   <div class="quiz-layout">
     <!-- Top Navbar -->
-    <header class="top-navbar">
-      <div style="display: flex; align-items: center; gap: 16px;">
-        <a href="index.html" class="btn btn-secondary" style="padding: 8px 16px; border-radius: 50%; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center;"><i class="fa-solid fa-arrow-left"></i></a>
-        <h2 style="font-size: 18px;" id="quiz-chapter-title">Loading Chapter...</h2>
-      </div>
 
-      <div class="quiz-stats">
-        <div class="stat-badge timer" id="elapsed-timer">
-          <i class="fa-solid fa-clock"></i> 00:00
-        </div>
-        <div class="stat-badge correct">
-          <i class="fa-solid fa-check"></i> <span id="stat-correct">0</span>
-        </div>
-        <div class="stat-badge wrong">
-          <i class="fa-solid fa-xmark"></i> <span id="stat-wrong">0</span>
-        </div>
-        <button class="btn btn-secondary" style="padding: 8px 16px;" id="grid-btn"><i class="fa-solid fa-table-cells"></i></button>
-        <button class="btn btn-secondary" style="padding: 8px 16px;" id="pause-btn"><i class="fa-solid fa-pause"></i></button>
-      </div>
-    </header>
 
     <!-- Quiz Container -->
     <main class="quiz-container" id="quiz-container">
       
-      <!-- Progress -->
-      <div class="progress-section">
-        <div class="progress-header">
-          <span id="progress-label">Question 1 of X</span>
-          <span id="progress-percent" style="color: var(--accent-cyan);">0% Completed</span>
-        </div>
-        <div class="progress-bar-bg">
-          <div class="progress-bar-fill" id="progress-bar-fill" style="width: 0%;"></div>
-        </div>
-      </div>
+
 
       <!-- Question Card -->
       <div class="question-card glass">
-        <div class="question-header">
-          <div style="display: flex; gap: 12px; align-items: center;">
-            <span style="background: rgba(0, 212, 255, 0.1); color: var(--accent-cyan); padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 600; border: 1px solid rgba(0, 212, 255, 0.2);" id="q-topic">Topic: Loading...</span>
+        <div class="question-header" style="flex-direction: column; gap: 12px; align-items: flex-start;">
+          <div style="display: flex; align-items: center; gap: 12px; width: 100%;">
+            <a href="index.html" class="btn btn-secondary" style="padding: 6px; border-radius: 50%; width: 32px; height: 32px; display: flex; align-items: center; justify-content: center;"><i class="fa-solid fa-arrow-left" style="font-size: 14px;"></i></a>
+            <h2 style="font-size: 18px; color: var(--text-primary); margin: 0;" id="quiz-chapter-title">Loading Chapter...</h2>
           </div>
-          <button class="bookmark-btn" id="bookmark-btn"><i class="fa-regular fa-bookmark"></i></button>
+          <div style="display: flex; justify-content: space-between; width: 100%; align-items: center;">
+            <div style="display: flex; gap: 12px; align-items: center;">
+              <span style="background: rgba(0, 212, 255, 0.1); color: var(--accent-cyan); padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 600; border: 1px solid rgba(0, 212, 255, 0.2);" id="q-topic">Topic: Loading...</span>
+            </div>
+            <button class="bookmark-btn desktop-bookmark-btn" id="bookmark-btn"><i class="fa-regular fa-bookmark"></i></button>
+          </div>
         </div>
         
         <h2 class="question-text" id="q-text">Loading Question...</h2>
@@ -159,8 +137,24 @@
 
     <!-- Bottom Action Bar -->
     <footer class="bottom-action-bar">
-      <button id="prev-btn" class="btn btn-secondary"><i class="fa-solid fa-chevron-left"></i> Previous</button>
-      <button id="next-btn" class="btn btn-primary">Save &amp; Next <i class="fa-solid fa-chevron-right"></i></button>
+      <div style="display: flex; justify-content: space-between; align-items: center; width: 100%; max-width: 800px; margin: 0 auto;">
+        <button id="prev-btn" class="btn btn-secondary"><i class="fa-solid fa-chevron-left"></i> Previous</button>
+        
+        <div class="quiz-stats" style="display: flex; gap: 12px; align-items: center;">
+          <div class="stat-badge" style="padding: 6px 12px; font-size: 14px; color: var(--text-secondary);">
+            <span id="progress-label">1/X</span>
+          </div>
+          <div class="floating-timer-container" style="display: flex; gap: 12px; align-items: center;">
+            <div class="stat-badge timer" id="elapsed-timer" style="padding: 6px 12px; font-size: 14px;">
+              <i class="fa-solid fa-clock"></i> 00:00
+            </div>
+            <button class="bookmark-btn mobile-bookmark-btn" style="display: none;"><i class="fa-regular fa-bookmark"></i></button>
+          </div>
+          <button class="btn btn-secondary" style="padding: 6px 12px;" id="grid-btn"><i class="fa-solid fa-table-cells"></i></button>
+        </div>
+
+        <button id="next-btn" class="btn btn-primary">Save &amp; Next <i class="fa-solid fa-chevron-right"></i></button>
+      </div>
     </footer>
   </div>
 

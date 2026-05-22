@@ -1168,11 +1168,59 @@ ul {
 
   /* Bottom action bar - proper padding so buttons don't hug the screen edges */
   .bottom-action-bar {
-    padding: 12px 20px;
-    justify-content: space-between;
-    gap: 12px;
+    padding: 12px 10px;
+    justify-content: center;
+    gap: 8px;
   }
-  .bottom-action-bar .btn { padding: 10px 20px; font-size: 13px; flex: 1; justify-content: center; }
+  .bottom-action-bar .btn { padding: 10px 12px; font-size: 13px; flex: none; justify-content: center; white-space: nowrap; }
+
+  .stat-badge.timer {
+    padding: 6px 12px !important;
+    margin: 0;
+  }
+
+  .floating-timer-container {
+    position: fixed !important;
+    bottom: 72px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    background: rgba(15, 23, 42, 0.75);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(0, 212, 255, 0.3);
+    box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.3), 0 0 10px rgba(0, 212, 255, 0.1);
+    z-index: 101;
+    border-radius: 20px;
+    padding: 4px;
+  }
+
+  .desktop-bookmark-btn {
+    display: none !important;
+  }
+
+  .mobile-bookmark-btn {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: none;
+    color: var(--text-secondary);
+    font-size: 18px;
+    padding: 4px 10px;
+    border-radius: 16px;
+    cursor: pointer;
+  }
+
+  .mobile-bookmark-btn:hover {
+    color: var(--warning-amber);
+  }
+
+  .hide-on-mobile {
+    display: none !important;
+  }
 }
 
 /* Topic Selection Modal */
