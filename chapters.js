@@ -161,8 +161,8 @@ const CHAPTERS = [
         emoji: "🧬",
         name: "Molecular Basis of Inheritance",
         file: "questions_molecular_basis.js",
-        questionCount: 500,
-        topics: ["Introduction", "The DNA", "Polynucleotide Structure", "DNA Double Helix", "Packaging of DNA", "Griffith's Experiment", "Avery et al. Experiment", "Hershey-Chase Experiment", "Properties of Genetic Material", "RNA World", "DNA Replication", "Transcription", "Genetic Code", "Mutations", "tRNA", "Translation", "Gene Regulation", "Lac Operon", "Human Genome Project", "DNA Fingerprinting", "Chapter Summary", "Gene", "Comprehensive"],
+        questionCount: 879,
+        topics: ["Introduction", "The DNA", "Polynucleotide Structure", "DNA Double Helix", "Packaging of DNA", "Griffith's Experiment", "Avery et al. Experiment", "Hershey-Chase Experiment", "Properties of Genetic Material", "RNA World", "DNA Replication", "Transcription", "Genetic Code", "Mutations", "tRNA", "Translation", "Gene Regulation", "Lac Operon", "Human Genome Project", "DNA Fingerprinting", "Chapter Summary", "Gene", "Comprehensive", "HOTs"],
         status: "available"
     },
     {
