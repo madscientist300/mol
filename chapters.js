@@ -172,8 +172,8 @@ const CHAPTERS = [
         emoji: "🦠",
         name: "Microbes in Human Welfare",
         file: "questions_microbes.js",
-        questionCount: 276,
-        topics: ["Introduction", "Microbes in Household Products", "Microbes in Industrial Products – Beverages", "Antibiotics", "Chemicals, Enzymes and Other Bioactive Molecules", "Microbes in Sewage Treatment", "Microbes in Production of Biogas", "Microbes as Biocontrol Agents", "Microbes as Biofertilisers", "Chapter Summary – Comprehensive Revision"],
+        questionCount: 423,
+        topics: ["Introduction", "Microbes in Household Products", "Microbes in Industrial Products – Beverages", "Antibiotics", "Chemicals, Enzymes and Other Bioactive Molecules", "Microbes in Sewage Treatment", "Microbes in Production of Biogas", "Microbes as Biocontrol Agents", "Microbes as Biofertilisers", "HOTs", "Chapter Summary – Comprehensive Revision"],
         status: "available"
     },
     {
