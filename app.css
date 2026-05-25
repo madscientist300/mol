@@ -718,7 +718,7 @@ ul {
 }
 
 .question-text {
-  font-size: 24px;
+  font-size: 21px;
   font-family: var(--font-heading);
   line-height: 1.5;
   color: #CBD5E1; /* Softer off-white to reduce glare */
@@ -775,6 +775,24 @@ ul {
   flex: 1;
   color: #CBD5E1;
   font-weight: 400;
+}
+
+.option-text img.option-img {
+  max-height: 140px;
+  max-width: 100%;
+  border-radius: var(--radius-sm);
+  display: block;
+  margin: 6px 0;
+  object-fit: contain;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 8px;
+  border: 1px solid var(--border-light);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  transition: transform 0.2s ease;
+}
+
+.option:hover .option-text img.option-img {
+  transform: scale(1.02);
 }
 
 .option:hover {

@@ -383,11 +383,15 @@ function renderBookmarks() {
         let optionsHtml = '';
         const labels = ['A', 'B', 'C', 'D'];
         q.options.forEach((opt, i) => {
+            const isImg = opt.trim().startsWith('images/') || /\.(png|jpe?g|gif|svg|webp)$/i.test(opt);
+            const contentHtml = isImg 
+                ? `<img src="${opt}" class="option-img" alt="Option ${labels[i]}">`
+                : opt;
             const isCorrect = (i === q.correct);
             optionsHtml += `
                 <div class="option ${isCorrect ? 'correct' : ''}" style="pointer-events: none;">
                     <div class="option-label">${labels[i]}</div>
-                    <div class="option-text">${opt}</div>
+                    <div class="option-text">${contentHtml}</div>
                 </div>
             `;
         });
@@ -729,11 +733,16 @@ function renderQuestion() {
     
     const labels = ['A', 'B', 'C', 'D'];
     q.options.forEach((optText, index) => {
+        const isImg = optText.trim().startsWith('images/') || /\.(png|jpe?g|gif|svg|webp)$/i.test(optText);
+        const contentHtml = isImg 
+            ? `<img src="${optText}" class="option-img" alt="Option ${labels[index]}">`
+            : optText;
+
         const optDiv = document.createElement('div');
         optDiv.className = 'option';
         optDiv.innerHTML = `
             <div class="option-label">${labels[index]}</div>
-            <div class="option-text">${optText}</div>
+            <div class="option-text">${contentHtml}</div>
         `;
         
         // Restore state if already answered

@@ -1467,6 +1467,7 @@ var allQuestions = [
         id: 530,
         topic: "HOTs",
         hots: true,
+        image: "images/mol_basis/ID 530.jpg",
         q: "If the antisense strand of DNA with 3'->5' polarity has the following sequence, find the base sequence in mRNA of E. coli:<br><b>3' TAC CCG ACG ATC 5'</b>",
         options: [
             "5' UAC CCG ACG AUC 3'",
@@ -1889,10 +1890,10 @@ var allQuestions = [
         hots: true,
         q: "Which option is correct with respect to the formation of a replication fork during DNA replication?",
         options: [
-            "Diagram showing leading 5'->3' synthesis and lagging 3'->5' synthesis",
-            "Diagram showing both strands synthesized in 3'->5' direction",
-            "Diagram showing continuous synthesis on 3'->5' template and discontinuous on 5'->3' template",
-            "Diagram showing continuous synthesis on 5'->3' template and discontinuous on 3'->5' template"
+            "images/mol_basis/ID 558 OPTION 1.jpg",
+            "images/mol_basis/ID 558 OPTION 2.jpg",
+            "images/mol_basis/ID 558 OPTION 3.jpg",
+            "images/mol_basis/ID 558 OPTION 4.jpg"
         ],
         correct: 2,
         explanation: "DNA polymerase synthesizes DNA only in the 5'->3' direction. Therefore, synthesis is continuous on the 3'->5' template strand (leading strand) and discontinuous on the 5'->3' template strand (lagging strand)."
@@ -2652,6 +2653,7 @@ var allQuestions = [
         id: 609,
         topic: "HOTs",
         hots: true,
+        image: "images/mol_basis/ID 609.jpg",
         q: "Identify the enzymes of the Lac operon labeled as A, B, and C in the given diagram of the lac operon:",
         options: [
             "A-Permease, B-Transacetylase, C- β-galactosidase",
@@ -3147,7 +3149,8 @@ var allQuestions = [
         id: 642,
         topic: "HOTs",
         hots: true,
-        q: "Find out the correct statement w.r.t. translation in bacteria",
+        image: "images/mol_basis/id 642.jpg",
+        q: "Find out the correct statement w.r.t. diagram representing translation in bacteria",
         options: [
             "Last peptide bond formation takes place between glycine and leucine.",
             "Ribosome moves from codon to codon along the mRNA",
@@ -3597,6 +3600,7 @@ var allQuestions = [
         id: 672,
         topic: "HOTs",
         hots: true,
+        image: "images/mol_basis/ID 672.jpg",
         q: "The diagram represents a nucleosome. Choose the correct combination of labelling A, B, C.<br>*(Assume A wraps the core, B is the linker histone, C is the core)*",
         options: [
             "A - H1 histone, B - DNA, C - Core",
@@ -3987,6 +3991,7 @@ var allQuestions = [
         id: 698,
         topic: "HOTs",
         hots: true,
+        image: "images/mol_basis/ID 698.jpg",
         q: "The base sequence on RNA that can be made from the following DNA molecule is<br><b>3' G C T A A C G A T C 5'</b><br><b>5' C G A T T G C T A G 3'</b>",
         options: [
             "5' CGAUUGCUAG 3'",
@@ -5412,6 +5417,7 @@ var allQuestions = [
         id: 793,
         topic: "HOTs",
         hots: true,
+        image: "images/mol_basis/ID 793.jpg",
         q: "In the given transcription unit, what does A, B and C represent respectively?<br><b>(C is upstream 5' of coding strand, A is downstream 3' of coding strand, B is the 3'→5' top strand)</b>",
         options: [
             "Terminator, Non-template, Promoter",
@@ -5427,6 +5433,7 @@ var allQuestions = [
         id: 794,
         topic: "HOTs",
         hots: true,
+        image: "images/mol_basis/ID 794.jpg",
         q: "The figure given below is a diagrammatic representation of lac operon. What does A, B, C and D represent?<br><b>(A binds repressor to inactivate it, B translates to β-galactosidase, C translates to permease, D translates to transacetylase)</b>",
         options: [
             "A-Inducer; B-lac y; C-Permease; D - lac z",
@@ -5742,6 +5749,7 @@ var allQuestions = [
         id: 815,
         topic: "HOTs",
         hots: true,
+        image: "images/mol_basis/ID 815.jpg",
         q: "Consider the nucleosome diagram with parts A, B, and C. (Assume A is H1 histone, B is Histone octamer core, C is DNA wrapped around).<br>a. Part marked as (B) has five types of histone proteins.<br>b. Part marked as (A) is rich in basic amino acid residues.<br>c. Part marked as (C) is made up of 400 nucleotides.<br>Which of the above given statement(s) is/are incorrect?",
         options: [
             "a, c",
@@ -5757,6 +5765,7 @@ var allQuestions = [
         id: 816,
         topic: "HOTs",
         hots: true,
+        image: "images/mol_basis/ID 816.jpg",
         q: "Select the correct option with respect to the given transcription unit figure.<br>(A = upstream box, B = downstream box, C = 5'→3' bottom strand)",
         options: [
             "Part (B): End of the process of translation",
@@ -5834,10 +5843,10 @@ var allQuestions = [
         hots: true,
         q: "In the elongation process of translation, tryptophan is brought to the A-site of the ribosome by which tRNA molecule?",
         options: [
-            "UAC",
-            "CUC",
-            "CAC",
-            "ACC"
+            "images/mol_basis/ID 821 OPTION 1.jpg",
+            "images/mol_basis/ID 821 OPTION 2.jpg",
+            "images/mol_basis/ID 821 OPTION 3.jpg",
+            "images/mol_basis/ID 821 OPTION 4.jpg"
         ],
         correct: 3,
         explanation: "Anticodon ACC (tRNA) binds with codon UGG (mRNA) that codes for tryptophan."
@@ -5997,6 +6006,7 @@ var allQuestions = [
         id: 832,
         topic: "HOTs",
         hots: true,
+        image: "images/mol_basis/ID 832.jpg",
         q: "Consider the given diagram of tRNA and select the right choice w.r.t. amino acid.<br><b>tRNA 'A' has anticodon ACC (binding to mRNA UGG). tRNA 'B' has anticodon UAC (binding to mRNA AUG).</b>",
         options: [
             "(A) Trp, (B) Met",
@@ -6147,6 +6157,7 @@ var allQuestions = [
         id: 842,
         topic: "HOTs",
         hots: true,
+        image: "images/mol_basis/ID 842.jpg",
         q: "A diagram shows a DNA double helix being unwound, an RNA transcript separating from it, and a Rho (ρ) factor nearby. Identify this stage of gene expression.",
         options: [
             "Termination of translation process in bacteria",
