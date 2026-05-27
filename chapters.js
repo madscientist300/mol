@@ -183,8 +183,8 @@ const CHAPTERS = [
         emoji: "🐾",
         name: "Organisms and Populations",
         file: "questions_organisms_populations.js",
-        questionCount: 370,
-        topics: ["Habitat", "Niche", "Biome", "Population Attributes", "Interactions", "Introduction - Organisms and Population", "Populations - Population Attributes", "Population Growth", "Growth Models", "Life History Variation", "Population Interactions", "Predation", "Competition", "Parasitism", "Commensalism", "Mutualism", "Summary - Revision"],
+        questionCount: 527,
+        topics: ["Habitat", "Niche", "Biome", "Population Attributes", "Interactions", "Introduction - Organisms and Population", "Populations - Population Attributes", "Population Growth", "Growth Models", "Life History Variation", "Population Interactions", "Predation", "Competition", "Parasitism", "Commensalism", "Mutualism", "Summary - Revision", "HOTs"],
         status: "available"
     },
     {

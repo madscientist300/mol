@@ -4078,6 +4078,7 @@ var allQuestions = [
     "difficulty": "Medium",
     "type": "Diagram",
     "hots": true,
+    "image": "images/microbes/id 321.png",
     "q": "Observe the given diagram of a biogas plant and name the labelled parts <b>A, B and C</b>.",
     "options": ["A-Aerobic digester, B-Gas, C-Dung water", "A-Anaerobic digester, B-Gas holder, C-Dung water", "A-Gobar gas plant, B-Anaerobic digester, C-Dung water", "A-Anaerobic digester, B-Gas, C-Aerobic digester"],
     "correct": 1,
