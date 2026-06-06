@@ -1,16 +1,15 @@
-// ===== CHAPTER: Cell Cycle and Cell Division =====
+﻿// ===== CHAPTER: Cell Cycle and Cell Division =====
 var allQuestions = [
 {
   id: 1,
   topic: "Cell Cycle",
   q: "Which of the following is the correct sequence of events in a cell cycle?",
   options: [
-    "Cell division → DNA replication → Cell growth",
-    "DNA replication → Cell growth → Cell division",
-    "Cell growth → DNA replication → Cell division",
-    "Cell growth → Cell division → DNA replication"
-  ],
-  correct: 2,
+      "Cell growth → DNA replication → Cell division",
+      "DNA replication → Cell growth → Cell division",
+      "Cell division → DNA replication → Cell growth",
+      "Cell growth → Cell division → DNA replication"
+    ], correct: 0,
   explanation: "In a cell cycle, the cell first grows (G1), then replicates its DNA (S phase), continues preparation (G2), and finally divides (M phase). So the correct sequence is cell growth → DNA replication → cell division."
 },
 {
@@ -18,12 +17,11 @@ var allQuestions = [
   topic: "Cell Cycle",
   q: "The cell cycle is defined as the sequence of events by which a cell:<br>(i) Duplicates its genome<br>(ii) Synthesises other constituents<br>(iii) Eventually divides into two daughter cells<br><br>Which of the above is/are correct?",
   options: [
-    "Only (i) and (iii)",
-    "Only (i) and (ii)",
-    "Only (ii) and (iii)",
-    "All — (i), (ii) and (iii)"
-  ],
-  correct: 3,
+      "Only (i) and (iii)",
+      "All — (i), (ii) and (iii)",
+      "Only (ii) and (iii)",
+      "Only (i) and (ii)"
+    ], correct: 1,
   explanation: "As per NCERT, the cell cycle involves duplication of the genome, synthesis of other cell constituents, and eventual division into two daughter cells. All three are part of the definition."
 },
 {
@@ -31,12 +29,11 @@ var allQuestions = [
   topic: "Cell Cycle",
   q: "Which of the following statements is <b>incorrect</b> regarding the cell cycle?",
   options: [
-    "DNA synthesis occurs throughout the cell cycle",
-    "Cell growth in terms of cytoplasmic increase is a continuous process",
-    "Events of cell division are under genetic control",
-    "Replicated chromosomes are distributed by a complex series of events"
-  ],
-  correct: 0,
+      "Events of cell division are under genetic control",
+      "Cell growth in terms of cytoplasmic increase is a continuous process",
+      "DNA synthesis occurs throughout the cell cycle",
+      "Replicated chromosomes are distributed by a complex series of events"
+    ], correct: 2,
   explanation: "DNA synthesis does NOT occur throughout the cell cycle. It occurs only during one specific stage — the S phase. Cell growth (cytoplasmic increase) is continuous, but DNA synthesis is restricted to S phase."
 },
 {
@@ -70,12 +67,11 @@ var allQuestions = [
   topic: "Cell Cycle",
   q: "Which of the following best describes why cell division, DNA replication, and cell growth must be coordinated?",
   options: [
-    "To ensure faster cell division",
-    "To ensure correct division and formation of progeny cells containing intact genomes",
-    "To reduce the duration of the cell cycle",
-    "To ensure that cytoplasmic growth stops during DNA replication"
-  ],
-  correct: 1,
+      "To ensure faster cell division",
+      "To ensure that cytoplasmic growth stops during DNA replication",
+      "To reduce the duration of the cell cycle",
+      "To ensure correct division and formation of progeny cells containing intact genomes"
+    ], correct: 3,
   explanation: "NCERT specifically states that coordination of these processes is needed to ensure correct division and formation of progeny cells containing intact genomes."
 },
 {
@@ -83,12 +79,11 @@ var allQuestions = [
   topic: "Cell Cycle",
   q: "A student states: 'Growth and reproduction are characteristics of cells, but not of all living organisms.' This statement is:",
   options: [
-    "Correct, as some organisms do not grow",
-    "Correct, as unicellular organisms do not reproduce",
-    "Incorrect, as growth and reproduction are characteristics of all living organisms",
-    "Incorrect, as only multicellular organisms show growth"
-  ],
-  correct: 2,
+      "Incorrect, as growth and reproduction are characteristics of all living organisms",
+      "Correct, as unicellular organisms do not reproduce",
+      "Correct, as some organisms do not grow",
+      "Incorrect, as only multicellular organisms show growth"
+    ], correct: 0,
   explanation: "As per NCERT, growth and reproduction are characteristics of cells, indeed of ALL living organisms. The student's statement is therefore incorrect."
 },
 {
@@ -135,12 +130,11 @@ var allQuestions = [
   topic: "Cell Cycle",
   q: "A new cell population formed by growth and division of a single parental cell and its progeny demonstrates which fundamental property of life?",
   options: [
-    "Metabolism only",
-    "Growth and reproduction",
-    "Homeostasis",
-    "Adaptation"
-  ],
-  correct: 1,
+      "Metabolism only",
+      "Adaptation",
+      "Homeostasis",
+      "Growth and reproduction"
+    ], correct: 3,
   explanation: "The formation of a cell population from a single cell through cycles of growth and division exemplifies the fundamental properties of growth and reproduction."
 },
 {
@@ -148,12 +142,11 @@ var allQuestions = [
   topic: "Cell Cycle",
   q: "The distribution of replicated chromosomes to daughter nuclei involves:",
   options: [
-    "A simple passive process",
-    "Random segregation without any control",
-    "A complex series of events under genetic control",
-    "Only cytokinesis"
-  ],
-  correct: 2,
+      "A complex series of events under genetic control",
+      "Random segregation without any control",
+      "A simple passive process",
+      "Only cytokinesis"
+    ], correct: 0,
   explanation: "NCERT states that replicated chromosomes are distributed to daughter nuclei by a complex series of events during cell division, and these events are themselves under genetic control."
 },
 {
@@ -161,12 +154,11 @@ var allQuestions = [
   topic: "Phases of Cell Cycle",
   q: "A typical human cell in culture divides once in approximately every 24 hours. Out of this, cell division proper (M phase) lasts for about:",
   options: [
-    "12 hours",
-    "6 hours",
-    "1 hour",
-    "30 minutes"
-  ],
-  correct: 2,
+      "12 hours",
+      "1 hour",
+      "6 hours",
+      "30 minutes"
+    ], correct: 1,
   explanation: "NCERT states that in the 24-hour average duration of cell cycle of a human cell, cell division proper lasts for only about an hour. The interphase lasts more than 95% of the duration."
 },
 {
@@ -200,12 +192,11 @@ var allQuestions = [
   topic: "Phases of Cell Cycle",
   q: "Yeast can progress through the cell cycle in about:",
   options: [
-    "24 hours",
-    "12 hours",
-    "90 minutes",
-    "45 minutes"
-  ],
-  correct: 2,
+      "24 hours",
+      "12 hours",
+      "45 minutes",
+      "90 minutes"
+    ], correct: 3,
   explanation: "NCERT mentions that yeast can progress through the cell cycle in only about 90 minutes, in contrast to approximately 24 hours for human cells in culture."
 },
 {
@@ -213,12 +204,11 @@ var allQuestions = [
   topic: "Phases of Cell Cycle",
   q: "The M phase of the cell cycle starts with ______ and usually ends with ______.",
   options: [
-    "Cytokinesis; Karyokinesis",
-    "Karyokinesis; Cytokinesis",
-    "DNA replication; Cytokinesis",
-    "G2 phase; G1 phase"
-  ],
-  correct: 1,
+      "Karyokinesis; Cytokinesis",
+      "Cytokinesis; Karyokinesis",
+      "DNA replication; Cytokinesis",
+      "G2 phase; G1 phase"
+    ], correct: 0,
   explanation: "NCERT clearly states that M phase starts with nuclear division (karyokinesis) and usually ends with division of cytoplasm (cytokinesis)."
 },
 {
@@ -265,12 +255,11 @@ var allQuestions = [
   topic: "Phases of Cell Cycle",
   q: "G1 phase corresponds to the interval between:",
   options: [
-    "S phase and G2 phase",
-    "G2 phase and mitosis",
-    "Mitosis and initiation of DNA replication",
-    "Two successive S phases"
-  ],
-  correct: 2,
+      "S phase and G2 phase",
+      "G2 phase and mitosis",
+      "Two successive S phases",
+      "Mitosis and initiation of DNA replication"
+    ], correct: 3,
   explanation: "NCERT defines G1 phase as the interval between mitosis and initiation of DNA replication."
 },
 {
@@ -304,12 +293,11 @@ var allQuestions = [
   topic: "Phases of Cell Cycle",
   q: "During G2 phase, which of the following events take place?<br>(a) Proteins are synthesised in preparation for mitosis<br>(b) Cell growth continues<br>(c) DNA replication takes place<br>(d) Centriole duplicates",
   options: [
-    "Only (a) and (b)",
-    "Only (c) and (d)",
-    "Only (a), (b) and (c)",
-    "All of the above"
-  ],
-  correct: 0,
+      "Only (a), (b) and (c)",
+      "Only (c) and (d)",
+      "Only (a) and (b)",
+      "All of the above"
+    ], correct: 2,
   explanation: "During G2 phase, proteins are synthesised in preparation for mitosis while cell growth continues. DNA replication and centriole duplication occur during S phase, not G2."
 },
 {
@@ -317,12 +305,11 @@ var allQuestions = [
   topic: "Phases of Cell Cycle",
   q: "Cells that do not divide further exit G1 phase to enter:",
   options: [
-    "S phase",
-    "G2 phase",
-    "Quiescent stage (G0)",
-    "M phase"
-  ],
-  correct: 2,
+      "S phase",
+      "G2 phase",
+      "M phase",
+      "Quiescent stage (G0)"
+    ], correct: 3,
   explanation: "NCERT states that cells which do not divide further exit G1 phase to enter an inactive stage called quiescent stage (G0) of the cell cycle."
 },
 {
@@ -330,12 +317,11 @@ var allQuestions = [
   topic: "Phases of Cell Cycle",
   q: "Which of the following is <b>true</b> about cells in the G0 (quiescent) stage?",
   options: [
-    "They are metabolically inactive",
-    "They are metabolically active but no longer proliferate unless required",
-    "They are dead cells",
-    "They are actively dividing cells"
-  ],
-  correct: 1,
+      "They are metabolically active but no longer proliferate unless required",
+      "They are metabolically inactive",
+      "They are dead cells",
+      "They are actively dividing cells"
+    ], correct: 0,
   explanation: "NCERT clearly states that cells in G0 remain metabolically active but no longer proliferate unless called on to do so depending on the requirement of the organism. A common trap is to think G0 cells are metabolically inactive."
 },
 {
@@ -369,12 +355,11 @@ var allQuestions = [
   topic: "Phases of Cell Cycle",
   q: "Which of the following is an exception where haploid cells divide by mitosis in animals?",
   options: [
-    "Female honey bees",
-    "Male honey bees",
-    "Human RBCs",
-    "Human WBCs"
-  ],
-  correct: 1,
+      "Female honey bees",
+      "Human RBCs",
+      "Male honey bees",
+      "Human WBCs"
+    ], correct: 2,
   explanation: "NCERT mentions male honey bees as an exception where haploid cells divide by mitosis in animals. Male honey bees (drones) develop from unfertilized haploid eggs."
 },
 {
@@ -382,12 +367,11 @@ var allQuestions = [
   topic: "Phases of Cell Cycle",
   q: "In plants, mitotic divisions can occur in:",
   options: [
-    "Only diploid cells",
-    "Only haploid cells",
-    "Both haploid and diploid cells",
-    "Neither haploid nor diploid cells"
-  ],
-  correct: 2,
+      "Only diploid cells",
+      "Only haploid cells",
+      "Neither haploid nor diploid cells",
+      "Both haploid and diploid cells"
+    ], correct: 3,
   explanation: "NCERT states that plants can show mitotic divisions in both haploid and diploid cells. This is in contrast to animals where mitosis generally occurs only in diploid somatic cells."
 },
 {
@@ -395,12 +379,11 @@ var allQuestions = [
   topic: "Phases of Cell Cycle",
   q: "Mitosis is also called equational division because:",
   options: [
-    "The cell size remains equal",
-    "The number of chromosomes in parent and progeny cells is the same",
-    "The cytoplasm is equally divided",
-    "DNA content doubles during the process"
-  ],
-  correct: 1,
+      "The number of chromosomes in parent and progeny cells is the same",
+      "The cell size remains equal",
+      "The cytoplasm is equally divided",
+      "DNA content doubles during the process"
+    ], correct: 0,
   explanation: "Mitosis is called equational division because the number of chromosomes in the parent and progeny cells remains the same."
 },
 {
@@ -408,12 +391,11 @@ var allQuestions = [
   topic: "Phases of Cell Cycle",
   q: "Karyokinesis involves the following four stages in correct order:",
   options: [
-    "Metaphase → Prophase → Anaphase → Telophase",
-    "Prophase → Anaphase → Metaphase → Telophase",
-    "Prophase → Metaphase → Anaphase → Telophase",
-    "Telophase → Anaphase → Metaphase → Prophase"
-  ],
-  correct: 2,
+      "Metaphase → Prophase → Anaphase → Telophase",
+      "Prophase → Metaphase → Anaphase → Telophase",
+      "Prophase → Anaphase → Metaphase → Telophase",
+      "Telophase → Anaphase → Metaphase → Prophase"
+    ], correct: 1,
   explanation: "The correct sequence of karyokinesis stages is Prophase → Metaphase → Anaphase → Telophase (PMAT)."
 },
 {
@@ -421,12 +403,11 @@ var allQuestions = [
   topic: "Phases of Cell Cycle",
   q: "Which of the following statements about mitosis is <b>correct</b>?",
   options: [
-    "Clear-cut lines can be drawn between various stages of mitosis",
-    "Cell division is a progressive process and clear-cut lines cannot be drawn between various stages",
-    "Mitosis involves only three stages",
-    "Karyokinesis always follows cytokinesis"
-  ],
-  correct: 1,
+      "Clear-cut lines can be drawn between various stages of mitosis",
+      "Mitosis involves only three stages",
+      "Cell division is a progressive process and clear-cut lines cannot be drawn between various stages",
+      "Karyokinesis always follows cytokinesis"
+    ], correct: 2,
   explanation: "NCERT emphasises that cell division is a progressive process and very clear-cut lines cannot be drawn between various stages. The division into stages is for convenience of study."
 },
 {
@@ -434,12 +415,11 @@ var allQuestions = [
   topic: "Phases of Cell Cycle",
   q: "An onion root tip cell has 16 chromosomes. What will be the chromosome number and DNA content at the following stages?<br><br>Select the <b>correct</b> combination:",
   options: [
-    "G1: 16 chromosomes, 2C; After S: 16 chromosomes, 4C; After M: 16 chromosomes, 2C",
-    "G1: 16 chromosomes, 2C; After S: 32 chromosomes, 4C; After M: 16 chromosomes, 2C",
-    "G1: 16 chromosomes, 4C; After S: 16 chromosomes, 4C; After M: 16 chromosomes, 2C",
-    "G1: 8 chromosomes, 2C; After S: 16 chromosomes, 4C; After M: 8 chromosomes, 2C"
-  ],
-  correct: 0,
+      "G1: 8 chromosomes, 2C; After S: 16 chromosomes, 4C; After M: 8 chromosomes, 2C",
+      "G1: 16 chromosomes, 2C; After S: 32 chromosomes, 4C; After M: 16 chromosomes, 2C",
+      "G1: 16 chromosomes, 4C; After S: 16 chromosomes, 4C; After M: 16 chromosomes, 2C",
+      "G1: 16 chromosomes, 2C; After S: 16 chromosomes, 4C; After M: 16 chromosomes, 2C"
+    ], correct: 3,
   explanation: "At G1: 16 chromosomes, 2C DNA. After S phase: chromosomes remain 16 (DNA doubles to 4C). After M phase: 16 chromosomes, 2C DNA. Chromosome number does NOT change after S phase — only DNA content doubles."
 },
 {
@@ -447,12 +427,11 @@ var allQuestions = [
   topic: "Phases of Cell Cycle",
   q: "Consider the following statements:<br>(a) Interphase is the phase between two successive M phases.<br>(b) M phase represents actual cell division.<br>(c) Interphase is shorter than M phase.<br>(d) Duration of cell cycle is same in all organisms.<br><br>How many of the above statements are <b>correct</b>?",
   options: [
-    "One",
-    "Two",
-    "Three",
-    "Four"
-  ],
-  correct: 1,
+      "Two",
+      "One",
+      "Three",
+      "Four"
+    ], correct: 0,
   explanation: "Only (a) and (b) are correct. (c) is wrong — interphase is much longer (>95% of cell cycle). (d) is wrong — cell cycle duration varies from organism to organism and cell type to cell type."
 },
 {
@@ -460,12 +439,11 @@ var allQuestions = [
   topic: "Phases of Cell Cycle",
   q: "Which of the following correctly represents the two basic phases of the cell cycle?",
   options: [
-    "Karyokinesis and Cytokinesis",
-    "G1 phase and G2 phase",
-    "Interphase and M phase",
-    "S phase and M phase"
-  ],
-  correct: 2,
+      "Karyokinesis and Cytokinesis",
+      "Interphase and M phase",
+      "G1 phase and G2 phase",
+      "S phase and M phase"
+    ], correct: 1,
   explanation: "NCERT states that the cell cycle is divided into two basic phases: Interphase and M Phase (Mitosis phase)."
 },
 {
@@ -473,12 +451,11 @@ var allQuestions = [
   topic: "Phases of Cell Cycle",
   q: "A cell biologist observes that a particular cell type divides only occasionally, as needed to replace cells lost due to injury. Such cells are most likely in:",
   options: [
-    "Continuous S phase",
-    "G0 phase",
-    "Permanent M phase",
-    "G2 phase"
-  ],
-  correct: 1,
+      "Continuous S phase",
+      "Permanent M phase",
+      "G0 phase",
+      "G2 phase"
+    ], correct: 2,
   explanation: "Cells that divide only occasionally to replace lost cells are in the G0 (quiescent) phase. They exit G1 and remain metabolically active but do not proliferate unless needed."
 },
 {
@@ -512,12 +489,11 @@ var allQuestions = [
   topic: "Phases of Cell Cycle",
   q: "Select the <b>incorrect</b> statement:",
   options: [
-    "Cells in G0 phase are metabolically active",
-    "Heart cells in adult animals typically enter G0 phase",
-    "G0 cells can re-enter the cell cycle if required by the organism",
-    "G0 phase occurs after G2 phase"
-  ],
-  correct: 3,
+      "G0 phase occurs after G2 phase",
+      "Heart cells in adult animals typically enter G0 phase",
+      "G0 cells can re-enter the cell cycle if required by the organism",
+      "Cells in G0 phase are metabolically active"
+    ], correct: 0,
   explanation: "G0 phase occurs when cells exit G1 phase, not after G2 phase. This is a common student error. All other statements are correct as per NCERT."
 },
 {
@@ -525,12 +501,11 @@ var allQuestions = [
   topic: "Phases of Cell Cycle",
   q: "In a cell with 2n = 20 chromosomes, what will be the DNA content during G2 phase if the DNA content after M phase is 2C?",
   options: [
-    "2C",
-    "C",
-    "4C",
-    "8C"
-  ],
-  correct: 2,
+      "2C",
+      "4C",
+      "C",
+      "8C"
+    ], correct: 1,
   explanation: "After M phase: 2C. During G1: 2C. After S phase: 4C (DNA doubles). G2 phase follows S phase, so DNA content remains 4C during G2."
 },
 {
@@ -538,12 +513,11 @@ var allQuestions = [
   topic: "Phases of Cell Cycle",
   q: "Which of the following is the most dramatic period of the cell cycle involving major reorganisation of virtually all cell components?",
   options: [
-    "G1 phase",
-    "S phase",
-    "G2 phase",
-    "M phase"
-  ],
-  correct: 3,
+      "G1 phase",
+      "S phase",
+      "M phase",
+      "G2 phase"
+    ], correct: 2,
   explanation: "NCERT describes M phase as the most dramatic period of the cell cycle, involving a major reorganisation of virtually all components of the cell."
 },
 {
@@ -551,12 +525,11 @@ var allQuestions = [
   topic: "Phases of Cell Cycle",
   q: "The correct sequence of interphase sub-stages is:",
   options: [
-    "S → G1 → G2",
-    "G2 → S → G1",
-    "G1 → S → G2",
-    "G1 → G2 → S"
-  ],
-  correct: 2,
+      "S → G1 → G2",
+      "G2 → S → G1",
+      "G1 → G2 → S",
+      "G1 → S → G2"
+    ], correct: 3,
   explanation: "Interphase consists of three sub-phases in the order: G1 (Gap 1) → S (Synthesis) → G2 (Gap 2). This is followed by M phase."
 },
 {
@@ -564,12 +537,11 @@ var allQuestions = [
   topic: "Phases of Cell Cycle",
   q: "A student claims: 'After S phase, a diploid cell becomes tetraploid.' This statement is:",
   options: [
-    "Correct, because both DNA content and chromosome number double",
-    "Correct, because chromosome number doubles to 4n",
-    "Incorrect, because only DNA content doubles while chromosome number remains 2n",
-    "Incorrect, because neither DNA content nor chromosome number changes"
-  ],
-  correct: 2,
+      "Incorrect, because only DNA content doubles while chromosome number remains 2n",
+      "Correct, because chromosome number doubles to 4n",
+      "Correct, because both DNA content and chromosome number double",
+      "Incorrect, because neither DNA content nor chromosome number changes"
+    ], correct: 0,
   explanation: "This is a classic NEET trap. After S phase, DNA content doubles (2C → 4C), but chromosome number remains 2n because sister chromatids stay joined at the centromere and are counted as one chromosome. The cell does NOT become tetraploid."
 },
 {
@@ -577,12 +549,11 @@ var allQuestions = [
   topic: "Cell Cycle",
   q: "Which of the following statements is <b>true</b> regarding cell cycle?",
   options: [
-    "DNA replication and cytoplasmic growth both occur continuously throughout the cell cycle",
-    "DNA replication occurs continuously but cytoplasmic growth is restricted to specific stages",
-    "Cytoplasmic growth is continuous but DNA replication occurs only during S phase",
-    "Both DNA replication and cytoplasmic growth are restricted to S phase"
-  ],
-  correct: 2,
+      "DNA replication and cytoplasmic growth both occur continuously throughout the cell cycle",
+      "Cytoplasmic growth is continuous but DNA replication occurs only during S phase",
+      "DNA replication occurs continuously but cytoplasmic growth is restricted to specific stages",
+      "Both DNA replication and cytoplasmic growth are restricted to S phase"
+    ], correct: 1,
   explanation: "NCERT states: 'Although cell growth (in terms of cytoplasmic increase) is a continuous process, DNA synthesis occurs only during one specific stage in the cell cycle' (i.e., S phase)."
 },
 {
@@ -603,12 +574,11 @@ var allQuestions = [
   topic: "Phases of Cell Cycle",
   q: "Which of the following statements regarding mitosis in plants and animals is <b>correct</b>?",
   options: [
-    "In both plants and animals, mitosis occurs only in diploid cells",
-    "In plants, mitosis occurs in both haploid and diploid cells; in animals, generally only in diploid somatic cells",
-    "In animals, mitosis occurs in both haploid and diploid cells; in plants, only in diploid cells",
-    "Mitosis never occurs in haploid cells of any organism"
-  ],
-  correct: 1,
+      "In both plants and animals, mitosis occurs only in diploid cells",
+      "Mitosis never occurs in haploid cells of any organism",
+      "In animals, mitosis occurs in both haploid and diploid cells; in plants, only in diploid cells",
+      "In plants, mitosis occurs in both haploid and diploid cells; in animals, generally only in diploid somatic cells"
+    ], correct: 3,
   explanation: "NCERT states that in animals, mitotic cell division is only seen in diploid somatic cells (with exceptions like male honey bees). However, plants can show mitotic divisions in both haploid and diploid cells."
 },
 {
@@ -616,12 +586,11 @@ var allQuestions = [
   topic: "Phases of Cell Cycle",
   q: "Karyokinesis refers to:",
   options: [
-    "Division of cytoplasm",
-    "Division of cell organelles",
-    "Division of nucleus (separation of daughter chromosomes)",
-    "Duplication of DNA"
-  ],
-  correct: 2,
+      "Division of nucleus (separation of daughter chromosomes)",
+      "Division of cell organelles",
+      "Division of cytoplasm",
+      "Duplication of DNA"
+    ], correct: 0,
   explanation: "Karyokinesis refers to nuclear division, corresponding to the separation of daughter chromosomes. Cytokinesis refers to the division of cytoplasm."
 },
 {
@@ -629,12 +598,11 @@ var allQuestions = [
   topic: "Phases of Cell Cycle",
   q: "If a cell at G1 has DNA content of 2C, the correct DNA content at different phases would be:",
   options: [
-    "G1 = 2C, S = 2C→4C, G2 = 4C, After M = 2C",
-    "G1 = 2C, S = 2C→4C, G2 = 2C, After M = 2C",
-    "G1 = 4C, S = 4C→8C, G2 = 8C, After M = 4C",
-    "G1 = 2C, S = 2C→4C, G2 = 4C, After M = 4C"
-  ],
-  correct: 0,
+      "G1 = 2C, S = 2C→4C, G2 = 2C, After M = 2C",
+      "G1 = 2C, S = 2C→4C, G2 = 4C, After M = 2C",
+      "G1 = 4C, S = 4C→8C, G2 = 8C, After M = 4C",
+      "G1 = 2C, S = 2C→4C, G2 = 4C, After M = 4C"
+    ], correct: 1,
   explanation: "G1: 2C. During S phase DNA doubles from 2C to 4C. G2: remains 4C (no further replication). After M phase (mitosis): back to 2C as the cell divides."
 },
 {
@@ -655,12 +623,11 @@ var allQuestions = [
   topic: "Phases of Cell Cycle",
   q: "The duration of the cell cycle can vary from:<br>(a) Organism to organism<br>(b) Cell type to cell type within the same organism<br><br>Which is correct?",
   options: [
-    "Only (a)",
-    "Only (b)",
-    "Both (a) and (b)",
-    "Neither (a) nor (b)"
-  ],
-  correct: 2,
+      "Only (a)",
+      "Only (b)",
+      "Neither (a) nor (b)",
+      "Both (a) and (b)"
+    ], correct: 3,
   explanation: "NCERT clearly states: 'this duration of cell cycle can vary from organism to organism and also from cell type to cell type.' Both factors influence cell cycle duration."
 },
 {
@@ -668,12 +635,11 @@ var allQuestions = [
   topic: "Phases of Cell Cycle",
   q: "Which of the following represents the correct relationship between karyokinesis and cytokinesis during M phase?",
   options: [
-    "Cytokinesis always precedes karyokinesis",
-    "Karyokinesis and cytokinesis occur simultaneously",
-    "Karyokinesis usually precedes cytokinesis",
-    "Karyokinesis and cytokinesis are the same process"
-  ],
-  correct: 2,
+      "Karyokinesis usually precedes cytokinesis",
+      "Karyokinesis and cytokinesis occur simultaneously",
+      "Cytokinesis always precedes karyokinesis",
+      "Karyokinesis and cytokinesis are the same process"
+    ], correct: 0,
   explanation: "NCERT states that M phase starts with nuclear division (karyokinesis) and usually ends with division of cytoplasm (cytokinesis). So karyokinesis usually precedes cytokinesis."
 },
 {
@@ -694,12 +660,11 @@ var allQuestions = [
   topic: "Phases of Cell Cycle",
   q: "Which of the following is <b>NOT</b> a sub-phase of interphase?",
   options: [
-    "G1 phase",
-    "S phase",
-    "G2 phase",
-    "M phase"
-  ],
-  correct: 3,
+      "G1 phase",
+      "M phase",
+      "G2 phase",
+      "S phase"
+    ], correct: 1,
   explanation: "Interphase consists of three sub-phases: G1, S, and G2. M phase is a separate basic phase of the cell cycle and is NOT a part of interphase."
 },
 {
@@ -707,12 +672,11 @@ var allQuestions = [
   topic: "Phases of Cell Cycle",
   q: "A researcher observes a cell in which DNA content is 4C and chromosome number is 2n. The cell is most likely in:",
   options: [
-    "G1 phase",
-    "S phase or G2 phase",
-    "G0 phase",
-    "Early G1 after mitosis"
-  ],
-  correct: 1,
+      "G1 phase",
+      "G0 phase",
+      "S phase or G2 phase",
+      "Early G1 after mitosis"
+    ], correct: 2,
   explanation: "DNA content of 4C with 2n chromosomes indicates that DNA has replicated (doubled from 2C to 4C) but chromosomes haven't separated yet. This occurs during/after S phase and during G2 phase."
 },
 {
@@ -720,12 +684,11 @@ var allQuestions = [
   topic: "Phases of Cell Cycle",
   q: "Read the following statements and select the correct option:<br>(I) G0 cells exit from G1 phase<br>(II) G0 cells are metabolically inactive<br>(III) G0 cells can re-enter cell cycle if needed<br>(IV) Heart cells are examples of G0 cells",
   options: [
-    "I, II and IV are correct",
-    "I, III and IV are correct",
-    "II, III and IV are correct",
-    "All are correct"
-  ],
-  correct: 1,
+      "I, II and IV are correct",
+      "All are correct",
+      "II, III and IV are correct",
+      "I, III and IV are correct"
+    ], correct: 3,
   explanation: "Statements I, III, and IV are correct as per NCERT. Statement II is wrong — G0 cells remain metabolically ACTIVE but no longer proliferate. This is a very important distinction frequently tested in NEET."
 },
 {
@@ -733,12 +696,11 @@ var allQuestions = [
   topic: "Phases of Cell Cycle",
   q: "Which of the following correctly describes the event unique to S phase in animal cells?",
   options: [
-    "Only DNA replication",
-    "DNA replication in nucleus and centriole duplication in cytoplasm",
-    "Only centriole duplication",
-    "Protein synthesis for mitosis preparation"
-  ],
-  correct: 1,
+      "DNA replication in nucleus and centriole duplication in cytoplasm",
+      "Only DNA replication",
+      "Only centriole duplication",
+      "Protein synthesis for mitosis preparation"
+    ], correct: 0,
   explanation: "NCERT specifically mentions that in animal cells, during S phase, DNA replication begins in the nucleus AND the centriole duplicates in the cytoplasm. Both events occur during S phase."
 },
 {
@@ -746,12 +708,11 @@ var allQuestions = [
   topic: "Phases of Cell Cycle",
   q: "Select the <b>correct</b> statement about cell division in organisms:",
   options: [
-    "All cells in adult animals continue to divide throughout life",
-    "All cells in plants divide all the time",
-    "Some cells in adult animals do not appear to exhibit division, e.g., heart cells",
-    "Cells that stop dividing become metabolically inactive immediately"
-  ],
-  correct: 2,
+      "All cells in adult animals continue to divide throughout life",
+      "Some cells in adult animals do not appear to exhibit division, e.g., heart cells",
+      "All cells in plants divide all the time",
+      "Cells that stop dividing become metabolically inactive immediately"
+    ], correct: 1,
   explanation: "NCERT states that some cells in adult animals do not appear to exhibit division (e.g., heart cells). Not all cells divide continuously. Cells in G0 remain metabolically active."
 },
 {
@@ -772,12 +733,11 @@ var allQuestions = [
   topic: "Phases of Cell Cycle",
   q: "Match the following and select the correct option:<br>(a) Interphase — (i) Actual cell division<br>(b) M Phase — (ii) Phase between two successive M phases<br>(c) G0 — (iii) Quiescent stage<br>(d) Karyokinesis — (iv) Nuclear division",
   options: [
-    "a-ii, b-i, c-iii, d-iv",
-    "a-i, b-ii, c-iv, d-iii",
-    "a-iii, b-iv, c-ii, d-i",
-    "a-ii, b-iv, c-iii, d-i"
-  ],
-  correct: 0,
+      "a-ii, b-iv, c-iii, d-i",
+      "a-i, b-ii, c-iv, d-iii",
+      "a-iii, b-iv, c-ii, d-i",
+      "a-ii, b-i, c-iii, d-iv"
+    ], correct: 3,
   explanation: "Interphase is the phase between two successive M phases (a-ii). M phase is actual cell division (b-i). G0 is the quiescent stage (c-iii). Karyokinesis is nuclear division (d-iv)."
 },
 {
@@ -785,12 +745,11 @@ var allQuestions = [
   topic: "Cell Cycle",
   q: "The term 'cell cycle' refers to:",
   options: [
-    "Only the M phase of cell division",
-    "Only the interphase when the cell prepares for division",
-    "The sequence of events by which a cell duplicates its genome, synthesises other constituents, and divides into two daughter cells",
-    "The time taken for DNA replication only"
-  ],
-  correct: 2,
+      "The sequence of events by which a cell duplicates its genome, synthesises other constituents, and divides into two daughter cells",
+      "Only the interphase when the cell prepares for division",
+      "Only the M phase of cell division",
+      "The time taken for DNA replication only"
+    ], correct: 0,
   explanation: "The cell cycle is defined by NCERT as the sequence of events by which a cell duplicates its genome, synthesises the other constituents of the cell, and eventually divides into two daughter cells."
 },
 {
@@ -798,12 +757,11 @@ var allQuestions = [
   topic: "Phases of Cell Cycle",
   q: "If a human cell in culture has completed the S phase, which of the following would be true?",
   options: [
-    "DNA content = 2C, Chromosome number = 2n",
-    "DNA content = 4C, Chromosome number = 4n",
-    "DNA content = 4C, Chromosome number = 2n",
-    "DNA content = 2C, Chromosome number = 4n"
-  ],
-  correct: 2,
+      "DNA content = 2C, Chromosome number = 2n",
+      "DNA content = 4C, Chromosome number = 2n",
+      "DNA content = 4C, Chromosome number = 4n",
+      "DNA content = 2C, Chromosome number = 4n"
+    ], correct: 1,
   explanation: "After S phase, DNA content doubles from 2C to 4C but chromosome number remains 2n because replicated chromatids are held together at the centromere and counted as one chromosome."
 },
 {
@@ -811,12 +769,11 @@ var allQuestions = [
   topic: "Karyokinesis - Prophase",
   q: "Prophase of mitosis follows which phases of interphase?",
   options: [
-    "G1 and S phases",
-    "S and G2 phases",
-    "G1 and G2 phases",
-    "Only S phase"
-  ],
-  correct: 1,
+      "G1 and S phases",
+      "G1 and G2 phases",
+      "S and G2 phases",
+      "Only S phase"
+    ], correct: 2,
   explanation: "NCERT clearly states that prophase is the first stage of karyokinesis and follows the S and G2 phases of interphase."
 },
 {
@@ -824,12 +781,11 @@ var allQuestions = [
   topic: "Karyokinesis - Prophase",
   q: "During S and G2 phases of interphase, the new DNA molecules formed are:",
   options: [
-    "Fully condensed and distinct",
-    "Not distinct but intertwined",
-    "Already separated as individual chromosomes",
-    "Visible as compact mitotic chromosomes"
-  ],
-  correct: 1,
+      "Fully condensed and distinct",
+      "Visible as compact mitotic chromosomes",
+      "Already separated as individual chromosomes",
+      "Not distinct but intertwined"
+    ], correct: 3,
   explanation: "NCERT states that in the S and G2 phases, the new DNA molecules formed are not distinct but intertwined. They become distinct only during prophase when condensation begins."
 },
 {
@@ -837,12 +793,11 @@ var allQuestions = [
   topic: "Karyokinesis - Prophase",
   q: "Prophase is marked by the initiation of:",
   options: [
-    "DNA replication",
-    "Cytokinesis",
-    "Condensation of chromosomal material",
-    "Disintegration of nuclear envelope"
-  ],
-  correct: 2,
+      "Condensation of chromosomal material",
+      "Cytokinesis",
+      "DNA replication",
+      "Disintegration of nuclear envelope"
+    ], correct: 0,
   explanation: "NCERT states: 'Prophase is marked by the initiation of condensation of chromosomal material.' The chromosomal material becomes untangled during chromatin condensation. Nuclear envelope disintegration occurs at the start of metaphase, not prophase."
 },
 {
@@ -850,12 +805,11 @@ var allQuestions = [
   topic: "Karyokinesis - Prophase",
   q: "Which of the following is <b>NOT</b> a characteristic event at the completion of prophase?",
   options: [
-    "Chromosomal material condenses to form compact mitotic chromosomes",
-    "Centrosome begins to move towards opposite poles",
-    "Nuclear envelope completely disintegrates",
-    "Chromosomes are seen composed of two chromatids attached at the centromere"
-  ],
-  correct: 2,
+      "Chromosomal material condenses to form compact mitotic chromosomes",
+      "Nuclear envelope completely disintegrates",
+      "Centrosome begins to move towards opposite poles",
+      "Chromosomes are seen composed of two chromatids attached at the centromere"
+    ], correct: 1,
   explanation: "Complete disintegration of nuclear envelope marks the start of METAPHASE, not prophase. During prophase, the nuclear envelope is still present but begins to break down towards the end. This is a very common NEET trap."
 },
 {
@@ -876,12 +830,11 @@ var allQuestions = [
   topic: "Karyokinesis - Prophase",
   q: "Each centrosome radiates out microtubules called:",
   options: [
-    "Spindle fibres",
-    "Asters",
-    "Kinetochore fibres",
-    "Centriolar tubules"
-  ],
-  correct: 1,
+      "Spindle fibres",
+      "Centriolar tubules",
+      "Kinetochore fibres",
+      "Asters"
+    ], correct: 3,
   explanation: "NCERT states: 'Each centrosome radiates out microtubules called asters.' The two asters together with spindle fibres form the mitotic apparatus."
 },
 {
@@ -889,12 +842,11 @@ var allQuestions = [
   topic: "Karyokinesis - Prophase",
   q: "The mitotic apparatus is formed by:",
   options: [
-    "Asters only",
-    "Spindle fibres only",
-    "Two asters together with spindle fibres",
-    "Kinetochores and centromeres"
-  ],
-  correct: 2,
+      "Two asters together with spindle fibres",
+      "Spindle fibres only",
+      "Asters only",
+      "Kinetochores and centromeres"
+    ], correct: 0,
   explanation: "NCERT clearly states: 'The two asters together with spindle fibres forms mitotic apparatus.'"
 },
 {
@@ -928,12 +880,11 @@ var allQuestions = [
   topic: "Karyokinesis - Prophase",
   q: "Consider the following statements about prophase:<br>(I) Centrosome duplication occurs during prophase<br>(II) Chromosomes appear as two chromatids joined at the centromere<br>(III) Nuclear envelope completely disintegrates<br>(IV) Chromatin condensation is initiated<br><br>Which of the above are correct?",
   options: [
-    "I and III",
-    "II and IV",
-    "I, II and IV",
-    "II, III and IV"
-  ],
-  correct: 1,
+      "I and III",
+      "I, II and IV",
+      "II and IV",
+      "II, III and IV"
+    ], correct: 2,
   explanation: "Only II and IV are correct. Statement I is wrong — centrosome duplication occurs during S phase of interphase, not prophase (it only starts moving during prophase). Statement III is wrong — nuclear envelope disintegration marks the start of metaphase."
 },
 {
@@ -941,12 +892,11 @@ var allQuestions = [
   topic: "Karyokinesis - Metaphase",
   q: "The start of metaphase is marked by:",
   options: [
-    "Initiation of chromatin condensation",
-    "Complete disintegration of the nuclear envelope",
-    "Splitting of centromeres",
-    "Decondensation of chromosomes"
-  ],
-  correct: 1,
+      "Initiation of chromatin condensation",
+      "Decondensation of chromosomes",
+      "Splitting of centromeres",
+      "Complete disintegration of the nuclear envelope"
+    ], correct: 3,
   explanation: "NCERT states: 'The complete disintegration of the nuclear envelope marks the start of the second phase of mitosis (metaphase).'"
 },
 {
@@ -954,12 +904,11 @@ var allQuestions = [
   topic: "Karyokinesis - Metaphase",
   q: "The morphology of chromosomes is most easily studied at which stage of mitosis?",
   options: [
-    "Prophase",
-    "Metaphase",
-    "Anaphase",
-    "Telophase"
-  ],
-  correct: 1,
+      "Metaphase",
+      "Prophase",
+      "Anaphase",
+      "Telophase"
+    ], correct: 0,
   explanation: "NCERT states: 'This then, is the stage (metaphase) at which morphology of chromosomes is most easily studied.' This is because condensation is complete and chromosomes are clearly visible under the microscope."
 },
 {
@@ -993,12 +942,11 @@ var allQuestions = [
   topic: "Karyokinesis - Metaphase",
   q: "At metaphase, the arrangement of chromosomes is such that:",
   options: [
-    "Both chromatids of each chromosome are connected to the same pole",
-    "One chromatid is connected via kinetochore to one pole and the sister chromatid to the opposite pole",
-    "Chromosomes are randomly scattered throughout the cytoplasm",
-    "Chromosomes are clustered at one pole only"
-  ],
-  correct: 1,
+      "Both chromatids of each chromosome are connected to the same pole",
+      "Chromosomes are clustered at one pole only",
+      "Chromosomes are randomly scattered throughout the cytoplasm",
+      "One chromatid is connected via kinetochore to one pole and the sister chromatid to the opposite pole"
+    ], correct: 3,
   explanation: "NCERT states that at metaphase, one chromatid of each chromosome is connected by its kinetochore to spindle fibres from one pole and its sister chromatid is connected by its kinetochore to spindle fibres from the opposite pole."
 },
 {
@@ -1006,12 +954,11 @@ var allQuestions = [
   topic: "Karyokinesis - Metaphase",
   q: "The plane of alignment of chromosomes at metaphase is referred to as:",
   options: [
-    "Equatorial plane",
-    "Cell plate",
-    "Metaphase plate",
-    "Division plate"
-  ],
-  correct: 2,
+      "Metaphase plate",
+      "Cell plate",
+      "Equatorial plane",
+      "Division plate"
+    ], correct: 0,
   explanation: "NCERT specifically uses the term 'metaphase plate' to describe the plane of alignment of chromosomes at metaphase."
 },
 {
@@ -1019,12 +966,11 @@ var allQuestions = [
   topic: "Karyokinesis - Metaphase",
   q: "Which of the following are the key features of metaphase?<br>(a) Spindle fibres attach to kinetochores<br>(b) Chromosomes align along metaphase plate<br>(c) Centromeres split<br>(d) Nuclear envelope reforms",
   options: [
-    "Only (a) and (b)",
-    "Only (a), (b) and (c)",
-    "Only (c) and (d)",
-    "All of the above"
-  ],
-  correct: 0,
+      "Only (a), (b) and (c)",
+      "Only (a) and (b)",
+      "Only (c) and (d)",
+      "All of the above"
+    ], correct: 1,
   explanation: "Only (a) and (b) are key features of metaphase. Centromere splitting (c) occurs at anaphase, and nuclear envelope reformation (d) occurs at telophase."
 },
 {
@@ -1071,12 +1017,11 @@ var allQuestions = [
   topic: "Karyokinesis - Anaphase",
   q: "At the onset of anaphase, the chromosomes at the metaphase plate:",
   options: [
-    "Begin to condense further",
-    "Are split simultaneously and daughter chromatids migrate to opposite poles",
-    "Align more precisely at the equator",
-    "Reform the nuclear envelope"
-  ],
-  correct: 1,
+      "Are split simultaneously and daughter chromatids migrate to opposite poles",
+      "Begin to condense further",
+      "Align more precisely at the equator",
+      "Reform the nuclear envelope"
+    ], correct: 0,
   explanation: "NCERT states: 'At the onset of anaphase, each chromosome arranged at the metaphase plate is split simultaneously and the two daughter chromatids begin their migration towards the two opposite poles.'"
 },
 {
@@ -1084,12 +1029,11 @@ var allQuestions = [
   topic: "Karyokinesis - Anaphase",
   q: "During anaphase, the separated chromatids are now referred to as:",
   options: [
-    "Sister chromatids",
-    "Homologous chromosomes",
-    "Daughter chromosomes",
-    "Bivalents"
-  ],
-  correct: 2,
+      "Sister chromatids",
+      "Daughter chromosomes",
+      "Homologous chromosomes",
+      "Bivalents"
+    ], correct: 1,
   explanation: "NCERT states: 'the two daughter chromatids, now referred to as daughter chromosomes of the future daughter nuclei, begin their migration towards the two opposite poles.'"
 },
 {
@@ -1110,12 +1054,11 @@ var allQuestions = [
   topic: "Karyokinesis - Anaphase",
   q: "During anaphase, the shape of migrating chromosomes appears like:",
   options: [
-    "Spherical bodies",
-    "V, J, L or I shapes with centromere at the leading edge and arms trailing behind",
-    "Compact round structures",
-    "Elongated thread-like structures"
-  ],
-  correct: 1,
+      "Spherical bodies",
+      "Elongated thread-like structures",
+      "Compact round structures",
+      "V, J, L or I shapes with centromere at the leading edge and arms trailing behind"
+    ], correct: 3,
   explanation: "Since the centromere is at the leading edge and arms trail behind, chromosomes appear as V-shaped (metacentric), J-shaped (submetacentric), L-shaped (acrocentric), or I-shaped (telocentric) depending on centromere position."
 },
 {
@@ -1149,12 +1092,11 @@ var allQuestions = [
   topic: "Karyokinesis - Anaphase",
   q: "Which of the following is <b>incorrect</b> about anaphase?",
   options: [
-    "Centromeres split",
-    "Sister chromatids separate and move to opposite poles",
-    "Centromere is at the leading edge during chromosome movement",
-    "Chromosomes begin to condense during this phase"
-  ],
-  correct: 3,
+      "Centromeres split",
+      "Chromosomes begin to condense during this phase",
+      "Centromere is at the leading edge during chromosome movement",
+      "Sister chromatids separate and move to opposite poles"
+    ], correct: 1,
   explanation: "Chromosomes do NOT begin to condense during anaphase. Condensation begins in prophase and is completed by metaphase. During anaphase, separated chromatids (now daughter chromosomes) migrate to poles."
 },
 {
@@ -1162,12 +1104,11 @@ var allQuestions = [
   topic: "Karyokinesis - Telophase",
   q: "During telophase, chromosomes that have reached their respective poles:",
   options: [
-    "Further condense and become more compact",
-    "Decondense and lose their individuality",
-    "Split again to form four sets",
-    "Remain as compact mitotic chromosomes"
-  ],
-  correct: 1,
+      "Further condense and become more compact",
+      "Split again to form four sets",
+      "Decondense and lose their individuality",
+      "Remain as compact mitotic chromosomes"
+    ], correct: 2,
   explanation: "NCERT states: 'the chromosomes that have reached their respective poles decondense and lose their individuality. The individual chromosomes can no longer be seen.'"
 },
 {
@@ -1188,12 +1129,11 @@ var allQuestions = [
   topic: "Karyokinesis - Telophase",
   q: "During telophase, the nuclear envelope develops around:",
   options: [
-    "Each individual chromosome separately",
-    "The metaphase plate",
-    "The chromosome clusters at each pole, forming two daughter nuclei",
-    "Only one pole, forming a single nucleus"
-  ],
-  correct: 2,
+      "Each individual chromosome separately",
+      "The metaphase plate",
+      "Only one pole, forming a single nucleus",
+      "The chromosome clusters at each pole, forming two daughter nuclei"
+    ], correct: 3,
   explanation: "NCERT states: 'Nuclear envelope develops around the chromosome clusters at each pole forming two daughter nuclei.'"
 },
 {
@@ -1201,12 +1141,11 @@ var allQuestions = [
   topic: "Karyokinesis - Telophase",
   q: "Which cell organelles/structures reform during telophase?",
   options: [
-    "Only nucleolus",
-    "Only Golgi complex and ER",
-    "Nucleolus, Golgi complex and ER",
-    "Centrosome and asters"
-  ],
-  correct: 2,
+      "Nucleolus, Golgi complex and ER",
+      "Only Golgi complex and ER",
+      "Only nucleolus",
+      "Centrosome and asters"
+    ], correct: 0,
   explanation: "NCERT states: 'Nucleolus, golgi complex and ER reform' during telophase. These structures had disappeared by the end of prophase."
 },
 {
@@ -1227,12 +1166,11 @@ var allQuestions = [
   topic: "Karyokinesis - Telophase",
   q: "Telophase can be considered as the <b>reverse</b> of which stage of mitosis?",
   options: [
-    "Metaphase",
-    "Anaphase",
-    "Prophase",
-    "S phase"
-  ],
-  correct: 2,
+      "Metaphase",
+      "Prophase",
+      "Anaphase",
+      "S phase"
+    ], correct: 1,
   explanation: "Telophase is essentially the reverse of prophase. In prophase: chromatin condenses, nuclear envelope breaks down, nucleolus disappears. In telophase: chromosomes decondense, nuclear envelope reforms, nucleolus reappears."
 },
 {
@@ -1240,12 +1178,11 @@ var allQuestions = [
   topic: "Karyokinesis - General",
   q: "Match the stage of karyokinesis with its key event:<br>(a) Prophase — (i) Centromeres split<br>(b) Metaphase — (ii) Chromatin condensation begins<br>(c) Anaphase — (iii) Chromosomes align at metaphase plate<br>(d) Telophase — (iv) Nuclear envelope reforms",
   options: [
-    "a-ii, b-iii, c-i, d-iv",
-    "a-i, b-ii, c-iii, d-iv",
-    "a-iii, b-i, c-iv, d-ii",
-    "a-iv, b-iii, c-ii, d-i"
-  ],
-  correct: 0,
+      "a-iii, b-i, c-iv, d-ii",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-ii, b-iii, c-i, d-iv",
+      "a-iv, b-iii, c-ii, d-i"
+    ], correct: 2,
   explanation: "Prophase: chromatin condensation begins (a-ii). Metaphase: chromosomes align at metaphase plate (b-iii). Anaphase: centromeres split (c-i). Telophase: nuclear envelope reforms (d-iv)."
 },
 {
@@ -1253,12 +1190,11 @@ var allQuestions = [
   topic: "Karyokinesis - General",
   q: "The correct chronological order of events during karyokinesis is:",
   options: [
-    "Nuclear envelope disintegration → Chromatin condensation → Chromosome alignment → Chromatid separation",
-    "Chromatin condensation → Nuclear envelope disintegration → Chromosome alignment → Chromatid separation → Nuclear envelope reformation",
-    "Chromosome alignment → Chromatin condensation → Chromatid separation → Nuclear envelope disintegration",
-    "Chromatid separation → Chromatin condensation → Chromosome alignment → Nuclear envelope reformation"
-  ],
-  correct: 1,
+      "Nuclear envelope disintegration → Chromatin condensation → Chromosome alignment → Chromatid separation",
+      "Chromatid separation → Chromatin condensation → Chromosome alignment → Nuclear envelope reformation",
+      "Chromosome alignment → Chromatin condensation → Chromatid separation → Nuclear envelope disintegration",
+      "Chromatin condensation → Nuclear envelope disintegration → Chromosome alignment → Chromatid separation → Nuclear envelope reformation"
+    ], correct: 3,
   explanation: "The correct order is: Chromatin condensation (prophase) → Nuclear envelope disintegration (start of metaphase) → Chromosome alignment at metaphase plate (metaphase) → Chromatid separation (anaphase) → Nuclear envelope reformation (telophase)."
 },
 {
@@ -1266,12 +1202,11 @@ var allQuestions = [
   topic: "Karyokinesis - General",
   q: "A student observes a cell under the microscope and notes that chromosomes are at their most condensed state and aligned at the equator of the cell. The cell is in which stage?",
   options: [
-    "Prophase",
-    "Metaphase",
-    "Anaphase",
-    "Telophase"
-  ],
-  correct: 1,
+      "Metaphase",
+      "Prophase",
+      "Anaphase",
+      "Telophase"
+    ], correct: 0,
   explanation: "Chromosomes are most condensed and aligned at the equator (metaphase plate) during metaphase. This is why metaphase is the best stage for studying chromosome morphology."
 },
 {
@@ -1279,12 +1214,11 @@ var allQuestions = [
   topic: "Karyokinesis - General",
   q: "A student observes a cell where chromosomes appear to be moving towards opposite poles with centromeres leading. This cell is in:",
   options: [
-    "Prophase",
-    "Metaphase",
-    "Anaphase",
-    "Telophase"
-  ],
-  correct: 2,
+      "Prophase",
+      "Anaphase",
+      "Metaphase",
+      "Telophase"
+    ], correct: 1,
   explanation: "Movement of chromosomes towards opposite poles with centromeres at the leading edge is characteristic of anaphase."
 },
 {
@@ -1305,12 +1239,11 @@ var allQuestions = [
   topic: "Karyokinesis - General",
   q: "Consider the following statements:<br>(I) Condensation of chromosomes begins in prophase and is completed by metaphase<br>(II) Decondensation of chromosomes occurs in telophase<br>(III) Nuclear envelope breaks down during prophase<br>(IV) Nuclear envelope reforms during telophase<br><br>Which statements are correct?",
   options: [
-    "I, II and IV only",
-    "I, III and IV only",
-    "I, II, III and IV",
-    "II and IV only"
-  ],
-  correct: 0,
+      "II and IV only",
+      "I, III and IV only",
+      "I, II, III and IV",
+      "I, II and IV only"
+    ], correct: 3,
   explanation: "Statements I, II, and IV are correct. Statement III is tricky — NCERT says nuclear envelope is not visible at the end of prophase, but the COMPLETE disintegration of nuclear envelope marks the START of metaphase. So technically, the nuclear envelope breaks down at the prophase-metaphase transition, and its complete disintegration is a metaphase event."
 },
 {
@@ -1318,12 +1251,11 @@ var allQuestions = [
   topic: "Karyokinesis - Prophase",
   q: "Select the <b>correct</b> statement about centrosome behaviour during cell division:",
   options: [
-    "Centrosome duplicates during prophase and moves to poles during metaphase",
-    "Centrosome duplicates during S phase and begins moving to opposite poles during prophase",
-    "Centrosome duplicates during G2 phase and moves to poles during anaphase",
-    "Centrosome duplicates during G1 phase and moves to poles during prophase"
-  ],
-  correct: 1,
+      "Centrosome duplicates during S phase and begins moving to opposite poles during prophase",
+      "Centrosome duplicates during prophase and moves to poles during metaphase",
+      "Centrosome duplicates during G2 phase and moves to poles during anaphase",
+      "Centrosome duplicates during G1 phase and moves to poles during prophase"
+    ], correct: 0,
   explanation: "NCERT clearly states that the centrosome duplicates during S phase of interphase and begins to move towards opposite poles during prophase."
 },
 {
@@ -1357,12 +1289,11 @@ var allQuestions = [
   topic: "Karyokinesis - General",
   q: "In which stage of mitosis are chromosomes moved to the spindle equator through spindle fibres attached to both poles?",
   options: [
-    "Prophase",
-    "Metaphase",
-    "Anaphase",
-    "Telophase"
-  ],
-  correct: 1,
+      "Prophase",
+      "Anaphase",
+      "Metaphase",
+      "Telophase"
+    ], correct: 2,
   explanation: "NCERT states that during metaphase, chromosomes are moved to spindle equator and get aligned along the metaphase plate through spindle fibres to both poles."
 },
 {
@@ -1383,12 +1314,11 @@ var allQuestions = [
   topic: "Karyokinesis - Anaphase",
   q: "During anaphase, the orientation of a moving chromosome is best described as:",
   options: [
-    "Arms leading, centromere trailing",
-    "Centromere at the leading edge, arms trailing behind",
-    "Random orientation with no specific pattern",
-    "Telomeres at the leading edge"
-  ],
-  correct: 1,
+      "Centromere at the leading edge, arms trailing behind",
+      "Arms leading, centromere trailing",
+      "Random orientation with no specific pattern",
+      "Telomeres at the leading edge"
+    ], correct: 0,
   explanation: "NCERT states: 'the centromere of each chromosome remains directed towards the pole and hence at the leading edge, with the arms of the chromosome trailing behind.'"
 },
 {
@@ -1409,12 +1339,11 @@ var allQuestions = [
   topic: "Karyokinesis - General",
   q: "A cell is observed under a microscope showing two groups of chromosomes at opposite poles, nuclear envelope beginning to form around them, and nucleolus reappearing. The cell is in:",
   options: [
-    "Late prophase",
-    "Metaphase",
-    "Anaphase",
-    "Telophase"
-  ],
-  correct: 3,
+      "Late prophase",
+      "Metaphase",
+      "Telophase",
+      "Anaphase"
+    ], correct: 2,
   explanation: "Nuclear envelope reformation around chromosome clusters at each pole and reappearance of nucleolus are characteristic events of telophase."
 },
 {
@@ -1422,12 +1351,11 @@ var allQuestions = [
   topic: "Karyokinesis - General",
   q: "Which of the following is the <b>correct</b> sequence of events during mitosis?",
   options: [
-    "Condensation → Alignment at equator → Nuclear envelope breakdown → Chromatid separation → Decondensation",
-    "Nuclear envelope breakdown → Condensation → Alignment → Separation → Reformation",
-    "Condensation → Nuclear envelope breakdown → Alignment at equator → Chromatid separation → Decondensation and nuclear envelope reformation",
-    "Alignment → Condensation → Separation → Nuclear envelope breakdown → Reformation"
-  ],
-  correct: 2,
+      "Condensation → Alignment at equator → Nuclear envelope breakdown → Chromatid separation → Decondensation",
+      "Nuclear envelope breakdown → Condensation → Alignment → Separation → Reformation",
+      "Alignment → Condensation → Separation → Nuclear envelope breakdown → Reformation",
+      "Condensation → Nuclear envelope breakdown → Alignment at equator → Chromatid separation → Decondensation and nuclear envelope reformation"
+    ], correct: 3,
   explanation: "The correct sequence is: Condensation begins (prophase) → Nuclear envelope breaks down (late prophase/early metaphase) → Chromosomes align at equator (metaphase) → Chromatids separate (anaphase) → Decondensation + nuclear envelope reformation (telophase)."
 },
 {
@@ -1435,12 +1363,11 @@ var allQuestions = [
   topic: "Karyokinesis - General",
   q: "How many daughter nuclei are formed at the end of karyokinesis in mitosis?",
   options: [
-    "One",
-    "Two",
-    "Four",
-    "Eight"
-  ],
-  correct: 1,
+      "Two",
+      "One",
+      "Four",
+      "Eight"
+    ], correct: 0,
   explanation: "At the end of karyokinesis, two daughter nuclei are formed — one at each pole. NCERT states: 'Nuclear envelope develops around the chromosome clusters at each pole forming two daughter nuclei.'"
 },
 {
@@ -1461,12 +1388,11 @@ var allQuestions = [
   topic: "Karyokinesis - General",
   q: "Select the <b>incorrect</b> match:",
   options: [
-    "Prophase — Chromatin condensation initiation",
-    "Metaphase — Centromere splitting",
-    "Anaphase — Daughter chromosomes migrate to poles",
-    "Telophase — Nuclear envelope reformation"
-  ],
-  correct: 1,
+      "Prophase — Chromatin condensation initiation",
+      "Anaphase — Daughter chromosomes migrate to poles",
+      "Metaphase — Centromere splitting",
+      "Telophase — Nuclear envelope reformation"
+    ], correct: 2,
   explanation: "Centromere splitting occurs at the onset of ANAPHASE, not metaphase. At metaphase, chromosomes align at the equator with intact centromeres holding sister chromatids together."
 },
 {
@@ -1487,12 +1413,11 @@ var allQuestions = [
   topic: "Karyokinesis - Prophase",
   q: "During prophase, which of the following is true about chromosomes?",
   options: [
-    "They appear as single chromatid structures",
-    "They are composed of two chromatids attached together at the centromere",
-    "They are aligned at the metaphase plate",
-    "They have split centromeres"
-  ],
-  correct: 1,
+      "They appear as single chromatid structures",
+      "They have split centromeres",
+      "They are aligned at the metaphase plate",
+      "They are composed of two chromatids attached together at the centromere"
+    ], correct: 3,
   explanation: "NCERT states: 'Chromosomes are seen to be composed of two chromatids attached together at the centromere' during prophase. This is because DNA replication has already occurred in S phase."
 },
 {
@@ -1500,12 +1425,11 @@ var allQuestions = [
   topic: "Karyokinesis - General",
   q: "A cell biologist treats cells with a drug that prevents spindle fibre formation. At which stage will mitosis be arrested?",
   options: [
-    "Prophase — chromosomes won't condense",
-    "Metaphase — chromosomes cannot align at the equator or separate",
-    "Anaphase — chromosomes have already separated",
-    "Telophase — nuclear envelope won't reform"
-  ],
-  correct: 1,
+      "Metaphase — chromosomes cannot align at the equator or separate",
+      "Prophase — chromosomes won't condense",
+      "Anaphase — chromosomes have already separated",
+      "Telophase — nuclear envelope won't reform"
+    ], correct: 0,
   explanation: "Spindle fibres are essential for chromosome movement to the metaphase plate and subsequent separation. Without spindle fibres, chromosomes cannot align at the equator (metaphase arrest) and cannot be pulled to poles. This is the principle behind colchicine treatment used in karyotyping."
 },
 {
@@ -1513,12 +1437,11 @@ var allQuestions = [
   topic: "Karyokinesis - General",
   q: "The chromatin material tends to collect at each of the two poles during:",
   options: [
-    "Prophase",
-    "Metaphase",
-    "Anaphase",
-    "Telophase"
-  ],
-  correct: 3,
+      "Prophase",
+      "Telophase",
+      "Anaphase",
+      "Metaphase"
+    ], correct: 1,
   explanation: "NCERT states: 'each set of chromatin material tends to collect at each of the two poles' during telophase, after chromosomes have decondensed."
 },
 {
@@ -1526,12 +1449,11 @@ var allQuestions = [
   topic: "Karyokinesis - Prophase",
   q: "Which of the following correctly describes the role of asters during mitosis?",
   options: [
-    "Asters are microtubules radiated by kinetochores",
-    "Asters are microtubules radiated by each centrosome",
-    "Asters are formed during telophase for nuclear envelope reformation",
-    "Asters connect the two chromatids of a chromosome"
-  ],
-  correct: 1,
+      "Asters are microtubules radiated by kinetochores",
+      "Asters are formed during telophase for nuclear envelope reformation",
+      "Asters are microtubules radiated by each centrosome",
+      "Asters connect the two chromatids of a chromosome"
+    ], correct: 2,
   explanation: "NCERT states: 'Each centrosome radiates out microtubules called asters.' They are part of the mitotic apparatus along with spindle fibres."
 },
 {
@@ -1539,12 +1461,11 @@ var allQuestions = [
   topic: "Karyokinesis - General",
   q: "Read the following statements carefully:<br>(I) During prophase, chromosomal material condenses<br>(II) During metaphase, nuclear envelope has completely disintegrated<br>(III) During anaphase, chromosomes split sequentially one after another<br>(IV) During telophase, chromosomes decondense<br><br>Which statement is <b>incorrect</b>?",
   options: [
-    "Statement I",
-    "Statement II",
-    "Statement III",
-    "Statement IV"
-  ],
-  correct: 2,
+      "Statement I",
+      "Statement II",
+      "Statement IV",
+      "Statement III"
+    ], correct: 3,
   explanation: "Statement III is incorrect. NCERT states that at the onset of anaphase, each chromosome is split SIMULTANEOUSLY, not sequentially one after another. This simultaneous splitting is a key feature of anaphase."
 },
 {
@@ -1552,12 +1473,11 @@ var allQuestions = [
   topic: "Karyokinesis - General",
   q: "Which of the following stages of mitosis is characterised by the formation of two daughter nuclei?",
   options: [
-    "Prophase",
-    "Metaphase",
-    "Anaphase",
-    "Telophase"
-  ],
-  correct: 3,
+      "Telophase",
+      "Metaphase",
+      "Anaphase",
+      "Prophase"
+    ], correct: 0,
   explanation: "During telophase, nuclear envelope develops around the chromosome clusters at each pole, forming two daughter nuclei."
 },
 {
@@ -1565,12 +1485,11 @@ var allQuestions = [
   topic: "Karyokinesis - General",
   q: "Consider the following events:<br>(a) Asters form<br>(b) Kinetochores attach to spindle fibres<br>(c) Centromeres split<br>(d) Nucleolus reforms<br><br>The correct sequence of these events during mitosis is:",
   options: [
-    "a → b → c → d",
-    "b → a → c → d",
-    "c → a → b → d",
-    "d → a → b → c"
-  ],
-  correct: 0,
+      "b → a → c → d",
+      "a → b → c → d",
+      "c → a → b → d",
+      "d → a → b → c"
+    ], correct: 1,
   explanation: "Asters form during prophase (a) → Kinetochores attach to spindle fibres during metaphase (b) → Centromeres split during anaphase (c) → Nucleolus reforms during telophase (d)."
 },
 {
@@ -1591,12 +1510,11 @@ var allQuestions = [
   topic: "Cytokinesis",
   q: "Cytokinesis refers to:",
   options: [
-    "Division of nucleus into two daughter nuclei",
-    "Separation of cytoplasm to form two daughter cells",
-    "Duplication of DNA during S phase",
-    "Condensation of chromosomes during prophase"
-  ],
-  correct: 1,
+      "Division of nucleus into two daughter nuclei",
+      "Duplication of DNA during S phase",
+      "Separation of cytoplasm to form two daughter cells",
+      "Condensation of chromosomes during prophase"
+    ], correct: 2,
   explanation: "NCERT defines cytokinesis as the separation of cytoplasm that divides the cell into two daughter cells. Karyokinesis is the division of the nucleus."
 },
 {
@@ -1604,12 +1522,11 @@ var allQuestions = [
   topic: "Cytokinesis",
   q: "In animal cells, cytokinesis is achieved by:",
   options: [
-    "Formation of a cell plate from the centre",
-    "Appearance of a furrow in the plasma membrane that deepens and joins in the centre",
-    "Formation of a new cell wall from the periphery",
-    "Direct splitting of the cell wall"
-  ],
-  correct: 1,
+      "Formation of a cell plate from the centre",
+      "Direct splitting of the cell wall",
+      "Formation of a new cell wall from the periphery",
+      "Appearance of a furrow in the plasma membrane that deepens and joins in the centre"
+    ], correct: 3,
   explanation: "NCERT states: 'In an animal cell, this is achieved by the appearance of a furrow in the plasma membrane. The furrow gradually deepens and ultimately joins in the centre dividing the cell cytoplasm into two.'"
 },
 {
@@ -1617,12 +1534,11 @@ var allQuestions = [
   topic: "Cytokinesis",
   q: "In plant cells, cytokinesis occurs by:",
   options: [
-    "Cleavage furrow formation from outside to inside",
-    "Cell plate formation starting from the centre and growing outward to meet lateral walls",
-    "Cell plate formation starting from the periphery and growing inward",
-    "Constriction of plasma membrane"
-  ],
-  correct: 1,
+      "Cell plate formation starting from the centre and growing outward to meet lateral walls",
+      "Cleavage furrow formation from outside to inside",
+      "Cell plate formation starting from the periphery and growing inward",
+      "Constriction of plasma membrane"
+    ], correct: 0,
   explanation: "NCERT states: 'In plant cells, wall formation starts in the centre of the cell and grows outward to meet the existing lateral walls.' This is the opposite direction of animal cell cytokinesis."
 },
 {
@@ -1669,12 +1585,11 @@ var allQuestions = [
   topic: "Cytokinesis",
   q: "During cytokinesis, which of the following organelles get distributed between the two daughter cells?",
   options: [
-    "Only mitochondria",
-    "Only plastids",
-    "Mitochondria and plastids",
-    "Only ribosomes"
-  ],
-  correct: 2,
+      "Only mitochondria",
+      "Only plastids",
+      "Only ribosomes",
+      "Mitochondria and plastids"
+    ], correct: 3,
   explanation: "NCERT states: 'At the time of cytoplasmic division, organelles like mitochondria and plastids get distributed between the two daughter cells.'"
 },
 {
@@ -1682,12 +1597,11 @@ var allQuestions = [
   topic: "Cytokinesis",
   q: "A multinucleate condition called syncytium arises when:",
   options: [
-    "Cytokinesis occurs without karyokinesis",
-    "Karyokinesis is not followed by cytokinesis",
-    "Both karyokinesis and cytokinesis fail to occur",
-    "DNA replication occurs without cell division"
-  ],
-  correct: 1,
+      "Karyokinesis is not followed by cytokinesis",
+      "Cytokinesis occurs without karyokinesis",
+      "Both karyokinesis and cytokinesis fail to occur",
+      "DNA replication occurs without cell division"
+    ], correct: 0,
   explanation: "NCERT states: 'In some organisms karyokinesis is not followed by cytokinesis as a result of which multinucleate condition arises leading to the formation of syncytium.'"
 },
 {
@@ -1695,12 +1609,11 @@ var allQuestions = [
   topic: "Cytokinesis",
   q: "Which of the following is an example of a syncytium?",
   options: [
-    "Onion root tip cells",
-    "Human red blood cells",
-    "Liquid endosperm in coconut",
-    "Guard cells of stomata"
-  ],
-  correct: 2,
+      "Onion root tip cells",
+      "Liquid endosperm in coconut",
+      "Human red blood cells",
+      "Guard cells of stomata"
+    ], correct: 1,
   explanation: "NCERT gives 'liquid endosperm in coconut' as an example of syncytium, where karyokinesis is not followed by cytokinesis, resulting in a multinucleate condition."
 },
 {
@@ -1708,12 +1621,11 @@ var allQuestions = [
   topic: "Cytokinesis",
   q: "Consider the following statements about cytokinesis:<br>(I) In animal cells, furrow forms from outside to inside<br>(II) In plant cells, cell plate forms from inside to outside<br>(III) In plant cells, cell plate represents the primary wall<br>(IV) Syncytium is formed when cytokinesis does not follow karyokinesis<br><br>Which statements are correct?",
   options: [
-    "I, II and IV only",
-    "I, II and III only",
-    "I, III and IV only",
-    "All are correct"
-  ],
-  correct: 0,
+      "I, III and IV only",
+      "I, II and III only",
+      "I, II and IV only",
+      "All are correct"
+    ], correct: 2,
   explanation: "Statements I, II, and IV are correct. Statement III is wrong — the cell plate represents the middle lamella, NOT the primary wall."
 },
 {
@@ -1721,12 +1633,11 @@ var allQuestions = [
   topic: "Cytokinesis",
   q: "Which of the following is <b>incorrect</b> about cytokinesis?",
   options: [
-    "It completes cell division after karyokinesis",
-    "In animal cells, a cleavage furrow is formed",
-    "In plant cells, the cell plate forms from the periphery towards the centre",
-    "Organelles like mitochondria and plastids are distributed between daughter cells"
-  ],
-  correct: 2,
+      "It completes cell division after karyokinesis",
+      "In animal cells, a cleavage furrow is formed",
+      "Organelles like mitochondria and plastids are distributed between daughter cells",
+      "In plant cells, the cell plate forms from the periphery towards the centre"
+    ], correct: 3,
   explanation: "This is incorrect — in plant cells, the cell plate forms from the CENTRE and grows OUTWARD to meet the existing lateral walls, not from periphery to centre. This is a frequently tested trap in NEET."
 },
 {
@@ -1747,12 +1658,11 @@ var allQuestions = [
   topic: "Significance of Mitosis",
   q: "Mitosis or equational division is usually restricted to:",
   options: [
-    "Haploid cells only",
-    "Diploid cells only",
-    "Both haploid and diploid cells equally",
-    "Tetraploid cells only"
-  ],
-  correct: 1,
+      "Diploid cells only",
+      "Haploid cells only",
+      "Both haploid and diploid cells equally",
+      "Tetraploid cells only"
+    ], correct: 0,
   explanation: "NCERT states: 'Mitosis or the equational division is usually restricted to the diploid cells only.' However, exceptions exist in some lower plants and social insects where haploid cells also divide by mitosis."
 },
 {
@@ -1760,12 +1670,11 @@ var allQuestions = [
   topic: "Significance of Mitosis",
   q: "Which of the following is <b>NOT</b> a significance of mitosis as per NCERT?",
   options: [
-    "Growth of multicellular organisms",
-    "Cell repair and replacement",
-    "Production of genetic variation",
-    "Restoration of nucleo-cytoplasmic ratio"
-  ],
-  correct: 2,
+      "Growth of multicellular organisms",
+      "Production of genetic variation",
+      "Cell repair and replacement",
+      "Restoration of nucleo-cytoplasmic ratio"
+    ], correct: 1,
   explanation: "Production of genetic variation is a significance of MEIOSIS (through crossing over and independent assortment), not mitosis. Mitosis produces daughter cells with identical genetic complement."
 },
 {
@@ -1773,12 +1682,11 @@ var allQuestions = [
   topic: "Significance of Mitosis",
   q: "Mitosis usually results in the production of:",
   options: [
-    "Haploid daughter cells with recombined genetic material",
-    "Diploid daughter cells with identical genetic complement",
-    "Four genetically different cells",
-    "Cells with half the chromosome number"
-  ],
-  correct: 1,
+      "Haploid daughter cells with recombined genetic material",
+      "Four genetically different cells",
+      "Diploid daughter cells with identical genetic complement",
+      "Cells with half the chromosome number"
+    ], correct: 2,
   explanation: "NCERT states: 'Mitosis usually results in the production of diploid daughter cells with identical genetic complement.'"
 },
 {
@@ -1786,12 +1694,11 @@ var allQuestions = [
   topic: "Significance of Mitosis",
   q: "Cell growth disturbs the ratio between which two cellular components, making cell division essential?",
   options: [
-    "Mitochondria and chloroplasts",
-    "Nucleus and cytoplasm",
-    "Cell wall and plasma membrane",
-    "ER and Golgi complex"
-  ],
-  correct: 1,
+      "Mitochondria and chloroplasts",
+      "ER and Golgi complex",
+      "Cell wall and plasma membrane",
+      "Nucleus and cytoplasm"
+    ], correct: 3,
   explanation: "NCERT states: 'Cell growth results in disturbing the ratio between the nucleus and the cytoplasm. It therefore becomes essential for the cell to divide to restore the nucleo-cytoplasmic ratio.'"
 },
 {
@@ -1799,12 +1706,11 @@ var allQuestions = [
   topic: "Significance of Mitosis",
   q: "Which of the following cells are being constantly replaced by mitotic division?<br>(a) Cells of upper layer of epidermis<br>(b) Cells of the lining of the gut<br>(c) Blood cells<br>(d) Heart cells",
   options: [
-    "Only (a) and (b)",
-    "Only (a), (b) and (c)",
-    "Only (c) and (d)",
-    "All — (a), (b), (c) and (d)"
-  ],
-  correct: 1,
+      "Only (a), (b) and (c)",
+      "Only (a) and (b)",
+      "Only (c) and (d)",
+      "All — (a), (b), (c) and (d)"
+    ], correct: 0,
   explanation: "NCERT mentions cells of upper layer of epidermis, lining of gut, and blood cells as being constantly replaced. Heart cells do NOT divide (they enter G0 phase)."
 },
 {
@@ -1812,12 +1718,11 @@ var allQuestions = [
   topic: "Significance of Mitosis",
   q: "Continuous growth of plants throughout their life is due to mitotic divisions in:",
   options: [
-    "All cells of the plant body",
-    "Only epidermal cells",
-    "Meristematic tissues — apical and lateral cambium",
-    "Only root cells"
-  ],
-  correct: 2,
+      "All cells of the plant body",
+      "Meristematic tissues — apical and lateral cambium",
+      "Only epidermal cells",
+      "Only root cells"
+    ], correct: 1,
   explanation: "NCERT states: 'Mitotic divisions in the meristematic tissues – the apical and the lateral cambium, result in a continuous growth of plants throughout their life.'"
 },
 {
@@ -1838,12 +1743,11 @@ var allQuestions = [
   topic: "Significance of Mitosis",
   q: "In which of the following organisms do haploid cells divide by mitosis?<br>(a) Some lower plants<br>(b) Some social insects<br>(c) All mammals<br>(d) All flowering plants",
   options: [
-    "Only (a) and (b)",
-    "Only (c) and (d)",
-    "Only (a)",
-    "All of the above"
-  ],
-  correct: 0,
+      "Only (a)",
+      "Only (c) and (d)",
+      "Only (a) and (b)",
+      "All of the above"
+    ], correct: 2,
   explanation: "NCERT states: 'in some lower plants and in some social insects haploid cells also divide by mitosis.' This does not apply to all mammals or all flowering plants."
 },
 {
@@ -1851,12 +1755,11 @@ var allQuestions = [
   topic: "Meiosis - Introduction",
   q: "Meiosis is a specialised kind of cell division that:",
   options: [
-    "Maintains the chromosome number",
-    "Doubles the chromosome number",
-    "Reduces the chromosome number by half",
-    "Has no effect on chromosome number"
-  ],
-  correct: 2,
+      "Maintains the chromosome number",
+      "Doubles the chromosome number",
+      "Has no effect on chromosome number",
+      "Reduces the chromosome number by half"
+    ], correct: 3,
   explanation: "NCERT states: 'This specialised kind of cell division that reduces the chromosome number by half results in the production of haploid daughter cells.'"
 },
 {
@@ -1864,12 +1767,11 @@ var allQuestions = [
   topic: "Meiosis - Introduction",
   q: "Which of the following correctly describes the role of meiosis and fertilisation in sexually reproducing organisms?",
   options: [
-    "Meiosis restores diploid phase; fertilisation produces haploid phase",
-    "Meiosis ensures haploid phase; fertilisation restores diploid phase",
-    "Both meiosis and fertilisation produce haploid phase",
-    "Both meiosis and fertilisation restore diploid phase"
-  ],
-  correct: 1,
+      "Meiosis ensures haploid phase; fertilisation restores diploid phase",
+      "Meiosis restores diploid phase; fertilisation produces haploid phase",
+      "Both meiosis and fertilisation produce haploid phase",
+      "Both meiosis and fertilisation restore diploid phase"
+    ], correct: 0,
   explanation: "NCERT states: 'Meiosis ensures the production of haploid phase in the life cycle of sexually reproducing organisms whereas fertilisation restores the diploid phase.'"
 },
 {
@@ -1929,12 +1831,11 @@ var allQuestions = [
   topic: "Meiosis - Introduction",
   q: "Meiosis occurs during which process in plants and animals?",
   options: [
-    "Vegetative reproduction",
-    "Gametogenesis",
-    "Regeneration",
-    "Budding"
-  ],
-  correct: 1,
+      "Vegetative reproduction",
+      "Budding",
+      "Regeneration",
+      "Gametogenesis"
+    ], correct: 3,
   explanation: "NCERT states: 'We come across meiosis during gametogenesis in plants and animals. This leads to the formation of haploid gametes.'"
 },
 {
@@ -1942,12 +1843,11 @@ var allQuestions = [
   topic: "Meiosis - Prophase I",
   q: "Prophase I of meiosis is subdivided into five phases. The correct sequence is:",
   options: [
-    "Leptotene → Pachytene → Zygotene → Diplotene → Diakinesis",
-    "Leptotene → Zygotene → Pachytene → Diplotene → Diakinesis",
-    "Zygotene → Leptotene → Pachytene → Diakinesis → Diplotene",
-    "Leptotene → Zygotene → Diplotene → Pachytene → Diakinesis"
-  ],
-  correct: 1,
+      "Leptotene → Zygotene → Pachytene → Diplotene → Diakinesis",
+      "Leptotene → Pachytene → Zygotene → Diplotene → Diakinesis",
+      "Zygotene → Leptotene → Pachytene → Diakinesis → Diplotene",
+      "Leptotene → Zygotene → Diplotene → Pachytene → Diakinesis"
+    ], correct: 0,
   explanation: "The correct sequence of prophase I sub-stages is: Leptotene → Zygotene → Pachytene → Diplotene → Diakinesis. Remember: 'Lazy Zebras Play During Daytime.'"
 },
 {
@@ -1981,12 +1881,11 @@ var allQuestions = [
   topic: "Meiosis - Prophase I",
   q: "Synapsis occurs during which sub-stage of prophase I?",
   options: [
-    "Leptotene",
-    "Zygotene",
-    "Pachytene",
-    "Diplotene"
-  ],
-  correct: 1,
+      "Leptotene",
+      "Diplotene",
+      "Pachytene",
+      "Zygotene"
+    ], correct: 3,
   explanation: "NCERT clearly states that synapsis (pairing of homologous chromosomes) occurs during the zygotene stage."
 },
 {
@@ -1994,12 +1893,11 @@ var allQuestions = [
   topic: "Meiosis - Prophase I",
   q: "The complex structure formed during chromosome synapsis is called:",
   options: [
-    "Recombination nodule",
-    "Synaptonemal complex",
-    "Chiasmata",
-    "Kinetochore"
-  ],
-  correct: 1,
+      "Synaptonemal complex",
+      "Recombination nodule",
+      "Chiasmata",
+      "Kinetochore"
+    ], correct: 0,
   explanation: "NCERT states: 'chromosome synapsis is accompanied by the formation of complex structure called synaptonemal complex.'"
 },
 {
@@ -2033,12 +1931,11 @@ var allQuestions = [
   topic: "Meiosis - Prophase I",
   q: "During pachytene, the four chromatids of each bivalent become clearly visible as tetrads. This stage is also characterised by:",
   options: [
-    "Synapsis of homologous chromosomes",
-    "Appearance of recombination nodules where crossing over occurs",
-    "Terminalisation of chiasmata",
-    "Dissolution of synaptonemal complex"
-  ],
-  correct: 1,
+      "Synapsis of homologous chromosomes",
+      "Dissolution of synaptonemal complex",
+      "Terminalisation of chiasmata",
+      "Appearance of recombination nodules where crossing over occurs"
+    ], correct: 3,
   explanation: "NCERT states: 'This stage (pachytene) is characterised by the appearance of recombination nodules, the sites at which crossing over occurs between non-sister chromatids of the homologous chromosomes.'"
 },
 {
@@ -2046,12 +1943,11 @@ var allQuestions = [
   topic: "Meiosis - Prophase I",
   q: "Crossing over occurs between:",
   options: [
-    "Sister chromatids of the same chromosome",
-    "Non-sister chromatids of homologous chromosomes",
-    "Non-homologous chromosomes",
-    "Chromatids and the synaptonemal complex"
-  ],
-  correct: 1,
+      "Non-sister chromatids of homologous chromosomes",
+      "Sister chromatids of the same chromosome",
+      "Non-homologous chromosomes",
+      "Chromatids and the synaptonemal complex"
+    ], correct: 0,
   explanation: "NCERT states: 'crossing over occurs between non-sister chromatids of the homologous chromosomes.' It does NOT occur between sister chromatids."
 },
 {
@@ -2098,12 +1994,11 @@ var allQuestions = [
   topic: "Meiosis - Prophase I",
   q: "The X-shaped structures seen during diplotene are called:",
   options: [
-    "Synaptonemal complexes",
-    "Recombination nodules",
-    "Chiasmata",
-    "Bivalents"
-  ],
-  correct: 2,
+      "Chiasmata",
+      "Recombination nodules",
+      "Synaptonemal complexes",
+      "Bivalents"
+    ], correct: 0,
   explanation: "NCERT states: 'These X-shaped structures, are called chiasmata.' They represent the sites of crossing over where homologous chromosomes remain linked."
 },
 {
@@ -2111,12 +2006,11 @@ var allQuestions = [
   topic: "Meiosis - Prophase I",
   q: "In oocytes of some vertebrates, which sub-stage of prophase I can last for months or years?",
   options: [
-    "Leptotene",
-    "Zygotene",
-    "Pachytene",
-    "Diplotene"
-  ],
-  correct: 3,
+      "Leptotene",
+      "Diplotene",
+      "Pachytene",
+      "Zygotene"
+    ], correct: 1,
   explanation: "NCERT states: 'In oocytes of some vertebrates, diplotene can last for months or years.' This is a specific fact frequently asked in NEET."
 },
 {
@@ -2124,12 +2018,11 @@ var allQuestions = [
   topic: "Meiosis - Prophase I",
   q: "Diakinesis is characterised by:<br>(a) Terminalisation of chiasmata<br>(b) Chromosomes are fully condensed<br>(c) Meiotic spindle is assembled<br>(d) Nucleolus disappears and nuclear envelope breaks down<br><br>Which of the above is/are correct?",
   options: [
-    "Only (a) and (b)",
-    "Only (a), (b) and (c)",
-    "Only (c) and (d)",
-    "All — (a), (b), (c) and (d)"
-  ],
-  correct: 3,
+      "Only (a) and (b)",
+      "Only (a), (b) and (c)",
+      "All — (a), (b), (c) and (d)",
+      "Only (c) and (d)"
+    ], correct: 2,
   explanation: "All four are correct features of diakinesis as per NCERT: terminalisation of chiasmata, full condensation, meiotic spindle assembly, and disappearance of nucleolus and nuclear envelope."
 },
 {
@@ -2137,12 +2030,11 @@ var allQuestions = [
   topic: "Meiosis - Prophase I",
   q: "Terminalisation of chiasmata occurs during which sub-stage of prophase I?",
   options: [
-    "Pachytene",
-    "Diplotene",
-    "Diakinesis",
-    "Zygotene"
-  ],
-  correct: 2,
+      "Pachytene",
+      "Diplotene",
+      "Zygotene",
+      "Diakinesis"
+    ], correct: 3,
   explanation: "NCERT states: 'The final stage of meiotic prophase I is diakinesis. This is marked by terminalisation of chiasmata.'"
 },
 {
@@ -2150,12 +2042,11 @@ var allQuestions = [
   topic: "Meiosis - Prophase I",
   q: "Diakinesis represents transition to:",
   options: [
-    "Diplotene",
-    "Metaphase I",
-    "Anaphase I",
-    "Telophase I"
-  ],
-  correct: 1,
+      "Metaphase I",
+      "Diplotene",
+      "Anaphase I",
+      "Telophase I"
+    ], correct: 0,
   explanation: "NCERT states: 'Diakinesis represents transition to metaphase.'"
 },
 {
@@ -2176,12 +2067,11 @@ var allQuestions = [
   topic: "Meiosis - Prophase I",
   q: "Match the sub-stage of prophase I with its key event:<br>(a) Leptotene — (i) Synapsis<br>(b) Zygotene — (ii) Chromosomes become visible<br>(c) Pachytene — (iii) Chiasmata visible<br>(d) Diplotene — (iv) Crossing over<br>(e) Diakinesis — (v) Terminalisation of chiasmata",
   options: [
-    "a-ii, b-i, c-iv, d-iii, e-v",
-    "a-i, b-ii, c-iii, d-iv, e-v",
-    "a-ii, b-i, c-iii, d-iv, e-v",
-    "a-i, b-ii, c-iv, d-iii, e-v"
-  ],
-  correct: 0,
+      "a-i, b-ii, c-iii, d-iv, e-v",
+      "a-ii, b-i, c-iv, d-iii, e-v",
+      "a-ii, b-i, c-iii, d-iv, e-v",
+      "a-i, b-ii, c-iv, d-iii, e-v"
+    ], correct: 1,
   explanation: "Leptotene: chromosomes become visible (a-ii). Zygotene: synapsis occurs (b-i). Pachytene: crossing over at recombination nodules (c-iv). Diplotene: chiasmata become visible (d-iii). Diakinesis: terminalisation of chiasmata (e-v)."
 },
 {
@@ -2202,12 +2092,11 @@ var allQuestions = [
   topic: "Meiosis - Prophase I",
   q: "During which sub-stage of prophase I does the synaptonemal complex dissolve?",
   options: [
-    "Zygotene",
-    "Pachytene",
-    "Diplotene",
-    "Diakinesis"
-  ],
-  correct: 2,
+      "Zygotene",
+      "Pachytene",
+      "Diakinesis",
+      "Diplotene"
+    ], correct: 3,
   explanation: "NCERT states: 'The beginning of diplotene is recognised by the dissolution of the synaptonemal complex.' The synaptonemal complex forms during zygotene and dissolves at diplotene."
 },
 {
@@ -2215,12 +2104,11 @@ var allQuestions = [
   topic: "Meiosis - Prophase I",
   q: "Consider the following statements:<br>(I) Synaptonemal complex forms during zygotene<br>(II) Synaptonemal complex dissolves during pachytene<br>(III) Recombination is completed by end of pachytene<br>(IV) Chiasmata become visible during diplotene<br><br>Which statements are correct?",
   options: [
-    "I, II and III",
-    "I, III and IV",
-    "II, III and IV",
-    "All are correct"
-  ],
-  correct: 1,
+      "I, III and IV",
+      "I, II and III",
+      "II, III and IV",
+      "All are correct"
+    ], correct: 0,
   explanation: "Statements I, III, and IV are correct. Statement II is wrong — synaptonemal complex dissolves during DIPLOTENE, not pachytene."
 },
 {
@@ -2241,12 +2129,11 @@ var allQuestions = [
   topic: "Meiosis - Prophase I",
   q: "Which of the following is <b>incorrect</b> about pachytene?",
   options: [
-    "Four chromatids of each bivalent become distinct as tetrads",
-    "Recombination nodules appear",
-    "Crossing over occurs between non-sister chromatids",
-    "Chiasmata become visible and synaptonemal complex dissolves"
-  ],
-  correct: 3,
+      "Four chromatids of each bivalent become distinct as tetrads",
+      "Recombination nodules appear",
+      "Chiasmata become visible and synaptonemal complex dissolves",
+      "Crossing over occurs between non-sister chromatids"
+    ], correct: 2,
   explanation: "Chiasmata become visible and synaptonemal complex dissolves during DIPLOTENE, not pachytene. During pachytene, crossing over occurs but the visible evidence (chiasmata) appears only at diplotene. This is a key conceptual trap."
 },
 {
@@ -2254,12 +2141,11 @@ var allQuestions = [
   topic: "Meiosis - Metaphase I",
   q: "During metaphase I, bivalent chromosomes align on:",
   options: [
-    "The cell plate",
-    "The equatorial plate",
-    "The spindle poles",
-    "The nuclear envelope"
-  ],
-  correct: 1,
+      "The cell plate",
+      "The nuclear envelope",
+      "The spindle poles",
+      "The equatorial plate"
+    ], correct: 3,
   explanation: "NCERT states: 'The bivalent chromosomes align on the equatorial plate' during metaphase I."
 },
 {
@@ -2267,12 +2153,11 @@ var allQuestions = [
   topic: "Meiosis - Metaphase I",
   q: "During metaphase I, the microtubules from opposite poles of the spindle attach to:",
   options: [
-    "The kinetochore of sister chromatids of the same chromosome",
-    "The kinetochore of homologous chromosomes",
-    "The arms of the chromosomes",
-    "The telomeres of the chromosomes"
-  ],
-  correct: 1,
+      "The kinetochore of homologous chromosomes",
+      "The kinetochore of sister chromatids of the same chromosome",
+      "The arms of the chromosomes",
+      "The telomeres of the chromosomes"
+    ], correct: 0,
   explanation: "NCERT states: 'The microtubules from the opposite poles of the spindle attach to the kinetochore of homologous chromosomes.' This differs from mitosis where spindle fibres attach to kinetochores of sister chromatids."
 },
 {
@@ -2319,12 +2204,11 @@ var allQuestions = [
   topic: "Meiosis - Anaphase I",
   q: "Which is the key difference between anaphase of mitosis and anaphase I of meiosis?",
   options: [
-    "In mitosis, homologous chromosomes separate; in meiosis I, sister chromatids separate",
-    "In mitosis, sister chromatids separate; in meiosis I, homologous chromosomes separate",
-    "In both, sister chromatids separate",
-    "In both, homologous chromosomes separate"
-  ],
-  correct: 1,
+      "In mitosis, homologous chromosomes separate; in meiosis I, sister chromatids separate",
+      "In both, sister chromatids separate",
+      "In mitosis, sister chromatids separate; in meiosis I, homologous chromosomes separate",
+      "In both, homologous chromosomes separate"
+    ], correct: 2,
   explanation: "In anaphase of mitosis, centromeres split and sister chromatids separate. In anaphase I of meiosis, homologous chromosomes separate while sister chromatids remain joined at their centromeres."
 },
 {
@@ -2332,12 +2216,11 @@ var allQuestions = [
   topic: "Meiosis - Telophase I",
   q: "During telophase I, which of the following events occur?<br>(a) Nuclear membrane reappears<br>(b) Nucleolus reappears<br>(c) Cytokinesis follows<br>(d) DNA replication occurs",
   options: [
-    "Only (a), (b) and (c)",
-    "Only (a) and (b)",
-    "Only (c) and (d)",
-    "All — (a), (b), (c) and (d)"
-  ],
-  correct: 0,
+      "All — (a), (b), (c) and (d)",
+      "Only (a) and (b)",
+      "Only (c) and (d)",
+      "Only (a), (b) and (c)"
+    ], correct: 3,
   explanation: "NCERT states: 'The nuclear membrane and nucleolus reappear, cytokinesis follows.' DNA replication does NOT occur during telophase I or the subsequent interkinesis."
 },
 {
@@ -2345,12 +2228,11 @@ var allQuestions = [
   topic: "Meiosis - Telophase I",
   q: "The product of meiosis I (after telophase I and cytokinesis) is called:",
   options: [
-    "Monad",
-    "Dyad of cells",
-    "Tetrad of cells",
-    "Bivalent"
-  ],
-  correct: 1,
+      "Dyad of cells",
+      "Monad",
+      "Tetrad of cells",
+      "Bivalent"
+    ], correct: 0,
   explanation: "NCERT states: 'cytokinesis follows and this is called as dyad of cells.' A dyad consists of two cells, each with half the chromosome number."
 },
 {
@@ -2371,12 +2253,11 @@ var allQuestions = [
   topic: "Meiosis - Interkinesis",
   q: "The stage between the two meiotic divisions is called:",
   options: [
-    "Interphase",
-    "Interkinesis",
-    "Cytokinesis",
-    "G0 phase"
-  ],
-  correct: 1,
+      "Interphase",
+      "Cytokinesis",
+      "Interkinesis",
+      "G0 phase"
+    ], correct: 2,
   explanation: "NCERT states: 'The stage between the two meiotic divisions is called interkinesis.' It is NOT the same as interphase."
 },
 {
@@ -2384,12 +2265,11 @@ var allQuestions = [
   topic: "Meiosis - Interkinesis",
   q: "Which of the following is true about interkinesis?",
   options: [
-    "It is a long phase with extensive DNA replication",
-    "It is generally short lived with no replication of DNA",
-    "It involves complete chromosome condensation",
-    "It is identical to the interphase before meiosis I"
-  ],
-  correct: 1,
+      "It is a long phase with extensive DNA replication",
+      "It is identical to the interphase before meiosis I",
+      "It involves complete chromosome condensation",
+      "It is generally short lived with no replication of DNA"
+    ], correct: 3,
   explanation: "NCERT states: 'interkinesis...is generally short lived. There is no replication of DNA during interkinesis.' This is crucial — if DNA replicated again, the chromosome number would not be halved."
 },
 {
@@ -2410,12 +2290,11 @@ var allQuestions = [
   topic: "Meiosis - Interkinesis",
   q: "Interkinesis is followed by:",
   options: [
-    "Meiosis I",
-    "S phase",
-    "Prophase II",
-    "Metaphase I"
-  ],
-  correct: 2,
+      "Prophase II",
+      "S phase",
+      "Meiosis I",
+      "Metaphase I"
+    ], correct: 0,
   explanation: "NCERT states: 'Interkinesis is followed by prophase II, a much simpler prophase than prophase I.'"
 },
 {
@@ -2436,12 +2315,11 @@ var allQuestions = [
   topic: "Meiosis - Prophase I",
   q: "Which of the following events occurs in the correct chronological order during prophase I?",
   options: [
-    "Crossing over → Synapsis → Chiasmata visible → Terminalisation",
-    "Synapsis → Crossing over → Chiasmata visible → Terminalisation",
-    "Chiasmata visible → Crossing over → Synapsis → Terminalisation",
-    "Terminalisation → Chiasmata visible → Crossing over → Synapsis"
-  ],
-  correct: 1,
+      "Crossing over → Synapsis → Chiasmata visible → Terminalisation",
+      "Chiasmata visible → Crossing over → Synapsis → Terminalisation",
+      "Synapsis → Crossing over → Chiasmata visible → Terminalisation",
+      "Terminalisation → Chiasmata visible → Crossing over → Synapsis"
+    ], correct: 2,
   explanation: "The correct order is: Synapsis (zygotene) → Crossing over (pachytene) → Chiasmata become visible (diplotene) → Terminalisation of chiasmata (diakinesis)."
 },
 {
@@ -2449,12 +2327,11 @@ var allQuestions = [
   topic: "Meiosis - Prophase I",
   q: "A student confuses the sub-stages and states: 'Chiasmata are first formed during pachytene.' This statement is:",
   options: [
-    "Correct, as crossing over occurs during pachytene",
-    "Incorrect, as chiasmata become visible only during diplotene",
-    "Correct, as chiasmata form at recombination nodules",
-    "Incorrect, as chiasmata form during leptotene"
-  ],
-  correct: 1,
+      "Correct, as crossing over occurs during pachytene",
+      "Incorrect, as chiasmata form during leptotene",
+      "Correct, as chiasmata form at recombination nodules",
+      "Incorrect, as chiasmata become visible only during diplotene"
+    ], correct: 3,
   explanation: "While crossing over occurs during pachytene, the X-shaped structures called chiasmata become VISIBLE only during diplotene, when the synaptonemal complex dissolves and homologous chromosomes begin to separate except at crossover sites. This is a very important distinction."
 },
 {
@@ -2462,12 +2339,11 @@ var allQuestions = [
   topic: "Meiosis - General",
   q: "Select the <b>correct</b> difference between meiosis I and meiosis II:",
   options: [
-    "DNA replication occurs before both meiosis I and meiosis II",
-    "Homologous chromosomes separate in meiosis I; sister chromatids separate in meiosis II",
-    "Sister chromatids separate in meiosis I; homologous chromosomes separate in meiosis II",
-    "Both meiosis I and II are reductional divisions"
-  ],
-  correct: 1,
+      "Homologous chromosomes separate in meiosis I; sister chromatids separate in meiosis II",
+      "DNA replication occurs before both meiosis I and meiosis II",
+      "Sister chromatids separate in meiosis I; homologous chromosomes separate in meiosis II",
+      "Both meiosis I and II are reductional divisions"
+    ], correct: 0,
   explanation: "In meiosis I, homologous chromosomes separate (reductional division). In meiosis II, sister chromatids separate (equational division). DNA replication occurs only before meiosis I."
 },
 {
@@ -2475,12 +2351,11 @@ var allQuestions = [
   topic: "Meiosis - Prophase I",
   q: "Recombination nodules are sites at which:",
   options: [
-    "Synaptonemal complex forms",
-    "Synapsis of homologous chromosomes occurs",
-    "Crossing over occurs between non-sister chromatids",
-    "Terminalisation of chiasmata occurs"
-  ],
-  correct: 2,
+      "Synaptonemal complex forms",
+      "Crossing over occurs between non-sister chromatids",
+      "Synapsis of homologous chromosomes occurs",
+      "Terminalisation of chiasmata occurs"
+    ], correct: 1,
   explanation: "NCERT states: 'This stage (pachytene) is characterised by the appearance of recombination nodules, the sites at which crossing over occurs between non-sister chromatids of the homologous chromosomes.'"
 },
 {
@@ -2488,12 +2363,11 @@ var allQuestions = [
   topic: "Meiosis - Prophase I",
   q: "By the end of diakinesis, which of the following events have occurred?<br>(a) Nucleolus disappears<br>(b) Nuclear envelope breaks down<br>(c) Meiotic spindle is assembled<br>(d) Chiasmata have terminalised<br>(e) DNA replication has occurred for the second time",
   options: [
-    "Only (a), (b), (c) and (d)",
-    "Only (a) and (b)",
-    "All — (a), (b), (c), (d) and (e)",
-    "Only (c), (d) and (e)"
-  ],
-  correct: 0,
+      "All — (a), (b), (c), (d) and (e)",
+      "Only (a) and (b)",
+      "Only (a), (b), (c) and (d)",
+      "Only (c), (d) and (e)"
+    ], correct: 2,
   explanation: "Events (a), (b), (c), and (d) all occur by the end of diakinesis as per NCERT. Statement (e) is incorrect — DNA replication occurs only once (before meiosis I), not during diakinesis."
 },
 {
@@ -2501,12 +2375,11 @@ var allQuestions = [
   topic: "Cytokinesis",
   q: "The direction of cytokinesis in animal and plant cells can be described as:",
   options: [
-    "Centripetal in both animal and plant cells",
-    "Centrifugal in both animal and plant cells",
-    "Centripetal in animal cells and centrifugal in plant cells",
-    "Centrifugal in animal cells and centripetal in plant cells"
-  ],
-  correct: 2,
+      "Centripetal in both animal and plant cells",
+      "Centrifugal in both animal and plant cells",
+      "Centrifugal in animal cells and centripetal in plant cells",
+      "Centripetal in animal cells and centrifugal in plant cells"
+    ], correct: 3,
   explanation: "In animal cells, cleavage furrow forms from the periphery inward (centripetal). In plant cells, cell plate forms from the centre outward (centrifugal). This is a classic comparison question in NEET."
 },
 {
@@ -2514,12 +2387,11 @@ var allQuestions = [
   topic: "Significance of Mitosis",
   q: "The nucleo-cytoplasmic ratio is restored by:",
   options: [
-    "DNA replication",
-    "Cell division (mitosis)",
-    "Protein synthesis",
-    "Cell growth"
-  ],
-  correct: 1,
+      "Cell division (mitosis)",
+      "DNA replication",
+      "Protein synthesis",
+      "Cell growth"
+    ], correct: 0,
   explanation: "NCERT states: 'Cell growth results in disturbing the ratio between the nucleus and the cytoplasm. It therefore becomes essential for the cell to divide to restore the nucleo-cytoplasmic ratio.'"
 },
 {
@@ -2527,12 +2399,11 @@ var allQuestions = [
   topic: "Meiosis - Prophase I",
   q: "Which of the following is the correct chronological relationship between synaptonemal complex and chiasmata?",
   options: [
-    "Chiasmata form first, then synaptonemal complex",
-    "Both form simultaneously during pachytene",
-    "Synaptonemal complex forms during zygotene; chiasmata become visible during diplotene after synaptonemal complex dissolves",
-    "Both form during diplotene simultaneously"
-  ],
-  correct: 2,
+      "Chiasmata form first, then synaptonemal complex",
+      "Synaptonemal complex forms during zygotene; chiasmata become visible during diplotene after synaptonemal complex dissolves",
+      "Both form simultaneously during pachytene",
+      "Both form during diplotene simultaneously"
+    ], correct: 1,
   explanation: "Synaptonemal complex forms during zygotene (facilitating synapsis). After crossing over in pachytene, the synaptonemal complex dissolves at the beginning of diplotene, and chiasmata become visible at the points where crossing over occurred."
 },
 {
@@ -2540,12 +2411,11 @@ var allQuestions = [
   topic: "Meiosis - Prophase I",
   q: "If a cell with 2n = 14 enters meiosis, the number of bivalents formed during zygotene/pachytene would be:",
   options: [
-    "14",
-    "7",
-    "28",
-    "4"
-  ],
-  correct: 1,
+      "14",
+      "28",
+      "7",
+      "4"
+    ], correct: 2,
   explanation: "A bivalent is formed by the pairing of two homologous chromosomes. If 2n = 14, there are 7 pairs of homologous chromosomes, so 7 bivalents will be formed."
 },
 {
@@ -2553,12 +2423,11 @@ var allQuestions = [
   topic: "Meiosis - Prophase I",
   q: "If a cell with 2n = 14 enters meiosis, the number of chromatids in a single tetrad would be:",
   options: [
-    "2",
-    "4",
-    "7",
-    "14"
-  ],
-  correct: 1,
+      "2",
+      "14",
+      "7",
+      "4"
+    ], correct: 3,
   explanation: "A tetrad (bivalent) consists of two homologous chromosomes, each with two sister chromatids = 4 chromatids per tetrad. This is why it's called a tetrad."
 },
 {
@@ -2566,12 +2435,11 @@ var allQuestions = [
   topic: "Meiosis - General",
   q: "Which of the following correctly distinguishes metaphase I of meiosis from metaphase of mitosis?",
   options: [
-    "In metaphase I, individual chromosomes align; in mitotic metaphase, bivalents align",
-    "In metaphase I, bivalents align on the equatorial plate; in mitotic metaphase, individual chromosomes align",
-    "There is no difference between the two",
-    "In metaphase I, spindle fibres do not form; in mitotic metaphase, they form"
-  ],
-  correct: 1,
+      "In metaphase I, bivalents align on the equatorial plate; in mitotic metaphase, individual chromosomes align",
+      "In metaphase I, individual chromosomes align; in mitotic metaphase, bivalents align",
+      "There is no difference between the two",
+      "In metaphase I, spindle fibres do not form; in mitotic metaphase, they form"
+    ], correct: 0,
   explanation: "In metaphase I, bivalent chromosomes (paired homologs) align on the equatorial plate. In mitotic metaphase, individual chromosomes (each with two sister chromatids) align at the metaphase plate."
 },
 {
@@ -2579,12 +2447,11 @@ var allQuestions = [
   topic: "Meiosis - Telophase I",
   q: "Which of the following is <b>incorrect</b> about telophase I?",
   options: [
-    "Nuclear membrane and nucleolus reappear",
-    "Cytokinesis follows to form a dyad of cells",
-    "Chromosomes reach the extremely extended state of interphase nucleus",
-    "Chromosomes may undergo some dispersion"
-  ],
-  correct: 2,
+      "Nuclear membrane and nucleolus reappear",
+      "Chromosomes reach the extremely extended state of interphase nucleus",
+      "Cytokinesis follows to form a dyad of cells",
+      "Chromosomes may undergo some dispersion"
+    ], correct: 1,
   explanation: "NCERT specifically states that although chromosomes may undergo some dispersion, they do NOT reach the extremely extended state of the interphase nucleus. This is a testable detail."
 },
 {
@@ -2605,12 +2472,11 @@ var allQuestions = [
   topic: "Cytokinesis",
   q: "Consider the following comparison between cytokinesis in animal and plant cells:<br>(I) Animal cells: Furrow formation; Plant cells: Cell plate formation<br>(II) Animal cells: Outside to inside; Plant cells: Inside to outside<br>(III) Animal cells: Cell plate forms; Plant cells: Furrow forms<br>(IV) Cell plate represents middle lamella in plant cells<br><br>Which statements are correct?",
   options: [
-    "I, II and IV",
-    "I, II and III",
-    "II, III and IV",
-    "All are correct"
-  ],
-  correct: 0,
+      "All are correct",
+      "I, II and III",
+      "II, III and IV",
+      "I, II and IV"
+    ], correct: 3,
   explanation: "Statements I, II, and IV are correct. Statement III is wrong — it reverses the mechanisms. Animal cells form furrows (not cell plates) and plant cells form cell plates (not furrows)."
 },
 {
@@ -2618,12 +2484,11 @@ var allQuestions = [
   topic: "Meiosis - Prophase I",
   q: "A student observes a meiotic cell where homologous chromosomes are paired and X-shaped structures are visible, but the synaptonemal complex has dissolved. The cell is most likely in:",
   options: [
-    "Zygotene",
-    "Pachytene",
-    "Diplotene",
-    "Diakinesis"
-  ],
-  correct: 2,
+      "Diplotene",
+      "Pachytene",
+      "Zygotene",
+      "Diakinesis"
+    ], correct: 0,
   explanation: "The combination of dissolved synaptonemal complex + visible chiasmata (X-shaped structures) + homologous chromosomes still partially paired is characteristic of diplotene."
 },
 {
@@ -2631,12 +2496,11 @@ var allQuestions = [
   topic: "Meiosis - Prophase I",
   q: "A researcher observes a cell in prophase I where chromosomes are fully condensed, nuclear envelope is breaking down, and chiasmata appear to be moving towards chromosome ends. The cell is in:",
   options: [
-    "Leptotene",
-    "Pachytene",
-    "Diplotene",
-    "Diakinesis"
-  ],
-  correct: 3,
+      "Leptotene",
+      "Diakinesis",
+      "Diplotene",
+      "Pachytene"
+    ], correct: 1,
   explanation: "Fully condensed chromosomes + nuclear envelope breakdown + terminalisation of chiasmata (movement towards chromosome ends) are all characteristic features of diakinesis."
 },
 {
@@ -2644,12 +2508,11 @@ var allQuestions = [
   topic: "Meiosis - General",
   q: "Which of the following events is common to both the end of prophase (mitosis) and the end of diakinesis (meiosis)?<br>(a) Nucleolus disappears<br>(b) Nuclear envelope breaks down<br>(c) Crossing over occurs<br>(d) Chromosomes are condensed",
   options: [
-    "Only (a), (b) and (d)",
-    "Only (c)",
-    "Only (a) and (b)",
-    "All — (a), (b), (c) and (d)"
-  ],
-  correct: 0,
+      "Only (a) and (b)",
+      "Only (c)",
+      "Only (a), (b) and (d)",
+      "All — (a), (b), (c) and (d)"
+    ], correct: 2,
   explanation: "Events (a), (b), and (d) are common to both. Crossing over (c) is exclusive to meiosis (pachytene of prophase I) and does NOT occur during mitotic prophase."
 },
 {
@@ -2657,12 +2520,11 @@ var allQuestions = [
   topic: "Significance of Mitosis",
   q: "Consider the following:<br>(I) Growth of multicellular organisms<br>(II) Cell repair<br>(III) Restoring nucleo-cytoplasmic ratio<br>(IV) Production of genetic variation<br>(V) Continuous growth in meristematic tissues<br><br>Which of the above are significances of mitosis?",
   options: [
-    "I, II, III and V only",
-    "I, II, III, IV and V",
-    "I, III and IV only",
-    "II and IV only"
-  ],
-  correct: 0,
+      "II and IV only",
+      "I, II, III, IV and V",
+      "I, III and IV only",
+      "I, II, III and V only"
+    ], correct: 3,
   explanation: "I, II, III, and V are all significances of mitosis as per NCERT. IV (genetic variation) is a significance of meiosis, not mitosis. Mitosis produces genetically identical daughter cells."
 },
 {
@@ -2670,12 +2532,11 @@ var allQuestions = [
   topic: "Meiosis - Prophase I",
   q: "Crossing over is defined as:",
   options: [
-    "Pairing of homologous chromosomes",
-    "Exchange of genetic material between two homologous chromosomes",
-    "Separation of homologous chromosomes",
-    "Formation of synaptonemal complex"
-  ],
-  correct: 1,
+      "Exchange of genetic material between two homologous chromosomes",
+      "Pairing of homologous chromosomes",
+      "Separation of homologous chromosomes",
+      "Formation of synaptonemal complex"
+    ], correct: 0,
   explanation: "NCERT defines: 'Crossing over is the exchange of genetic material between two homologous chromosomes.'"
 },
 {
@@ -2683,12 +2544,11 @@ var allQuestions = [
   topic: "Meiosis - Prophase I",
   q: "The correct sequence of events in prophase I is:",
   options: [
-    "Chromosome compaction → Synapsis → Synaptonemal complex formation → Crossing over → Synaptonemal complex dissolution → Chiasmata visible → Terminalisation",
-    "Synapsis → Chromosome compaction → Crossing over → Terminalisation → Chiasmata visible",
-    "Crossing over → Synapsis → Chiasmata → Terminalisation → Synaptonemal complex",
-    "Synaptonemal complex → Synapsis → Terminalisation → Crossing over → Chiasmata"
-  ],
-  correct: 0,
+      "Synapsis → Chromosome compaction → Crossing over → Terminalisation → Chiasmata visible",
+      "Chromosome compaction → Synapsis → Synaptonemal complex formation → Crossing over → Synaptonemal complex dissolution → Chiasmata visible → Terminalisation",
+      "Crossing over → Synapsis → Chiasmata → Terminalisation → Synaptonemal complex",
+      "Synaptonemal complex → Synapsis → Terminalisation → Crossing over → Chiasmata"
+    ], correct: 1,
   explanation: "The correct sequence is: Chromosome compaction (leptotene) → Synapsis + synaptonemal complex formation (zygotene) → Crossing over at recombination nodules (pachytene) → Synaptonemal complex dissolution + chiasmata visible (diplotene) → Terminalisation of chiasmata (diakinesis)."
 },
 {
@@ -2709,12 +2569,11 @@ var allQuestions = [
   topic: "Meiosis - General",
   q: "Gametes are formed from:",
   options: [
-    "Specialised haploid cells",
-    "Specialised diploid cells",
-    "Any somatic cell",
-    "Only stem cells"
-  ],
-  correct: 1,
+      "Specialised haploid cells",
+      "Only stem cells",
+      "Any somatic cell",
+      "Specialised diploid cells"
+    ], correct: 3,
   explanation: "NCERT states: 'Gametes are formed from specialised diploid cells.' These diploid cells undergo meiosis to produce haploid gametes."
 },
 {
@@ -2735,12 +2594,11 @@ var allQuestions = [
   topic: "Meiosis - General",
   q: "The production of offspring by sexual reproduction involves the fusion of two gametes, each with:",
   options: [
-    "A complete diploid set of chromosomes",
-    "A complete haploid set of chromosomes",
-    "A random number of chromosomes",
-    "Double the normal chromosome number"
-  ],
-  correct: 1,
+      "A complete haploid set of chromosomes",
+      "A complete diploid set of chromosomes",
+      "A random number of chromosomes",
+      "Double the normal chromosome number"
+    ], correct: 0,
   explanation: "NCERT states: 'The production of offspring by sexual reproduction includes the fusion of two gametes, each with a complete haploid set of chromosomes.'"
 },
 {
@@ -2748,12 +2606,11 @@ var allQuestions = [
   topic: "Meiosis - Prophase I",
   q: "During which sub-stage are bivalents/tetrads most clearly visible?",
   options: [
-    "Leptotene",
-    "Zygotene",
-    "Pachytene",
-    "Diakinesis"
-  ],
-  correct: 2,
+      "Leptotene",
+      "Pachytene",
+      "Zygotene",
+      "Diakinesis"
+    ], correct: 1,
   explanation: "NCERT states that bivalents form during zygotene but notes 'these are more clearly visible at the next stage' — i.e., pachytene, where the four chromatids of each bivalent become distinct and clearly appear as tetrads."
 },
 {
@@ -2761,12 +2618,11 @@ var allQuestions = [
   topic: "Meiosis II - Prophase II",
   q: "Meiosis II is initiated:",
   options: [
-    "After a long interphase with complete chromosome elongation",
-    "Immediately after cytokinesis, usually before chromosomes have fully elongated",
-    "Only after complete DNA replication in interkinesis",
-    "After chromosomes have reached the extremely extended interphase state"
-  ],
-  correct: 1,
+      "After a long interphase with complete chromosome elongation",
+      "Only after complete DNA replication in interkinesis",
+      "Immediately after cytokinesis, usually before chromosomes have fully elongated",
+      "After chromosomes have reached the extremely extended interphase state"
+    ], correct: 2,
   explanation: "NCERT states: 'Meiosis II is initiated immediately after cytokinesis, usually before the chromosomes have fully elongated.'"
 },
 {
@@ -2774,12 +2630,11 @@ var allQuestions = [
   topic: "Meiosis II - Prophase II",
   q: "Meiosis II resembles:",
   options: [
-    "Meiosis I",
-    "A normal mitosis",
-    "S phase of interphase",
-    "G1 phase of interphase"
-  ],
-  correct: 1,
+      "Meiosis I",
+      "G1 phase of interphase",
+      "S phase of interphase",
+      "A normal mitosis"
+    ], correct: 3,
   explanation: "NCERT states: 'In contrast to meiosis I, meiosis II resembles a normal mitosis.' This is because meiosis II involves separation of sister chromatids, just like mitosis."
 },
 {
@@ -2787,12 +2642,11 @@ var allQuestions = [
   topic: "Meiosis II - Prophase II",
   q: "During prophase II, which of the following events occur?<br>(a) Nuclear membrane disappears<br>(b) Chromosomes become compact<br>(c) Synapsis of homologous chromosomes occurs<br>(d) Crossing over takes place",
   options: [
-    "Only (a) and (b)",
-    "Only (a), (b) and (c)",
-    "Only (c) and (d)",
-    "All — (a), (b), (c) and (d)"
-  ],
-  correct: 0,
+      "Only (a), (b) and (c)",
+      "Only (a) and (b)",
+      "Only (c) and (d)",
+      "All — (a), (b), (c) and (d)"
+    ], correct: 1,
   explanation: "Only (a) and (b) occur during prophase II. Synapsis (c) and crossing over (d) are exclusive to prophase I of meiosis. Prophase II is a much simpler prophase."
 },
 {
@@ -2826,12 +2680,11 @@ var allQuestions = [
   topic: "Meiosis II - Metaphase II",
   q: "During metaphase II, microtubules from opposite poles of the spindle get attached to:",
   options: [
-    "Kinetochores of homologous chromosomes",
-    "Kinetochores of sister chromatids",
-    "Arms of the chromosomes",
-    "Centromeres directly"
-  ],
-  correct: 1,
+      "Kinetochores of homologous chromosomes",
+      "Centromeres directly",
+      "Arms of the chromosomes",
+      "Kinetochores of sister chromatids"
+    ], correct: 3,
   explanation: "NCERT states: 'the microtubules from opposite poles of the spindle get attached to the kinetochores of sister chromatids.' This is similar to mitotic metaphase. In metaphase I, they attach to kinetochores of homologous chromosomes."
 },
 {
@@ -2852,12 +2705,11 @@ var allQuestions = [
   topic: "Meiosis II - Anaphase II",
   q: "Anaphase II begins with:",
   options: [
-    "Separation of homologous chromosomes",
-    "Simultaneous splitting of the centromere of each chromosome",
-    "Formation of synaptonemal complex",
-    "Dissolution of nuclear envelope"
-  ],
-  correct: 1,
+      "Separation of homologous chromosomes",
+      "Formation of synaptonemal complex",
+      "Simultaneous splitting of the centromere of each chromosome",
+      "Dissolution of nuclear envelope"
+    ], correct: 2,
   explanation: "NCERT states: 'It begins with the simultaneous splitting of the centromere of each chromosome (which was holding the sister chromatids together).'"
 },
 {
@@ -2865,12 +2717,11 @@ var allQuestions = [
   topic: "Meiosis II - Anaphase II",
   q: "During anaphase II, sister chromatids move toward opposite poles by:",
   options: [
-    "Elongation of microtubules attached to kinetochores",
-    "Shortening of microtubules attached to kinetochores",
-    "Dissolution of the nuclear envelope",
-    "Formation of the cell plate"
-  ],
-  correct: 1,
+      "Elongation of microtubules attached to kinetochores",
+      "Formation of the cell plate",
+      "Dissolution of the nuclear envelope",
+      "Shortening of microtubules attached to kinetochores"
+    ], correct: 3,
   explanation: "NCERT states: 'allowing them to move toward opposite poles of the cell by shortening of microtubules attached to kinetochores.'"
 },
 {
@@ -2891,12 +2742,11 @@ var allQuestions = [
   topic: "Meiosis II - Anaphase II",
   q: "Which of the following correctly compares anaphase I and anaphase II?",
   options: [
-    "In anaphase I, centromeres split; in anaphase II, they do not",
-    "In anaphase I, sister chromatids separate; in anaphase II, homologous chromosomes separate",
-    "In anaphase I, homologous chromosomes separate; in anaphase II, sister chromatids separate",
-    "In both, homologous chromosomes separate"
-  ],
-  correct: 2,
+      "In anaphase I, centromeres split; in anaphase II, they do not",
+      "In anaphase I, homologous chromosomes separate; in anaphase II, sister chromatids separate",
+      "In anaphase I, sister chromatids separate; in anaphase II, homologous chromosomes separate",
+      "In both, homologous chromosomes separate"
+    ], correct: 1,
   explanation: "In anaphase I, homologous chromosomes separate (centromeres do NOT split). In anaphase II, centromeres split and sister chromatids separate. This is a very important NEET comparison."
 },
 {
@@ -2917,12 +2767,11 @@ var allQuestions = [
   topic: "Meiosis II - Telophase II",
   q: "During telophase II, the two groups of chromosomes:",
   options: [
-    "Further condense and remain compact",
-    "Get enclosed by a nuclear envelope",
-    "Undergo another round of DNA replication",
-    "Form bivalents again"
-  ],
-  correct: 1,
+      "Further condense and remain compact",
+      "Form bivalents again",
+      "Undergo another round of DNA replication",
+      "Get enclosed by a nuclear envelope"
+    ], correct: 3,
   explanation: "NCERT states: 'the two groups of chromosomes once again get enclosed by a nuclear envelope; cytokinesis follows.'"
 },
 {
@@ -2930,12 +2779,11 @@ var allQuestions = [
   topic: "Meiosis II - Telophase II",
   q: "The final product of meiosis is:",
   options: [
-    "Two diploid daughter cells",
-    "Two haploid daughter cells",
-    "Four diploid daughter cells",
-    "Four haploid daughter cells (tetrad of cells)"
-  ],
-  correct: 3,
+      "Two diploid daughter cells",
+      "Four haploid daughter cells (tetrad of cells)",
+      "Four diploid daughter cells",
+      "Two haploid daughter cells"
+    ], correct: 1,
   explanation: "NCERT states: 'cytokinesis follows resulting in the formation of tetrad of cells i.e., four haploid daughter cells.'"
 },
 {
@@ -2943,12 +2791,11 @@ var allQuestions = [
   topic: "Meiosis II - Telophase II",
   q: "The term 'tetrad of cells' refers to:",
   options: [
-    "Four chromatids in a bivalent during pachytene",
-    "Four haploid daughter cells formed at the end of meiosis II",
-    "Four homologous chromosomes paired together",
-    "Four bivalents during metaphase I"
-  ],
-  correct: 1,
+      "Four chromatids in a bivalent during pachytene",
+      "Four homologous chromosomes paired together",
+      "Four haploid daughter cells formed at the end of meiosis II",
+      "Four bivalents during metaphase I"
+    ], correct: 2,
   explanation: "NCERT uses 'tetrad of cells' to refer to the four haploid daughter cells formed at the end of meiosis II. Note: 'tetrad' can also refer to four chromatids of a bivalent during pachytene — context matters!"
 },
 {
@@ -2956,12 +2803,11 @@ var allQuestions = [
   topic: "Meiosis II - General",
   q: "Which of the following events occurs in anaphase II but NOT in anaphase I?",
   options: [
-    "Movement of chromosomes towards poles",
-    "Splitting of centromeres",
-    "Separation of homologous chromosomes",
-    "Shortening of spindle fibres"
-  ],
-  correct: 1,
+      "Movement of chromosomes towards poles",
+      "Shortening of spindle fibres",
+      "Separation of homologous chromosomes",
+      "Splitting of centromeres"
+    ], correct: 3,
   explanation: "Centromeres split during anaphase II but NOT during anaphase I. In anaphase I, homologous chromosomes separate while sister chromatids remain joined at their centromeres."
 },
 {
@@ -2969,12 +2815,11 @@ var allQuestions = [
   topic: "Meiosis II - General",
   q: "Consider the following statements:<br>(I) Meiosis II resembles normal mitosis<br>(II) In meiosis II, sister chromatids separate<br>(III) DNA replication occurs before meiosis II<br>(IV) Four haploid cells are formed at the end of meiosis II<br><br>Which statements are correct?",
   options: [
-    "I, II and IV only",
-    "I, II, III and IV",
-    "I and IV only",
-    "II, III and IV only"
-  ],
-  correct: 0,
+      "I, II, III and IV",
+      "I, II and IV only",
+      "I and IV only",
+      "II, III and IV only"
+    ], correct: 1,
   explanation: "Statements I, II, and IV are correct. Statement III is wrong — there is NO DNA replication before meiosis II (no replication during interkinesis). This is a classic NEET trap."
 },
 {
@@ -3008,12 +2853,11 @@ var allQuestions = [
   topic: "Meiosis II - General",
   q: "During meiosis, the actual reduction in chromosome number occurs during:",
   options: [
-    "Meiosis II",
-    "Meiosis I",
-    "Interkinesis",
-    "Both meiosis I and meiosis II equally"
-  ],
-  correct: 1,
+      "Meiosis II",
+      "Both meiosis I and meiosis II equally",
+      "Interkinesis",
+      "Meiosis I"
+    ], correct: 3,
   explanation: "The actual reduction in chromosome number occurs during meiosis I (specifically anaphase I) when homologous chromosomes separate. Meiosis II is equational — chromosome number is maintained."
 },
 {
@@ -3034,12 +2878,11 @@ var allQuestions = [
   topic: "Significance of Meiosis",
   q: "Which of the following is a paradox about meiosis as described by NCERT?",
   options: [
-    "It conserves chromosome number but actually increases it",
-    "It conserves specific chromosome number across generations but per se results in reduction of chromosome number by half",
-    "It produces diploid cells but is called reduction division",
-    "It occurs in haploid cells to produce diploid cells"
-  ],
-  correct: 1,
+      "It conserves chromosome number but actually increases it",
+      "It produces diploid cells but is called reduction division",
+      "It conserves specific chromosome number across generations but per se results in reduction of chromosome number by half",
+      "It occurs in haploid cells to produce diploid cells"
+    ], correct: 2,
   explanation: "NCERT states: 'Meiosis is the mechanism by which conservation of specific chromosome number...is achieved...even though the process, per se, paradoxically, results in reduction of chromosome number by half.' The paradox is that halving actually conserves the species' chromosome number when combined with fertilisation."
 },
 {
@@ -3047,12 +2890,11 @@ var allQuestions = [
   topic: "Significance of Meiosis",
   q: "Meiosis increases genetic variability in the population through which processes?",
   options: [
-    "Only DNA replication",
-    "Crossing over and independent assortment of chromosomes",
-    "Only cytokinesis",
-    "Cell growth during interphase"
-  ],
-  correct: 1,
+      "Only DNA replication",
+      "Cell growth during interphase",
+      "Only cytokinesis",
+      "Crossing over and independent assortment of chromosomes"
+    ], correct: 3,
   explanation: "NCERT states meiosis 'increases the genetic variability in the population of organisms from one generation to the next.' This occurs through crossing over (recombination) and independent assortment of homologous chromosomes."
 },
 {
@@ -3060,12 +2902,11 @@ var allQuestions = [
   topic: "Significance of Meiosis",
   q: "Why are variations important according to NCERT?",
   options: [
-    "They are not important",
-    "They are important only for growth",
-    "They are very important for the process of evolution",
-    "They are important only for cell repair"
-  ],
-  correct: 2,
+      "They are not important",
+      "They are very important for the process of evolution",
+      "They are important only for growth",
+      "They are important only for cell repair"
+    ], correct: 1,
   explanation: "NCERT states: 'Variations are very important for the process of evolution.'"
 },
 {
@@ -3086,12 +2927,11 @@ var allQuestions = [
   topic: "Significance of Meiosis",
   q: "Consider the following significances:<br>(I) Conservation of species-specific chromosome number<br>(II) Increases genetic variability<br>(III) Produces identical daughter cells<br>(IV) Important for evolution<br><br>Which are significances of meiosis?",
   options: [
-    "I, II and IV only",
-    "I, II and III only",
-    "III and IV only",
-    "All are correct"
-  ],
-  correct: 0,
+      "III and IV only",
+      "I, II and III only",
+      "I, II and IV only",
+      "All are correct"
+    ], correct: 2,
   explanation: "I, II, and IV are correct significances of meiosis. III is wrong — meiosis does NOT produce identical daughter cells; it produces genetically variable haploid cells. Production of identical cells is a feature of mitosis."
 },
 {
@@ -3099,12 +2939,11 @@ var allQuestions = [
   topic: "Significance of Meiosis",
   q: "In sexually reproducing organisms, the diploid phase is restored by:",
   options: [
-    "Meiosis",
-    "Mitosis",
-    "Fertilisation",
-    "DNA replication"
-  ],
-  correct: 2,
+      "Meiosis",
+      "Mitosis",
+      "DNA replication",
+      "Fertilisation"
+    ], correct: 3,
   explanation: "NCERT states: 'Meiosis ensures the production of haploid phase...whereas fertilisation restores the diploid phase.'"
 },
 {
@@ -3125,12 +2964,11 @@ var allQuestions = [
   topic: "Summary - Cell Cycle",
   q: "Any sexually reproducing organism starts its life cycle from:",
   options: [
-    "A multicellular embryo",
-    "A single-celled zygote",
-    "A haploid gamete",
-    "A diploid somatic cell"
-  ],
-  correct: 1,
+      "A multicellular embryo",
+      "A haploid gamete",
+      "A single-celled zygote",
+      "A diploid somatic cell"
+    ], correct: 2,
   explanation: "NCERT states: 'Any sexually reproducing organism starts its life cycle from a single-celled zygote.'"
 },
 {
@@ -3138,12 +2976,11 @@ var allQuestions = [
   topic: "Summary - Cell Cycle",
   q: "Cell division in an organism:",
   options: [
-    "Stops with the formation of the mature organism",
-    "Occurs only during embryonic development",
-    "Does not stop with the formation of the mature organism but continues throughout its life cycle",
-    "Occurs only in reproductive organs"
-  ],
-  correct: 2,
+      "Stops with the formation of the mature organism",
+      "Occurs only during embryonic development",
+      "Occurs only in reproductive organs",
+      "Does not stop with the formation of the mature organism but continues throughout its life cycle"
+    ], correct: 3,
   explanation: "NCERT states: 'Cell division does not stop with the formation of the mature organism but continues throughout its life cycle.'"
 },
 {
@@ -3164,12 +3001,11 @@ var allQuestions = [
   topic: "Summary - Interphase",
   q: "Most of the organelle duplication occurs during which phase of interphase?",
   options: [
-    "S phase",
-    "G1 phase",
-    "G2 phase",
-    "M phase"
-  ],
-  correct: 1,
+      "S phase",
+      "G2 phase",
+      "G1 phase",
+      "M phase"
+    ], correct: 2,
   explanation: "NCERT summary states: 'G1 phase is the period when the cell grows and carries out normal metabolism. Most of the organelle duplication also occurs during this phase.'"
 },
 {
@@ -3177,12 +3013,11 @@ var allQuestions = [
   topic: "Summary - Interphase",
   q: "S phase is marked by:",
   options: [
-    "Cell growth and normal metabolism",
-    "Cytoplasmic growth only",
-    "DNA replication and chromosome duplication",
-    "Protein synthesis for mitosis"
-  ],
-  correct: 2,
+      "Cell growth and normal metabolism",
+      "Cytoplasmic growth only",
+      "Protein synthesis for mitosis",
+      "DNA replication and chromosome duplication"
+    ], correct: 3,
   explanation: "NCERT summary states: 'S phase marks the phase of DNA replication and chromosome duplication.'"
 },
 {
@@ -3190,12 +3025,11 @@ var allQuestions = [
   topic: "Summary - Interphase",
   q: "G2 phase is the period of:",
   options: [
-    "DNA replication",
-    "Organelle duplication",
-    "Cytoplasmic growth",
-    "Nuclear division"
-  ],
-  correct: 2,
+      "DNA replication",
+      "Cytoplasmic growth",
+      "Organelle duplication",
+      "Nuclear division"
+    ], correct: 1,
   explanation: "NCERT summary states: 'G2 phase is the period of cytoplasmic growth.'"
 },
 {
@@ -3203,12 +3037,11 @@ var allQuestions = [
   topic: "Summary - Mitosis",
   q: "During prophase of mitosis, which of the following events occur simultaneously?<br>(a) Chromosome condensation<br>(b) Centrioles move to opposite poles<br>(c) Nuclear envelope and nucleolus disappear<br>(d) Spindle fibres start appearing",
   options: [
-    "Only (a) and (b)",
-    "Only (a), (b) and (d)",
-    "Only (c) and (d)",
-    "All — (a), (b), (c) and (d)"
-  ],
-  correct: 3,
+      "Only (a) and (b)",
+      "Only (a), (b) and (d)",
+      "All — (a), (b), (c) and (d)",
+      "Only (c) and (d)"
+    ], correct: 2,
   explanation: "NCERT summary states all four events occur during prophase: chromosome condensation, centrioles moving to opposite poles, disappearance of nuclear envelope and nucleolus, and spindle fibre formation."
 },
 {
@@ -3216,12 +3049,11 @@ var allQuestions = [
   topic: "Summary - Mitosis",
   q: "During anaphase of mitosis, which events occur?<br>(a) Centromeres divide<br>(b) Chromatids start moving towards two opposite poles<br>(c) Chromosomes align at equatorial plate<br>(d) Nuclear membrane reappears",
   options: [
-    "Only (a) and (b)",
-    "Only (c) and (d)",
-    "Only (a), (b) and (c)",
-    "All of the above"
-  ],
-  correct: 0,
+      "All of the above",
+      "Only (c) and (d)",
+      "Only (a), (b) and (c)",
+      "Only (a) and (b)"
+    ], correct: 3,
   explanation: "Only (a) and (b) are anaphase events. Alignment at equatorial plate (c) is a metaphase event. Nuclear membrane reappearance (d) is a telophase event."
 },
 {
@@ -3229,12 +3061,11 @@ var allQuestions = [
   topic: "Summary - Mitosis",
   q: "Which of the following correctly describes telophase of mitosis as per NCERT summary?<br>(a) Chromatids reach the two poles<br>(b) Chromosomal elongation starts<br>(c) Nucleolus and nuclear membrane reappear",
   options: [
-    "Only (a) and (b)",
-    "Only (b) and (c)",
-    "Only (a) and (c)",
-    "All — (a), (b) and (c)"
-  ],
-  correct: 3,
+      "Only (a) and (b)",
+      "All — (a), (b) and (c)",
+      "Only (a) and (c)",
+      "Only (b) and (c)"
+    ], correct: 1,
   explanation: "NCERT summary states: 'Once the chromatids reach the two poles, the chromosomal elongation starts, nucleolus and the nuclear membrane reappear. This stage is called the telophase.' All three are correct."
 },
 {
@@ -3255,12 +3086,11 @@ var allQuestions = [
   topic: "Summary - Meiosis",
   q: "Meiosis occurs in which type of cells?",
   options: [
-    "All somatic cells",
-    "Diploid cells destined to form gametes",
-    "Only haploid cells",
-    "All cells undergoing growth"
-  ],
-  correct: 1,
+      "All somatic cells",
+      "All cells undergoing growth",
+      "Only haploid cells",
+      "Diploid cells destined to form gametes"
+    ], correct: 3,
   explanation: "NCERT summary states: 'meiosis occurs in the diploid cells, which are destined to form gametes.'"
 },
 {
@@ -3268,12 +3098,11 @@ var allQuestions = [
   topic: "Summary - Meiosis",
   q: "Meiosis is called the reduction division because:",
   options: [
-    "It increases the chromosome number",
-    "It conserves the chromosome number",
-    "It reduces the chromosome number by half while making gametes",
-    "It produces identical daughter cells"
-  ],
-  correct: 2,
+      "It increases the chromosome number",
+      "It reduces the chromosome number by half while making gametes",
+      "It conserves the chromosome number",
+      "It produces identical daughter cells"
+    ], correct: 1,
   explanation: "NCERT summary states: 'It is called the reduction division since it reduces the chromosome number by half while making the gametes.'"
 },
 {
@@ -3281,12 +3110,11 @@ var allQuestions = [
   topic: "Summary - Meiosis",
   q: "In sexual reproduction, when two gametes fuse:",
   options: [
-    "Chromosome number is halved",
-    "Chromosome number is restored to the value in the parent",
-    "Chromosome number is doubled beyond parent value",
-    "Chromosome number remains at haploid level"
-  ],
-  correct: 1,
+      "Chromosome number is halved",
+      "Chromosome number is doubled beyond parent value",
+      "Chromosome number is restored to the value in the parent",
+      "Chromosome number remains at haploid level"
+    ], correct: 2,
   explanation: "NCERT summary states: 'In sexual reproduction when the two gametes fuse the chromosome number is restored to the value in the parent.'"
 },
 {
@@ -3294,12 +3122,11 @@ var allQuestions = [
   topic: "Summary - Meiosis",
   q: "During anaphase I of meiosis, homologous chromosomes move to opposite poles with:",
   options: [
-    "Only one chromatid each",
-    "Both their chromatids (sister chromatids remain joined)",
-    "No chromatids",
-    "Four chromatids each"
-  ],
-  correct: 1,
+      "Only one chromatid each",
+      "Four chromatids each",
+      "No chromatids",
+      "Both their chromatids (sister chromatids remain joined)"
+    ], correct: 3,
   explanation: "NCERT summary states: 'homologous chromosomes move to the opposite poles with both their chromatids.' This means sister chromatids do NOT separate in anaphase I."
 },
 {
@@ -3320,12 +3147,11 @@ var allQuestions = [
   topic: "Summary - Integrative",
   q: "Consider the following comparison between mitosis and meiosis:<br>(I) Mitosis is equational; Meiosis is reductional<br>(II) Mitosis produces 2 cells; Meiosis produces 4 cells<br>(III) Mitosis occurs in somatic cells; Meiosis in cells destined for gamete formation<br>(IV) Both involve crossing over<br><br>Which statements are correct?",
   options: [
-    "I, II and III only",
-    "I, II, III and IV",
-    "II, III and IV only",
-    "I and III only"
-  ],
-  correct: 0,
+      "II, III and IV only",
+      "I, II, III and IV",
+      "I, II and III only",
+      "I and III only"
+    ], correct: 2,
   explanation: "Statements I, II, and III are correct. Statement IV is wrong — crossing over occurs only in meiosis (prophase I), NOT in mitosis."
 },
 {
@@ -3333,12 +3159,11 @@ var allQuestions = [
   topic: "Summary - Integrative",
   q: "Which of the following correctly pairs the division type with its outcome?",
   options: [
-    "Mitosis → 4 haploid cells; Meiosis → 2 diploid cells",
-    "Mitosis → 2 diploid identical cells; Meiosis → 4 haploid genetically variable cells",
-    "Mitosis → 2 haploid cells; Meiosis → 4 diploid cells",
-    "Mitosis → 4 diploid cells; Meiosis → 2 haploid cells"
-  ],
-  correct: 1,
+      "Mitosis → 4 haploid cells; Meiosis → 2 diploid cells",
+      "Mitosis → 4 diploid cells; Meiosis → 2 haploid cells",
+      "Mitosis → 2 haploid cells; Meiosis → 4 diploid cells",
+      "Mitosis → 2 diploid identical cells; Meiosis → 4 haploid genetically variable cells"
+    ], correct: 3,
   explanation: "Mitosis produces 2 diploid daughter cells with identical genetic complement. Meiosis produces 4 haploid daughter cells with genetic variability due to crossing over and independent assortment."
 },
 {
@@ -3346,12 +3171,11 @@ var allQuestions = [
   topic: "Summary - Integrative",
   q: "Match the following:<br>(a) G1 phase — (i) DNA replication<br>(b) S phase — (ii) Cytoplasmic growth<br>(c) G2 phase — (iii) Cell growth, metabolism, organelle duplication<br>(d) M phase — (iv) Actual cell division",
   options: [
-    "a-iii, b-i, c-ii, d-iv",
-    "a-i, b-ii, c-iii, d-iv",
-    "a-ii, b-iii, c-i, d-iv",
-    "a-iv, b-i, c-ii, d-iii"
-  ],
-  correct: 0,
+      "a-i, b-ii, c-iii, d-iv",
+      "a-iii, b-i, c-ii, d-iv",
+      "a-ii, b-iii, c-i, d-iv",
+      "a-iv, b-i, c-ii, d-iii"
+    ], correct: 1,
   explanation: "G1: cell growth, metabolism, organelle duplication (a-iii). S: DNA replication (b-i). G2: cytoplasmic growth (c-ii). M: actual cell division (d-iv)."
 },
 {
@@ -3359,12 +3183,11 @@ var allQuestions = [
   topic: "Summary - Integrative",
   q: "Nuclear division followed by cytoplasmic division is the correct order. These are called respectively:",
   options: [
-    "Cytokinesis and karyokinesis",
-    "Karyokinesis and cytokinesis",
-    "Mitosis and meiosis",
-    "Interphase and M phase"
-  ],
-  correct: 1,
+      "Cytokinesis and karyokinesis",
+      "Mitosis and meiosis",
+      "Karyokinesis and cytokinesis",
+      "Interphase and M phase"
+    ], correct: 2,
   explanation: "NCERT summary states: 'Nuclear division is then followed by the cytoplasmic division and is called cytokinesis.' Nuclear division = karyokinesis; cytoplasmic division = cytokinesis."
 },
 {
@@ -3372,12 +3195,11 @@ var allQuestions = [
   topic: "Summary - Integrative",
   q: "A cell has 2n = 24 chromosomes. After meiosis I, each daughter cell will have ______ chromosomes, and after meiosis II, each cell will have ______ chromosomes.",
   options: [
-    "24; 24",
-    "12; 12",
-    "12; 6",
-    "24; 12"
-  ],
-  correct: 1,
+      "24; 24",
+      "24; 12",
+      "12; 6",
+      "12; 12"
+    ], correct: 3,
   explanation: "After meiosis I (reductional division): chromosome number is halved from 24 to 12. After meiosis II (equational division): chromosome number remains 12. Meiosis II separates sister chromatids, not homologs."
 },
 {
@@ -3385,12 +3207,11 @@ var allQuestions = [
   topic: "Summary - Integrative",
   q: "If a cell with DNA content 2C undergoes meiosis, the DNA content at the end of meiosis I and meiosis II will be respectively:",
   options: [
-    "2C and C",
-    "C and C",
-    "4C and 2C",
-    "2C and 2C"
-  ],
-  correct: 0,
+      "C and C",
+      "2C and C",
+      "4C and 2C",
+      "2C and 2C"
+    ], correct: 1,
   explanation: "Before meiosis: DNA replicates to 4C during S phase. After meiosis I: each cell has 2C. After meiosis II: each cell has C. But if the question says initial content is 2C (meaning at G1), then: S phase → 4C → after meiosis I → 2C → after meiosis II → C."
 },
 {
@@ -3411,12 +3232,11 @@ var allQuestions = [
   topic: "Summary - Integrative",
   q: "Consider the following events and identify which occur in meiosis but NOT in mitosis:<br>(a) Bivalent formation<br>(b) Crossing over<br>(c) Separation of sister chromatids<br>(d) Synapsis<br>(e) Formation of four haploid cells",
   options: [
-    "Only (a), (b) and (c)",
-    "Only (a), (b), (d) and (e)",
-    "Only (c) and (e)",
-    "All — (a), (b), (c), (d) and (e)"
-  ],
-  correct: 1,
+      "Only (a), (b) and (c)",
+      "Only (c) and (e)",
+      "Only (a), (b), (d) and (e)",
+      "All — (a), (b), (c), (d) and (e)"
+    ], correct: 2,
   explanation: "Bivalent formation (a), crossing over (b), synapsis (d), and formation of four haploid cells (e) are exclusive to meiosis. Separation of sister chromatids (c) occurs in BOTH mitosis (anaphase) and meiosis II (anaphase II)."
 },
 {
@@ -3424,12 +3244,11 @@ var allQuestions = [
   topic: "Summary - Integrative",
   q: "The correct sequence of prophase I sub-stages and their key events is:<br>Select the INCORRECT pairing:",
   options: [
-    "Leptotene — Chromosomes become visible",
-    "Zygotene — Synapsis and synaptonemal complex formation",
-    "Pachytene — Terminalisation of chiasmata",
-    "Diplotene — Chiasmata become visible"
-  ],
-  correct: 2,
+      "Leptotene — Chromosomes become visible",
+      "Zygotene — Synapsis and synaptonemal complex formation",
+      "Diplotene — Chiasmata become visible",
+      "Pachytene — Terminalisation of chiasmata"
+    ], correct: 3,
   explanation: "Pachytene is characterised by crossing over at recombination nodules, NOT terminalisation of chiasmata. Terminalisation of chiasmata occurs during diakinesis."
 },
 {
@@ -3450,12 +3269,11 @@ var allQuestions = [
   topic: "Summary - Integrative",
   q: "A cell with 2n = 46 chromosomes undergoes meiosis. How many chromosomes and chromatids will be present in each cell at metaphase II?",
   options: [
-    "46 chromosomes, 92 chromatids",
-    "23 chromosomes, 46 chromatids",
-    "23 chromosomes, 23 chromatids",
-    "46 chromosomes, 46 chromatids"
-  ],
-  correct: 1,
+      "46 chromosomes, 92 chromatids",
+      "23 chromosomes, 23 chromatids",
+      "23 chromosomes, 46 chromatids",
+      "46 chromosomes, 46 chromatids"
+    ], correct: 2,
   explanation: "After meiosis I, each cell has 23 chromosomes (n). At metaphase II, each chromosome still consists of 2 sister chromatids (not yet separated), so: 23 chromosomes and 46 chromatids."
 },
 {
@@ -3463,12 +3281,11 @@ var allQuestions = [
   topic: "Summary - Integrative",
   q: "Select the correct statement:",
   options: [
-    "Mitosis is the reduction division and meiosis is the equational division",
-    "Mitosis occurs in gamete-forming cells and meiosis in somatic cells",
-    "In mitosis, chromosome number is conserved; in meiosis, it is halved",
-    "Both mitosis and meiosis involve crossing over"
-  ],
-  correct: 2,
+      "Mitosis is the reduction division and meiosis is the equational division",
+      "Mitosis occurs in gamete-forming cells and meiosis in somatic cells",
+      "Both mitosis and meiosis involve crossing over",
+      "In mitosis, chromosome number is conserved; in meiosis, it is halved"
+    ], correct: 3,
   explanation: "Mitosis conserves chromosome number (equational division). Meiosis reduces chromosome number by half (reduction division). Mitosis occurs in somatic cells; meiosis in cells destined for gamete formation."
 },
 {
@@ -3489,12 +3306,11 @@ var allQuestions = [
   topic: "Summary - Integrative",
   q: "Which of the following is a key difference between interphase (before mitosis) and interkinesis (between meiosis I and II)?",
   options: [
-    "DNA replication occurs in interphase but NOT in interkinesis",
-    "DNA replication occurs in interkinesis but NOT in interphase",
-    "Both involve DNA replication",
-    "Neither involves DNA replication"
-  ],
-  correct: 0,
+      "Both involve DNA replication",
+      "DNA replication occurs in interkinesis but NOT in interphase",
+      "DNA replication occurs in interphase but NOT in interkinesis",
+      "Neither involves DNA replication"
+    ], correct: 2,
   explanation: "DNA replication occurs during S phase of interphase but does NOT occur during interkinesis. This ensures that the chromosome number is reduced to haploid after meiosis II."
 },
 {
@@ -3502,12 +3318,11 @@ var allQuestions = [
   topic: "Meiosis II - General",
   q: "A student states: 'During metaphase II, bivalents align at the equatorial plate.' This statement is:",
   options: [
-    "Correct, as meiosis II deals with bivalents",
-    "Incorrect, because individual chromosomes (with two sister chromatids) align at the equator during metaphase II",
-    "Correct, as homologous chromosomes are still paired in meiosis II",
-    "Incorrect, because no chromosomes align at the equator in meiosis II"
-  ],
-  correct: 1,
+      "Correct, as meiosis II deals with bivalents",
+      "Incorrect, because no chromosomes align at the equator in meiosis II",
+      "Correct, as homologous chromosomes are still paired in meiosis II",
+      "Incorrect, because individual chromosomes (with two sister chromatids) align at the equator during metaphase II"
+    ], correct: 3,
   explanation: "Bivalents align during metaphase I, NOT metaphase II. During metaphase II, individual chromosomes (each consisting of two sister chromatids) align at the equator. Homologous chromosomes have already separated in meiosis I."
 },
 {
@@ -3528,12 +3343,11 @@ var allQuestions = [
   topic: "Summary - Integrative",
   q: "Consider the following comprehensive comparison:<br><br>Feature | Mitosis | Meiosis<br>(I) Number of divisions | 1 | 2<br>(II) Daughter cells | 2 diploid | 4 haploid<br>(III) Crossing over | Absent | Present<br>(IV) Synapsis | Present | Absent<br><br>Which row is INCORRECT?",
   options: [
-    "Row I",
-    "Row II",
-    "Row III",
-    "Row IV"
-  ],
-  correct: 3,
+      "Row I",
+      "Row II",
+      "Row IV",
+      "Row III"
+    ], correct: 2,
   explanation: "Row IV is incorrect — it is reversed. Synapsis is ABSENT in mitosis and PRESENT in meiosis (during zygotene of prophase I). Rows I, II, and III are all correct."
 },
 {
@@ -3541,12 +3355,11 @@ var allQuestions = [
   topic: "Meiosis II - Prophase II",
   q: "The nuclear membrane disappears by the end of:",
   options: [
-    "Prophase I only",
-    "Prophase II only",
-    "Both prophase I (diakinesis) and prophase II",
-    "Only during metaphase II"
-  ],
-  correct: 2,
+      "Prophase I only",
+      "Prophase II only",
+      "Only during metaphase II",
+      "Both prophase I (diakinesis) and prophase II"
+    ], correct: 3,
   explanation: "Nuclear membrane disappears at the end of diakinesis (prophase I) and also by the end of prophase II, as stated by NCERT: 'The nuclear membrane disappears by the end of prophase II.'"
 },
 {
@@ -3554,12 +3367,11 @@ var allQuestions = [
   topic: "Summary - Integrative",
   q: "A cell with 2n = 20 undergoes meiosis. Fill in the correct values:<br><br>After S phase: _____ chromosomes, _____ DNA content<br>After Meiosis I: _____ chromosomes<br>After Meiosis II: _____ chromosomes",
   options: [
-    "20 chromosomes, 4C; 10 chromosomes; 10 chromosomes",
-    "40 chromosomes, 4C; 20 chromosomes; 10 chromosomes",
-    "20 chromosomes, 2C; 20 chromosomes; 10 chromosomes",
-    "20 chromosomes, 4C; 20 chromosomes; 10 chromosomes"
-  ],
-  correct: 0,
+      "40 chromosomes, 4C; 20 chromosomes; 10 chromosomes",
+      "20 chromosomes, 4C; 10 chromosomes; 10 chromosomes",
+      "20 chromosomes, 2C; 20 chromosomes; 10 chromosomes",
+      "20 chromosomes, 4C; 20 chromosomes; 10 chromosomes"
+    ], correct: 1,
   explanation: "After S phase: 20 chromosomes (unchanged), 4C DNA. After meiosis I: 10 chromosomes (halved). After meiosis II: 10 chromosomes (maintained). DNA content: 4C → 2C (after MI) → C (after MII)."
 },
 {
@@ -3567,12 +3379,11 @@ var allQuestions = [
   topic: "Significance of Meiosis",
   q: "Which of the following is <b>NOT</b> a significance of meiosis?",
   options: [
-    "Conservation of chromosome number across generations",
-    "Genetic variability in the population",
-    "Production of identical daughter cells for growth",
-    "Providing raw material for evolution through variations"
-  ],
-  correct: 2,
+      "Conservation of chromosome number across generations",
+      "Genetic variability in the population",
+      "Providing raw material for evolution through variations",
+      "Production of identical daughter cells for growth"
+    ], correct: 3,
   explanation: "Production of identical daughter cells for growth is a significance of MITOSIS, not meiosis. Meiosis produces genetically variable haploid cells."
 },
 {
@@ -3580,12 +3391,11 @@ var allQuestions = [
   topic: "Summary - Integrative",
   q: "During which phase of meiosis I do homologous chromosomes pair to form bivalents and undergo crossing over?",
   options: [
-    "Metaphase I",
-    "Anaphase I",
-    "Prophase I",
-    "Telophase I"
-  ],
-  correct: 2,
+      "Metaphase I",
+      "Prophase I",
+      "Anaphase I",
+      "Telophase I"
+    ], correct: 1,
   explanation: "NCERT summary states: 'In the first meiotic division the homologous chromosomes pair to form bivalents, and undergo crossing over' — these events occur during prophase I."
 },
 {
@@ -3593,12 +3403,11 @@ var allQuestions = [
   topic: "Meiosis II - Anaphase II",
   q: "The mechanism by which sister chromatids move toward opposite poles during anaphase II is:",
   options: [
-    "Elongation of spindle fibres",
-    "Shortening of microtubules attached to kinetochores",
-    "Dissolution of centromeres",
-    "Action of recombinase enzyme"
-  ],
-  correct: 1,
+      "Elongation of spindle fibres",
+      "Action of recombinase enzyme",
+      "Dissolution of centromeres",
+      "Shortening of microtubules attached to kinetochores"
+    ], correct: 3,
   explanation: "NCERT states chromatids move 'toward opposite poles of the cell by shortening of microtubules attached to kinetochores.'"
 },
 {
@@ -3619,12 +3428,11 @@ var allQuestions = [
   topic: "Meiosis II - General",
   q: "If a cell undergoing meiosis has 10 bivalents during metaphase I, how many chromosomes will each cell have at the end of meiosis II?",
   options: [
-    "20",
-    "10",
-    "5",
-    "40"
-  ],
-  correct: 1,
+      "20",
+      "40",
+      "5",
+      "10"
+    ], correct: 3,
   explanation: "10 bivalents means 2n = 20. After meiosis I: n = 10 chromosomes per cell. After meiosis II: still 10 chromosomes per cell (equational division). Four cells, each with 10 chromosomes."
 },
 {
@@ -3645,12 +3453,11 @@ var allQuestions = [
   topic: "Summary - Integrative",
   q: "Select the option that has all <b>correct</b> statements:<br>(a) Mitosis produces genetically identical diploid cells<br>(b) Meiosis produces genetically variable haploid cells<br>(c) Crossing over occurs in both mitosis and meiosis<br>(d) Meiosis involves only one cycle of DNA replication<br>(e) Mitosis is called reduction division",
   options: [
-    "(a), (b) and (d) only",
-    "(a), (b), (c) and (d)",
-    "(a), (c), (d) and (e)",
-    "All are correct"
-  ],
-  correct: 0,
+      "All are correct",
+      "(a), (b), (c) and (d)",
+      "(a), (c), (d) and (e)",
+      "(a), (b) and (d) only"
+    ], correct: 3,
   explanation: "Statements (a), (b), and (d) are correct. (c) is wrong — crossing over occurs only in meiosis. (e) is wrong — mitosis is equational division; meiosis is the reduction division."
 },
 {
@@ -3658,12 +3465,11 @@ var allQuestions = [
   topic: "Meiosis II - General",
   q: "Which of the following structures is NOT formed during meiosis II?",
   options: [
-    "Spindle apparatus",
-    "Metaphase plate",
-    "Synaptonemal complex",
-    "Nuclear envelope (at telophase II)"
-  ],
-  correct: 2,
+      "Spindle apparatus",
+      "Metaphase plate",
+      "Nuclear envelope (at telophase II)",
+      "Synaptonemal complex"
+    ], correct: 3,
   explanation: "Synaptonemal complex forms during ZYGOTENE of prophase I only, facilitating synapsis of homologous chromosomes. It does NOT form during meiosis II because there are no homologous chromosomes to pair."
 }
 ];

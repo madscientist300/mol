@@ -1,4 +1,4 @@
-var allQuestions = [
+﻿var allQuestions = [
 {
   id: 1,
   topic: "Introduction - Photosynthesis Overview",
@@ -30,12 +30,11 @@ var allQuestions = [
   topic: "Introduction - Photosynthesis Overview",
   q: "Melvin Calvin received his Nobel Prize for:",
   options: [
-    "Discovery of C14 radioactive isotope",
-    "Mapping the pathway of carbon assimilation in photosynthesis",
-    "Discovery of light reactions in photosynthesis",
-    "Establishing the electron transport chain in chloroplasts"
-  ],
-  correct: 1,
+      "Discovery of C14 radioactive isotope",
+      "Discovery of light reactions in photosynthesis",
+      "Mapping the pathway of carbon assimilation in photosynthesis",
+      "Establishing the electron transport chain in chloroplasts"
+    ], correct: 2,
   explanation: "Calvin earned the Nobel Prize in 1961 specifically for mapping the pathway of carbon assimilation (carbon fixation) in photosynthesis, not for discovering C14 or light reactions."
 },
 {
@@ -43,12 +42,11 @@ var allQuestions = [
   topic: "Introduction - Photosynthesis Overview",
   q: "Which radioactive isotope was used by Calvin and Bassham to trace the path of carbon in photosynthesis?",
   options: [
-    "C12",
-    "C13",
-    "C14",
-    "C11"
-  ],
-  correct: 2,
+      "C12",
+      "C13",
+      "C11",
+      "C14"
+    ], correct: 3,
   explanation: "Calvin and J.A. Bassham labelled carbon dioxide with C14 (radioactive carbon-14) to trace the path of carbon during photosynthesis. C12 is the most common stable isotope and C13 is another stable isotope."
 },
 {
@@ -56,12 +54,11 @@ var allQuestions = [
   topic: "Introduction - Photosynthesis Overview",
   q: "Calvin proposed that plants change light energy to chemical energy by:",
   options: [
-    "Splitting water molecules using enzymes",
-    "Transferring an electron in an organised array of pigment molecules and other substances",
-    "Direct conversion of CO₂ into glucose",
-    "Absorption of light by carotenoids exclusively"
-  ],
-  correct: 1,
+      "Transferring an electron in an organised array of pigment molecules and other substances",
+      "Splitting water molecules using enzymes",
+      "Direct conversion of CO₂ into glucose",
+      "Absorption of light by carotenoids exclusively"
+    ], correct: 0,
   explanation: "As per NCERT, Calvin proposed that plants change light energy to chemical energy by transferring an electron in an organised array of pigment molecules and other substances. This is a direct NCERT statement-based question."
 },
 {
@@ -69,12 +66,11 @@ var allQuestions = [
   topic: "Introduction - Photosynthesis Overview",
   q: "Melvin Calvin received his Ph.D. in:",
   options: [
-    "Botany from University of California",
-    "Biochemistry from University of Minnesota",
-    "Chemistry from University of Minnesota",
-    "Physics from University of California, Berkeley"
-  ],
-  correct: 2,
+      "Botany from University of California",
+      "Chemistry from University of Minnesota",
+      "Biochemistry from University of Minnesota",
+      "Physics from University of California, Berkeley"
+    ], correct: 1,
   explanation: "As per NCERT, Calvin received his Ph.D. in Chemistry from the University of Minnesota. He later served as Professor of Chemistry at the University of California, Berkeley. Students often confuse the two universities."
 },
 {
@@ -95,12 +91,11 @@ var allQuestions = [
   topic: "Introduction - Photosynthesis Overview",
   q: "Photosynthesis is important due to two reasons. Select the correct pair:",
   options: [
-    "Primary source of all food on earth and release of CO₂",
-    "Primary source of all food on earth and release of O₂ into atmosphere",
-    "Release of O₂ and fixation of nitrogen",
-    "Synthesis of proteins and release of O₂"
-  ],
-  correct: 1,
+      "Primary source of all food on earth and release of CO₂",
+      "Release of O₂ and fixation of nitrogen",
+      "Primary source of all food on earth and release of O₂ into atmosphere",
+      "Synthesis of proteins and release of O₂"
+    ], correct: 2,
   explanation: "NCERT clearly states two reasons for the importance of photosynthesis: (1) it is the primary source of all food on earth, and (2) it is responsible for the release of oxygen into the atmosphere by green plants."
 },
 {
@@ -134,12 +129,11 @@ var allQuestions = [
   topic: "Introduction - Photosynthesis Overview",
   q: "Melvin Calvin was born in:",
   options: [
-    "California in 1911",
-    "Minnesota in 1911",
-    "Berkeley in 1901",
-    "Minnesota in 1961"
-  ],
-  correct: 1,
+      "California in 1911",
+      "Minnesota in 1961",
+      "Berkeley in 1901",
+      "Minnesota in 1911"
+    ], correct: 3,
   explanation: "As per NCERT, Melvin Calvin was born in Minnesota in April 1911. 1961 is the year he received the Nobel Prize, not his birth year — a common confusion trap."
 },
 {
@@ -147,12 +141,11 @@ var allQuestions = [
   topic: "Introduction - Photosynthesis Overview",
   q: "Calvin's co-worker in studying the reactions of carbon fixation in green plants was:",
   options: [
-    "Arnon",
-    "Hill",
-    "J.A. Bassham",
-    "Blackman"
-  ],
-  correct: 2,
+      "J.A. Bassham",
+      "Hill",
+      "Arnon",
+      "Blackman"
+    ], correct: 0,
   explanation: "As per NCERT, Calvin worked along with J.A. Bassham to study reactions in green plants forming sugar and other substances from raw materials. Arnon, Hill, and Blackman are associated with other aspects of photosynthesis."
 },
 {
@@ -160,12 +153,11 @@ var allQuestions = [
   topic: "Introduction - Photosynthesis Overview",
   q: "Which of the following is <b>NOT</b> listed as a raw material used by green plants in Calvin's study?",
   options: [
-    "Carbon dioxide",
-    "Water",
-    "Minerals",
-    "Nitrogen gas"
-  ],
-  correct: 3,
+      "Carbon dioxide",
+      "Nitrogen gas",
+      "Minerals",
+      "Water"
+    ], correct: 1,
   explanation: "NCERT mentions that plants form sugar from raw materials like carbon dioxide, water, and minerals. Nitrogen gas is not mentioned as a raw material for photosynthesis in this context."
 },
 {
@@ -173,12 +165,11 @@ var allQuestions = [
   topic: "Introduction - Photosynthesis Overview",
   q: "The principles of photosynthesis established by Calvin are presently being used in:<br>(i) Studies on renewable resource for energy and materials<br>(ii) Basic studies in solar energy research<br>(iii) Genetic engineering of crop plants<br>(iv) Nuclear energy research",
   options: [
-    "(i) and (ii) only",
-    "(i), (ii) and (iii)",
-    "(i), (ii), (iii) and (iv)",
-    "(ii) and (iv) only"
-  ],
-  correct: 0,
+      "(i), (ii), (iii) and (iv)",
+      "(i), (ii) and (iii)",
+      "(i) and (ii) only",
+      "(ii) and (iv) only"
+    ], correct: 2,
   explanation: "As per NCERT, Calvin's principles are being used in studies on renewable resource for energy and materials AND basic studies in solar energy research. Genetic engineering and nuclear energy research are not mentioned."
 },
 {
@@ -186,12 +177,11 @@ var allQuestions = [
   topic: "Introduction - Photosynthesis Overview",
   q: "Which of the following best describes photosynthesis as stated in NCERT?",
   options: [
-    "A purely chemical process",
-    "A purely physical process",
-    "A physico-chemical process",
-    "A biochemical process only"
-  ],
-  correct: 2,
+      "A purely chemical process",
+      "A purely physical process",
+      "A biochemical process only",
+      "A physico-chemical process"
+    ], correct: 3,
   explanation: "NCERT specifically describes photosynthesis as a 'physico-chemical process' — involving both physical (light absorption, electron transfer) and chemical (bond formation, reactions) components. Students often choose 'biochemical' which is not the exact NCERT term."
 },
 {
@@ -199,12 +189,11 @@ var allQuestions = [
   topic: "Introduction - Photosynthesis Overview",
   q: "The year in which Calvin was awarded the Nobel Prize is:",
   options: [
-    "1951",
-    "1911",
-    "1971",
-    "1961"
-  ],
-  correct: 3,
+      "1961",
+      "1911",
+      "1971",
+      "1951"
+    ], correct: 0,
   explanation: "Calvin earned the Nobel Prize in 1961 for mapping the pathway of carbon assimilation in photosynthesis. 1911 is his birth year — a common confusion trap."
 },
 {
@@ -212,12 +201,11 @@ var allQuestions = [
   topic: "Introduction - Photosynthesis Overview",
   q: "Which of the following statements is <b>incorrect</b>?",
   options: [
-    "All animals depend on plants for their food",
-    "Green plants synthesise the food they need through photosynthesis",
-    "Autotrophic nutrition is found in both plants and animals",
-    "All organisms that depend on green plants for food are heterotrophs"
-  ],
-  correct: 2,
+      "All animals depend on plants for their food",
+      "Autotrophic nutrition is found in both plants and animals",
+      "Green plants synthesise the food they need through photosynthesis",
+      "All organisms that depend on green plants for food are heterotrophs"
+    ], correct: 1,
   explanation: "Autotrophic nutrition is found ONLY in plants (and certain bacteria), NOT in animals. This is directly stated in NCERT. All other statements are correct as per the text."
 },
 {
@@ -251,12 +239,11 @@ var allQuestions = [
   topic: "Introduction - Photosynthesis Overview",
   q: "The two apparently irreconcilable perspectives on biology essentially rested on:",
   options: [
-    "Two different species of organisms",
-    "Two levels of organisation of life forms and phenomena",
-    "Two different geological time periods",
-    "Two branches of chemistry"
-  ],
-  correct: 1,
+      "Two different species of organisms",
+      "Two different geological time periods",
+      "Two levels of organisation of life forms and phenomena",
+      "Two branches of chemistry"
+    ], correct: 2,
   explanation: "NCERT states that the two perspectives essentially rested on two levels of organisation of life forms and phenomena — one at organismic and above level, and the other at cellular and molecular level."
 },
 {
@@ -264,12 +251,11 @@ var allQuestions = [
   topic: "Introduction - Photosynthesis Overview",
   q: "In the context of plant physiology, the description of physiological processes in NCERT is given in molecular terms but in the context of:",
   options: [
-    "Ecological interactions only",
-    "Cellular activities and even at organism level",
-    "Population dynamics",
-    "Evolutionary adaptations"
-  ],
-  correct: 1,
+      "Ecological interactions only",
+      "Evolutionary adaptations",
+      "Population dynamics",
+      "Cellular activities and even at organism level"
+    ], correct: 3,
   explanation: "NCERT clearly states that physiological processes are described in molecular terms but in the context of cellular activities and even at organism level. Wherever appropriate, the relation to environment is also discussed."
 },
 {
@@ -277,12 +263,11 @@ var allQuestions = [
   topic: "Introduction - Photosynthesis Overview",
   q: "Which of the following is used as an example for describing physiological processes in the NCERT unit on plant physiology?",
   options: [
-    "Gymnosperms",
-    "Algae",
-    "Flowering plants",
-    "Bryophytes"
-  ],
-  correct: 2,
+      "Flowering plants",
+      "Algae",
+      "Gymnosperms",
+      "Bryophytes"
+    ], correct: 0,
   explanation: "NCERT mentions 'Description of physiological processes, in flowering plants as an example, is what is given in the chapters in this unit.' Flowering plants (angiosperms) are used as the model organism."
 },
 {
@@ -290,12 +275,11 @@ var allQuestions = [
   topic: "Introduction - Photosynthesis Overview",
   q: "Which of the following processes is <b>NOT</b> mentioned in the NCERT introduction as being described in molecular terms in the plant physiology unit?",
   options: [
-    "Photosynthesis",
-    "Respiration",
-    "Plant growth and development",
-    "Mineral absorption by roots"
-  ],
-  correct: 3,
+      "Photosynthesis",
+      "Mineral absorption by roots",
+      "Plant growth and development",
+      "Respiration"
+    ], correct: 1,
   explanation: "NCERT specifically mentions photosynthesis, respiration, and plant growth and development as processes described in molecular terms. Mineral absorption by roots is not specifically mentioned in this introductory passage."
 },
 {
@@ -316,12 +300,11 @@ var allQuestions = [
   topic: "Introduction - Photosynthesis Overview",
   q: "Calvin's research on photosynthesis was carried out:",
   options: [
-    "Before World War I",
-    "During World War II",
-    "Just after World War II",
-    "In the 21st century"
-  ],
-  correct: 2,
+      "Before World War I",
+      "During World War II",
+      "In the 21st century",
+      "Just after World War II"
+    ], correct: 3,
   explanation: "NCERT states 'Just after world war II, when the world was under shock after the Hiroshima-Nagasaki bombings... Calvin and co-workers put radioactivity to beneficial use.'"
 },
 {
@@ -329,12 +312,11 @@ var allQuestions = [
   topic: "Introduction - Photosynthesis Overview",
   q: "Calvin and co-workers put radioactivity to beneficial use in the context of:",
   options: [
-    "Medical imaging of human organs",
-    "Nuclear power generation",
-    "Studying carbon fixation in photosynthesis",
-    "Genetic mutation studies"
-  ],
-  correct: 2,
+      "Studying carbon fixation in photosynthesis",
+      "Nuclear power generation",
+      "Medical imaging of human organs",
+      "Genetic mutation studies"
+    ], correct: 0,
   explanation: "After the ill-effects of radioactivity were witnessed through Hiroshima-Nagasaki bombings, Calvin put radioactivity to beneficial use by using C14-labelled CO₂ to study carbon assimilation in photosynthesis."
 },
 {
@@ -342,12 +324,11 @@ var allQuestions = [
   topic: "Introduction - Photosynthesis Overview",
   q: "Select the <b>incorrect</b> match:",
   options: [
-    "Organismic and above level → Ecology",
-    "Cellular and molecular level → Physiology and Biochemistry",
-    "Green plants → Autotrophs",
-    "Cellular and molecular level → Ecology"
-  ],
-  correct: 3,
+      "Organismic and above level → Ecology",
+      "Cellular and molecular level → Ecology",
+      "Green plants → Autotrophs",
+      "Cellular and molecular level → Physiology and Biochemistry"
+    ], correct: 1,
   explanation: "Cellular and molecular level resulted in physiology and biochemistry, NOT ecology. Ecology resulted from organismic and above level of organisation. This is a direct NCERT-based matching trap."
 },
 {
@@ -355,12 +336,11 @@ var allQuestions = [
   topic: "Introduction - Photosynthesis Overview",
   q: "Read the following statements and choose the correct option:<br>(i) Green plants use light energy to drive the synthesis of organic compounds<br>(ii) Heterotrophic nutrition is found only in animals<br>(iii) Autotrophic nutrition is found only in plants<br>(iv) All living forms depend on sunlight for energy",
   options: [
-    "(i), (ii) and (iv) are correct",
-    "(i), (iii) and (iv) are correct",
-    "(ii) and (iii) only are correct",
-    "All are correct"
-  ],
-  correct: 1,
+      "(i), (ii) and (iv) are correct",
+      "(ii) and (iii) only are correct",
+      "(i), (iii) and (iv) are correct",
+      "All are correct"
+    ], correct: 2,
   explanation: "Statement (ii) is incorrect because heterotrophic nutrition is found in animals, fungi, and many other organisms — not ONLY in animals. Statements (i), (iii), and (iv) are correct as per NCERT. Note: NCERT says 'autotrophic nutrition is found only in plants' in this context."
 },
 {
@@ -381,12 +361,11 @@ var allQuestions = [
   topic: "Introduction - Photosynthesis Overview",
   q: "The NCERT chapter on photosynthesis primarily focuses on:<br>(i) Structure of photosynthetic machinery<br>(ii) Reactions that transform light energy into chemical energy<br>(iii) Taxonomy of photosynthetic organisms<br>(iv) Evolution of photosynthesis",
   options: [
-    "(i) and (ii) only",
-    "(i), (ii) and (iii)",
-    "(iii) and (iv) only",
-    "(i), (ii), (iii) and (iv)"
-  ],
-  correct: 0,
+      "(i), (ii), (iii) and (iv)",
+      "(i), (ii) and (iii)",
+      "(iii) and (iv) only",
+      "(i) and (ii) only"
+    ], correct: 3,
   explanation: "NCERT clearly states 'This chapter focusses on the structure of the photosynthetic machinery and the various reactions that transform light energy into chemical energy.' Taxonomy and evolution of photosynthesis are not mentioned as focus areas."
 },
 {
@@ -394,12 +373,11 @@ var allQuestions = [
   topic: "Introduction - Photosynthesis Overview",
   q: "Which of the following correctly represents the relationship between autotrophs and heterotrophs?",
   options: [
-    "Autotrophs depend on heterotrophs for food",
-    "Heterotrophs synthesise their own food and share with autotrophs",
-    "All organisms that depend on green plants for food are heterotrophs",
-    "Both autotrophs and heterotrophs can carry out photosynthesis"
-  ],
-  correct: 2,
+      "All organisms that depend on green plants for food are heterotrophs",
+      "Heterotrophs synthesise their own food and share with autotrophs",
+      "Autotrophs depend on heterotrophs for food",
+      "Both autotrophs and heterotrophs can carry out photosynthesis"
+    ], correct: 0,
   explanation: "NCERT states that 'all other organisms that depend on the green plants for food are heterotrophs.' Autotrophs (green plants) synthesise their own food; they do not depend on heterotrophs."
 },
 {
@@ -446,12 +424,11 @@ var allQuestions = [
   topic: "Introduction - Photosynthesis Overview",
   q: "In the organised array proposed by Calvin for energy conversion in plants, the key participants are:",
   options: [
-    "Enzymes and ATP only",
-    "Pigment molecules and other substances",
-    "DNA and RNA molecules",
-    "Ribosomes and mitochondria"
-  ],
-  correct: 1,
+      "Enzymes and ATP only",
+      "Ribosomes and mitochondria",
+      "DNA and RNA molecules",
+      "Pigment molecules and other substances"
+    ], correct: 3,
   explanation: "Calvin proposed that plants convert light energy to chemical energy by transferring an electron in an organised array of 'pigment molecules and other substances.' This is a direct NCERT statement."
 },
 {
@@ -459,12 +436,11 @@ var allQuestions = [
   topic: "What Do We Know - Basic Requirements of Photosynthesis",
   q: "In the experiment using a variegated leaf to test for photosynthesis, starch was found only in:",
   options: [
-    "The white parts of the leaf",
-    "The entire leaf uniformly",
-    "The green parts of the leaf exposed to light",
-    "The parts covered with black paper"
-  ],
-  correct: 2,
+      "The green parts of the leaf exposed to light",
+      "The entire leaf uniformly",
+      "The white parts of the leaf",
+      "The parts covered with black paper"
+    ], correct: 0,
   explanation: "Photosynthesis occurs only in the green parts (containing chlorophyll) and in the presence of light. Variegated leaves have green and non-green parts; only green parts test positive for starch."
 },
 {
@@ -472,12 +448,11 @@ var allQuestions = [
   topic: "What Do We Know - Basic Requirements of Photosynthesis",
   q: "In the experiment to prove CO₂ is required for photosynthesis, KOH-soaked cotton is used to:",
   options: [
-    "Release CO₂ slowly",
-    "Absorb oxygen from the test tube",
-    "Absorb CO₂ from the enclosed space",
-    "Provide moisture to the leaf"
-  ],
-  correct: 2,
+      "Release CO₂ slowly",
+      "Absorb CO₂ from the enclosed space",
+      "Absorb oxygen from the test tube",
+      "Provide moisture to the leaf"
+    ], correct: 1,
   explanation: "KOH (potassium hydroxide) absorbs CO₂. The part of the leaf enclosed with KOH-soaked cotton is deprived of CO₂ and tests negative for starch, proving CO₂ is essential for photosynthesis."
 },
 {
@@ -485,12 +460,11 @@ var allQuestions = [
   topic: "What Do We Know - Basic Requirements of Photosynthesis",
   q: "Consider the following statements regarding simple photosynthesis experiments:<br>(i) Chlorophyll is required for photosynthesis<br>(ii) Light is required for photosynthesis<br>(iii) O₂ is required for photosynthesis<br>(iv) CO₂ is required for photosynthesis",
   options: [
-    "(i), (ii) and (iii) only",
-    "(i), (ii) and (iv) only",
-    "(i), (iii) and (iv) only",
-    "All of the above"
-  ],
-  correct: 1,
+      "(i), (ii) and (iii) only",
+      "(i), (iii) and (iv) only",
+      "(i), (ii) and (iv) only",
+      "All of the above"
+    ], correct: 2,
   explanation: "NCERT states that simple experiments show chlorophyll, light, and CO₂ are required for photosynthesis. O₂ is a product of photosynthesis, not a requirement. This is a common student trap."
 },
 {
@@ -498,12 +472,11 @@ var allQuestions = [
   topic: "What Do We Know - Basic Requirements of Photosynthesis",
   q: "In the KOH experiment, the part of the leaf exposed to air tests <b>positive</b> for starch because:",
   options: [
-    "It received more light than the enclosed part",
-    "It had access to atmospheric CO₂ needed for photosynthesis",
-    "KOH released nutrients to the other part",
-    "Air provides nitrogen required for starch synthesis"
-  ],
-  correct: 1,
+      "It received more light than the enclosed part",
+      "Air provides nitrogen required for starch synthesis",
+      "KOH released nutrients to the other part",
+      "It had access to atmospheric CO₂ needed for photosynthesis"
+    ], correct: 3,
   explanation: "The exposed part had access to atmospheric CO₂ and light, allowing photosynthesis and starch formation. The enclosed part lacked CO₂ (absorbed by KOH), so no photosynthesis occurred."
 },
 {
@@ -524,12 +497,11 @@ var allQuestions = [
   topic: "What Do We Know - Basic Requirements of Photosynthesis",
   q: "To prove that light is necessary for photosynthesis, the experiment involves:",
   options: [
-    "Using a variegated leaf exposed to light",
-    "Partially covering a leaf with black paper and exposing to light",
-    "Enclosing leaf in a test tube with KOH",
-    "Immersing leaf in boiling water"
-  ],
-  correct: 1,
+      "Partially covering a leaf with black paper and exposing to light",
+      "Using a variegated leaf exposed to light",
+      "Enclosing leaf in a test tube with KOH",
+      "Immersing leaf in boiling water"
+    ], correct: 0,
   explanation: "Partially covering a leaf with black paper ensures one part gets light and the other doesn't. Only the light-exposed part tests positive for starch, proving light is essential for photosynthesis."
 },
 {
@@ -537,12 +509,11 @@ var allQuestions = [
   topic: "What Do We Know - Basic Requirements of Photosynthesis",
   q: "Which of the following experiments proves that chlorophyll is essential for photosynthesis?",
   options: [
-    "Leaf partially covered with black paper",
-    "Leaf enclosed with KOH-soaked cotton",
-    "Variegated leaf exposed to light and tested for starch",
-    "Leaf kept in dark for 48 hours"
-  ],
-  correct: 2,
+      "Leaf partially covered with black paper",
+      "Variegated leaf exposed to light and tested for starch",
+      "Leaf enclosed with KOH-soaked cotton",
+      "Leaf kept in dark for 48 hours"
+    ], correct: 1,
   explanation: "A variegated leaf has green (chlorophyll-containing) and non-green parts. When exposed to light and tested for starch, only the green parts show starch, proving chlorophyll is essential."
 },
 {
@@ -576,12 +547,11 @@ var allQuestions = [
   topic: "Early Experiments",
   q: "Joseph Priestley's experiments revealed the essential role of _______ in the growth of green plants.",
   options: [
-    "Water",
-    "Minerals",
-    "Air",
-    "Soil"
-  ],
-  correct: 2,
+      "Water",
+      "Minerals",
+      "Soil",
+      "Air"
+    ], correct: 3,
   explanation: "NCERT states that Priestley performed experiments that 'revealed the essential role of air in the growth of green plants.' He later discovered oxygen in 1774."
 },
 {
@@ -589,12 +559,11 @@ var allQuestions = [
   topic: "Early Experiments",
   q: "Priestley concluded from his bell jar experiments that:",
   options: [
-    "Plants damage the air like burning candles",
-    "Plants restore to the air whatever breathing animals and burning candles remove",
-    "Plants require carbon dioxide for growth",
-    "Oxygen is essential for photosynthesis"
-  ],
-  correct: 1,
+      "Plants restore to the air whatever breathing animals and burning candles remove",
+      "Plants damage the air like burning candles",
+      "Plants require carbon dioxide for growth",
+      "Oxygen is essential for photosynthesis"
+    ], correct: 0,
   explanation: "Priestley's hypothesis was that 'plants restore to the air whatever breathing animals and burning candles remove.' He observed that a mint plant in a bell jar kept the mouse alive and the candle burning."
 },
 {
@@ -615,12 +584,11 @@ var allQuestions = [
   topic: "Early Experiments",
   q: "In Priestley's experiment, which of the following is correct?<br>(i) A candle burning in a closed bell jar gets extinguished<br>(ii) A mouse suffocates in a closed bell jar<br>(iii) A mint plant in the bell jar kept the mouse alive<br>(iv) A mint plant in the bell jar caused the candle to extinguish faster",
   options: [
-    "(i), (ii) and (iii) only",
-    "(i) and (ii) only",
-    "(i), (ii), (iii) and (iv)",
-    "(ii), (iii) and (iv) only"
-  ],
-  correct: 0,
+      "(i), (ii), (iii) and (iv)",
+      "(i) and (ii) only",
+      "(i), (ii) and (iii) only",
+      "(ii), (iii) and (iv) only"
+    ], correct: 2,
   explanation: "Statements (i), (ii) and (iii) are correct. Statement (iv) is wrong — the mint plant restored the air so the candle continued to burn, not extinguish faster."
 },
 {
@@ -628,12 +596,11 @@ var allQuestions = [
   topic: "Early Experiments",
   q: "Priestley concluded that a burning candle or a breathing animal:",
   options: [
-    "Produce oxygen that supports plant growth",
-    "Damage the air in a closed space",
-    "Release carbon dioxide beneficial for plants",
-    "Have no effect on the air composition"
-  ],
-  correct: 1,
+      "Produce oxygen that supports plant growth",
+      "Have no effect on the air composition",
+      "Release carbon dioxide beneficial for plants",
+      "Damage the air in a closed space"
+    ], correct: 3,
   explanation: "Priestley concluded that 'a burning candle or an animal that breathe the air, both somehow, damage the air.' He did not specify CO₂ or O₂ by name — he spoke in terms of 'damaging' and 'restoring' air."
 },
 {
@@ -641,12 +608,11 @@ var allQuestions = [
   topic: "Early Experiments",
   q: "Jan Ingenhousz modified Priestley's experiment by:",
   options: [
-    "Using a different plant species",
-    "Placing the setup once in the dark and once in the sunlight",
-    "Replacing the bell jar with a flask",
-    "Using CO₂-enriched air"
-  ],
-  correct: 1,
+      "Placing the setup once in the dark and once in the sunlight",
+      "Using a different plant species",
+      "Replacing the bell jar with a flask",
+      "Using CO₂-enriched air"
+    ], correct: 0,
   explanation: "Ingenhousz used a similar setup as Priestley but placed it once in the dark and once in the sunlight, showing that sunlight is essential for the plant process that purifies the air."
 },
 {
@@ -693,12 +659,11 @@ var allQuestions = [
   topic: "Early Experiments",
   q: "The correct chronological order of the scientists is:",
   options: [
-    "Ingenhousz → Priestley → Sachs → Engelmann",
-    "Priestley → Ingenhousz → Sachs → Engelmann",
-    "Sachs → Priestley → Ingenhousz → Engelmann",
-    "Engelmann → Sachs → Priestley → Ingenhousz"
-  ],
-  correct: 1,
+      "Ingenhousz → Priestley → Sachs → Engelmann",
+      "Engelmann → Sachs → Priestley → Ingenhousz",
+      "Sachs → Priestley → Ingenhousz → Engelmann",
+      "Priestley → Ingenhousz → Sachs → Engelmann"
+    ], correct: 3,
   explanation: "Priestley (1770) → Ingenhousz (1730-1799, after Priestley) → Julius von Sachs (1854) → T.W. Engelmann (1843-1909). This is the chronological order of their key contributions."
 },
 {
@@ -706,12 +671,11 @@ var allQuestions = [
   topic: "Early Experiments",
   q: "Julius von Sachs provided evidence for:",
   options: [
-    "Oxygen evolution during photosynthesis",
-    "Role of sunlight in photosynthesis",
-    "Production of glucose when plants grow",
-    "Role of CO₂ in photosynthesis"
-  ],
-  correct: 2,
+      "Production of glucose when plants grow",
+      "Role of sunlight in photosynthesis",
+      "Oxygen evolution during photosynthesis",
+      "Role of CO₂ in photosynthesis"
+    ], correct: 0,
   explanation: "NCERT states: 'It was not until about 1854 that Julius von Sachs provided evidence for production of glucose when plants grow.' He also showed glucose is stored as starch."
 },
 {
@@ -719,12 +683,11 @@ var allQuestions = [
   topic: "Early Experiments",
   q: "Julius von Sachs found that the green substance in plants is located in:",
   options: [
-    "Cell wall",
-    "Vacuoles",
-    "Special bodies within plant cells (later called chloroplasts)",
-    "Nucleus"
-  ],
-  correct: 2,
+      "Cell wall",
+      "Special bodies within plant cells (later called chloroplasts)",
+      "Vacuoles",
+      "Nucleus"
+    ], correct: 1,
   explanation: "Sachs showed that chlorophyll is located in special bodies within plant cells, which were later called chloroplasts. This was a key discovery linking the site of photosynthesis to a specific organelle."
 },
 {
@@ -732,12 +695,11 @@ var allQuestions = [
   topic: "Early Experiments",
   q: "Which of the following is <b>NOT</b> a contribution of Julius von Sachs?",
   options: [
-    "Evidence for production of glucose during plant growth",
-    "Chlorophyll is located in special bodies (chloroplasts)",
-    "Glucose is usually stored as starch",
-    "O₂ evolved in photosynthesis comes from water"
-  ],
-  correct: 3,
+      "Evidence for production of glucose during plant growth",
+      "Chlorophyll is located in special bodies (chloroplasts)",
+      "O₂ evolved in photosynthesis comes from water",
+      "Glucose is usually stored as starch"
+    ], correct: 2,
   explanation: "The discovery that O₂ comes from water was made by Cornelius van Niel, not Sachs. Sachs contributed to understanding glucose production, starch storage, and chloroplast localisation."
 },
 {
@@ -758,12 +720,11 @@ var allQuestions = [
   topic: "Early Experiments",
   q: "T.W. Engelmann's experiment involved:",
   options: [
-    "Using a prism to split light and illuminating Cladophora in a suspension of aerobic bacteria",
-    "Burning a candle in a bell jar with a mint plant",
-    "Labelling CO₂ with radioactive carbon",
-    "Enclosing a leaf in KOH solution"
-  ],
-  correct: 0,
+      "Enclosing a leaf in KOH solution",
+      "Burning a candle in a bell jar with a mint plant",
+      "Labelling CO₂ with radioactive carbon",
+      "Using a prism to split light and illuminating Cladophora in a suspension of aerobic bacteria"
+    ], correct: 3,
   explanation: "Engelmann used a prism to split light into spectral components, illuminated the green alga Cladophora placed in a suspension of aerobic bacteria, and observed where bacteria accumulated to detect O₂ evolution sites."
 },
 {
@@ -771,12 +732,11 @@ var allQuestions = [
   topic: "Early Experiments",
   q: "In Engelmann's experiment, aerobic bacteria accumulated mainly in the region of:",
   options: [
-    "Green and yellow light",
-    "Blue and red light",
-    "Orange and violet light",
-    "All wavelengths equally"
-  ],
-  correct: 1,
+      "Blue and red light",
+      "Green and yellow light",
+      "Orange and violet light",
+      "All wavelengths equally"
+    ], correct: 0,
   explanation: "Bacteria accumulated mainly in the region of blue and red light because maximum photosynthesis (and hence O₂ evolution) occurs in these wavelengths. This matches the absorption spectrum of chlorophyll a and b."
 },
 {
@@ -810,12 +770,11 @@ var allQuestions = [
   topic: "Early Experiments",
   q: "The organism used in Engelmann's experiment was:",
   options: [
-    "Spirogyra",
-    "Chlamydomonas",
-    "Cladophora",
-    "Volvox"
-  ],
-  correct: 2,
+      "Spirogyra",
+      "Chlamydomonas",
+      "Volvox",
+      "Cladophora"
+    ], correct: 3,
   explanation: "NCERT specifically mentions that Engelmann used the green alga Cladophora in his experiment. This is a frequently asked factual point in NEET."
 },
 {
@@ -836,12 +795,11 @@ var allQuestions = [
   topic: "Early Experiments",
   q: "By the middle of the nineteenth century, the key features of plant photosynthesis were known. Which of the following correctly represents these?",
   options: [
-    "Plants use heat energy to make proteins from CO₂ and water",
-    "Plants use light energy to make carbohydrates from CO₂ and water",
-    "Plants use chemical energy to make lipids from CO₂ and minerals",
-    "Plants use light energy to make amino acids from N₂ and water"
-  ],
-  correct: 1,
+      "Plants use light energy to make carbohydrates from CO₂ and water",
+      "Plants use heat energy to make proteins from CO₂ and water",
+      "Plants use chemical energy to make lipids from CO₂ and minerals",
+      "Plants use light energy to make amino acids from N₂ and water"
+    ], correct: 0,
   explanation: "NCERT states: 'plants could use light energy to make carbohydrates from CO₂ and water.' This was the established understanding by the mid-19th century."
 },
 {
@@ -862,12 +820,11 @@ var allQuestions = [
   topic: "Early Experiments",
   q: "Cornelius van Niel demonstrated that photosynthesis is essentially:",
   options: [
-    "A light-independent reaction producing oxygen",
-    "A light-dependent reaction in which hydrogen from a suitable oxidisable compound reduces CO₂ to carbohydrates",
-    "A process where CO₂ is the source of O₂ released",
-    "A process that occurs only in green plants"
-  ],
-  correct: 1,
+      "A light-independent reaction producing oxygen",
+      "A process where CO₂ is the source of O₂ released",
+      "A light-dependent reaction in which hydrogen from a suitable oxidisable compound reduces CO₂ to carbohydrates",
+      "A process that occurs only in green plants"
+    ], correct: 2,
   explanation: "Van Niel demonstrated that photosynthesis is essentially a light-dependent reaction in which hydrogen from a suitable oxidisable compound reduces CO₂ to carbohydrates. This was a milestone contribution."
 },
 {
@@ -875,12 +832,11 @@ var allQuestions = [
   topic: "Early Experiments",
   q: "Cornelius van Niel's studies were based on:",
   options: [
-    "Green algae and cyanobacteria",
-    "Purple and green sulphur bacteria",
-    "Flowering plants only",
-    "Fungi and lichens"
-  ],
-  correct: 1,
+      "Green algae and cyanobacteria",
+      "Fungi and lichens",
+      "Flowering plants only",
+      "Purple and green sulphur bacteria"
+    ], correct: 3,
   explanation: "NCERT states that van Niel based his studies on purple and green bacteria (sulphur bacteria) to demonstrate the general nature of photosynthesis."
 },
 {
@@ -888,12 +844,11 @@ var allQuestions = [
   topic: "Early Experiments",
   q: "Van Niel's general equation for photosynthesis is:<br>2H₂A + CO₂ → 2A + CH₂O + H₂O<br>In green plants, H₂A is:",
   options: [
-    "H₂S",
-    "H₂O",
-    "NH₃",
-    "H₂SO₄"
-  ],
-  correct: 1,
+      "H₂O",
+      "H₂S",
+      "NH₃",
+      "H₂SO₄"
+    ], correct: 0,
   explanation: "In green plants, H₂A = H₂O (water is the hydrogen donor). Water is oxidised to O₂. In purple and green sulphur bacteria, H₂A = H₂S (hydrogen sulphide is the hydrogen donor)."
 },
 {
@@ -901,12 +856,11 @@ var allQuestions = [
   topic: "Early Experiments",
   q: "In purple and green sulphur bacteria, when H₂S is the hydrogen donor, the oxidation product is:",
   options: [
-    "O₂",
-    "H₂O",
-    "Sulphur or sulphate",
-    "SO₂"
-  ],
-  correct: 2,
+      "O₂",
+      "Sulphur or sulphate",
+      "H₂O",
+      "SO₂"
+    ], correct: 1,
   explanation: "NCERT states: 'When H₂S is the hydrogen donor for purple and green sulphur bacteria, the oxidation product is sulphur or sulphate depending on the organism and not O₂.' This is a high-yield NEET concept."
 },
 {
@@ -927,12 +881,11 @@ var allQuestions = [
   topic: "Early Experiments",
   q: "The inference that O₂ in photosynthesis comes from water and not CO₂ was later proved by:",
   options: [
-    "Chromatography techniques",
-    "Radioisotopic techniques",
-    "Electron microscopy",
-    "X-ray crystallography"
-  ],
-  correct: 1,
+      "Chromatography techniques",
+      "X-ray crystallography",
+      "Electron microscopy",
+      "Radioisotopic techniques"
+    ], correct: 3,
   explanation: "NCERT specifically states: 'This was later proved by using radioisotopic techniques.' Heavy oxygen (O¹⁸) labelled water was used to trace the source of O₂."
 },
 {
@@ -953,12 +906,11 @@ var allQuestions = [
   topic: "Early Experiments",
   q: "The correct overall equation of photosynthesis is:",
   options: [
-    "6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂",
-    "6CO₂ + 12H₂O → C₆H₁₂O₆ + 6H₂O + 6O₂",
-    "6CO₂ + 6H₂O → C₆H₁₂O₆ + 6H₂O + 6O₂",
-    "12CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂"
-  ],
-  correct: 1,
+      "6CO₂ + 12H₂O → C₆H₁₂O₆ + 6H₂O + 6O₂",
+      "6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂",
+      "6CO₂ + 6H₂O → C₆H₁₂O₆ + 6H₂O + 6O₂",
+      "12CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂"
+    ], correct: 0,
   explanation: "The correct equation is: 6CO₂ + 12H₂O → C₆H₁₂O₆ + 6H₂O + 6O₂. Twelve molecules of water are used as substrate because water is the source of O₂ and hydrogen. Six water molecules are also formed as product."
 },
 {
@@ -992,12 +944,11 @@ var allQuestions = [
   topic: "Early Experiments",
   q: "Which of the following scientists was a microbiologist who made a milestone contribution to understanding photosynthesis?",
   options: [
-    "Joseph Priestley",
-    "Julius von Sachs",
-    "Cornelius van Niel",
-    "T.W. Engelmann"
-  ],
-  correct: 2,
+      "Joseph Priestley",
+      "Julius von Sachs",
+      "T.W. Engelmann",
+      "Cornelius van Niel"
+    ], correct: 3,
   explanation: "NCERT describes Cornelius van Niel as a microbiologist who made a milestone contribution by demonstrating the general nature of photosynthesis through his studies on purple and green bacteria."
 },
 {
@@ -1005,12 +956,11 @@ var allQuestions = [
   topic: "Early Experiments",
   q: "Select the <b>incorrect</b> statement:",
   options: [
-    "In green plants, H₂O is the hydrogen donor and is oxidised to O₂",
-    "Purple and green sulphur bacteria use H₂S as hydrogen donor",
-    "Van Niel inferred that O₂ evolved by green plants comes from CO₂",
-    "Some organisms do not release O₂ during photosynthesis"
-  ],
-  correct: 2,
+      "Van Niel inferred that O₂ evolved by green plants comes from CO₂",
+      "Purple and green sulphur bacteria use H₂S as hydrogen donor",
+      "In green plants, H₂O is the hydrogen donor and is oxidised to O₂",
+      "Some organisms do not release O₂ during photosynthesis"
+    ], correct: 0,
   explanation: "Van Niel inferred that O₂ comes from H₂O, NOT from CO₂. This is the opposite of what was previously believed. This is one of the most important conceptual traps in NEET."
 },
 {
@@ -1018,12 +968,11 @@ var allQuestions = [
   topic: "Early Experiments",
   q: "Match the scientist with their contribution:<br>(i) Priestley — (P) First action spectrum<br>(ii) Ingenhousz — (Q) Glucose production evidence<br>(iii) Sachs — (R) Role of air in plant growth<br>(iv) Engelmann — (S) Sunlight essential for photosynthesis",
   options: [
-    "(i)-R, (ii)-S, (iii)-Q, (iv)-P",
-    "(i)-S, (ii)-R, (iii)-P, (iv)-Q",
-    "(i)-R, (ii)-P, (iii)-S, (iv)-Q",
-    "(i)-P, (ii)-Q, (iii)-R, (iv)-S"
-  ],
-  correct: 0,
+      "(i)-S, (ii)-R, (iii)-P, (iv)-Q",
+      "(i)-R, (ii)-S, (iii)-Q, (iv)-P",
+      "(i)-R, (ii)-P, (iii)-S, (iv)-Q",
+      "(i)-P, (ii)-Q, (iii)-R, (iv)-S"
+    ], correct: 1,
   explanation: "Priestley → Role of air (R), Ingenhousz → Sunlight essential (S), Sachs → Glucose production (Q), Engelmann → First action spectrum (P). This is a high-frequency NEET matching question."
 },
 {
@@ -1044,12 +993,11 @@ var allQuestions = [
   topic: "Early Experiments",
   q: "Consider the following pairs:<br>(i) Priestley (1733-1804)<br>(ii) Ingenhousz (1730-1799)<br>(iii) Engelmann (1843-1909)<br>(iv) Van Niel (1897-1985)<br><br>Who among these was born earliest?",
   options: [
-    "Priestley",
-    "Ingenhousz",
-    "Engelmann",
-    "Van Niel"
-  ],
-  correct: 1,
+      "Priestley",
+      "Van Niel",
+      "Engelmann",
+      "Ingenhousz"
+    ], correct: 3,
   explanation: "Ingenhousz was born in 1730, which is the earliest among the given scientists. Priestley was born in 1733. Students often assume Priestley was born first because his experiments are described first in NCERT."
 },
 {
@@ -1057,12 +1005,11 @@ var allQuestions = [
   topic: "Early Experiments",
   q: "Which of the following represents van Niel's generalised equation of photosynthesis?",
   options: [
-    "CO₂ + H₂O → CH₂O + O₂",
-    "2H₂A + CO₂ → 2A + CH₂O + H₂O",
-    "6CO₂ + 12H₂O → C₆H₁₂O₆ + 6O₂ + 6H₂O",
-    "CO₂ + 2H₂S → CH₂O + H₂O + 2S"
-  ],
-  correct: 1,
+      "2H₂A + CO₂ → 2A + CH₂O + H₂O",
+      "CO₂ + H₂O → CH₂O + O₂",
+      "6CO₂ + 12H₂O → C₆H₁₂O₆ + 6O₂ + 6H₂O",
+      "CO₂ + 2H₂S → CH₂O + H₂O + 2S"
+    ], correct: 0,
   explanation: "Van Niel's generalised equation is: 2H₂A + CO₂ → 2A + CH₂O + H₂O, where H₂A is the hydrogen donor. For green plants, A = O (H₂A = H₂O). For sulphur bacteria, A = S (H₂A = H₂S)."
 },
 {
@@ -1083,12 +1030,11 @@ var allQuestions = [
   topic: "Early Experiments",
   q: "The year associated with Julius von Sachs' evidence for glucose production is approximately:",
   options: [
-    "1770",
-    "1774",
-    "1854",
-    "1897"
-  ],
-  correct: 2,
+      "1770",
+      "1854",
+      "1774",
+      "1897"
+    ], correct: 1,
   explanation: "NCERT states: 'It was not until about 1854 that Julius von Sachs provided evidence for production of glucose when plants grow.' 1770 is Priestley's experiment year, 1774 is oxygen discovery, 1897 is van Niel's birth year."
 },
 {
@@ -1096,12 +1042,11 @@ var allQuestions = [
   topic: "Early Experiments",
   q: "Which of the following statements is correct about Engelmann's experiment?<br>(i) He used a prism to split light<br>(ii) He used Spirogyra as the test organism<br>(iii) Aerobic bacteria accumulated in blue and red light regions<br>(iv) He described the first absorption spectrum of chlorophyll",
   options: [
-    "(i) and (iii) only",
-    "(i), (ii) and (iii)",
-    "(i), (iii) and (iv)",
-    "All are correct"
-  ],
-  correct: 0,
+      "(i), (iii) and (iv)",
+      "(i), (ii) and (iii)",
+      "(i) and (iii) only",
+      "All are correct"
+    ], correct: 2,
   explanation: "Only (i) and (iii) are correct. Statement (ii) is wrong — he used Cladophora, not Spirogyra. Statement (iv) is wrong — he described the first ACTION spectrum (not absorption spectrum) of photosynthesis."
 },
 {
@@ -1109,12 +1054,11 @@ var allQuestions = [
   topic: "Early Experiments",
   q: "Who among the following showed that chlorophyll is located in special bodies within plant cells?",
   options: [
-    "T.W. Engelmann",
-    "Cornelius van Niel",
-    "Julius von Sachs",
-    "Jan Ingenhousz"
-  ],
-  correct: 2,
+      "T.W. Engelmann",
+      "Cornelius van Niel",
+      "Jan Ingenhousz",
+      "Julius von Sachs"
+    ], correct: 3,
   explanation: "NCERT states that Sachs showed 'the green substance in plants (chlorophyll) is located in special bodies (later called chloroplasts) within plant cells.'"
 },
 {
@@ -1122,12 +1066,11 @@ var allQuestions = [
   topic: "Early Experiments",
   q: "In the correct equation of photosynthesis, how many molecules of water appear as <b>product</b>?",
   options: [
-    "12",
-    "6",
-    "0",
-    "3"
-  ],
-  correct: 1,
+      "6",
+      "12",
+      "0",
+      "3"
+    ], correct: 0,
   explanation: "In the correct equation: 6CO₂ + 12H₂O → C₆H₁₂O₆ + 6H₂O + 6O₂, six molecules of water appear as product. 12 molecules of water are substrates. Students often forget that water is both a reactant and product."
 },
 {
@@ -1135,12 +1078,11 @@ var allQuestions = [
   topic: "Early Experiments",
   q: "How many molecules of O₂ are released in the overall equation of photosynthesis for one molecule of glucose formed?",
   options: [
-    "12",
-    "3",
-    "6",
-    "1"
-  ],
-  correct: 2,
+      "12",
+      "6",
+      "3",
+      "1"
+    ], correct: 1,
   explanation: "The equation 6CO₂ + 12H₂O → C₆H₁₂O₆ + 6H₂O + 6O₂ shows that 6 molecules of O₂ are released per molecule of glucose synthesised."
 },
 {
@@ -1174,12 +1116,11 @@ var allQuestions = [
   topic: "What Do We Know - Basic Requirements of Photosynthesis",
   q: "Which of the following is the correct combination of requirements for photosynthesis as proven by simple experiments?",
   options: [
-    "Chlorophyll, water, and minerals",
-    "Chlorophyll, light, and CO₂",
-    "Light, CO₂, and O₂",
-    "Chlorophyll, light, and O₂"
-  ],
-  correct: 1,
+      "Chlorophyll, water, and minerals",
+      "Chlorophyll, light, and O₂",
+      "Light, CO₂, and O₂",
+      "Chlorophyll, light, and CO₂"
+    ], correct: 3,
   explanation: "NCERT states: 'chlorophyll (green pigment of the leaf), light and CO₂ are required for photosynthesis to occur.' Water and minerals are also needed but the three proven by simple experiments are chlorophyll, light, and CO₂."
 },
 {
@@ -1187,12 +1128,11 @@ var allQuestions = [
   topic: "Early Experiments",
   q: "Van Niel's contribution is considered a 'milestone' because he:",
   options: [
-    "Discovered chloroplasts",
-    "Proved that O₂ comes from CO₂",
-    "Demonstrated the general nature of photosynthesis as a light-dependent reaction reducing CO₂ using hydrogen from an oxidisable compound",
-    "Described the first action spectrum"
-  ],
-  correct: 2,
+      "Demonstrated the general nature of photosynthesis as a light-dependent reaction reducing CO₂ using hydrogen from an oxidisable compound",
+      "Proved that O₂ comes from CO₂",
+      "Discovered chloroplasts",
+      "Described the first action spectrum"
+    ], correct: 0,
   explanation: "Van Niel's milestone was demonstrating the general equation of photosynthesis — that it involves a hydrogen donor (H₂A) reducing CO₂ in a light-dependent manner. This generalised the process beyond green plants to include bacteria."
 },
 {
@@ -1200,12 +1140,11 @@ var allQuestions = [
   topic: "Early Experiments",
   q: "In Priestley's experiment, the plant used was:",
   options: [
-    "Hydrilla",
-    "Cladophora",
-    "Mint",
-    "Rose"
-  ],
-  correct: 2,
+      "Hydrilla",
+      "Mint",
+      "Cladophora",
+      "Rose"
+    ], correct: 1,
   explanation: "NCERT specifically mentions that Priestley 'placed a mint plant in the same bell jar.' Mint plant is the correct answer. Cladophora was used by Engelmann, and Hydrilla is commonly used in O₂ evolution experiments in labs."
 },
 {
@@ -1213,12 +1152,11 @@ var allQuestions = [
   topic: "Early Experiments",
   q: "Which of the following scientists used bacteria in their photosynthesis experiments?<br>(i) T.W. Engelmann<br>(ii) Cornelius van Niel<br>(iii) Joseph Priestley<br>(iv) Jan Ingenhousz",
   options: [
-    "(i) and (ii) only",
-    "(i) only",
-    "(ii) only",
-    "(i), (ii), (iii) and (iv)"
-  ],
-  correct: 0,
+      "(ii) only",
+      "(i) only",
+      "(i) and (ii) only",
+      "(i), (ii), (iii) and (iv)"
+    ], correct: 2,
   explanation: "Engelmann used aerobic bacteria as O₂ detectors, and van Niel studied purple and green sulphur bacteria. Priestley used a candle and mouse (not bacteria), and Ingenhousz used aquatic plants (not bacteria)."
 },
 {
@@ -1239,12 +1177,11 @@ var allQuestions = [
   topic: "Early Experiments",
   q: "The bubbles formed around the green parts of the aquatic plant in Ingenhousz's experiment were later identified to be of:",
   options: [
-    "Carbon dioxide",
-    "Nitrogen",
-    "Oxygen",
-    "Hydrogen"
-  ],
-  correct: 2,
+      "Oxygen",
+      "Nitrogen",
+      "Carbon dioxide",
+      "Hydrogen"
+    ], correct: 0,
   explanation: "NCERT states: 'Later he identified these bubbles to be of oxygen.' The bubbles were O₂ released during photosynthesis from the green parts of the aquatic plant in bright sunlight."
 },
 {
@@ -1305,12 +1242,11 @@ var allQuestions = [
   topic: "Where Does Photosynthesis Take Place?",
   q: "Chloroplasts in mesophyll cells align themselves along the walls such that they get:",
   options: [
-    "Maximum CO₂ concentration",
-    "Maximum water supply",
-    "The optimum quantity of incident light",
-    "Protection from UV radiation"
-  ],
-  correct: 2,
+      "Maximum CO₂ concentration",
+      "Maximum water supply",
+      "Protection from UV radiation",
+      "The optimum quantity of incident light"
+    ], correct: 3,
   explanation: "NCERT states: 'Usually the chloroplasts align themselves along the walls of the mesophyll cells, such that they get the optimum quantity of the incident light.' This alignment maximises light capture efficiency."
 },
 {
@@ -1318,12 +1254,11 @@ var allQuestions = [
   topic: "Where Does Photosynthesis Take Place?",
   q: "The membranous system within the chloroplast consists of:<br>(i) Grana<br>(ii) Stroma lamellae<br>(iii) Matrix stroma<br>(iv) Cristae",
   options: [
-    "(i), (ii) and (iii)",
-    "(i) and (ii) only",
-    "(i), (ii), (iii) and (iv)",
-    "(ii) and (iv) only"
-  ],
-  correct: 1,
+      "(i) and (ii) only",
+      "(i), (ii) and (iii)",
+      "(i), (ii), (iii) and (iv)",
+      "(ii) and (iv) only"
+    ], correct: 0,
   explanation: "NCERT mentions that 'within the chloroplast there is membranous system consisting of grana, the stroma lamellae, and the matrix stroma.' However, the matrix stroma is NOT part of the membranous system — it is the fluid matrix. The membranous system includes grana and stroma lamellae. Cristae are found in mitochondria, not chloroplasts. The correct answer is (i) and (ii) only."
 },
 {
@@ -1357,12 +1292,11 @@ var allQuestions = [
   topic: "Where Does Photosynthesis Take Place?",
   q: "Light reactions are also called:",
   options: [
-    "Carbon reactions",
-    "Dark reactions",
-    "Photochemical reactions",
-    "Biosynthetic reactions"
-  ],
-  correct: 2,
+      "Carbon reactions",
+      "Dark reactions",
+      "Biosynthetic reactions",
+      "Photochemical reactions"
+    ], correct: 3,
   explanation: "NCERT states: 'The former set of reactions, since they are directly light driven are called light reactions (photochemical reactions).' They occur in the membrane system (thylakoids) of chloroplasts."
 },
 {
@@ -1370,12 +1304,11 @@ var allQuestions = [
   topic: "Where Does Photosynthesis Take Place?",
   q: "Dark reactions are also referred to as:",
   options: [
-    "Photochemical reactions",
-    "Carbon reactions",
-    "Photolysis reactions",
-    "Photorespiration"
-  ],
-  correct: 1,
+      "Carbon reactions",
+      "Photochemical reactions",
+      "Photolysis reactions",
+      "Photorespiration"
+    ], correct: 0,
   explanation: "NCERT states that the dark reactions are also called 'carbon reactions.' They are named so because they involve carbon fixation (reduction of CO₂ to sugar)."
 },
 {
@@ -1383,12 +1316,11 @@ var allQuestions = [
   topic: "Where Does Photosynthesis Take Place?",
   q: "Which of the following statements about dark reactions is <b>correct</b>?",
   options: [
-    "They occur only in darkness",
-    "They are completely independent of light",
-    "They are not directly light driven but depend on the products of light reactions",
-    "They do not require ATP or NADPH"
-  ],
-  correct: 2,
+      "They occur only in darkness",
+      "They are not directly light driven but depend on the products of light reactions",
+      "They are completely independent of light",
+      "They do not require ATP or NADPH"
+    ], correct: 1,
   explanation: "NCERT specifically clarifies: dark reactions 'are not directly light driven but are dependent on the products of light reactions (ATP and NADPH).' It warns: 'this should not be construed to mean that they occur in darkness or that they are not light-dependent.'"
 },
 {
@@ -1435,12 +1367,11 @@ var allQuestions = [
   topic: "Where Does Photosynthesis Take Place?",
   q: "Sugar synthesised in the stroma is usually stored as:",
   options: [
-    "Sucrose",
-    "Fructose",
-    "Starch",
-    "Cellulose"
-  ],
-  correct: 2,
+      "Sucrose",
+      "Fructose",
+      "Cellulose",
+      "Starch"
+    ], correct: 3,
   explanation: "NCERT states: 'In stroma, enzymatic reactions synthesise sugar, which in turn forms starch.' Starch is the storage form of glucose in chloroplasts (as starch grains)."
 },
 {
@@ -1474,12 +1405,11 @@ var allQuestions = [
   topic: "Where Does Photosynthesis Take Place?",
   q: "Which of the following is <b>NOT</b> a function of the membrane system in chloroplasts?",
   options: [
-    "Trapping light energy",
-    "Synthesis of ATP",
-    "Synthesis of NADPH",
-    "Enzymatic synthesis of sugar"
-  ],
-  correct: 3,
+      "Enzymatic synthesis of sugar",
+      "Synthesis of ATP",
+      "Synthesis of NADPH",
+      "Trapping light energy"
+    ], correct: 0,
   explanation: "Enzymatic synthesis of sugar occurs in the stroma, not in the membrane system. The membrane system is responsible for trapping light, and synthesis of ATP and NADPH."
 },
 {
@@ -1500,12 +1430,11 @@ var allQuestions = [
   topic: "Where Does Photosynthesis Take Place?",
   q: "When chloroplasts receive very high intensity light, their flat surfaces would be oriented:",
   options: [
-    "Parallel to the cell wall to maximise light absorption",
-    "Perpendicular to the incident light to minimise light absorption",
-    "Randomly in the cytoplasm",
-    "Towards the nucleus of the cell"
-  ],
-  correct: 1,
+      "Parallel to the cell wall to maximise light absorption",
+      "Randomly in the cytoplasm",
+      "Perpendicular to the incident light to minimise light absorption",
+      "Towards the nucleus of the cell"
+    ], correct: 2,
   explanation: "When light intensity is very high, chloroplasts orient their flat surfaces perpendicular to incident light (edge-on) to avoid photodamage. In low light, they align parallel to walls to maximise light capture. NCERT hints at this when asking about alignment."
 },
 {
@@ -1513,12 +1442,11 @@ var allQuestions = [
   topic: "Where Does Photosynthesis Take Place?",
   q: "When light intensity is low, chloroplasts in mesophyll cells would orient with their flat surfaces:",
   options: [
-    "Perpendicular to the cell wall",
-    "Parallel to the cell wall facing incident light",
-    "Stacked on top of each other",
-    "Away from the cell wall towards the centre"
-  ],
-  correct: 1,
+      "Perpendicular to the cell wall",
+      "Away from the cell wall towards the centre",
+      "Stacked on top of each other",
+      "Parallel to the cell wall facing incident light"
+    ], correct: 3,
   explanation: "In low light, chloroplasts align with flat surfaces parallel to the wall facing light to maximise the surface area exposed to incident light, ensuring optimum light absorption."
 },
 {
@@ -1526,12 +1454,11 @@ var allQuestions = [
   topic: "Where Does Photosynthesis Take Place?",
   q: "Which of the following correctly describes the site of light reactions and dark reactions?",
   options: [
-    "Light reactions — Stroma; Dark reactions — Grana",
-    "Light reactions — Grana and thylakoid membrane; Dark reactions — Stroma",
-    "Both occur in the stroma",
-    "Both occur in the grana"
-  ],
-  correct: 1,
+      "Light reactions — Grana and thylakoid membrane; Dark reactions — Stroma",
+      "Light reactions — Stroma; Dark reactions — Grana",
+      "Both occur in the stroma",
+      "Both occur in the grana"
+    ], correct: 0,
   explanation: "Light reactions (photochemical reactions) occur in the membrane system (grana/thylakoid membranes). Dark reactions (carbon reactions) occur in the stroma. This is the division of labour within the chloroplast."
 },
 {
@@ -1539,12 +1466,11 @@ var allQuestions = [
   topic: "Where Does Photosynthesis Take Place?",
   q: "Select the <b>incorrect</b> statement regarding photosynthesis:",
   options: [
-    "Photosynthesis occurs in green leaves and other green parts of the plant",
-    "Mesophyll cells have a large number of chloroplasts",
-    "Dark reactions are completely independent of light reactions",
-    "The membrane system traps light energy"
-  ],
-  correct: 2,
+      "Photosynthesis occurs in green leaves and other green parts of the plant",
+      "Dark reactions are completely independent of light reactions",
+      "Mesophyll cells have a large number of chloroplasts",
+      "The membrane system traps light energy"
+    ], correct: 1,
   explanation: "Dark reactions are NOT completely independent of light reactions — they depend on ATP and NADPH produced by light reactions. NCERT explicitly warns against this misconception."
 },
 {
@@ -1578,12 +1504,11 @@ var allQuestions = [
   topic: "Where Does Photosynthesis Take Place?",
   q: "Which of the following pairs is correctly matched?",
   options: [
-    "Light reactions — Carbon reactions",
-    "Dark reactions — Photochemical reactions",
-    "Light reactions — Photochemical reactions",
-    "Stroma — Light trapping"
-  ],
-  correct: 2,
+      "Light reactions — Carbon reactions",
+      "Dark reactions — Photochemical reactions",
+      "Stroma — Light trapping",
+      "Light reactions — Photochemical reactions"
+    ], correct: 3,
   explanation: "Light reactions = Photochemical reactions (directly light driven). Dark reactions = Carbon reactions. These are the correct NCERT terminologies. Options A, B, and D are mismatched."
 },
 {
@@ -1604,12 +1529,11 @@ var allQuestions = [
   topic: "Where Does Photosynthesis Take Place?",
   q: "Which of the following green parts of a plant, other than leaves, can carry out photosynthesis?",
   options: [
-    "Green stems, green sepals, green fruits",
-    "Roots and tubers",
-    "Xylem vessels",
-    "Heartwood"
-  ],
-  correct: 0,
+      "Roots and tubers",
+      "Green stems, green sepals, green fruits",
+      "Xylem vessels",
+      "Heartwood"
+    ], correct: 1,
   explanation: "Any green part of the plant containing chloroplasts can carry out photosynthesis. Green stems, green sepals, and green unripe fruits contain chlorophyll and can photosynthesize. Roots, xylem, and heartwood lack chlorophyll."
 },
 {
@@ -1630,12 +1554,11 @@ var allQuestions = [
   topic: "Where Does Photosynthesis Take Place?",
   q: "Which of the following statements is a common misconception about dark reactions that NCERT specifically warns against?<br>(i) Dark reactions occur only in darkness<br>(ii) Dark reactions are not light-dependent at all<br>(iii) Dark reactions depend on ATP and NADPH from light reactions",
   options: [
-    "(i) and (ii) are misconceptions; (iii) is correct",
-    "(i) only is a misconception",
-    "(iii) is a misconception",
-    "All three are misconceptions"
-  ],
-  correct: 0,
+      "All three are misconceptions",
+      "(i) only is a misconception",
+      "(iii) is a misconception",
+      "(i) and (ii) are misconceptions; (iii) is correct"
+    ], correct: 3,
   explanation: "NCERT warns that (i) and (ii) are misconceptions — dark reactions do NOT occur only in darkness and they ARE indirectly light-dependent. Statement (iii) is the correct fact — dark reactions depend on ATP and NADPH."
 },
 {
@@ -1656,12 +1579,11 @@ var allQuestions = [
   topic: "Where Does Photosynthesis Take Place?",
   q: "The stroma lamellae in the chloroplast are:",
   options: [
-    "Part of the matrix stroma only",
-    "Membranes connecting grana to each other",
-    "Found inside mitochondria",
-    "Non-membranous structures"
-  ],
-  correct: 1,
+      "Membranes connecting grana to each other",
+      "Part of the matrix stroma only",
+      "Found inside mitochondria",
+      "Non-membranous structures"
+    ], correct: 0,
   explanation: "Stroma lamellae (also called intergranal lamellae or fret membranes) are membranous connections between grana. They are part of the membranous system within the chloroplast."
 },
 {
@@ -1669,12 +1591,11 @@ var allQuestions = [
   topic: "Where Does Photosynthesis Take Place?",
   q: "Which of the following is the correct sequence of structures from outside to inside in a chloroplast?",
   options: [
-    "Outer membrane → Inner membrane → Stroma → Thylakoid membrane → Thylakoid lumen",
-    "Outer membrane → Stroma → Inner membrane → Grana",
-    "Inner membrane → Outer membrane → Grana → Stroma",
-    "Stroma → Outer membrane → Inner membrane → Grana"
-  ],
-  correct: 0,
+      "Outer membrane → Stroma → Inner membrane → Grana",
+      "Outer membrane → Inner membrane → Stroma → Thylakoid membrane → Thylakoid lumen",
+      "Inner membrane → Outer membrane → Grana → Stroma",
+      "Stroma → Outer membrane → Inner membrane → Grana"
+    ], correct: 1,
   explanation: "The correct sequence from outside to inside is: Outer membrane → Inner membrane → Stroma (matrix) → Thylakoid membrane (grana + stroma lamellae) → Thylakoid lumen (interior space of thylakoid)."
 },
 {
@@ -1682,12 +1603,11 @@ var allQuestions = [
   topic: "Where Does Photosynthesis Take Place?",
   q: "If dark reactions are stopped, light reactions will:",
   options: [
-    "Continue indefinitely at the same rate",
-    "Eventually slow down due to accumulation of ATP and NADPH",
-    "Speed up to compensate",
-    "Not be affected at all"
-  ],
-  correct: 1,
+      "Continue indefinitely at the same rate",
+      "Speed up to compensate",
+      "Eventually slow down due to accumulation of ATP and NADPH",
+      "Not be affected at all"
+    ], correct: 2,
   explanation: "Light reactions produce ATP and NADPH which are consumed by dark reactions. If dark reactions stop, ATP and NADPH accumulate, and their precursors (ADP, Pi, NADP⁺) become depleted, eventually slowing down light reactions. This shows the interdependence of the two sets of reactions."
 },
 {
@@ -1695,12 +1615,11 @@ var allQuestions = [
   topic: "Where Does Photosynthesis Take Place?",
   q: "Which of the following correctly describes the relationship between light reactions and dark reactions?",
   options: [
-    "They are completely independent of each other",
-    "Light reactions depend on dark reactions but not vice versa",
-    "Dark reactions depend on light reactions for ATP and NADPH",
-    "Both occur simultaneously in the same compartment"
-  ],
-  correct: 2,
+      "They are completely independent of each other",
+      "Light reactions depend on dark reactions but not vice versa",
+      "Both occur simultaneously in the same compartment",
+      "Dark reactions depend on light reactions for ATP and NADPH"
+    ], correct: 3,
   explanation: "NCERT states that dark reactions 'are dependent on the products of light reactions (ATP and NADPH).' They occur in different compartments — light reactions in membranes, dark reactions in stroma."
 },
 {
@@ -1735,12 +1654,11 @@ var allQuestions = [
   topic: "Photosynthetic Pigments",
   q: "The technique used to separate leaf pigments is:",
   options: [
-    "Electrophoresis",
-    "Centrifugation",
-    "Paper chromatography",
-    "Spectrophotometry"
-  ],
-  correct: 2,
+      "Electrophoresis",
+      "Paper chromatography",
+      "Centrifugation",
+      "Spectrophotometry"
+    ], correct: 1,
   explanation: "NCERT states: 'We can look for an answer to this question by trying to separate the leaf pigments of any green plant through paper chromatography.' Chromatography separates pigments based on their differential solubility."
 },
 {
@@ -1761,12 +1679,11 @@ var allQuestions = [
   topic: "Photosynthetic Pigments",
   q: "Match the pigment with its colour in the chromatogram:<br>(i) Chlorophyll a — (P) Yellow<br>(ii) Chlorophyll b — (Q) Yellow to yellow-orange<br>(iii) Xanthophylls — (R) Bright or blue green<br>(iv) Carotenoids — (S) Yellow green",
   options: [
-    "(i)-R, (ii)-S, (iii)-P, (iv)-Q",
-    "(i)-S, (ii)-R, (iii)-Q, (iv)-P",
-    "(i)-R, (ii)-P, (iii)-S, (iv)-Q",
-    "(i)-P, (ii)-Q, (iii)-R, (iv)-S"
-  ],
-  correct: 0,
+      "(i)-P, (ii)-Q, (iii)-R, (iv)-S",
+      "(i)-S, (ii)-R, (iii)-Q, (iv)-P",
+      "(i)-R, (ii)-P, (iii)-S, (iv)-Q",
+      "(i)-R, (ii)-S, (iii)-P, (iv)-Q"
+    ], correct: 3,
   explanation: "Chlorophyll a = Bright/blue green (R), Chlorophyll b = Yellow green (S), Xanthophylls = Yellow (P), Carotenoids = Yellow to yellow-orange (Q). This is a direct NCERT-based matching and a frequently asked NEET question."
 },
 {
@@ -1774,12 +1691,11 @@ var allQuestions = [
   topic: "Photosynthetic Pigments",
   q: "Chlorophyll a appears as which colour in a chromatogram?",
   options: [
-    "Yellow green",
-    "Yellow",
-    "Bright or blue green",
-    "Yellow to yellow-orange"
-  ],
-  correct: 2,
+      "Bright or blue green",
+      "Yellow",
+      "Yellow green",
+      "Yellow to yellow-orange"
+    ], correct: 0,
   explanation: "NCERT states Chlorophyll a is 'bright or blue green in the chromatogram.' Students often confuse it with chlorophyll b (yellow green)."
 },
 {
@@ -1800,12 +1716,11 @@ var allQuestions = [
   topic: "Photosynthetic Pigments",
   q: "Pigments are defined as substances that have the ability to:",
   options: [
-    "Reflect all wavelengths of light equally",
-    "Absorb light at specific wavelengths",
-    "Emit light at specific wavelengths",
-    "Transmit all wavelengths of light"
-  ],
-  correct: 1,
+      "Reflect all wavelengths of light equally",
+      "Emit light at specific wavelengths",
+      "Absorb light at specific wavelengths",
+      "Transmit all wavelengths of light"
+    ], correct: 2,
   explanation: "NCERT defines: 'Pigments are substances that have an ability to absorb light, at specific wavelengths.' Each pigment has a characteristic absorption spectrum."
 },
 {
@@ -1813,12 +1728,11 @@ var allQuestions = [
   topic: "Photosynthetic Pigments",
   q: "The most abundant plant pigment in the world is:",
   options: [
-    "Chlorophyll b",
-    "Carotenoids",
-    "Chlorophyll a",
-    "Xanthophylls"
-  ],
-  correct: 2,
+      "Chlorophyll b",
+      "Carotenoids",
+      "Xanthophylls",
+      "Chlorophyll a"
+    ], correct: 3,
   explanation: "Chlorophyll a is the most abundant plant pigment in the world. NCERT hints at this when it asks 'Can you guess which is the most abundant plant pigment in the world?' and then discusses chlorophyll a as the chief pigment."
 },
 {
@@ -1826,12 +1740,11 @@ var allQuestions = [
   topic: "Photosynthetic Pigments",
   q: "Chlorophyll a shows maximum absorption in which regions of the visible spectrum?",
   options: [
-    "Green and yellow regions",
-    "Blue and red regions",
-    "Orange and violet regions",
-    "All wavelengths equally"
-  ],
-  correct: 1,
+      "Blue and red regions",
+      "Green and yellow regions",
+      "Orange and violet regions",
+      "All wavelengths equally"
+    ], correct: 0,
   explanation: "NCERT states: 'the wavelengths at which there is maximum absorption by chlorophyll a, i.e., in the blue and the red regions.' This corresponds to the two absorption peaks of chlorophyll a."
 },
 {
@@ -1839,12 +1752,11 @@ var allQuestions = [
   topic: "Photosynthetic Pigments",
   q: "The chief pigment associated with photosynthesis is:",
   options: [
-    "Chlorophyll b",
-    "Xanthophylls",
-    "Carotenoids",
-    "Chlorophyll a"
-  ],
-  correct: 3,
+      "Chlorophyll b",
+      "Chlorophyll a",
+      "Carotenoids",
+      "Xanthophylls"
+    ], correct: 1,
   explanation: "NCERT states: 'we can conclude that chlorophyll a is the chief pigment associated with photosynthesis.' It is also called the primary photosynthetic pigment or reaction centre pigment."
 },
 {
@@ -1852,12 +1764,11 @@ var allQuestions = [
   topic: "Photosynthetic Pigments",
   q: "Which of the following are called accessory pigments?<br>(i) Chlorophyll a<br>(ii) Chlorophyll b<br>(iii) Xanthophylls<br>(iv) Carotenoids",
   options: [
-    "(i), (ii) and (iii) only",
-    "(ii), (iii) and (iv) only",
-    "(i) and (iv) only",
-    "(i), (ii), (iii) and (iv)"
-  ],
-  correct: 1,
+      "(i), (ii) and (iii) only",
+      "(i) and (iv) only",
+      "(ii), (iii) and (iv) only",
+      "(i), (ii), (iii) and (iv)"
+    ], correct: 2,
   explanation: "NCERT states: 'other thylakoid pigments like chlorophyll b, xanthophylls and carotenoids, which are called accessory pigments.' Chlorophyll a is the chief/primary pigment, NOT an accessory pigment."
 },
 {
@@ -1865,12 +1776,11 @@ var allQuestions = [
   topic: "Photosynthetic Pigments",
   q: "Accessory pigments absorb light and transfer the energy to:",
   options: [
-    "Chlorophyll b",
-    "Xanthophylls",
-    "Chlorophyll a",
-    "Carotenoids"
-  ],
-  correct: 2,
+      "Chlorophyll b",
+      "Xanthophylls",
+      "Carotenoids",
+      "Chlorophyll a"
+    ], correct: 3,
   explanation: "NCERT states that accessory pigments 'also absorb light and transfer the energy to chlorophyll a.' All accessory pigments funnel absorbed light energy to chlorophyll a, the reaction centre pigment."
 },
 {
@@ -1904,12 +1814,11 @@ var allQuestions = [
   topic: "Photosynthetic Pigments",
   q: "Is there a complete one-to-one overlap between the absorption spectrum of chlorophyll a and the action spectrum of photosynthesis?",
   options: [
-    "Yes, they overlap completely",
-    "No, there is no overlap at all",
-    "No, there is not a complete one-to-one overlap",
-    "They overlap only in the green region"
-  ],
-  correct: 2,
+      "Yes, they overlap completely",
+      "No, there is not a complete one-to-one overlap",
+      "No, there is no overlap at all",
+      "They overlap only in the green region"
+    ], correct: 1,
   explanation: "NCERT asks: 'can you say that there is a complete one-to-one overlap between the absorption spectrum of chlorophyll a and the action spectrum of photosynthesis?' The answer is no — because accessory pigments also contribute, and some photosynthesis occurs at other wavelengths too."
 },
 {
@@ -1917,12 +1826,11 @@ var allQuestions = [
   topic: "Photosynthetic Pigments",
   q: "The reason the absorption spectrum of chlorophyll a does not completely match the action spectrum of photosynthesis is:",
   options: [
-    "Chlorophyll a does not participate in photosynthesis",
-    "Accessory pigments also absorb light at other wavelengths and transfer energy to chlorophyll a",
-    "Only green light drives photosynthesis",
-    "Chlorophyll b inhibits photosynthesis at certain wavelengths"
-  ],
-  correct: 1,
+      "Chlorophyll a does not participate in photosynthesis",
+      "Only green light drives photosynthesis",
+      "Accessory pigments also absorb light at other wavelengths and transfer energy to chlorophyll a",
+      "Chlorophyll b inhibits photosynthesis at certain wavelengths"
+    ], correct: 2,
   explanation: "Accessory pigments (Chl b, xanthophylls, carotenoids) absorb light at wavelengths not efficiently absorbed by Chl a and transfer the energy to Chl a. This broadens the action spectrum beyond the absorption spectrum of Chl a alone."
 },
 {
@@ -1930,12 +1838,11 @@ var allQuestions = [
   topic: "Photosynthetic Pigments",
   q: "Most of the photosynthesis takes place in which regions of the visible spectrum?",
   options: [
-    "Green and yellow regions",
-    "Blue and red regions",
-    "Violet and orange regions only",
-    "Infrared and ultraviolet regions"
-  ],
-  correct: 1,
+      "Green and yellow regions",
+      "Infrared and ultraviolet regions",
+      "Violet and orange regions only",
+      "Blue and red regions"
+    ], correct: 3,
   explanation: "NCERT states: 'most of the photosynthesis takes place in the blue and red regions of the spectrum.' These correspond to the absorption peaks of chlorophyll a."
 },
 {
@@ -1943,12 +1850,11 @@ var allQuestions = [
   topic: "Photosynthetic Pigments",
   q: "Some photosynthesis does take place at wavelengths other than blue and red. This is because:",
   options: [
-    "Chlorophyll a absorbs all wavelengths equally",
-    "Accessory pigments absorb light at other wavelengths and transfer energy to chlorophyll a",
-    "Water molecules absorb green light",
-    "CO₂ absorbs wavelengths other than blue and red"
-  ],
-  correct: 1,
+      "Accessory pigments absorb light at other wavelengths and transfer energy to chlorophyll a",
+      "Chlorophyll a absorbs all wavelengths equally",
+      "Water molecules absorb green light",
+      "CO₂ absorbs wavelengths other than blue and red"
+    ], correct: 0,
   explanation: "NCERT states: 'some photosynthesis does take place at the other wavelengths of the visible spectrum' because accessory pigments absorb at those wavelengths and transfer the energy to chlorophyll a."
 },
 {
@@ -1969,12 +1875,11 @@ var allQuestions = [
   topic: "Photosynthetic Pigments",
   q: "Which of the following is <b>NOT</b> an accessory pigment?",
   options: [
-    "Chlorophyll b",
-    "Xanthophylls",
-    "Chlorophyll a",
-    "Carotenoids"
-  ],
-  correct: 2,
+      "Chlorophyll b",
+      "Chlorophyll a",
+      "Xanthophylls",
+      "Carotenoids"
+    ], correct: 1,
   explanation: "Chlorophyll a is the chief/primary pigment, NOT an accessory pigment. Chlorophyll b, xanthophylls, and carotenoids are accessory pigments that absorb light and transfer energy to chlorophyll a."
 },
 {
@@ -2021,12 +1926,11 @@ var allQuestions = [
   topic: "Photosynthetic Pigments",
   q: "Which of the following correctly describes the role of chlorophyll b in photosynthesis?",
   options: [
-    "It is the reaction centre pigment",
-    "It directly reduces CO₂ to glucose",
-    "It absorbs light and transfers energy to chlorophyll a",
-    "It splits water during photolysis"
-  ],
-  correct: 2,
+      "It absorbs light and transfers energy to chlorophyll a",
+      "It directly reduces CO₂ to glucose",
+      "It is the reaction centre pigment",
+      "It splits water during photolysis"
+    ], correct: 0,
   explanation: "Chlorophyll b is an accessory pigment that absorbs light (especially in blue and orange regions) and transfers the energy to chlorophyll a. It does not serve as the reaction centre pigment."
 },
 {
@@ -2060,12 +1964,11 @@ var allQuestions = [
   topic: "Photosynthetic Pigments",
   q: "Photo-oxidation of chlorophyll a is prevented by:",
   options: [
-    "Chlorophyll b only",
-    "Accessory pigments (including carotenoids)",
-    "Stroma enzymes",
-    "ATP synthase"
-  ],
-  correct: 1,
+      "Chlorophyll b only",
+      "Stroma enzymes",
+      "Accessory pigments (including carotenoids)",
+      "ATP synthase"
+    ], correct: 2,
   explanation: "NCERT states that accessory pigments 'also protect chlorophyll a from photo-oxidation.' Carotenoids are particularly known for this photoprotective role by quenching reactive oxygen species."
 },
 {
@@ -2073,12 +1976,11 @@ var allQuestions = [
   topic: "Photosynthetic Pigments",
   q: "Which of the following statements about the action spectrum of photosynthesis is <b>incorrect</b>?",
   options: [
-    "It shows the rate of photosynthesis at different wavelengths",
-    "Maximum photosynthesis occurs in blue and red regions",
-    "It completely overlaps with the absorption spectrum of chlorophyll a",
-    "Some photosynthesis occurs at other wavelengths of the visible spectrum"
-  ],
-  correct: 2,
+      "It shows the rate of photosynthesis at different wavelengths",
+      "Maximum photosynthesis occurs in blue and red regions",
+      "Some photosynthesis occurs at other wavelengths of the visible spectrum",
+      "It completely overlaps with the absorption spectrum of chlorophyll a"
+    ], correct: 3,
   explanation: "NCERT clearly indicates there is NOT a complete one-to-one overlap between the absorption spectrum of Chl a and the action spectrum. The action spectrum is broader because accessory pigments also contribute."
 },
 {
@@ -2086,12 +1988,11 @@ var allQuestions = [
   topic: "Photosynthetic Pigments",
   q: "The absorption spectrum shows:",
   options: [
-    "The rate of photosynthesis at different wavelengths",
-    "The wavelengths of light absorbed by a pigment",
-    "The wavelengths of light emitted by a pigment",
-    "The amount of CO₂ fixed at different wavelengths"
-  ],
-  correct: 1,
+      "The wavelengths of light absorbed by a pigment",
+      "The rate of photosynthesis at different wavelengths",
+      "The wavelengths of light emitted by a pigment",
+      "The amount of CO₂ fixed at different wavelengths"
+    ], correct: 0,
   explanation: "An absorption spectrum shows the wavelengths (colours) of light absorbed by a particular pigment. It is different from the action spectrum, which shows the rate of photosynthesis at different wavelengths."
 },
 {
@@ -2112,12 +2013,11 @@ var allQuestions = [
   topic: "Photosynthetic Pigments",
   q: "Select the <b>correct</b> sequence of pigments from most to least soluble in the chromatographic solvent (as they appear from top to bottom on chromatogram):",
   options: [
-    "Carotenoids → Xanthophylls → Chlorophyll a → Chlorophyll b",
-    "Chlorophyll b → Chlorophyll a → Xanthophylls → Carotenoids",
-    "Xanthophylls → Carotenoids → Chlorophyll b → Chlorophyll a",
-    "Chlorophyll a → Chlorophyll b → Carotenoids → Xanthophylls"
-  ],
-  correct: 0,
+      "Xanthophylls → Carotenoids → Chlorophyll b → Chlorophyll a",
+      "Chlorophyll b → Chlorophyll a → Xanthophylls → Carotenoids",
+      "Carotenoids → Xanthophylls → Chlorophyll a → Chlorophyll b",
+      "Chlorophyll a → Chlorophyll b → Carotenoids → Xanthophylls"
+    ], correct: 2,
   explanation: "In paper chromatography, the most soluble pigment travels the farthest. The order from top (most soluble) to bottom is: Carotenoids → Xanthophylls → Chlorophyll a → Chlorophyll b. This is a classic NEET question on Rf values."
 },
 {
@@ -2138,12 +2038,11 @@ var allQuestions = [
   topic: "Photosynthetic Pigments",
   q: "Chlorophyll a shows absorption peaks in:",
   options: [
-    "Green and yellow regions",
-    "Blue and red regions",
-    "Only the red region",
-    "Only the blue region"
-  ],
-  correct: 1,
+      "Green and yellow regions",
+      "Only the blue region",
+      "Only the red region",
+      "Blue and red regions"
+    ], correct: 3,
   explanation: "Chlorophyll a has two absorption peaks — one in the blue region (~430 nm) and one in the red region (~660 nm). It reflects green light, which is why leaves appear green."
 },
 {
@@ -2151,12 +2050,11 @@ var allQuestions = [
   topic: "Photosynthetic Pigments",
   q: "Which of the following is the reason why leaves appear green to our eyes?",
   options: [
-    "Chlorophyll absorbs green light most efficiently",
-    "Chlorophyll reflects and transmits green light",
-    "Carotenoids absorb green light",
-    "Xanthophylls emit green light"
-  ],
-  correct: 1,
+      "Chlorophyll reflects and transmits green light",
+      "Chlorophyll absorbs green light most efficiently",
+      "Carotenoids absorb green light",
+      "Xanthophylls emit green light"
+    ], correct: 0,
   explanation: "Chlorophyll absorbs blue and red light strongly. Green light is reflected and transmitted, making leaves appear green to our eyes. Chlorophyll does NOT absorb green light efficiently."
 },
 {
@@ -2190,12 +2088,11 @@ var allQuestions = [
   topic: "Photosynthetic Pigments",
   q: "Which of the following pigments has the highest Rf value in paper chromatography of leaf extract?",
   options: [
-    "Chlorophyll a",
-    "Chlorophyll b",
-    "Xanthophylls",
-    "Carotenoids"
-  ],
-  correct: 3,
+      "Chlorophyll a",
+      "Chlorophyll b",
+      "Carotenoids",
+      "Xanthophylls"
+    ], correct: 2,
   explanation: "Carotenoids are the most soluble in the chromatographic solvent and travel the farthest, giving them the highest Rf value. The order of Rf values: Carotenoids > Xanthophylls > Chlorophyll a > Chlorophyll b."
 },
 {
@@ -2229,12 +2126,11 @@ var allQuestions = [
   topic: "Photosynthetic Pigments",
   q: "Which of the following is the correct distinction between absorption spectrum and action spectrum?",
   options: [
-    "Absorption spectrum shows rate of photosynthesis; action spectrum shows light absorbed by pigments",
-    "Absorption spectrum shows wavelengths absorbed by a pigment; action spectrum shows rate of photosynthesis at different wavelengths",
-    "Both are identical for chlorophyll a",
-    "Absorption spectrum applies to whole plants; action spectrum applies to isolated pigments"
-  ],
-  correct: 1,
+      "Absorption spectrum shows wavelengths absorbed by a pigment; action spectrum shows rate of photosynthesis at different wavelengths",
+      "Absorption spectrum shows rate of photosynthesis; action spectrum shows light absorbed by pigments",
+      "Both are identical for chlorophyll a",
+      "Absorption spectrum applies to whole plants; action spectrum applies to isolated pigments"
+    ], correct: 0,
   explanation: "Absorption spectrum shows which wavelengths a pigment absorbs. Action spectrum shows the rate of a biological process (photosynthesis) at different wavelengths. They are related but not identical."
 },
 {
@@ -2242,12 +2138,11 @@ var allQuestions = [
   topic: "Photosynthetic Pigments",
   q: "If all accessory pigments are removed from a plant, which of the following will happen?<br>(i) Range of wavelengths usable for photosynthesis will decrease<br>(ii) Chlorophyll a will be more prone to photo-oxidation<br>(iii) Total rate of photosynthesis will decrease<br>(iv) Photosynthesis will stop completely",
   options: [
-    "(i), (ii) and (iii) only",
-    "(i) and (ii) only",
-    "(iv) only",
-    "(i), (ii), (iii) and (iv)"
-  ],
-  correct: 0,
+      "(i) and (ii) only",
+      "(i), (ii) and (iii) only",
+      "(iv) only",
+      "(i), (ii), (iii) and (iv)"
+    ], correct: 1,
   explanation: "Without accessory pigments: the range of usable wavelengths decreases (i), Chl a becomes prone to photo-oxidation (ii), and overall photosynthesis rate decreases (iii). However, photosynthesis won't stop completely (iv is wrong) because Chl a can still absorb blue and red light."
 },
 {
@@ -2255,12 +2150,11 @@ var allQuestions = [
   topic: "Photosynthetic Pigments",
   q: "The green colour of a leaf is due to the fact that:",
   options: [
-    "Chlorophyll absorbs green light most efficiently",
-    "Green light is reflected and transmitted by chlorophyll while blue and red are absorbed",
-    "Carotenoids produce green pigment",
-    "All wavelengths are absorbed except ultraviolet"
-  ],
-  correct: 1,
+      "Chlorophyll absorbs green light most efficiently",
+      "Carotenoids produce green pigment",
+      "Green light is reflected and transmitted by chlorophyll while blue and red are absorbed",
+      "All wavelengths are absorbed except ultraviolet"
+    ], correct: 2,
   explanation: "Chlorophyll absorbs blue and red light strongly. Green light is reflected and transmitted, making leaves appear green to our eyes. Chlorophyll does NOT absorb green light efficiently."
 },
 {
@@ -2268,12 +2162,11 @@ var allQuestions = [
   topic: "Photosynthetic Pigments",
   q: "Which of the following statements is <b>incorrect</b>?",
   options: [
-    "Chlorophyll a is bright or blue green",
-    "Xanthophylls are yellow to yellow-orange",
-    "Carotenoids are yellow to yellow-orange",
-    "Chlorophyll b is yellow green"
-  ],
-  correct: 1,
+      "Chlorophyll a is bright or blue green",
+      "Chlorophyll b is yellow green",
+      "Carotenoids are yellow to yellow-orange",
+      "Xanthophylls are yellow to yellow-orange"
+    ], correct: 3,
   explanation: "Xanthophylls are 'yellow' (not yellow to yellow-orange) as per NCERT. Carotenoids are 'yellow to yellow-orange.' Students frequently interchange the colours of xanthophylls and carotenoids — this is a classic NEET trap."
 }
 ,
@@ -2282,12 +2175,11 @@ var allQuestions = [
   topic: "What is Light Reaction?",
   q: "Light reactions are also called:",
   options: [
-    "Carbon reactions",
-    "Biosynthetic phase",
-    "Photochemical phase",
-    "Dark phase"
-  ],
-  correct: 2,
+      "Photochemical phase",
+      "Biosynthetic phase",
+      "Carbon reactions",
+      "Dark phase"
+    ], correct: 0,
   explanation: "NCERT states: 'Light reactions or the Photochemical phase include light absorption, water splitting, oxygen release, and the formation of high-energy chemical intermediates, ATP and NADPH.'"
 },
 {
@@ -2295,12 +2187,11 @@ var allQuestions = [
   topic: "What is Light Reaction?",
   q: "Which of the following are included in light reactions?<br>(i) Light absorption<br>(ii) Water splitting<br>(iii) Oxygen release<br>(iv) Formation of ATP and NADPH<br>(v) Carbon fixation",
   options: [
-    "(i), (ii), (iii) and (iv) only",
-    "(i), (ii), (iii), (iv) and (v)",
-    "(i) and (iv) only",
-    "(ii), (iii) and (v) only"
-  ],
-  correct: 0,
+      "(i), (ii), (iii), (iv) and (v)",
+      "(i), (ii), (iii) and (iv) only",
+      "(i) and (iv) only",
+      "(ii), (iii) and (v) only"
+    ], correct: 1,
   explanation: "NCERT lists light absorption, water splitting, oxygen release, and formation of ATP and NADPH as events of light reactions. Carbon fixation occurs in the dark reactions (Calvin cycle), not in light reactions."
 },
 {
@@ -2308,12 +2199,11 @@ var allQuestions = [
   topic: "What is Light Reaction?",
   q: "The high-energy chemical intermediates formed during light reactions are:",
   options: [
-    "Glucose and O₂",
-    "ATP and NADPH",
-    "NADH and FADH₂",
-    "ADP and NADP⁺"
-  ],
-  correct: 1,
+      "Glucose and O₂",
+      "NADH and FADH₂",
+      "ATP and NADPH",
+      "ADP and NADP⁺"
+    ], correct: 2,
   explanation: "NCERT states light reactions involve 'the formation of high-energy chemical intermediates, ATP and NADPH.' These are also called assimilatory power. NADH and FADH₂ are produced in respiration, not in light reactions of photosynthesis."
 },
 {
@@ -2321,12 +2211,11 @@ var allQuestions = [
   topic: "What is Light Reaction?",
   q: "The pigments in the thylakoid membrane are organised into:",
   options: [
-    "One photosystem only",
-    "Two discrete photochemical light harvesting complexes within PS I and PS II",
-    "Three photosystems",
-    "Four independent pigment complexes"
-  ],
-  correct: 1,
+      "One photosystem only",
+      "Four independent pigment complexes",
+      "Three photosystems",
+      "Two discrete photochemical light harvesting complexes within PS I and PS II"
+    ], correct: 3,
   explanation: "NCERT states: 'The pigments are organised into two discrete photochemical light harvesting complexes (LHC) within the Photosystem I (PS I) and Photosystem II (PS II).'"
 },
 {
@@ -2334,12 +2223,11 @@ var allQuestions = [
   topic: "What is Light Reaction?",
   q: "PS I and PS II are named in the sequence of:",
   options: [
-    "Their function during light reaction",
-    "Their discovery",
-    "Their size",
-    "Their location in the thylakoid"
-  ],
-  correct: 1,
+      "Their discovery",
+      "Their function during light reaction",
+      "Their size",
+      "Their location in the thylakoid"
+    ], correct: 0,
   explanation: "NCERT explicitly states: 'These are named in the sequence of their discovery, and not in the sequence in which they function during the light reaction.' PS II functions first, though it was discovered second."
 },
 {
@@ -2386,12 +2274,11 @@ var allQuestions = [
   topic: "What is Light Reaction?",
   q: "In each photosystem, the antennae system includes all pigments <b>except</b>:",
   options: [
-    "Chlorophyll b",
-    "Carotenoids",
-    "One molecule of chlorophyll a that forms the reaction centre",
-    "Xanthophylls"
-  ],
-  correct: 2,
+      "Chlorophyll b",
+      "Carotenoids",
+      "Xanthophylls",
+      "One molecule of chlorophyll a that forms the reaction centre"
+    ], correct: 3,
   explanation: "NCERT states: 'Each photosystem has all the pigments (except one molecule of chlorophyll a) forming a light harvesting system.' That single chlorophyll a molecule forms the reaction centre, not the antennae."
 },
 {
@@ -2399,12 +2286,11 @@ var allQuestions = [
   topic: "What is Light Reaction?",
   q: "The reaction centre of a photosystem is formed by:",
   options: [
-    "Hundreds of pigment molecules",
-    "A single molecule of chlorophyll a",
-    "A single molecule of chlorophyll b",
-    "A complex of carotenoids"
-  ],
-  correct: 1,
+      "A single molecule of chlorophyll a",
+      "Hundreds of pigment molecules",
+      "A single molecule of chlorophyll b",
+      "A complex of carotenoids"
+    ], correct: 0,
   explanation: "NCERT states: 'The single chlorophyll a molecule forms the reaction centre.' This is the molecule that actually participates in the photochemical reaction by losing an electron."
 },
 {
@@ -2438,12 +2324,11 @@ var allQuestions = [
   topic: "What is Light Reaction?",
   q: "P700 refers to:",
   options: [
-    "The reaction centre chlorophyll a of PS II",
-    "An accessory pigment with absorption at 700 nm",
-    "The reaction centre chlorophyll a of PS I with absorption peak at 700 nm",
-    "A carotenoid absorbing at 700 nm"
-  ],
-  correct: 2,
+      "The reaction centre chlorophyll a of PS II",
+      "An accessory pigment with absorption at 700 nm",
+      "A carotenoid absorbing at 700 nm",
+      "The reaction centre chlorophyll a of PS I with absorption peak at 700 nm"
+    ], correct: 3,
   explanation: "P700 is the reaction centre chlorophyll a of PS I with absorption peak at 700 nm. 'P' stands for pigment. This is a high-frequency NEET question."
 },
 {
@@ -2451,12 +2336,11 @@ var allQuestions = [
   topic: "What is Light Reaction?",
   q: "P680 refers to:",
   options: [
-    "The reaction centre chlorophyll a of PS I",
-    "The reaction centre chlorophyll a of PS II with absorption maxima at 680 nm",
-    "An antenna pigment in PS II",
-    "A xanthophyll molecule in PS II"
-  ],
-  correct: 1,
+      "The reaction centre chlorophyll a of PS II with absorption maxima at 680 nm",
+      "The reaction centre chlorophyll a of PS I",
+      "An antenna pigment in PS II",
+      "A xanthophyll molecule in PS II"
+    ], correct: 0,
   explanation: "P680 is the reaction centre chlorophyll a of PS II with absorption maxima at 680 nm. It is the pigment that initiates electron flow in the Z scheme by losing electrons upon light absorption."
 },
 {
@@ -2464,12 +2348,11 @@ var allQuestions = [
   topic: "What is Light Reaction?",
   q: "Match the following:<br>(i) PS I — (P) P680<br>(ii) PS II — (Q) P700<br>(iii) Antennae — (R) Single chlorophyll a molecule<br>(iv) Reaction centre — (S) Hundreds of pigment molecules",
   options: [
-    "(i)-Q, (ii)-P, (iii)-S, (iv)-R",
-    "(i)-P, (ii)-Q, (iii)-R, (iv)-S",
-    "(i)-Q, (ii)-P, (iii)-R, (iv)-S",
-    "(i)-P, (ii)-Q, (iii)-S, (iv)-R"
-  ],
-  correct: 0,
+      "(i)-P, (ii)-Q, (iii)-R, (iv)-S",
+      "(i)-Q, (ii)-P, (iii)-S, (iv)-R",
+      "(i)-Q, (ii)-P, (iii)-R, (iv)-S",
+      "(i)-P, (ii)-Q, (iii)-S, (iv)-R"
+    ], correct: 1,
   explanation: "PS I = P700 (Q), PS II = P680 (P), Antennae = Hundreds of pigment molecules (S), Reaction centre = Single chlorophyll a molecule (R). This is a direct NCERT-based matching."
 },
 {
@@ -2490,12 +2373,11 @@ var allQuestions = [
   topic: "What is Light Reaction?",
   q: "The antennae pigments help to make photosynthesis more efficient by:",
   options: [
-    "Directly fixing CO₂",
-    "Absorbing different wavelengths of light",
-    "Splitting water molecules",
-    "Synthesising ATP"
-  ],
-  correct: 1,
+      "Directly fixing CO₂",
+      "Splitting water molecules",
+      "Absorbing different wavelengths of light",
+      "Synthesising ATP"
+    ], correct: 2,
   explanation: "NCERT states: 'These pigments help to make photosynthesis more efficient by absorbing different wavelengths of light.' The antennae system captures a wider range of light wavelengths and funnels the energy to the reaction centre."
 },
 {
@@ -2568,12 +2450,11 @@ var allQuestions = [
   topic: "The Electron Transport",
   q: "The excited electrons from PS II are picked up by an electron acceptor and passed to:",
   options: [
-    "NADP⁺ directly",
-    "An electron transport system consisting of cytochromes",
-    "The stroma enzymes",
-    "ATP synthase directly"
-  ],
-  correct: 1,
+      "NADP⁺ directly",
+      "ATP synthase directly",
+      "The stroma enzymes",
+      "An electron transport system consisting of cytochromes"
+    ], correct: 3,
   explanation: "NCERT states: 'These electrons are picked up by an electron acceptor which passes them to an electron transport system consisting of cytochromes.' The electrons move downhill through this transport chain."
 },
 {
@@ -2581,12 +2462,11 @@ var allQuestions = [
   topic: "The Electron Transport",
   q: "The movement of electrons through the electron transport chain from PS II is described as:",
   options: [
-    "Uphill in terms of redox potential",
-    "Downhill in terms of redox potential",
-    "At the same redox potential throughout",
-    "Random in terms of energy"
-  ],
-  correct: 1,
+      "Downhill in terms of redox potential",
+      "Uphill in terms of redox potential",
+      "At the same redox potential throughout",
+      "Random in terms of energy"
+    ], correct: 0,
   explanation: "NCERT states: 'This movement of electrons is downhill, in terms of an oxidation-reduction or redox potential scale.' Electrons move from higher energy to lower energy carriers."
 },
 {
@@ -2594,12 +2474,11 @@ var allQuestions = [
   topic: "The Electron Transport",
   q: "As electrons pass through the electron transport chain, they are:",
   options: [
-    "Used up and destroyed",
-    "Converted to protons",
-    "Not used up but passed on to PS I",
-    "Stored in the thylakoid lumen"
-  ],
-  correct: 2,
+      "Used up and destroyed",
+      "Not used up but passed on to PS I",
+      "Converted to protons",
+      "Stored in the thylakoid lumen"
+    ], correct: 1,
   explanation: "NCERT states: 'The electrons are not used up as they pass through the electron transport chain, but are passed on to the pigments of photosystem PS I.' Electrons are carriers of energy, not consumed."
 },
 {
@@ -2620,12 +2499,11 @@ var allQuestions = [
   topic: "The Electron Transport",
   q: "Electrons in the reaction centre of PS I are excited when they receive red light of wavelength:",
   options: [
-    "680 nm",
-    "660 nm",
-    "700 nm",
-    "730 nm"
-  ],
-  correct: 2,
+      "680 nm",
+      "660 nm",
+      "730 nm",
+      "700 nm"
+    ], correct: 3,
   explanation: "NCERT states: 'electrons in the reaction centre of PS I are also excited when they receive red light of wavelength 700 nm.' These excited electrons are transferred to another acceptor molecule."
 },
 {
@@ -2633,12 +2511,11 @@ var allQuestions = [
   topic: "The Electron Transport",
   q: "The excited electrons from PS I are transferred to an acceptor molecule that has:",
   options: [
-    "A lower redox potential",
-    "A greater redox potential",
-    "The same redox potential as PS I",
-    "No redox potential"
-  ],
-  correct: 1,
+      "A greater redox potential",
+      "A lower redox potential",
+      "The same redox potential as PS I",
+      "No redox potential"
+    ], correct: 0,
   explanation: "NCERT states: 'transferred to another acceptor molecule that has a greater redox potential.' This means the acceptor is at a higher energy level (more negative redox potential), enabling the electrons to eventually reduce NADP⁺."
 },
 {
@@ -2646,12 +2523,11 @@ var allQuestions = [
   topic: "The Electron Transport",
   q: "The final electron acceptor in the Z scheme of light reactions is:",
   options: [
-    "Cytochrome",
-    "PS I",
-    "NADP⁺",
-    "Oxygen"
-  ],
-  correct: 2,
+      "Cytochrome",
+      "NADP⁺",
+      "PS I",
+      "Oxygen"
+    ], correct: 1,
   explanation: "NCERT states that electrons finally move 'downhill to NADP⁺ reducing it to NADPH + H⁺.' NADP⁺ is the terminal/final electron acceptor in the light reactions."
 },
 {
@@ -2659,12 +2535,11 @@ var allQuestions = [
   topic: "The Electron Transport",
   q: "The reduction of NADP⁺ during light reactions produces:",
   options: [
-    "NADH + H⁺",
-    "NADPH + H⁺",
-    "FADH₂",
-    "NADP⁺ + 2H⁺"
-  ],
-  correct: 1,
+      "NADH + H⁺",
+      "FADH₂",
+      "NADPH + H⁺",
+      "NADP⁺ + 2H⁺"
+    ], correct: 2,
   explanation: "NCERT states: 'The addition of these electrons reduces NADP⁺ to NADPH + H⁺.' NADPH (not NADH) is produced in photosynthesis. NADH is produced in cellular respiration."
 },
 {
@@ -2672,12 +2547,11 @@ var allQuestions = [
   topic: "The Electron Transport",
   q: "The Z scheme of electron transport in photosynthesis involves the flow of electrons in the sequence:",
   options: [
-    "PS I → Electron transport chain → PS II → NADP⁺",
-    "PS II → Electron transport chain → PS I → NADP⁺",
-    "NADP⁺ → PS I → Electron transport chain → PS II",
-    "PS II → NADP⁺ → PS I → Electron transport chain"
-  ],
-  correct: 1,
+      "PS I → Electron transport chain → PS II → NADP⁺",
+      "PS II → NADP⁺ → PS I → Electron transport chain",
+      "NADP⁺ → PS I → Electron transport chain → PS II",
+      "PS II → Electron transport chain → PS I → NADP⁺"
+    ], correct: 3,
   explanation: "NCERT describes the Z scheme: 'starting from PS II, uphill to the acceptor, down the electron transport chain to PS I, excitation of electrons, transfer to another acceptor, and finally downhill to NADP⁺.' The correct order is PS II → ETC → PS I → NADP⁺."
 },
 {
@@ -2685,12 +2559,11 @@ var allQuestions = [
   topic: "The Electron Transport",
   q: "The Z scheme is named so because of its:",
   options: [
-    "Zigzag pattern of light absorption",
-    "Characteristic Z shape when carriers are placed on a redox potential scale",
-    "Z-shaped structure of the thylakoid membrane",
-    "Involvement of the enzyme Zymase"
-  ],
-  correct: 1,
+      "Characteristic Z shape when carriers are placed on a redox potential scale",
+      "Zigzag pattern of light absorption",
+      "Z-shaped structure of the thylakoid membrane",
+      "Involvement of the enzyme Zymase"
+    ], correct: 0,
   explanation: "NCERT states: 'is called the Z scheme, due to its characteristic shape. This shape is formed when all the carriers are placed in a sequence on a redox potential scale.' The alternation between uphill and downhill electron movements creates the Z shape."
 },
 {
@@ -2698,12 +2571,11 @@ var allQuestions = [
   topic: "The Electron Transport",
   q: "In the Z scheme, the electron flow involves:<br>(i) Uphill movement from PS II to the primary acceptor<br>(ii) Downhill movement through the electron transport chain<br>(iii) Uphill movement from PS I to another acceptor<br>(iv) Downhill movement to NADP⁺",
   options: [
-    "(i) and (ii) only",
-    "(i), (ii) and (iv) only",
-    "(i), (ii), (iii) and (iv)",
-    "(ii) and (iv) only"
-  ],
-  correct: 2,
+      "(i) and (ii) only",
+      "(i), (ii), (iii) and (iv)",
+      "(i), (ii) and (iv) only",
+      "(ii) and (iv) only"
+    ], correct: 1,
   explanation: "All four are correct as per NCERT: electrons go uphill from PS II to acceptor, downhill through ETC to PS I, uphill from PS I to another acceptor, then downhill to NADP⁺. This creates the characteristic Z-shaped pathway."
 },
 {
@@ -2724,12 +2596,11 @@ var allQuestions = [
   topic: "The Electron Transport",
   q: "The electron transport system in the Z scheme consists of:",
   options: [
-    "Rubisco enzymes",
-    "Cytochromes",
-    "Calvin cycle enzymes",
-    "Lipid molecules"
-  ],
-  correct: 1,
+      "Rubisco enzymes",
+      "Calvin cycle enzymes",
+      "Cytochromes",
+      "Lipid molecules"
+    ], correct: 2,
   explanation: "NCERT states that excited electrons from PS II are passed to 'an electron transport system consisting of cytochromes.' Cytochromes are iron-containing proteins that participate in electron transfer."
 },
 {
@@ -2737,12 +2608,11 @@ var allQuestions = [
   topic: "The Electron Transport",
   q: "Which of the following is the correct description of the complete Z scheme?",
   options: [
-    "PS II → uphill to acceptor → downhill through ETC to PS I → excitation → uphill to acceptor → downhill to NADP⁺",
-    "PS I → uphill to acceptor → downhill through ETC to PS II → excitation → uphill to acceptor → downhill to NADP⁺",
-    "PS II → downhill to ETC → uphill to PS I → downhill to NADP⁺",
-    "NADP⁺ → PS I → ETC → PS II → H₂O"
-  ],
-  correct: 0,
+      "NADP⁺ → PS I → ETC → PS II → H₂O",
+      "PS I → uphill to acceptor → downhill through ETC to PS II → excitation → uphill to acceptor → downhill to NADP⁺",
+      "PS II → downhill to ETC → uphill to PS I → downhill to NADP⁺",
+      "PS II → uphill to acceptor → downhill through ETC to PS I → excitation → uphill to acceptor → downhill to NADP⁺"
+    ], correct: 3,
   explanation: "NCERT describes the complete Z scheme as: 'starting from the PS II, uphill to the acceptor, down the electron transport chain to PS I, excitation of electrons, transfer to another acceptor, and finally downhill to NADP⁺ reducing it to NADPH + H⁺.'"
 },
 {
@@ -2763,12 +2633,11 @@ var allQuestions = [
   topic: "The Electron Transport",
   q: "During the Z scheme, the reduction of NADP⁺ to NADPH + H⁺ involves the addition of:",
   options: [
-    "Protons only",
-    "Electrons from PS I acceptor",
-    "Electrons and protons",
-    "ATP molecules"
-  ],
-  correct: 2,
+      "Electrons and protons",
+      "Electrons from PS I acceptor",
+      "Protons only",
+      "ATP molecules"
+    ], correct: 0,
   explanation: "NCERT states: 'The addition of these electrons reduces NADP⁺ to NADPH + H⁺.' The reduction requires both electrons (from the electron transport chain via PS I) and protons (H⁺) to form NADPH."
 },
 {
@@ -2776,12 +2645,11 @@ var allQuestions = [
   topic: "The Electron Transport",
   q: "Which of the following correctly represents the redox potential changes in the Z scheme?",
   options: [
-    "Continuously downhill from PS II to NADP⁺",
-    "Continuously uphill from PS II to NADP⁺",
-    "Uphill at PS II, downhill through ETC, uphill at PS I, downhill to NADP⁺",
-    "Random changes with no pattern"
-  ],
-  correct: 2,
+      "Continuously downhill from PS II to NADP⁺",
+      "Uphill at PS II, downhill through ETC, uphill at PS I, downhill to NADP⁺",
+      "Continuously uphill from PS II to NADP⁺",
+      "Random changes with no pattern"
+    ], correct: 1,
   explanation: "The Z scheme involves alternating uphill and downhill movements: uphill at PS II (light-driven), downhill through ETC, uphill at PS I (light-driven), downhill to NADP⁺. This creates the characteristic Z shape on a redox potential scale."
 },
 {
@@ -2828,12 +2696,11 @@ var allQuestions = [
   topic: "The Electron Transport",
   q: "The term 'downhill' movement of electrons in the context of the Z scheme refers to:",
   options: [
-    "Physical movement of electrons downward in the thylakoid",
-    "Movement from higher to lower redox potential (releasing energy)",
-    "Movement from stroma to lumen",
-    "Movement against the concentration gradient"
-  ],
-  correct: 1,
+      "Physical movement of electrons downward in the thylakoid",
+      "Movement against the concentration gradient",
+      "Movement from stroma to lumen",
+      "Movement from higher to lower redox potential (releasing energy)"
+    ], correct: 3,
   explanation: "NCERT describes electron movement as 'downhill, in terms of an oxidation-reduction or redox potential scale.' This means electrons move from carriers with higher energy (more negative redox potential) to those with lower energy, releasing energy in the process."
 },
 {
@@ -2841,12 +2708,11 @@ var allQuestions = [
   topic: "What is Light Reaction?",
   q: "How many molecules of chlorophyll a form the reaction centre in each photosystem?",
   options: [
-    "Hundreds",
-    "Two",
-    "One",
-    "Ten"
-  ],
-  correct: 2,
+      "One",
+      "Two",
+      "Hundreds",
+      "Ten"
+    ], correct: 0,
   explanation: "NCERT states: 'The single chlorophyll a molecule forms the reaction centre.' Only ONE molecule of chlorophyll a acts as the reaction centre in each photosystem."
 },
 {
@@ -2867,12 +2733,11 @@ var allQuestions = [
   topic: "What is Light Reaction?",
   q: "Which of the following is correct about PS II?<br>(i) Reaction centre is P680<br>(ii) It absorbs light at 700 nm<br>(iii) It functions first in the Z scheme<br>(iv) Its electrons are passed to cytochromes",
   options: [
-    "(i), (iii) and (iv) only",
-    "(i) and (ii) only",
-    "(i), (ii), (iii) and (iv)",
-    "(ii) and (iv) only"
-  ],
-  correct: 0,
+      "(i) and (ii) only",
+      "(i), (iii) and (iv) only",
+      "(i), (ii), (iii) and (iv)",
+      "(ii) and (iv) only"
+    ], correct: 1,
   explanation: "Statement (ii) is wrong — PS II absorbs at 680 nm, not 700 nm. Statements (i), (iii), and (iv) are all correct as per NCERT. PS II has P680, functions first, and sends electrons to the ETC (cytochromes)."
 },
 {
@@ -2880,12 +2745,11 @@ var allQuestions = [
   topic: "The Electron Transport",
   q: "The 'uphill' movement of electrons in the Z scheme occurs at:",
   options: [
-    "The cytochrome complex only",
-    "PS II and PS I when light excites the reaction centre chlorophyll",
-    "NADP⁺ reductase only",
-    "The electron transport chain between PS II and PS I"
-  ],
-  correct: 1,
+      "The cytochrome complex only",
+      "NADP⁺ reductase only",
+      "PS II and PS I when light excites the reaction centre chlorophyll",
+      "The electron transport chain between PS II and PS I"
+    ], correct: 2,
   explanation: "Uphill movement occurs at both PS II and PS I where light energy excites electrons to higher energy levels. The downhill movement occurs through the ETC (between PS II and PS I) and from PS I acceptor to NADP⁺."
 },
 {
@@ -2906,12 +2770,11 @@ var allQuestions = [
   topic: "What is Light Reaction?",
   q: "Which of the following is common to both PS I and PS II?",
   options: [
-    "Same absorption wavelength for the reaction centre",
-    "Presence of a light harvesting complex with multiple pigments",
-    "Same reaction centre chlorophyll a (P700)",
-    "Both produce NADPH directly"
-  ],
-  correct: 1,
+      "Same absorption wavelength for the reaction centre",
+      "Both produce NADPH directly",
+      "Same reaction centre chlorophyll a (P700)",
+      "Presence of a light harvesting complex with multiple pigments"
+    ], correct: 3,
   explanation: "Both PS I and PS II have a light harvesting complex (LHC/antennae) made of hundreds of pigment molecules bound to proteins. Their reaction centres differ (P700 vs P680), and only PS I pathway leads to NADPH formation."
 },
 {
@@ -2919,12 +2782,11 @@ var allQuestions = [
   topic: "The Electron Transport",
   q: "In the Z scheme, energy is used to push electrons 'uphill' at two points. The source of this energy is:",
   options: [
-    "ATP hydrolysis",
-    "Heat from cellular respiration",
-    "Light energy absorbed by the photosystems",
-    "Chemical energy from glucose"
-  ],
-  correct: 2,
+      "Light energy absorbed by the photosystems",
+      "Heat from cellular respiration",
+      "ATP hydrolysis",
+      "Chemical energy from glucose"
+    ], correct: 0,
   explanation: "Light energy absorbed by PS II (680 nm) and PS I (700 nm) provides the energy needed to excite electrons to higher energy levels (uphill movement). This is why these are called 'light reactions.'"
 },
 {
@@ -2958,12 +2820,11 @@ var allQuestions = [
   topic: "The Electron Transport",
   q: "The Z scheme describes electron flow in:",
   options: [
-    "Cyclic photophosphorylation",
-    "Non-cyclic electron transport",
-    "The Calvin cycle",
-    "Glycolysis"
-  ],
-  correct: 1,
+      "Cyclic photophosphorylation",
+      "Glycolysis",
+      "The Calvin cycle",
+      "Non-cyclic electron transport"
+    ], correct: 3,
   explanation: "The Z scheme describes non-cyclic electron transport involving both PS II and PS I, where electrons flow from water to NADP⁺. Cyclic electron flow involves only PS I and does not form a Z shape."
 },
 {
@@ -2984,12 +2845,11 @@ var allQuestions = [
   topic: "The Electron Transport",
   q: "Which of the following best describes the redox potential of the acceptor molecule of PS I compared to PS I reaction centre?",
   options: [
-    "Lower redox potential (less negative)",
-    "Greater redox potential (more negative)",
-    "Same redox potential",
-    "Zero redox potential"
-  ],
-  correct: 1,
+      "Greater redox potential (more negative)",
+      "Lower redox potential (less negative)",
+      "Same redox potential",
+      "Zero redox potential"
+    ], correct: 0,
   explanation: "NCERT states electrons from PS I 'are transferred to another acceptor molecule that has a greater redox potential.' A greater (more negative) redox potential means the acceptor is at a higher energy level, capable of eventually reducing NADP⁺."
 },
 {
@@ -2997,12 +2857,11 @@ var allQuestions = [
   topic: "What is Light Reaction?",
   q: "Which of the following is <b>incorrect</b> about the light harvesting complex (LHC)?",
   options: [
-    "It is present within both PS I and PS II",
-    "It consists of hundreds of pigment molecules bound to proteins",
-    "It includes the reaction centre chlorophyll a molecule",
-    "It is also called the antennae system"
-  ],
-  correct: 2,
+      "It is present within both PS I and PS II",
+      "It includes the reaction centre chlorophyll a molecule",
+      "It consists of hundreds of pigment molecules bound to proteins",
+      "It is also called the antennae system"
+    ], correct: 1,
   explanation: "The LHC/antennae system includes all pigments EXCEPT the single molecule of chlorophyll a that forms the reaction centre. NCERT states: 'all the pigments (except one molecule of chlorophyll a) forming a light harvesting system also called antennae.'"
 },
 {
@@ -3023,12 +2882,11 @@ var allQuestions = [
   topic: "The Electron Transport",
   q: "The sequence of events in the Z scheme on a redox potential scale creates a shape resembling the letter:",
   options: [
-    "S",
-    "W",
-    "N",
-    "Z"
-  ],
-  correct: 3,
+      "S",
+      "W",
+      "Z",
+      "N"
+    ], correct: 2,
   explanation: "NCERT states it 'is called the Z scheme, due to its characteristic shape. This shape is formed when all the carriers are placed in a sequence on a redox potential scale.' The alternating uphill-downhill-uphill-downhill pattern creates a Z shape."
 },
 {
@@ -3036,12 +2894,11 @@ var allQuestions = [
   topic: "What is Light Reaction?",
   q: "The wavelength 680 nm falls in which region of the visible spectrum?",
   options: [
-    "Blue region",
-    "Green region",
-    "Red region",
-    "Violet region"
-  ],
-  correct: 2,
+      "Blue region",
+      "Green region",
+      "Violet region",
+      "Red region"
+    ], correct: 3,
   explanation: "Both 680 nm and 700 nm fall in the red region of the visible spectrum. NCERT states PS II 'absorbs 680 nm wavelength of red light.' The red region of visible light spans approximately 620-750 nm."
 },
 {
@@ -3049,12 +2906,11 @@ var allQuestions = [
   topic: "What is Light Reaction?",
   q: "Which statement correctly differentiates PS I from PS II?",
   options: [
-    "PS I has P680, PS II has P700",
-    "PS I functions first, PS II functions second",
-    "PS I has P700 and was discovered first; PS II has P680 and functions first",
-    "PS I is in stroma, PS II is in thylakoid membrane"
-  ],
-  correct: 2,
+      "PS I has P700 and was discovered first; PS II has P680 and functions first",
+      "PS I functions first, PS II functions second",
+      "PS I has P680, PS II has P700",
+      "PS I is in stroma, PS II is in thylakoid membrane"
+    ], correct: 0,
   explanation: "PS I has P700 (absorption at 700 nm) and was discovered first. PS II has P680 (absorption at 680 nm) and functions first in the light reaction. Both are located in the thylakoid membrane."
 },
 {
@@ -3075,12 +2931,11 @@ var allQuestions = [
   topic: "The Electron Transport",
   q: "The electron transport chain between PS II and PS I serves to:",
   options: [
-    "Transfer electrons downhill from PS II acceptor to PS I",
-    "Transfer electrons uphill using light energy",
-    "Directly reduce NADP⁺",
-    "Split water molecules"
-  ],
-  correct: 0,
+      "Directly reduce NADP⁺",
+      "Transfer electrons uphill using light energy",
+      "Transfer electrons downhill from PS II acceptor to PS I",
+      "Split water molecules"
+    ], correct: 2,
   explanation: "The ETC (consisting of cytochromes) transfers electrons downhill (in terms of redox potential) from the PS II primary acceptor to the PS I pigments. This downhill flow releases energy used for ATP synthesis (chemiosmosis)."
 },
 {
@@ -3088,12 +2943,11 @@ var allQuestions = [
   topic: "What is Light Reaction?",
   q: "Which of the following pairs of wavelengths are absorbed by the reaction centres of PS I and PS II respectively?",
   options: [
-    "680 nm and 700 nm",
-    "700 nm and 680 nm",
-    "430 nm and 660 nm",
-    "660 nm and 430 nm"
-  ],
-  correct: 1,
+      "680 nm and 700 nm",
+      "660 nm and 430 nm",
+      "430 nm and 660 nm",
+      "700 nm and 680 nm"
+    ], correct: 3,
   explanation: "PS I reaction centre (P700) absorbs at 700 nm, and PS II reaction centre (P680) absorbs at 680 nm. The question asks for PS I and PS II respectively, so the answer is 700 nm and 680 nm."
 }
 ,
@@ -3102,12 +2956,11 @@ var allQuestions = [
   topic: "Splitting of Water",
   q: "The splitting of water during photosynthesis is associated with:",
   options: [
-    "PS I",
-    "PS II",
-    "Stroma",
-    "Cytochrome complex"
-  ],
-  correct: 1,
+      "PS II",
+      "PS I",
+      "Stroma",
+      "Cytochrome complex"
+    ], correct: 0,
   explanation: "NCERT states: 'The splitting of water is associated with the PS II.' PS II is responsible for photolysis of water, which provides electrons, protons, and oxygen."
 },
 {
@@ -3128,12 +2981,11 @@ var allQuestions = [
   topic: "Splitting of Water",
   q: "The complete equation for water splitting in photosynthesis is:",
   options: [
-    "H₂O → H⁺ + OH⁻",
-    "2H₂O → 4H⁺ + O₂ + 4e⁻",
-    "H₂O → H₂ + O",
-    "2H₂O → 2H₂ + O₂"
-  ],
-  correct: 1,
+      "H₂O → H⁺ + OH⁻",
+      "H₂O → H₂ + O",
+      "2H₂O → 4H⁺ + O₂ + 4e⁻",
+      "2H₂O → 2H₂ + O₂"
+    ], correct: 2,
   explanation: "NCERT gives the equation: 2H₂O → 4H⁺ + O₂ + 4e⁻. Two water molecules are split to produce four protons, one molecule of oxygen, and four electrons."
 },
 {
@@ -3141,12 +2993,11 @@ var allQuestions = [
   topic: "Splitting of Water",
   q: "The electrons lost from PS II are replaced by:",
   options: [
-    "Electrons from PS I",
-    "Electrons from NADPH",
-    "Electrons from splitting of water",
-    "Electrons from the cytochrome complex"
-  ],
-  correct: 2,
+      "Electrons from PS I",
+      "Electrons from NADPH",
+      "Electrons from the cytochrome complex",
+      "Electrons from splitting of water"
+    ], correct: 3,
   explanation: "NCERT states: 'The electrons that were moved from photosystem II must be replaced. This is achieved by electrons available due to splitting of water.' Water acts as the ultimate electron donor in photosynthesis."
 },
 {
@@ -3154,12 +3005,11 @@ var allQuestions = [
   topic: "Splitting of Water",
   q: "The electrons needed to replace those removed from PS I are provided by:",
   options: [
-    "Water directly",
-    "NADPH",
-    "PS II",
-    "ATP"
-  ],
-  correct: 2,
+      "PS II",
+      "NADPH",
+      "Water directly",
+      "ATP"
+    ], correct: 0,
   explanation: "NCERT states: 'The electrons needed to replace those removed from photosystem I are provided by photosystem II.' PS II passes electrons through the ETC to PS I, replacing its lost electrons."
 },
 {
@@ -3206,12 +3056,11 @@ var allQuestions = [
   topic: "Splitting of Water",
   q: "How many electrons are released when 2 molecules of water are split?",
   options: [
-    "2",
-    "6",
-    "4",
-    "8"
-  ],
-  correct: 2,
+      "2",
+      "6",
+      "8",
+      "4"
+    ], correct: 3,
   explanation: "From the equation: 2H₂O → 4H⁺ + O₂ + 4e⁻, four electrons are released when two water molecules are split."
 },
 {
@@ -3219,12 +3068,11 @@ var allQuestions = [
   topic: "Splitting of Water",
   q: "How many protons (H⁺) are released when 2 molecules of water are split?",
   options: [
-    "2",
-    "4",
-    "6",
-    "8"
-  ],
-  correct: 1,
+      "4",
+      "2",
+      "6",
+      "8"
+    ], correct: 0,
   explanation: "From the equation: 2H₂O → 4H⁺ + O₂ + 4e⁻, four protons (H⁺) are released when two water molecules are split."
 },
 {
@@ -3245,12 +3093,11 @@ var allQuestions = [
   topic: "Splitting of Water",
   q: "Which of the following is a net product of photosynthesis produced during water splitting?",
   options: [
-    "ATP",
-    "NADPH",
-    "Oxygen",
-    "Glucose"
-  ],
-  correct: 2,
+      "ATP",
+      "Oxygen",
+      "NADPH",
+      "Glucose"
+    ], correct: 1,
   explanation: "NCERT states: 'This creates oxygen, one of the net products of photosynthesis.' O₂ is released from water splitting. ATP and NADPH are intermediates, and glucose is produced in dark reactions."
 },
 {
@@ -3271,12 +3118,11 @@ var allQuestions = [
   topic: "Splitting of Water",
   q: "The accumulation of H⁺ ions in the thylakoid lumen due to water splitting contributes to:",
   options: [
-    "Carbon fixation",
-    "Creating a proton gradient for ATP synthesis",
-    "NADPH formation directly",
-    "Starch synthesis"
-  ],
-  correct: 1,
+      "Carbon fixation",
+      "Starch synthesis",
+      "NADPH formation directly",
+      "Creating a proton gradient for ATP synthesis"
+    ], correct: 3,
   explanation: "The H⁺ ions released into the lumen by water splitting contribute to the proton gradient across the thylakoid membrane. This gradient drives ATP synthesis through chemiosmosis via ATP synthase."
 },
 {
@@ -3284,12 +3130,11 @@ var allQuestions = [
   topic: "Splitting of Water",
   q: "In the equation 2H₂O → 4H⁺ + O₂ + 4e⁻, the water molecule acts as:",
   options: [
-    "An electron acceptor",
-    "An electron donor",
-    "A proton acceptor",
-    "An enzyme"
-  ],
-  correct: 1,
+      "An electron donor",
+      "An electron acceptor",
+      "A proton acceptor",
+      "An enzyme"
+    ], correct: 0,
   explanation: "Water acts as an electron donor in the light reactions. It donates electrons to replace those lost from PS II. The oxidation of water releases electrons, protons, and O₂."
 },
 {
@@ -3310,12 +3155,11 @@ var allQuestions = [
   topic: "Cyclic and Non-cyclic Photo-phosphorylation",
   q: "Photophosphorylation is the synthesis of ATP from ADP and inorganic phosphate:",
   options: [
-    "In the absence of light",
-    "In the presence of light",
-    "Only in mitochondria",
-    "Only during dark reactions"
-  ],
-  correct: 1,
+      "In the absence of light",
+      "Only in mitochondria",
+      "In the presence of light",
+      "Only during dark reactions"
+    ], correct: 2,
   explanation: "NCERT defines: 'Photophosphorylation is the synthesis of ATP from ADP and inorganic phosphate in the presence of light.' The prefix 'photo' indicates light-dependent ATP synthesis."
 },
 {
@@ -3323,12 +3167,11 @@ var allQuestions = [
   topic: "Cyclic and Non-cyclic Photo-phosphorylation",
   q: "Non-cyclic photophosphorylation occurs when:",
   options: [
-    "Only PS I is functional",
-    "Only PS II is functional",
-    "Both PS I and PS II work in series, first PS II then PS I",
-    "Neither PS I nor PS II is functional"
-  ],
-  correct: 2,
+      "Only PS I is functional",
+      "Only PS II is functional",
+      "Neither PS I nor PS II is functional",
+      "Both PS I and PS II work in series, first PS II then PS I"
+    ], correct: 3,
   explanation: "NCERT states: 'When the two photosystems work in a series, first PS II and then the PS I, a process called non-cyclic photo-phosphorylation occurs.' Both photosystems are required."
 },
 {
@@ -3336,12 +3179,11 @@ var allQuestions = [
   topic: "Cyclic and Non-cyclic Photo-phosphorylation",
   q: "The products of non-cyclic photophosphorylation are:",
   options: [
-    "Only ATP",
-    "Only NADPH + H⁺",
-    "Both ATP and NADPH + H⁺",
-    "Only O₂"
-  ],
-  correct: 2,
+      "Both ATP and NADPH + H⁺",
+      "Only NADPH + H⁺",
+      "Only ATP",
+      "Only O₂"
+    ], correct: 0,
   explanation: "NCERT states: 'Both ATP and NADPH + H⁺ are synthesised by this kind of electron flow.' Non-cyclic flow (Z scheme) produces both ATP and NADPH."
 },
 {
@@ -3349,12 +3191,11 @@ var allQuestions = [
   topic: "Cyclic and Non-cyclic Photo-phosphorylation",
   q: "Cyclic photophosphorylation occurs when:",
   options: [
-    "Both PS I and PS II are functional",
-    "Only PS II is functional",
-    "Only PS I is functional",
-    "Neither photosystem is functional"
-  ],
-  correct: 2,
+      "Both PS I and PS II are functional",
+      "Only PS I is functional",
+      "Only PS II is functional",
+      "Neither photosystem is functional"
+    ], correct: 1,
   explanation: "NCERT states: 'When only PS I is functional, the electron is circulated within the photosystem and the phosphorylation occurs due to cyclic flow of electrons.' Only PS I is involved in cyclic photophosphorylation."
 },
 {
@@ -3362,12 +3203,11 @@ var allQuestions = [
   topic: "Cyclic and Non-cyclic Photo-phosphorylation",
   q: "In cyclic photophosphorylation, the excited electron from PS I:",
   options: [
-    "Passes to NADP⁺ and reduces it",
-    "Is cycled back to the PS I complex through the electron transport chain",
-    "Is transferred to PS II",
-    "Is used to split water"
-  ],
-  correct: 1,
+      "Passes to NADP⁺ and reduces it",
+      "Is transferred to PS II",
+      "Is cycled back to the PS I complex through the electron transport chain",
+      "Is used to split water"
+    ], correct: 2,
   explanation: "NCERT states: 'The excited electron does not pass on to NADP⁺ but is cycled back to the PS I complex through the electron transport chain.' This cyclic flow produces only ATP."
 },
 {
@@ -3375,12 +3215,11 @@ var allQuestions = [
   topic: "Cyclic and Non-cyclic Photo-phosphorylation",
   q: "A possible location where cyclic photophosphorylation could be happening is:",
   options: [
-    "Grana lamellae",
-    "Stroma lamellae",
-    "Stroma matrix",
-    "Outer membrane of chloroplast"
-  ],
-  correct: 1,
+      "Grana lamellae",
+      "Outer membrane of chloroplast",
+      "Stroma matrix",
+      "Stroma lamellae"
+    ], correct: 3,
   explanation: "NCERT states: 'A possible location where this could be happening is in the stroma lamellae.' This is because stroma lamellae lack PS II and NADP reductase enzyme."
 },
 {
@@ -3388,12 +3227,11 @@ var allQuestions = [
   topic: "Cyclic and Non-cyclic Photo-phosphorylation",
   q: "The stroma lamellae membranes lack:<br>(i) PS I<br>(ii) PS II<br>(iii) NADP reductase enzyme<br>(iv) ATP synthase",
   options: [
-    "(i) and (iii) only",
-    "(ii) and (iii) only",
-    "(i), (ii), (iii) and (iv)",
-    "(ii) only"
-  ],
-  correct: 1,
+      "(ii) and (iii) only",
+      "(i) and (iii) only",
+      "(i), (ii), (iii) and (iv)",
+      "(ii) only"
+    ], correct: 0,
   explanation: "NCERT states: 'the stroma lamellae membranes lack PS II as well as NADP reductase enzyme.' PS I is present in stroma lamellae (otherwise cyclic photophosphorylation couldn't occur there)."
 },
 {
@@ -3401,12 +3239,11 @@ var allQuestions = [
   topic: "Cyclic and Non-cyclic Photo-phosphorylation",
   q: "The grana lamellae (thylakoid membranes of grana) contain:",
   options: [
-    "Only PS I",
-    "Only PS II",
-    "Both PS I and PS II",
-    "Neither PS I nor PS II"
-  ],
-  correct: 2,
+      "Only PS I",
+      "Both PS I and PS II",
+      "Only PS II",
+      "Neither PS I nor PS II"
+    ], correct: 1,
   explanation: "NCERT states: 'the membrane or lamellae of the grana have both PS I and PS II.' Non-cyclic photophosphorylation involving both photosystems occurs in the grana."
 },
 {
@@ -3440,12 +3277,11 @@ var allQuestions = [
   topic: "Cyclic and Non-cyclic Photo-phosphorylation",
   q: "Cyclic photophosphorylation also occurs when only light of wavelengths:",
   options: [
-    "Below 680 nm are available",
-    "Beyond 680 nm are available for excitation",
-    "Exactly 680 nm are available",
-    "In the green region are available"
-  ],
-  correct: 1,
+      "Below 680 nm are available",
+      "In the green region are available",
+      "Exactly 680 nm are available",
+      "Beyond 680 nm are available for excitation"
+    ], correct: 3,
   explanation: "NCERT states: 'Cyclic photophosphorylation also occurs when only light of wavelengths beyond 680 nm are available for excitation.' Light beyond 680 nm can excite PS I (P700) but not PS II (P680)."
 },
 {
@@ -3466,12 +3302,11 @@ var allQuestions = [
   topic: "Cyclic and Non-cyclic Photo-phosphorylation",
   q: "Which of the following correctly distinguishes non-cyclic from cyclic photophosphorylation?",
   options: [
-    "Non-cyclic involves only PS I; cyclic involves both PS I and PS II",
-    "Non-cyclic produces only ATP; cyclic produces both ATP and NADPH",
-    "Non-cyclic involves both PS I and PS II and produces ATP + NADPH; cyclic involves only PS I and produces only ATP",
-    "Non-cyclic occurs in stroma lamellae; cyclic occurs in grana"
-  ],
-  correct: 2,
+      "Non-cyclic involves only PS I; cyclic involves both PS I and PS II",
+      "Non-cyclic involves both PS I and PS II and produces ATP + NADPH; cyclic involves only PS I and produces only ATP",
+      "Non-cyclic produces only ATP; cyclic produces both ATP and NADPH",
+      "Non-cyclic occurs in stroma lamellae; cyclic occurs in grana"
+    ], correct: 1,
   explanation: "Non-cyclic photophosphorylation involves both PS I and PS II (Z scheme) and produces both ATP and NADPH. Cyclic involves only PS I and produces only ATP. Non-cyclic occurs in grana; cyclic possibly in stroma lamellae."
 },
 {
@@ -3505,12 +3340,11 @@ var allQuestions = [
   topic: "Cyclic and Non-cyclic Photo-phosphorylation",
   q: "In non-cyclic photophosphorylation, the two photosystems are connected through:",
   options: [
-    "Direct physical contact",
-    "An electron transport chain (Z scheme)",
-    "The Calvin cycle",
-    "Starch granules"
-  ],
-  correct: 1,
+      "Direct physical contact",
+      "Starch granules",
+      "The Calvin cycle",
+      "An electron transport chain (Z scheme)"
+    ], correct: 3,
   explanation: "NCERT states: 'The two photosystems are connected through an electron transport chain, as seen earlier – in the Z scheme.' The ETC (including cytochromes) links PS II to PS I."
 },
 {
@@ -3583,12 +3417,11 @@ var allQuestions = [
   topic: "Cyclic and Non-cyclic Photo-phosphorylation",
   q: "If light of wavelength 700 nm but NOT 680 nm is provided to a plant, which type of photophosphorylation will occur?",
   options: [
-    "Non-cyclic photophosphorylation",
-    "Both cyclic and non-cyclic",
-    "Cyclic photophosphorylation only",
-    "Neither cyclic nor non-cyclic"
-  ],
-  correct: 2,
+      "Non-cyclic photophosphorylation",
+      "Both cyclic and non-cyclic",
+      "Neither cyclic nor non-cyclic",
+      "Cyclic photophosphorylation only"
+    ], correct: 3,
   explanation: "700 nm light excites PS I (P700) but cannot excite PS II (P680 needs ≤680 nm). Without PS II, non-cyclic flow cannot occur. Only cyclic photophosphorylation (PS I only) will take place, producing only ATP."
 },
 {
@@ -3596,12 +3429,11 @@ var allQuestions = [
   topic: "Cyclic and Non-cyclic Photo-phosphorylation",
   q: "NADP reductase enzyme is absent in:",
   options: [
-    "Grana lamellae",
-    "Stroma lamellae",
-    "Stroma matrix",
-    "Both grana and stroma lamellae"
-  ],
-  correct: 1,
+      "Stroma lamellae",
+      "Grana lamellae",
+      "Stroma matrix",
+      "Both grana and stroma lamellae"
+    ], correct: 0,
   explanation: "NCERT states: 'the stroma lamellae membranes lack PS II as well as NADP reductase enzyme.' This is why NADPH cannot be produced during cyclic photophosphorylation in stroma lamellae."
 },
 {
@@ -3622,12 +3454,11 @@ var allQuestions = [
   topic: "Cyclic and Non-cyclic Photo-phosphorylation",
   q: "In non-cyclic photophosphorylation, which photosystem functions first?",
   options: [
-    "PS I",
-    "PS II",
-    "Both function simultaneously",
-    "Neither — only ETC functions"
-  ],
-  correct: 1,
+      "PS I",
+      "Both function simultaneously",
+      "PS II",
+      "Neither — only ETC functions"
+    ], correct: 2,
   explanation: "NCERT states: 'the two photosystems work in a series, first PS II and then the PS I.' PS II (P680) absorbs light first, then electrons pass through the ETC to PS I (P700)."
 },
 {
@@ -3635,12 +3466,11 @@ var allQuestions = [
   topic: "Splitting of Water",
   q: "The ultimate source of electrons for the photosynthetic electron transport chain is:",
   options: [
-    "NADPH",
-    "ATP",
-    "Water",
-    "Carbon dioxide"
-  ],
-  correct: 2,
+      "NADPH",
+      "ATP",
+      "Carbon dioxide",
+      "Water"
+    ], correct: 3,
   explanation: "Water is the ultimate electron donor in photosynthesis. Water splitting provides electrons to replace those lost from PS II, which ultimately drive the entire Z scheme. Without water, the electron flow cannot be sustained."
 },
 {
@@ -3648,12 +3478,11 @@ var allQuestions = [
   topic: "Cyclic and Non-cyclic Photo-phosphorylation",
   q: "Which of the following statements is correct?<br>(A) Stroma lamellae have both PS I and PS II<br>(B) Grana lamellae have both PS I and PS II<br>(C) Stroma lamellae have only PS I<br>(D) Grana lamellae have only PS II",
   options: [
-    "(A) and (D) only",
-    "(B) and (C) only",
-    "(A) and (B) only",
-    "(C) and (D) only"
-  ],
-  correct: 1,
+      "(B) and (C) only",
+      "(A) and (D) only",
+      "(A) and (B) only",
+      "(C) and (D) only"
+    ], correct: 0,
   explanation: "NCERT states: 'the membrane or lamellae of the grana have both PS I and PS II' and stroma lamellae 'lack PS II' (meaning they have only PS I). So statements B and C are correct."
 },
 {
@@ -3700,12 +3529,11 @@ var allQuestions = [
   topic: "Cyclic and Non-cyclic Photo-phosphorylation",
   q: "Match the following:<br>(i) Non-cyclic photophosphorylation — (P) Only ATP produced<br>(ii) Cyclic photophosphorylation — (Q) Both ATP and NADPH produced<br>(iii) Grana lamellae — (R) PS I only<br>(iv) Stroma lamellae — (S) PS I and PS II",
   options: [
-    "(i)-Q, (ii)-P, (iii)-S, (iv)-R",
-    "(i)-P, (ii)-Q, (iii)-R, (iv)-S",
-    "(i)-Q, (ii)-P, (iii)-R, (iv)-S",
-    "(i)-P, (ii)-Q, (iii)-S, (iv)-R"
-  ],
-  correct: 0,
+      "(i)-P, (ii)-Q, (iii)-S, (iv)-R",
+      "(i)-P, (ii)-Q, (iii)-R, (iv)-S",
+      "(i)-Q, (ii)-P, (iii)-R, (iv)-S",
+      "(i)-Q, (ii)-P, (iii)-S, (iv)-R"
+    ], correct: 3,
   explanation: "Non-cyclic → ATP + NADPH (Q); Cyclic → Only ATP (P); Grana → PS I and PS II (S); Stroma lamellae → PS I only (R)."
 },
 {
@@ -3713,12 +3541,11 @@ var allQuestions = [
   topic: "Cyclic and Non-cyclic Photo-phosphorylation",
   q: "Which of the following is common to both cyclic and non-cyclic photophosphorylation?",
   options: [
-    "Involvement of PS II",
-    "Production of NADPH",
-    "Production of ATP",
-    "Splitting of water"
-  ],
-  correct: 2,
+      "Production of ATP",
+      "Production of NADPH",
+      "Involvement of PS II",
+      "Splitting of water"
+    ], correct: 0,
   explanation: "ATP production is common to both cyclic and non-cyclic photophosphorylation. NADPH, water splitting, and PS II involvement occur only in non-cyclic flow."
 },
 {
@@ -3726,12 +3553,11 @@ var allQuestions = [
   topic: "Cyclic and Non-cyclic Photo-phosphorylation",
   q: "Which of the following is exclusive to non-cyclic photophosphorylation?<br>(i) NADPH production<br>(ii) ATP production<br>(iii) Water splitting<br>(iv) O₂ evolution<br>(v) Involvement of PS II",
   options: [
-    "(i), (iii), (iv) and (v) only",
-    "(i) and (ii) only",
-    "(ii) and (iii) only",
-    "(i), (ii), (iii), (iv) and (v)"
-  ],
-  correct: 0,
+      "(i) and (ii) only",
+      "(i), (iii), (iv) and (v) only",
+      "(ii) and (iii) only",
+      "(i), (ii), (iii), (iv) and (v)"
+    ], correct: 1,
   explanation: "NADPH production (i), water splitting (iii), O₂ evolution (iv), and PS II involvement (v) are exclusive to non-cyclic flow. ATP production (ii) occurs in both cyclic and non-cyclic pathways."
 },
 {
@@ -3739,12 +3565,11 @@ var allQuestions = [
   topic: "Splitting of Water",
   q: "The role of water in photosynthesis is:<br>(i) Electron donor for PS II<br>(ii) Source of O₂<br>(iii) Source of protons (H⁺)<br>(iv) Source of carbon for glucose",
   options: [
-    "(i), (ii) and (iii) only",
-    "(i), (ii), (iii) and (iv)",
-    "(i) and (ii) only",
-    "(iv) only"
-  ],
-  correct: 0,
+      "(i) and (ii) only",
+      "(i), (ii), (iii) and (iv)",
+      "(i), (ii) and (iii) only",
+      "(iv) only"
+    ], correct: 2,
   explanation: "Water donates electrons to PS II (i), is the source of O₂ released (ii), and provides protons (iii) that contribute to the proton gradient and NADPH formation. Carbon for glucose comes from CO₂, not water (iv is wrong)."
 },
 {
@@ -3752,12 +3577,11 @@ var allQuestions = [
   topic: "Cyclic and Non-cyclic Photo-phosphorylation",
   q: "If a plant is illuminated with far-red light (wavelength >680 nm) only, which of the following will be observed?",
   options: [
-    "Both ATP and NADPH are produced",
-    "Only NADPH is produced",
-    "Only ATP is produced through cyclic photophosphorylation",
-    "No photosynthesis occurs at all"
-  ],
-  correct: 2,
+      "Both ATP and NADPH are produced",
+      "Only NADPH is produced",
+      "No photosynthesis occurs at all",
+      "Only ATP is produced through cyclic photophosphorylation"
+    ], correct: 3,
   explanation: "Far-red light (>680 nm) can excite PS I (P700 = 700 nm) but NOT PS II (P680 = 680 nm). Only cyclic electron flow around PS I can occur, producing ATP only. No NADPH or O₂ is produced."
 },
 {
@@ -3778,12 +3602,11 @@ var allQuestions = [
   topic: "Splitting of Water",
   q: "During photolysis, for every O₂ molecule released, how many electrons are donated to PS II?",
   options: [
-    "1",
-    "2",
-    "4",
-    "6"
-  ],
-  correct: 2,
+      "4",
+      "2",
+      "1",
+      "6"
+    ], correct: 0,
   explanation: "From the equation 2H₂O → 4H⁺ + O₂ + 4e⁻, for every O₂ molecule released, 4 electrons are produced and donated to PS II to replace its lost electrons."
 },
 {
@@ -3791,12 +3614,11 @@ var allQuestions = [
   topic: "Cyclic and Non-cyclic Photo-phosphorylation",
   q: "The special substance that carries energy in its chemical bonds as mentioned in NCERT is:",
   options: [
-    "NADPH",
-    "Glucose",
-    "ATP",
-    "Chlorophyll"
-  ],
-  correct: 2,
+      "NADPH",
+      "ATP",
+      "Glucose",
+      "Chlorophyll"
+    ], correct: 1,
   explanation: "NCERT states: 'Special substances like ATP, carry this energy in their chemical bonds.' ATP is the universal energy currency of the cell."
 },
 {
@@ -3804,12 +3626,11 @@ var allQuestions = [
   topic: "Splitting of Water",
   q: "Which of the following correctly represents the relationship: PS II → electrons → PS I?",
   options: [
-    "PS II provides replacement electrons for PS I",
-    "PS II receives electrons from PS I",
-    "PS II and PS I share the same electrons simultaneously",
-    "PS I provides electrons to PS II"
-  ],
-  correct: 0,
+      "PS II and PS I share the same electrons simultaneously",
+      "PS II receives electrons from PS I",
+      "PS II provides replacement electrons for PS I",
+      "PS I provides electrons to PS II"
+    ], correct: 2,
   explanation: "NCERT states: 'The electrons needed to replace those removed from photosystem I are provided by photosystem II.' In the Z scheme, electron flow is PS II → ETC → PS I."
 },
 {
@@ -3817,12 +3638,11 @@ var allQuestions = [
   topic: "Cyclic and Non-cyclic Photo-phosphorylation",
   q: "Which of the following is <b>NOT</b> a feature of non-cyclic photophosphorylation?",
   options: [
-    "Both PS I and PS II are involved",
-    "ATP and NADPH are both produced",
-    "Electrons are cycled back to PS I",
-    "Water is split to provide electrons"
-  ],
-  correct: 2,
+      "Both PS I and PS II are involved",
+      "ATP and NADPH are both produced",
+      "Water is split to provide electrons",
+      "Electrons are cycled back to PS I"
+    ], correct: 3,
   explanation: "Electrons cycling back to PS I is a feature of CYCLIC photophosphorylation, not non-cyclic. In non-cyclic flow, electrons travel from water → PS II → ETC → PS I → NADP⁺ (a linear path)."
 },
 {
@@ -3830,12 +3650,11 @@ var allQuestions = [
   topic: "Splitting of Water",
   q: "The significance of water splitting in the context of the proton gradient is:",
   options: [
-    "It removes protons from the lumen",
-    "It releases H⁺ into the lumen, contributing to the proton gradient",
-    "It releases H⁺ into the stroma",
-    "It has no role in creating the proton gradient"
-  ],
-  correct: 1,
+      "It releases H⁺ into the lumen, contributing to the proton gradient",
+      "It removes protons from the lumen",
+      "It releases H⁺ into the stroma",
+      "It has no role in creating the proton gradient"
+    ], correct: 0,
   explanation: "Water splitting releases H⁺ into the thylakoid lumen (since the water splitting complex faces the lumen). This contributes to the proton gradient across the thylakoid membrane, which drives ATP synthesis."
 },
 {
@@ -3869,12 +3688,11 @@ var allQuestions = [
   topic: "Splitting of Water",
   q: "The process of water splitting in the presence of light during photosynthesis is also called:",
   options: [
-    "Hydrolysis",
-    "Photolysis",
-    "Glycolysis",
-    "Proteolysis"
-  ],
-  correct: 1,
+      "Hydrolysis",
+      "Glycolysis",
+      "Photolysis",
+      "Proteolysis"
+    ], correct: 2,
   explanation: "Photolysis means 'splitting by light.' The light-dependent splitting of water during photosynthesis is called photolysis of water. Hydrolysis is splitting by water, glycolysis is glucose splitting, and proteolysis is protein splitting."
 },
 {
@@ -3882,12 +3700,11 @@ var allQuestions = [
   topic: "Cyclic and Non-cyclic Photo-phosphorylation",
   q: "Which of the following wavelength conditions would favour ONLY non-cyclic photophosphorylation?",
   options: [
-    "Only far-red light (>700 nm)",
-    "Only light beyond 680 nm",
-    "Light of wavelengths including 680 nm and shorter",
-    "Complete darkness"
-  ],
-  correct: 2,
+      "Only far-red light (>700 nm)",
+      "Only light beyond 680 nm",
+      "Complete darkness",
+      "Light of wavelengths including 680 nm and shorter"
+    ], correct: 3,
   explanation: "Non-cyclic photophosphorylation requires both PS II (P680 nm) and PS I (P700 nm). Light at 680 nm or shorter wavelengths can excite BOTH photosystems. Light beyond 680 nm only excites PS I, favouring cyclic flow."
 },
 {
@@ -3922,12 +3739,11 @@ var allQuestions = [
   topic: "Chemiosmotic Hypothesis",
   q: "The chemiosmotic hypothesis explains:",
   options: [
-    "The mechanism of water splitting",
-    "The mechanism of ATP synthesis in the chloroplast",
-    "The mechanism of carbon fixation",
-    "The mechanism of NADPH oxidation"
-  ],
-  correct: 1,
+      "The mechanism of water splitting",
+      "The mechanism of carbon fixation",
+      "The mechanism of ATP synthesis in the chloroplast",
+      "The mechanism of NADPH oxidation"
+    ], correct: 2,
   explanation: "NCERT states: 'The chemiosmotic hypothesis has been put forward to explain the mechanism' of ATP synthesis in the chloroplast. It links ATP synthesis to the proton gradient across the thylakoid membrane."
 },
 {
@@ -3935,12 +3751,11 @@ var allQuestions = [
   topic: "Chemiosmotic Hypothesis",
   q: "In photosynthesis, ATP synthesis is linked to the development of a proton gradient across:",
   options: [
-    "The outer membrane of the chloroplast",
-    "The inner membrane of the chloroplast",
-    "The thylakoid membranes",
-    "The plasma membrane of the cell"
-  ],
-  correct: 2,
+      "The outer membrane of the chloroplast",
+      "The inner membrane of the chloroplast",
+      "The plasma membrane of the cell",
+      "The thylakoid membranes"
+    ], correct: 3,
   explanation: "NCERT states: 'in photosynthesis too, ATP synthesis is linked to development of a proton gradient across a membrane. This time these are the membranes of thylakoid.' Not the chloroplast envelope membranes."
 },
 {
@@ -3948,12 +3763,11 @@ var allQuestions = [
   topic: "Chemiosmotic Hypothesis",
   q: "In photosynthesis, proton accumulation occurs towards:",
   options: [
-    "The stroma side of the thylakoid membrane",
-    "The outer membrane space of the chloroplast",
-    "The inside of the thylakoid membrane, i.e., in the lumen",
-    "The cytoplasm of the cell"
-  ],
-  correct: 2,
+      "The inside of the thylakoid membrane, i.e., in the lumen",
+      "The outer membrane space of the chloroplast",
+      "The stroma side of the thylakoid membrane",
+      "The cytoplasm of the cell"
+    ], correct: 0,
   explanation: "NCERT states: 'here the proton accumulation is towards the inside of the membrane, i.e., in the lumen.' This is opposite to respiration where protons accumulate in the intermembrane space."
 },
 {
@@ -3974,12 +3788,11 @@ var allQuestions = [
   topic: "Chemiosmotic Hypothesis",
   q: "Which of the following is a difference between proton accumulation in photosynthesis and respiration?",
   options: [
-    "In photosynthesis: stroma; In respiration: matrix",
-    "In photosynthesis: thylakoid lumen; In respiration: intermembrane space of mitochondria",
-    "In photosynthesis: intermembrane space; In respiration: thylakoid lumen",
-    "Both accumulate protons in the same compartment"
-  ],
-  correct: 1,
+      "In photosynthesis: stroma; In respiration: matrix",
+      "In photosynthesis: intermembrane space; In respiration: thylakoid lumen",
+      "In photosynthesis: thylakoid lumen; In respiration: intermembrane space of mitochondria",
+      "Both accumulate protons in the same compartment"
+    ], correct: 2,
   explanation: "NCERT explicitly compares: photosynthesis — protons in thylakoid lumen; respiration — protons in intermembrane space of mitochondria. Both create a proton gradient for ATP synthesis but in different organelles and compartments."
 },
 {
@@ -3987,12 +3800,11 @@ var allQuestions = [
   topic: "Chemiosmotic Hypothesis",
   q: "Which of the following causes proton accumulation in the thylakoid lumen?<br>(i) Splitting of water on the inner side of the membrane<br>(ii) Transport of protons across the membrane during electron transport<br>(iii) Removal of protons from the stroma by NADP reductase<br>(iv) Direct pumping of protons from the cytoplasm",
   options: [
-    "(i), (ii) and (iii) only",
-    "(i) and (ii) only",
-    "(i), (ii), (iii) and (iv)",
-    "(ii) and (iv) only"
-  ],
-  correct: 0,
+      "(ii) and (iv) only",
+      "(i) and (ii) only",
+      "(i), (ii), (iii) and (iv)",
+      "(i), (ii) and (iii) only"
+    ], correct: 3,
   explanation: "NCERT describes three processes: (a) water splitting releases H⁺ into the lumen, (b) electron transport moves protons from stroma to lumen, (c) NADP reductase removes protons from stroma for NADPH synthesis. Statement (iv) is not mentioned."
 },
 {
@@ -4000,12 +3812,11 @@ var allQuestions = [
   topic: "Chemiosmotic Hypothesis",
   q: "The splitting of water molecule takes place on which side of the thylakoid membrane?",
   options: [
-    "Outer side (stroma side)",
-    "Inner side (lumen side)",
-    "Both sides equally",
-    "Neither side — it occurs in the stroma"
-  ],
-  correct: 1,
+      "Inner side (lumen side)",
+      "Outer side (stroma side)",
+      "Both sides equally",
+      "Neither side — it occurs in the stroma"
+    ], correct: 0,
   explanation: "NCERT states: 'splitting of the water molecule takes place on the inner side of the membrane, the protons or hydrogen ions that are produced by the splitting of water accumulate within the lumen of the thylakoids.'"
 },
 {
@@ -4026,12 +3837,11 @@ var allQuestions = [
   topic: "Chemiosmotic Hypothesis",
   q: "The primary acceptor of electrons transfers its electron to:",
   options: [
-    "An electron carrier directly",
-    "An H carrier (hydrogen carrier)",
-    "NADP⁺ directly",
-    "ATP synthase"
-  ],
-  correct: 1,
+      "An electron carrier directly",
+      "NADP⁺ directly",
+      "An H carrier (hydrogen carrier)",
+      "ATP synthase"
+    ], correct: 2,
   explanation: "NCERT states: 'the primary accepter of electron which is located towards the outer side of the membrane transfers its electron not to an electron carrier but to an H carrier.' This H carrier removes a proton from the stroma."
 },
 {
@@ -4039,12 +3849,11 @@ var allQuestions = [
   topic: "Chemiosmotic Hypothesis",
   q: "The H carrier molecule removes a proton from the _______ while transporting an electron, and releases the proton into the _______.",
   options: [
-    "Lumen; stroma",
-    "Stroma; lumen",
-    "Cytoplasm; lumen",
-    "Lumen; cytoplasm"
-  ],
-  correct: 1,
+      "Lumen; stroma",
+      "Lumen; cytoplasm",
+      "Cytoplasm; lumen",
+      "Stroma; lumen"
+    ], correct: 3,
   explanation: "NCERT states: 'this molecule removes a proton from the stroma while transporting an electron. When this molecule passes on its electron to the electron carrier on the inner side of the membrane, the proton is released into the inner side or the lumen side.'"
 },
 {
@@ -4052,12 +3861,11 @@ var allQuestions = [
   topic: "Chemiosmotic Hypothesis",
   q: "The NADP reductase enzyme is located on:",
   options: [
-    "The inner side of the thylakoid membrane (lumen side)",
-    "The stroma side of the membrane",
-    "The outer membrane of the chloroplast",
-    "Inside the thylakoid lumen"
-  ],
-  correct: 1,
+      "The stroma side of the membrane",
+      "The inner side of the thylakoid membrane (lumen side)",
+      "The outer membrane of the chloroplast",
+      "Inside the thylakoid lumen"
+    ], correct: 0,
   explanation: "NCERT states: 'The NADP reductase enzyme is located on the stroma side of the membrane.' It reduces NADP⁺ using electrons from PS I acceptor and protons from the stroma."
 },
 {
@@ -4065,12 +3873,11 @@ var allQuestions = [
   topic: "Chemiosmotic Hypothesis",
   q: "For the reduction of NADP⁺ to NADPH + H⁺, the requirements are:<br>(i) Electrons from the acceptor of PS I<br>(ii) Protons from the stroma<br>(iii) NADP reductase enzyme<br>(iv) Protons from the lumen",
   options: [
-    "(i), (ii) and (iii) only",
-    "(i) and (iii) only",
-    "(i), (ii), (iii) and (iv)",
-    "(ii) and (iv) only"
-  ],
-  correct: 0,
+      "(i) and (iii) only",
+      "(i), (ii) and (iii) only",
+      "(i), (ii), (iii) and (iv)",
+      "(ii) and (iv) only"
+    ], correct: 1,
   explanation: "NCERT states: 'Along with electrons that come from the acceptor of electrons of PS I, protons are necessary for the reduction of NADP⁺ to NADPH + H⁺. These protons are also removed from the stroma.' NADP reductase catalyses this reaction. Protons from the lumen are not used."
 },
 {
@@ -4078,12 +3885,11 @@ var allQuestions = [
   topic: "Chemiosmotic Hypothesis",
   q: "The reduction of NADP⁺ to NADPH + H⁺ by NADP reductase causes protons to be removed from:",
   options: [
-    "The thylakoid lumen",
-    "The stroma",
-    "The intermembrane space",
-    "The cytoplasm"
-  ],
-  correct: 1,
+      "The thylakoid lumen",
+      "The intermembrane space",
+      "The stroma",
+      "The cytoplasm"
+    ], correct: 2,
   explanation: "NCERT states: 'These protons are also removed from the stroma.' The NADP reductase enzyme on the stroma side uses stroma protons, further decreasing their number and contributing to the proton gradient."
 },
 {
@@ -4091,12 +3897,11 @@ var allQuestions = [
   topic: "Chemiosmotic Hypothesis",
   q: "The net effect of the three processes on the proton distribution is:",
   options: [
-    "Protons increase in stroma and decrease in lumen",
-    "Protons decrease in stroma and accumulate in lumen",
-    "Protons remain equal on both sides",
-    "Protons accumulate in the stroma only"
-  ],
-  correct: 1,
+      "Protons increase in stroma and decrease in lumen",
+      "Protons accumulate in the stroma only",
+      "Protons remain equal on both sides",
+      "Protons decrease in stroma and accumulate in lumen"
+    ], correct: 3,
   explanation: "NCERT states: 'within the chloroplast, protons in the stroma decrease in number, while in the lumen there is accumulation of protons.' This creates the proton gradient across the thylakoid membrane."
 },
 {
@@ -4104,12 +3909,11 @@ var allQuestions = [
   topic: "Chemiosmotic Hypothesis",
   q: "The proton gradient across the thylakoid membrane results in:",
   options: [
-    "An increase in pH in the lumen",
-    "A measurable decrease in pH in the lumen",
-    "No change in pH",
-    "An increase in pH in both lumen and stroma"
-  ],
-  correct: 1,
+      "A measurable decrease in pH in the lumen",
+      "An increase in pH in the lumen",
+      "No change in pH",
+      "An increase in pH in both lumen and stroma"
+    ], correct: 0,
   explanation: "NCERT states: 'This creates a proton gradient across the thylakoid membrane as well as a measurable decrease in pH in the lumen.' More H⁺ in the lumen means lower pH (more acidic)."
 },
 {
@@ -4143,12 +3947,11 @@ var allQuestions = [
   topic: "Chemiosmotic Hypothesis",
   q: "The proton gradient is broken down by movement of protons through:",
   options: [
-    "The thylakoid membrane directly (simple diffusion)",
-    "The transmembrane channel of CF₀ of ATP synthase",
-    "NADP reductase enzyme",
-    "Aquaporins in the thylakoid membrane"
-  ],
-  correct: 1,
+      "The thylakoid membrane directly (simple diffusion)",
+      "NADP reductase enzyme",
+      "The transmembrane channel of CF₀ of ATP synthase",
+      "Aquaporins in the thylakoid membrane"
+    ], correct: 2,
   explanation: "NCERT states: 'The gradient is broken down due to the movement of protons across the membrane to the stroma through the transmembrane channel of the CF₀ of the ATP synthase.'"
 },
 {
@@ -4156,12 +3959,11 @@ var allQuestions = [
   topic: "Chemiosmotic Hypothesis",
   q: "The ATP synthase enzyme consists of two parts:",
   options: [
-    "CF₀ and CF₁",
-    "F₀ and F₁ only",
-    "PS I and PS II",
-    "Cytochrome b and cytochrome f"
-  ],
-  correct: 0,
+      "Cytochrome b and cytochrome f",
+      "F₀ and F₁ only",
+      "PS I and PS II",
+      "CF₀ and CF₁"
+    ], correct: 3,
   explanation: "NCERT states: 'The ATP synthase enzyme consists of two parts: one called the CF₀ is embedded in the thylakoid membrane... The other portion is called CF₁.' In chloroplasts, the notation is CF₀ and CF₁ (C for chloroplast)."
 },
 {
@@ -4169,12 +3971,11 @@ var allQuestions = [
   topic: "Chemiosmotic Hypothesis",
   q: "The CF₀ portion of ATP synthase is:",
   options: [
-    "Located on the stroma surface and synthesises ATP",
-    "Embedded in the thylakoid membrane and forms a transmembrane channel",
-    "Located in the thylakoid lumen",
-    "Found in the stroma matrix"
-  ],
-  correct: 1,
+      "Embedded in the thylakoid membrane and forms a transmembrane channel",
+      "Located on the stroma surface and synthesises ATP",
+      "Located in the thylakoid lumen",
+      "Found in the stroma matrix"
+    ], correct: 0,
   explanation: "NCERT states: 'CF₀ is embedded in the thylakoid membrane and forms a transmembrane channel that carries out facilitated diffusion of protons across the membrane.'"
 },
 {
@@ -4195,12 +3996,11 @@ var allQuestions = [
   topic: "Chemiosmotic Hypothesis",
   q: "CF₀ carries out:",
   options: [
-    "Active transport of protons against the gradient",
-    "Facilitated diffusion of protons across the membrane",
-    "Simple diffusion of electrons",
-    "Osmosis of water molecules"
-  ],
-  correct: 1,
+      "Active transport of protons against the gradient",
+      "Simple diffusion of electrons",
+      "Facilitated diffusion of protons across the membrane",
+      "Osmosis of water molecules"
+    ], correct: 2,
   explanation: "NCERT states that CF₀ 'forms a transmembrane channel that carries out facilitated diffusion of protons across the membrane.' Protons move down their concentration gradient through this channel."
 },
 {
@@ -4208,12 +4008,11 @@ var allQuestions = [
   topic: "Chemiosmotic Hypothesis",
   q: "The breakdown of the proton gradient provides energy to cause:",
   options: [
-    "Splitting of water",
-    "A conformational change in the CF₁ particle",
-    "Excitation of chlorophyll a",
-    "Reduction of NADP⁺"
-  ],
-  correct: 1,
+      "Splitting of water",
+      "Reduction of NADP⁺",
+      "Excitation of chlorophyll a",
+      "A conformational change in the CF₁ particle"
+    ], correct: 3,
   explanation: "NCERT states: 'The breakdown of the gradient provides enough energy to cause a conformational change in the CF₁ particle of the ATP synthase, which makes the enzyme synthesise several molecules of energy-packed ATP.'"
 },
 {
@@ -4234,12 +4033,11 @@ var allQuestions = [
   topic: "Chemiosmotic Hypothesis",
   q: "Chemiosmosis requires all of the following <b>EXCEPT</b>:",
   options: [
-    "A membrane",
-    "A proton pump",
-    "ATP synthase",
-    "RuBisCO enzyme"
-  ],
-  correct: 3,
+      "RuBisCO enzyme",
+      "A proton pump",
+      "ATP synthase",
+      "A membrane"
+    ], correct: 0,
   explanation: "NCERT states: 'Chemiosmosis requires a membrane, a proton pump, a proton gradient and ATP synthase.' RuBisCO is involved in the Calvin cycle (carbon fixation), not in chemiosmosis."
 },
 {
@@ -4260,12 +4058,11 @@ var allQuestions = [
   topic: "Chemiosmotic Hypothesis",
   q: "In chemiosmosis, energy is used to pump protons across a membrane to create:",
   options: [
-    "An electron gradient",
-    "A high concentration of protons within the thylakoid lumen",
-    "A high concentration of protons in the stroma",
-    "Equal concentration of protons on both sides"
-  ],
-  correct: 1,
+      "An electron gradient",
+      "A high concentration of protons in the stroma",
+      "A high concentration of protons within the thylakoid lumen",
+      "Equal concentration of protons on both sides"
+    ], correct: 2,
   explanation: "NCERT states: 'Energy is used to pump protons across a membrane, to create a gradient or a high concentration of protons within the thylakoid lumen.' The lumen becomes proton-rich."
 },
 {
@@ -4273,12 +4070,11 @@ var allQuestions = [
   topic: "Chemiosmotic Hypothesis",
   q: "ATP synthase has a channel that allows:",
   options: [
-    "Diffusion of electrons back across the membrane",
-    "Active transport of protons into the lumen",
-    "Diffusion of protons back across the membrane",
-    "Transport of glucose across the membrane"
-  ],
-  correct: 2,
+      "Diffusion of electrons back across the membrane",
+      "Active transport of protons into the lumen",
+      "Transport of glucose across the membrane",
+      "Diffusion of protons back across the membrane"
+    ], correct: 3,
   explanation: "NCERT states: 'ATP synthase has a channel that allows diffusion of protons back across the membrane.' This diffusion of protons from lumen to stroma through CF₀ releases energy for ATP synthesis."
 },
 {
@@ -4286,12 +4082,11 @@ var allQuestions = [
   topic: "Chemiosmotic Hypothesis",
   q: "The ATP and NADPH produced during the light reactions are used immediately in:",
   options: [
-    "Further light reactions",
-    "Biosynthetic reactions in the stroma for fixing CO₂ and synthesis of sugars",
-    "Glycolysis in the cytoplasm",
-    "Krebs cycle in the mitochondria"
-  ],
-  correct: 1,
+      "Biosynthetic reactions in the stroma for fixing CO₂ and synthesis of sugars",
+      "Further light reactions",
+      "Glycolysis in the cytoplasm",
+      "Krebs cycle in the mitochondria"
+    ], correct: 0,
   explanation: "NCERT states: 'the ATP will be used immediately in the biosynthetic reaction taking place in the stroma, responsible for fixing CO₂, and synthesis of sugars.' These are the dark reactions (Calvin cycle)."
 },
 {
@@ -4299,12 +4094,11 @@ var allQuestions = [
   topic: "Chemiosmotic Hypothesis",
   q: "Which of the following is <b>incorrect</b> about the proton gradient in chloroplasts?",
   options: [
-    "Protons accumulate in the thylakoid lumen",
-    "Proton number decreases in the stroma",
-    "The pH of the lumen increases due to proton accumulation",
-    "The gradient is created by water splitting, electron transport, and NADP⁺ reduction"
-  ],
-  correct: 2,
+      "Protons accumulate in the thylakoid lumen",
+      "The pH of the lumen increases due to proton accumulation",
+      "Proton number decreases in the stroma",
+      "The gradient is created by water splitting, electron transport, and NADP⁺ reduction"
+    ], correct: 1,
   explanation: "When protons accumulate in the lumen, the pH DECREASES (becomes more acidic), not increases. More H⁺ = lower pH. NCERT states 'a measurable decrease in pH in the lumen.'"
 },
 {
@@ -4312,12 +4106,11 @@ var allQuestions = [
   topic: "Chemiosmotic Hypothesis",
   q: "Match the following:<br>(i) CF₀ — (P) Protrudes on stroma side<br>(ii) CF₁ — (Q) Embedded in thylakoid membrane<br>(iii) NADP reductase — (R) Located on stroma side<br>(iv) Water splitting complex — (S) Located on inner side (lumen side)",
   options: [
-    "(i)-Q, (ii)-P, (iii)-R, (iv)-S",
-    "(i)-P, (ii)-Q, (iii)-S, (iv)-R",
-    "(i)-Q, (ii)-P, (iii)-S, (iv)-R",
-    "(i)-R, (ii)-S, (iii)-P, (iv)-Q"
-  ],
-  correct: 0,
+      "(i)-Q, (ii)-P, (iii)-S, (iv)-R",
+      "(i)-P, (ii)-Q, (iii)-S, (iv)-R",
+      "(i)-Q, (ii)-P, (iii)-R, (iv)-S",
+      "(i)-R, (ii)-S, (iii)-P, (iv)-Q"
+    ], correct: 2,
   explanation: "CF₀ = Embedded in thylakoid membrane (Q); CF₁ = Protrudes on stroma side (P); NADP reductase = Stroma side (R); Water splitting complex = Inner/lumen side (S). All directly from NCERT."
 },
 {
@@ -4338,12 +4131,11 @@ var allQuestions = [
   topic: "Chemiosmotic Hypothesis",
   q: "Consider the following about the location of components on the thylakoid membrane:<br>(A) Water splitting complex — inner side (lumen)<br>(B) Primary electron acceptor — outer side (stroma)<br>(C) NADP reductase — inner side (lumen)<br>(D) CF₁ of ATP synthase — outer side (stroma)<br><br>Which are correct?",
   options: [
-    "(A), (B), (C) and (D)",
-    "(A), (B) and (D) only",
-    "(A) and (C) only",
-    "(C) and (D) only"
-  ],
-  correct: 1,
+      "(A), (B), (C) and (D)",
+      "(C) and (D) only",
+      "(A) and (C) only",
+      "(A), (B) and (D) only"
+    ], correct: 3,
   explanation: "A is correct (water splitting = inner/lumen side), B is correct (primary acceptor = outer/stroma side), D is correct (CF₁ = stroma side). C is wrong — NADP reductase is on the stroma side, not lumen side."
 },
 {
@@ -4351,12 +4143,11 @@ var allQuestions = [
   topic: "Chemiosmotic Hypothesis",
   q: "The direction of proton flow through ATP synthase during photosynthesis is:",
   options: [
-    "From stroma to lumen",
-    "From lumen to stroma",
-    "From intermembrane space to matrix",
-    "From cytoplasm to stroma"
-  ],
-  correct: 1,
+      "From lumen to stroma",
+      "From stroma to lumen",
+      "From intermembrane space to matrix",
+      "From cytoplasm to stroma"
+    ], correct: 0,
   explanation: "Protons accumulate in the lumen and flow through ATP synthase (CF₀ channel) to the stroma, down the concentration gradient. This flow from lumen → stroma drives ATP synthesis."
 },
 {
@@ -4403,12 +4194,11 @@ var allQuestions = [
   topic: "Chemiosmotic Hypothesis",
   q: "Which of the following statements about the H carrier in electron transport is correct?",
   options: [
-    "It transports only electrons, not protons",
-    "It removes a proton from the lumen and releases it into the stroma",
-    "It removes a proton from the stroma and releases it into the lumen",
-    "It transports protons from the stroma to the cytoplasm"
-  ],
-  correct: 2,
+      "It transports only electrons, not protons",
+      "It removes a proton from the lumen and releases it into the stroma",
+      "It transports protons from the stroma to the cytoplasm",
+      "It removes a proton from the stroma and releases it into the lumen"
+    ], correct: 3,
   explanation: "NCERT states the H carrier 'removes a proton from the stroma while transporting an electron. When this molecule passes on its electron to the electron carrier on the inner side of the membrane, the proton is released into the inner side or the lumen side.'"
 },
 {
@@ -4416,12 +4206,11 @@ var allQuestions = [
   topic: "Chemiosmotic Hypothesis",
   q: "The CF₁ particle of ATP synthase undergoes a conformational change when:",
   options: [
-    "Light strikes the thylakoid membrane",
-    "Water is split in the lumen",
-    "Protons flow through CF₀ from lumen to stroma",
-    "NADP⁺ is reduced to NADPH"
-  ],
-  correct: 2,
+      "Protons flow through CF₀ from lumen to stroma",
+      "Water is split in the lumen",
+      "Light strikes the thylakoid membrane",
+      "NADP⁺ is reduced to NADPH"
+    ], correct: 0,
   explanation: "NCERT states: 'The breakdown of the gradient provides enough energy to cause a conformational change in the CF₁ particle.' This occurs when protons flow through CF₀ from lumen to stroma."
 },
 {
@@ -4442,12 +4231,11 @@ var allQuestions = [
   topic: "Chemiosmotic Hypothesis",
   q: "Which of the following correctly describes the sequence of events in chemiosmosis?",
   options: [
-    "Proton gradient → ATP synthase channel opens → protons diffuse to stroma → conformational change in CF₁ → ATP synthesis",
-    "ATP synthesis → proton gradient formed → protons pumped into lumen",
-    "NADPH formed → proton gradient → water splitting → ATP synthesis",
-    "CO₂ fixation → proton gradient → ATP synthesis"
-  ],
-  correct: 0,
+      "NADPH formed → proton gradient → water splitting → ATP synthesis",
+      "ATP synthesis → proton gradient formed → protons pumped into lumen",
+      "Proton gradient → ATP synthase channel opens → protons diffuse to stroma → conformational change in CF₁ → ATP synthesis",
+      "CO₂ fixation → proton gradient → ATP synthesis"
+    ], correct: 2,
   explanation: "The correct sequence: Proton gradient is created → protons diffuse through CF₀ channel to stroma → energy released causes conformational change in CF₁ → ATP is synthesised. This is the chemiosmotic mechanism."
 },
 {
@@ -4455,12 +4243,11 @@ var allQuestions = [
   topic: "Chemiosmotic Hypothesis",
   q: "Consider the following comparison between chloroplasts and mitochondria:<br>(i) Proton-rich compartment: Lumen (chloroplast) vs Intermembrane space (mitochondria)<br>(ii) ATP synthase faces: Stroma (chloroplast) vs Matrix (mitochondria)<br>(iii) Proton gradient drives: ATP synthesis in both<br><br>Which statements are correct?",
   options: [
-    "(i) and (iii) only",
-    "(i), (ii) and (iii)",
-    "(ii) and (iii) only",
-    "(i) only"
-  ],
-  correct: 1,
+      "(i) and (iii) only",
+      "(i) only",
+      "(ii) and (iii) only",
+      "(i), (ii) and (iii)"
+    ], correct: 3,
   explanation: "All three are correct. In chloroplasts: lumen is proton-rich, CF₁ faces stroma. In mitochondria: intermembrane space is proton-rich, F₁ faces matrix. In both, proton gradient drives ATP synthesis."
 },
 {
@@ -4468,12 +4255,11 @@ var allQuestions = [
   topic: "Chemiosmotic Hypothesis",
   q: "If the thylakoid membrane becomes freely permeable to protons, what would happen?",
   options: [
-    "ATP synthesis would increase dramatically",
-    "The proton gradient would collapse and ATP synthesis would stop",
-    "NADPH production would increase",
-    "Water splitting would stop"
-  ],
-  correct: 1,
+      "The proton gradient would collapse and ATP synthesis would stop",
+      "ATP synthesis would increase dramatically",
+      "NADPH production would increase",
+      "Water splitting would stop"
+    ], correct: 0,
   explanation: "If the membrane becomes freely permeable, protons would leak back without passing through ATP synthase. The proton gradient would collapse, and ATP synthesis would stop. Chemiosmosis requires an intact membrane to maintain the gradient."
 },
 {
@@ -4507,12 +4293,11 @@ var allQuestions = [
   topic: "Chemiosmotic Hypothesis",
   q: "ATP synthase in the chloroplast synthesises ATP on which side of the thylakoid membrane?",
   options: [
-    "The lumen side",
-    "The stroma side",
-    "Inside the thylakoid membrane",
-    "In the intermembrane space"
-  ],
-  correct: 1,
+      "The lumen side",
+      "Inside the thylakoid membrane",
+      "The stroma side",
+      "In the intermembrane space"
+    ], correct: 2,
   explanation: "Since CF₁ (the catalytic portion) protrudes on the stroma side of the thylakoid membrane, ATP is synthesised on the stroma side, where it is immediately available for use in the Calvin cycle."
 },
 {
@@ -4520,12 +4305,11 @@ var allQuestions = [
   topic: "Chemiosmotic Hypothesis",
   q: "Which of the following is a similarity between chemiosmosis in chloroplasts and mitochondria?",
   options: [
-    "Both create proton gradients across the same membrane",
-    "Both use ATP synthase to convert the energy of proton gradient into ATP",
-    "Protons accumulate in the matrix in both",
-    "Both produce NADPH"
-  ],
-  correct: 1,
+      "Both create proton gradients across the same membrane",
+      "Both produce NADPH",
+      "Protons accumulate in the matrix in both",
+      "Both use ATP synthase to convert the energy of proton gradient into ATP"
+    ], correct: 3,
   explanation: "Both chloroplasts and mitochondria use ATP synthase to harness the proton gradient for ATP synthesis. However, the specific membranes and compartments differ (thylakoid vs inner mitochondrial membrane)."
 },
 {
@@ -4533,12 +4317,11 @@ var allQuestions = [
   topic: "Chemiosmotic Hypothesis",
   q: "How many of the following contribute to decreasing proton concentration in the stroma?<br>(i) Water splitting<br>(ii) H carrier transporting protons from stroma to lumen<br>(iii) NADP reductase removing protons from stroma",
   options: [
-    "One",
-    "Two",
-    "Three",
-    "None"
-  ],
-  correct: 1,
+      "Two",
+      "One",
+      "Three",
+      "None"
+    ], correct: 0,
   explanation: "Statements (ii) and (iii) decrease stroma proton concentration. Statement (i) — water splitting — releases protons into the lumen (increases lumen H⁺) but does not directly remove protons from the stroma. So two processes decrease stroma H⁺."
 }
 ,
@@ -4573,12 +4356,11 @@ var allQuestions = [
   topic: "Where Are ATP and NADPH Used?",
   q: "ATP and NADPH produced during light reactions are used for:",
   options: [
-    "Water splitting",
-    "Oxygen evolution",
-    "Synthesis of sugars (biosynthetic phase)",
-    "Excitation of chlorophyll"
-  ],
-  correct: 2,
+      "Water splitting",
+      "Oxygen evolution",
+      "Excitation of chlorophyll",
+      "Synthesis of sugars (biosynthetic phase)"
+    ], correct: 3,
   explanation: "NCERT states: 'ATP and NADPH are used to drive the processes leading to the synthesis of food, more accurately, sugars. This is the biosynthetic phase of photosynthesis.'"
 },
 {
@@ -4586,12 +4368,11 @@ var allQuestions = [
   topic: "Where Are ATP and NADPH Used?",
   q: "The biosynthetic phase of photosynthesis:",
   options: [
-    "Directly depends on the presence of light",
-    "Does not directly depend on light but depends on products of light reaction",
-    "Is completely independent of light in every way",
-    "Occurs only in the presence of sunlight"
-  ],
-  correct: 1,
+      "Does not directly depend on light but depends on products of light reaction",
+      "Directly depends on the presence of light",
+      "Is completely independent of light in every way",
+      "Occurs only in the presence of sunlight"
+    ], correct: 0,
   explanation: "NCERT states: 'This process does not directly depend on the presence of light but is dependent on the products of the light reaction, i.e., ATP and NADPH, besides CO₂ and H₂O.' This is why it is conventionally called the dark reaction."
 },
 {
@@ -4599,12 +4380,11 @@ var allQuestions = [
   topic: "Where Are ATP and NADPH Used?",
   q: "The biosynthetic phase requires all of the following <b>EXCEPT</b>:",
   options: [
-    "ATP",
-    "NADPH",
-    "CO₂ and H₂O",
-    "Direct light energy"
-  ],
-  correct: 3,
+      "ATP",
+      "Direct light energy",
+      "CO₂ and H₂O",
+      "NADPH"
+    ], correct: 1,
   explanation: "NCERT states the biosynthetic phase is dependent on 'ATP and NADPH, besides CO₂ and H₂O.' It does NOT directly depend on light. However, it indirectly needs light to supply ATP and NADPH."
 },
 {
@@ -4612,12 +4392,11 @@ var allQuestions = [
   topic: "Where Are ATP and NADPH Used?",
   q: "The evidence that the biosynthetic phase does not directly require light is:",
   options: [
-    "It occurs faster in darkness",
-    "Immediately after light becomes unavailable, the process continues for some time and then stops",
-    "It occurs only in the dark",
-    "Light inhibits sugar synthesis"
-  ],
-  correct: 1,
+      "It occurs faster in darkness",
+      "It occurs only in the dark",
+      "Immediately after light becomes unavailable, the process continues for some time and then stops",
+      "Light inhibits sugar synthesis"
+    ], correct: 2,
   explanation: "NCERT states: 'immediately after light becomes unavailable, the biosynthetic process continues for some time, and then stops. If then, light is made available, the synthesis starts again.' This proves it doesn't directly need light but needs ATP/NADPH from light reactions."
 },
 {
@@ -4638,12 +4417,11 @@ var allQuestions = [
   topic: "Where Are ATP and NADPH Used?",
   q: "Calling the biosynthetic phase as 'dark reaction' is considered a misnomer because:",
   options: [
-    "It occurs only in the dark",
-    "It does not need CO₂",
-    "It does not actually occur in darkness — it depends on ATP and NADPH from light reactions",
-    "It requires direct sunlight"
-  ],
-  correct: 2,
+      "It occurs only in the dark",
+      "It does not need CO₂",
+      "It requires direct sunlight",
+      "It does not actually occur in darkness — it depends on ATP and NADPH from light reactions"
+    ], correct: 3,
   explanation: "NCERT suggests the term 'dark reaction' is a misnomer because the biosynthetic phase depends on products of light reactions (ATP and NADPH). Without light, these products are not generated, and the process stops. It does not truly occur in 'darkness.'"
 },
 {
@@ -4651,12 +4429,11 @@ var allQuestions = [
   topic: "Where Are ATP and NADPH Used?",
   q: "Melvin Calvin used which radioactive isotope in his studies of algal photosynthesis?",
   options: [
-    "¹⁸O",
-    "³²P",
-    "¹⁴C",
-    "³⁵S"
-  ],
-  correct: 2,
+      "¹⁴C",
+      "³²P",
+      "¹⁸O",
+      "³⁵S"
+    ], correct: 0,
   explanation: "NCERT states: 'The use of radioactive ¹⁴C by him in algal photosynthesis studies led to the discovery that the first CO₂ fixation product was a 3-carbon organic acid.' ¹⁴C was used to trace the path of carbon."
 },
 {
@@ -4677,12 +4454,11 @@ var allQuestions = [
   topic: "Where Are ATP and NADPH Used?",
   q: "The first CO₂ fixation product discovered by Calvin was:",
   options: [
-    "Oxaloacetic acid (OAA)",
-    "3-phosphoglyceric acid (PGA)",
-    "Ribulose bisphosphate (RuBP)",
-    "Glucose-6-phosphate"
-  ],
-  correct: 1,
+      "Oxaloacetic acid (OAA)",
+      "Ribulose bisphosphate (RuBP)",
+      "3-phosphoglyceric acid (PGA)",
+      "Glucose-6-phosphate"
+    ], correct: 2,
   explanation: "NCERT states: 'the first CO₂ fixation product was a 3-carbon organic acid... The first product identified was 3-phosphoglyceric acid or in short PGA.' PGA is a 3-carbon compound."
 },
 {
@@ -4690,12 +4466,11 @@ var allQuestions = [
   topic: "Where Are ATP and NADPH Used?",
   q: "3-phosphoglyceric acid (PGA) contains how many carbon atoms?",
   options: [
-    "2",
-    "3",
-    "4",
-    "5"
-  ],
-  correct: 1,
+      "2",
+      "5",
+      "4",
+      "3"
+    ], correct: 3,
   explanation: "NCERT states that the first product was 'a 3-carbon organic acid' and asks 'How many carbon atoms does it have?' PGA (3-phosphoglyceric acid) has 3 carbon atoms."
 },
 {
@@ -4703,12 +4478,11 @@ var allQuestions = [
   topic: "Where Are ATP and NADPH Used?",
   q: "The complete biosynthetic pathway of CO₂ fixation worked out by Calvin is called:",
   options: [
-    "Hatch-Slack pathway",
-    "Calvin cycle",
-    "Krebs cycle",
-    "Glycolytic pathway"
-  ],
-  correct: 1,
+      "Calvin cycle",
+      "Hatch-Slack pathway",
+      "Krebs cycle",
+      "Glycolytic pathway"
+    ], correct: 0,
   explanation: "NCERT states: 'He also contributed to working out the complete biosynthetic pathway; hence it was called Calvin cycle after him.' The Calvin cycle is the C₃ pathway of carbon fixation."
 },
 {
@@ -4716,12 +4490,11 @@ var allQuestions = [
   topic: "Where Are ATP and NADPH Used?",
   q: "In certain plants, the first stable product of CO₂ fixation was found to be a 4-carbon acid identified as:",
   options: [
-    "Phosphoglyceric acid (PGA)",
-    "Phosphoenolpyruvate (PEP)",
-    "Oxaloacetic acid (OAA)",
-    "Malic acid"
-  ],
-  correct: 2,
+      "Phosphoglyceric acid (PGA)",
+      "Oxaloacetic acid (OAA)",
+      "Phosphoenolpyruvate (PEP)",
+      "Malic acid"
+    ], correct: 1,
   explanation: "NCERT states: 'the first stable product of CO₂ fixation was again an organic acid, but one which had 4 carbon atoms in it. This acid was identified to be oxaloacetic acid or OAA.'"
 },
 {
@@ -4729,12 +4502,11 @@ var allQuestions = [
   topic: "Where Are ATP and NADPH Used?",
   q: "OAA (Oxaloacetic acid) contains how many carbon atoms?",
   options: [
-    "3",
-    "4",
-    "5",
-    "6"
-  ],
-  correct: 1,
+      "3",
+      "5",
+      "4",
+      "6"
+    ], correct: 2,
   explanation: "NCERT states OAA is 'an organic acid, but one which had 4 carbon atoms in it.' OAA is the first stable product of the C₄ pathway."
 },
 {
@@ -4742,12 +4514,11 @@ var allQuestions = [
   topic: "Where Are ATP and NADPH Used?",
   q: "CO₂ assimilation during photosynthesis is mainly of two types based on:",
   options: [
-    "The amount of light absorbed",
-    "The first stable product of CO₂ fixation",
-    "The number of chloroplasts in the cell",
-    "The type of chlorophyll present"
-  ],
-  correct: 1,
+      "The amount of light absorbed",
+      "The type of chlorophyll present",
+      "The number of chloroplasts in the cell",
+      "The first stable product of CO₂ fixation"
+    ], correct: 3,
   explanation: "NCERT states: 'CO₂ assimilation during photosynthesis was said to be of two main types: those in which the first product of CO₂ fixation is a C₃ acid (PGA), i.e., the C₃ pathway, and those in which the first product was a C₄ acid (OAA), i.e., the C₄ pathway.'"
 },
 {
@@ -4755,12 +4526,11 @@ var allQuestions = [
   topic: "Where Are ATP and NADPH Used?",
   q: "The C₃ pathway is characterised by:",
   options: [
-    "OAA as the first stable product",
-    "PGA (a 3-carbon acid) as the first stable product of CO₂ fixation",
-    "Glucose as the first product",
-    "RuBP as the first product"
-  ],
-  correct: 1,
+      "PGA (a 3-carbon acid) as the first stable product of CO₂ fixation",
+      "OAA as the first stable product",
+      "Glucose as the first product",
+      "RuBP as the first product"
+    ], correct: 0,
   explanation: "NCERT states: 'plants in which the first product of CO₂ fixation is a C₃ acid (PGA), i.e., the C₃ pathway.' PGA (3-phosphoglyceric acid) is a 3-carbon compound."
 },
 {
@@ -4768,12 +4538,11 @@ var allQuestions = [
   topic: "Where Are ATP and NADPH Used?",
   q: "The C₄ pathway is characterised by:",
   options: [
-    "PGA as the first stable product",
-    "Glucose as the first stable product",
-    "OAA (a 4-carbon acid) as the first stable product of CO₂ fixation",
-    "Pyruvic acid as the first product"
-  ],
-  correct: 2,
+      "PGA as the first stable product",
+      "OAA (a 4-carbon acid) as the first stable product of CO₂ fixation",
+      "Glucose as the first stable product",
+      "Pyruvic acid as the first product"
+    ], correct: 1,
   explanation: "NCERT states: 'those in which the first product was a C₄ acid (OAA), i.e., the C₄ pathway.' OAA (Oxaloacetic acid) is a 4-carbon compound."
 },
 {
@@ -4781,12 +4550,11 @@ var allQuestions = [
   topic: "Where Are ATP and NADPH Used?",
   q: "Match the following:<br>(i) C₃ pathway — (P) OAA<br>(ii) C₄ pathway — (Q) PGA<br>(iii) Calvin cycle — (R) 4-carbon first product<br>(iv) First stable C₄ product — (S) 3-carbon first product",
   options: [
-    "(i)-Q, (ii)-P, (iii)-S, (iv)-R",
-    "(i)-Q, (ii)-R, (iii)-S, (iv)-P",
-    "(i)-S, (ii)-R, (iii)-Q, (iv)-P",
-    "(i)-P, (ii)-Q, (iii)-R, (iv)-S"
-  ],
-  correct: 1,
+      "(i)-Q, (ii)-P, (iii)-S, (iv)-R",
+      "(i)-S, (ii)-R, (iii)-Q, (iv)-P",
+      "(i)-Q, (ii)-R, (iii)-S, (iv)-P",
+      "(i)-P, (ii)-Q, (iii)-R, (iv)-S"
+    ], correct: 2,
   explanation: "C₃ pathway = PGA (Q), C₄ pathway = 4-carbon first product (R), Calvin cycle = C₃ pathway = 3-carbon first product (S), First stable C₄ product = OAA (P). Note: C₃ pathway and Calvin cycle are the same."
 },
 {
@@ -4807,12 +4575,11 @@ var allQuestions = [
   topic: "Where Are ATP and NADPH Used?",
   q: "Which of the following is <b>incorrect</b>?",
   options: [
-    "PGA is the first stable product of C₃ pathway",
-    "OAA is the first stable product of C₄ pathway",
-    "Calvin cycle is the C₄ pathway",
-    "The biosynthetic phase is also called the dark reaction"
-  ],
-  correct: 2,
+      "PGA is the first stable product of C₃ pathway",
+      "OAA is the first stable product of C₄ pathway",
+      "The biosynthetic phase is also called the dark reaction",
+      "Calvin cycle is the C₄ pathway"
+    ], correct: 3,
   explanation: "Calvin cycle is the C₃ pathway (not C₄). NCERT states that Calvin worked out the biosynthetic pathway where PGA (3C) is the first product, hence the Calvin cycle = C₃ pathway."
 },
 {
@@ -4820,12 +4587,11 @@ var allQuestions = [
   topic: "Where Are ATP and NADPH Used?",
   q: "In the biosynthetic phase, CO₂ is combined with H₂O to produce:",
   options: [
-    "Amino acids",
-    "Fatty acids",
-    "Sugars (CH₂O)ₙ",
-    "Proteins"
-  ],
-  correct: 2,
+      "Sugars (CH₂O)ₙ",
+      "Fatty acids",
+      "Amino acids",
+      "Proteins"
+    ], correct: 0,
   explanation: "NCERT states: 'CO₂ is combined with H₂O to produce (CH₂O)ₙ or sugars.' The biosynthetic phase synthesises carbohydrates from CO₂ and H₂O using ATP and NADPH."
 },
 {
@@ -4846,12 +4612,11 @@ var allQuestions = [
   topic: "Where Are ATP and NADPH Used?",
   q: "Consider the following:<br>(A) ATP is used in the biosynthetic phase<br>(B) NADPH is used in the biosynthetic phase<br>(C) O₂ is used in the biosynthetic phase<br>(D) CO₂ is used in the biosynthetic phase",
   options: [
-    "(A), (B), (C) and (D)",
-    "(A), (B) and (D) only",
-    "(A) and (B) only",
-    "(C) and (D) only"
-  ],
-  correct: 1,
+      "(A), (B), (C) and (D)",
+      "(A) and (B) only",
+      "(A), (B) and (D) only",
+      "(C) and (D) only"
+    ], correct: 2,
   explanation: "NCERT mentions the biosynthetic phase depends on 'ATP and NADPH, besides CO₂ and H₂O.' O₂ is NOT used in the biosynthetic phase — it is a byproduct of light reactions that diffuses out."
 },
 {
@@ -4872,12 +4637,11 @@ var allQuestions = [
   topic: "Where Are ATP and NADPH Used?",
   q: "Calvin's work on CO₂ fixation was conducted:",
   options: [
-    "Before World War I",
-    "During World War II",
-    "Just after World War II",
-    "In the 21st century"
-  ],
-  correct: 2,
+      "Before World War I",
+      "During World War II",
+      "In the 21st century",
+      "Just after World War II"
+    ], correct: 3,
   explanation: "NCERT states: 'Just after world war II, among the several efforts to put radioisotopes to beneficial use, the work of Melvin Calvin is exemplary.' His experiments were conducted after WWII."
 },
 {
@@ -4885,12 +4649,11 @@ var allQuestions = [
   topic: "Where Are ATP and NADPH Used?",
   q: "Which of the following correctly represents the two main types of CO₂ assimilation?",
   options: [
-    "C₃ pathway (first product = OAA) and C₄ pathway (first product = PGA)",
-    "C₃ pathway (first product = PGA) and C₄ pathway (first product = OAA)",
-    "C₃ pathway (first product = glucose) and C₄ pathway (first product = sucrose)",
-    "C₃ pathway (first product = RuBP) and C₄ pathway (first product = PEP)"
-  ],
-  correct: 1,
+      "C₃ pathway (first product = PGA) and C₄ pathway (first product = OAA)",
+      "C₃ pathway (first product = OAA) and C₄ pathway (first product = PGA)",
+      "C₃ pathway (first product = glucose) and C₄ pathway (first product = sucrose)",
+      "C₃ pathway (first product = RuBP) and C₄ pathway (first product = PEP)"
+    ], correct: 0,
   explanation: "NCERT states: C₃ pathway — first product is PGA (3-carbon); C₄ pathway — first product is OAA (4-carbon). This is the fundamental distinction between the two pathways."
 },
 {
@@ -4898,12 +4661,11 @@ var allQuestions = [
   topic: "Where Are ATP and NADPH Used?",
   q: "The biosynthetic phase of photosynthesis is also called:",
   options: [
-    "Photochemical phase",
-    "Light reaction",
-    "Dark reaction or carbon reaction",
-    "Photolysis"
-  ],
-  correct: 2,
+      "Photochemical phase",
+      "Dark reaction or carbon reaction",
+      "Light reaction",
+      "Photolysis"
+    ], correct: 1,
   explanation: "The biosynthetic phase is conventionally called the dark reaction (or carbon reaction). NCERT, however, points out that calling it 'dark reaction' is a misnomer since it indirectly depends on light."
 },
 {
@@ -4911,12 +4673,11 @@ var allQuestions = [
   topic: "Where Are ATP and NADPH Used?",
   q: "If light is made available after a period of darkness during which the biosynthetic phase had stopped, what happens?",
   options: [
-    "The biosynthetic phase does not restart",
-    "The synthesis starts again",
-    "Only O₂ is produced, not sugars",
-    "The plant dies permanently"
-  ],
-  correct: 1,
+      "The biosynthetic phase does not restart",
+      "Only O₂ is produced, not sugars",
+      "The synthesis starts again",
+      "The plant dies permanently"
+    ], correct: 2,
   explanation: "NCERT states: 'If then, light is made available, the synthesis starts again.' This is because light reactions resume, producing ATP and NADPH, which restart the biosynthetic phase."
 },
 {
@@ -4924,12 +4685,11 @@ var allQuestions = [
   topic: "Where Are ATP and NADPH Used?",
   q: "Which of the following is the correct sequence of events when light is removed and then restored?",
   options: [
-    "Light removed → biosynthetic phase stops immediately → light restored → no effect",
-    "Light removed → biosynthetic phase continues briefly → stops → light restored → synthesis restarts",
-    "Light removed → biosynthetic phase speeds up → light restored → phase slows down",
-    "Light removed → O₂ production increases → light restored → O₂ decreases"
-  ],
-  correct: 1,
+      "Light removed → biosynthetic phase stops immediately → light restored → no effect",
+      "Light removed → O₂ production increases → light restored → O₂ decreases",
+      "Light removed → biosynthetic phase speeds up → light restored → phase slows down",
+      "Light removed → biosynthetic phase continues briefly → stops → light restored → synthesis restarts"
+    ], correct: 3,
   explanation: "NCERT describes: when light becomes unavailable, biosynthetic process continues for some time (using residual ATP/NADPH), then stops. When light returns, synthesis restarts as ATP/NADPH are replenished."
 },
 {
@@ -4937,12 +4697,11 @@ var allQuestions = [
   topic: "Where Are ATP and NADPH Used?",
   q: "Select the <b>incorrect</b> statement:",
   options: [
-    "O₂ diffuses out of the chloroplast",
-    "ATP and NADPH are used for sugar synthesis",
-    "The biosynthetic phase directly depends on light",
-    "CO₂ is required for the biosynthetic phase"
-  ],
-  correct: 2,
+      "The biosynthetic phase directly depends on light",
+      "ATP and NADPH are used for sugar synthesis",
+      "O₂ diffuses out of the chloroplast",
+      "CO₂ is required for the biosynthetic phase"
+    ], correct: 0,
   explanation: "NCERT states the biosynthetic phase 'does not directly depend on the presence of light.' It indirectly depends on light through ATP and NADPH. Saying it DIRECTLY depends on light is incorrect."
 },
 {
@@ -4989,12 +4748,11 @@ var allQuestions = [
   topic: "Where Are ATP and NADPH Used?",
   q: "Consider the following statements:<br>(i) The biosynthetic phase continues indefinitely in darkness<br>(ii) ATP and NADPH from light reactions drive the biosynthetic phase<br>(iii) O₂ is used in the biosynthetic phase<br>(iv) CO₂ is fixed into organic acids during the biosynthetic phase<br><br>How many statements are correct?",
   options: [
-    "One",
-    "Two",
-    "Three",
-    "Four"
-  ],
-  correct: 1,
+      "One",
+      "Three",
+      "Two",
+      "Four"
+    ], correct: 2,
   explanation: "Only statements (ii) and (iv) are correct. Statement (i) is wrong — the process stops when ATP/NADPH are exhausted. Statement (iii) is wrong — O₂ is a byproduct of light reactions, not used in the biosynthetic phase."
 },
 {
@@ -5015,12 +4773,11 @@ var allQuestions = [
   topic: "Where Are ATP and NADPH Used?",
   q: "The biosynthetic phase of photosynthesis takes place in:",
   options: [
-    "The thylakoid membrane",
-    "The thylakoid lumen",
-    "The stroma of the chloroplast",
-    "The cytoplasm"
-  ],
-  correct: 2,
+      "The thylakoid membrane",
+      "The thylakoid lumen",
+      "The cytoplasm",
+      "The stroma of the chloroplast"
+    ], correct: 3,
   explanation: "The biosynthetic phase (Calvin cycle/dark reactions) takes place in the stroma of the chloroplast, where the enzymes for CO₂ fixation and sugar synthesis are located. NCERT earlier mentioned that 'In stroma, enzymatic reactions synthesise sugar.'"
 },
 {
@@ -5028,12 +4785,11 @@ var allQuestions = [
   topic: "Where Are ATP and NADPH Used?",
   q: "Which of the following flow charts correctly represents the fate of light reaction products?",
   options: [
-    "Light reactions → ATP + NADPH + O₂ → all three used in dark reactions",
-    "Light reactions → ATP + NADPH + O₂ → O₂ diffuses out; ATP + NADPH used in biosynthetic phase",
-    "Light reactions → ATP + O₂ → both used in dark reactions; NADPH is released",
-    "Light reactions → NADPH + O₂ → both used in Calvin cycle"
-  ],
-  correct: 1,
+      "Light reactions → ATP + NADPH + O₂ → O₂ diffuses out; ATP + NADPH used in biosynthetic phase",
+      "Light reactions → ATP + NADPH + O₂ → all three used in dark reactions",
+      "Light reactions → ATP + O₂ → both used in dark reactions; NADPH is released",
+      "Light reactions → NADPH + O₂ → both used in Calvin cycle"
+    ], correct: 0,
   explanation: "Light reactions produce ATP, NADPH, and O₂. O₂ diffuses out of the chloroplast. ATP and NADPH are used in the biosynthetic phase (dark reactions) for CO₂ fixation and sugar synthesis."
 },
 {
@@ -5067,12 +4823,11 @@ var allQuestions = [
   topic: "Where Are ATP and NADPH Used?",
   q: "Which of the following correctly describes the relationship between C₃ and C₄ pathways?",
   options: [
-    "C₃ and C₄ pathways are completely unrelated processes",
-    "C₃ pathway occurs in all plants; C₄ pathway is additional in certain plants",
-    "C₄ pathway replaces C₃ pathway entirely in C₄ plants",
-    "Both pathways produce identical first products"
-  ],
-  correct: 1,
+      "C₃ and C₄ pathways are completely unrelated processes",
+      "Both pathways produce identical first products",
+      "C₄ pathway replaces C₃ pathway entirely in C₄ plants",
+      "C₃ pathway occurs in all plants; C₄ pathway is additional in certain plants"
+    ], correct: 3,
   explanation: "The Calvin cycle (C₃ pathway) occurs in ALL plants. In C₄ plants, the C₄ pathway is an additional mechanism where CO₂ is first fixed into OAA before being passed to the Calvin cycle. C₄ plants have both pathways."
 },
 {
@@ -5080,12 +4835,11 @@ var allQuestions = [
   topic: "Where Are ATP and NADPH Used?",
   q: "Calvin's research was described by NCERT as 'exemplary' among post-war efforts to:",
   options: [
-    "Develop nuclear weapons",
-    "Put radioisotopes to beneficial use",
-    "Build new types of microscopes",
-    "Develop new crop varieties"
-  ],
-  correct: 1,
+      "Put radioisotopes to beneficial use",
+      "Develop nuclear weapons",
+      "Build new types of microscopes",
+      "Develop new crop varieties"
+    ], correct: 0,
   explanation: "NCERT states: 'among the several efforts to put radioisotopes to beneficial use, the work of Melvin Calvin is exemplary.' He used ¹⁴C (a radioactive isotope) to study photosynthesis."
 }
 ,
@@ -5094,12 +4848,11 @@ var allQuestions = [
   topic: "The Primary Acceptor of CO₂",
   q: "The primary acceptor of CO₂ in the Calvin cycle is:",
   options: [
-    "A 2-carbon compound",
-    "A 3-carbon compound (PGA)",
-    "A 5-carbon ketose sugar (RuBP)",
-    "A 6-carbon sugar (glucose)"
-  ],
-  correct: 2,
+      "A 2-carbon compound",
+      "A 5-carbon ketose sugar (RuBP)",
+      "A 3-carbon compound (PGA)",
+      "A 6-carbon sugar (glucose)"
+    ], correct: 1,
   explanation: "NCERT states: 'the acceptor molecule was a 5-carbon ketose sugar – ribulose bisphosphate (RuBP).' This was unexpected because scientists initially assumed it would be a 2-carbon compound."
 },
 {
@@ -5120,12 +4873,11 @@ var allQuestions = [
   topic: "The Primary Acceptor of CO₂",
   q: "RuBP stands for:",
   options: [
-    "Ribulose biphosphate",
-    "Ribulose bisphosphate",
-    "Ribose bisphosphate",
-    "Ribulose monophosphate"
-  ],
-  correct: 1,
+      "Ribulose biphosphate",
+      "Ribulose monophosphate",
+      "Ribose bisphosphate",
+      "Ribulose bisphosphate"
+    ], correct: 3,
   explanation: "NCERT states the acceptor was 'ribulose bisphosphate (RuBP).' It is a 5-carbon ketose sugar with two phosphate groups. 'Bisphosphate' (not biphosphate) is the correct term."
 },
 {
@@ -5133,12 +4885,11 @@ var allQuestions = [
   topic: "The Primary Acceptor of CO₂",
   q: "RuBP is a:",
   options: [
-    "5-carbon aldose sugar",
-    "5-carbon ketose sugar",
-    "6-carbon ketose sugar",
-    "3-carbon organic acid"
-  ],
-  correct: 1,
+      "5-carbon ketose sugar",
+      "5-carbon aldose sugar",
+      "6-carbon ketose sugar",
+      "3-carbon organic acid"
+    ], correct: 0,
   explanation: "NCERT specifically describes RuBP as 'a 5-carbon ketose sugar.' Ketose means it has a ketone functional group, distinguishing it from aldose sugars."
 },
 {
@@ -5172,12 +4923,11 @@ var allQuestions = [
   topic: "The Primary Acceptor of CO₂",
   q: "How many carbon atoms does the molecule have which, after fixing CO₂, would produce PGA (3C)?",
   options: [
-    "2 carbon atoms",
-    "3 carbon atoms",
-    "4 carbon atoms",
-    "5 carbon atoms"
-  ],
-  correct: 3,
+      "2 carbon atoms",
+      "3 carbon atoms",
+      "5 carbon atoms",
+      "4 carbon atoms"
+    ], correct: 2,
   explanation: "NCERT asks this question and answers: the acceptor is RuBP with 5 carbon atoms. RuBP (5C) + CO₂ (1C) → unstable 6C → 2 × PGA (3C). This was 'very unexpected' to scientists."
 },
 {
@@ -5185,12 +4935,11 @@ var allQuestions = [
   topic: "The Calvin Cycle",
   q: "The Calvin pathway occurs in:",
   options: [
-    "Only C₃ plants",
-    "Only C₄ plants",
-    "All photosynthetic plants",
-    "Only in algae"
-  ],
-  correct: 2,
+      "Only C₃ plants",
+      "Only C₄ plants",
+      "Only in algae",
+      "All photosynthetic plants"
+    ], correct: 3,
   explanation: "NCERT emphatically states: 'the Calvin pathway occurs in all photosynthetic plants; it does not matter whether they have C₃ or C₄ (or any other) pathways.' This is a crucial NEET concept."
 },
 {
@@ -5198,12 +4947,11 @@ var allQuestions = [
   topic: "The Calvin Cycle",
   q: "The three stages of the Calvin cycle are:",
   options: [
-    "Glycolysis, Krebs cycle, and ETC",
-    "Carboxylation, oxidation, and regeneration",
-    "Carboxylation, reduction, and regeneration",
-    "Fixation, phosphorylation, and hydrolysis"
-  ],
-  correct: 2,
+      "Carboxylation, reduction, and regeneration",
+      "Carboxylation, oxidation, and regeneration",
+      "Glycolysis, Krebs cycle, and ETC",
+      "Fixation, phosphorylation, and hydrolysis"
+    ], correct: 0,
   explanation: "NCERT states: 'the Calvin cycle can be described under three stages: carboxylation, reduction and regeneration.' These three stages complete one turn of the Calvin cycle."
 },
 {
@@ -5224,12 +4972,11 @@ var allQuestions = [
   topic: "The Calvin Cycle",
   q: "Carboxylation is described as the most crucial step of the Calvin cycle because:",
   options: [
-    "It produces glucose directly",
-    "It is the step where CO₂ is fixed into a stable organic intermediate",
-    "It regenerates RuBP",
-    "It produces NADPH"
-  ],
-  correct: 1,
+      "It produces glucose directly",
+      "It regenerates RuBP",
+      "It is the step where CO₂ is fixed into a stable organic intermediate",
+      "It produces NADPH"
+    ], correct: 2,
   explanation: "NCERT states: 'Carboxylation is the most crucial step of the Calvin cycle where CO₂ is utilised for the carboxylation of RuBP.' Without this step, carbon from CO₂ cannot enter the organic compound pool."
 },
 {
@@ -5237,12 +4984,11 @@ var allQuestions = [
   topic: "The Calvin Cycle",
   q: "The enzyme that catalyses the carboxylation of RuBP is:",
   options: [
-    "PEP carboxylase",
-    "RuBP carboxylase-oxygenase (RuBisCO)",
-    "ATP synthase",
-    "NADP reductase"
-  ],
-  correct: 1,
+      "PEP carboxylase",
+      "NADP reductase",
+      "ATP synthase",
+      "RuBP carboxylase-oxygenase (RuBisCO)"
+    ], correct: 3,
   explanation: "NCERT states: 'This reaction is catalysed by the enzyme RuBP carboxylase which results in the formation of two molecules of 3-PGA. Since this enzyme also has an oxygenation activity it would be more correct to call it RuBP carboxylase-oxygenase or RuBisCO.'"
 },
 {
@@ -5250,12 +4996,11 @@ var allQuestions = [
   topic: "The Calvin Cycle",
   q: "RuBisCO stands for:",
   options: [
-    "Ribulose biphosphate carboxylase oxidase",
-    "RuBP carboxylase-oxygenase",
-    "Ribulose bisphosphate carboxylase-oxidoreductase",
-    "Ribose bisphosphate carboxylase-oxygenase"
-  ],
-  correct: 1,
+      "RuBP carboxylase-oxygenase",
+      "Ribulose biphosphate carboxylase oxidase",
+      "Ribulose bisphosphate carboxylase-oxidoreductase",
+      "Ribose bisphosphate carboxylase-oxygenase"
+    ], correct: 0,
   explanation: "NCERT states: 'it would be more correct to call it RuBP carboxylase-oxygenase or RuBisCO.' The enzyme has both carboxylase and oxygenase activities."
 },
 {
@@ -5289,12 +5034,11 @@ var allQuestions = [
   topic: "The Calvin Cycle",
   q: "During carboxylation, one molecule of CO₂ combines with one molecule of RuBP to form:",
   options: [
-    "One molecule of 3-PGA",
-    "Two molecules of 3-PGA",
-    "One molecule of glucose",
-    "One molecule of OAA"
-  ],
-  correct: 1,
+      "One molecule of 3-PGA",
+      "One molecule of glucose",
+      "Two molecules of 3-PGA",
+      "One molecule of OAA"
+    ], correct: 2,
   explanation: "NCERT states carboxylation of RuBP by RuBisCO 'results in the formation of two molecules of 3-PGA.' RuBP (5C) + CO₂ (1C) → unstable 6C intermediate → 2 × 3-PGA (3C each)."
 },
 {
@@ -5302,12 +5046,11 @@ var allQuestions = [
   topic: "The Calvin Cycle",
   q: "The reduction stage of the Calvin cycle involves:",
   options: [
-    "Fixation of CO₂",
-    "Series of reactions leading to glucose formation using ATP and NADPH",
-    "Regeneration of RuBP",
-    "Splitting of water"
-  ],
-  correct: 1,
+      "Fixation of CO₂",
+      "Splitting of water",
+      "Regeneration of RuBP",
+      "Series of reactions leading to glucose formation using ATP and NADPH"
+    ], correct: 3,
   explanation: "NCERT states: 'Reduction – These are a series of reactions that lead to the formation of glucose.' During reduction, 'carbohydrate is formed at the expense of the photochemically made ATP and NADPH.'"
 },
 {
@@ -5341,12 +5084,11 @@ var allQuestions = [
   topic: "The Calvin Cycle",
   q: "In the reduction step, NADPH is used for:",
   options: [
-    "Phosphorylation",
-    "Reduction",
-    "Carboxylation",
-    "Regeneration"
-  ],
-  correct: 1,
+      "Phosphorylation",
+      "Carboxylation",
+      "Reduction",
+      "Regeneration"
+    ], correct: 2,
   explanation: "NCERT states: 'two of NADPH for reduction per CO₂ molecule fixed.' NADPH provides the reducing power (electrons and H⁺) to reduce 1,3-bisphosphoglyceric acid to glyceraldehyde-3-phosphate (G3P)."
 },
 {
@@ -5354,12 +5096,11 @@ var allQuestions = [
   topic: "The Calvin Cycle",
   q: "How many turns of the Calvin cycle are required for the formation of one molecule of glucose?",
   options: [
-    "3 turns",
-    "4 turns",
-    "6 turns",
-    "12 turns"
-  ],
-  correct: 2,
+      "3 turns",
+      "4 turns",
+      "12 turns",
+      "6 turns"
+    ], correct: 3,
   explanation: "NCERT states: 'The fixation of six molecules of CO₂ and 6 turns of the cycle are required for the formation of one molecule of glucose.' Each turn fixes one CO₂, so 6 turns for glucose (6C)."
 },
 {
@@ -5367,12 +5108,11 @@ var allQuestions = [
   topic: "The Calvin Cycle",
   q: "Regeneration in the Calvin cycle refers to:",
   options: [
-    "Formation of glucose",
-    "Fixation of CO₂",
-    "Regeneration of the CO₂ acceptor molecule RuBP",
-    "Production of NADPH"
-  ],
-  correct: 2,
+      "Regeneration of the CO₂ acceptor molecule RuBP",
+      "Fixation of CO₂",
+      "Formation of glucose",
+      "Production of NADPH"
+    ], correct: 0,
   explanation: "NCERT states: 'Regeneration of the CO₂ acceptor molecule RuBP is crucial if the cycle is to continue uninterrupted.' Without RuBP regeneration, the cycle cannot accept new CO₂ molecules."
 },
 {
@@ -5393,12 +5133,11 @@ var allQuestions = [
   topic: "The Calvin Cycle",
   q: "For every CO₂ molecule entering the Calvin cycle, the total requirement is:",
   options: [
-    "2 ATP and 2 NADPH",
-    "3 ATP and 2 NADPH",
-    "3 ATP and 3 NADPH",
-    "6 ATP and 6 NADPH"
-  ],
-  correct: 1,
+      "2 ATP and 2 NADPH",
+      "3 ATP and 3 NADPH",
+      "3 ATP and 2 NADPH",
+      "6 ATP and 6 NADPH"
+    ], correct: 2,
   explanation: "NCERT states: 'for every CO₂ molecule entering the Calvin cycle, 3 molecules of ATP and 2 of NADPH are required.' This includes 2 ATP for reduction + 1 ATP for regeneration = 3 ATP, and 2 NADPH for reduction."
 },
 {
@@ -5406,12 +5145,11 @@ var allQuestions = [
   topic: "The Calvin Cycle",
   q: "The difference in the number of ATP and NADPH used in the Calvin cycle is probably met by:",
   options: [
-    "Non-cyclic photophosphorylation alone",
-    "Oxidative phosphorylation in mitochondria",
-    "Cyclic photophosphorylation",
-    "Substrate-level phosphorylation"
-  ],
-  correct: 2,
+      "Non-cyclic photophosphorylation alone",
+      "Oxidative phosphorylation in mitochondria",
+      "Substrate-level phosphorylation",
+      "Cyclic photophosphorylation"
+    ], correct: 3,
   explanation: "NCERT states: 'It is probably to meet this difference in number of ATP and NADPH used in the dark reaction that the cyclic phosphorylation takes place.' Cyclic photophosphorylation produces extra ATP without NADPH."
 },
 {
@@ -5432,12 +5170,11 @@ var allQuestions = [
   topic: "The Calvin Cycle",
   q: "To make one molecule of glucose, the total ATP requirement in the Calvin cycle is:",
   options: [
-    "6 ATP",
-    "12 ATP",
-    "18 ATP",
-    "24 ATP"
-  ],
-  correct: 2,
+      "18 ATP",
+      "12 ATP",
+      "6 ATP",
+      "24 ATP"
+    ], correct: 0,
   explanation: "NCERT states: 'In: Six CO₂, 18 ATP, 12 NADPH.' Since 3 ATP per CO₂ × 6 CO₂ = 18 ATP for one glucose molecule."
 },
 {
@@ -5458,12 +5195,11 @@ var allQuestions = [
   topic: "The Calvin Cycle",
   q: "The inputs and outputs of the Calvin cycle for one glucose molecule are:<br>Select the <b>correct</b> option:",
   options: [
-    "In: 6CO₂, 18 ATP, 12 NADPH → Out: 1 glucose, 18 ADP, 12 NADP⁺",
-    "In: 6CO₂, 12 ATP, 18 NADPH → Out: 1 glucose, 12 ADP, 18 NADP⁺",
-    "In: 6CO₂, 18 ATP, 18 NADPH → Out: 1 glucose, 18 ADP, 18 NADP⁺",
-    "In: 12CO₂, 18 ATP, 12 NADPH → Out: 2 glucose, 18 ADP, 12 NADP⁺"
-  ],
-  correct: 0,
+      "In: 6CO₂, 18 ATP, 18 NADPH → Out: 1 glucose, 18 ADP, 18 NADP⁺",
+      "In: 6CO₂, 12 ATP, 18 NADPH → Out: 1 glucose, 12 ADP, 18 NADP⁺",
+      "In: 6CO₂, 18 ATP, 12 NADPH → Out: 1 glucose, 18 ADP, 12 NADP⁺",
+      "In: 12CO₂, 18 ATP, 12 NADPH → Out: 2 glucose, 18 ADP, 12 NADP⁺"
+    ], correct: 2,
   explanation: "NCERT provides the table: In — Six CO₂, 18 ATP, 12 NADPH; Out — One glucose, 18 ADP, 12 NADP⁺. This is a direct NCERT fact frequently tested in NEET."
 },
 {
@@ -5484,12 +5220,11 @@ var allQuestions = [
   topic: "The Calvin Cycle",
   q: "Which of the following is <b>incorrect</b> about the Calvin cycle?",
   options: [
-    "It occurs in the stroma of chloroplasts",
-    "It occurs only in C₃ plants",
-    "RuBisCO catalyses the carboxylation step",
-    "6 turns are needed to produce one glucose molecule"
-  ],
-  correct: 1,
+      "It occurs in the stroma of chloroplasts",
+      "6 turns are needed to produce one glucose molecule",
+      "RuBisCO catalyses the carboxylation step",
+      "It occurs only in C₃ plants"
+    ], correct: 3,
   explanation: "NCERT clearly states: 'the Calvin pathway occurs in all photosynthetic plants; it does not matter whether they have C₃ or C₄ (or any other) pathways.' Saying it occurs only in C₃ plants is incorrect."
 },
 {
@@ -5497,12 +5232,11 @@ var allQuestions = [
   topic: "The Calvin Cycle",
   q: "During the Calvin cycle, RuBP is regenerated in the:",
   options: [
-    "Carboxylation stage",
-    "Reduction stage",
-    "Regeneration stage",
-    "All three stages equally"
-  ],
-  correct: 2,
+      "Regeneration stage",
+      "Reduction stage",
+      "Carboxylation stage",
+      "All three stages equally"
+    ], correct: 0,
   explanation: "NCERT states: 'Regeneration of the CO₂ acceptor molecule RuBP is crucial if the cycle is to continue uninterrupted.' RuBP is specifically regenerated in the regeneration stage using 1 ATP."
 },
 {
@@ -5562,12 +5296,11 @@ var allQuestions = [
   topic: "The Primary Acceptor of CO₂",
   q: "Select the <b>incorrect</b> statement about the primary acceptor of CO₂:",
   options: [
-    "It is a 5-carbon ketose sugar",
-    "It is called ribulose bisphosphate (RuBP)",
-    "It is a 2-carbon compound as initially expected by scientists",
-    "Its discovery was unexpected"
-  ],
-  correct: 2,
+      "It is a 5-carbon ketose sugar",
+      "It is called ribulose bisphosphate (RuBP)",
+      "Its discovery was unexpected",
+      "It is a 2-carbon compound as initially expected by scientists"
+    ], correct: 3,
   explanation: "The primary acceptor is NOT a 2-carbon compound. Scientists initially expected it to be 2C, but 'the studies very unexpectedly showed that the acceptor molecule was a 5-carbon ketose sugar – RuBP.'"
 },
 {
@@ -5575,12 +5308,11 @@ var allQuestions = [
   topic: "The Calvin Cycle",
   q: "Which stage of the Calvin cycle does NOT directly use ATP or NADPH?",
   options: [
-    "Carboxylation",
-    "Reduction",
-    "Regeneration",
-    "Both reduction and regeneration"
-  ],
-  correct: 0,
+      "Reduction",
+      "Carboxylation",
+      "Regeneration",
+      "Both reduction and regeneration"
+    ], correct: 1,
   explanation: "Carboxylation uses only CO₂ and RuBP (catalysed by RuBisCO) — no ATP or NADPH is directly required. Reduction uses 2 ATP and 2 NADPH per CO₂. Regeneration uses 1 ATP per CO₂."
 },
 {
@@ -5588,12 +5320,11 @@ var allQuestions = [
   topic: "The Calvin Cycle",
   q: "The ratio of ATP to NADPH required per CO₂ molecule in the Calvin cycle is:",
   options: [
-    "2 : 3",
-    "3 : 2",
-    "1 : 1",
-    "6 : 6"
-  ],
-  correct: 1,
+      "2 : 3",
+      "1 : 1",
+      "3 : 2",
+      "6 : 6"
+    ], correct: 2,
   explanation: "NCERT states: 'for every CO₂ molecule entering the Calvin cycle, 3 molecules of ATP and 2 of NADPH are required.' So the ratio is 3 ATP : 2 NADPH."
 },
 {
@@ -5601,12 +5332,11 @@ var allQuestions = [
   topic: "The Calvin Cycle",
   q: "The ratio of ATP to NADPH required for one glucose molecule in the Calvin cycle is:",
   options: [
-    "12 : 18",
-    "18 : 12",
-    "18 : 18",
-    "12 : 12"
-  ],
-  correct: 1,
+      "12 : 18",
+      "12 : 12",
+      "18 : 18",
+      "18 : 12"
+    ], correct: 3,
   explanation: "For one glucose: 18 ATP and 12 NADPH are required (6 CO₂ × 3 ATP = 18 ATP; 6 CO₂ × 2 NADPH = 12 NADPH). The ratio is 18:12 or simplified 3:2."
 },
 {
@@ -5640,12 +5370,11 @@ var allQuestions = [
   topic: "The Calvin Cycle",
   q: "The enzyme RuBisCO is significant because:<br>(i) It is the most abundant enzyme on earth<br>(ii) It catalyses the most crucial step of the Calvin cycle<br>(iii) It has dual activity — carboxylation and oxygenation<br>(iv) It is found only in C₃ plants",
   options: [
-    "(i), (ii) and (iii) only",
-    "(ii) and (iii) only",
-    "(i), (ii), (iii) and (iv)",
-    "(iv) only"
-  ],
-  correct: 0,
+      "(i), (ii), (iii) and (iv)",
+      "(ii) and (iii) only",
+      "(i), (ii) and (iii) only",
+      "(iv) only"
+    ], correct: 2,
   explanation: "Statements (i), (ii), and (iii) are correct. RuBisCO is the most abundant enzyme on earth, catalyses the crucial carboxylation step, and has both carboxylase and oxygenase activities. Statement (iv) is wrong — RuBisCO is found in ALL photosynthetic plants (C₃, C₄, and others)."
 },
 {
@@ -5653,12 +5382,11 @@ var allQuestions = [
   topic: "The Calvin Cycle",
   q: "During carboxylation, CO₂ combines with:",
   options: [
-    "PGA",
-    "G3P (glyceraldehyde-3-phosphate)",
-    "Ribulose-1,5-bisphosphate",
-    "Phosphoenolpyruvate (PEP)"
-  ],
-  correct: 2,
+      "PGA",
+      "G3P (glyceraldehyde-3-phosphate)",
+      "Phosphoenolpyruvate (PEP)",
+      "Ribulose-1,5-bisphosphate"
+    ], correct: 3,
   explanation: "NCERT states: 'carboxylation, during which CO₂ combines with ribulose-1,5-bisphosphate.' RuBP is the CO₂ acceptor molecule in the Calvin cycle. PEP is the CO₂ acceptor in C₄ pathway."
 },
 {
@@ -5666,12 +5394,11 @@ var allQuestions = [
   topic: "The Calvin Cycle",
   q: "If 12 CO₂ molecules enter the Calvin cycle, how many ATP and NADPH molecules would be required?",
   options: [
-    "36 ATP and 24 NADPH",
-    "24 ATP and 36 NADPH",
-    "18 ATP and 12 NADPH",
-    "36 ATP and 36 NADPH"
-  ],
-  correct: 0,
+      "24 ATP and 36 NADPH",
+      "36 ATP and 24 NADPH",
+      "18 ATP and 12 NADPH",
+      "36 ATP and 36 NADPH"
+    ], correct: 1,
   explanation: "Per CO₂: 3 ATP and 2 NADPH. For 12 CO₂: 12 × 3 = 36 ATP and 12 × 2 = 24 NADPH. This would produce 2 glucose molecules (12C total)."
 },
 {
@@ -5679,12 +5406,11 @@ var allQuestions = [
   topic: "The Calvin Cycle",
   q: "If 12 CO₂ molecules enter the Calvin cycle, how many glucose molecules would be produced?",
   options: [
-    "1",
-    "2",
-    "6",
-    "12"
-  ],
-  correct: 1,
+      "1",
+      "6",
+      "2",
+      "12"
+    ], correct: 2,
   explanation: "6 CO₂ → 1 glucose. So 12 CO₂ → 2 glucose molecules. Each glucose has 6 carbons, and 12 CO₂ provides 12 carbon atoms, enough for 2 glucose molecules."
 },
 {
@@ -5692,12 +5418,11 @@ var allQuestions = [
   topic: "The Calvin Cycle",
   q: "Which of the following is the correct sequence of stages in the Calvin cycle?",
   options: [
-    "Reduction → Carboxylation → Regeneration",
-    "Regeneration → Carboxylation → Reduction",
-    "Carboxylation → Reduction → Regeneration",
-    "Carboxylation → Regeneration → Reduction"
-  ],
-  correct: 2,
+      "Reduction → Carboxylation → Regeneration",
+      "Regeneration → Carboxylation → Reduction",
+      "Carboxylation → Regeneration → Reduction",
+      "Carboxylation → Reduction → Regeneration"
+    ], correct: 3,
   explanation: "The correct sequence is: Carboxylation (CO₂ fixation) → Reduction (PGA reduced to G3P using ATP and NADPH) → Regeneration (RuBP reformed using ATP). This is directly from NCERT."
 },
 {
@@ -5731,12 +5456,11 @@ var allQuestions = [
   topic: "The Calvin Cycle",
   q: "How many molecules of 3-PGA are formed when 6 CO₂ are fixed in the Calvin cycle?",
   options: [
-    "6",
-    "12",
-    "18",
-    "3"
-  ],
-  correct: 1,
+      "6",
+      "18",
+      "12",
+      "3"
+    ], correct: 2,
   explanation: "Each CO₂ fixed with RuBP produces 2 molecules of 3-PGA. For 6 CO₂: 6 × 2 = 12 molecules of 3-PGA."
 },
 {
@@ -5744,12 +5468,11 @@ var allQuestions = [
   topic: "The Calvin Cycle",
   q: "In the Calvin cycle, the net carbon gain per turn is:",
   options: [
-    "5 carbon atoms",
-    "3 carbon atoms",
-    "1 carbon atom",
-    "6 carbon atoms"
-  ],
-  correct: 2,
+      "5 carbon atoms",
+      "3 carbon atoms",
+      "6 carbon atoms",
+      "1 carbon atom"
+    ], correct: 3,
   explanation: "Per turn, one CO₂ (1C) is fixed. RuBP (5C) + CO₂ (1C) → 2 PGA (6C total). But 5C worth of carbon goes back to regenerate RuBP. So the net gain is 1 carbon per turn."
 },
 {
@@ -5757,12 +5480,11 @@ var allQuestions = [
   topic: "The Calvin Cycle",
   q: "Select the correct statement about the Calvin cycle:",
   options: [
-    "It occurs only in the thylakoid membrane",
-    "It requires light energy directly",
-    "Carboxylation does not require ATP or NADPH directly",
-    "Regeneration does not require ATP"
-  ],
-  correct: 2,
+      "It occurs only in the thylakoid membrane",
+      "Carboxylation does not require ATP or NADPH directly",
+      "It requires light energy directly",
+      "Regeneration does not require ATP"
+    ], correct: 1,
   explanation: "Carboxylation (CO₂ + RuBP → 2 PGA, catalysed by RuBisCO) does not directly use ATP or NADPH. ATP and NADPH are used in the reduction and regeneration steps."
 },
 {
@@ -5770,12 +5492,11 @@ var allQuestions = [
   topic: "The Calvin Cycle",
   q: "Which of the following tables is correct for the Calvin cycle?",
   options: [
-    "Per CO₂: 2 ATP, 3 NADPH; Per glucose: 12 ATP, 18 NADPH",
-    "Per CO₂: 3 ATP, 2 NADPH; Per glucose: 18 ATP, 12 NADPH",
-    "Per CO₂: 3 ATP, 3 NADPH; Per glucose: 18 ATP, 18 NADPH",
-    "Per CO₂: 2 ATP, 2 NADPH; Per glucose: 12 ATP, 12 NADPH"
-  ],
-  correct: 1,
+      "Per CO₂: 2 ATP, 3 NADPH; Per glucose: 12 ATP, 18 NADPH",
+      "Per CO₂: 3 ATP, 3 NADPH; Per glucose: 18 ATP, 18 NADPH",
+      "Per CO₂: 3 ATP, 2 NADPH; Per glucose: 18 ATP, 12 NADPH",
+      "Per CO₂: 2 ATP, 2 NADPH; Per glucose: 12 ATP, 12 NADPH"
+    ], correct: 2,
   explanation: "NCERT: Per CO₂ = 3 ATP + 2 NADPH. Per glucose (6 CO₂) = 18 ATP + 12 NADPH. This is a direct NCERT-based calculation frequently tested in NEET."
 },
 {
@@ -5783,12 +5504,11 @@ var allQuestions = [
   topic: "The Calvin Cycle",
   q: "Which step of the Calvin cycle uses NADPH?",
   options: [
-    "Carboxylation",
-    "Reduction",
-    "Regeneration",
-    "Both carboxylation and regeneration"
-  ],
-  correct: 1,
+      "Carboxylation",
+      "Both carboxylation and regeneration",
+      "Regeneration",
+      "Reduction"
+    ], correct: 3,
   explanation: "NADPH is used only in the reduction step. NCERT states: 'two of NADPH for reduction per CO₂ molecule fixed.' Carboxylation uses no ATP/NADPH directly, and regeneration uses only ATP."
 },
 {
@@ -5796,12 +5516,11 @@ var allQuestions = [
   topic: "The Calvin Cycle",
   q: "Which step(s) of the Calvin cycle use ATP?",
   options: [
-    "Reduction only",
-    "Regeneration only",
-    "Both reduction and regeneration",
-    "Carboxylation only"
-  ],
-  correct: 2,
+      "Reduction only",
+      "Both reduction and regeneration",
+      "Regeneration only",
+      "Carboxylation only"
+    ], correct: 1,
   explanation: "ATP is used in both reduction (2 ATP for phosphorylation) and regeneration (1 ATP to form RuBP). Total = 3 ATP per CO₂. Carboxylation does not use ATP directly."
 },
 {
@@ -5809,12 +5528,11 @@ var allQuestions = [
   topic: "The Primary Acceptor of CO₂",
   q: "How many carbon atoms does the unstable intermediate formed when CO₂ combines with RuBP have?",
   options: [
-    "3",
-    "4",
-    "5",
-    "6"
-  ],
-  correct: 3,
+      "3",
+      "4",
+      "6",
+      "5"
+    ], correct: 2,
   explanation: "RuBP (5C) + CO₂ (1C) = unstable 6C intermediate. This intermediate immediately breaks into two molecules of 3-PGA (3C each). The 6C intermediate is too unstable to be isolated."
 },
 {
@@ -5835,12 +5553,11 @@ var allQuestions = [
   topic: "The Calvin Cycle",
   q: "If RuBisCO is inhibited in a plant, which of the following would be directly affected?",
   options: [
-    "Light reactions only",
-    "Carboxylation step of the Calvin cycle",
-    "Water splitting",
-    "Cyclic photophosphorylation"
-  ],
-  correct: 1,
+      "Light reactions only",
+      "Cyclic photophosphorylation",
+      "Water splitting",
+      "Carboxylation step of the Calvin cycle"
+    ], correct: 3,
   explanation: "RuBisCO catalyses the carboxylation of RuBP. If inhibited, CO₂ cannot be fixed, the carboxylation step stops, and consequently the entire Calvin cycle would halt. Light reactions and water splitting are not directly affected."
 },
 {
@@ -5848,12 +5565,11 @@ var allQuestions = [
   topic: "The Calvin Cycle",
   q: "How many molecules of RuBP are consumed and regenerated per turn of the Calvin cycle?",
   options: [
-    "1 consumed, 1 regenerated",
-    "2 consumed, 2 regenerated",
-    "6 consumed, 6 regenerated",
-    "1 consumed, 2 regenerated"
-  ],
-  correct: 0,
+      "2 consumed, 2 regenerated",
+      "1 consumed, 1 regenerated",
+      "6 consumed, 6 regenerated",
+      "1 consumed, 2 regenerated"
+    ], correct: 1,
   explanation: "Per turn: 1 RuBP is consumed (reacts with CO₂ in carboxylation) and 1 RuBP is regenerated (in the regeneration step). This is what makes it a cycle — the acceptor is continuously recycled."
 },
 {
@@ -5874,12 +5590,11 @@ var allQuestions = [
   topic: "The Calvin Cycle",
   q: "The total number of ATP molecules used in the reduction step to produce one glucose molecule is:",
   options: [
-    "6",
-    "12",
-    "18",
-    "24"
-  ],
-  correct: 1,
+      "6",
+      "24",
+      "18",
+      "12"
+    ], correct: 3,
   explanation: "Reduction uses 2 ATP per CO₂. For one glucose (6 CO₂): 6 × 2 = 12 ATP in the reduction step. The remaining 6 ATP (of the total 18) are used in the regeneration step."
 },
 {
@@ -5887,12 +5602,11 @@ var allQuestions = [
   topic: "The Calvin Cycle",
   q: "The total number of ATP molecules used in the regeneration step to produce one glucose molecule is:",
   options: [
-    "6",
-    "12",
-    "18",
-    "3"
-  ],
-  correct: 0,
+      "12",
+      "6",
+      "18",
+      "3"
+    ], correct: 1,
   explanation: "Regeneration uses 1 ATP per CO₂. For one glucose (6 CO₂): 6 × 1 = 6 ATP in the regeneration step. Total ATP = 12 (reduction) + 6 (regeneration) = 18 ATP."
 }
 ,
@@ -5901,12 +5615,11 @@ var allQuestions = [
   topic: "C₄ Pathway",
   q: "C₄ plants are adapted to:",
   options: [
-    "Cold temperate regions",
-    "Dry tropical regions",
-    "Deep aquatic habitats",
-    "Arctic tundra"
-  ],
-  correct: 1,
+      "Cold temperate regions",
+      "Deep aquatic habitats",
+      "Dry tropical regions",
+      "Arctic tundra"
+    ], correct: 2,
   explanation: "NCERT states: 'Plants that are adapted to dry tropical regions have the C₄ pathway.' C₄ plants are well-suited to hot, dry, and high-light environments."
 },
 {
@@ -5914,12 +5627,11 @@ var allQuestions = [
   topic: "C₄ Pathway",
   q: "C₄ plants use which pathway as their main biosynthetic pathway?",
   options: [
-    "C₄ pathway (Hatch-Slack pathway) only",
-    "C₃ pathway or Calvin cycle",
-    "Glycolysis",
-    "Krebs cycle"
-  ],
-  correct: 1,
+      "C₄ pathway (Hatch-Slack pathway) only",
+      "Krebs cycle",
+      "Glycolysis",
+      "C₃ pathway or Calvin cycle"
+    ], correct: 3,
   explanation: "NCERT states: 'Though these plants have the C₄ oxaloacetic acid as the first CO₂ fixation product they use the C₃ pathway or the Calvin cycle as the main biosynthetic pathway.' The C₄ pathway is only a CO₂ concentrating mechanism."
 },
 {
@@ -5953,12 +5665,11 @@ var allQuestions = [
   topic: "C₄ Pathway",
   q: "The special leaf anatomy of C₄ plants is called:",
   options: [
-    "Dorsiventral anatomy",
-    "Isobilateral anatomy",
-    "Kranz anatomy",
-    "Centric anatomy"
-  ],
-  correct: 2,
+      "Dorsiventral anatomy",
+      "Isobilateral anatomy",
+      "Centric anatomy",
+      "Kranz anatomy"
+    ], correct: 3,
   explanation: "NCERT states: 'the leaves which have such anatomy are said to have Kranz anatomy.' 'Kranz' means 'wreath' and reflects the arrangement of cells around the vascular bundles."
 },
 {
@@ -5979,12 +5690,11 @@ var allQuestions = [
   topic: "C₄ Pathway",
   q: "Bundle sheath cells in C₄ plants are characterised by:<br>(i) Large number of chloroplasts<br>(ii) Thick walls impervious to gaseous exchange<br>(iii) No intercellular spaces<br>(iv) Thin walls with many intercellular spaces",
   options: [
-    "(i), (ii) and (iii) only",
-    "(i), (ii), (iii) and (iv)",
-    "(i) and (iv) only",
-    "(ii) and (iv) only"
-  ],
-  correct: 0,
+      "(i) and (iv) only",
+      "(i), (ii), (iii) and (iv)",
+      "(i), (ii) and (iii) only",
+      "(ii) and (iv) only"
+    ], correct: 2,
   explanation: "NCERT states bundle sheath cells are 'characterised by having a large number of chloroplasts, thick walls impervious to gaseous exchange and no intercellular spaces.' Statement (iv) is the opposite and is wrong."
 },
 {
@@ -5992,12 +5702,11 @@ var allQuestions = [
   topic: "C₄ Pathway",
   q: "Examples of C₄ plants include:",
   options: [
-    "Wheat and rice",
-    "Maize and sorghum",
-    "Pea and gram",
-    "Mango and apple"
-  ],
-  correct: 1,
+      "Wheat and rice",
+      "Mango and apple",
+      "Pea and gram",
+      "Maize and sorghum"
+    ], correct: 3,
   explanation: "NCERT mentions: 'You may like to cut a section of the leaves of C₄ plants – maize or sorghum – to observe the Kranz anatomy.' Wheat and rice are C₃ plants."
 },
 {
@@ -6018,12 +5727,11 @@ var allQuestions = [
   topic: "C₄ Pathway",
   q: "The Hatch and Slack Pathway is:",
   options: [
-    "A linear process",
-    "A cyclic process",
-    "A branching process",
-    "An irreversible single-step reaction"
-  ],
-  correct: 1,
+      "A linear process",
+      "A branching process",
+      "A cyclic process",
+      "An irreversible single-step reaction"
+    ], correct: 2,
   explanation: "NCERT states: 'This pathway that has been named the Hatch and Slack Pathway, is again a cyclic process.' PEP is regenerated at the end, completing the cycle."
 },
 {
@@ -6031,12 +5739,11 @@ var allQuestions = [
   topic: "C₄ Pathway",
   q: "The primary CO₂ acceptor in the C₄ pathway is:",
   options: [
-    "RuBP (5C)",
-    "PGA (3C)",
-    "Phosphoenolpyruvate or PEP (3C)",
-    "OAA (4C)"
-  ],
-  correct: 2,
+      "RuBP (5C)",
+      "PGA (3C)",
+      "OAA (4C)",
+      "Phosphoenolpyruvate or PEP (3C)"
+    ], correct: 3,
   explanation: "NCERT states: 'The primary CO₂ acceptor is a 3-carbon molecule phosphoenol pyruvate (PEP) and is present in the mesophyll cells.' PEP is a 3-carbon compound, not RuBP."
 },
 {
@@ -6057,12 +5764,11 @@ var allQuestions = [
   topic: "C₄ Pathway",
   q: "The enzyme responsible for CO₂ fixation in the mesophyll cells of C₄ plants is:",
   options: [
-    "RuBisCO",
-    "PEP carboxylase or PEPcase",
-    "ATP synthase",
-    "NADP reductase"
-  ],
-  correct: 1,
+      "RuBisCO",
+      "ATP synthase",
+      "PEP carboxylase or PEPcase",
+      "NADP reductase"
+    ], correct: 2,
   explanation: "NCERT states: 'The enzyme responsible for this fixation is PEP carboxylase or PEPcase.' RuBisCO is absent in mesophyll cells of C₄ plants."
 },
 {
@@ -6083,12 +5789,11 @@ var allQuestions = [
   topic: "C₄ Pathway",
   q: "The C₄ acid OAA is formed in:",
   options: [
-    "Bundle sheath cells",
-    "Mesophyll cells",
-    "Stroma of chloroplasts",
-    "Thylakoid lumen"
-  ],
-  correct: 1,
+      "Bundle sheath cells",
+      "Thylakoid lumen",
+      "Stroma of chloroplasts",
+      "Mesophyll cells"
+    ], correct: 3,
   explanation: "NCERT states: 'The C₄ acid OAA is formed in the mesophyll cells.' OAA is the first stable product of CO₂ fixation in C₄ plants."
 },
 {
@@ -6122,12 +5827,11 @@ var allQuestions = [
   topic: "C₄ Pathway",
   q: "In the bundle sheath cells, C₄ acids are broken down to release:",
   options: [
-    "O₂ and a 4-carbon molecule",
-    "CO₂ and a 3-carbon molecule",
-    "CO₂ and a 5-carbon molecule",
-    "H₂O and a 2-carbon molecule"
-  ],
-  correct: 1,
+      "O₂ and a 4-carbon molecule",
+      "H₂O and a 2-carbon molecule",
+      "CO₂ and a 5-carbon molecule",
+      "CO₂ and a 3-carbon molecule"
+    ], correct: 3,
   explanation: "NCERT states: 'In the bundle sheath cells these C₄ acids are broken down to release CO₂ and a 3-carbon molecule.' The CO₂ enters the Calvin cycle, and the 3C molecule returns to mesophyll cells."
 },
 {
@@ -6135,12 +5839,11 @@ var allQuestions = [
   topic: "C₄ Pathway",
   q: "The 3-carbon molecule released in bundle sheath cells is transported back to mesophyll cells where it is converted to:",
   options: [
-    "OAA",
-    "PGA",
-    "PEP",
-    "RuBP"
-  ],
-  correct: 2,
+      "OAA",
+      "PEP",
+      "PGA",
+      "RuBP"
+    ], correct: 1,
   explanation: "NCERT states: 'The 3-carbon molecule is transported back to the mesophyll where it is converted to PEP again, thus, completing the cycle.' PEP regeneration completes the C₄ cycle."
 },
 {
@@ -6161,12 +5864,11 @@ var allQuestions = [
   topic: "C₄ Pathway",
   q: "Bundle sheath cells are rich in which enzyme but lack which other enzyme?",
   options: [
-    "Rich in PEPcase, lack RuBisCO",
-    "Rich in RuBisCO, lack PEPcase",
-    "Rich in both RuBisCO and PEPcase",
-    "Lack both RuBisCO and PEPcase"
-  ],
-  correct: 1,
+      "Rich in PEPcase, lack RuBisCO",
+      "Lack both RuBisCO and PEPcase",
+      "Rich in both RuBisCO and PEPcase",
+      "Rich in RuBisCO, lack PEPcase"
+    ], correct: 3,
   explanation: "NCERT states: 'The bundle sheath cells are rich in an enzyme RuBisCO, but lack PEPcase.' Conversely, mesophyll cells have PEPcase but lack RuBisCO."
 },
 {
@@ -6174,12 +5876,11 @@ var allQuestions = [
   topic: "C₄ Pathway",
   q: "Match the following for C₄ plants:<br>(i) Mesophyll cells — (P) RuBisCO present, PEPcase absent<br>(ii) Bundle sheath cells — (Q) PEPcase present, RuBisCO absent<br>(iii) Mesophyll cells — (R) Calvin cycle occurs<br>(iv) Bundle sheath cells — (S) Initial CO₂ fixation occurs",
   options: [
-    "(i)-Q, (ii)-P, (iii)-S, (iv)-R",
-    "(i)-P, (ii)-Q, (iii)-R, (iv)-S",
-    "(i)-Q, (ii)-P, (iii)-R, (iv)-S",
-    "(i)-S, (ii)-R, (iii)-Q, (iv)-P"
-  ],
-  correct: 0,
+      "(i)-P, (ii)-Q, (iii)-R, (iv)-S",
+      "(i)-Q, (ii)-P, (iii)-S, (iv)-R",
+      "(i)-Q, (ii)-P, (iii)-R, (iv)-S",
+      "(i)-S, (ii)-R, (iii)-Q, (iv)-P"
+    ], correct: 1,
   explanation: "Mesophyll cells: PEPcase present, RuBisCO absent (Q), initial CO₂ fixation (S). Bundle sheath cells: RuBisCO present, PEPcase absent (P), Calvin cycle occurs (R). So (i)-Q, (ii)-P, (iii)-S, (iv)-R."
 },
 {
@@ -6187,12 +5888,11 @@ var allQuestions = [
   topic: "C₄ Pathway",
   q: "In C₃ plants, the Calvin pathway occurs in:",
   options: [
-    "Bundle sheath cells only",
-    "All mesophyll cells",
-    "Both mesophyll and bundle sheath cells",
-    "Epidermal cells"
-  ],
-  correct: 1,
+      "Bundle sheath cells only",
+      "Both mesophyll and bundle sheath cells",
+      "All mesophyll cells",
+      "Epidermal cells"
+    ], correct: 2,
   explanation: "NCERT states: 'the Calvin pathway occurs in all the mesophyll cells of the C₃ plants.' C₃ plants do not have the specialised Kranz anatomy."
 },
 {
@@ -6200,12 +5900,11 @@ var allQuestions = [
   topic: "C₄ Pathway",
   q: "In C₄ plants, the Calvin pathway occurs in:",
   options: [
-    "All mesophyll cells",
-    "Bundle sheath cells only",
-    "Both mesophyll and bundle sheath cells",
-    "Epidermal cells"
-  ],
-  correct: 1,
+      "All mesophyll cells",
+      "Epidermal cells",
+      "Both mesophyll and bundle sheath cells",
+      "Bundle sheath cells only"
+    ], correct: 3,
   explanation: "NCERT states: 'In the C₄ plants it does not take place in the mesophyll cells but does so only in the bundle sheath cells.' This is a key distinction between C₃ and C₄ plants."
 },
 {
@@ -6239,12 +5938,11 @@ var allQuestions = [
   topic: "C₄ Pathway",
   q: "How many carbon atoms does PEP have?",
   options: [
-    "2",
-    "3",
-    "4",
-    "5"
-  ],
-  correct: 1,
+      "2",
+      "4",
+      "3",
+      "5"
+    ], correct: 2,
   explanation: "NCERT states: 'The primary CO₂ acceptor is a 3-carbon molecule phosphoenol pyruvate (PEP).' PEP has 3 carbon atoms."
 },
 {
@@ -6252,12 +5950,11 @@ var allQuestions = [
   topic: "C₄ Pathway",
   q: "Select the <b>incorrect</b> statement about C₄ plants:",
   options: [
-    "They have Kranz anatomy",
-    "They tolerate higher temperatures",
-    "RuBisCO is present in their mesophyll cells",
-    "They lack photorespiration"
-  ],
-  correct: 2,
+      "They have Kranz anatomy",
+      "They tolerate higher temperatures",
+      "They lack photorespiration",
+      "RuBisCO is present in their mesophyll cells"
+    ], correct: 3,
   explanation: "NCERT clearly states: 'the mesophyll cells lack RuBisCO enzyme.' RuBisCO is present in bundle sheath cells, not mesophyll cells of C₄ plants. All other statements are correct."
 },
 {
@@ -6278,12 +5975,11 @@ var allQuestions = [
   topic: "C₄ Pathway",
   q: "Bundle sheath cells have thick walls that are impervious to gaseous exchange. This is significant because:",
   options: [
-    "It allows O₂ to enter freely",
-    "It prevents CO₂ from leaking out, maintaining high CO₂ concentration for RuBisCO",
-    "It allows CO₂ to escape easily",
-    "It has no functional significance"
-  ],
-  correct: 1,
+      "It allows O₂ to enter freely",
+      "It allows CO₂ to escape easily",
+      "It prevents CO₂ from leaking out, maintaining high CO₂ concentration for RuBisCO",
+      "It has no functional significance"
+    ], correct: 2,
   explanation: "Thick walls impervious to gas exchange prevent CO₂ from leaking out of bundle sheath cells. This maintains a high CO₂ concentration, ensuring RuBisCO works as carboxylase rather than oxygenase."
 },
 {
@@ -6291,12 +5987,11 @@ var allQuestions = [
   topic: "Photorespiration",
   q: "RuBisCO is the most abundant enzyme in the world because:",
   options: [
-    "It is present in all organisms",
-    "It is needed in large quantities since it catalyses the crucial first step of the Calvin cycle in all photosynthetic plants",
-    "It is a very small enzyme",
-    "It is produced in mitochondria of all cells"
-  ],
-  correct: 1,
+      "It is present in all organisms",
+      "It is produced in mitochondria of all cells",
+      "It is a very small enzyme",
+      "It is needed in large quantities since it catalyses the crucial first step of the Calvin cycle in all photosynthetic plants"
+    ], correct: 3,
   explanation: "RuBisCO catalyses the first CO₂ fixation step of the Calvin cycle, which occurs in ALL photosynthetic plants. Given the enormous amount of photosynthesis occurring globally, RuBisCO is required in massive quantities."
 },
 {
@@ -6304,12 +5999,11 @@ var allQuestions = [
   topic: "Photorespiration",
   q: "RuBisCO's active site can bind to:",
   options: [
-    "Only CO₂",
-    "Only O₂",
-    "Both CO₂ and O₂",
-    "Neither CO₂ nor O₂"
-  ],
-  correct: 2,
+      "Only CO₂",
+      "Both CO₂ and O₂",
+      "Only O₂",
+      "Neither CO₂ nor O₂"
+    ], correct: 1,
   explanation: "NCERT states: 'its active site can bind to both CO₂ and O₂ – hence the name.' This dual binding ability leads to either carboxylation (productive) or oxygenation (photorespiration)."
 },
 {
@@ -6317,12 +6011,11 @@ var allQuestions = [
   topic: "Photorespiration",
   q: "The binding of CO₂ and O₂ to RuBisCO is:",
   options: [
-    "Cooperative",
-    "Competitive",
-    "Non-competitive",
-    "Allosteric"
-  ],
-  correct: 1,
+      "Cooperative",
+      "Non-competitive",
+      "Competitive",
+      "Allosteric"
+    ], correct: 2,
   explanation: "NCERT states: 'This binding is competitive.' CO₂ and O₂ compete for the same active site on RuBisCO. The relative concentration of each determines which binds."
 },
 {
@@ -6330,12 +6023,11 @@ var allQuestions = [
   topic: "Photorespiration",
   q: "RuBisCO has a much greater affinity for CO₂ when:",
   options: [
-    "O₂ concentration is very high",
-    "CO₂ concentration is very low",
-    "The CO₂:O₂ ratio is nearly equal",
-    "Temperature is very high"
-  ],
-  correct: 2,
+      "O₂ concentration is very high",
+      "CO₂ concentration is very low",
+      "Temperature is very high",
+      "The CO₂:O₂ ratio is nearly equal"
+    ], correct: 3,
   explanation: "NCERT states: 'RuBisCO has a much greater affinity for CO₂ when the CO₂:O₂ is nearly equal.' Under normal conditions, RuBisCO preferentially binds CO₂."
 },
 {
@@ -6343,12 +6035,11 @@ var allQuestions = [
   topic: "Photorespiration",
   q: "Which of the following determines whether RuBisCO acts as carboxylase or oxygenase?",
   options: [
-    "Light intensity",
-    "Temperature only",
-    "The relative concentration of O₂ and CO₂",
-    "The amount of water available"
-  ],
-  correct: 2,
+      "Light intensity",
+      "The relative concentration of O₂ and CO₂",
+      "Temperature only",
+      "The amount of water available"
+    ], correct: 1,
   explanation: "NCERT states: 'It is the relative concentration of O₂ and CO₂ that determines which of the two will bind to the enzyme.' High CO₂ favours carboxylation; high O₂ favours oxygenation."
 },
 {
@@ -6356,12 +6047,11 @@ var allQuestions = [
   topic: "Photorespiration",
   q: "In C₃ plants, when O₂ binds to RuBisCO, the products formed are:",
   options: [
-    "Two molecules of 3-PGA",
-    "One molecule of phosphoglycerate and one molecule of phosphoglycolate",
-    "One molecule of OAA and one molecule of PGA",
-    "Two molecules of phosphoglycolate"
-  ],
-  correct: 1,
+      "Two molecules of 3-PGA",
+      "One molecule of OAA and one molecule of PGA",
+      "One molecule of phosphoglycerate and one molecule of phosphoglycolate",
+      "Two molecules of phosphoglycolate"
+    ], correct: 2,
   explanation: "NCERT states: 'RuBP instead of being converted to 2 molecules of PGA binds with O₂ to form one molecule of phosphoglycerate and phosphoglycolate (2 Carbon).' This is the photorespiratory pathway."
 },
 {
@@ -6369,12 +6059,11 @@ var allQuestions = [
   topic: "Photorespiration",
   q: "Phosphoglycolate formed during photorespiration contains how many carbon atoms?",
   options: [
-    "2",
-    "3",
-    "4",
-    "5"
-  ],
-  correct: 0,
+      "5",
+      "3",
+      "4",
+      "2"
+    ], correct: 3,
   explanation: "NCERT states phosphoglycolate is a '2 Carbon' compound. It is formed when O₂ binds to RuBisCO instead of CO₂."
 },
 {
@@ -6382,12 +6071,11 @@ var allQuestions = [
   topic: "Photorespiration",
   q: "In the photorespiratory pathway:<br>(i) There is no synthesis of sugars<br>(ii) There is no synthesis of ATP<br>(iii) CO₂ is released<br>(iv) ATP is utilised",
   options: [
-    "(i) and (ii) only",
-    "(i), (ii) and (iii) only",
-    "(i), (ii), (iii) and (iv)",
-    "(iii) and (iv) only"
-  ],
-  correct: 2,
+      "(i) and (ii) only",
+      "(i), (ii), (iii) and (iv)",
+      "(i), (ii) and (iii) only",
+      "(iii) and (iv) only"
+    ], correct: 1,
   explanation: "NCERT states: 'In the photorespiratory pathway, there is neither synthesis of sugars, nor of ATP. Rather it results in the release of CO₂ with the utilisation of ATP.' All four statements are correct."
 },
 {
@@ -6421,12 +6109,11 @@ var allQuestions = [
   topic: "Photorespiration",
   q: "Photorespiration does <b>NOT</b> occur in:",
   options: [
-    "C₃ plants",
-    "C₄ plants",
-    "All plants equally",
-    "Algae"
-  ],
-  correct: 1,
+      "C₃ plants",
+      "Algae",
+      "All plants equally",
+      "C₄ plants"
+    ], correct: 3,
   explanation: "NCERT states: 'In C₄ plants photorespiration does not occur.' This is because C₄ plants have a mechanism to increase CO₂ concentration at the RuBisCO site in bundle sheath cells."
 },
 {
@@ -6447,12 +6134,11 @@ var allQuestions = [
   topic: "Photorespiration",
   q: "In C₄ plants, the high CO₂ concentration in bundle sheath cells ensures that RuBisCO functions as:",
   options: [
-    "An oxygenase predominantly",
-    "A carboxylase, minimising the oxygenase activity",
-    "Both carboxylase and oxygenase equally",
-    "Neither carboxylase nor oxygenase"
-  ],
-  correct: 1,
+      "An oxygenase predominantly",
+      "Both carboxylase and oxygenase equally",
+      "A carboxylase, minimising the oxygenase activity",
+      "Neither carboxylase nor oxygenase"
+    ], correct: 2,
   explanation: "NCERT states: 'this ensures that the RuBisCO functions as a carboxylase minimising the oxygenase activity.' High CO₂ concentration outcompetes O₂ for binding to RuBisCO's active site."
 },
 {
@@ -6473,12 +6159,11 @@ var allQuestions = [
   topic: "C₄ Pathway",
   q: "Consider the following comparison between mesophyll cells and bundle sheath cells in C₄ plants:<br>(A) Mesophyll: PEPcase present; Bundle sheath: PEPcase absent<br>(B) Mesophyll: RuBisCO present; Bundle sheath: RuBisCO absent<br>(C) Mesophyll: Initial CO₂ fixation; Bundle sheath: Calvin cycle<br>(D) Mesophyll: Calvin cycle; Bundle sheath: Initial CO₂ fixation",
   options: [
-    "(A) and (C) only",
-    "(B) and (D) only",
-    "(A), (B) and (C)",
-    "(A) and (D) only"
-  ],
-  correct: 0,
+      "(A) and (D) only",
+      "(B) and (D) only",
+      "(A), (B) and (C)",
+      "(A) and (C) only"
+    ], correct: 3,
   explanation: "A is correct (mesophyll has PEPcase; bundle sheath lacks it). C is correct (mesophyll does initial fixation; bundle sheath does Calvin cycle). B is wrong (mesophyll LACKS RuBisCO). D reverses the roles."
 },
 {
@@ -6486,12 +6171,11 @@ var allQuestions = [
   topic: "Photorespiration",
   q: "Which of the following is <b>NOT</b> produced during photorespiration?",
   options: [
-    "CO₂",
-    "Phosphoglycolate",
-    "ATP",
-    "Phosphoglycerate"
-  ],
-  correct: 2,
+      "CO₂",
+      "ATP",
+      "Phosphoglycolate",
+      "Phosphoglycerate"
+    ], correct: 1,
   explanation: "NCERT states: 'In the photorespiratory pathway there is no synthesis of ATP or NADPH.' ATP is actually consumed during photorespiration, not produced. CO₂, phosphoglycolate, and phosphoglycerate are products."
 },
 {
@@ -6512,12 +6196,11 @@ var allQuestions = [
   topic: "Photorespiration",
   q: "In the photorespiratory pathway, when O₂ binds to RuBisCO, the substrate is:",
   options: [
-    "PGA",
-    "PEP",
-    "RuBP",
-    "OAA"
-  ],
-  correct: 2,
+      "PGA",
+      "PEP",
+      "OAA",
+      "RuBP"
+    ], correct: 3,
   explanation: "NCERT states: 'the RuBP instead of being converted to 2 molecules of PGA binds with O₂.' RuBP is the substrate that binds with O₂ when oxygenase activity of RuBisCO dominates."
 },
 {
@@ -6538,12 +6221,11 @@ var allQuestions = [
   topic: "C₄ Pathway and Photorespiration",
   q: "Consider the following statements:<br>(A) C₃ plants show photorespiration<br>(B) C₄ plants show photorespiration<br>(C) C₄ plants have higher productivity than C₃ plants<br>(D) C₄ plants tolerate higher temperatures<br><br>Which are correct?",
   options: [
-    "(A), (C) and (D) only",
-    "(A), (B), (C) and (D)",
-    "(B) and (C) only",
-    "(A) and (B) only"
-  ],
-  correct: 0,
+      "(B) and (C) only",
+      "(A), (B), (C) and (D)",
+      "(A), (C) and (D) only",
+      "(A) and (B) only"
+    ], correct: 2,
   explanation: "A, C, and D are correct. B is wrong — C₄ plants do NOT show photorespiration. NCERT states C₃ plants show photorespiration, C₄ plants lack it, C₄ plants have greater productivity and tolerate higher temperatures."
 },
 {
@@ -6551,12 +6233,11 @@ var allQuestions = [
   topic: "C₄ Pathway",
   q: "In C₄ plants, the initial CO₂ fixation and the Calvin cycle are spatially separated. The initial fixation occurs in _______ and the Calvin cycle in _______.",
   options: [
-    "Bundle sheath cells; mesophyll cells",
-    "Mesophyll cells; bundle sheath cells",
-    "Both occur in mesophyll cells",
-    "Both occur in bundle sheath cells"
-  ],
-  correct: 1,
+      "Bundle sheath cells; mesophyll cells",
+      "Both occur in bundle sheath cells",
+      "Both occur in mesophyll cells",
+      "Mesophyll cells; bundle sheath cells"
+    ], correct: 3,
   explanation: "In C₄ plants, initial CO₂ fixation (C₄ pathway) occurs in mesophyll cells, and the Calvin cycle occurs in bundle sheath cells. This spatial separation is a key feature of C₄ photosynthesis."
 },
 {
@@ -6577,12 +6258,11 @@ var allQuestions = [
   topic: "Photorespiration",
   q: "Select the correct comparison between photorespiration and normal (dark) respiration:",
   options: [
-    "Both produce ATP",
-    "Photorespiration produces ATP; normal respiration does not",
-    "Normal respiration produces ATP; photorespiration does not — rather it consumes ATP",
-    "Neither produces ATP"
-  ],
-  correct: 2,
+      "Both produce ATP",
+      "Normal respiration produces ATP; photorespiration does not — rather it consumes ATP",
+      "Photorespiration produces ATP; normal respiration does not",
+      "Neither produces ATP"
+    ], correct: 1,
   explanation: "Normal respiration produces ATP. NCERT states about photorespiration: 'there is no synthesis of ATP or NADPH. Rather it results in the release of CO₂ with the utilisation of ATP.' So photorespiration consumes ATP."
 },
 {
@@ -6590,12 +6270,11 @@ var allQuestions = [
   topic: "Photorespiration",
   q: "Which of the following conditions would increase photorespiration in C₃ plants?",
   options: [
-    "High CO₂ concentration",
-    "High O₂ concentration relative to CO₂",
-    "Low temperature",
-    "Low light intensity"
-  ],
-  correct: 1,
+      "High CO₂ concentration",
+      "Low temperature",
+      "High O₂ concentration relative to CO₂",
+      "Low light intensity"
+    ], correct: 2,
   explanation: "Since binding is competitive, high O₂ relative to CO₂ would increase O₂ binding to RuBisCO, increasing photorespiration. NCERT states: 'It is the relative concentration of O₂ and CO₂ that determines which of the two will bind.'"
 },
 {
@@ -6616,12 +6295,11 @@ var allQuestions = [
   topic: "C₄ Pathway",
   q: "In C₃ plants, the Calvin cycle occurs in:",
   options: [
-    "Bundle sheath cells only",
-    "All mesophyll cells",
-    "Guard cells",
-    "Epidermal cells"
-  ],
-  correct: 1,
+      "Bundle sheath cells only",
+      "Epidermal cells",
+      "Guard cells",
+      "All mesophyll cells"
+    ], correct: 3,
   explanation: "NCERT states: 'the Calvin pathway occurs in all the mesophyll cells of the C₃ plants.' C₃ plants do not have prominent bundle sheath cells for photosynthesis."
 },
 {
@@ -6629,12 +6307,11 @@ var allQuestions = [
   topic: "C₄ Pathway",
   q: "Match the following:<br>(i) PEPcase — (P) Bundle sheath cells<br>(ii) RuBisCO — (Q) Mesophyll cells<br>(iii) Calvin cycle in C₄ plants — (R) Mesophyll cells of C₄ plants<br>(iv) Initial CO₂ fixation in C₄ plants — (S) Bundle sheath cells of C₄ plants",
   options: [
-    "(i)-Q, (ii)-P, (iii)-S, (iv)-R",
-    "(i)-R, (ii)-S, (iii)-P, (iv)-Q",
-    "(i)-Q, (ii)-P, (iii)-P, (iv)-Q",
-    "(i)-R, (ii)-P, (iii)-S, (iv)-Q"
-  ],
-  correct: 0,
+      "(i)-R, (ii)-S, (iii)-P, (iv)-Q",
+      "(i)-Q, (ii)-P, (iii)-S, (iv)-R",
+      "(i)-Q, (ii)-P, (iii)-P, (iv)-Q",
+      "(i)-R, (ii)-P, (iii)-S, (iv)-Q"
+    ], correct: 1,
   explanation: "PEPcase is in mesophyll cells (Q) of C₄ plants. RuBisCO is in bundle sheath cells (P). Calvin cycle in C₄ plants occurs in bundle sheath (S). Initial CO₂ fixation in C₄ occurs in mesophyll (R). Wait — let me reconsider: (i)-Q means PEPcase in mesophyll ✓, (ii)-P means RuBisCO in bundle sheath ✓, (iii)-S means Calvin in bundle sheath ✓, (iv)-R means initial fixation in mesophyll ✓. Note: P and S both refer to bundle sheath, Q and R both to mesophyll."
 },
 {
@@ -6655,12 +6332,11 @@ var allQuestions = [
   topic: "C₄ Pathway",
   q: "The C₄ pathway involves how many carboxylation events per CO₂ molecule?",
   options: [
-    "One (in mesophyll only)",
-    "Two (once in mesophyll by PEPcase, once in bundle sheath by RuBisCO)",
-    "Three",
-    "None — CO₂ is not fixed"
-  ],
-  correct: 1,
+      "One (in mesophyll only)",
+      "None — CO₂ is not fixed",
+      "Three",
+      "Two (once in mesophyll by PEPcase, once in bundle sheath by RuBisCO)"
+    ], correct: 3,
   explanation: "Each CO₂ is fixed twice: first by PEPcase in mesophyll cells (forming OAA), then the CO₂ released in bundle sheath is fixed again by RuBisCO in the Calvin cycle. This double fixation is a unique feature."
 },
 {
@@ -6681,12 +6357,11 @@ var allQuestions = [
   topic: "C₄ Pathway",
   q: "In the C₄ cycle, the molecule that is regenerated to complete the cycle is:",
   options: [
-    "OAA",
-    "PGA",
-    "PEP",
-    "RuBP"
-  ],
-  correct: 2,
+      "OAA",
+      "PEP",
+      "PGA",
+      "RuBP"
+    ], correct: 1,
   explanation: "NCERT states: 'The 3-carbon molecule is transported back to the mesophyll where it is converted to PEP again, thus, completing the cycle.' PEP is the regenerated molecule, just as RuBP is regenerated in the Calvin cycle."
 },
 {
@@ -6694,12 +6369,11 @@ var allQuestions = [
   topic: "C₄ Pathway and Photorespiration",
   q: "Which of the following is a correct difference between C₃ and C₄ plants?",
   options: [
-    "C₃ plants have Kranz anatomy; C₄ plants do not",
-    "C₃ plants: Calvin cycle in mesophyll; C₄ plants: Calvin cycle in bundle sheath",
-    "C₃ plants lack photorespiration; C₄ plants show photorespiration",
-    "C₃ plants: primary CO₂ acceptor is PEP; C₄ plants: primary CO₂ acceptor is RuBP"
-  ],
-  correct: 1,
+      "C₃ plants have Kranz anatomy; C₄ plants do not",
+      "C₃ plants lack photorespiration; C₄ plants show photorespiration",
+      "C₃ plants: Calvin cycle in mesophyll; C₄ plants: Calvin cycle in bundle sheath",
+      "C₃ plants: primary CO₂ acceptor is PEP; C₄ plants: primary CO₂ acceptor is RuBP"
+    ], correct: 2,
   explanation: "C₃ plants: Calvin cycle occurs in mesophyll cells. C₄ plants: Calvin cycle occurs in bundle sheath cells. A reverses Kranz anatomy. C reverses photorespiration. D reverses CO₂ acceptors."
 },
 {
@@ -6707,12 +6381,11 @@ var allQuestions = [
   topic: "Photorespiration",
   q: "Consider the following about photorespiration:<br>(i) It is called 'photorespiration' because it occurs in light and consumes O₂ while releasing CO₂<br>(ii) It synthesises glucose<br>(iii) It is a wasteful process<br>(iv) It occurs only in C₃ plants",
   options: [
-    "(i), (iii) and (iv) only",
-    "(i) and (iii) only",
-    "(ii) and (iv) only",
-    "(i), (ii), (iii) and (iv)"
-  ],
-  correct: 0,
+      "(i), (ii), (iii) and (iv)",
+      "(i) and (iii) only",
+      "(ii) and (iv) only",
+      "(i), (iii) and (iv) only"
+    ], correct: 3,
   explanation: "Statements (i), (iii), and (iv) are correct. Statement (ii) is wrong — NCERT states 'there is neither synthesis of sugars, nor of ATP' during photorespiration."
 },
 {
@@ -6720,12 +6393,11 @@ var allQuestions = [
   topic: "C₄ Pathway",
   q: "Which of the following is <b>NOT</b> a characteristic of bundle sheath cells?",
   options: [
-    "Large number of chloroplasts",
-    "Thick walls impervious to gaseous exchange",
-    "No intercellular spaces",
-    "Presence of PEPcase enzyme"
-  ],
-  correct: 3,
+      "Large number of chloroplasts",
+      "Presence of PEPcase enzyme",
+      "No intercellular spaces",
+      "Thick walls impervious to gaseous exchange"
+    ], correct: 1,
   explanation: "Bundle sheath cells LACK PEPcase. NCERT states: 'The bundle sheath cells are rich in an enzyme RuBisCO, but lack PEPcase.' PEPcase is found in mesophyll cells."
 },
 {
@@ -6760,12 +6432,11 @@ var allQuestions = [
   topic: "Factors Affecting Photosynthesis",
   q: "The rate of photosynthesis is important in determining:",
   options: [
-    "The colour of flowers",
-    "The yield of plants including crop plants",
-    "The height of trees only",
-    "The root length of plants"
-  ],
-  correct: 1,
+      "The colour of flowers",
+      "The root length of plants",
+      "The height of trees only",
+      "The yield of plants including crop plants"
+    ], correct: 3,
   explanation: "NCERT states: 'The rate of photosynthesis is very important in determining the yield of plants including crop plants.' Higher photosynthetic rate generally leads to higher biomass and crop yield."
 },
 {
@@ -6773,12 +6444,11 @@ var allQuestions = [
   topic: "Factors Affecting Photosynthesis",
   q: "Photosynthesis is influenced by:",
   options: [
-    "Only internal (plant) factors",
-    "Only external factors",
-    "Both internal (plant) and external factors",
-    "Neither internal nor external factors"
-  ],
-  correct: 2,
+      "Only internal (plant) factors",
+      "Both internal (plant) and external factors",
+      "Only external factors",
+      "Neither internal nor external factors"
+    ], correct: 1,
   explanation: "NCERT states: 'Photosynthesis is under the influence of several factors, both internal (plant) and external.' Both types of factors simultaneously affect the rate of photosynthesis."
 },
 {
@@ -6786,12 +6456,11 @@ var allQuestions = [
   topic: "Factors Affecting Photosynthesis",
   q: "Which of the following are internal (plant) factors affecting photosynthesis?<br>(i) Number, size, age and orientation of leaves<br>(ii) Mesophyll cells and chloroplasts<br>(iii) Internal CO₂ concentration<br>(iv) Amount of chlorophyll<br>(v) Availability of sunlight",
   options: [
-    "(i), (ii), (iii) and (iv) only",
-    "(i), (ii), (iii), (iv) and (v)",
-    "(v) only",
-    "(i) and (iv) only"
-  ],
-  correct: 0,
+      "(v) only",
+      "(i), (ii), (iii), (iv) and (v)",
+      "(i), (ii), (iii) and (iv) only",
+      "(i) and (iv) only"
+    ], correct: 2,
   explanation: "NCERT lists internal factors: 'the number, size, age and orientation of leaves, mesophyll cells and chloroplasts, internal CO₂ concentration and the amount of chlorophyll.' Sunlight availability (v) is an external factor."
 },
 {
@@ -6799,12 +6468,11 @@ var allQuestions = [
   topic: "Factors Affecting Photosynthesis",
   q: "Which of the following are external factors affecting photosynthesis?",
   options: [
-    "Number of chloroplasts and amount of chlorophyll",
-    "Availability of sunlight, temperature, CO₂ concentration and water",
-    "Internal CO₂ concentration and leaf orientation",
-    "Genetic predisposition of the plant"
-  ],
-  correct: 1,
+      "Number of chloroplasts and amount of chlorophyll",
+      "Genetic predisposition of the plant",
+      "Internal CO₂ concentration and leaf orientation",
+      "Availability of sunlight, temperature, CO₂ concentration and water"
+    ], correct: 3,
   explanation: "NCERT states: 'The external factors would include the availability of sunlight, temperature, CO₂ concentration and water.' Internal CO₂ concentration, chloroplast number, and genetics are internal factors."
 },
 {
@@ -6838,12 +6506,11 @@ var allQuestions = [
   topic: "Factors Affecting Photosynthesis",
   q: "Blackman's Law of Limiting Factors states:",
   options: [
-    "All factors equally affect the rate of a chemical process",
-    "If a chemical process is affected by more than one factor, its rate will be determined by the factor nearest to its minimal value",
-    "Only light determines the rate of photosynthesis",
-    "Temperature is always the limiting factor"
-  ],
-  correct: 1,
+      "All factors equally affect the rate of a chemical process",
+      "Temperature is always the limiting factor",
+      "Only light determines the rate of photosynthesis",
+      "If a chemical process is affected by more than one factor, its rate will be determined by the factor nearest to its minimal value"
+    ], correct: 3,
   explanation: "NCERT states: 'If a chemical process is affected by more than one factor, then its rate will be determined by the factor which is nearest to its minimal value: it is the factor which directly affects the process if its quantity is changed.'"
 },
 {
@@ -6864,12 +6531,11 @@ var allQuestions = [
   topic: "Factors Affecting Photosynthesis",
   q: "According to the law of limiting factors, if a plant has optimal light and CO₂ but very low temperature, photosynthesis will:",
   options: [
-    "Proceed normally",
-    "Not occur because temperature is the limiting factor",
-    "Increase due to excess light",
-    "Produce more O₂ than usual"
-  ],
-  correct: 1,
+      "Proceed normally",
+      "Increase due to excess light",
+      "Not occur because temperature is the limiting factor",
+      "Produce more O₂ than usual"
+    ], correct: 2,
   explanation: "NCERT gives this exact example: 'despite the presence of a green leaf and optimal light and CO₂ conditions, the plant may not photosynthesise if the temperature is very low.' Temperature becomes the limiting factor."
 },
 {
@@ -6890,12 +6556,11 @@ var allQuestions = [
   topic: "Factors Affecting Photosynthesis",
   q: "While discussing light as a factor affecting photosynthesis, we need to distinguish between:",
   options: [
-    "Light colour and light temperature",
-    "Light quality, light intensity and duration of exposure to light",
-    "Light wavelength and light frequency only",
-    "Artificial light and natural light only"
-  ],
-  correct: 1,
+      "Light colour and light temperature",
+      "Artificial light and natural light only",
+      "Light wavelength and light frequency only",
+      "Light quality, light intensity and duration of exposure to light"
+    ], correct: 3,
   explanation: "NCERT states: 'We need to distinguish between light quality, light intensity and the duration of exposure to light, while discussing light as a factor that affects photosynthesis.'"
 },
 {
@@ -6929,12 +6594,11 @@ var allQuestions = [
   topic: "Factors Affecting Photosynthesis",
   q: "Light saturation occurs at what percentage of full sunlight?",
   options: [
-    "1 per cent",
-    "5 per cent",
-    "10 per cent",
-    "50 per cent"
-  ],
-  correct: 2,
+      "1 per cent",
+      "5 per cent",
+      "50 per cent",
+      "10 per cent"
+    ], correct: 3,
   explanation: "NCERT states: 'light saturation occurs at 10 per cent of the full sunlight.' Beyond this, increasing light does not increase photosynthesis rate. This is a frequently asked factual point."
 },
 {
@@ -6955,12 +6619,11 @@ var allQuestions = [
   topic: "Factors Affecting Photosynthesis",
   q: "For which types of plants might light be a limiting factor?",
   options: [
-    "Desert plants",
-    "Plants in shade or dense forests",
-    "Aquatic surface plants",
-    "Tropical grassland plants"
-  ],
-  correct: 1,
+      "Desert plants",
+      "Aquatic surface plants",
+      "Plants in shade or dense forests",
+      "Tropical grassland plants"
+    ], correct: 2,
   explanation: "NCERT states: 'except for plants in shade or in dense forests, light is rarely a limiting factor.' Under the canopy of dense forests, insufficient light may reach the lower plants."
 },
 {
@@ -6968,12 +6631,11 @@ var allQuestions = [
   topic: "Factors Affecting Photosynthesis",
   q: "Increase in incident light beyond a saturation point causes:",
   options: [
-    "Further increase in photosynthesis",
-    "No effect at all",
-    "Breakdown of chlorophyll and a decrease in photosynthesis",
-    "Increased water absorption"
-  ],
-  correct: 2,
+      "Further increase in photosynthesis",
+      "No effect at all",
+      "Increased water absorption",
+      "Breakdown of chlorophyll and a decrease in photosynthesis"
+    ], correct: 3,
   explanation: "NCERT states: 'Increase in incident light beyond a point causes the breakdown of chlorophyll and a decrease in photosynthesis.' This is called photo-inhibition or solarisation."
 },
 {
@@ -6994,12 +6656,11 @@ var allQuestions = [
   topic: "Factors Affecting Photosynthesis",
   q: "The major limiting factor for photosynthesis is:",
   options: [
-    "Light",
-    "Temperature",
-    "Carbon dioxide",
-    "Water"
-  ],
-  correct: 2,
+      "Light",
+      "Carbon dioxide",
+      "Temperature",
+      "Water"
+    ], correct: 1,
   explanation: "NCERT states: 'Carbon dioxide is the major limiting factor for photosynthesis.' This is because atmospheric CO₂ concentration is very low (0.03–0.04%)."
 },
 {
@@ -7007,12 +6668,11 @@ var allQuestions = [
   topic: "Factors Affecting Photosynthesis",
   q: "The concentration of CO₂ in the atmosphere is:",
   options: [
-    "Between 0.3 and 0.4 per cent",
-    "Between 0.03 and 0.04 per cent",
-    "Between 3 and 4 per cent",
-    "Between 0.003 and 0.004 per cent"
-  ],
-  correct: 1,
+      "Between 0.3 and 0.4 per cent",
+      "Between 3 and 4 per cent",
+      "Between 0.03 and 0.04 per cent",
+      "Between 0.003 and 0.004 per cent"
+    ], correct: 2,
   explanation: "NCERT states: 'The concentration of CO₂ is very low in the atmosphere (between 0.03 and 0.04 per cent).' This low concentration makes CO₂ the primary limiting factor."
 },
 {
@@ -7020,12 +6680,11 @@ var allQuestions = [
   topic: "Factors Affecting Photosynthesis",
   q: "Increase in CO₂ concentration upto _______ can increase CO₂ fixation rates:",
   options: [
-    "0.01 per cent",
-    "0.03 per cent",
-    "0.05 per cent",
-    "0.1 per cent"
-  ],
-  correct: 2,
+      "0.01 per cent",
+      "0.03 per cent",
+      "0.1 per cent",
+      "0.05 per cent"
+    ], correct: 3,
   explanation: "NCERT states: 'Increase in concentration upto 0.05 per cent can cause an increase in CO₂ fixation rates; beyond this the levels can become damaging over longer periods.'"
 },
 {
@@ -7033,12 +6692,11 @@ var allQuestions = [
   topic: "Factors Affecting Photosynthesis",
   q: "CO₂ concentration beyond 0.05 per cent can be:",
   options: [
-    "Beneficial for all plants",
-    "Neutral with no effect",
-    "Damaging over longer periods",
-    "Required for optimal photosynthesis"
-  ],
-  correct: 2,
+      "Beneficial for all plants",
+      "Damaging over longer periods",
+      "Neutral with no effect",
+      "Required for optimal photosynthesis"
+    ], correct: 1,
   explanation: "NCERT states: 'beyond this the levels can become damaging over longer periods.' Excessively high CO₂ can have toxic effects on plant metabolism."
 },
 {
@@ -7046,12 +6704,11 @@ var allQuestions = [
   topic: "Factors Affecting Photosynthesis",
   q: "At low light conditions, how do C₃ and C₄ plants respond to high CO₂?",
   options: [
-    "Both show increased photosynthesis",
-    "Neither group responds to high CO₂ conditions",
-    "Only C₄ plants respond",
-    "Only C₃ plants respond"
-  ],
-  correct: 1,
+      "Both show increased photosynthesis",
+      "Only C₄ plants respond",
+      "Neither group responds to high CO₂ conditions",
+      "Only C₃ plants respond"
+    ], correct: 2,
   explanation: "NCERT states: 'At low light conditions neither group responds to high CO₂ conditions.' Light becomes the limiting factor, so increasing CO₂ has no effect."
 },
 {
@@ -7059,12 +6716,11 @@ var allQuestions = [
   topic: "Factors Affecting Photosynthesis",
   q: "At high light intensities:",
   options: [
-    "Neither C₃ nor C₄ plants respond to increased CO₂",
-    "Both C₃ and C₄ plants show increase in rates of photosynthesis with increasing CO₂",
-    "Only C₃ plants show increased photosynthesis",
-    "Only C₄ plants show increased photosynthesis"
-  ],
-  correct: 1,
+      "Neither C₃ nor C₄ plants respond to increased CO₂",
+      "Only C₄ plants show increased photosynthesis",
+      "Only C₃ plants show increased photosynthesis",
+      "Both C₃ and C₄ plants show increase in rates of photosynthesis with increasing CO₂"
+    ], correct: 3,
   explanation: "NCERT states: 'At high light intensities, both C₃ and C₄ plants show increase in the rates of photosynthesis.' However, they reach saturation at different CO₂ concentrations."
 },
 {
@@ -7098,12 +6754,11 @@ var allQuestions = [
   topic: "Factors Affecting Photosynthesis",
   q: "Current availability of CO₂ levels is limiting to:",
   options: [
-    "C₄ plants",
-    "C₃ plants",
-    "Both equally",
-    "Neither C₃ nor C₄"
-  ],
-  correct: 1,
+      "C₄ plants",
+      "Neither C₃ nor C₄",
+      "Both equally",
+      "C₃ plants"
+    ], correct: 3,
   explanation: "NCERT states: 'current availability of CO₂ levels is limiting to the C₃ plants.' C₄ plants saturate at ~360 µlL⁻¹ (close to current atmospheric CO₂), while C₃ plants can benefit from more CO₂."
 },
 {
@@ -7137,12 +6792,11 @@ var allQuestions = [
   topic: "Factors Affecting Photosynthesis",
   q: "Which of the following greenhouse crops are grown in CO₂-enriched atmosphere?",
   options: [
-    "Rice and wheat",
-    "Tomatoes and bell pepper",
-    "Maize and sorghum",
-    "Sugarcane and millet"
-  ],
-  correct: 1,
+      "Rice and wheat",
+      "Maize and sorghum",
+      "Tomatoes and bell pepper",
+      "Sugarcane and millet"
+    ], correct: 2,
   explanation: "NCERT mentions: 'some greenhouse crops such as tomatoes and bell pepper.' Maize and sorghum are C₄ plants grown in open fields, not typically in CO₂-enriched greenhouses."
 },
 {
@@ -7150,12 +6804,11 @@ var allQuestions = [
   topic: "Factors Affecting Photosynthesis",
   q: "The dark reactions are controlled primarily by:",
   options: [
-    "Light quality",
-    "Light intensity",
-    "Temperature (being enzymatic)",
-    "Water availability"
-  ],
-  correct: 2,
+      "Light quality",
+      "Light intensity",
+      "Water availability",
+      "Temperature (being enzymatic)"
+    ], correct: 3,
   explanation: "NCERT states: 'The dark reactions being enzymatic are temperature controlled.' Enzymes are sensitive to temperature changes, affecting reaction rates."
 },
 {
@@ -7176,12 +6829,11 @@ var allQuestions = [
   topic: "Factors Affecting Photosynthesis",
   q: "Which group of plants responds better to higher temperatures?",
   options: [
-    "C₃ plants",
-    "C₄ plants",
-    "Both respond equally",
-    "Neither responds to temperature"
-  ],
-  correct: 1,
+      "C₃ plants",
+      "Both respond equally",
+      "C₄ plants",
+      "Neither responds to temperature"
+    ], correct: 2,
   explanation: "NCERT states: 'The C₄ plants respond to higher temperatures and show higher rate of photosynthesis while C₃ plants have a much lower temperature optimum.'"
 },
 {
@@ -7202,12 +6854,11 @@ var allQuestions = [
   topic: "Factors Affecting Photosynthesis",
   q: "The temperature optimum for photosynthesis depends on:",
   options: [
-    "Only the species of plant",
-    "Only the latitude",
-    "The habitat that the plants are adapted to",
-    "Only the altitude"
-  ],
-  correct: 2,
+      "Only the species of plant",
+      "Only the latitude",
+      "Only the altitude",
+      "The habitat that the plants are adapted to"
+    ], correct: 3,
   explanation: "NCERT states: 'The temperature optimum for photosynthesis of different plants also depends on the habitat that they are adapted to.' Plants adapt to their local thermal environment."
 },
 {
@@ -7215,12 +6866,11 @@ var allQuestions = [
   topic: "Factors Affecting Photosynthesis",
   q: "Tropical plants have _______ temperature optimum compared to temperate plants.",
   options: [
-    "A lower",
-    "The same",
-    "A higher",
-    "A fluctuating"
-  ],
-  correct: 2,
+      "A lower",
+      "A higher",
+      "The same",
+      "A fluctuating"
+    ], correct: 1,
   explanation: "NCERT states: 'Tropical plants have a higher temperature optimum than the plants adapted to temperate climates.' This is because tropical plants are adapted to warmer conditions."
 },
 {
@@ -7228,12 +6878,11 @@ var allQuestions = [
   topic: "Factors Affecting Photosynthesis",
   q: "The effect of water on photosynthesis is primarily:",
   options: [
-    "As a direct reactant in dark reactions",
-    "Through its effect on the plant (indirect) rather than directly on photosynthesis",
-    "Through increasing temperature",
-    "Through producing O₂ in excess"
-  ],
-  correct: 1,
+      "As a direct reactant in dark reactions",
+      "Through increasing temperature",
+      "Through its effect on the plant (indirect) rather than directly on photosynthesis",
+      "Through producing O₂ in excess"
+    ], correct: 2,
   explanation: "NCERT states: 'Even though water is one of the reactants in the light reaction, the effect of water as a factor is more through its effect on the plant, rather than directly on photosynthesis.'"
 },
 {
@@ -7241,12 +6890,11 @@ var allQuestions = [
   topic: "Factors Affecting Photosynthesis",
   q: "Water stress affects photosynthesis by:<br>(i) Causing stomata to close, reducing CO₂ availability<br>(ii) Making leaves wilt, reducing leaf surface area<br>(iii) Reducing metabolic activity of leaves<br>(iv) Directly increasing O₂ concentration",
   options: [
-    "(i), (ii) and (iii) only",
-    "(i) and (ii) only",
-    "(i), (ii), (iii) and (iv)",
-    "(iv) only"
-  ],
-  correct: 0,
+      "(iv) only",
+      "(i) and (ii) only",
+      "(i), (ii), (iii) and (iv)",
+      "(i), (ii) and (iii) only"
+    ], correct: 3,
   explanation: "NCERT states: 'Water stress causes the stomata to close hence reducing the CO₂ availability. Besides, water stress also makes leaves wilt, thus, reducing the surface area of the leaves and their metabolic activity as well.' Statement (iv) is not mentioned."
 },
 {
@@ -7293,12 +6941,11 @@ var allQuestions = [
   topic: "Factors Affecting Photosynthesis",
   q: "Which of the following is <b>NOT</b> an external factor affecting photosynthesis?",
   options: [
-    "Sunlight availability",
-    "Temperature",
-    "Amount of chlorophyll",
-    "CO₂ concentration"
-  ],
-  correct: 2,
+      "Sunlight availability",
+      "Temperature",
+      "CO₂ concentration",
+      "Amount of chlorophyll"
+    ], correct: 3,
   explanation: "Amount of chlorophyll is an internal (plant) factor. External factors include: 'the availability of sunlight, temperature, CO₂ concentration and water.'"
 },
 {
@@ -7306,12 +6953,11 @@ var allQuestions = [
   topic: "Factors Affecting Photosynthesis",
   q: "Consider the following statements about C₃ and C₄ plants' response to CO₂:<br>(A) At low light, neither C₃ nor C₄ responds to high CO₂<br>(B) At high light, both respond to increased CO₂<br>(C) C₄ plants saturate at a lower CO₂ concentration than C₃ plants<br>(D) C₃ plants saturate at a lower CO₂ concentration than C₄ plants",
   options: [
-    "(A), (B) and (C) only",
-    "(A), (B) and (D) only",
-    "(A) and (B) only",
-    "(A), (B), (C) and (D)"
-  ],
-  correct: 0,
+      "(A), (B) and (D) only",
+      "(A), (B) and (C) only",
+      "(A) and (B) only",
+      "(A), (B), (C) and (D)"
+    ], correct: 1,
   explanation: "A, B, and C are correct. D is wrong — C₄ plants saturate at ~360 µlL⁻¹ (lower), while C₃ plants saturate beyond 450 µlL⁻¹ (higher). C₃ plants continue to respond to higher CO₂."
 },
 {
@@ -7319,12 +6965,11 @@ var allQuestions = [
   topic: "Factors Affecting Photosynthesis",
   q: "The graph of light intensity vs. rate of photosynthesis shows:",
   options: [
-    "A straight line throughout",
-    "Linear increase at low intensities, then a plateau at higher intensities",
-    "An exponential curve throughout",
-    "A decrease throughout"
-  ],
-  correct: 1,
+      "A straight line throughout",
+      "An exponential curve throughout",
+      "Linear increase at low intensities, then a plateau at higher intensities",
+      "A decrease throughout"
+    ], correct: 2,
   explanation: "NCERT describes: 'a linear relationship between incident light and CO₂ fixation rates at low light intensities. At higher light intensities, gradually the rate does not show further increase.' This gives a linear rise followed by a plateau."
 },
 {
@@ -7332,12 +6977,11 @@ var allQuestions = [
   topic: "Factors Affecting Photosynthesis",
   q: "Match the factor with its key effect on photosynthesis:<br>(i) Light — (P) Major limiting factor; atmospheric levels very low<br>(ii) CO₂ — (Q) Controls dark reactions primarily<br>(iii) Temperature — (R) Rarely limiting; saturation at 10% of full sunlight<br>(iv) Water — (S) Indirect effect through stomatal closure and wilting",
   options: [
-    "(i)-R, (ii)-P, (iii)-Q, (iv)-S",
-    "(i)-P, (ii)-R, (iii)-S, (iv)-Q",
-    "(i)-Q, (ii)-S, (iii)-P, (iv)-R",
-    "(i)-S, (ii)-Q, (iii)-R, (iv)-P"
-  ],
-  correct: 0,
+      "(i)-S, (ii)-Q, (iii)-R, (iv)-P",
+      "(i)-P, (ii)-R, (iii)-S, (iv)-Q",
+      "(i)-Q, (ii)-S, (iii)-P, (iv)-R",
+      "(i)-R, (ii)-P, (iii)-Q, (iv)-S"
+    ], correct: 3,
   explanation: "Light — Rarely limiting (R); CO₂ — Major limiting factor (P); Temperature — Controls dark reactions (Q); Water — Indirect effect (S). All from NCERT."
 },
 {
@@ -7384,12 +7028,11 @@ var allQuestions = [
   topic: "Factors Affecting Photosynthesis",
   q: "Which of the following correctly describes the effect of light on photosynthesis?<br>(i) Linear increase at low intensities<br>(ii) Plateau at higher intensities<br>(iii) Saturation at 10% of full sunlight<br>(iv) Chlorophyll breakdown at very high intensities",
   options: [
-    "(i) and (ii) only",
-    "(i), (ii) and (iii) only",
-    "(i), (ii), (iii) and (iv)",
-    "(iii) and (iv) only"
-  ],
-  correct: 2,
+      "(i) and (ii) only",
+      "(i), (ii) and (iii) only",
+      "(iii) and (iv) only",
+      "(i), (ii), (iii) and (iv)"
+    ], correct: 3,
   explanation: "All four are correct as per NCERT. At low light: linear increase. At higher light: plateau (other factors become limiting). Saturation at 10% sunlight. Very high light: chlorophyll breakdown and decreased photosynthesis."
 },
 {
@@ -7397,12 +7040,11 @@ var allQuestions = [
   topic: "Factors Affecting Photosynthesis",
   q: "At low light conditions, increasing CO₂ concentration for C₃ and C₄ plants will:",
   options: [
-    "Increase photosynthesis in both",
-    "Increase photosynthesis only in C₃",
-    "Increase photosynthesis only in C₄",
-    "Not increase photosynthesis in either"
-  ],
-  correct: 3,
+      "Increase photosynthesis in both",
+      "Not increase photosynthesis in either",
+      "Increase photosynthesis only in C₄",
+      "Increase photosynthesis only in C₃"
+    ], correct: 1,
   explanation: "NCERT states: 'At low light conditions neither group responds to high CO₂ conditions.' Light is the limiting factor at low intensities, so increasing CO₂ has no effect."
 },
 {
@@ -7410,12 +7052,11 @@ var allQuestions = [
   topic: "Factors Affecting Photosynthesis",
   q: "Select the <b>incorrect</b> statement about factors affecting photosynthesis:",
   options: [
-    "CO₂ is the major limiting factor for photosynthesis",
-    "Light is always the major limiting factor in nature",
-    "Dark reactions are more temperature-sensitive than light reactions",
-    "Water stress indirectly affects photosynthesis"
-  ],
-  correct: 1,
+      "CO₂ is the major limiting factor for photosynthesis",
+      "Dark reactions are more temperature-sensitive than light reactions",
+      "Light is always the major limiting factor in nature",
+      "Water stress indirectly affects photosynthesis"
+    ], correct: 2,
   explanation: "NCERT states: 'except for plants in shade or in dense forests, light is rarely a limiting factor in nature.' Saying light is ALWAYS the major limiting factor is incorrect. CO₂ is the major limiting factor."
 },
 {
@@ -7423,12 +7064,11 @@ var allQuestions = [
   topic: "Factors Affecting Photosynthesis",
   q: "Water stress reduces photosynthesis through:<br>(i) Stomatal closure → reduced CO₂<br>(ii) Leaf wilting → reduced leaf surface area<br>(iii) Reduced metabolic activity<br><br>How many of the above mechanisms are mentioned in NCERT?",
   options: [
-    "One",
-    "Two",
-    "Three",
-    "None"
-  ],
-  correct: 2,
+      "One",
+      "Two",
+      "None",
+      "Three"
+    ], correct: 3,
   explanation: "All three are mentioned: 'Water stress causes the stomata to close hence reducing the CO₂ availability. Besides, water stress also makes leaves wilt, thus, reducing the surface area of the leaves and their metabolic activity as well.'"
 },
 {
@@ -7462,12 +7102,11 @@ var allQuestions = [
   topic: "Factors Affecting Photosynthesis",
   q: "Which set of reactions in photosynthesis is more affected by temperature changes?",
   options: [
-    "Light reactions",
-    "Dark reactions",
-    "Both equally",
-    "Neither is affected"
-  ],
-  correct: 1,
+      "Light reactions",
+      "Both equally",
+      "Dark reactions",
+      "Neither is affected"
+    ], correct: 2,
   explanation: "NCERT states: 'The dark reactions being enzymatic are temperature controlled. Though the light reactions are also temperature sensitive they are affected to a much lesser extent.'"
 },
 {
@@ -7475,12 +7114,11 @@ var allQuestions = [
   topic: "Factors Affecting Photosynthesis",
   q: "A plant is placed in an environment with optimal temperature, optimal water, and optimal CO₂, but in complete darkness. According to Blackman's Law:",
   options: [
-    "Photosynthesis will occur normally",
-    "Light is the limiting factor and photosynthesis will not occur",
-    "CO₂ will become the limiting factor",
-    "Temperature will become the limiting factor"
-  ],
-  correct: 1,
+      "Photosynthesis will occur normally",
+      "Temperature will become the limiting factor",
+      "CO₂ will become the limiting factor",
+      "Light is the limiting factor and photosynthesis will not occur"
+    ], correct: 3,
   explanation: "Without light, no photosynthesis can occur regardless of other optimal conditions. Light becomes the limiting factor as per Blackman's Law — the factor at minimal value determines the rate."
 },
 {
@@ -7501,12 +7139,11 @@ var allQuestions = [
   topic: "Factors Affecting Photosynthesis",
   q: "Light quality refers to:",
   options: [
-    "The intensity of light",
-    "The wavelength (colour) composition of light",
-    "The duration of light exposure",
-    "The source of light"
-  ],
-  correct: 1,
+      "The intensity of light",
+      "The duration of light exposure",
+      "The wavelength (colour) composition of light",
+      "The source of light"
+    ], correct: 2,
   explanation: "Light quality refers to the spectral composition (wavelength/colour) of light. Different wavelengths (blue, red, green, etc.) have different effects on photosynthesis. Light intensity is the brightness, and duration is the photoperiod."
 },
 {
@@ -7514,12 +7151,11 @@ var allQuestions = [
   topic: "Factors Affecting Photosynthesis",
   q: "Consider the following:<br>(A) Internal factors: genetic, structural (leaves, chloroplasts), biochemical (chlorophyll, CO₂)<br>(B) External factors: light, temperature, CO₂, water<br>(C) Usually one factor limits the rate at any time<br>(D) All factors have equal effect at all times<br><br>Which are correct?",
   options: [
-    "(A), (B) and (C) only",
-    "(A), (B), (C) and (D)",
-    "(A) and (B) only",
-    "(D) only"
-  ],
-  correct: 0,
+      "(D) only",
+      "(A), (B), (C) and (D)",
+      "(A) and (B) only",
+      "(A), (B) and (C) only"
+    ], correct: 3,
   explanation: "A, B, and C are correct per NCERT. D is wrong — Blackman's Law says one factor (the limiting one) determines the rate, not that all factors have equal effect at all times."
 },
 {
@@ -7554,12 +7190,11 @@ var allQuestions = [
   topic: "Summary",
   q: "Green plants make their own food by photosynthesis. During this process, CO₂ from the atmosphere is taken in by leaves through:",
   options: [
-    "Lenticels",
-    "Stomata",
-    "Root hairs",
-    "Cuticle"
-  ],
-  correct: 1,
+      "Lenticels",
+      "Root hairs",
+      "Stomata",
+      "Cuticle"
+    ], correct: 2,
   explanation: "NCERT summary states: 'carbon dioxide from the atmosphere is taken in by leaves through stomata.' Stomata are the primary entry points for CO₂ in leaves."
 },
 {
@@ -7567,12 +7202,11 @@ var allQuestions = [
   topic: "Summary",
   q: "The carbohydrates principally made during photosynthesis are:",
   options: [
-    "Sucrose and fructose",
-    "Glucose and starch",
-    "Cellulose and maltose",
-    "Glycogen and lactose"
-  ],
-  correct: 1,
+      "Sucrose and fructose",
+      "Glycogen and lactose",
+      "Cellulose and maltose",
+      "Glucose and starch"
+    ], correct: 3,
   explanation: "NCERT summary states CO₂ is 'used for making carbohydrates, principally glucose and starch.' Glucose is the immediate product; starch is the storage form."
 },
 {
@@ -7580,12 +7214,11 @@ var allQuestions = [
   topic: "Summary",
   q: "Photosynthesis takes place in:",
   options: [
-    "All parts of the plant equally",
-    "Only in the roots",
-    "Only in the green parts of the plants, mainly the leaves",
-    "Only in the flowers"
-  ],
-  correct: 2,
+      "All parts of the plant equally",
+      "Only in the green parts of the plants, mainly the leaves",
+      "Only in the roots",
+      "Only in the flowers"
+    ], correct: 1,
   explanation: "NCERT summary states: 'Photosynthesis takes place only in the green parts of the plants, mainly the leaves.' Other green parts like stems can also photosynthesize."
 },
 {
@@ -7606,12 +7239,11 @@ var allQuestions = [
   topic: "Summary",
   q: "Within the chloroplasts:<br>(A) Membranes are sites for light reactions<br>(B) Stroma is the site for the carbon fixing pathway<br>(C) Membranes are sites for the Calvin cycle<br>(D) Stroma is the site for light reactions",
   options: [
-    "(A) and (B) only",
-    "(C) and (D) only",
-    "(A), (B), (C) and (D)",
-    "(A) only"
-  ],
-  correct: 0,
+      "(A) only",
+      "(C) and (D) only",
+      "(A), (B), (C) and (D)",
+      "(A) and (B) only"
+    ], correct: 3,
   explanation: "NCERT summary states: 'the membranes are sites for the light reaction, while the chemosynthetic pathway occurs in the stroma.' Statements C and D reverse the locations and are incorrect."
 },
 {
@@ -7632,12 +7264,11 @@ var allQuestions = [
   topic: "Summary",
   q: "In the light reaction, light energy is absorbed by pigments in the antenna and funnelled to:",
   options: [
-    "All chlorophyll molecules equally",
-    "Special chlorophyll a molecules called reaction centre chlorophylls",
-    "Carotenoids at the reaction centre",
-    "Chlorophyll b at the reaction centre"
-  ],
-  correct: 1,
+      "All chlorophyll molecules equally",
+      "Carotenoids at the reaction centre",
+      "Special chlorophyll a molecules called reaction centre chlorophylls",
+      "Chlorophyll b at the reaction centre"
+    ], correct: 2,
   explanation: "NCERT summary states: 'the light energy is absorbed by the pigments present in the antenna, and funnelled to special chlorophyll a molecules called reaction centre chlorophylls.'"
 },
 {
@@ -7645,12 +7276,11 @@ var allQuestions = [
   topic: "Summary",
   q: "PS I has a reaction centre that absorbs at:",
   options: [
-    "680 nm",
-    "700 nm",
-    "430 nm",
-    "660 nm"
-  ],
-  correct: 1,
+      "680 nm",
+      "660 nm",
+      "430 nm",
+      "700 nm"
+    ], correct: 3,
   explanation: "NCERT summary states: 'PS I has a 700 nm absorbing chlorophyll a P700 molecule at its reaction centre.'"
 },
 {
@@ -7658,12 +7288,11 @@ var allQuestions = [
   topic: "Summary",
   q: "PS II has a reaction centre that absorbs red light at:",
   options: [
-    "700 nm",
-    "730 nm",
-    "680 nm",
-    "640 nm"
-  ],
-  correct: 2,
+      "700 nm",
+      "680 nm",
+      "730 nm",
+      "640 nm"
+    ], correct: 1,
   explanation: "NCERT summary states: 'PS II has a P680 reaction centre that absorbs red light at 680 nm.'"
 },
 {
@@ -7671,12 +7300,11 @@ var allQuestions = [
   topic: "Summary",
   q: "The NCERT summary states that electrons are 'finally transferred to NAD forming NADH.' Identify the error:",
   options: [
-    "There is no error — NAD and NADH are correct",
-    "It should be NADP⁺ forming NADPH (not NAD forming NADH)",
-    "It should be FAD forming FADH₂",
-    "Electrons are not transferred at all"
-  ],
-  correct: 1,
+      "There is no error — NAD and NADH are correct",
+      "Electrons are not transferred at all",
+      "It should be FAD forming FADH₂",
+      "It should be NADP⁺ forming NADPH (not NAD forming NADH)"
+    ], correct: 3,
   explanation: "This is a known error in the NCERT summary. The correct statement should be: electrons are finally transferred to NADP⁺ forming NADPH + H⁺. NAD⁺/NADH are involved in respiration, not photosynthesis. NEET may test awareness of this distinction."
 },
 {
@@ -7684,12 +7312,11 @@ var allQuestions = [
   topic: "Summary",
   q: "During the light reaction, a proton gradient is created across:",
   options: [
-    "The outer membrane of the chloroplast",
-    "The plasma membrane",
-    "The membrane of the thylakoid",
-    "The nuclear membrane"
-  ],
-  correct: 2,
+      "The outer membrane of the chloroplast",
+      "The membrane of the thylakoid",
+      "The plasma membrane",
+      "The nuclear membrane"
+    ], correct: 1,
   explanation: "NCERT summary states: 'a proton gradient is created across the membrane of the thylakoid.' This gradient drives ATP synthesis via chemiosmosis."
 },
 {
@@ -7697,12 +7324,11 @@ var allQuestions = [
   topic: "Summary",
   q: "The NCERT summary mentions 'F₀ part of the ATPase enzyme.' In the context of chloroplasts, the more accurate terminology would be:",
   options: [
-    "F₀ is correct for chloroplasts",
-    "CF₀ (C for chloroplast)",
-    "EF₀ (E for eukaryote)",
-    "MF₀ (M for membrane)"
-  ],
-  correct: 1,
+      "F₀ is correct for chloroplasts",
+      "MF₀ (M for membrane)",
+      "EF₀ (E for eukaryote)",
+      "CF₀ (C for chloroplast)"
+    ], correct: 3,
   explanation: "In the detailed text, NCERT uses CF₀ and CF₁ for chloroplast ATP synthase. The summary uses 'F₀' which is mitochondrial terminology. The correct notation for chloroplasts is CF₀. NEET students should know both terminologies."
 },
 {
@@ -7723,12 +7349,11 @@ var allQuestions = [
   topic: "Summary",
   q: "Splitting of water molecules is associated with:",
   options: [
-    "PS I",
-    "PS II",
-    "Both PS I and PS II equally",
-    "The stroma"
-  ],
-  correct: 1,
+      "PS I",
+      "The stroma",
+      "Both PS I and PS II equally",
+      "PS II"
+    ], correct: 3,
   explanation: "NCERT summary states: 'Splitting of water molecules is associated with PS II resulting in the release of O₂, protons and transfer of electrons to PS II.'"
 },
 {
@@ -7749,12 +7374,11 @@ var allQuestions = [
   topic: "Summary",
   q: "In the carbon fixation cycle, CO₂ is added by which enzyme to which molecule?",
   options: [
-    "PEPcase to PEP",
-    "RuBisCO to RuBP",
-    "RuBisCO to PGA",
-    "PEPcase to RuBP"
-  ],
-  correct: 1,
+      "PEPcase to PEP",
+      "PEPcase to RuBP",
+      "RuBisCO to PGA",
+      "RuBisCO to RuBP"
+    ], correct: 3,
   explanation: "NCERT summary states: 'CO₂ is added by the enzyme, RuBisCO, to a 5-carbon compound RuBP.' This is the carboxylation step of the Calvin cycle."
 },
 {
@@ -7775,12 +7399,11 @@ var allQuestions = [
   topic: "Summary",
   q: "PGA is then converted to sugar by:",
   options: [
-    "The light reactions",
-    "The Calvin cycle",
-    "Glycolysis",
-    "The Krebs cycle"
-  ],
-  correct: 1,
+      "The light reactions",
+      "The Krebs cycle",
+      "Glycolysis",
+      "The Calvin cycle"
+    ], correct: 3,
   explanation: "NCERT summary states: 'This is then converted to sugar by the Calvin cycle, and the RuBP is regenerated.' The Calvin cycle includes the reduction and regeneration steps."
 },
 {
@@ -7801,12 +7424,11 @@ var allQuestions = [
   topic: "Summary",
   q: "RuBisCO also catalyses a wasteful oxygenation reaction in C₃ plants called:",
   options: [
-    "Fermentation",
-    "Cellular respiration",
-    "Photorespiration",
-    "Chemiosmosis"
-  ],
-  correct: 2,
+      "Fermentation",
+      "Cellular respiration",
+      "Chemiosmosis",
+      "Photorespiration"
+    ], correct: 3,
   explanation: "NCERT summary states: 'RuBisCO also catalyses a wasteful oxygenation reaction in C₃ plants: photorespiration.' This reduces the efficiency of photosynthesis in C₃ plants."
 },
 {
@@ -7814,12 +7436,11 @@ var allQuestions = [
   topic: "Summary",
   q: "Some tropical plants show a special type of photosynthesis called:",
   options: [
-    "CAM pathway",
-    "C₃ pathway",
-    "C₄ pathway",
-    "Photorespiration"
-  ],
-  correct: 2,
+      "CAM pathway",
+      "C₄ pathway",
+      "C₃ pathway",
+      "Photorespiration"
+    ], correct: 1,
   explanation: "NCERT summary states: 'Some tropical plants show a special type of photosynthesis called C₄ pathway.'"
 },
 {
@@ -7827,12 +7448,11 @@ var allQuestions = [
   topic: "Summary",
   q: "In C₄ plants, the first product of CO₂ fixation in the mesophyll is:",
   options: [
-    "A 3-carbon compound (PGA)",
-    "A 4-carbon compound",
-    "A 5-carbon compound (RuBP)",
-    "A 6-carbon compound (glucose)"
-  ],
-  correct: 1,
+      "A 3-carbon compound (PGA)",
+      "A 6-carbon compound (glucose)",
+      "A 5-carbon compound (RuBP)",
+      "A 4-carbon compound"
+    ], correct: 3,
   explanation: "NCERT summary states: 'the first product of CO₂ fixation that takes place in the mesophyll, is a 4-carbon compound.' This is OAA (oxaloacetic acid)."
 },
 {
@@ -7866,12 +7486,11 @@ var allQuestions = [
   topic: "Summary",
   q: "Consider the complete process of photosynthesis. The correct sequence of major events is:",
   options: [
-    "Carbon fixation → Light absorption → Water splitting → Sugar synthesis",
-    "Light absorption → Water splitting → Electron transport → NADPH + ATP formation → Carbon fixation → Sugar synthesis",
-    "Sugar synthesis → Light absorption → Carbon fixation → Water splitting",
-    "Water splitting → Carbon fixation → Light absorption → Sugar synthesis"
-  ],
-  correct: 1,
+      "Carbon fixation → Light absorption → Water splitting → Sugar synthesis",
+      "Water splitting → Carbon fixation → Light absorption → Sugar synthesis",
+      "Sugar synthesis → Light absorption → Carbon fixation → Water splitting",
+      "Light absorption → Water splitting → Electron transport → NADPH + ATP formation → Carbon fixation → Sugar synthesis"
+    ], correct: 3,
   explanation: "The correct sequence: Light is absorbed by antenna pigments → Water is split at PS II → Electrons are transported through the Z scheme → NADPH and ATP are formed → CO₂ is fixed and reduced to sugar in the Calvin cycle."
 },
 {
@@ -7944,12 +7563,11 @@ var allQuestions = [
   topic: "Summary",
   q: "Consider the following flow chart of photosynthesis:<br>Light energy → Antenna pigments → Reaction centre (Chl a) → Electron excitation → PS II & PS I → _____ → Proton gradient → ATP<br><br>What fills the blank?",
   options: [
-    "Glucose formation",
-    "CO₂ fixation",
-    "NADPH (NADP⁺ reduction)",
-    "Starch synthesis"
-  ],
-  correct: 2,
+      "Glucose formation",
+      "CO₂ fixation",
+      "Starch synthesis",
+      "NADPH (NADP⁺ reduction)"
+    ], correct: 3,
   explanation: "After electron transport through PS II and PS I, electrons reduce NADP⁺ to NADPH. The proton gradient formed during this process drives ATP synthesis. NADPH formation is the terminal event of the electron transport chain."
 },
 {
@@ -7970,12 +7588,11 @@ var allQuestions = [
   topic: "Summary",
   q: "Which of the following molecules is regenerated at the end of the Calvin cycle?",
   options: [
-    "PGA",
-    "OAA",
-    "RuBP",
-    "PEP"
-  ],
-  correct: 2,
+      "PGA",
+      "OAA",
+      "PEP",
+      "RuBP"
+    ], correct: 3,
   explanation: "NCERT summary states: PGA is 'converted to sugar by the Calvin cycle, and the RuBP is regenerated.' RuBP regeneration is essential for the cycle to continue."
 },
 {
@@ -8009,12 +7626,11 @@ var allQuestions = [
   topic: "Summary",
   q: "Consider the following about C₃ and C₄ plants:<br>(A) C₃: First product is PGA (3C)<br>(B) C₃: Calvin cycle in mesophyll cells<br>(C) C₄: First product is a 4C compound<br>(D) C₄: Calvin cycle in bundle sheath cells<br>(E) C₄: Photorespiration is significant<br><br>How many statements are correct?",
   options: [
-    "Three",
-    "Four",
-    "Five",
-    "Two"
-  ],
-  correct: 1,
+      "Three",
+      "Two",
+      "Five",
+      "Four"
+    ], correct: 3,
   explanation: "Statements A, B, C, and D are correct (four). Statement E is wrong — photorespiration does NOT occur significantly in C₄ plants. It is C₃ plants that show photorespiration."
 },
 {
@@ -8022,12 +7638,11 @@ var allQuestions = [
   topic: "Summary",
   q: "The electrons released from water splitting are transferred to:",
   options: [
-    "PS I directly",
-    "NADP⁺ directly",
-    "PS II",
-    "ATP synthase"
-  ],
-  correct: 2,
+      "PS I directly",
+      "PS II",
+      "NADP⁺ directly",
+      "ATP synthase"
+    ], correct: 1,
   explanation: "NCERT summary states water splitting results in 'transfer of electrons to PS II.' These electrons replace the ones lost by PS II when its reaction centre (P680) is excited by light."
 },
 {
@@ -8035,12 +7650,11 @@ var allQuestions = [
   topic: "Summary",
   q: "Which of the following represents the correct overall summary of photosynthesis?",
   options: [
-    "Light reaction: Light → ATP + NADPH + O₂; Dark reaction: CO₂ + ATP + NADPH → Sugar + RuBP regenerated",
-    "Light reaction: CO₂ → Sugar; Dark reaction: H₂O → O₂",
-    "Light reaction: CO₂ → ATP; Dark reaction: ATP → Sugar",
-    "Light reaction: Sugar → CO₂; Dark reaction: CO₂ → O₂"
-  ],
-  correct: 0,
+      "Light reaction: Sugar → CO₂; Dark reaction: CO₂ → O₂",
+      "Light reaction: CO₂ → Sugar; Dark reaction: H₂O → O₂",
+      "Light reaction: CO₂ → ATP; Dark reaction: ATP → Sugar",
+      "Light reaction: Light → ATP + NADPH + O₂; Dark reaction: CO₂ + ATP + NADPH → Sugar + RuBP regenerated"
+    ], correct: 3,
   explanation: "Light reactions convert light energy to chemical energy (ATP + NADPH) and release O₂ from water splitting. Dark reactions use ATP + NADPH to fix CO₂ into sugar via the Calvin cycle with RuBP regeneration."
 },
 {
@@ -8061,12 +7675,11 @@ var allQuestions = [
   topic: "Summary",
   q: "The NCERT summary uses the term 'chemosynthetic pathway' for the reactions occurring in the stroma. This term should not be confused with:",
   options: [
-    "Photosynthesis",
-    "Chemosynthesis carried out by certain bacteria using chemical energy",
-    "The Calvin cycle",
-    "Carbon fixation"
-  ],
-  correct: 1,
+      "Photosynthesis",
+      "Carbon fixation",
+      "The Calvin cycle",
+      "Chemosynthesis carried out by certain bacteria using chemical energy"
+    ], correct: 3,
   explanation: "Chemosynthesis by bacteria (using chemical energy from inorganic compounds) is fundamentally different from the Calvin cycle in chloroplasts (which uses ATP and NADPH from light reactions). The NCERT summary's use of 'chemosynthetic' may cause confusion."
 },
 {
@@ -8074,12 +7687,11 @@ var allQuestions = [
   topic: "Summary",
   q: "According to the NCERT summary, the complete process of photosynthesis involves:<br>(i) CO₂ uptake through stomata<br>(ii) Light absorption by antenna pigments<br>(iii) Electron transport through PS II and PS I<br>(iv) Proton gradient formation and ATP synthesis<br>(v) Water splitting at PS II<br>(vi) CO₂ fixation by RuBisCO<br>(vii) Sugar synthesis via Calvin cycle<br><br>How many of these are mentioned in the summary?",
   options: [
-    "Five",
-    "Six",
-    "Seven",
-    "Four"
-  ],
-  correct: 2,
+      "Five",
+      "Six",
+      "Four",
+      "Seven"
+    ], correct: 3,
   explanation: "All seven events are mentioned in the NCERT summary: stomatal CO₂ uptake, antenna light absorption, electron transport, proton gradient/ATP, water splitting at PS II, RuBisCO-catalysed CO₂ fixation, and Calvin cycle sugar synthesis."
 },
 {
@@ -8087,12 +7699,11 @@ var allQuestions = [
   topic: "Summary",
   q: "Identify how many errors exist in the following NCERT summary statement: 'After absorbing light, electrons are excited and transferred through PS II and PS I and finally to NAD forming NADH.'",
   options: [
-    "No errors",
-    "One error — NAD should be NADP⁺ and NADH should be NADPH",
-    "Two errors",
-    "Three errors"
-  ],
-  correct: 1,
+      "No errors",
+      "Three errors",
+      "Two errors",
+      "One error — NAD should be NADP⁺ and NADH should be NADPH"
+    ], correct: 3,
   explanation: "There is one conceptual error: 'NAD forming NADH' should be 'NADP⁺ forming NADPH.' In photosynthesis, NADP⁺ (not NAD⁺) is the electron acceptor, forming NADPH (not NADH). This is a well-known error in the NCERT summary."
 },
 {
@@ -8113,12 +7724,11 @@ var allQuestions = [
   topic: "Summary",
   q: "Which of the following best represents the relationship between light reactions and dark reactions?",
   options: [
-    "They are completely independent",
-    "Light reactions provide ATP and NADPH that are used by dark reactions for sugar synthesis",
-    "Dark reactions provide energy for light reactions",
-    "Both produce O₂"
-  ],
-  correct: 1,
+      "They are completely independent",
+      "Both produce O₂",
+      "Dark reactions provide energy for light reactions",
+      "Light reactions provide ATP and NADPH that are used by dark reactions for sugar synthesis"
+    ], correct: 3,
   explanation: "NCERT summary confirms: 'ATP and NADPH synthesised in the light reaction are utilised' during the Calvin cycle. Light reactions supply the energy currency; dark reactions use it for biosynthesis."
 },
 {

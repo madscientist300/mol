@@ -1,4 +1,4 @@
-// ===== CHAPTER: Microbes in Human Welfare =====
+﻿// ===== CHAPTER: Microbes in Human Welfare =====
 var allQuestions = [
   {
     "id": 1,
@@ -19,11 +19,10 @@ var allQuestions = [
     "q": "Which of the following is <b>NOT</b> listed as a type of microbe in NCERT?",
     "options": [
       "Viroids",
-      "Prions",
       "Lichens",
+      "Prions",
       "Protozoa"
-    ],
-    "correct": 2,
+    ], "correct": 1,
     "explanation": "NCERT lists protozoa, bacteria, fungi, microscopic viruses, viroids, and prions as microbes. Lichens (symbiotic association of algae/cyanobacteria and fungi) are NOT listed as microbes in this context."
   },
   {
@@ -45,11 +44,10 @@ var allQuestions = [
     "q": "Prions differ from viroids in being:",
     "options": [
       "Nucleic acid-based infectious agents",
-      "Proteinaceous infectious agents",
       "Cellular micro-organisms",
+      "Proteinaceous infectious agents",
       "Lipid-enclosed particles"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "Prions are proteinaceous infectious agents (lacking nucleic acid). Viroids are free RNA molecules without protein coat. This is a very frequently tested NEET distinction."
   },
   {
@@ -111,10 +109,9 @@ var allQuestions = [
     "options": [
       "Plantae",
       "Animalia",
-      "Monera",
-      "Fungi"
-    ],
-    "correct": 2,
+      "Fungi",
+      "Monera"
+    ], "correct": 3,
     "explanation": "Kingdom Monera (bacteria and cyanobacteria) are exclusively microscopic. Fungi includes both microscopic (yeasts, moulds) and macroscopic (mushrooms) forms. Plantae and Animalia have macroscopic members."
   },
   {
@@ -135,12 +132,11 @@ var allQuestions = [
     "topic": "Introduction",
     "q": "Read the following statements and select the <b>correct</b> option:<br>Statement I: Viruses are always microscopic.<br>Statement II: Fungi are always microscopic.",
     "options": [
-      "Both Statement I and II are correct",
       "Only Statement I is correct",
+      "Both Statement I and II are correct",
       "Only Statement II is correct",
       "Both Statement I and II are incorrect"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "Statement I is correct – viruses are always microscopic. Statement II is incorrect – fungi include macroscopic forms like mushrooms. NCERT lists 'microscopic animal and plant viruses' confirming their microscopic nature, while fungi range from microscopic to macroscopic."
   },
   {
@@ -163,10 +159,9 @@ var allQuestions = [
     "options": [
       "(i) and (ii) only",
       "(i), (ii) and (iii) only",
-      "(ii), (iii) and (iv) only",
-      "All – (i), (ii), (iii) and (iv)"
-    ],
-    "correct": 3,
+      "All – (i), (ii), (iii) and (iv)",
+      "(ii), (iii) and (iv) only"
+    ], "correct": 2,
     "explanation": "NCERT explicitly lists ALL four extreme environments as places where microbes are present even when no other life-form could exist. This is a complete list-based factual question."
   },
   {
@@ -176,10 +171,9 @@ var allQuestions = [
     "options": [
       "Viroid",
       "Virus",
-      "Prion",
-      "Mycoplasma"
-    ],
-    "correct": 2,
+      "Mycoplasma",
+      "Prion"
+    ], "correct": 3,
     "explanation": "Prions are proteinaceous infectious agents – they lack nucleic acid and cellular structure. Viroids are RNA without protein coat. Viruses have nucleic acid (DNA/RNA) with protein coat. Mycoplasma is the smallest cell (has both nucleic acid and cell membrane)."
   },
   {
@@ -187,12 +181,11 @@ var allQuestions = [
     "topic": "Introduction",
     "q": "The diversity of microbes includes all of the following <b>EXCEPT</b>:",
     "options": [
-      "Protozoa and bacteria",
+      "Bryophytes and pteridophytes",
       "Fungi and viruses",
       "Viroids and prions",
-      "Bryophytes and pteridophytes"
-    ],
-    "correct": 3,
+      "Protozoa and bacteria"
+    ], "correct": 0,
     "explanation": "Bryophytes and pteridophytes are macroscopic plant groups, NOT microbes. NCERT lists protozoa, bacteria, fungi, microscopic viruses, viroids, and prions as diverse microbes."
   },
   {
@@ -214,11 +207,10 @@ var allQuestions = [
     "q": "During curd formation, LAB produce acids that:<br>(i) Coagulate milk proteins<br>(ii) Completely digest milk proteins<br>(iii) Partially digest milk proteins<br><br>Select the <b>correct</b> option:",
     "options": [
       "(i) and (ii) only",
-      "(i) and (iii) only",
       "(ii) and (iii) only",
+      "(i) and (iii) only",
       "(i), (ii) and (iii)"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "NCERT uses the word 'partially' – 'LAB produce acids that coagulate and PARTIALLY digest the milk proteins.' 'Completely digest' is wrong. The word 'partially' is a very common NEET trap."
   },
   {
@@ -227,11 +219,10 @@ var allQuestions = [
     "q": "Conversion of milk to curd improves its nutritional quality by increasing:",
     "options": [
       "Vitamin C",
-      "Vitamin B12",
+      "Vitamin A",
       "Vitamin D",
-      "Vitamin A"
-    ],
-    "correct": 1,
+      "Vitamin B12"
+    ], "correct": 3,
     "explanation": "NCERT explicitly states: 'converting milk to curd, which also improves its nutritional quality by increasing vitamin B12.' Students often confuse this with other B vitamins – a classic NEET trap."
   },
   {
@@ -252,12 +243,11 @@ var allQuestions = [
     "topic": "Microbes in Household Products",
     "q": "LAB in our stomach play a beneficial role by:",
     "options": [
-      "Producing vitamin C",
       "Checking disease-causing microbes",
+      "Producing vitamin C",
       "Digesting cellulose",
       "Producing hydrochloric acid"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "NCERT states: 'In our stomach too, the LAB play very beneficial role in checking disease-causing microbes.' This is a high-yield NEET fact."
   },
   {
@@ -279,11 +269,10 @@ var allQuestions = [
     "q": "The dough used for making <b>dosa and idli</b> is fermented by:",
     "options": [
       "Baker's yeast",
-      "Bacteria",
       "Fungi",
+      "Bacteria",
       "Protozoa"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "NCERT states: 'The dough which is used for making foods such as dosa and idli is also fermented by bacteria.' This is a MAJOR NEET trap – students confuse this with yeast (which is used for bread). Dosa/idli = bacteria; Bread = yeast."
   },
   {
@@ -291,12 +280,11 @@ var allQuestions = [
     "topic": "Microbes in Household Products",
     "q": "Baker's yeast used for making bread is:",
     "options": [
-      "Saccharomyces cerevisiae",
+      "Aspergillus niger",
       "Propionibacterium sharmanii",
       "Lactobacillus",
-      "Aspergillus niger"
-    ],
-    "correct": 0,
+      "Saccharomyces cerevisiae"
+    ], "correct": 3,
     "explanation": "NCERT states: 'the dough which is used for making bread is fermented using baker's yeast (Saccharomyces cerevisiae).' This is a direct NCERT fact tested repeatedly in NEET."
   },
   {
@@ -304,12 +292,11 @@ var allQuestions = [
     "topic": "Microbes in Household Products",
     "q": "'Toddy' is a traditional drink made by:",
     "options": [
-      "Fermenting grape juice",
       "Fermenting sap from palms",
+      "Fermenting grape juice",
       "Fermenting rice water",
       "Fermenting sugarcane juice"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "NCERT states: 'Toddy, a traditional drink of some parts of southern India is made by fermenting sap from palms.'"
   },
   {
@@ -318,11 +305,10 @@ var allQuestions = [
     "q": "Toddy is a traditional drink of some parts of:",
     "options": [
       "Northern India",
-      "Eastern India",
       "Southern India",
+      "Eastern India",
       "Western India"
-    ],
-    "correct": 2,
+    ], "correct": 1,
     "explanation": "NCERT specifically mentions: 'Toddy, a traditional drink of some parts of southern India.' This regional detail is a factual NEET point."
   },
   {
@@ -331,11 +317,10 @@ var allQuestions = [
     "q": "The large holes in 'Swiss cheese' are due to:",
     "options": [
       "Production of O₂ by Lactobacillus",
-      "Production of CO₂ by Propionibacterium sharmanii",
       "Mechanical pressing during manufacture",
+      "Production of CO₂ by Propionibacterium sharmanii",
       "Production of H₂S by Streptococcus"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "NCERT states: 'the large holes in Swiss cheese are due to production of a large amount of CO₂ by a bacterium named Propionibacterium sharmanii.' This is one of the most frequently asked NEET facts."
   },
   {
@@ -344,11 +329,10 @@ var allQuestions = [
     "q": "'Roquefort cheese' is ripened by growing:",
     "options": [
       "Specific bacteria on them",
-      "Specific fungi on them",
+      "Specific protozoa on them",
       "Specific algae on them",
-      "Specific protozoa on them"
-    ],
-    "correct": 1,
+      "Specific fungi on them"
+    ], "correct": 3,
     "explanation": "NCERT states: 'The Roquefort cheese are ripened by growing a specific fungi on them, which gives them a particular flavour.' Bacteria vs fungi is a classic NEET trap for Swiss cheese vs Roquefort cheese."
   },
   {
@@ -397,10 +381,9 @@ var allQuestions = [
     "options": [
       "(i) and (ii) only",
       "(i), (ii) and (iii) only",
-      "(iii) and (iv) only",
-      "All – (i), (ii), (iii) and (iv)"
-    ],
-    "correct": 3,
+      "All – (i), (ii), (iii) and (iv)",
+      "(iii) and (iv) only"
+    ], "correct": 2,
     "explanation": "NCERT states: 'Microbes are also used to ferment fish, soyabean and bamboo-shoots to make foods' and cheese also involves microbial fermentation. So all four are correct."
   },
   {
@@ -421,12 +404,11 @@ var allQuestions = [
     "topic": "Microbes in Household Products",
     "q": "The term 'inoculum' or 'starter' in curd formation refers to:",
     "options": [
-      "Fresh milk without any microbe",
       "A small amount of curd added to fresh milk",
+      "Fresh milk without any microbe",
       "A chemical enzyme added to milk",
       "Rennet extracted from calf stomach"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "NCERT states: 'A small amount of curd added to the fresh milk as inoculum or starter contain millions of LAB.' The inoculum provides the initial population of LAB needed for fermentation."
   },
   {
@@ -435,11 +417,10 @@ var allQuestions = [
     "q": "Read the following statements:<br>Statement I: LAB produce acids that coagulate and completely digest milk proteins.<br>Statement II: Conversion of milk to curd increases vitamin B12 content.<br><br>Select the correct option:",
     "options": [
       "Both Statements I and II are correct",
-      "Both Statements I and II are incorrect",
       "Statement I is incorrect but Statement II is correct",
+      "Both Statements I and II are incorrect",
       "Statement I is correct but Statement II is incorrect"
-    ],
-    "correct": 2,
+    ], "correct": 1,
     "explanation": "Statement I is incorrect – LAB PARTIALLY digest milk proteins, not completely. Statement II is correct – NCERT explicitly states that curd formation increases vitamin B12. The word 'partially' vs 'completely' is a deliberate NEET trap."
   },
   {
@@ -461,11 +442,10 @@ var allQuestions = [
     "q": "The specificity of different varieties of cheese in terms of texture, flavour and taste comes from:",
     "options": [
       "The type of milk used",
-      "The microbes used",
       "The temperature of storage",
+      "The microbes used",
       "The country of origin"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "NCERT states: 'Different varieties of cheese are known by their characteristic texture, flavour and taste, the specificity coming from the microbes used.' This is a direct NCERT line."
   },
   {
@@ -488,10 +468,9 @@ var allQuestions = [
     "options": [
       "Vitamin B1 (Thiamine)",
       "Vitamin B2 (Riboflavin)",
-      "Vitamin B12 (Cobalamin)",
-      "Vitamin B6 (Pyridoxine)"
-    ],
-    "correct": 2,
+      "Vitamin B6 (Pyridoxine)",
+      "Vitamin B12 (Cobalamin)"
+    ], "correct": 3,
     "explanation": "NCERT specifically mentions vitamin B12. Students often select B2 or B6 by guessing. B12 (Cobalamin) is the ONLY correct answer as per NCERT. This is a very high-frequency NEET question."
   },
   {
@@ -499,12 +478,11 @@ var allQuestions = [
     "topic": "Microbes in Household Products",
     "q": "Consider the following:<br>(a) Curd → Lactobacillus<br>(b) Bread → Saccharomyces cerevisiae<br>(c) Swiss cheese → Propionibacterium sharmanii<br>(d) Toddy → Fermentation of sap from palms<br><br>How many of the above are <b>correctly</b> matched?",
     "options": [
-      "Only two",
-      "Only three",
       "All four",
+      "Only three",
+      "Only two",
       "Only one"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "All four are correctly matched as per NCERT. (a) Curd = Lactobacillus ✓ (b) Bread = Saccharomyces cerevisiae ✓ (c) Swiss cheese = Propionibacterium sharmanii ✓ (d) Toddy = palm sap fermentation ✓."
   },
   {
@@ -513,11 +491,10 @@ var allQuestions = [
     "q": "In the context of curd formation, which of the following is <b>NOT</b> a role of LAB?",
     "options": [
       "Coagulation of milk proteins",
-      "Partial digestion of milk proteins",
+      "Complete hydrolysis of lactose to galactose and glucose only",
       "Increasing vitamin B12 content",
-      "Complete hydrolysis of lactose to galactose and glucose only"
-    ],
-    "correct": 3,
+      "Partial digestion of milk proteins"
+    ], "correct": 1,
     "explanation": "NCERT mentions LAB coagulate and partially digest milk proteins, and improve nutritional quality by increasing vitamin B12. 'Complete hydrolysis of lactose to galactose and glucose only' is NOT mentioned in NCERT as a role of LAB in curd formation."
   },
   {
@@ -525,12 +502,11 @@ var allQuestions = [
     "topic": "Microbes in Household Products",
     "q": "Which of the following statements about 'Toddy' is <b>correct</b>?<br>(i) It is a traditional drink<br>(ii) It is popular in some parts of southern India<br>(iii) It is made by fermenting sap from palms<br>(iv) It is a non-fermented beverage",
     "options": [
-      "(i), (ii) and (iii) only",
-      "(i) and (iv) only",
       "(ii), (iii) and (iv) only",
+      "(i) and (iv) only",
+      "(i), (ii) and (iii) only",
       "All of the above"
-    ],
-    "correct": 0,
+    ], "correct": 2,
     "explanation": "Statements (i), (ii), and (iii) are correct per NCERT. Statement (iv) is wrong – toddy IS a fermented drink. NCERT states: 'Toddy, a traditional drink of some parts of southern India is made by FERMENTING sap from palms.'"
   },
   {
@@ -540,10 +516,9 @@ var allQuestions = [
     "options": [
       "Both Statements I and II are correct",
       "Both Statements I and II are incorrect",
-      "Statement I is correct but Statement II is incorrect",
-      "Statement I is incorrect but Statement II is correct"
-    ],
-    "correct": 2,
+      "Statement I is incorrect but Statement II is correct",
+      "Statement I is correct but Statement II is incorrect"
+    ], "correct": 3,
     "explanation": "Statement I is correct – large holes are due to CO₂. Statement II is incorrect – Propionibacterium sharmanii is a BACTERIUM, not a fungus. This bacteria vs fungi distinction is a classic NEET conceptual trap."
   },
   {
@@ -591,11 +566,10 @@ var allQuestions = [
     "q": "Which of the following alcoholic beverages are produced <b>without distillation</b>?",
     "options": [
       "Whisky and brandy",
-      "Wine and beer",
+      "Brandy and beer",
       "Rum and whisky",
-      "Brandy and beer"
-    ],
-    "correct": 1,
+      "Wine and beer"
+    ], "correct": 3,
     "explanation": "NCERT states: 'Wine and beer are produced without distillation whereas whisky, brandy and rum are produced by distillation of the fermented broth.' This distillation vs non-distillation distinction is a very high-frequency NEET question."
   },
   {
@@ -603,12 +577,11 @@ var allQuestions = [
     "topic": "Microbes in Industrial Products – Beverages",
     "q": "Which of the following alcoholic beverages are produced <b>by distillation</b> of the fermented broth?<br>(i) Wine<br>(ii) Beer<br>(iii) Whisky<br>(iv) Brandy<br>(v) Rum",
     "options": [
-      "(i), (ii) and (iii)",
       "(iii), (iv) and (v)",
+      "(i), (ii) and (iii)",
       "(i), (iii) and (v)",
       "(ii), (iv) and (v)"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "Whisky, brandy, and rum are produced by distillation. Wine and beer are produced WITHOUT distillation. This is a direct NCERT categorization."
   },
   {
@@ -629,12 +602,11 @@ var allQuestions = [
     "topic": "Microbes in Industrial Products – Beverages",
     "q": "Brewer's yeast ferments which of the following to produce ethanol?",
     "options": [
-      "Malted cereals and fruit juices",
       "Cellulose and starch only",
+      "Malted cereals and fruit juices",
       "Proteins and lipids",
       "Amino acids and fatty acids"
-    ],
-    "correct": 0,
+    ], "correct": 1,
     "explanation": "NCERT states: 'Saccharomyces cerevisiae...is used for fermenting malted cereals and fruit juices, to produce ethanol.' Not cellulose, proteins, or lipids."
   },
   {
@@ -643,11 +615,10 @@ var allQuestions = [
     "q": "Consider the following statements:<br>Statement I: Wine is produced by distillation of fermented broth.<br>Statement II: Rum is produced without distillation.<br><br>Select the correct option:",
     "options": [
       "Both Statements I and II are correct",
-      "Both Statements I and II are incorrect",
       "Statement I is correct but Statement II is incorrect",
+      "Both Statements I and II are incorrect",
       "Statement I is incorrect but Statement II is correct"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "Both are INCORRECT. Wine is produced WITHOUT distillation, and rum is produced WITH distillation. This is a reversal trap – NCERT clearly categorizes wine & beer (no distillation) and whisky, brandy & rum (distillation)."
   },
   {
@@ -668,12 +639,11 @@ var allQuestions = [
     "topic": "Microbes in Industrial Products – Beverages",
     "q": "Read the following statements about yeasts in industrial products:<br>(i) Yeasts have been used from time immemorial for beverage production<br>(ii) Saccharomyces cerevisiae is used for both bread and alcoholic beverages<br>(iii) The end product of yeast fermentation is methanol<br><br>Which statements are <b>correct</b>?",
     "options": [
-      "(i) and (ii) only",
+      "All of the above",
       "(ii) and (iii) only",
       "(i) and (iii) only",
-      "All of the above"
-    ],
-    "correct": 0,
+      "(i) and (ii) only"
+    ], "correct": 3,
     "explanation": "Statements (i) and (ii) are correct per NCERT. Statement (iii) is wrong – yeast fermentation produces ETHANOL, not methanol. Methanol vs ethanol is a classic NEET trap."
   },
   {
@@ -694,12 +664,11 @@ var allQuestions = [
     "topic": "Microbes in Industrial Products – Beverages",
     "q": "Which of the following is the <b>common organism</b> used for both bread making and production of alcoholic beverages?",
     "options": [
-      "Lactobacillus",
-      "Aspergillus niger",
       "Saccharomyces cerevisiae",
+      "Aspergillus niger",
+      "Lactobacillus",
       "Penicillium notatum"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "NCERT states: 'the same yeast Saccharomyces cerevisiae used for bread-making and commonly called brewer\\'s yeast.' One organism, two major industrial applications."
   },
   {
@@ -720,12 +689,11 @@ var allQuestions = [
     "topic": "Microbes in Industrial Products – Beverages",
     "q": "Match the following beverages with their processing type:<br>(a) Wine → (i) Distilled<br>(b) Whisky → (ii) Non-distilled<br>(c) Beer → (iii) Distilled<br>(d) Rum → (iv) Non-distilled<br><br>Select the correct match:",
     "options": [
-      "a-ii, b-i, c-iv, d-iii",
-      "a-i, b-ii, c-iii, d-iv",
       "a-ii, b-iii, c-i, d-iv",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-ii, b-i, c-iv, d-iii",
       "a-iv, b-i, c-ii, d-iii"
-    ],
-    "correct": 0,
+    ], "correct": 2,
     "explanation": "Wine – Non-distilled (ii); Whisky – Distilled (i); Beer – Non-distilled (iv); Rum – Distilled (iii). NCERT: Wine & beer = no distillation; Whisky, brandy & rum = distillation."
   },
   {
@@ -735,10 +703,9 @@ var allQuestions = [
     "options": [
       "Whisky",
       "Brandy",
-      "Wine",
-      "Rum"
-    ],
-    "correct": 2,
+      "Rum",
+      "Wine"
+    ], "correct": 3,
     "explanation": "Wine is NOT distilled. NCERT clearly states: 'Wine and beer are produced without distillation whereas whisky, brandy and rum are produced by distillation.'"
   },
   {
@@ -787,10 +754,9 @@ var allQuestions = [
     "options": [
       "Streptomycin",
       "Chloramphenicol",
-      "Penicillin",
-      "Tetracycline"
-    ],
-    "correct": 2,
+      "Tetracycline",
+      "Penicillin"
+    ], "correct": 3,
     "explanation": "NCERT explicitly states: 'Penicillin was the first antibiotic to be discovered, and it was a chance discovery.' This is a very high-frequency NEET fact."
   },
   {
@@ -798,12 +764,11 @@ var allQuestions = [
     "topic": "Antibiotics",
     "q": "Alexander Fleming discovered Penicillin while working on:",
     "options": [
-      "Streptococcus bacteria",
       "Staphylococci bacteria",
+      "Streptococcus bacteria",
       "Salmonella bacteria",
       "Bacillus bacteria"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "NCERT states: 'Alexander Fleming while working on Staphylococci bacteria, once observed a mould growing in one of his unwashed culture plates.' Staphylococci (NOT Streptococci) is a very common NEET trap."
   },
   {
@@ -838,11 +803,10 @@ var allQuestions = [
     "q": "The full potential of Penicillin as an effective antibiotic was established by:",
     "options": [
       "Alexander Fleming alone",
-      "Ernest Chain and Howard Florey",
       "Watson and Crick",
+      "Ernest Chain and Howard Florey",
       "Robert Koch and Louis Pasteur"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "NCERT states: 'its full potential as an effective antibiotic was established much later by Ernest Chain and Howard Florey.' Fleming discovered it; Chain and Florey established its potential. This role distinction is a NEET trap."
   },
   {
@@ -851,11 +815,10 @@ var allQuestions = [
     "q": "Penicillin was extensively used to treat soldiers wounded in:",
     "options": [
       "World War I",
-      "World War II",
+      "Vietnam War",
       "Korean War",
-      "Vietnam War"
-    ],
-    "correct": 1,
+      "World War II"
+    ], "correct": 3,
     "explanation": "NCERT states: 'This antibiotic was extensively used to treat American soldiers wounded in World War II.' The specific war and nationality (American) are factual NEET points."
   },
   {
@@ -863,12 +826,11 @@ var allQuestions = [
     "topic": "Antibiotics",
     "q": "Fleming, Chain, and Florey were awarded the Nobel Prize in the year:",
     "options": [
-      "1928",
-      "1940",
       "1945",
+      "1940",
+      "1928",
       "1953"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "NCERT states: 'Fleming, Chain and Florey were awarded the Nobel Prize in 1945, for this discovery.' 1928 is sometimes confused as it was when Fleming first observed the mould."
   },
   {
@@ -904,10 +866,9 @@ var allQuestions = [
     "options": [
       "The eighteenth century",
       "The nineteenth century",
-      "The twentieth century",
-      "The twenty-first century"
-    ],
-    "correct": 2,
+      "The twenty-first century",
+      "The twentieth century"
+    ], "correct": 3,
     "explanation": "NCERT states: 'Antibiotics produced by microbes are regarded as one of the most significant discoveries of the twentieth century.' This is a direct NCERT fact."
   },
   {
@@ -969,10 +930,9 @@ var allQuestions = [
     "options": [
       "Both Statements I and II are correct",
       "Both Statements I and II are incorrect",
-      "Statement I is incorrect but Statement II is correct",
-      "Statement I is correct but Statement II is incorrect"
-    ],
-    "correct": 2,
+      "Statement I is correct but Statement II is incorrect",
+      "Statement I is incorrect but Statement II is correct"
+    ], "correct": 3,
     "explanation": "Statement I is incorrect – it was a CHANCE discovery, not planned. Statement II is correct – NCERT confirms Fleming observed Staphylococci unable to grow around the mould in his unwashed culture plate."
   },
   {
@@ -980,12 +940,11 @@ var allQuestions = [
     "topic": "Antibiotics",
     "q": "Which of the following is the <b>correct</b> chronological sequence of events in the Penicillin story?",
     "options": [
-      "Chain & Florey's work → Fleming's observation → Nobel Prize → Use in WWII",
       "Fleming's observation → Chain & Florey's work → Use in WWII → Nobel Prize in 1945",
+      "Chain & Florey's work → Fleming's observation → Nobel Prize → Use in WWII",
       "Nobel Prize → Fleming's observation → Use in WWII → Chain & Florey's work",
       "Use in WWII → Fleming's observation → Nobel Prize → Chain & Florey's work"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "Correct order: Fleming observed mould → Chain & Florey established full potential → Used in WWII for American soldiers → Nobel Prize in 1945. This chronological sequence is directly traceable from NCERT text."
   },
   {
@@ -994,11 +953,10 @@ var allQuestions = [
     "q": "The word 'Penicillin' was named after:",
     "options": [
       "The scientist who discovered it",
-      "The disease it was used to treat",
       "The mould Penicillium notatum",
+      "The disease it was used to treat",
       "The bacterium it was tested against"
-    ],
-    "correct": 2,
+    ], "correct": 1,
     "explanation": "NCERT states: 'he named it Penicillin after the mould Penicillium notatum.' The antibiotic was named after its source organism, not the scientist or the disease."
   },
   {
@@ -1007,11 +965,10 @@ var allQuestions = [
     "q": "Which of the following correctly describes the role of Alexander Fleming in the discovery of Penicillin?",
     "options": [
       "He discovered the mould and established its full clinical potential",
-      "He only observed the mould and the chemical it produced",
       "He established the full potential of Penicillin in clinical use",
+      "He only observed the mould and the chemical it produced",
       "He used Penicillin to treat American soldiers in WWII"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "Fleming ONLY observed the mould and the chemical (Penicillin) it produced. The full potential was established by Chain & Florey LATER. Fleming did not himself establish clinical use. This distinction between discovery and clinical establishment is a key NEET concept."
   },
   {
@@ -1021,10 +978,9 @@ var allQuestions = [
     "options": [
       "Acetic acid",
       "Butyric acid",
-      "Citric acid",
-      "Lactic acid"
-    ],
-    "correct": 2,
+      "Lactic acid",
+      "Citric acid"
+    ], "correct": 3,
     "explanation": "NCERT states: 'Aspergillus niger (a fungus) of citric acid.' This is one of the most tested organism-product matchings in NEET."
   },
   {
@@ -1032,12 +988,11 @@ var allQuestions = [
     "topic": "Chemicals, Enzymes and Other Bioactive Molecules",
     "q": "<i>Acetobacter aceti</i> is used for the production of:",
     "options": [
-      "Citric acid",
       "Acetic acid",
+      "Citric acid",
       "Butyric acid",
       "Ethanol"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "NCERT states: 'Acetobacter aceti (a bacterium) of acetic acid.' The name 'Aceto-' itself hints at acetic acid (vinegar). This is a direct NCERT fact."
   },
   {
@@ -1046,11 +1001,10 @@ var allQuestions = [
     "q": "<i>Clostridium butylicum</i> is a bacterium that produces:",
     "options": [
       "Citric acid",
-      "Lactic acid",
       "Butyric acid",
+      "Lactic acid",
       "Acetic acid"
-    ],
-    "correct": 2,
+    ], "correct": 1,
     "explanation": "NCERT states: 'Clostridium butylicum (a bacterium) of butyric acid.' The name 'butylicum' correlates with butyric acid."
   },
   {
@@ -1071,12 +1025,11 @@ var allQuestions = [
     "topic": "Chemicals, Enzymes and Other Bioactive Molecules",
     "q": "Consider the following matches:<br>(i) Aspergillus niger – Citric acid – Fungus<br>(ii) Acetobacter aceti – Acetic acid – Bacterium<br>(iii) Clostridium butylicum – Butyric acid – Fungus<br>(iv) Lactobacillus – Lactic acid – Bacterium<br><br>Which of the above are <b>correctly</b> matched?",
     "options": [
-      "(i), (ii) and (iv) only",
+      "(i) and (iii) only",
       "(i), (ii), (iii) and (iv)",
       "(ii) and (iv) only",
-      "(i) and (iii) only"
-    ],
-    "correct": 0,
+      "(i), (ii) and (iv) only"
+    ], "correct": 3,
     "explanation": "Statement (iii) is INCORRECT – Clostridium butylicum is a BACTERIUM, not a fungus. Among acid producers in NCERT, only Aspergillus niger is a fungus; all others (Acetobacter, Clostridium, Lactobacillus) are bacteria."
   },
   {
@@ -1084,12 +1037,11 @@ var allQuestions = [
     "topic": "Chemicals, Enzymes and Other Bioactive Molecules",
     "q": "Lipases are used in:",
     "options": [
-      "Clarification of fruit juices",
       "Detergent formulations",
+      "Clarification of fruit juices",
       "Clot busting",
       "Immunosuppression"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "NCERT states: 'Lipases are used in detergent formulations and are helpful in removing oily stains from the laundry.' Not for juice clarification (pectinases/proteases) or clot busting (streptokinase)."
   },
   {
@@ -1111,11 +1063,10 @@ var allQuestions = [
     "q": "Streptokinase used as a 'clot buster' is produced by:",
     "options": [
       "Staphylococcus",
-      "Streptococcus",
       "Clostridium",
+      "Streptococcus",
       "Bacillus"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "NCERT states: 'Streptokinase produced by the bacterium Streptococcus.' The prefix 'Strepto-' in streptokinase directly relates to Streptococcus. Note: Fleming worked on Staphylococci (not Streptococcus) – a common confusion."
   },
   {
@@ -1124,11 +1075,10 @@ var allQuestions = [
     "q": "Streptokinase is used as a 'clot buster' for removing clots from blood vessels of patients who have undergone:",
     "options": [
       "Renal failure",
-      "Myocardial infarction leading to heart attack",
+      "Organ transplant",
       "Liver cirrhosis",
-      "Organ transplant"
-    ],
-    "correct": 1,
+      "Myocardial infarction leading to heart attack"
+    ], "correct": 3,
     "explanation": "NCERT states streptokinase is used 'for removing clots from the blood vessels of patients who have undergone myocardial infarction leading to heart attack.' This clinical application is a very important NEET fact."
   },
   {
@@ -1136,12 +1086,11 @@ var allQuestions = [
     "topic": "Chemicals, Enzymes and Other Bioactive Molecules",
     "q": "Cyclosporin A, used as an immunosuppressive agent, is produced by:",
     "options": [
-      "Monascus purpureus",
       "Trichoderma polysporum",
+      "Monascus purpureus",
       "Penicillium notatum",
       "Aspergillus niger"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "NCERT states: 'Cyclosporin A...is produced by the fungus Trichoderma polysporum.' Monascus purpureus produces statins, not cyclosporin A. This is a very high-frequency NEET organism-product matching question."
   },
   {
@@ -1177,10 +1126,9 @@ var allQuestions = [
     "options": [
       "Clot busters",
       "Immunosuppressive agents",
-      "Blood-cholesterol lowering agents",
-      "Antibiotic agents"
-    ],
-    "correct": 2,
+      "Antibiotic agents",
+      "Blood-cholesterol lowering agents"
+    ], "correct": 3,
     "explanation": "NCERT states: 'Statins produced by the yeast Monascus purpureus have been commercialised as blood-cholesterol lowering agents.' Not clot busters (streptokinase) or immunosuppressants (cyclosporin A)."
   },
   {
@@ -1188,12 +1136,11 @@ var allQuestions = [
     "topic": "Chemicals, Enzymes and Other Bioactive Molecules",
     "q": "Statins lower blood cholesterol by:",
     "options": [
-      "Increasing cholesterol excretion",
       "Competitively inhibiting the enzyme responsible for cholesterol synthesis",
+      "Increasing cholesterol excretion",
       "Breaking down cholesterol in blood",
       "Blocking cholesterol absorption from intestine"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "NCERT states: 'It acts by competitively inhibiting the enzyme responsible for synthesis of cholesterol.' The mechanism is competitive inhibition – this 'competitive' keyword is crucial for NEET."
   },
   {
@@ -1215,11 +1162,10 @@ var allQuestions = [
     "q": "Which of the following is <b>incorrectly</b> matched?",
     "options": [
       "Lipases – Detergent formulations",
-      "Pectinases – Juice clarification",
       "Streptokinase – Immunosuppression",
+      "Pectinases – Juice clarification",
       "Statins – Blood cholesterol lowering"
-    ],
-    "correct": 2,
+    ], "correct": 1,
     "explanation": "Streptokinase is a CLOT BUSTER (not immunosuppressive). Cyclosporin A is the immunosuppressive agent. Streptokinase–immunosuppression is the incorrect match. This swap between streptokinase and cyclosporin A applications is a frequent NEET trap."
   },
   {
@@ -1228,11 +1174,10 @@ var allQuestions = [
     "q": "Streptokinase has been modified by <b>genetic engineering</b> for its use as a clot buster. This statement highlights the role of:",
     "options": [
       "Traditional breeding",
-      "Biotechnology",
       "Natural selection",
+      "Biotechnology",
       "Spontaneous mutation"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "NCERT states streptokinase is 'produced by the bacterium Streptococcus and modified by genetic engineering.' Genetic engineering is a key tool of biotechnology."
   },
   {
@@ -1240,12 +1185,11 @@ var allQuestions = [
     "topic": "Chemicals, Enzymes and Other Bioactive Molecules",
     "q": "Consider the following bioactive molecules:<br>(a) Cyclosporin A – Trichoderma polysporum – Immunosuppressive<br>(b) Statins – Monascus purpureus – Clot buster<br>(c) Streptokinase – Streptococcus – Blood cholesterol lowering<br><br>Which of the above are <b>correctly</b> matched?",
     "options": [
-      "(a) only",
+      "All of the above",
       "(a) and (b) only",
       "(b) and (c) only",
-      "All of the above"
-    ],
-    "correct": 0,
+      "(a) only"
+    ], "correct": 3,
     "explanation": "Only (a) is correct. (b) is wrong – statins are cholesterol-lowering agents, NOT clot busters. (c) is wrong – streptokinase is a clot buster, NOT cholesterol-lowering. The applications of statins, streptokinase, and cyclosporin A are frequently swapped in NEET to confuse students."
   },
   {
@@ -1253,12 +1197,11 @@ var allQuestions = [
     "topic": "Chemicals, Enzymes and Other Bioactive Molecules",
     "q": "Which of the following organisms is classified as a <b>yeast</b> in NCERT?",
     "options": [
-      "Trichoderma polysporum",
-      "Aspergillus niger",
       "Monascus purpureus",
+      "Aspergillus niger",
+      "Trichoderma polysporum",
       "Acetobacter aceti"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "NCERT specifically calls Monascus purpureus a 'yeast.' Trichoderma polysporum and Aspergillus niger are fungi. Acetobacter aceti is a bacterium. The organism classification matters in NEET."
   },
   {
@@ -1266,12 +1209,11 @@ var allQuestions = [
     "topic": "Chemicals, Enzymes and Other Bioactive Molecules",
     "q": "Match the following enzymes/bioactive molecules with their applications:<br>(a) Lipases → (i) Clot buster<br>(b) Pectinases → (ii) Detergent formulations<br>(c) Streptokinase → (iii) Immunosuppression<br>(d) Cyclosporin A → (iv) Juice clarification<br><br>Select the <b>correct</b> match:",
     "options": [
-      "a-ii, b-iv, c-i, d-iii",
       "a-iv, b-ii, c-iii, d-i",
+      "a-ii, b-iv, c-i, d-iii",
       "a-ii, b-i, c-iv, d-iii",
       "a-iii, b-iv, c-ii, d-i"
-    ],
-    "correct": 0,
+    ], "correct": 1,
     "explanation": "Lipases → Detergents (ii); Pectinases → Juice clarification (iv); Streptokinase → Clot buster (i); Cyclosporin A → Immunosuppression (iii). This is a comprehensive matching question covering all major enzyme/bioactive molecule applications from NCERT."
   },
   {
@@ -1293,11 +1235,10 @@ var allQuestions = [
     "q": "Lipases in detergent formulations are helpful in removing:",
     "options": [
       "Protein stains",
-      "Oily stains from laundry",
+      "Rust stains",
       "Blood stains",
-      "Rust stains"
-    ],
-    "correct": 1,
+      "Oily stains from laundry"
+    ], "correct": 3,
     "explanation": "NCERT states: 'Lipases are used in detergent formulations and are helpful in removing oily stains from the laundry.' Lipases break down lipids/fats, hence they remove OILY stains specifically."
   },
   {
@@ -1305,12 +1246,11 @@ var allQuestions = [
     "topic": "Chemicals, Enzymes and Other Bioactive Molecules",
     "q": "Consider the following statements:<br>Statement I: <i>Aspergillus niger</i> is a bacterium used for citric acid production.<br>Statement II: <i>Saccharomyces cerevisiae</i> is used for commercial production of ethanol.<br><br>Select the correct option:",
     "options": [
-      "Both Statements I and II are correct",
-      "Both Statements I and II are incorrect",
       "Statement I is incorrect but Statement II is correct",
+      "Both Statements I and II are incorrect",
+      "Both Statements I and II are correct",
       "Statement I is correct but Statement II is incorrect"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "Statement I is incorrect – Aspergillus niger is a FUNGUS, not a bacterium. Statement II is correct – NCERT states 'Yeast (Saccharomyces cerevisiae) is used for commercial production of ethanol.' The fungus vs bacterium classification trap for Aspergillus niger is very common in NEET."
   },
   {
@@ -1358,11 +1298,10 @@ var allQuestions = [
     "q": "Streptokinase is described as a 'clot buster' because it:",
     "options": [
       "Prevents blood clot formation",
-      "Removes clots from blood vessels",
+      "Produces fibrinogen",
       "Increases blood viscosity",
-      "Produces fibrinogen"
-    ],
-    "correct": 1,
+      "Removes clots from blood vessels"
+    ], "correct": 3,
     "explanation": "NCERT states streptokinase is 'used as a clot buster for removing clots from the blood vessels of patients who have undergone myocardial infarction.' It REMOVES existing clots, not just prevents their formation."
   },
   {
@@ -1383,12 +1322,11 @@ var allQuestions = [
     "topic": "Chemicals, Enzymes and Other Bioactive Molecules",
     "q": "The type of inhibition by which statins lower blood cholesterol is:",
     "options": [
-      "Non-competitive inhibition",
-      "Uncompetitive inhibition",
       "Competitive inhibition",
+      "Uncompetitive inhibition",
+      "Non-competitive inhibition",
       "Allosteric inhibition"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "NCERT states statins act by 'competitively inhibiting the enzyme responsible for synthesis of cholesterol.' Competitive inhibition means statins structurally resemble the substrate and compete for the active site of the enzyme."
   },
   {
@@ -1396,12 +1334,11 @@ var allQuestions = [
     "topic": "Chemicals, Enzymes and Other Bioactive Molecules",
     "q": "Match the following microbes with the type of organism they are:<br>(a) Aspergillus niger → (i) Yeast<br>(b) Monascus purpureus → (ii) Bacterium<br>(c) Streptococcus → (iii) Fungus<br>(d) Acetobacter aceti → (iv) Bacterium<br><br>Select the <b>correct</b> match:",
     "options": [
-      "a-iii, b-i, c-ii, d-iv",
       "a-i, b-iii, c-iv, d-ii",
+      "a-iii, b-i, c-ii, d-iv",
       "a-iii, b-ii, c-i, d-iv",
       "a-ii, b-i, c-iv, d-iii"
-    ],
-    "correct": 0,
+    ], "correct": 1,
     "explanation": "Aspergillus niger = Fungus (iii); Monascus purpureus = Yeast (i); Streptococcus = Bacterium (ii); Acetobacter aceti = Bacterium (iv). NCERT explicitly classifies each organism. Getting the classification right is essential for NEET."
   },
   {
@@ -1410,11 +1347,10 @@ var allQuestions = [
     "q": "Municipal waste-water is also called sewage. It contains:",
     "options": [
       "Only inorganic salts and minerals",
-      "Large amounts of organic matter and microbes, many of which are pathogenic",
       "Only pathogenic microbes without organic matter",
+      "Large amounts of organic matter and microbes, many of which are pathogenic",
       "Purified water with traces of chemicals"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "NCERT states sewage 'contains large amounts of organic matter and microbes. Many of which are pathogenic.' It is not just microbes or just organic matter — both are present, and many microbes are pathogenic."
   },
   {
@@ -1423,11 +1359,10 @@ var allQuestions = [
     "q": "Treatment of waste water in sewage treatment plants (STPs) is carried out by:",
     "options": [
       "Autotrophic microbes added externally",
-      "Heterotrophic microbes naturally present in the sewage",
+      "Photosynthetic algae added to the sewage",
       "Chemical agents like chlorine only",
-      "Photosynthetic algae added to the sewage"
-    ],
-    "correct": 1,
+      "Heterotrophic microbes naturally present in the sewage"
+    ], "correct": 3,
     "explanation": "NCERT states: 'Treatment of waste water is done by the heterotrophic microbes naturally present in the sewage.' Key points: (1) heterotrophic (NOT autotrophic), (2) naturally present (NOT externally added). Both are common NEET traps."
   },
   {
@@ -1435,12 +1370,11 @@ var allQuestions = [
     "topic": "Microbes in Sewage Treatment",
     "q": "Sewage treatment is carried out in how many stages?",
     "options": [
-      "One",
       "Two",
+      "One",
       "Three",
       "Four"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "NCERT states: 'This treatment is carried out in two stages' – Primary treatment (physical) and Secondary treatment (biological). Students sometimes add a 'tertiary' stage which is NOT mentioned in NCERT."
   },
   {
@@ -1462,11 +1396,10 @@ var allQuestions = [
     "q": "During primary treatment of sewage, the correct sequence of steps is:",
     "options": [
       "Sedimentation of grit → Removal of floating debris → Formation of primary sludge",
-      "Removal of floating debris by sequential filtration → Removal of grit by sedimentation → Formation of primary sludge and effluent",
       "Aeration → Floc formation → Sedimentation",
+      "Removal of floating debris by sequential filtration → Removal of grit by sedimentation → Formation of primary sludge and effluent",
       "Anaerobic digestion → Filtration → Release into rivers"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "NCERT states the sequence: (1) floating debris removed by sequential filtration, (2) grit (soil and small pebbles) removed by sedimentation, (3) solids that settle = primary sludge, supernatant = effluent. Options C and D describe secondary treatment/later stages."
   },
   {
@@ -1475,11 +1408,10 @@ var allQuestions = [
     "q": "In primary treatment of sewage, the 'grit' that is removed by sedimentation refers to:",
     "options": [
       "Floating organic debris",
-      "Soil and small pebbles",
+      "Activated sludge",
       "Bacterial flocs",
-      "Activated sludge"
-    ],
-    "correct": 1,
+      "Soil and small pebbles"
+    ], "correct": 3,
     "explanation": "NCERT states: 'Then the grit (soil and small pebbles) are removed by sedimentation.' Grit specifically refers to soil and small pebbles – not floating debris (removed by filtration) or flocs/activated sludge (formed during secondary treatment)."
   },
   {
@@ -1487,12 +1419,11 @@ var allQuestions = [
     "topic": "Microbes in Sewage Treatment",
     "q": "During primary treatment, all solids that settle form the <b>primary sludge</b> and the supernatant forms the:",
     "options": [
-      "Activated sludge",
-      "Biogas",
       "Effluent",
+      "Biogas",
+      "Activated sludge",
       "Flocs"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "NCERT states: 'All solids that settle form the primary sludge, and the supernatant forms the effluent.' The effluent (supernatant) is then taken for secondary treatment. Activated sludge is formed during secondary treatment."
   },
   {
@@ -1527,11 +1458,10 @@ var allQuestions = [
     "q": "Flocs formed during secondary treatment of sewage are:",
     "options": [
       "Masses of fungi only",
-      "Masses of bacteria associated with fungal filaments to form mesh-like structures",
       "Chemical precipitates of organic matter",
+      "Masses of bacteria associated with fungal filaments to form mesh-like structures",
       "Colonies of anaerobic bacteria"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "NCERT states: 'vigorous growth of useful aerobic microbes into flocs (masses of bacteria associated with fungal filaments to form mesh like structures).' Flocs contain BOTH bacteria AND fungal filaments – not bacteria alone or fungi alone. They are AEROBIC, not anaerobic."
   },
   {
@@ -1540,11 +1470,10 @@ var allQuestions = [
     "q": "Consider the following statements about flocs:<br>(i) They are masses of bacteria only<br>(ii) They contain bacteria associated with fungal filaments<br>(iii) They form mesh-like structures<br>(iv) They are formed by anaerobic microbes<br><br>Which statements are <b>correct</b>?",
     "options": [
       "(i) and (iv) only",
-      "(ii) and (iii) only",
+      "All of the above",
       "(i), (ii) and (iii)",
-      "All of the above"
-    ],
-    "correct": 1,
+      "(ii) and (iii) only"
+    ], "correct": 3,
     "explanation": "Only (ii) and (iii) are correct. (i) is wrong – flocs are bacteria ASSOCIATED WITH fungal filaments (not bacteria only). (iv) is wrong – flocs are formed by AEROBIC microbes in aeration tanks, not anaerobic."
   },
   {
@@ -1552,12 +1481,11 @@ var allQuestions = [
     "topic": "Microbes in Sewage Treatment",
     "q": "BOD (Biochemical Oxygen Demand) refers to:",
     "options": [
-      "The amount of oxygen dissolved in water at a given temperature",
       "The amount of oxygen that would be consumed if all the organic matter in one litre of water were oxidised by bacteria",
+      "The amount of oxygen dissolved in water at a given temperature",
       "The total amount of organic matter in sewage",
       "The amount of CO₂ released during aerobic respiration in water"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "NCERT defines: 'BOD refers to the amount of the oxygen that would be consumed if all the organic matter in one litre of water were oxidised by bacteria.' This exact definition is extremely important for NEET – note the key words: oxygen, organic matter, one litre, oxidised by bacteria."
   },
   {
@@ -1592,11 +1520,10 @@ var allQuestions = [
     "q": "Which of the following statements about BOD is <b>correct</b>?",
     "options": [
       "The greater the BOD, the less polluting the water",
-      "The greater the BOD of waste water, more is its polluting potential",
       "BOD has no relation to pollution",
+      "The greater the BOD of waste water, more is its polluting potential",
       "Lower BOD indicates more organic matter in water"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "NCERT states: 'The greater the BOD of waste water, more is its polluting potential.' Higher BOD means more organic matter, which means more pollution. This direct relationship (high BOD = high pollution) is frequently tested in NEET."
   },
   {
@@ -1605,11 +1532,10 @@ var allQuestions = [
     "q": "During secondary treatment, the microbes growing as flocs consume the major part of organic matter in the effluent, which leads to:",
     "options": [
       "Increase in BOD",
-      "Significant reduction in BOD",
+      "Increase in pathogenic microbes",
       "No change in BOD",
-      "Increase in pathogenic microbes"
-    ],
-    "correct": 1,
+      "Significant reduction in BOD"
+    ], "correct": 3,
     "explanation": "NCERT states: 'these microbes consume the major part of the organic matter in the effluent. This significantly reduces the BOD of the effluent.' Less organic matter = less oxygen demand = reduced BOD."
   },
   {
@@ -1617,12 +1543,11 @@ var allQuestions = [
     "topic": "Microbes in Sewage Treatment",
     "q": "After BOD is reduced significantly during secondary treatment, the effluent is passed into a settling tank where the bacterial flocs sediment to form:",
     "options": [
-      "Primary sludge",
       "Activated sludge",
+      "Primary sludge",
       "Grit",
       "Biogas"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "NCERT states: 'the effluent is then passed into a settling tank where the bacterial flocs are allowed to sediment. This sediment is called activated sludge.' Primary sludge forms during primary treatment. Activated sludge is specific to secondary treatment."
   },
   {
@@ -1631,11 +1556,10 @@ var allQuestions = [
     "q": "A small part of the activated sludge is pumped back into the aeration tank to serve as:",
     "options": [
       "Nutrient source",
-      "Chemical catalyst",
       "Inoculum",
+      "Chemical catalyst",
       "Biogas substrate"
-    ],
-    "correct": 2,
+    ], "correct": 1,
     "explanation": "NCERT states: 'A small part of the activated sludge is pumped back into the aeration tank to serve as the inoculum.' The recycled sludge provides the initial microbial population for the next batch of sewage treatment. The word 'inoculum' is also used in curd formation."
   },
   {
@@ -1657,11 +1581,10 @@ var allQuestions = [
     "q": "Consider the following statements about activated sludge:<br>Statement I: A major part of activated sludge is pumped back into the aeration tank as inoculum.<br>Statement II: A small part of activated sludge is pumped into anaerobic sludge digesters.<br><br>Select the correct option:",
     "options": [
       "Both Statements I and II are correct",
-      "Both Statements I and II are incorrect",
+      "Statement I is incorrect but Statement II is correct",
       "Statement I is correct but Statement II is incorrect",
-      "Statement I is incorrect but Statement II is correct"
-    ],
-    "correct": 1,
+      "Both Statements I and II are incorrect"
+    ], "correct": 3,
     "explanation": "BOTH statements are INCORRECT – they are REVERSED. NCERT says: SMALL part → back to aeration tank as inoculum; MAJOR part → anaerobic sludge digesters. This reversal is one of the most frequent NEET traps in sewage treatment."
   },
   {
@@ -1669,12 +1592,11 @@ var allQuestions = [
     "topic": "Microbes in Sewage Treatment",
     "q": "In anaerobic sludge digesters, the bacteria and fungi in the sludge are digested by:",
     "options": [
-      "Aerobic bacteria",
       "Anaerobic bacteria",
+      "Aerobic bacteria",
       "Fungal enzymes",
       "Chemical treatment"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "NCERT states: 'other kinds of bacteria, which grow anaerobically, digest the bacteria and the fungi in the sludge.' The digesters are ANAEROBIC – different from the AEROBIC conditions in aeration tanks."
   },
   {
@@ -1696,11 +1618,10 @@ var allQuestions = [
     "q": "Biogas produced during anaerobic digestion of sludge can be used as a source of energy because it is:",
     "options": [
       "Radioactive",
-      "Inflammable",
       "Acidic",
+      "Inflammable",
       "Non-toxic"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "NCERT states: 'These gases form biogas and can be used as source of energy as it is inflammable.' The inflammable nature (due to methane) makes it useful as fuel/energy source."
   },
   {
@@ -1710,10 +1631,9 @@ var allQuestions = [
     "options": [
       "Aeration tanks for re-treatment",
       "Anaerobic sludge digesters",
-      "Natural water bodies like rivers and streams",
-      "Underground storage tanks"
-    ],
-    "correct": 2,
+      "Underground storage tanks",
+      "Natural water bodies like rivers and streams"
+    ], "correct": 3,
     "explanation": "NCERT states: 'The effluent from the secondary treatment plant is generally released into natural water bodies like rivers and streams.' After secondary treatment, BOD is sufficiently reduced for safe discharge."
   },
   {
@@ -1760,12 +1680,11 @@ var allQuestions = [
     "topic": "Microbes in Sewage Treatment",
     "q": "The Ganga Action Plan and Yamuna Action Plan were initiated by:",
     "options": [
-      "Ministry of Health and Family Welfare",
       "Ministry of Environment and Forests",
+      "Ministry of Health and Family Welfare",
       "Ministry of Water Resources",
       "Ministry of Urban Development"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "NCERT states: 'The Ministry of Environment and Forests has initiated Ganga Action Plan and Yamuna Action Plan to save these major rivers of our country from pollution.' This specific ministry name is a factual NEET point."
   },
   {
@@ -1773,12 +1692,11 @@ var allQuestions = [
     "topic": "Microbes in Sewage Treatment",
     "q": "Untreated sewage discharged directly into rivers leads to:<br>(i) River pollution<br>(ii) Increase in water-borne diseases<br>(iii) Decrease in BOD of river water<br><br>Which of the above are correct?",
     "options": [
-      "(i) and (ii) only",
       "(i) and (iii) only",
+      "(i) and (ii) only",
       "(ii) and (iii) only",
       "All of the above"
-    ],
-    "correct": 0,
+    ], "correct": 1,
     "explanation": "Statements (i) and (ii) are correct – NCERT states untreated sewage causes 'pollution and increase in water-borne diseases.' Statement (iii) is WRONG – untreated sewage INCREASES BOD (more organic matter = higher BOD = more pollution), not decreases it."
   },
   {
@@ -1786,12 +1704,11 @@ var allQuestions = [
     "topic": "Microbes in Sewage Treatment",
     "q": "Match the following:<br>(a) Primary sludge → (i) Sediment of bacterial flocs after secondary treatment<br>(b) Activated sludge → (ii) Solids that settle during primary treatment<br>(c) Effluent → (iii) Mixture of methane, H₂S, CO₂<br>(d) Biogas → (iv) Supernatant from primary settling tank<br><br>Select the <b>correct</b> match:",
     "options": [
-      "a-ii, b-i, c-iv, d-iii",
-      "a-i, b-ii, c-iii, d-iv",
       "a-iv, b-iii, c-ii, d-i",
+      "a-i, b-ii, c-iii, d-iv",
+      "a-ii, b-i, c-iv, d-iii",
       "a-ii, b-iv, c-i, d-iii"
-    ],
-    "correct": 0,
+    ], "correct": 2,
     "explanation": "Primary sludge = solids settled during primary treatment (ii); Activated sludge = sediment of bacterial flocs after secondary treatment (i); Effluent = supernatant from primary settling tank (iv); Biogas = methane + H₂S + CO₂ mixture (iii). This comprehensive matching tests all key terms from sewage treatment."
   },
   {
@@ -1801,10 +1718,9 @@ var allQuestions = [
     "options": [
       "Primary treatment involves physical removal of particles",
       "Secondary treatment is also called biological treatment",
-      "Flocs are formed during primary treatment",
-      "BOD is an indirect measure of organic matter in water"
-    ],
-    "correct": 2,
+      "BOD is an indirect measure of organic matter in water",
+      "Flocs are formed during primary treatment"
+    ], "correct": 3,
     "explanation": "Flocs are formed during SECONDARY treatment (in aeration tanks), NOT during primary treatment. Primary treatment involves only physical processes (filtration and sedimentation). This is a very common NEET trap – associating flocs with the wrong treatment stage."
   },
   {
@@ -1825,12 +1741,11 @@ var allQuestions = [
     "topic": "Microbes in Sewage Treatment",
     "q": "Which of the following is the correct relationship between BOD and pollution?",
     "options": [
-      "High BOD = Low pollution",
       "High BOD = High polluting potential",
+      "High BOD = Low pollution",
       "BOD is unrelated to pollution",
       "Zero BOD = Maximum pollution"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "NCERT states: 'The greater the BOD of waste water, more is its polluting potential.' Higher organic matter → Higher oxygen demand → Higher BOD → Greater pollution. This direct proportionality is a NEET favourite."
   },
   {
@@ -1852,11 +1767,10 @@ var allQuestions = [
     "q": "The purpose of the Ganga Action Plan and Yamuna Action Plan is to:",
     "options": [
       "Increase industrial discharge into rivers",
-      "Build large number of sewage treatment plants so only treated sewage is discharged",
       "Ban all human activities near rivers",
+      "Build large number of sewage treatment plants so only treated sewage is discharged",
       "Divert river water for irrigation only"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "NCERT states: 'Under these plans, it is proposed to build a large number of sewage treatment plants so that only treated sewage may be discharged in the rivers.' The focus is on increasing STPs to reduce untreated sewage discharge."
   },
   {
@@ -1865,11 +1779,10 @@ var allQuestions = [
     "q": "During secondary treatment, the useful microbes that form flocs are:",
     "options": [
       "Anaerobic",
-      "Aerobic",
+      "Chemolithotrophs",
       "Facultative anaerobes only",
-      "Chemolithotrophs"
-    ],
-    "correct": 1,
+      "Aerobic"
+    ], "correct": 3,
     "explanation": "NCERT states: 'vigorous growth of useful aerobic microbes into flocs.' Air is actively pumped into aeration tanks to support AEROBIC microbes. Anaerobic bacteria are involved later in the sludge digesters, not in floc formation."
   },
   {
@@ -1877,12 +1790,11 @@ var allQuestions = [
     "topic": "Microbes in Sewage Treatment",
     "q": "Which of the following components of biogas is responsible for making it a useful source of energy?",
     "options": [
-      "Carbon dioxide",
-      "Hydrogen sulphide",
       "Methane",
+      "Hydrogen sulphide",
+      "Carbon dioxide",
       "Nitrogen"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "Biogas contains methane, H₂S, and CO₂. Methane (CH₄) is the primary combustible component that makes biogas inflammable and useful as an energy source. CO₂ and H₂S are not significant energy sources. Nitrogen is NOT a component of biogas as per NCERT."
   },
   {
@@ -1890,12 +1802,11 @@ var allQuestions = [
     "topic": "Microbes in Sewage Treatment",
     "q": "Consider the following:<br>Statement I: Primary sludge is formed during primary treatment by sedimentation.<br>Statement II: Activated sludge is formed when bacterial flocs sediment in the settling tank after secondary treatment.<br><br>Select the correct option:",
     "options": [
-      "Both Statements I and II are correct",
       "Both Statements I and II are incorrect",
+      "Both Statements I and II are correct",
       "Statement I is correct but Statement II is incorrect",
       "Statement I is incorrect but Statement II is correct"
-    ],
-    "correct": 0,
+    ], "correct": 1,
     "explanation": "Both statements are correct. Primary sludge = settled solids during primary treatment. Activated sludge = sedimented bacterial flocs after secondary treatment in the settling tank. These are two different types of sludge formed at two different stages."
   },
   {
@@ -1904,11 +1815,10 @@ var allQuestions = [
     "q": "How many of the following gases are components of biogas produced during anaerobic digestion of sludge?<br>(i) Methane<br>(ii) Oxygen<br>(iii) Hydrogen sulphide<br>(iv) Carbon dioxide<br>(v) Nitrogen",
     "options": [
       "Two",
-      "Three",
       "Four",
+      "Three",
       "Five"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "Only THREE – methane, hydrogen sulphide, and carbon dioxide – are components of biogas as per NCERT. Oxygen and nitrogen are NOT mentioned. Anaerobic conditions mean oxygen is absent."
   },
   {
@@ -1929,12 +1839,11 @@ var allQuestions = [
     "topic": "Microbes in Production of Biogas",
     "q": "Biogas is a mixture of gases produced by microbial activity containing predominantly:",
     "options": [
-      "Carbon dioxide",
-      "Hydrogen sulphide",
       "Methane",
+      "Hydrogen sulphide",
+      "Carbon dioxide",
       "Nitrogen"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "NCERT states: 'Biogas is a mixture of gases (containing predominantly methane) produced by the microbial activity.' The predominant gas is methane (CH₄), not CO₂. This is one of the most common NEET traps – students confuse biogas composition with fermentation gases (CO₂)."
   },
   {
@@ -1943,11 +1852,10 @@ var allQuestions = [
     "q": "The type of gas produced by microbes depends upon:",
     "options": [
       "Only the microbes involved",
-      "Only the organic substrates used",
       "Both the microbes and the organic substrates they utilise",
+      "Only the organic substrates used",
       "The temperature of the environment only"
-    ],
-    "correct": 2,
+    ], "correct": 1,
     "explanation": "NCERT states: 'The type of the gas produced depends upon the microbes and the organic substrates they utilise.' Both factors are important – not just one. This 'both' aspect can be tested in NEET."
   },
   {
@@ -1969,11 +1877,10 @@ var allQuestions = [
     "q": "Methanogens are bacteria that grow:",
     "options": [
       "Aerobically on proteinaceous material",
-      "Anaerobically on cellulosic material",
+      "Anaerobically on lipid-rich material",
       "Aerobically on cellulosic material",
-      "Anaerobically on lipid-rich material"
-    ],
-    "correct": 1,
+      "Anaerobically on cellulosic material"
+    ], "correct": 3,
     "explanation": "NCERT states: 'certain bacteria, which grow anaerobically on cellulosic material, produce large amount of methane along with CO₂ and H₂. These bacteria are collectively called methanogens.' Two key words: ANAEROBICALLY + CELLULOSIC material. Both must be correct."
   },
   {
@@ -1981,12 +1888,11 @@ var allQuestions = [
     "topic": "Microbes in Production of Biogas",
     "q": "Which of the following is a common example of methanogen?",
     "options": [
-      "Lactobacillus",
       "Methanobacterium",
+      "Lactobacillus",
       "Streptococcus",
       "Acetobacter aceti"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "NCERT states: 'one such common bacterium is Methanobacterium.' This is the only methanogen named in NCERT for this chapter. Lactobacillus produces lactic acid, Streptococcus produces streptokinase, and Acetobacter produces acetic acid."
   },
   {
@@ -2007,12 +1913,11 @@ var allQuestions = [
     "topic": "Microbes in Production of Biogas",
     "q": "Methanogens are commonly found in:<br>(i) Anaerobic sludge during sewage treatment<br>(ii) Rumen of cattle<br>(iii) Human small intestine<br>(iv) Aeration tanks of STPs<br><br>Which of the above are correct as per NCERT?",
     "options": [
-      "(i) and (ii) only",
-      "(i), (ii) and (iii)",
       "(ii) and (iv) only",
+      "(i), (ii) and (iii)",
+      "(i) and (ii) only",
       "All of the above"
-    ],
-    "correct": 0,
+    ], "correct": 2,
     "explanation": "NCERT mentions only TWO locations: (i) anaerobic sludge during sewage treatment and (ii) rumen of cattle. Human small intestine and aeration tanks (aerobic, not anaerobic) are NOT mentioned. Methanogens are strict anaerobes – they cannot survive in aerobic aeration tanks."
   },
   {
@@ -2021,11 +1926,10 @@ var allQuestions = [
     "q": "The rumen is:",
     "options": [
       "A part of the small intestine of cattle",
-      "A part of the stomach of cattle",
+      "The oesophagus of cattle",
       "The large intestine of cattle",
-      "The oesophagus of cattle"
-    ],
-    "correct": 1,
+      "A part of the stomach of cattle"
+    ], "correct": 3,
     "explanation": "NCERT states: 'These bacteria are also present in the rumen (a part of stomach) of cattle.' Rumen is specifically described as a part of the STOMACH, not intestine or oesophagus. This anatomical detail is important for NEET."
   },
   {
@@ -2033,12 +1937,11 @@ var allQuestions = [
     "topic": "Microbes in Production of Biogas",
     "q": "In the rumen of cattle, methanogens help in:",
     "options": [
-      "Digestion of proteins",
       "Breakdown of cellulose",
+      "Digestion of proteins",
       "Synthesis of vitamins",
       "Absorption of minerals"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "NCERT states: 'In rumen, these bacteria help in the breakdown of cellulose and play an important role in the nutrition of cattle.' Methanogens utilize cellulosic material – the main component of cattle food (grass, fodder)."
   },
   {
@@ -2060,11 +1963,10 @@ var allQuestions = [
     "q": "The excreta (dung) of cattle is commonly called:",
     "options": [
       "Slurry",
-      "Compost",
       "Gobar",
+      "Compost",
       "Humus"
-    ],
-    "correct": 2,
+    ], "correct": 1,
     "explanation": "NCERT states: 'the excreta (dung) of cattle, commonly called gobar, is rich in these bacteria.' Gobar is the Hindi term for cattle dung. Slurry is the mixture fed into the biogas plant, not the dung itself."
   },
   {
@@ -2073,11 +1975,10 @@ var allQuestions = [
     "q": "Cattle dung (gobar) is rich in:",
     "options": [
       "Aerobic bacteria",
-      "Methanogens",
       "Photosynthetic algae",
+      "Methanogens",
       "Nitrogen-fixing bacteria"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "NCERT states: 'the excreta (dung) of cattle, commonly called gobar, is rich in these bacteria' (referring to methanogens). Since cattle food contains cellulose digested by methanogens in rumen, the dung is rich in these bacteria."
   },
   {
@@ -2087,10 +1988,9 @@ var allQuestions = [
     "options": [
       "Natural gas",
       "LPG",
-      "Gobar gas",
-      "Coal gas"
-    ],
-    "correct": 2,
+      "Coal gas",
+      "Gobar gas"
+    ], "correct": 3,
     "explanation": "NCERT states: 'Dung can be used for generation of biogas, commonly called gobar gas.' This is a direct NCERT term. It should not be confused with natural gas (fossil fuel) or LPG."
   },
   {
@@ -2098,12 +1998,11 @@ var allQuestions = [
     "topic": "Microbes in Production of Biogas",
     "q": "The biogas plant consists of a concrete tank that is:",
     "options": [
-      "2-5 feet deep",
-      "5-8 feet deep",
       "10-15 feet deep",
+      "5-8 feet deep",
+      "2-5 feet deep",
       "20-25 feet deep"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "NCERT states: 'The biogas plant consists of a concrete tank (10-15 feet deep) in which bio-wastes are collected and a slurry of dung is fed.' The depth 10-15 feet is a specific factual detail from NCERT."
   },
   {
@@ -2125,11 +2024,10 @@ var allQuestions = [
     "q": "The spent slurry removed from a biogas plant may be used as:",
     "options": [
       "Raw material for plastic production",
-      "Fertiliser",
       "Fuel for cooking",
+      "Fertiliser",
       "Animal feed"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "NCERT states: 'The spent slurry is removed through another outlet and may be used as fertiliser.' This is a sustainable aspect of the biogas plant – both gas and residual slurry have useful applications."
   },
   {
@@ -2139,10 +2037,9 @@ var allQuestions = [
     "options": [
       "Urban areas",
       "Industrial zones",
-      "Rural areas",
-      "Coastal areas"
-    ],
-    "correct": 2,
+      "Coastal areas",
+      "Rural areas"
+    ], "correct": 3,
     "explanation": "NCERT states: 'Cattle dung is available in large quantities in rural areas where cattle are used for a variety of purposes. So biogas plants are more often built in rural areas.' The availability of cattle dung determines the location."
   },
   {
@@ -2177,11 +2074,10 @@ var allQuestions = [
     "q": "IARI stands for:",
     "options": [
       "Indian Association of Research Institutions",
-      "Indian Agricultural Research Institute",
       "International Agricultural Research Institute",
+      "Indian Agricultural Research Institute",
       "Indian Academy of Rural Industries"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "NCERT gives the full form: Indian Agricultural Research Institute (IARI). This is different from ICAR (Indian Council of Agricultural Research). The full form distinction is a NEET factual point."
   },
   {
@@ -2190,11 +2086,10 @@ var allQuestions = [
     "q": "KVIC stands for:",
     "options": [
       "Khadi and Village Industrial Council",
-      "Khadi and Village Industries Commission",
+      "Khadi and Voluntary Industries Commission",
       "Kerala Village Industries Commission",
-      "Khadi and Voluntary Industries Commission"
-    ],
-    "correct": 1,
+      "Khadi and Village Industries Commission"
+    ], "correct": 3,
     "explanation": "NCERT states: 'Khadi and Village Industries Commission (KVIC).' The exact full form matters – it is 'Commission' not 'Council' and 'Industries' not 'Industrial.' These subtle word differences can appear in NEET."
   },
   {
@@ -2215,12 +2110,11 @@ var allQuestions = [
     "topic": "Microbes in Production of Biogas",
     "q": "Consider the following statements:<br>Statement I: Methanogens grow aerobically on cellulosic material.<br>Statement II: <i>Methanobacterium</i> is a common methanogen.<br><br>Select the correct option:",
     "options": [
-      "Both Statements I and II are correct",
-      "Both Statements I and II are incorrect",
       "Statement I is incorrect but Statement II is correct",
+      "Both Statements I and II are incorrect",
+      "Both Statements I and II are correct",
       "Statement I is correct but Statement II is incorrect"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "Statement I is INCORRECT – methanogens grow ANAEROBICALLY (not aerobically) on cellulosic material. Statement II is correct – NCERT names Methanobacterium as a common methanogen. The anaerobic vs aerobic distinction for methanogens is a critical NEET trap."
   },
   {
@@ -2229,11 +2123,10 @@ var allQuestions = [
     "q": "Which of the following is <b>incorrectly</b> matched?",
     "options": [
       "Methanogens – Anaerobic sludge",
-      "Methanobacterium – Rumen of cattle",
       "Biogas – Predominantly CO₂",
+      "Methanobacterium – Rumen of cattle",
       "Gobar gas – Cattle dung"
-    ],
-    "correct": 2,
+    ], "correct": 1,
     "explanation": "Biogas predominantly contains METHANE, not CO₂. NCERT states: 'Biogas is a mixture of gases (containing predominantly methane).' All other options are correctly matched. This methane vs CO₂ confusion is a very high-frequency NEET trap."
   },
   {
@@ -2241,12 +2134,11 @@ var allQuestions = [
     "topic": "Microbes in Production of Biogas",
     "q": "Consider the following about the biogas plant:<br>(i) Concrete tank is 10-15 feet deep<br>(ii) Slurry of dung is fed into the tank<br>(iii) A fixed rigid cover is placed over the slurry<br>(iv) An outlet supplies biogas to nearby houses<br><br>Which of the above are <b>correct</b>?",
     "options": [
-      "(i), (ii) and (iv) only",
-      "(i), (ii), (iii) and (iv)",
       "(i) and (ii) only",
+      "(i), (ii), (iii) and (iv)",
+      "(i), (ii) and (iv) only",
       "(iii) and (iv) only"
-    ],
-    "correct": 0,
+    ], "correct": 2,
     "explanation": "Statement (iii) is INCORRECT – the cover is FLOATING (not fixed/rigid). NCERT states: 'A floating cover is placed over the slurry, which keeps on rising as the gas is produced.' Statements (i), (ii), and (iv) are correct."
   },
   {
@@ -2268,11 +2160,10 @@ var allQuestions = [
     "q": "Which of the following correctly differentiates the gases produced during dough fermentation and by methanogens?",
     "options": [
       "Dough fermentation – methane; Methanogens – CO₂",
-      "Dough fermentation – CO₂; Methanogens – methane (predominantly) along with CO₂ and H₂",
+      "Both produce primarily hydrogen sulphide",
       "Both produce primarily methane",
-      "Both produce primarily hydrogen sulphide"
-    ],
-    "correct": 1,
+      "Dough fermentation – CO₂; Methanogens – methane (predominantly) along with CO₂ and H₂"
+    ], "correct": 3,
     "explanation": "NCERT states dough fermentation produces mainly CO₂, whereas methanogens produce large amounts of methane along with CO₂ and H₂."
   },
   {
@@ -2280,12 +2171,11 @@ var allQuestions = [
     "topic": "Microbes in Production of Biogas",
     "q": "Read the following statements carefully:<br>Statement I: Biogas produced from cattle dung predominantly contains CO₂.<br>Statement II: The technology of biogas production in India was developed by IARI and KVIC.<br><br>Select the correct option:",
     "options": [
-      "Both Statements I and II are correct",
-      "Both Statements I and II are incorrect",
       "Statement I is incorrect but Statement II is correct",
+      "Both Statements I and II are incorrect",
+      "Both Statements I and II are correct",
       "Statement I is correct but Statement II is incorrect"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "Statement I is INCORRECT – biogas predominantly contains METHANE, not CO₂. Statement II is correct – NCERT confirms IARI and KVIC developed the technology. The methane vs CO₂ trap in biogas is one of the most important distinctions tested in NEET."
   },
   {
@@ -2306,12 +2196,11 @@ var allQuestions = [
     "topic": "Microbes in Production of Biogas",
     "q": "Which of the following statements is <b>correct</b> regarding the differences between biogas produced during sewage treatment and biogas from a biogas plant?<br>Statement I: Sewage biogas contains methane, H₂S, and CO₂.<br>Statement II: Methanogens produce methane, CO₂, and H₂.",
     "options": [
-      "Both Statements I and II are correct",
-      "Both Statements I and II are incorrect",
       "Statement I is correct but Statement II is incorrect",
+      "Both Statements I and II are incorrect",
+      "Both Statements I and II are correct",
       "Statement I is incorrect but Statement II is correct"
-    ],
-    "correct": 0,
+    ], "correct": 2,
     "explanation": "Both are correct as per NCERT. Sewage treatment biogas = methane + H₂S + CO₂ (Topic: Sewage Treatment). Methanogens produce methane + CO₂ + H₂ (Topic: Biogas Production). The key difference is H₂S (sewage) vs H₂ (methanogens). This subtle gas composition difference is a high-level NEET trap."
   },
   {
@@ -2332,12 +2221,11 @@ var allQuestions = [
     "topic": "Microbes in Production of Biogas",
     "q": "How many of the following are uses or products of a biogas plant?<br>(i) Biogas for cooking<br>(ii) Biogas for lighting<br>(iii) Spent slurry as fertiliser<br>(iv) Methane for automobile fuel<br>(v) Electricity for industries",
     "options": [
-      "Two",
       "Three",
+      "Two",
       "Four",
       "Five"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "Only THREE are mentioned in NCERT: (i) Cooking, (ii) Lighting, and (iii) Spent slurry as fertiliser. Automobile fuel (iv) and industrial electricity (v) are NOT mentioned in NCERT as uses of biogas plant products."
   },
   {
@@ -2371,12 +2259,11 @@ var allQuestions = [
     "topic": "Microbes as Biocontrol Agents",
     "q": "Chemical insecticides and pesticides used in modern agriculture are:<br>(i) Toxic to human beings and animals<br>(ii) Polluting soil and ground water<br>(iii) Contaminating fruits, vegetables and crop plants<br>(iv) Completely safe for the environment<br><br>Which of the above are <b>correct</b>?",
     "options": [
-      "(i), (ii) and (iii) only",
-      "(i) and (iv) only",
       "(ii), (iii) and (iv) only",
+      "(i) and (iv) only",
+      "(i), (ii) and (iii) only",
       "All of the above"
-    ],
-    "correct": 0,
+    ], "correct": 2,
     "explanation": "Statements (i), (ii), and (iii) are correct per NCERT. Statement (iv) is wrong – chemicals are described as harmful and polluting, NOT safe. NCERT states they are 'toxic and extremely harmful' and have been 'polluting our environment.'"
   },
   {
@@ -2385,11 +2272,10 @@ var allQuestions = [
     "q": "Our soil is also polluted through the use of:",
     "options": [
       "Biofertilisers",
-      "Weedicides to remove weeds",
+      "Biopesticides",
       "Organic compost",
-      "Biopesticides"
-    ],
-    "correct": 1,
+      "Weedicides to remove weeds"
+    ], "correct": 3,
     "explanation": "NCERT states: 'Our soil is also polluted through our use of weedicides to remove weeds.' Weedicides are chemical herbicides that cause soil pollution. Biofertilisers and organic compost are eco-friendly alternatives."
   },
   {
@@ -2397,12 +2283,11 @@ var allQuestions = [
     "topic": "Microbes as Biocontrol Agents",
     "q": "A key belief of the organic farmer is that:",
     "options": [
-      "Chemical pesticides are essential for high yield",
-      "Monoculture is the most sustainable practice",
       "Biodiversity furthers health",
+      "Monoculture is the most sustainable practice",
+      "Chemical pesticides are essential for high yield",
       "Eradication of all pests is necessary"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "NCERT states: 'A key belief of the organic farmer is that biodiversity furthers health.' This is a foundational concept of organic farming – more variety = more sustainable landscape. This contrasts with chemical-intensive farming."
   },
   {
@@ -2437,11 +2322,10 @@ var allQuestions = [
     "q": "'Conventional' farming practices often use chemical methods that:",
     "options": [
       "Selectively kill only harmful organisms",
-      "Kill both useful and harmful life forms indiscriminately",
       "Promote biodiversity in the ecosystem",
+      "Kill both useful and harmful life forms indiscriminately",
       "Have no effect on non-target organisms"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "NCERT states: 'Contrary to the conventional farming practices which often use chemical methods to kill both useful and harmful life forms indiscriminately.' The word 'indiscriminately' is key – chemicals do not distinguish between beneficial and harmful organisms."
   },
   {
@@ -2462,12 +2346,11 @@ var allQuestions = [
     "topic": "Microbes as Biocontrol Agents",
     "q": "The Ladybird beetle with red and black markings is useful to get rid of:",
     "options": [
-      "Mosquitoes",
-      "Butterfly caterpillars",
       "Aphids",
+      "Butterfly caterpillars",
+      "Mosquitoes",
       "Locusts"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "NCERT states: 'the Ladybird, and Dragonflies are useful to get rid of aphids and mosquitoes, respectively.' Ladybird controls APHIDS. Dragonflies control mosquitoes. This is a very frequently tested matching in NEET."
   },
   {
@@ -2476,11 +2359,10 @@ var allQuestions = [
     "q": "Dragonflies are useful as biocontrol agents to get rid of:",
     "options": [
       "Aphids",
-      "Caterpillars",
       "Mosquitoes",
+      "Caterpillars",
       "Beetles"
-    ],
-    "correct": 2,
+    ], "correct": 1,
     "explanation": "NCERT states: 'Dragonflies are useful to get rid of...mosquitoes.' Ladybird → aphids; Dragonflies → mosquitoes. The reversal of these targets is one of the most common NEET traps in this chapter."
   },
   {
@@ -2490,10 +2372,9 @@ var allQuestions = [
     "options": [
       "Ladybird – Aphids",
       "Dragonflies – Mosquitoes",
-      "Bacillus thuringiensis – Butterfly caterpillars",
-      "Ladybird – Mosquitoes"
-    ],
-    "correct": 3,
+      "Ladybird – Mosquitoes",
+      "Bacillus thuringiensis – Butterfly caterpillars"
+    ], "correct": 2,
     "explanation": "Ladybird controls APHIDS, not mosquitoes. Mosquitoes are controlled by dragonflies. This swap between Ladybird targets and dragonfly targets is a classic NEET elimination question."
   },
   {
@@ -2503,10 +2384,9 @@ var allQuestions = [
     "options": [
       "Aphids",
       "Mosquitoes",
-      "Butterfly caterpillars",
-      "Fungal pathogens of plants"
-    ],
-    "correct": 2,
+      "Fungal pathogens of plants",
+      "Butterfly caterpillars"
+    ], "correct": 3,
     "explanation": "NCERT states: 'An example of microbial biocontrol agents that can be introduced in order to control butterfly caterpillars is the bacteria Bacillus thuringiensis.' Bt is specific for caterpillars (larval stage of butterflies), NOT aphids, mosquitoes, or fungi."
   },
   {
@@ -2514,12 +2394,11 @@ var allQuestions = [
     "topic": "Microbes as Biocontrol Agents",
     "q": "<i>Bacillus thuringiensis</i> is available commercially as:",
     "options": [
-      "Liquid culture in bottles",
       "Dried spores in sachets",
+      "Liquid culture in bottles",
       "Live bacteria in capsules",
       "Lyophilised cells in vials"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "NCERT states: 'These are available in sachets as dried spores which are mixed with water and sprayed onto vulnerable plants.' The form is DRIED SPORES in SACHETS – this specific detail is tested in NEET."
   },
   {
@@ -2541,11 +2420,10 @@ var allQuestions = [
     "q": "When insect larvae eat the spores of <i>Bacillus thuringiensis</i>, the toxin is released in:",
     "options": [
       "The mouth of the larvae",
-      "The gut of the larvae",
       "On the surface of the plant",
+      "The gut of the larvae",
       "In the soil around the plant"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "NCERT states: 'where these are eaten by the insect larvae. In the gut of the larvae, the toxin is released and the larvae get killed.' The toxin acts in the GUT of larvae – not on plant surface or in the mouth. This location of action is a critical NEET concept."
   },
   {
@@ -2555,10 +2433,9 @@ var allQuestions = [
     "options": [
       "Both Statements I and II are correct",
       "Both Statements I and II are incorrect",
-      "Statement I is correct but Statement II is incorrect",
-      "Statement I is incorrect but Statement II is correct"
-    ],
-    "correct": 2,
+      "Statement I is incorrect but Statement II is correct",
+      "Statement I is correct but Statement II is incorrect"
+    ], "correct": 3,
     "explanation": "Statement I is correct – NCERT states: 'The bacterial disease will kill the caterpillars, but leave other insects unharmed.' Statement II is incorrect – Bt is SELECTIVE, not indiscriminate. This selectivity is what makes it valuable as a biocontrol agent."
   },
   {
@@ -2566,12 +2443,11 @@ var allQuestions = [
     "topic": "Microbes as Biocontrol Agents",
     "q": "Bt-cotton was developed by:",
     "options": [
-      "Traditional cross-breeding methods",
       "Introduction of B. thuringiensis toxin genes into plants through genetic engineering",
+      "Traditional cross-breeding methods",
       "Spraying Bt spores directly on cotton plants",
       "Natural mutation in cotton plants"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "NCERT states: 'the scientists have introduced B. thuringiensis toxin genes into plants. Such plants are resistant to attack by insect pests. Bt-cotton is one such example.' Genetic engineering was used, NOT traditional breeding or spraying."
   },
   {
@@ -2606,11 +2482,10 @@ var allQuestions = [
     "q": "<i>Trichoderma</i> is an effective biocontrol agent of:",
     "options": [
       "Insect pests of crops",
-      "Several plant pathogens",
       "Mosquitoes and aphids",
+      "Several plant pathogens",
       "Butterfly caterpillars"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "NCERT states: 'They are effective biocontrol agents of several plant pathogens.' Trichoderma controls plant DISEASES (pathogens), not insect pests. Bt controls caterpillars; Ladybird controls aphids; dragonflies control mosquitoes."
   },
   {
@@ -2618,12 +2493,11 @@ var allQuestions = [
     "topic": "Microbes as Biocontrol Agents",
     "q": "Consider the following statements about <i>Trichoderma</i>:<br>(i) It is a free-living fungus<br>(ii) It is common in root ecosystems<br>(iii) It controls insect pests<br>(iv) It is an effective biocontrol agent of plant pathogens<br><br>Which statements are <b>correct</b>?",
     "options": [
-      "(i), (ii) and (iv) only",
+      "All of the above",
       "(i), (ii) and (iii) only",
       "(i) and (iii) only",
-      "All of the above"
-    ],
-    "correct": 0,
+      "(i), (ii) and (iv) only"
+    ], "correct": 3,
     "explanation": "Statement (iii) is INCORRECT – Trichoderma controls plant PATHOGENS (diseases), NOT insect pests. Statements (i), (ii), and (iv) are correct as per NCERT. Confusing pest control with pathogen control is a common NEET trap."
   },
   {
@@ -2631,12 +2505,11 @@ var allQuestions = [
     "topic": "Microbes as Biocontrol Agents",
     "q": "Baculoviruses are pathogens that attack:",
     "options": [
-      "Plants and fungi",
       "Insects and other arthropods",
+      "Plants and fungi",
       "Mammals and birds",
       "Fish and amphibians"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "NCERT states: 'Baculoviruses are pathogens that attack insects and other arthropods.' They are insect-specific viruses used as biocontrol agents."
   },
   {
@@ -2658,11 +2531,10 @@ var allQuestions = [
     "q": "Nucleopolyhedrovirus is described as an excellent candidate for:",
     "options": [
       "Broad spectrum insecticidal applications",
-      "Species-specific, narrow spectrum insecticidal applications",
       "Herbicidal applications",
+      "Species-specific, narrow spectrum insecticidal applications",
       "Fungicidal applications"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "NCERT states: 'These viruses are excellent candidates for species-specific, narrow spectrum insecticidal applications.' TWO key terms: SPECIES-SPECIFIC and NARROW SPECTRUM. They do NOT have broad spectrum activity – this distinction is a major NEET trap."
   },
   {
@@ -2696,12 +2568,11 @@ var allQuestions = [
     "topic": "Microbes as Biocontrol Agents",
     "q": "The use of baculoviruses is especially desirable when:",
     "options": [
-      "Quick eradication of all insects is needed",
       "Beneficial insects are being conserved in an IPM programme",
+      "Quick eradication of all insects is needed",
       "Chemical pesticides have failed to work",
       "Large-scale monoculture needs protection"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "NCERT states: 'This is especially desirable when beneficial insects are being conserved to aid in an overall integrated pest management (IPM) programme, or when an ecologically sensitive area is being treated.' Conservation of beneficial insects in IPM is the key context."
   },
   {
@@ -2722,12 +2593,11 @@ var allQuestions = [
     "topic": "Microbes as Biocontrol Agents",
     "q": "Match the following biocontrol agents with their targets:<br>(a) Ladybird → (i) Mosquitoes<br>(b) Dragonflies → (ii) Butterfly caterpillars<br>(c) Bacillus thuringiensis → (iii) Plant pathogens<br>(d) Trichoderma → (iv) Aphids<br><br>Select the <b>correct</b> match:",
     "options": [
-      "a-iv, b-i, c-ii, d-iii",
-      "a-i, b-iv, c-iii, d-ii",
       "a-iv, b-ii, c-i, d-iii",
+      "a-i, b-iv, c-iii, d-ii",
+      "a-iv, b-i, c-ii, d-iii",
       "a-ii, b-i, c-iv, d-iii"
-    ],
-    "correct": 0,
+    ], "correct": 2,
     "explanation": "Ladybird → Aphids (iv); Dragonflies → Mosquitoes (i); Bt → Butterfly caterpillars (ii); Trichoderma → Plant pathogens (iii). This comprehensive matching tests all four biocontrol agent-target pairs from NCERT."
   },
   {
@@ -2748,12 +2618,11 @@ var allQuestions = [
     "topic": "Microbes as Biocontrol Agents",
     "q": "Read the following statements:<br>Statement I: <i>Trichoderma</i> is a parasitic fungus commonly found in leaf ecosystems.<br>Statement II: <i>Bacillus thuringiensis</i> toxin is released in the gut of insect larvae.<br><br>Select the correct option:",
     "options": [
-      "Both Statements I and II are correct",
-      "Both Statements I and II are incorrect",
       "Statement I is incorrect but Statement II is correct",
+      "Both Statements I and II are incorrect",
+      "Both Statements I and II are correct",
       "Statement I is correct but Statement II is incorrect"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "Statement I is INCORRECT – Trichoderma is a FREE-LIVING (not parasitic) fungus common in ROOT ecosystems (not leaf). Statement II is correct – NCERT states toxin is released 'in the gut of the larvae.' Both 'free-living vs parasitic' and 'root vs leaf' are traps."
   },
   {
@@ -2774,12 +2643,11 @@ var allQuestions = [
     "topic": "Microbes as Biocontrol Agents",
     "q": "Consider the following organisms:<br>(a) Ladybird – Beetle<br>(b) Bacillus thuringiensis – Virus<br>(c) Trichoderma – Fungus<br>(d) Nucleopolyhedrovirus – Bacterium<br><br>Which of the above are <b>correctly</b> classified?",
     "options": [
-      "(a) and (c) only",
-      "(a), (c) and (d)",
       "(b) and (d) only",
+      "(a), (c) and (d)",
+      "(a) and (c) only",
       "All of the above"
-    ],
-    "correct": 0,
+    ], "correct": 2,
     "explanation": "Only (a) and (c) are correct. (b) is wrong – Bt is a BACTERIUM, not a virus. (d) is wrong – Nucleopolyhedrovirus is a VIRUS (genus of baculoviruses), not a bacterium. Mixing up the organism type (bacterium vs virus vs fungus) is a classic NEET trap."
   },
   {
@@ -2814,11 +2682,10 @@ var allQuestions = [
     "q": "Biofertilisers are:",
     "options": [
       "Chemical substances that enrich soil nutrients",
-      "Organisms that enrich the nutrient quality of the soil",
+      "Inorganic fertilisers produced by microbial action",
       "Genetically modified plants that fix nitrogen",
-      "Inorganic fertilisers produced by microbial action"
-    ],
-    "correct": 1,
+      "Organisms that enrich the nutrient quality of the soil"
+    ], "correct": 3,
     "explanation": "NCERT states: 'Biofertilisers are organisms that enrich the nutrient quality of the soil.' They are ORGANISMS, not chemicals or inorganic substances. This definition-based distinction is crucial for NEET."
   },
   {
@@ -2840,11 +2707,10 @@ var allQuestions = [
     "q": "Nodules on the roots of leguminous plants are formed by the symbiotic association of:",
     "options": [
       "Azotobacter",
-      "Azospirillum",
       "Rhizobium",
+      "Azospirillum",
       "Anabaena"
-    ],
-    "correct": 2,
+    ], "correct": 1,
     "explanation": "NCERT states: 'nodules on the roots of leguminous plants formed by the symbiotic association of Rhizobium.' Rhizobium is the SYMBIOTIC nitrogen-fixer. Azotobacter and Azospirillum are FREE-LIVING. Anabaena is a cyanobacterium."
   },
   {
@@ -2853,11 +2719,10 @@ var allQuestions = [
     "q": "<i>Rhizobium</i> fixes atmospheric nitrogen into:",
     "options": [
       "Inorganic nitrates only",
-      "Organic forms",
       "Gaseous ammonia only",
+      "Organic forms",
       "Elemental nitrogen"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "NCERT states: 'These bacteria fix atmospheric nitrogen into organic forms, which is used by the plant as nutrient.' The nitrogen is fixed into ORGANIC forms – not inorganic nitrates or gaseous ammonia."
   },
   {
@@ -2866,11 +2731,10 @@ var allQuestions = [
     "q": "Which of the following are <b>free-living</b> nitrogen-fixing bacteria in the soil?",
     "options": [
       "Rhizobium and Azotobacter",
-      "Azospirillum and Azotobacter",
+      "Anabaena and Nostoc",
       "Rhizobium and Azospirillum",
-      "Anabaena and Nostoc"
-    ],
-    "correct": 1,
+      "Azospirillum and Azotobacter"
+    ], "correct": 3,
     "explanation": "NCERT states: 'Other bacteria can fix atmospheric nitrogen while free-living in the soil (examples Azospirillum and Azotobacter).' Rhizobium is SYMBIOTIC (not free-living). Anabaena and Nostoc are cyanobacteria, not bacteria in this context."
   },
   {
@@ -2891,12 +2755,11 @@ var allQuestions = [
     "topic": "Microbes as Biofertilisers",
     "q": "Which of the following is <b>correctly</b> matched?",
     "options": [
-      "Rhizobium – Free-living in soil",
-      "Azospirillum – Symbiotic with legumes",
       "Azotobacter – Free-living in soil",
+      "Azospirillum – Symbiotic with legumes",
+      "Rhizobium – Free-living in soil",
       "Glomus – Free-living nitrogen fixer"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "Azotobacter is correctly described as free-living in soil. Rhizobium is symbiotic (NOT free-living). Azospirillum is free-living (NOT symbiotic with legumes). Glomus forms mycorrhiza for phosphorus absorption (NOT nitrogen fixation)."
   },
   {
@@ -2931,11 +2794,10 @@ var allQuestions = [
     "q": "The fungal symbiont in mycorrhiza absorbs _________ from soil and passes it to the plant.",
     "options": [
       "Nitrogen",
-      "Phosphorus",
+      "Iron",
       "Potassium",
-      "Iron"
-    ],
-    "correct": 1,
+      "Phosphorus"
+    ], "correct": 3,
     "explanation": "NCERT states: 'The fungal symbiont in these associations absorbs phosphorus from soil and passes it to the plant.' Mycorrhiza → PHOSPHORUS absorption. NOT nitrogen (which is fixed by Rhizobium/Azotobacter). The N₂ vs P swap is one of the biggest NEET traps."
   },
   {
@@ -3010,10 +2872,9 @@ var allQuestions = [
     "options": [
       "Rhizobium",
       "Azotobacter",
-      "Cyanobacteria",
-      "Glomus"
-    ],
-    "correct": 2,
+      "Glomus",
+      "Cyanobacteria"
+    ], "correct": 3,
     "explanation": "NCERT states: 'In paddy fields, cyanobacteria serve as an important biofertiliser.' Rhizobium is specific to leguminous plants, not paddy. Glomus forms mycorrhiza. The cyanobacteria-paddy field association is a very high-frequency NEET fact."
   },
   {
@@ -3021,12 +2882,11 @@ var allQuestions = [
     "topic": "Microbes as Biofertilisers",
     "q": "Blue green algae (cyanobacteria) contribute to soil fertility by:<br>(i) Fixing atmospheric nitrogen<br>(ii) Adding organic matter to the soil<br><br>Which of the above is/are correct?",
     "options": [
-      "(i) only",
-      "(ii) only",
       "Both (i) and (ii)",
+      "(ii) only",
+      "(i) only",
       "Neither (i) nor (ii)"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "NCERT states cyanobacteria fix atmospheric nitrogen AND 'Blue green algae also add organic matter to the soil and increase its fertility.' Both roles are mentioned – nitrogen fixation AND organic matter addition."
   },
   {
@@ -3035,11 +2895,10 @@ var allQuestions = [
     "q": "Consider the following statements:<br>Statement I: <i>Azospirillum</i> forms symbiotic association with leguminous plants to fix nitrogen.<br>Statement II: <i>Rhizobium</i> forms root nodules on leguminous plants for nitrogen fixation.<br><br>Select the correct option:",
     "options": [
       "Both Statements I and II are correct",
-      "Both Statements I and II are incorrect",
       "Statement I is incorrect but Statement II is correct",
+      "Both Statements I and II are incorrect",
       "Statement I is correct but Statement II is incorrect"
-    ],
-    "correct": 2,
+    ], "correct": 1,
     "explanation": "Statement I is INCORRECT – Azospirillum is FREE-LIVING in soil, NOT symbiotic with legumes. Statement II is correct – Rhizobium forms nodules on leguminous roots (symbiotic). This symbiotic vs free-living distinction is repeatedly tested in NEET."
   },
   {
@@ -3049,10 +2908,9 @@ var allQuestions = [
     "options": [
       "Rhizobium – Symbiotic nitrogen fixation",
       "Glomus – Mycorrhiza – Phosphorus absorption",
-      "Anabaena – Cyanobacterium – Nitrogen fixation",
-      "Azotobacter – Mycorrhiza – Phosphorus absorption"
-    ],
-    "correct": 3,
+      "Azotobacter – Mycorrhiza – Phosphorus absorption",
+      "Anabaena – Cyanobacterium – Nitrogen fixation"
+    ], "correct": 2,
     "explanation": "Azotobacter is a FREE-LIVING nitrogen-fixing BACTERIUM, NOT a mycorrhiza-forming fungus. Azotobacter has nothing to do with phosphorus absorption. Glomus forms mycorrhiza for phosphorus absorption. This is a classic organism-function swap trap."
   },
   {
@@ -3060,12 +2918,11 @@ var allQuestions = [
     "topic": "Microbes as Biofertilisers",
     "q": "Match the following biofertilisers with their primary function:<br>(a) Rhizobium → (i) Phosphorus absorption<br>(b) Glomus → (ii) Free-living N₂ fixation in soil<br>(c) Azotobacter → (iii) Symbiotic N₂ fixation<br>(d) Anabaena → (iv) N₂ fixation in paddy fields<br><br>Select the <b>correct</b> match:",
     "options": [
-      "a-iii, b-i, c-ii, d-iv",
+      "a-iv, b-i, c-iii, d-ii",
       "a-i, b-iii, c-iv, d-ii",
       "a-iii, b-ii, c-i, d-iv",
-      "a-iv, b-i, c-iii, d-ii"
-    ],
-    "correct": 0,
+      "a-iii, b-i, c-ii, d-iv"
+    ], "correct": 3,
     "explanation": "Rhizobium → Symbiotic N₂ fixation (iii); Glomus → Phosphorus absorption via mycorrhiza (i); Azotobacter → Free-living N₂ fixation (ii); Anabaena → N₂ fixation in paddy fields (iv). This comprehensive matching covers all four biofertiliser types."
   },
   {
@@ -3086,12 +2943,11 @@ var allQuestions = [
     "topic": "Microbes as Biofertilisers",
     "q": "Which of the following is <b>NOT</b> a benefit of mycorrhizal association mentioned in NCERT?",
     "options": [
-      "Resistance to root-borne pathogens",
+      "Nitrogen fixation from atmosphere",
       "Tolerance to salinity and drought",
       "Overall increase in plant growth",
-      "Nitrogen fixation from atmosphere"
-    ],
-    "correct": 3,
+      "Resistance to root-borne pathogens"
+    ], "correct": 0,
     "explanation": "Nitrogen fixation is NOT a function of mycorrhiza. NCERT lists three benefits: (1) resistance to root-borne pathogens, (2) tolerance to salinity and drought, (3) overall increase in plant growth and development. Mycorrhiza absorbs PHOSPHORUS, not nitrogen."
   },
   {
@@ -3114,10 +2970,9 @@ var allQuestions = [
     "options": [
       "One",
       "Two",
-      "Three",
-      "All four"
-    ],
-    "correct": 3,
+      "All four",
+      "Three"
+    ], "correct": 2,
     "explanation": "ALL FOUR are correctly described per NCERT. Rhizobium = symbiotic with legumes ✓; Azotobacter = free-living in soil ✓; Glomus = mycorrhiza for P absorption ✓; Oscillatoria = cyanobacterium in paddy fields (nitrogen fixer) ✓."
   },
   {
@@ -3127,10 +2982,9 @@ var allQuestions = [
     "options": [
       "Rhizobium",
       "Glomus",
-      "Azospirillum",
-      "Anabaena"
-    ],
-    "correct": 2,
+      "Anabaena",
+      "Azospirillum"
+    ], "correct": 3,
     "explanation": "NCERT states: 'Other bacteria can fix atmospheric nitrogen while free-living in the soil (examples Azospirillum and Azotobacter), thus enriching the nitrogen content of the soil.' Rhizobium is symbiotic. Glomus absorbs phosphorus. Anabaena is a cyanobacterium (could be considered correct, but NCERT specifically lists Azospirillum as a free-living BACTERIAL example)."
   },
   {
@@ -3138,12 +2992,11 @@ var allQuestions = [
     "topic": "Microbes as Biofertilisers",
     "q": "Read the following statements:<br>Statement I: Mycorrhiza is formed by symbiotic association of bacteria with plant roots.<br>Statement II: The fungal symbiont in mycorrhiza absorbs phosphorus from soil.<br><br>Select the correct option:",
     "options": [
-      "Both Statements I and II are correct",
-      "Both Statements I and II are incorrect",
       "Statement I is incorrect but Statement II is correct",
+      "Both Statements I and II are incorrect",
+      "Both Statements I and II are correct",
       "Statement I is correct but Statement II is incorrect"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "Statement I is INCORRECT – mycorrhiza is formed by FUNGI (not bacteria) with plant roots. Statement II is correct – NCERT confirms the fungal symbiont absorbs phosphorus. The fungi vs bacteria mix-up for mycorrhiza is a critical NEET trap."
   },
   {
@@ -3179,10 +3032,9 @@ var allQuestions = [
     "options": [
       "Anabaena",
       "Nostoc",
-      "Oscillatoria",
-      "Spirulina"
-    ],
-    "correct": 3,
+      "Spirulina",
+      "Oscillatoria"
+    ], "correct": 2,
     "explanation": "NCERT lists Anabaena, Nostoc, and Oscillatoria as examples. Spirulina is NOT mentioned in this context in NCERT. Students may recall Spirulina from other contexts but it is not listed here as a biofertiliser."
   },
   {
@@ -3191,11 +3043,10 @@ var allQuestions = [
     "q": "The overuse of chemical fertilisers has contributed to:",
     "options": [
       "Increased biodiversity",
-      "Environmental pollution",
+      "Enhanced microbial activity in soil",
       "Improved soil health",
-      "Enhanced microbial activity in soil"
-    ],
-    "correct": 1,
+      "Environmental pollution"
+    ], "correct": 3,
     "explanation": "NCERT states: 'The use of the chemical fertilisers to meet the ever-increasing demand of agricultural produce has contributed significantly to this pollution.' Overuse of chemical fertilisers leads to environmental pollution, not improved biodiversity or soil health."
   },
   {
@@ -3203,12 +3054,11 @@ var allQuestions = [
     "topic": "Microbes as Biofertilisers",
     "q": "Which organism derives nutrients while living <b>symbiotically</b> with leguminous plant roots and also helps the plant?",
     "options": [
-      "Azotobacter",
-      "Azospirillum",
       "Rhizobium",
+      "Azospirillum",
+      "Azotobacter",
       "Oscillatoria"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "Rhizobium forms a symbiotic association with leguminous plant roots (nodules). The bacterium fixes nitrogen for the plant, and in return gets shelter and nutrients from the plant. Azotobacter and Azospirillum are free-living. Oscillatoria is a cyanobacterium."
   },
   {
@@ -3217,11 +3067,10 @@ var allQuestions = [
     "q": "Consider the following about biofertilisers:<br>(i) Rhizobium – Bacteria – Symbiotic – Nitrogen fixation<br>(ii) Glomus – Fungi – Symbiotic – Phosphorus absorption<br>(iii) Azotobacter – Bacteria – Free-living – Nitrogen fixation<br>(iv) Nostoc – Cyanobacteria – Autotrophic – Nitrogen fixation<br><br>How many are <b>correctly</b> described?",
     "options": [
       "One",
-      "Two",
+      "All four",
       "Three",
-      "All four"
-    ],
-    "correct": 3,
+      "Two"
+    ], "correct": 1,
     "explanation": "ALL FOUR are correctly described as per NCERT. Each entry correctly identifies the organism, classification, lifestyle, and function. This is a comprehensive factual recall question covering the entire biofertiliser topic."
   },
   {
@@ -3231,10 +3080,9 @@ var allQuestions = [
     "options": [
       "They show resistance to root-borne pathogens",
       "They show tolerance to salinity",
-      "They show tolerance to drought",
-      "They show resistance to all viral diseases"
-    ],
-    "correct": 3,
+      "They show resistance to all viral diseases",
+      "They show tolerance to drought"
+    ], "correct": 2,
     "explanation": "NCERT mentions resistance to ROOT-BORNE pathogens, tolerance to salinity and drought. 'Resistance to all viral diseases' is NOT mentioned. Mycorrhizal benefits are specific to root-related issues and overall growth – not all diseases."
   },
   {
@@ -3243,11 +3091,10 @@ var allQuestions = [
     "q": "The use of biofertilisers helps to:",
     "options": [
       "Increase soil pollution",
-      "Reduce dependence on chemical fertilisers",
+      "Increase the use of pesticides",
       "Eliminate all soil microbes",
-      "Increase the use of pesticides"
-    ],
-    "correct": 1,
+      "Reduce dependence on chemical fertilisers"
+    ], "correct": 3,
     "explanation": "NCERT states: 'farmers use these regularly in their fields to replenish soil nutrients and to reduce dependence on chemical fertilisers.' Biofertilisers are eco-friendly alternatives that reduce chemical fertiliser use."
   },
   {
@@ -3269,11 +3116,10 @@ var allQuestions = [
     "q": "Which of the following microbe–product pairs is <b>incorrectly</b> matched?",
     "options": [
       "Lactobacillus – Curd",
-      "Saccharomyces cerevisiae – Bread",
       "Propionibacterium sharmanii – Roquefort cheese",
+      "Saccharomyces cerevisiae – Bread",
       "Aspergillus niger – Citric acid"
-    ],
-    "correct": 2,
+    ], "correct": 1,
     "explanation": "Propionibacterium sharmanii is associated with SWISS cheese (large holes due to CO₂), NOT Roquefort cheese. Roquefort cheese is ripened by specific FUNGI. This is one of the most frequently tested organism-product swaps in NEET."
   },
   {
@@ -3281,12 +3127,11 @@ var allQuestions = [
     "topic": "Chapter Summary – Comprehensive Revision",
     "q": "Consider the following statements:<br>(i) LAB convert milk to curd and increase vitamin B12<br>(ii) Bread is fermented by <i>Saccharomyces cerevisiae</i><br>(iii) Idli and dosa dough is fermented by yeast<br>(iv) Cheese gets its specific flavour from the microbes used<br><br>Which are <b>correct</b>?",
     "options": [
-      "(i), (ii) and (iv) only",
-      "(i), (ii), (iii) and (iv)",
       "(i) and (ii) only",
+      "(i), (ii), (iii) and (iv)",
+      "(i), (ii) and (iv) only",
       "(iii) and (iv) only"
-    ],
-    "correct": 0,
+    ], "correct": 2,
     "explanation": "Statement (iii) is INCORRECT – idli and dosa dough is fermented by BACTERIA, not yeast. Statements (i), (ii), and (iv) are correct per NCERT. This bacteria vs yeast distinction for dosa/idli is the most tested trap in household products."
   },
   {
@@ -3308,11 +3153,10 @@ var allQuestions = [
     "q": "Which of the following scientists is correctly associated with the discovery and development of Penicillin?<br>(i) Alexander Fleming – Discovery<br>(ii) Ernest Chain – Establishing full potential<br>(iii) Howard Florey – Establishing full potential<br>(iv) All three – Nobel Prize 1945",
     "options": [
       "(i) and (iv) only",
-      "(i), (ii), (iii) and (iv)",
+      "(i) and (ii) only",
       "(ii) and (iii) only",
-      "(i) and (ii) only"
-    ],
-    "correct": 1,
+      "(i), (ii), (iii) and (iv)"
+    ], "correct": 3,
     "explanation": "All four statements are correct per NCERT. Fleming discovered Penicillin; Chain and Florey established its full potential; all three received the Nobel Prize in 1945. This complete association is a direct NCERT fact."
   },
   {
@@ -3320,12 +3164,11 @@ var allQuestions = [
     "topic": "Chapter Summary – Comprehensive Revision",
     "q": "Read the following statements and identify the <b>incorrect</b> one:",
     "options": [
-      "Methanogens produce methane while degrading plant waste",
-      "Biogas is used as a source of energy in rural areas",
       "Primary treatment of sewage is a biological process",
+      "Biogas is used as a source of energy in rural areas",
+      "Methanogens produce methane while degrading plant waste",
       "Antibiotics like penicillin are used to kill disease-causing microbes"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "Primary treatment is a PHYSICAL process (filtration and sedimentation), NOT biological. SECONDARY treatment is the biological process. All other statements are correct per NCERT summary."
   },
   {
@@ -3334,11 +3177,10 @@ var allQuestions = [
     "q": "Which of the following represents the <b>correct</b> sequence of organic acid – producing microbe?",
     "options": [
       "Citric acid – Acetobacter aceti",
-      "Acetic acid – Aspergillus niger",
       "Butyric acid – Clostridium butylicum",
+      "Acetic acid – Aspergillus niger",
       "Lactic acid – Clostridium butylicum"
-    ],
-    "correct": 2,
+    ], "correct": 1,
     "explanation": "Butyric acid – Clostridium butylicum is correct. Citric acid = Aspergillus niger (NOT Acetobacter). Acetic acid = Acetobacter aceti (NOT Aspergillus). Lactic acid = Lactobacillus (NOT Clostridium). The organism-acid pairings are very commonly swapped in NEET."
   },
   {
@@ -3347,11 +3189,10 @@ var allQuestions = [
     "q": "Consider the following biocontrol agents and their targets:<br>(i) Ladybird – Mosquitoes<br>(ii) Dragonflies – Aphids<br>(iii) Bt – Butterfly caterpillars<br>(iv) Trichoderma – Plant pathogens<br><br>Which are <b>correctly</b> matched?",
     "options": [
       "(i) and (ii) only",
-      "(iii) and (iv) only",
       "(i), (ii) and (iii)",
+      "(iii) and (iv) only",
       "All of the above"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "Statements (i) and (ii) are REVERSED – Ladybird controls APHIDS (not mosquitoes) and Dragonflies control MOSQUITOES (not aphids). Only (iii) Bt → caterpillars and (iv) Trichoderma → plant pathogens are correct."
   },
   {
@@ -3361,10 +3202,9 @@ var allQuestions = [
     "options": [
       "Streptokinase",
       "Statins",
-      "Cyclosporin A",
-      "Penicillin"
-    ],
-    "correct": 2,
+      "Penicillin",
+      "Cyclosporin A"
+    ], "correct": 3,
     "explanation": "NCERT: Cyclosporin A (from Trichoderma polysporum) = immunosuppressive in organ transplants. Streptokinase = clot buster. Statins = cholesterol lowering. Penicillin = antibiotic. This is one of the most tested bioactive molecule-application matchings."
   },
   {
@@ -3372,12 +3212,11 @@ var allQuestions = [
     "topic": "Chapter Summary – Comprehensive Revision",
     "q": "Which of the following is <b>correctly</b> matched regarding biogas?",
     "options": [
-      "Biogas predominantly contains CO₂",
-      "Methanogens are aerobic bacteria",
       "Methanobacterium is found in rumen of cattle",
+      "Methanogens are aerobic bacteria",
+      "Biogas predominantly contains CO₂",
       "Biogas technology was developed by ICAR and CSIR"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "Methanobacterium is found in the rumen of cattle – correct per NCERT. Biogas predominantly contains METHANE (not CO₂). Methanogens are ANAEROBIC (not aerobic). Technology was developed by IARI and KVIC (not ICAR and CSIR)."
   },
   {
@@ -3399,11 +3238,10 @@ var allQuestions = [
     "q": "How many of the following are <b>fungi</b> mentioned in the chapter?<br>(i) Aspergillus niger<br>(ii) Trichoderma polysporum<br>(iii) Trichoderma (biocontrol)<br>(iv) Penicillium notatum<br>(v) Monascus purpureus<br>(vi) Saccharomyces cerevisiae",
     "options": [
       "Three",
-      "Four",
+      "Six",
       "Five",
-      "Six"
-    ],
-    "correct": 3,
+      "Four"
+    ], "correct": 1,
     "explanation": "ALL SIX are fungi (yeasts are a type of fungi). Aspergillus niger (citric acid), Trichoderma polysporum (cyclosporin A), Trichoderma (biocontrol), Penicillium notatum (penicillin), Monascus purpureus (statins – yeast), and Saccharomyces cerevisiae (yeast for bread/beverages). All belong to Kingdom Fungi."
   },
   {
@@ -3438,11 +3276,10 @@ var allQuestions = [
     "q": "Consider the following applications of microbial products:<br>(a) Streptokinase – Clot buster<br>(b) Cyclosporin A – Blood cholesterol lowering<br>(c) Statins – Immunosuppressive<br>(d) Lipases – Detergent formulations<br><br>How many are <b>correctly</b> matched?",
     "options": [
       "One",
-      "Two",
       "Three",
+      "Two",
       "Four"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "Only TWO are correct: (a) Streptokinase = clot buster ✓ and (d) Lipases = detergent formulations ✓. (b) is wrong – Cyclosporin A is IMMUNOSUPPRESSIVE, not cholesterol-lowering. (c) is wrong – Statins are CHOLESTEROL-LOWERING, not immunosuppressive. The applications of (b) and (c) are swapped."
   },
   {
@@ -3450,12 +3287,11 @@ var allQuestions = [
     "topic": "Chapter Summary – Comprehensive Revision",
     "q": "Which of the following diseases was specifically mentioned in NCERT as being treated by antibiotics?<br>(i) Diphtheria<br>(ii) Whooping cough<br>(iii) Pneumonia<br>(iv) Plague<br>(v) Leprosy<br>(vi) Malaria",
     "options": [
-      "(i), (ii), (iii), (iv) and (v) only",
+      "All of the above",
       "(i), (ii) and (iii) only",
       "(i), (ii), (iv) and (v) only",
-      "All of the above"
-    ],
-    "correct": 0,
+      "(i), (ii), (iii), (iv) and (v) only"
+    ], "correct": 3,
     "explanation": "NCERT main text mentions plague, whooping cough, diphtheria, and leprosy. The summary adds pneumonia. Malaria is NOT mentioned as treated by antibiotics (it's caused by a protozoan and treated with antimalarial drugs). So (i) through (v) are correct."
   },
   {
@@ -3463,12 +3299,11 @@ var allQuestions = [
     "topic": "Chapter Summary – Comprehensive Revision",
     "q": "Which of the following statements about <i>Saccharomyces cerevisiae</i> is <b>incorrect</b>?",
     "options": [
-      "It is used as baker's yeast",
-      "It is used as brewer's yeast",
       "It ferments dosa and idli dough",
+      "It is used as brewer's yeast",
+      "It is used as baker's yeast",
       "It is used for commercial production of ethanol"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "Saccharomyces cerevisiae does NOT ferment dosa/idli dough – that is done by BACTERIA. S. cerevisiae is used for bread (baker's yeast), alcoholic beverages (brewer's yeast), and commercial ethanol production. The dosa/idli–bacteria connection is a perennial NEET trap."
   },
   {
@@ -3516,11 +3351,10 @@ var allQuestions = [
     "q": "Which of the following chapters' concepts are linked to Bt-cotton?",
     "options": [
       "Molecular Basis of Inheritance",
-      "Biotechnology and its Applications",
       "Principles of Inheritance",
+      "Biotechnology and its Applications",
       "Evolution"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "NCERT states regarding Bt-cotton: 'You will learn more about this in chapter 10' which is Biotechnology and its Applications. Bt-cotton involves genetic engineering – a key topic of biotechnology."
   },
   {
@@ -3528,12 +3362,11 @@ var allQuestions = [
     "topic": "Chapter Summary – Comprehensive Revision",
     "q": "Match the following microbes with their type:<br>(a) Lactobacillus → (i) Fungus<br>(b) Saccharomyces cerevisiae → (ii) Cyanobacterium<br>(c) Aspergillus niger → (iii) Bacterium<br>(d) Anabaena → (iv) Yeast/Fungus<br><br>Select the <b>correct</b> match:",
     "options": [
-      "a-iii, b-iv, c-i, d-ii",
+      "a-ii, b-iv, c-i, d-iii",
       "a-i, b-iii, c-iv, d-ii",
       "a-iii, b-i, c-iv, d-ii",
-      "a-ii, b-iv, c-i, d-iii"
-    ],
-    "correct": 0,
+      "a-iii, b-iv, c-i, d-ii"
+    ], "correct": 3,
     "explanation": "Lactobacillus = Bacterium (iii); Saccharomyces cerevisiae = Yeast/Fungus (iv); Aspergillus niger = Fungus (i); Anabaena = Cyanobacterium (ii). Correct organism classification is foundational for NEET questions in this chapter."
   },
   {
@@ -3541,12 +3374,11 @@ var allQuestions = [
     "topic": "Chapter Summary – Comprehensive Revision",
     "q": "Which of the following correctly lists the gases in biogas produced during <b>anaerobic sludge digestion</b> in sewage treatment?",
     "options": [
-      "Methane, CO₂, and H₂",
       "Methane, H₂S, and CO₂",
+      "Methane, CO₂, and H₂",
       "Methane, O₂, and N₂",
       "CO₂, H₂, and O₂"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "During sewage treatment, anaerobic sludge digestion produces methane, H₂S, and CO₂. This differs from methanogen-produced gases (methane, CO₂, H₂). The H₂S vs H₂ distinction between sewage biogas and methanogen biogas is a subtle but important NEET difference."
   },
   {
@@ -3582,10 +3414,9 @@ var allQuestions = [
     "options": [
       "Household products, industrial products, and antibiotics only",
       "Sewage treatment, biogas production, and biocontrol only",
-      "Household products, industrial products, antibiotics, sewage treatment, biogas production, biocontrol, and biofertilisers",
-      "Only antibiotics and biofertilisers"
-    ],
-    "correct": 2,
+      "Only antibiotics and biofertilisers",
+      "Household products, industrial products, antibiotics, sewage treatment, biogas production, biocontrol, and biofertilisers"
+    ], "correct": 3,
     "explanation": "NCERT covers ALL of the following microbial contributions: household products (curd, bread, cheese), industrial products (beverages, chemicals, enzymes), antibiotics, sewage treatment, biogas production, biocontrol agents, and biofertilisers. This is the complete list of topics in the chapter."
   },
   {
@@ -3595,8 +3426,12 @@ var allQuestions = [
     "type": "HowMany",
     "hots": true,
     "q": "How many are associated with secondary treatment in STP from the given box?<br><b>Primary sludge, Aeration tank, Flocs, Sequential filtration, UV ray treatment, Reverse osmosis, Anaerobic sludge digesters, Decrease in BOD, Chlorination</b>",
-    "options": ["8", "6", "4", "2"],
-    "correct": 2,
+    "options": [
+      "4",
+      "6",
+      "8",
+      "2"
+    ], "correct": 0,
     "explanation": "SOLUTION: Aeration tank, flocs, reduction in BOD of the effluent and anaerobic sludge digester are associated with secondary treatment in STP.\nCorrect because these 4 elements specifically participate in the biological (secondary) phase. The tempting option '6' or '8' is wrong because Primary sludge belongs to primary treatment, while UV, Chlorination, Reverse osmosis, and Sequential filtration are parts of tertiary treatment."
   },
   {
@@ -3606,8 +3441,12 @@ var allQuestions = [
     "type": "Statement",
     "hots": true,
     "q": "Read the statements and choose the correct option accordingly.<br><b>Statement A:</b> Dried spores of Bacillus thuringiensis (Bt) is used as bioinsecticide.<br><b>Statement B:</b> Bt can be introduced to control butterfly caterpillars.",
-    "options": ["Both statements are correct", "Both statements are incorrect", "Only A is correct", "Only B is correct"],
-    "correct": 0,
+    "options": [
+      "Both statements are incorrect",
+      "Both statements are correct",
+      "Only A is correct",
+      "Only B is correct"
+    ], "correct": 1,
     "explanation": "SOLUTION: Dried spores of Bacillus thuringiensis are available in sachets and used as bio-insecticides to control butterfly caterpillars.\nCorrect because Bt spores are widely sold in sachets to specifically target and kill butterfly caterpillars without harming other insects. The tempting options favoring only one statement are wrong because both represent factual, standard applications of Bt."
   },
   {
@@ -3617,8 +3456,12 @@ var allQuestions = [
     "type": "Direct",
     "hots": true,
     "q": "Toddy is fermented sap of",
-    "options": ["Yeast", "Caryota urens", "Bacteria", "Sugarcane"],
-    "correct": 1,
+    "options": [
+      "Yeast",
+      "Bacteria",
+      "Caryota urens",
+      "Sugarcane"
+    ], "correct": 2,
     "explanation": "SOLUTION: Toddy is fermented sap of Caryota urens.\nCorrect because Caryota urens is a species of palm tree from which the sap is extracted to make the traditional drink Toddy. The tempting option 'Yeast' is wrong because yeast is the microbe that performs the fermentation, not the source of the sap."
   },
   {
@@ -3628,8 +3471,12 @@ var allQuestions = [
     "type": "Except",
     "hots": true,
     "q": "Which one is not a tool used for IPM?",
-    "options": ["Summer ploughing", "Late planting", "Excess use of pesticides", "Quarantine measures"],
-    "correct": 2,
+    "options": [
+      "Summer ploughing",
+      "Late planting",
+      "Quarantine measures",
+      "Excess use of pesticides"
+    ], "correct": 3,
     "explanation": "SOLUTION: Many tools have been successfully used for IPM in several crops as summer ploughing, quarantine measure, late planting and controlled use of pesticides.\nCorrect because Integrated Pest Management (IPM) strictly advocates against the 'excess' use of chemical pesticides, promoting sustainable and biological alternatives. The tempting options like 'Late planting' are wrong as they are actual cultural tools used in IPM."
   },
   {
@@ -3639,8 +3486,12 @@ var allQuestions = [
     "type": "Except",
     "hots": true,
     "q": "Which one is incorrect statement with respect to discovery of penicillin?",
-    "options": ["Fleming found the growth of mould inhibited the growth of Staphylococci in culture plate", "Fleming found that the chemical was produced by the mould Penicillium notatum and named it Penicillin", "Penicillin acts on cell wall of plant cells", "Fleming, Chain and Florey were awarded Nobel prize for this discovery"],
-    "correct": 2,
+    "options": [
+      "Penicillin acts on cell wall of plant cells",
+      "Fleming found that the chemical was produced by the mould Penicillium notatum and named it Penicillin",
+      "Fleming found the growth of mould inhibited the growth of Staphylococci in culture plate",
+      "Fleming, Chain and Florey were awarded Nobel prize for this discovery"
+    ], "correct": 0,
     "explanation": "SOLUTION: Penicillin antibiotic inhibits cell wall formation in bacterial cells.\nCorrect because penicillin specifically targets the peptidoglycan cell wall of bacteria, not plant cells. The tempting option regarding the Nobel Prize is wrong to select because it is a true statement (they were indeed awarded the prize in 1945)."
   },
   {
@@ -3650,8 +3501,12 @@ var allQuestions = [
     "type": "Direct",
     "hots": true,
     "q": "Bottled juices are clarified by the use of",
-    "options": ["Pectinases", "Proteases", "Lipase", "Both (1) and (2)"],
-    "correct": 3,
+    "options": [
+      "Pectinases",
+      "Both (1) and (2)",
+      "Lipase",
+      "Proteases"
+    ], "correct": 1,
     "explanation": "SOLUTION: Pectinases and proteases are used in clarifying fruit juices which are product of Aspergillus niger and Mortierella renispora respectively.\nCorrect because both enzymes break down the structural proteins and pectins that cause cloudiness in juices. The tempting option 'Lipase' is wrong because lipases break down fats (used in detergents), not the components causing cloudiness in fruit juice."
   },
   {
@@ -3661,8 +3516,12 @@ var allQuestions = [
     "type": "Direct",
     "hots": true,
     "q": "In which stage of sewage treatment pathogens and pesticides can be removed?",
-    "options": ["Primary treatment", "Secondary treatment", "Biological treatment", "Tertiary treatment"],
-    "correct": 3,
+    "options": [
+      "Primary treatment",
+      "Secondary treatment",
+      "Tertiary treatment",
+      "Biological treatment"
+    ], "correct": 2,
     "explanation": "SOLUTION: During tertiary stage of sewage treatment DDT, pesticides and pathogens are removed by physico-chemical process.\nCorrect because tertiary treatment involves advanced physico-chemical processes like chlorination or UV radiation specifically designed to eliminate traces of pathogens and chemicals. The tempting option 'Secondary treatment' is wrong as it only targets organic matter (BOD reduction)."
   },
   {
@@ -3672,8 +3531,12 @@ var allQuestions = [
     "type": "Direct",
     "hots": true,
     "q": "Cyanobacteria help farmers by",
-    "options": ["Reducing alkalinity of soil", "Ammonification", "Reducing acidity of soil", "By denitrification"],
-    "correct": 0,
+    "options": [
+      "By denitrification",
+      "Ammonification",
+      "Reducing acidity of soil",
+      "Reducing alkalinity of soil"
+    ], "correct": 3,
     "explanation": "SOLUTION: Cyanobacteria are helpful to farmers as they increase soil fertility and reduce alkalinity of soil.\nCorrect because certain cyanobacteria excrete acidic compounds that help neutralize alkaline soils, making them better for cultivation. The tempting option 'Reducing acidity' is wrong because they actually help reduce alkalinity, not acidity."
   },
   {
@@ -3683,8 +3546,12 @@ var allQuestions = [
     "type": "Except",
     "hots": true,
     "q": "Select odd one w.r.t. source of antibiotics.",
-    "options": ["Bacteria", "Fungi", "Actinomycetes", "Protozoans"],
-    "correct": 3,
+    "options": [
+      "Protozoans",
+      "Fungi",
+      "Actinomycetes",
+      "Bacteria"
+    ], "correct": 0,
     "explanation": "SOLUTION: Protozoans are not useful in production of antibiotics.\nCorrect because antibiotics are commercially produced mainly from bacteria (like Bacillus), fungi (like Penicillium), and Actinomycetes (like Streptomyces). The tempting option 'Actinomycetes' is wrong to select as an odd one because it is actually a major source of antibiotics."
   },
   {
@@ -3694,8 +3561,12 @@ var allQuestions = [
     "type": "Direct",
     "hots": true,
     "q": "Microbe used for the production of pectinase is",
-    "options": ["Aspergillus niger", "Rhizopus", "Bacillus species", "Acetobacter"],
-    "correct": 0,
+    "options": [
+      "Rhizopus",
+      "Aspergillus niger",
+      "Bacillus species",
+      "Acetobacter"
+    ], "correct": 1,
     "explanation": "SOLUTION: Aspergillus niger is used for production of enzyme pectinase.\nCorrect because the fungus Aspergillus niger is industrially cultivated to extract pectinase. The tempting option 'Acetobacter' is wrong because it is used for acetic acid production, not pectinase."
   },
   {
@@ -3716,8 +3587,12 @@ var allQuestions = [
     "type": "Except",
     "hots": true,
     "q": "Which of the following is odd w.r.t. free living nitrogen fixing bacteria?",
-    "options": ["Rhizobium", "Clostridium", "Rhodospirillum", "Azotobacter"],
-    "correct": 0,
+    "options": [
+      "Azotobacter",
+      "Clostridium",
+      "Rhodospirillum",
+      "Rhizobium"
+    ], "correct": 3,
     "explanation": "SOLUTION: Rhizobium forms symbiotic association with root nodules of leguminous plants.\nCorrect because Rhizobium is primarily a symbiotic nitrogen fixer, whereas the others are free-living in the soil. The tempting option 'Azotobacter' is wrong to select because it is a classic example of a free-living aerobic nitrogen fixer."
   },
   {
@@ -3727,8 +3602,12 @@ var allQuestions = [
     "type": "Direct",
     "hots": true,
     "q": "The first antibiotic penicilline was discovered by",
-    "options": ["Chain and Florey", "Waksman", "Albert", "Alexander Fleming"],
-    "correct": 3,
+    "options": [
+      "Alexander Fleming",
+      "Waksman",
+      "Albert",
+      "Chain and Florey"
+    ], "correct": 0,
     "explanation": "SOLUTION: First antibiotic penicillin was discovered by Alexander Fleming.\nCorrect because Fleming accidentally discovered penicillin in 1928. The tempting option 'Chain and Florey' is wrong because they were responsible for isolating and establishing its potential as an effective drug, not for the initial discovery."
   },
   {
@@ -3760,8 +3639,12 @@ var allQuestions = [
     "type": "Except",
     "hots": true,
     "q": "Mark the odd one w.r.t. Nucleopolyhedrovirus (NPV).",
-    "options": ["Broad spectrum herbicidal application", "Species-specific", "Used as biocontrol agent", "Nucleoprotein particles"],
-    "correct": 0,
+    "options": [
+      "Nucleoprotein particles",
+      "Species-specific",
+      "Used as biocontrol agent",
+      "Broad spectrum herbicidal application"
+    ], "correct": 3,
     "explanation": "SOLUTION: Nucleopolyhedrovirus (NPV) have narrow spectrum insecticidal application.\nCorrect because NPVs are known for their extremely narrow, species-specific targeted insecticidal applications, not broad spectrum. The tempting option 'Species-specific' is wrong to select because it is a true characteristic of NPVs."
   },
   {
@@ -3771,8 +3654,12 @@ var allQuestions = [
     "type": "Direct",
     "hots": true,
     "q": "Alcoholic beverage with maximum alcohol content is",
-    "options": ["Beer", "Brandy", "Whisky", "Gin"],
-    "correct": 1,
+    "options": [
+      "Brandy",
+      "Beer",
+      "Whisky",
+      "Gin"
+    ], "correct": 0,
     "explanation": "SOLUTION: Brandy - 60-70% alcohol, Whisky - 50% alcohol, Gin-40% alcohol, Beer - 3-6% alcohol.\nCorrect because Brandy is a distilled beverage that generally achieves the highest alcohol concentration among the choices provided. The tempting option 'Whisky' is wrong because its alcohol content (usually 40-50%) is lower than that of Brandy."
   },
   {
@@ -3782,8 +3669,12 @@ var allQuestions = [
     "type": "Except",
     "hots": true,
     "q": "Mark incorrect match.",
-    "options": ["Dragonfly - Biocontrol for mosquitoes", "Anaerobic sludge digestor - Biogas production", "Oscillatoria - Increases alkalinity of soil", "Mycorrhiza - Biofertilizer"],
-    "correct": 2,
+    "options": [
+      "Dragonfly - Biocontrol for mosquitoes",
+      "Oscillatoria - Increases alkalinity of soil",
+      "Anaerobic sludge digestor - Biogas production",
+      "Mycorrhiza - Biofertilizer"
+    ], "correct": 1,
     "explanation": "SOLUTION: Oscillatoria is a cyanobacteria, which reduces alkalinity of soil.\nCorrect because Oscillatoria secretes acidic substances that decrease soil alkalinity, making the 'increases' statement false. The tempting option 'Dragonfly - Biocontrol for mosquitoes' is wrong to select because it is a correct biological relationship."
   },
   {
@@ -3793,8 +3684,12 @@ var allQuestions = [
     "type": "HowMany",
     "hots": true,
     "q": "Read the following statements.<br>(a) Curd is more nutritious than milk<br>(b) Cheese is a partially degraded concentrate of milk fat and caesin protein<br>(c) Swelling of dough during bread making is called leavening<br>(d) Wine and beer are produced without distillation<br>How many statements are correct?",
-    "options": ["Two", "Four", "Three", "One"],
-    "correct": 1,
+    "options": [
+      "Two",
+      "Three",
+      "Four",
+      "One"
+    ], "correct": 2,
     "explanation": "SOLUTION: All the given statements are correct.\nCorrect because every statement provided represents an accurate microbiological fact regarding household and industrial products. The tempting options indicating fewer correct statements are wrong because no statement contains a factual error."
   },
   {
@@ -3804,8 +3699,12 @@ var allQuestions = [
     "type": "Direct",
     "hots": true,
     "q": "Barley malt is used in preparation of",
-    "options": ["Wine", "Beer", "Cheese", "Whisky"],
-    "correct": 1,
+    "options": [
+      "Wine",
+      "Whisky",
+      "Cheese",
+      "Beer"
+    ], "correct": 3,
     "explanation": "SOLUTION: Barley malt is used in preparation of beer.\nCorrect because malted barley is the primary fermented substrate used by brewer's yeast to produce beer. The tempting option 'Whisky' is wrong because although whisky uses fermented grain mash (sometimes barley), beer is the direct undistilled beverage referenced fundamentally with barley malt."
   },
   {
@@ -3815,8 +3714,12 @@ var allQuestions = [
     "type": "Direct",
     "hots": true,
     "q": "Which of the following fern is an excellent biofertilizer?",
-    "options": ["Marsilea", "Pteridium", "Azolla", "Salvinia"],
-    "correct": 2,
+    "options": [
+      "Azolla",
+      "Pteridium",
+      "Marsilea",
+      "Salvinia"
+    ], "correct": 0,
     "explanation": "SOLUTION: Cyanobacteria Anabaena azollae form symbiotic association with pteridophyte Azolla and fix atmospheric N2. Thus, this fern is used as bio-fertilizer.\nCorrect because Azolla harbors nitrogen-fixing cyanobacteria within its leaves, immensely enriching the soil, especially in paddy fields. The tempting option 'Salvinia' is wrong because it is an aquatic fern that does not form this nitrogen-fixing symbiotic relationship."
   },
   {
@@ -3848,8 +3751,12 @@ var allQuestions = [
     "type": "Except",
     "hots": true,
     "q": "Which one is not used as a biopesticide?",
-    "options": ["Xanthomonas campestris", "Bacillus thuringiensis", "Nucleopolyhedro virus", "Trichoderma"],
-    "correct": 0,
+    "options": [
+      "Trichoderma",
+      "Bacillus thuringiensis",
+      "Nucleopolyhedro virus",
+      "Xanthomonas campestris"
+    ], "correct": 3,
     "explanation": "SOLUTION: Xanthomonas campestris bacterium causes black rot of crucifers, not used as bio-pesticides.\nCorrect because Xanthomonas is a harmful plant pathogen responsible for crop diseases, making it unusable as a biopesticide. The tempting option 'Trichoderma' is wrong because it is a well-known free-living fungus used effectively to biocontrol root pathogens."
   },
   {
@@ -3859,8 +3766,12 @@ var allQuestions = [
     "type": "Direct",
     "hots": true,
     "q": "During waste water treatment methanogenic bacteria are used for",
-    "options": ["Primary treatment", "Secondary aerobic treatment", "Secondary anaerobic treatment", "Tertiary treatment"],
-    "correct": 2,
+    "options": [
+      "Secondary anaerobic treatment",
+      "Secondary aerobic treatment",
+      "Primary treatment",
+      "Tertiary treatment"
+    ], "correct": 0,
     "explanation": "SOLUTION: Methanogens are anaerobes, used in secondary treatment.\nCorrect because methanogenic bacteria break down the organic matter in anaerobic sludge digesters, producing biogas. The tempting option 'Secondary aerobic treatment' is wrong because methanogens are strict anaerobes and would die in the presence of oxygen."
   },
   {
@@ -3870,8 +3781,12 @@ var allQuestions = [
     "type": "Direct",
     "hots": true,
     "q": "Which of the following insecticides is of plant origin?",
-    "options": ["2,4-D", "2,4,5-T", "Rotenone", "Malathione"],
-    "correct": 2,
+    "options": [
+      "2,4-D",
+      "Rotenone",
+      "2,4,5-T",
+      "Malathione"
+    ], "correct": 1,
     "explanation": "SOLUTION: Rotenone is a natural insecticide, obtained from roots of Derris elliptica.\nCorrect because Rotenone is naturally extracted from the roots of specific plants. The tempting option '2,4-D' is wrong because it is a synthetic chemical herbicide, not a natural plant-derived insecticide."
   },
   {
@@ -3881,8 +3796,12 @@ var allQuestions = [
     "type": "Direct",
     "hots": true,
     "q": "A biocontrol agent common in the root ecosystem used to control plant pathogens is",
-    "options": ["Baculovirus", "Trichoderma", "Bacillus thuringiensis", "Glomus"],
-    "correct": 1,
+    "options": [
+      "Baculovirus",
+      "Bacillus thuringiensis",
+      "Trichoderma",
+      "Glomus"
+    ], "correct": 2,
     "explanation": "SOLUTION: Fungus Trichoderma is very common in the root ecosystems and are effective against several plant pathogens.\nCorrect because Trichoderma forms a protective shield around root systems, parasitizing and deterring harmful pathogens. The tempting option 'Glomus' is wrong because it forms mycorrhizal associations to aid in phosphorus absorption, rather than acting as a primary biocontrol agent."
   },
   {
@@ -3892,8 +3811,12 @@ var allQuestions = [
     "type": "Direct",
     "hots": true,
     "q": "Besides paddy fields, cyanobacteria are also found inside vegetative part of",
-    "options": ["Cycas", "Equisetum", "Pinus", "Psilotum"],
-    "correct": 0,
+    "options": [
+      "Psilotum",
+      "Equisetum",
+      "Pinus",
+      "Cycas"
+    ], "correct": 3,
     "explanation": "SOLUTION: Some species of BGA such as Anabaena form symbiotic association with coralloid root of Cycas.\nCorrect because the specialized coralloid roots of Cycas plants naturally host nitrogen-fixing cyanobacteria. The tempting option 'Pinus' is wrong because pine trees associate with mycorrhizal fungi rather than cyanobacteria."
   },
   {
@@ -3903,8 +3826,12 @@ var allQuestions = [
     "type": "Match",
     "hots": true,
     "q": "Match Column-l with Column-ll and select the correct option.<br><b>Column-I</b><br>(A) Swiss Cheese<br>(B) Dosa<br>(C) Penicilline<br>(D) Butyric acid<br><br><b>Column-II</b><br>(i) Clostridium<br>(ii) Penicillium<br>(iii) Propionibacterium sharmanii<br>(iv) Leuconostoc",
-    "options": ["A(ii), B(iv), C(i), D(iii)", "A(iii), B(iv), C(ii), D(i)", "A(iii), B(i), C(ii), D(iv)", "A(i), B(iv), C(ii), D(iii)"],
-    "correct": 1,
+    "options": [
+      "A(iii), B(iv), C(ii), D(i)",
+      "A(ii), B(iv), C(i), D(iii)",
+      "A(iii), B(i), C(ii), D(iv)",
+      "A(i), B(iv), C(ii), D(iii)"
+    ], "correct": 0,
     "explanation": "SOLUTION: A. Swiss cheese is ripened by Propionibacterium sharmanii. B. Dosa is prepared by using bacteria Leuconostoc. C. Penicillin is obtained from Penicillium notatum. D. Butyric acid is produced by Clostridium butylicum.\nCorrect because the respective microbes perfectly match their resulting products. The tempting option switching the Penicillium and Propionibacterium matches is wrong based on known microbiological functions."
   },
   {
@@ -3914,8 +3841,12 @@ var allQuestions = [
     "type": "Match",
     "hots": true,
     "q": "Find the correct match from the following enlisted industrial products.",
-    "options": ["Streptokinase - Streptococcus", "Amylase - Candida lipolytica", "Statin - Trichoderma polysporum", "Cyclosporin A - Monascus purpureus"],
-    "correct": 0,
+    "options": [
+      "Amylase - Candida lipolytica",
+      "Streptokinase - Streptococcus",
+      "Statin - Trichoderma polysporum",
+      "Cyclosporin A - Monascus purpureus"
+    ], "correct": 1,
     "explanation": "SOLUTION: Streptokinase is obtained from Streptococcus.\nCorrect because the bacterium Streptococcus is genetically modified to produce the clot-buster streptokinase. The tempting option 'Statin - Trichoderma polysporum' is wrong because Statins are produced by Monascus purpureus, while Trichoderma produces Cyclosporin A."
   },
   {
@@ -3925,8 +3856,12 @@ var allQuestions = [
     "type": "Direct",
     "hots": true,
     "q": "Organic farming aims",
-    "options": ["Raising of crops through the use of biofertilizers", "Reducing dependence on chemical fertilizers", "Using genetically modified crops", "Both (1) and (2)"],
-    "correct": 3,
+    "options": [
+      "Raising of crops through the use of biofertilizers",
+      "Reducing dependence on chemical fertilizers",
+      "Both (1) and (2)",
+      "Using genetically modified crops"
+    ], "correct": 2,
     "explanation": "SOLUTION: Organic farming is raising of crops through the use of biofertilizers. It is helpful to reduce dependence on chemical fertilizers.\nCorrect because organic farming specifically avoids synthetic agrochemicals and instead relies on ecological processes and biofertilizers. The tempting option 'Using genetically modified crops' is wrong because organic standards generally restrict or prohibit the use of GMOs."
   },
   {
@@ -3936,8 +3871,12 @@ var allQuestions = [
     "type": "Except",
     "hots": true,
     "q": "Find the incorrect match amongst the following biocontrol agents.",
-    "options": ["Ladybird - Aphids", "Dragonflies - Mosquitoes", "Baculovirus - Plants", "Bacillus thuringiensis - Butterfly catterpillar"],
-    "correct": 2,
+    "options": [
+      "Ladybird - Aphids",
+      "Dragonflies - Mosquitoes",
+      "Bacillus thuringiensis - Butterfly catterpillar",
+      "Baculovirus - Plants"
+    ], "correct": 3,
     "explanation": "SOLUTION: Baculovirus are pathogens that attack insects and other arthropods.\nCorrect because Baculoviruses specifically target arthropods and have absolutely no negative impact on plants. The tempting option 'Dragonflies - Mosquitoes' is wrong to select because dragonflies actually do prey on mosquitoes, making it a correct match."
   },
   {
@@ -3947,8 +3886,12 @@ var allQuestions = [
     "type": "Direct",
     "hots": true,
     "q": "Statins are competitive inhibitor of",
-    "options": ["Pectinase", "Streptokinase", "HMG CoA reductase", "Cellulase"],
-    "correct": 2,
+    "options": [
+      "HMG CoA reductase",
+      "Streptokinase",
+      "Pectinase",
+      "Cellulase"
+    ], "correct": 0,
     "explanation": "SOLUTION: Statins are blood cholesterol lowering agent. It is competitive inhibitors of beta-hydroxy-beta-methylglutaryl CoA reductase. (HMG CoA reductase).\nCorrect because statins directly compete with the natural substrate at the active site of HMG CoA reductase, an enzyme essential for cholesterol synthesis. The tempting option 'Streptokinase' is wrong because statins do not inhibit streptokinase; streptokinase is a separate therapeutic enzyme."
   },
   {
@@ -3969,8 +3912,12 @@ var allQuestions = [
     "type": "Direct",
     "hots": true,
     "q": "Statins are products of",
-    "options": ["Streptococcus", "Trichoderma", "Candida", "Monascus"],
-    "correct": 3,
+    "options": [
+      "Streptococcus",
+      "Trichoderma",
+      "Monascus",
+      "Candida"
+    ], "correct": 2,
     "explanation": "SOLUTION: Statins are product of yeast- Monascus purpureus.\nCorrect because the commercial production of blood-cholesterol lowering statins utilizes the yeast Monascus. The tempting option 'Trichoderma' is wrong because it produces the immunosuppressant Cyclosporin A, not statins."
   },
   {
@@ -3980,8 +3927,12 @@ var allQuestions = [
     "type": "Direct",
     "hots": true,
     "q": "Correctly identify the enzymes (A), (B) and (C) of yeast during leavening process of bread making.<br>Wheat flour starch -> <b>(A)</b> -> Maltose -> <b>(B)</b> -> Glucose -> <b>(C)</b> -> Ethyl alcohol + CO2",
-    "options": ["(A) Zymase, (B) Amylase, (C) Maltase", "(A) Zymase, (B) Maltase, (C) Amylase", "(A) Amylase, (B) Maltase, (C) Zymase", "(A) Maltase, (B) Amylase, (C) Zymase"],
-    "correct": 2,
+    "options": [
+      "(A) Zymase, (B) Amylase, (C) Maltase",
+      "(A) Zymase, (B) Maltase, (C) Amylase",
+      "(A) Maltase, (B) Amylase, (C) Zymase",
+      "(A) Amylase, (B) Maltase, (C) Zymase"
+    ], "correct": 3,
     "explanation": "SOLUTION: Swelling of dough during bread making (leavening) is caused by three enzymes amylase, maltase and zymase.\nCorrect because Amylase breaks down starch to maltose, Maltase breaks down maltose to glucose, and Zymase ferments glucose into ethanol and CO2. The tempting option starting with 'Maltase' is wrong because maltase cannot act on complex starch molecules."
   },
   {
@@ -3991,8 +3942,12 @@ var allQuestions = [
     "type": "Match",
     "hots": true,
     "q": "Match the columns correctly.<br><b>Column-I</b><br>(a) Toddy<br>(b) Roquefort cheese<br>(c) Baker's yeast<br>(d) Curd<br><br><b>Column-II</b><br>(i) Caryota urens<br>(ii) Lactobacillus acidophilus<br>(iii) Penicillium roqueforti<br>(iv) Saccharomyces",
-    "options": ["(a)->(i), (b)->(iii), (c)->(ii), (d)->(iv)", "(a)->(i), (b)->(iii), (c)->(iv), (d)->(ii)", "(a)->(ii), (b)->(i), (c)->(iii), (d)->(iv)", "(a)->(ii), (b)->(iv), (c)->(i), (d)->(iii)"],
-    "correct": 1,
+    "options": [
+      "(a)->(i), (b)->(iii), (c)->(iv), (d)->(ii)",
+      "(a)->(i), (b)->(iii), (c)->(ii), (d)->(iv)",
+      "(a)->(ii), (b)->(i), (c)->(iii), (d)->(iv)",
+      "(a)->(ii), (b)->(iv), (c)->(i), (d)->(iii)"
+    ], "correct": 0,
     "explanation": "SOLUTION: Correct match is - Toddy - Caryota urens, Roquefort cheese - Penicillium roqueforti, Baker's yeast - Saccharomyces, Curd - Lactobacillus acidophilus.\nCorrect because Toddy comes from the Caryota palm, Roquefort uses Penicillium fungi, Baker's yeast is Saccharomyces cerevisiae, and curd is formed by LAB. The tempting option switching yeast and curd bacteria is fundamentally incorrect regarding their distinct fermentative roles."
   },
   {
@@ -4002,8 +3957,12 @@ var allQuestions = [
     "type": "Direct",
     "hots": true,
     "q": "The substrate used for beer is",
-    "options": ["Barley malt", "Fermented rice", "Cashew-apple", "Potato"],
-    "correct": 0,
+    "options": [
+      "Fermented rice",
+      "Barley malt",
+      "Cashew-apple",
+      "Potato"
+    ], "correct": 1,
     "explanation": "SOLUTION: For beer production substrate used is barley malt.\nCorrect because germinated and dried barley grains (malt) provide the essential sugars required by yeast to brew beer. The tempting option 'Cashew-apple' is wrong because it is the substrate specifically fermented to make the Goan beverage Feni, not beer."
   },
   {
@@ -4013,8 +3972,12 @@ var allQuestions = [
     "type": "Statement",
     "hots": true,
     "q": "A: Tertiary treatment of waste water is done to make this fit for domestic use.<br>B: Tertiary treatment removes DDT, pesticides, pathogens from the waste water.",
-    "options": ["Both A and B are incorrect", "Both A and B are correct", "Only A is correct", "Only B is correct"],
-    "correct": 1,
+    "options": [
+      "Both A and B are incorrect",
+      "Only A is correct",
+      "Both A and B are correct",
+      "Only B is correct"
+    ], "correct": 2,
     "explanation": "SOLUTION: Both statements are correct.\nCorrect because tertiary treatment specifically applies advanced physical and chemical techniques to remove stubborn dissolved compounds, fine particles, and harmful pathogens, rendering the water safe enough for reuse. The tempting option 'Only B is correct' is wrong because A is also true; the ultimate goal of removing those hazards is precisely to make it fit for consumption/domestic use."
   },
   {
@@ -4057,8 +4020,12 @@ var allQuestions = [
     "type": "Except",
     "hots": true,
     "q": "Which of the following is incorrectly matched?",
-    "options": ["VAM - Phosphate absorption", "Tertiary sewage treatment - Physico-chemical process", "Ozone gas - Primary treatment", "Rotenone - Natural insecticide"],
-    "correct": 2,
+    "options": [
+      "VAM - Phosphate absorption",
+      "Ozone gas - Primary treatment",
+      "Tertiary sewage treatment - Physico-chemical process",
+      "Rotenone - Natural insecticide"
+    ], "correct": 1,
     "explanation": "SOLUTION: Primary treatment is related to physical treatment of sewage. There is no involvement of ozone gas.\nCorrect because ozone gas is utilized as a chemical disinfectant during advanced tertiary treatment, not physical primary treatment. The tempting option 'Rotenone - Natural insecticide' is wrong to select because it is a completely true match (derived from plant roots)."
   },
   {
@@ -4068,8 +4035,12 @@ var allQuestions = [
     "type": "Direct",
     "hots": true,
     "q": "Major component of biogas is",
-    "options": ["H2", "H2S", "CO2", "CH4"],
-    "correct": 3,
+    "options": [
+      "H2",
+      "H2S",
+      "CH4",
+      "CO2"
+    ], "correct": 2,
     "explanation": "SOLUTION: Major component of biogas is methane (50-70%).\nCorrect because methane ($CH_4$) constitutes the largest percentage of biogas produced by methanogens. The tempting option 'CO2' is wrong because carbon dioxide is the second most abundant component (30-40%), not the primary component."
   },
   {
@@ -4080,8 +4051,12 @@ var allQuestions = [
     "hots": true,
     "image": "images/microbes/id 321.png",
     "q": "Observe the given diagram of a biogas plant and name the labelled parts <b>A, B and C</b>.",
-    "options": ["A-Aerobic digester, B-Gas, C-Dung water", "A-Anaerobic digester, B-Gas holder, C-Dung water", "A-Gobar gas plant, B-Anaerobic digester, C-Dung water", "A-Anaerobic digester, B-Gas, C-Aerobic digester"],
-    "correct": 1,
+    "options": [
+      "A-Aerobic digester, B-Gas, C-Dung water",
+      "A-Anaerobic digester, B-Gas, C-Aerobic digester",
+      "A-Gobar gas plant, B-Anaerobic digester, C-Dung water",
+      "A-Anaerobic digester, B-Gas holder, C-Dung water"
+    ], "correct": 3,
     "explanation": "SOLUTION: A. Anaerobic digester, B. Gas holder, C. Dung water.\nCorrect because 'A' represents the underground concrete tank where anaerobic digestion occurs, 'B' is the floating cover that moves up as gas builds up, and 'C' is the entry inlet charge chamber for dung slurry. The tempting options mentioning 'Aerobic digester' are completely wrong since biogas production is strictly an obligate anaerobic process."
   },
   {
@@ -4091,8 +4066,12 @@ var allQuestions = [
     "type": "Direct",
     "hots": true,
     "q": "Which of the following material takes the longest time for biodegradation?",
-    "options": ["Cotton", "Paper", "Bone", "Jute"],
-    "correct": 2,
+    "options": [
+      "Bone",
+      "Paper",
+      "Cotton",
+      "Jute"
+    ], "correct": 0,
     "explanation": "SOLUTION: Bone is degraded very slowly.\nCorrect because bones contain highly stable mineral matrices and dense collagen networks resistant to rapid microbial enzyme breakdown. The tempting option 'Jute' is wrong because, as a natural plant fiber composed of cellulose, it degrades far quicker than calcified animal bones."
   },
   {
@@ -4102,8 +4081,12 @@ var allQuestions = [
     "type": "Except",
     "hots": true,
     "q": "Which of the following statements is not concerned with antibiotics?",
-    "options": ["They are 'prolife' in context of human beings", "Have ability to kill or retard the growth of microbes", "Work by acting on different metabolic pathways", "First antibiotic was obtained from a member of Actinomycetes"],
-    "correct": 3,
+    "options": [
+      "They are 'prolife' in context of human beings",
+      "First antibiotic was obtained from a member of Actinomycetes",
+      "Work by acting on different metabolic pathways",
+      "Have ability to kill or retard the growth of microbes"
+    ], "correct": 1,
     "explanation": "SOLUTION: The first antibiotic discovered by Alexander Fleming was Penicillin. It is produced by fungus Penicillium notatum a member of Ascomycetes.\nCorrect because Penicillium notatum is an Ascomycete fungus, not a member of the bacterial group Actinomycetes. The tempting option 'They are prolife in context of human beings' is wrong to select because it is a true concept—antibiotics mean 'against life' for pathogens but are 'pro-life' for humans."
   },
   {
@@ -4113,8 +4096,12 @@ var allQuestions = [
     "type": "Direct",
     "hots": true,
     "q": "Choose the correct sequence of steps and micro-organisms involved in biogas production.",
-    "options": ["Fermentative microbes -> decomposers -> methanogens", "Decomposers -> methanogens -> putrefying microbes", "Putrefying microbes -> saprophytic microbes -> methanogens", "Decomposers -> fermentative microbes -> methanogens"],
-    "correct": 3,
+    "options": [
+      "Fermentative microbes -> decomposers -> methanogens",
+      "Decomposers -> methanogens -> putrefying microbes",
+      "Decomposers -> fermentative microbes -> methanogens",
+      "Putrefying microbes -> saprophytic microbes -> methanogens"
+    ], "correct": 2,
     "explanation": "SOLUTION: Complex compound -> (Decomposers) -> Monomers -> (Fermentive microbes) -> Organic acid -> (Methanogens) -> Methane, H2, N2.\nCorrect because biopolymers are first broken down by decomposers, then converted to organic acids by fermentative microbes, and finally converted to methane by methanogens. The tempting option 'Fermentative microbes -> decomposers' is wrong because fermentation cannot occur until complex polymers are solubilized by initial decomposers."
   },
   {
@@ -4124,8 +4111,12 @@ var allQuestions = [
     "type": "Direct",
     "hots": true,
     "q": "In the STPs, biological process of microbial degradation of organic matter involves",
-    "options": ["Utilisation of activated sludge as inoculant produced in the physical process", "Only anaerobic breakdown of organic matter", "Masses of unicellular fungi entangled in filamentous bacterial forms represent flocs", "Reduction in dissolved oxygen after the microbial activity"],
-    "correct": 0,
+    "options": [
+      "Reduction in dissolved oxygen after the microbial activity",
+      "Only anaerobic breakdown of organic matter",
+      "Masses of unicellular fungi entangled in filamentous bacterial forms represent flocs",
+      "Utilisation of activated sludge as inoculant produced in the physical process"
+    ], "correct": 3,
     "explanation": "SOLUTION: Biological treatment is both aerobic and anaerobic. Masses of unicellular bacterial entangled in filamentous fungi forms represent flocs. During biological treatment of sewage, BOD is greatly reduced. Utilisation of activated sludge as inoculant produced in the biological phase is standard.\nCorrect because a fraction of sedimented biological activated sludge is recycled back into the aeration tank as an inoculum. The tempting option 'Reduction in dissolved oxygen after...' is tricky but wrong; dissolved oxygen goes up after treatment is complete because the biological oxygen demand (BOD) has dropped sharply."
   },
   {
@@ -4135,8 +4126,12 @@ var allQuestions = [
     "type": "Except",
     "hots": true,
     "q": "Baculoviruses does not show",
-    "options": ["Host specificity", "Narrow spectrum applications", "Effects on non-target pathogens", "Utility in IPM programme"],
-    "correct": 2,
+    "options": [
+      "Effects on non-target pathogens",
+      "Narrow spectrum applications",
+      "Host specificity",
+      "Utility in IPM programme"
+    ], "correct": 0,
     "explanation": "SOLUTION: Species specific biocontrol agents do not effect non-target pathogens.\nCorrect because Baculoviruses are completely safe for non-target organisms, insects, and plants. The tempting option 'Narrow spectrum applications' is wrong to select because baculoviruses *do* display narrow-spectrum insecticidal action."
   },
   {
@@ -4146,8 +4141,12 @@ var allQuestions = [
     "type": "Direct",
     "hots": true,
     "q": "Enzyme which has the fibrinolytic effect i.e., preventing blood clots from growing is",
-    "options": ["Protease", "Amylase", "Lipase", "Streptokinase"],
-    "correct": 3,
+    "options": [
+      "Protease",
+      "Streptokinase",
+      "Lipase",
+      "Amylase"
+    ], "correct": 1,
     "explanation": "SOLUTION: Streptokinase - dissolves blood clots.\nCorrect because streptokinase acts as a potent clot buster for patients who have suffered myocardial infarction. The tempting option 'Protease' is wrong because proteases clear protein stains in laundry detergents or clarify juices rather than functioning as specialized therapeutic clot dissolving factors."
   },
   {
@@ -4168,8 +4167,12 @@ var allQuestions = [
     "type": "Direct",
     "hots": true,
     "q": "The fermentative activity of fungus Trichoderma polysporum yields which of the following substance?",
-    "options": ["Statin", "Cyclosporin - A", "Gluconic acid", "Soya sauce"],
-    "correct": 1,
+    "options": [
+      "Statin",
+      "Soya sauce",
+      "Gluconic acid",
+      "Cyclosporin - A"
+    ], "correct": 3,
     "explanation": "SOLUTION: Cyclosporin A is used as an immunosuppressive agent in organ-transplant patients, is produced by fungus, Trichoderma polysporum.\nCorrect because Cyclosporin-A is the unique metabolite synthesized by this fungal species. The tempting option 'Statin' is wrong because statins are synthesized by Monascus purpureus."
   },
   {
@@ -4179,8 +4182,12 @@ var allQuestions = [
     "type": "Direct",
     "hots": true,
     "q": "Large holed Swiss cheese is ripened with the help of CO2 producing bacterium called",
-    "options": ["Saccharomyces cerevisiae", "Leuconostoc cremoris", "Streptococcus cremoris", "Propionibacterium sharmanii"],
-    "correct": 3,
+    "options": [
+      "Propionibacterium sharmanii",
+      "Leuconostoc cremoris",
+      "Streptococcus cremoris",
+      "Saccharomyces cerevisiae"
+    ], "correct": 0,
     "explanation": "SOLUTION: Large holed swiss cheese is ripened with the help of bacterium Propionibacterium sharmanii.\nCorrect because Propionibacterium shermanii releases massive volumes of $CO_2$ gas through its metabolic activity, leaving behind holes. The tempting option 'Saccharomyces cerevisiae' is wrong because it is a yeast used in bread making, not cheese ripening."
   },
   {
@@ -4190,8 +4197,12 @@ var allQuestions = [
     "type": "Direct",
     "hots": true,
     "q": "Yoghurt is produced by curdling of milk with the help of",
-    "options": ["Streptococcus thermophilus and Lactobacillus bulgaricus", "Streptococcus lactis and Streptococcus cremoris", "Lactobacillus acidophilus and Fusarium oxysporum", "Spirulina and Saccharomyces cerevisiae"],
-    "correct": 0,
+    "options": [
+      "Streptococcus lactis and Streptococcus cremoris",
+      "Streptococcus thermophilus and Lactobacillus bulgaricus",
+      "Lactobacillus acidophilus and Fusarium oxysporum",
+      "Spirulina and Saccharomyces cerevisiae"
+    ], "correct": 1,
     "explanation": "SOLUTION: Lactobacillus bulgaricus and Streptococcus thermophilus are involved in the preparation of yoghurt.\nCorrect because this unique synergistic combination of starter cultures transforms milk into authentic yoghurt. The tempting option 'Lactobacillus acidophilus...' is wrong because L. acidophilus on its own produces standard household curd, not specialized yoghurt."
   },
   {
@@ -4212,8 +4223,12 @@ var allQuestions = [
     "type": "Except",
     "hots": true,
     "q": "Find odd one out w.r.t. bioinsecticides.",
-    "options": ["Bacillus thuringiensis", "Trichoderma", "Species specific nucleopolyhedrovirus", "Azadirachtin from neem"],
-    "correct": 1,
+    "options": [
+      "Bacillus thuringiensis",
+      "Azadirachtin from neem",
+      "Species specific nucleopolyhedrovirus",
+      "Trichoderma"
+    ], "correct": 3,
     "explanation": "SOLUTION: Rotenone is obtained from the roots of Derris elliptica. Trichoderma is used as a bio-fungicide/pathogen controller, not an insecticide.\nCorrect because Trichoderma is primarily utilized to counter root fungal pathogens, not insect pests. The tempting option 'Species specific nucleopolyhedrovirus' is wrong to select because it represents an authentic biological tool used against destructive insects and arthropods."
   },
   {
@@ -4223,8 +4238,12 @@ var allQuestions = [
     "type": "Match",
     "hots": true,
     "q": "Match column I with column II and choose the correct option.<br><b>Column I:</b><br>a. Statins<br>b. Swiss cheese<br>c. Cyclosporin A<br>d. Citric acid<br><br><b>Column II:</b><br>(i) Propionibacterium<br>(ii) Aspergillus<br>(iii) Monascus<br>(iv) Trichoderma",
-    "options": ["a(ii), b(i), c(iii), d(iv)", "a(iv), b(iii), c(i), d(ii)", "a(iii), b(i), c(ii), d(iv)", "a(iii), b(i), c(iv), d(ii)"],
-    "correct": 3,
+    "options": [
+      "a(iii), b(i), c(iv), d(ii)",
+      "a(iv), b(iii), c(i), d(ii)",
+      "a(iii), b(i), c(ii), d(iv)",
+      "a(ii), b(i), c(iii), d(iv)"
+    ], "correct": 0,
     "explanation": "SOLUTION: Swiss cheese has characteristic larger holes and is ripened with Propionibacterium shermanii. Cyclosporin A is produced by Trichoderma polysporum. Statins map to Monascus, and Citric acid maps to Aspergillus.\nCorrect because configuration 'a(iii), b(i), c(iv), d(ii)' aligns all biological sources flawlessly. The tempting option switching Cyclosporin and Statin lines is structurally incorrect."
   },
   {
@@ -4256,8 +4275,12 @@ var allQuestions = [
     "type": "Direct",
     "hots": true,
     "q": "Which of the following is used in the preparation of curd?",
-    "options": ["Propionibacterium sharmanii", "Lactobacillus acidophilus", "Penicillium roqueforti", "Penicillium camemberti"],
-    "correct": 1,
+    "options": [
+      "Propionibacterium sharmanii",
+      "Penicillium camemberti",
+      "Penicillium roqueforti",
+      "Lactobacillus acidophilus"
+    ], "correct": 3,
     "explanation": "SOLUTION: Lactobacillus acidophilus grows in milk and convert it into curd.\nCorrect because L. acidophilus produces acids that coagulate milk proteins into fresh curd. The tempting option 'Propionibacterium sharmanii' is wrong because it is used for Swiss cheese, not standard curd."
   },
   {
@@ -4267,8 +4290,12 @@ var allQuestions = [
     "type": "Direct",
     "hots": true,
     "q": "Which of the following is used in detergents to remove proteinaceous spots?",
-    "options": ["Citric acid", "Gluconic acid", "Proteases", "Amylases"],
-    "correct": 2,
+    "options": [
+      "Proteases",
+      "Gluconic acid",
+      "Citric acid",
+      "Amylases"
+    ], "correct": 0,
     "explanation": "SOLUTION: Proteases act upon protein molecules and break them into shorter chains that are removed easily.\nCorrect because proteases digest blood or food protein spots embedded inside soiled textiles. The tempting option 'Amylases' is wrong because amylases break down starches, not protein stains."
   },
   {
@@ -4278,8 +4305,12 @@ var allQuestions = [
     "type": "Direct",
     "hots": true,
     "q": "Which of following statements is correct?",
-    "options": ["Alcoholic fermentation by yeast and conversion of alcohol to acetic acid both are aerobic processes", "Alcoholic fermentation is aerobic and conversion of alcohol to acetic acid is anaerobic one", "Alcoholic fermentation by yeast and conversion of acetic acid to methane by methanogens both are anaerobic processes", "Alcoholic fermentation by yeast and conversion of acetic acid to methane both are aerobic processes"],
-    "correct": 2,
+    "options": [
+      "Alcoholic fermentation by yeast and conversion of alcohol to acetic acid both are aerobic processes",
+      "Alcoholic fermentation by yeast and conversion of acetic acid to methane by methanogens both are anaerobic processes",
+      "Alcoholic fermentation is aerobic and conversion of alcohol to acetic acid is anaerobic one",
+      "Alcoholic fermentation by yeast and conversion of acetic acid to methane both are aerobic processes"
+    ], "correct": 1,
     "explanation": "SOLUTION: Alcoholic fermentation by yeast and conversion of acetic acid to methane by methanogens are both anaerobic processes. Conversion of alcohol to acetic acid is an aerobic process.\nCorrect because both yeast fermentation and methanogenesis run completely in the absence of oxygen. The tempting option stating that 'conversion of alcohol to acetic acid is anaerobic' is wrong because Acetobacter requires oxygen to convert ethanol to acetic acid."
   },
   {
@@ -4300,8 +4331,12 @@ var allQuestions = [
     "type": "Direct",
     "hots": true,
     "q": "The bioactive molecule produced by the yeast Monascus purpureus have been commercialised as",
-    "options": ["Immunosuppressive agent", "Blood-cholesterol lowering agent", "Clot buster", "Agents to increase inmunity"],
-    "correct": 1,
+    "options": [
+      "Immunosuppressive agent",
+      "Agents to increase inmunity",
+      "Clot buster",
+      "Blood-cholesterol lowering agent"
+    ], "correct": 3,
     "explanation": "SOLUTION: Statins are produced by the yeast- Monascus purpureus. These bioactive molecules are commercialised as blood-cholesterol lowering agents.\nCorrect because statins block cholesterol production in the liver. The tempting option 'Immunosuppressive agent' is wrong because Cyclosporin-A handles immunosuppression, not statins."
   },
   {
@@ -4311,8 +4346,12 @@ var allQuestions = [
     "type": "Direct",
     "hots": true,
     "q": "Who was/were awarded Nobel prize in 1945 for the discovery of penicillin and establishing its potential effectiveness?",
-    "options": ["Alexander Fleming", "Ernest chain and Howard Florey", "Fleming, Chain and Florey", "Howard Florey"],
-    "correct": 2,
+    "options": [
+      "Fleming, Chain and Florey",
+      "Ernest chain and Howard Florey",
+      "Alexander Fleming",
+      "Howard Florey"
+    ], "correct": 0,
     "explanation": "SOLUTION: Fleming, Chain and Florey were awarded the Nobel prize in 1945 for the discovery of penicillin.\nCorrect because all three shared the prize for uncovering and clinically developing the first true antibiotic. The tempting option 'Alexander Fleming' is wrong because, although he discovered it, he shared the award with Chain and Florey for its development."
   },
   {
@@ -4322,8 +4361,12 @@ var allQuestions = [
     "type": "Direct",
     "hots": true,
     "q": "Nutritional quality of curd is better than milk due to presence of excess amount of",
-    "options": ["Vitamin C", "Vitamin B6", "Vitamin B12", "Calciurn"],
-    "correct": 2,
+    "options": [
+      "Vitamin C",
+      "Vitamin B12",
+      "Vitamin B6",
+      "Calciurn"
+    ], "correct": 1,
     "explanation": "SOLUTION: Curd is more nutritious than milk as it contains a number of vitamins especially B12.\nCorrect because lactic acid bacteria synthesize substantial amounts of cyanocobalamin (Vitamin B12) during fermentation. The tempting option 'Calcium' is wrong because while curd contains calcium, its level does not drastically increase over milk like Vitamin B12 does."
   },
   {
@@ -4333,8 +4376,12 @@ var allQuestions = [
     "type": "Direct",
     "hots": true,
     "q": "The technology of biogas production in India was developed due to the efforts of",
-    "options": ["Imported from Japan", "Imported from Denmark", "Imported from USA", "Developed in India due to efforts of IARI and KVIC"],
-    "correct": 3,
+    "options": [
+      "Imported from Japan",
+      "Imported from Denmark",
+      "Developed in India due to efforts of IARI and KVIC",
+      "Imported from USA"
+    ], "correct": 2,
     "explanation": "SOLUTION: IARI (Indian Agriculture Research Institute) and KVIC (Khadi and Village Industries Commission) developed the technology of biogas production.\nCorrect because these two national bodies spearheaded indigenous research on rural anaerobic digesters. The tempting options suggesting it was imported are historically incorrect."
   },
   {
@@ -4344,8 +4391,12 @@ var allQuestions = [
     "type": "Direct",
     "hots": true,
     "q": "Most efficient nitrogen fixer in rice field is",
-    "options": ["Aulosira", "Cylindrospermum", "Nostoc", "Microcystis"],
-    "correct": 0,
+    "options": [
+      "Microcystis",
+      "Cylindrospermum",
+      "Nostoc",
+      "Aulosira"
+    ], "correct": 3,
     "explanation": "SOLUTION: Aulosira is most active, non-symbiotic nitrogen fixer in rice field.\nCorrect because Aulosira is the dominant, highly productive free-living cyanobacterium in flooded rice paddies. The tempting option 'Nostoc' is wrong because while Nostoc fixes nitrogen, Aulosira is quantitatively more efficient in rice fields."
   },
   {
@@ -4355,8 +4406,12 @@ var allQuestions = [
     "type": "Except",
     "hots": true,
     "q": "The enzyrne which is not involved in leavening process, is",
-    "options": ["Zymase", "Rennin", "Amylase", "Maltase"],
-    "correct": 1,
+    "options": [
+      "Rennin",
+      "Zymase",
+      "Amylase",
+      "Maltase"
+    ], "correct": 0,
     "explanation": "SOLUTION: Swelling of dough during bread making is known as leavening. It is caused due to the activities of enzymes amylase, maltase and zymase secreted by yeast.\nCorrect because Rennin is a milk-coagulating enzyme used in cheese production, not bread making. The tempting option 'Zymase' is wrong to select because zymase is critical for converting glucose into ethanol and CO2 to fluff the dough."
   },
   {
@@ -4366,8 +4421,12 @@ var allQuestions = [
     "type": "Direct",
     "hots": true,
     "q": "To make soft and porous bread, a small quantity of yeast powder is added to wheat flour and the same is kneaded. What is the correct event for it?",
-    "options": ["Amylase converts starch into maltose sugar", "It is due to fermentation of glucose into pyruvate", "It is due to production and accumulation of ethyl alcohol", "It is due to evaporation of ethyl alcohol and CO2 gas"],
-    "correct": 3,
+    "options": [
+      "Amylase converts starch into maltose sugar",
+      "It is due to evaporation of ethyl alcohol and CO2 gas",
+      "It is due to production and accumulation of ethyl alcohol",
+      "It is due to fermentation of glucose into pyruvate"
+    ], "correct": 1,
     "explanation": "SOLUTION: CO2 gas along with ethyl alcohol evaporate during baking make the bread porous and soft.\nCorrect because when the dough is baked, trapped pockets of carbon dioxide gas expand and escape along with vaporized alcohol, creating pores. The tempting option 'production and accumulation of ethyl alcohol' is wrong because simple accumulation doesn't form pores; the actual baking and evaporation step expands the dough."
   },
   {
@@ -4377,8 +4436,12 @@ var allQuestions = [
     "type": "Direct",
     "hots": true,
     "q": "In STPs, primary sludge is produced when sewage is",
-    "options": ["Passed through filtration and sedimentation", "Anaerobically digested", "Treated with aerobic heterotrophic microbes in the aeration tank", "Chlorinated and treated with UV rays"],
-    "correct": 0,
+    "options": [
+      "Treated with aerobic heterotrophic microbes in the aeration tank",
+      "Anaerobically digested",
+      "Passed through filtration and sedimentation",
+      "Chlorinated and treated with UV rays"
+    ], "correct": 2,
     "explanation": "SOLUTION: Primary sludge is produced as the result of primary treatment of sewage water.\nCorrect because primary sludge consists of all the heavy solid matter that settles out during physical sedimentation. The tempting option 'Treated with aerobic heterotrophic microbes...' is wrong because that step yields activated sludge during secondary treatment, not primary sludge."
   },
   {
@@ -4399,8 +4462,12 @@ var allQuestions = [
     "type": "Direct",
     "hots": true,
     "q": "Microbial degradation of organic matter in STP takes place during",
-    "options": ["Primary treatment", "Secondary treatment", "Tertiary treatment", "Reverse osmosis"],
-    "correct": 1,
+    "options": [
+      "Secondary treatment",
+      "Primary treatment",
+      "Tertiary treatment",
+      "Reverse osmosis"
+    ], "correct": 0,
     "explanation": "SOLUTION: During secondary treatment, heterotrophic micro-organisms are used for degradation of organic waste.\nCorrect because biological secondary treatment relies on microbes to consume and break down dissolved organic matter. The tempting option 'Primary treatment' is wrong because primary treatment is purely a physical sorting phase involving filtration and settling."
   },
   {
@@ -4410,8 +4477,12 @@ var allQuestions = [
     "type": "Direct",
     "hots": true,
     "q": "Biogas production:",
-    "options": ["Involves utilisation of obligate anaerobes only", "Is methane rich fuel having CO2 and H2S in traces", "Generation involves use of fermentive microbes during solubilisation", "Has calorific value of 4429 kcal/m3"],
-    "correct": 3,
+    "options": [
+      "Involves utilisation of obligate anaerobes only",
+      "Has calorific value of 4429 kcal/m3",
+      "Generation involves use of fermentive microbes during solubilisation",
+      "Is methane rich fuel having CO2 and H2S in traces"
+    ], "correct": 1,
     "explanation": "SOLUTION: Biogas has CO2 30-40%. Its standardized calorific energy profile tracks to 4429 kcal/m3.\nCorrect because 4429 kcal/m3 represents the exact thermodynamic value of the gas mix. The tempting option 'having CO2 and H2S in traces' is wrong because $CO_2$ is present in large amounts (30-40%), not traces."
   },
   {
@@ -4432,8 +4503,12 @@ var allQuestions = [
     "type": "Direct",
     "hots": true,
     "q": "Find the incorrect statement(s).<br><b>a.</b> Flocs are masses of anaerobic bacteria associated with fungal filaments.<br><b>b.</b> BOD gets reduced significantly when the secondary treatment is done using aerobic microbes.<br><b>c.</b> Activated sludge can be sedimented only after anaerobic digestion of sewage.<br><b>d.</b> Mixture of gases is released during aerobic digestion of sewage.",
-    "options": ["a, b, c & d", "Only c", "All, except b", "a, b & d"],
-    "correct": 2,
+    "options": [
+      "a, b, c & d",
+      "Only c",
+      "a, b & d",
+      "All, except b"
+    ], "correct": 3,
     "explanation": "SOLUTION: Biogas is released during anaerobic digestion of sewage. Flocs are aerobic bacteria, activated sludge settles before anaerobic digestion, and biogas comes from anaerobic tanks. Only statement 'b' is correct.\nCorrect because statements a, c, and d contain fundamental errors regarding structural oxygen requirements. The tempting option 'a, b & d' is wrong because 'b' is a completely true statement."
   },
   {
@@ -4443,8 +4518,12 @@ var allQuestions = [
     "type": "Direct",
     "hots": true,
     "q": "The effective biocontrol agent of several plant pathogens is",
-    "options": ["Bacillus thuringiensis", "Ladybird beetle", "Trichoderma", "Baculovirus"],
-    "correct": 2,
+    "options": [
+      "Trichoderma",
+      "Ladybird beetle",
+      "Bacillus thuringiensis",
+      "Baculovirus"
+    ], "correct": 0,
     "explanation": "SOLUTION: Trichoderma species are very common in the root ecosystems and are effective against several plant pathogens.\nCorrect because Trichoderma directly suppresses fungi and plant diseases in root zones. The tempting option 'Bacillus thuringiensis' is wrong because Bt specifically targets insect larvae like caterpillars, not broad plant fungal pathogens."
   },
   {
@@ -4454,8 +4533,12 @@ var allQuestions = [
     "type": "Match",
     "hots": true,
     "q": "Select the correct match.<br><b>Column-I:</b><br>a. Gluconic acid<br>b. Cyclosporin A<br>c. Statins<br>d. Streptomycin<br><br><b>Column-II:</b><br>(i) Streptomyces griseus<br>(ii) Monascus purpureus<br>(iii) Trichoderma polysporum<br>(iv) Penicillium species",
-    "options": ["a(iv), b(iii), c(ii), d(i)", "a(i), b(iii), c(ii), d(iv)", "a(iii), b(iv), c(ii), d(i)", "a(ii), b(i), c(iv), d(iii)"],
-    "correct": 0,
+    "options": [
+      "a(i), b(iii), c(ii), d(iv)",
+      "a(iv), b(iii), c(ii), d(i)",
+      "a(iii), b(iv), c(ii), d(i)",
+      "a(ii), b(i), c(iv), d(iii)"
+    ], "correct": 1,
     "explanation": "SOLUTION: Gluconic acid is obtained from Penicillium species. Streptomycin is an antibiotic obtained from Streptomyces griseus. Cyclosporin comes from Trichoderma and Statins from Monascus.\nCorrect because option 'a(iv), b(iii), c(ii), d(i)' assigns all industrial organic products cleanly to their respective source microbes. Other configurations break the established chemical pathways."
   },
   {
@@ -4465,8 +4548,12 @@ var allQuestions = [
     "type": "Except",
     "hots": true,
     "q": "Select the incorrect match.",
-    "options": ["Monascus - Statins", "Trichoderma - Thurioside", "Aspergillus - Citric acid", "Propionibacterium - Swiss cheese"],
-    "correct": 1,
+    "options": [
+      "Monascus - Statins",
+      "Aspergillus - Citric acid",
+      "Trichoderma - Thurioside",
+      "Propionibacterium - Swiss cheese"
+    ], "correct": 2,
     "explanation": "SOLUTION: Trichoderma is used to produce cyclosporin A, an immunosuppressive agent.\nCorrect because Thurioside is a metabolic toxin produced by Bacillus *thuringiensis*, not the fungus Trichoderma. The tempting option 'Monascus - Statins' is wrong to select because it is a true match."
   },
   {
@@ -4498,8 +4585,12 @@ var allQuestions = [
     "type": "Except",
     "hots": true,
     "q": "Which of the following organisms is not used in organic farming?",
-    "options": ["E. coli","Anabaena","Oscillatoria","Nostoc"],
-    "correct": 0,
+    "options": [
+      "Anabaena",
+      "E. coli",
+      "Oscillatoria",
+      "Nostoc"
+    ], "correct": 1,
     "explanation": "SOLUTION: E. coli cannot increase the fertility of soil .\nCorrect because E. coli is a gut bacterium without any inherent nitrogen-fixing or phosphate-solubilizing traits necessary for farming. The tempting option 'Oscillatoria' is wrong to select because it is a cyanobacterium that contributes to soil enrichment."
   },
   {
@@ -4509,8 +4600,12 @@ var allQuestions = [
     "type": "Direct",
     "hots": true,
     "q": "Bioactive molecule used as immunosuppressant in organ transplant patients is",
-    "options": ["Cyclosporin-A","Statins","Streptokinase","TPA"],
-    "correct": 0,
+    "options": [
+      "Streptokinase",
+      "Statins",
+      "Cyclosporin-A",
+      "TPA"
+    ], "correct": 2,
     "explanation": "SOLUTION: Cyclosporin A an immunosuppressive agent, is obtained from Trichoderma polysporum .\nCorrect because Cyclosporin-A selectively suppresses T-cell activity to prevent graft rejection. The tempting option 'Statins' is wrong because statins act on blood-cholesterol synthesis enzymes rather than immune responses."
   },
   {
@@ -4520,8 +4615,12 @@ var allQuestions = [
     "type": "Direct",
     "hots": true,
     "q": "Effective biocontrol agent of fungal origin against several plant pathogens is",
-    "options": ["Bacillus thuringiensis","Trichoderma","Baculovirus","Streptomyces"],
-    "correct": 1,
+    "options": [
+      "Bacillus thuringiensis",
+      "Streptomyces",
+      "Baculovirus",
+      "Trichoderma"
+    ], "correct": 3,
     "explanation": "SOLUTION: Different Trichoderma species can be used to control fungi, insects and nematodes .\nCorrect because Trichoderma is an authenticated free-living root fungus. The tempting option 'Bacillus thuringiensis' is wrong because Bt is a *bacterium*, not a fungus."
   },
   {
@@ -4531,8 +4630,12 @@ var allQuestions = [
     "type": "Direct",
     "hots": true,
     "q": "'Flocs', developed during secondary treatment of sewage refers to",
-    "options": ["Masses of obligate anaerobic bacteria associated with fungal filaments","Masses of bacteria developing in anaerobic sludge digesters","Mesh formed by groups of methanogenic bacteria","Mesh of fungal filaments when associated with masses of aerobic bacteria"],
-    "correct": 3,
+    "options": [
+      "Mesh of fungal filaments when associated with masses of aerobic bacteria",
+      "Masses of bacteria developing in anaerobic sludge digesters",
+      "Mesh formed by groups of methanogenic bacteria",
+      "Masses of obligate anaerobic bacteria associated with fungal filaments"
+    ], "correct": 0,
     "explanation": "SOLUTION: Flocks developed during secondary treatment of sewage are masses of aerobic bacterial associated with fungal filaments .\nCorrect because flocs require continuous aeration to form a structural mesh that actively consumes dissolved waste. The tempting option 'Masses of obligate anaerobic bacteria...' is wrong because flocs are inherently aerobic and function inside the aeration tank."
   },
   {
@@ -4542,8 +4645,12 @@ var allQuestions = [
     "type": "Direct",
     "hots": true,
     "q": "Which of the following organism is common in root ecosystems and acts as an effective biocontrol agent of several plant pathogens?",
-    "options": ["Nucleopolyhedrovirus","Ladybird beetle","Cactoblastis","Trichoderma"],
-    "correct": 3,
+    "options": [
+      "Nucleopolyhedrovirus",
+      "Trichoderma",
+      "Cactoblastis",
+      "Ladybird beetle"
+    ], "correct": 1,
     "explanation": "SOLUTION: Trichoderma species are very common in the root ecosystem and are effective against several plant pathogens .\nCorrect because Trichoderma protects plants right at the root-soil interface. The tempting option 'Ladybird beetle' is wrong because ladybirds live above ground on foliage hunting aphids, not in root ecosystems."
   },
   {
@@ -4564,8 +4671,12 @@ var allQuestions = [
     "type": "Direct",
     "hots": true,
     "q": "Different varieties of cheese are known by their characteristic texture, flavour and taste. These specificity are due to the",
-    "options": ["Flavouring agent used","Microbes used","Inherent quality","Minerals present in milk"],
-    "correct": 1,
+    "options": [
+      "Flavouring agent used",
+      "Minerals present in milk",
+      "Inherent quality",
+      "Microbes used"
+    ], "correct": 3,
     "explanation": "SOLUTION: Different types of flavour, texture and taste in cheese are due to type of microbes used .\nCorrect because the precise strain of metabolic bacteria or fungi shapes the fermentation products. The tempting option 'Flavouring agent used' is wrong because standard traditional cheeses derive their distinctive characteristics purely from biological maturation, not artificial flavor additives."
   },
   {
@@ -4575,8 +4686,12 @@ var allQuestions = [
     "type": "Except",
     "hots": true,
     "q": "Find the odd one out with respect to distillation of fermented broth.",
-    "options": ["Rum","Wine","Brandy","Whisky"],
-    "correct": 1,
+    "options": [
+      "Wine",
+      "Rum",
+      "Brandy",
+      "Whisky"
+    ], "correct": 0,
     "explanation": "SOLUTION: Wine is obtained without distillation of fermented broth .\nCorrect because wine and beer are low-alcohol beverages consumed straight from fermentation. The tempting option 'Brandy' is wrong to select because brandy is a distilled spirit with elevated alcohol content."
   },
   {
@@ -4586,8 +4701,12 @@ var allQuestions = [
     "type": "Direct",
     "hots": true,
     "q": "Alexander Fleming accidently discovered antibiotic penicillin from a mould, but he was working on",
-    "options": ["Streptococci","Streptobacilli","Staphylobacilli","Staphylococci"],
-    "correct": 3,
+    "options": [
+      "Streptococci",
+      "Staphylococci",
+      "Staphylobacilli",
+      "Streptobacilli"
+    ], "correct": 1,
     "explanation": "SOLUTION: Alexander Fleming discovered penicillin while working on Staphylococci .\nCorrect because Fleming observed the clear inhibition zones on a culture plate of Staphylococci bacteria contaminated by the mould. The tempting option 'Streptococci' is wrong because, though it sounds similar, it is a completely separate bacterial genus."
   },
   {
@@ -4597,8 +4716,12 @@ var allQuestions = [
     "type": "Match",
     "hots": true,
     "q": "Which of the following option gives the correct matching of microbe, product and use?",
-    "options": ["Saccharomyces - Methanol - Beverage production","Streptococcus - Streptokinase - Blood-cholesterol lowering agent","Monascus - Statins - Clot buster","Trichoderma - Cyclosporin A - Organ transplantation"],
-    "correct": 3,
+    "options": [
+      "Saccharomyces - Methanol - Beverage production",
+      "Streptococcus - Streptokinase - Blood-cholesterol lowering agent",
+      "Trichoderma - Cyclosporin A - Organ transplantation",
+      "Monascus - Statins - Clot buster"
+    ], "correct": 2,
     "explanation": "SOLUTION: Cyclosporine-A obtained from Trichoderma is immunosuppressive used in organ transplant patients .\nCorrect because this exact triplet matches the source microbe, active metabolite, and functional therapy perfectly. The tempting option with Streptococcus is wrong because streptokinase acts as a clot buster, not a blood-cholesterol lowering agent."
   },
   {
@@ -4608,8 +4731,12 @@ var allQuestions = [
     "type": "Direct",
     "hots": true,
     "q": "Consider the statements with blanks:<br>a. All solids that settle during primary treatment forms <b>(i)</b>.<br>b. Secondary treatment of sewage is also known as <b>(iii)</b> treatment.<br>c. A part of activated sludge is pumped back to serve as <b>(iv)</b>.<br>d. Sewage water is treated till <b>(v)</b> is reduced.<br>Identify the correct blanks.",
-    "options": ["(i) Primary sludge, (iii) Flocs, (v) DO","(ii) Effluent, (iii) Biological, (iv) Inoculum, (v) BOD","(i) Primary sludge, (iii) Flocs, (iv) Inoculum, (v) DO","(i) Effluent, (ii) Primary sludge, (iii) Flocs, (v) BOD"],
-    "correct": 1,
+    "options": [
+      "(i) Primary sludge, (iii) Flocs, (v) DO",
+      "(i) Effluent, (ii) Primary sludge, (iii) Flocs, (v) BOD",
+      "(i) Primary sludge, (iii) Flocs, (iv) Inoculum, (v) DO",
+      "(ii) Effluent, (iii) Biological, (iv) Inoculum, (v) BOD"
+    ], "correct": 3,
     "explanation": "SOLUTION: (i) Primary sludge, (ii) Effluent, (iii) Biological, (iv) Inoculum, (v) BOD .\nCorrect because the matching maps to option (2) accurately based on standard text fill-ups. The tempting option (3) is wrong because wastewater treatment continues until Biochemical Oxygen Demand (BOD) is *reduced*, not DO."
   },
   {
@@ -4619,8 +4746,12 @@ var allQuestions = [
     "type": "Except",
     "hots": true,
     "q": "Find out which one of the following statements is not correct with respect to biogas plant?",
-    "options": ["It has a floating cover which keeps on rising as gas is produced","It consists of a 10-15 feet deep tank in which bio-wastes are collected and a slurry of dung is fed","Main gases produced are methane, isobutane and propane","Spent slurry may be used as fertiliser"],
-    "correct": 2,
+    "options": [
+      "It has a floating cover which keeps on rising as gas is produced",
+      "Main gases produced are methane, isobutane and propane",
+      "It consists of a 10-15 feet deep tank in which bio-wastes are collected and a slurry of dung is fed",
+      "Spent slurry may be used as fertiliser"
+    ], "correct": 1,
     "explanation": "SOLUTION: Main gas produced in biogas production is methane .\nCorrect because the gas mix contains methane ($CH_4$) and carbon dioxide ($CO_2$), along with traces of $H_2$ and $H_2S$, but no alkanes like isobutane or propane. The tempting option describing a 10-15 feet deep tank is wrong to select because it is a correct dimension of a standard anaerobic digester."
   },
   {
@@ -4663,8 +4794,12 @@ var allQuestions = [
     "type": "Except",
     "hots": true,
     "q": "Mark the mis-matched pair.",
-    "options": ["Aspergillus niger - Citric acid","Nucleopolyhedrovirus - Narrow spectrum weedicide","Blue green algae - Important biofertilizer in paddy fields","Glomus - Mycorrhiza"],
-    "correct": 1,
+    "options": [
+      "Aspergillus niger - Citric acid",
+      "Glomus - Mycorrhiza",
+      "Blue green algae - Important biofertilizer in paddy fields",
+      "Nucleopolyhedrovirus - Narrow spectrum weedicide"
+    ], "correct": 3,
     "explanation": "SOLUTION: Nucleopolyhedroviruses are insecticides .\nCorrect because NPV acts as a narrow-spectrum biological *insecticide*, not a weedicide. The tempting option 'Glomus - Mycorrhiza' is wrong to select because Glomus is a major fungal genus that forms mycorrhizae."
   },
   {
@@ -4674,8 +4809,12 @@ var allQuestions = [
     "type": "Direct",
     "hots": true,
     "q": "Masses of bacteria associated with fungal filaments to form mesh like structures in aeration tank of STPs is called",
-    "options": ["Flocs","Primary sludge","Sewage","Biofertiliser"],
-    "correct": 0,
+    "options": [
+      "Primary sludge",
+      "Flocs",
+      "Sewage",
+      "Biofertiliser"
+    ], "correct": 1,
     "explanation": "SOLUTION: Flocs are masses of bacteria associated with the fungal filaments to form mesh-like structures .\nCorrect because these mesh-like configurations describe microbial flocs. The tempting option 'Primary sludge' is wrong because sludge is formed via physical sedimentation before any fungal filaments develop."
   },
   {
@@ -4685,8 +4824,12 @@ var allQuestions = [
     "type": "Direct",
     "hots": true,
     "q": "Proteases used in detergents and clearing of juices are obtained from",
-    "options": ["Monascus purpureus","Mortierella renispora","Streptococcus","Trichoderma sp."],
-    "correct": 1,
+    "options": [
+      "Monascus purpureus",
+      "Trichoderma sp.",
+      "Streptococcus",
+      "Mortierella renispora"
+    ], "correct": 3,
     "explanation": "SOLUTION: Proteases that help in clarifying fruit juices are obtained from Mortierella renispora .\nCorrect because Mortierella renispora is an industrial producer of these enzymes. The tempting option 'Monascus purpureus' is wrong because Monascus produces blood-cholesterol lowering statins, not industrial proteases."
   },
   {
@@ -4696,8 +4839,12 @@ var allQuestions = [
     "type": "Except",
     "hots": true,
     "q": "Select the incorrect statement w.r.t. streptokinase enzyme activity.",
-    "options": ["Shows fibrinolytic effect","Used as a blood clot buster","Produced by Streptococci","Used as an immunosuppressive agent"],
-    "correct": 3,
+    "options": [
+      "Shows fibrinolytic effect",
+      "Used as an immunosuppressive agent",
+      "Produced by Streptococci",
+      "Used as a blood clot buster"
+    ], "correct": 1,
     "explanation": "SOLUTION: Cyclosporin A is an immunosuppressive agent .\nCorrect because streptokinase breaks down fibrin clots, whereas Cyclosporin-A handles immunosuppression. The tempting option 'Shows fibrinolytic effect' is wrong to select because that is the correct medical term for its clot-dissolving action."
   },
   {
@@ -4707,8 +4854,12 @@ var allQuestions = [
     "type": "Direct",
     "hots": true,
     "q": "During waste water treatment process in STPs:",
-    "options": ["Floating debris is removed by sedimentation","Primary effluent is passed directly in secondary settling tank for treatment","A major part of sedimented flocs or activated sludge is send to anaerobic sludge digester","Secondary treatment is carried out in aeration tank by anaerobic heterotrophic bacteria and fungi"],
-    "correct": 2,
+    "options": [
+      "Floating debris is removed by sedimentation",
+      "Primary effluent is passed directly in secondary settling tank for treatment",
+      "Secondary treatment is carried out in aeration tank by anaerobic heterotrophic bacteria and fungi",
+      "A major part of sedimented flocs or activated sludge is send to anaerobic sludge digester"
+    ], "correct": 3,
     "explanation": "SOLUTION: The major part of activated sludge obtained from settling tank is send to anaerobic sludge digester .\nCorrect because sending the bulk sludge to anaerobic tanks produces biogas. The tempting option (4) is wrong because secondary treatment inside the aeration tank relies on *aerobic* microbes, not anaerobic ones."
   },
   {
@@ -4718,8 +4869,12 @@ var allQuestions = [
     "type": "Direct",
     "hots": true,
     "q": "Baculoviruses are pathogens that:",
-    "options": ["Attack insect and arthropods","Placed in genus Nucleopolyhedrovirus","Shows specific insecticidal application","All (1), (2) and (3) are correct"],
-    "correct": 3,
+    "options": [
+      "Attack insect and arthropods",
+      "All (1), (2) and (3) are correct",
+      "Shows specific insecticidal application",
+      "Placed in genus Nucleopolyhedrovirus"
+    ], "correct": 1,
     "explanation": "SOLUTION: The majority of baculoviruses are in the genus Nucleopolyhedro virus. These are of narrow spectrum insecticidal application .\nCorrect because all three individual points are key traits of baculoviruses. The tempting standalone options are incomplete."
   },
   {
@@ -4740,8 +4895,12 @@ var allQuestions = [
     "type": "Direct",
     "hots": true,
     "q": "<b>A</b> produced by the <b>B</b> and modified by genetic engineering is used as 'clot buster' for removing clots from the blood vessels of heart patients. Select the correct option for A and B.",
-    "options": ["(A) Cyclosporin A, (B) Streptococcus","(A) Immunosuppressive agent, (B) Trichoderma polysporum","(A) Streptokinase, (B) Streptococcus","(A) Streptokinase, (B) Trichoderma polysporum"],
-    "correct": 2,
+    "options": [
+      "(A) Cyclosporin A, (B) Streptococcus",
+      "(A) Streptokinase, (B) Streptococcus",
+      "(A) Immunosuppressive agent, (B) Trichoderma polysporum",
+      "(A) Streptokinase, (B) Trichoderma polysporum"
+    ], "correct": 1,
     "explanation": "SOLUTION: Cyclosporin A is used as immunosuppressive agent in organ transplant patients, and is produced by the fungus Trichoderma polysporum. Streptokinase is clot buster .\nCorrect because Streptokinase is the designated clot buster produced by Streptococcus bacterial cultures. The tempting option combining Streptokinase with Trichoderma is incorrect because Trichoderma produces Cyclosporin-A."
   },
   {
@@ -4751,8 +4910,12 @@ var allQuestions = [
     "type": "Direct",
     "hots": true,
     "q": "Which of the following significantly reduces the biochemical oxygen demand of the effluent in STPs?",
-    "options": ["Masses of algae associated with fungal filaments","Masses of bacteria associated with algal filaments","Masses of bacteria associated with fungal filaments","Masses of algae associated with viruses"],
-    "correct": 2,
+    "options": [
+      "Masses of algae associated with fungal filaments",
+      "Masses of bacteria associated with algal filaments",
+      "Masses of algae associated with viruses",
+      "Masses of bacteria associated with fungal filaments"
+    ], "correct": 3,
     "explanation": "SOLUTION: Flocs are masses of bacteria with fungal filaments .\nCorrect because these biological flocs consume organic matter, lowering the effluent's BOD. The tempting option with algal filaments is wrong because flocs are built from bacteria and *fungi*, not algae."
   },
   {
@@ -4762,8 +4925,12 @@ var allQuestions = [
     "type": "Direct",
     "hots": true,
     "q": "Bacillus thuringiensis:",
-    "options": ["Controls aphids and Ladybird beetle","Are available in sachets as syrups","Serves as an important biofertiliser in paddy fields","Releases toxin in the gut of insect larvae and the larvae get killed"],
-    "correct": 3,
+    "options": [
+      "Controls aphids and Ladybird beetle",
+      "Releases toxin in the gut of insect larvae and the larvae get killed",
+      "Serves as an important biofertiliser in paddy fields",
+      "Are available in sachets as syrups"
+    ], "correct": 1,
     "explanation": "SOLUTION: Bacillus thuringiensis controls butterfly caterpillars. It releases toxins in the gut of larvae .\nCorrect because the alkaline pH of the insect gut activates the Bt protoxin, creating pores that kill the larva. The tempting option 'available as syrups' is wrong because Bt is sold as dry spores in sachets, not syrups."
   },
   {
@@ -4795,8 +4962,12 @@ var allQuestions = [
     "type": "Except",
     "hots": true,
     "q": "Biogas is a mixture of gases produced from the microbial activity and it consists of all, except",
-    "options": ["Methane and CO2","Hydrogen and nitrogen","Sulphur dioxide and carbon monoxide","Hydrogen sulphide and nitrogen"],
-    "correct": 2,
+    "options": [
+      "Methane and CO2",
+      "Hydrogen and nitrogen",
+      "Hydrogen sulphide and nitrogen",
+      "Sulphur dioxide and carbon monoxide"
+    ], "correct": 3,
     "explanation": "SOLUTION: Biogas contains CH4, CO2, H2, N2 and H2S .\nCorrect because toxic industrial gases like sulfur dioxide ($SO_2$) and carbon monoxide ($CO$) are not produced during anaerobic digestion. The tempting option 'Hydrogen sulphide and nitrogen' is wrong to select because both are found in trace amounts within biogas."
   },
   {
@@ -4806,8 +4977,12 @@ var allQuestions = [
     "type": "Direct",
     "hots": true,
     "q": "Wine and beer are produced",
-    "options": ["By distillation only","By fermentation and distillation","By fermentation but without distillation","Without fermentation and distillation"],
-    "correct": 2,
+    "options": [
+      "By distillation only",
+      "By fermentation but without distillation",
+      "By fermentation and distillation",
+      "Without fermentation and distillation"
+    ], "correct": 1,
     "explanation": "SOLUTION: Wine and beer are produced without the distillation of fermented broth .\nCorrect because they are categorized as un-distilled alcoholic beverages. The tempting option 'By fermentation and distillation' is wrong because that applies to spirits like whiskey or brandy."
   },
   {
@@ -4817,8 +4992,12 @@ var allQuestions = [
     "type": "Direct",
     "hots": true,
     "q": "Which of the following is one of the most significant discoveries of the twentieth century that greatly contributed towards the welfare of human society?",
-    "options": ["Biogas","Curd","Antibiotics","Citric acid"],
-    "correct": 2,
+    "options": [
+      "Biogas",
+      "Curd",
+      "Citric acid",
+      "Antibiotics"
+    ], "correct": 3,
     "explanation": "SOLUTION: Antibiotics are regarded as one of the most significant discoveries of the twentieth century .\nCorrect because antibiotics revolutionized modern medicine by saving millions from bacterial infections. The tempting option 'Curd' is wrong because curd fermentation dates back millennia, making it an ancient discovery rather than a 20th-century breakthrough."
   },
   {
@@ -4828,8 +5007,12 @@ var allQuestions = [
     "type": "Match",
     "hots": true,
     "q": "Fill in the blanks:<br>A. ________ are the masses of bacteria associated with fungal filaments.<br>B. ________ is used as a 'clot buster'.<br>C. Baculoviruses are excellent candidates for ________ insecticidal application.<br>D. ________ are organisms that enrich the nutrient quality of the soil.",
-    "options": ["A-Flocs, B-Streptokinase, C-Narrow spectrum, D-Biofertiliser","A-Flocs, B-Cyclosporin-A, C-Broad spectrum, D-Biofertiliser","A-Primary sludge, B-Streptokinase, C-Narrow spectrum, D-Biofertiliser","A-Flocs, B-Streptokinase, C-Narrow spectrum, D-Biopesticides"],
-    "correct": 0,
+    "options": [
+      "A-Flocs, B-Cyclosporin-A, C-Broad spectrum, D-Biofertiliser",
+      "A-Flocs, B-Streptokinase, C-Narrow spectrum, D-Biofertiliser",
+      "A-Primary sludge, B-Streptokinase, C-Narrow spectrum, D-Biofertiliser",
+      "A-Flocs, B-Streptokinase, C-Narrow spectrum, D-Biopesticides"
+    ], "correct": 1,
     "explanation": "SOLUTION: A - Flocs; B - Streptokinase; C- Narrow spectrum; D - Biofertilisers; Streptokinase is a blood clot buster. Baculoviruses are of narrow spectrum insecticidal application .\nCorrect because option (1) accurately fills all four blanks sequentially. The tempting option (4) falls short because 'D' explicitly describes biofertilizers that improve soil nutrients, not biopesticides."
   },
   {
@@ -4839,8 +5022,12 @@ var allQuestions = [
     "type": "Direct",
     "hots": true,
     "q": "In a STP, microbial flocs are formed in",
-    "options": ["Anaerobic sludge digester","Primary treatment","Aeration tank","Physicochemical treatment"],
-    "correct": 2,
+    "options": [
+      "Anaerobic sludge digester",
+      "Primary treatment",
+      "Physicochemical treatment",
+      "Aeration tank"
+    ], "correct": 3,
     "explanation": "SOLUTION: In STPs, microbial flocs are formed in aeration tank of biological treatment .\nCorrect because aerobic conditions inside the aeration tank allow bacteria and fungi to mesh together into flocs. The tempting option 'Anaerobic sludge digester' is wrong because those tanks are kept strictly anaerobic, which breaks down flocs."
   },
   {
@@ -4850,8 +5037,12 @@ var allQuestions = [
     "type": "Direct",
     "hots": true,
     "q": "Use of some microbes as biofertiliser to enhance crop productivity is called",
-    "options": ["Organic farming","Marine farming","Micro farming","Compost farming"],
-    "correct": 0,
+    "options": [
+      "Compost farming",
+      "Marine farming",
+      "Micro farming",
+      "Organic farming"
+    ], "correct": 3,
     "explanation": "SOLUTION: Microbes are used in organic farming .\nCorrect because organic farming centers on shifting from synthetic chemicals to biofertilizers and ecological processes. The tempting option 'Compost farming' is wrong because composting is just one practice under the larger umbrella of organic farming."
   },
   {
@@ -4861,8 +5052,12 @@ var allQuestions = [
     "type": "Direct",
     "hots": true,
     "q": "Dough used for making dosa and bread are fermented respectively by",
-    "options": ["Bacteria and Fungi","Fungi and Bacteria","Eukaryotic and Prokaryotic organism","Yeast and Moneran"],
-    "correct": 0,
+    "options": [
+      "Yeast and Moneran",
+      "Fungi and Bacteria",
+      "Eukaryotic and Prokaryotic organism",
+      "Bacteria and Fungi"
+    ], "correct": 3,
     "explanation": "SOLUTION: The fermented preparation of rice and black gram for making dosa is prepared by using a bacterium. Dough for bread making is prepared by yeast .\nCorrect because dosa batter is fermented by lactic acid bacteria, while bread dough is risen using baker's yeast (a fungus). The tempting option 'Fungi and Bacteria' is wrong because it flips the correct sequence."
   },
   {
@@ -4872,8 +5067,12 @@ var allQuestions = [
     "type": "Direct",
     "hots": true,
     "q": "Three water samples: Drinking water, untreated sewage water, and secondary effluent have BOD values of 2 mg/L, 400 mg/L, and 20 mg/L respectively. Match them to the correct labels <b>A, B, and C</b> if A=20 mg/L, B=2 mg/L, C=400 mg/L.",
-    "options": ["A-Secondary effluent, B-Drinking water, C-Untreated sewage","A-Untreated sewage, B-Drinking water, C-Secondary effluent","A-Drinking water, B-Secondary effluent, C-Untreated sewage","A-Untreated sewage, B-Secondary effluent, C-Drinking water"],
-    "correct": 0,
+    "options": [
+      "A-Untreated sewage, B-Secondary effluent, C-Drinking water",
+      "A-Untreated sewage, B-Drinking water, C-Secondary effluent",
+      "A-Drinking water, B-Secondary effluent, C-Untreated sewage",
+      "A-Secondary effluent, B-Drinking water, C-Untreated sewage"
+    ], "correct": 3,
     "explanation": "SOLUTION: More polluted water has more BOD .\nCorrect because clean drinking water has the lowest BOD (2 mg/L), untreated sewage has the highest (400 mg/L), and treated secondary effluent sits in the middle (20 mg/L). The tempting option (2) is wrong because it attributes the highest BOD value to secondary effluent instead of untreated sewage."
   },
   {
@@ -4883,8 +5082,12 @@ var allQuestions = [
     "type": "Except",
     "hots": true,
     "q": "Sewage treatment process includes all of these features/activities, except",
-    "options": ["A small part of the activated sludge is pumped back into the aeration tank to serve as inoculum","Activated sludge cannot be used in anaerobic digestion process","Anaerobic bacteria digest bacteria in sludge digesters","Transfer of primary effluent in aeration tanks"],
-    "correct": 1,
+    "options": [
+      "A small part of the activated sludge is pumped back into the aeration tank to serve as inoculum",
+      "Transfer of primary effluent in aeration tanks",
+      "Anaerobic bacteria digest bacteria in sludge digesters",
+      "Activated sludge cannot be used in anaerobic digestion process"
+    ], "correct": 3,
     "explanation": "SOLUTION: Activated sludge in STPs is used in anaerobic sludge digestion .\nCorrect because the majority of sedimented activated sludge is purposefully pumped into anaerobic digesters to produce biogas. The tempting option 'Transfer of primary effluent...' is wrong to select because it correctly describes moving liquid out of the settling tanks into biological treatment units."
   },
   {
@@ -4894,8 +5097,12 @@ var allQuestions = [
     "type": "Direct",
     "hots": true,
     "q": "Toddy is made by fermenting sap from",
-    "options": ["Coconut","Agave","Palm","Aloe vera"],
-    "correct": 2,
+    "options": [
+      "Coconut",
+      "Agave",
+      "Aloe vera",
+      "Palm"
+    ], "correct": 3,
     "explanation": "SOLUTION: Toddy is made by fermenting sap from palm (Caryota urens) .\nCorrect because this traditional beverage relies on extracting and fermenting wild palm sap. The tempting option 'Agave' is wrong because Agave sap is fermented to make the traditional Mexican drink pulque or distilled into tequila, not Indian Toddy."
   },
   {

@@ -1,4 +1,4 @@
-// ===== CHAPTER: Cell: The Unit of Life =====
+﻿// ===== CHAPTER: Cell: The Unit of Life =====
 var allQuestions = [
 {
   "id": 1,
@@ -18,12 +18,11 @@ var allQuestions = [
   "topic": "Introduction to Cell Biology",
   "q": "Consider the following statements:<br>(i) Cell theory emphasised the diversity underlying the unity of forms.<br>(ii) A physico-chemical approach uses cell-free systems to investigate living processes.<br>(iii) Reductionist biology describes various processes in molecular terms.<br>Which of the above statements is/are <b>correct</b>?",
   "options": [
-    "Only (i) and (ii)",
-    "Only (ii) and (iii)",
-    "Only (i) and (iii)",
-    "All – (i), (ii) and (iii)"
-  ],
-  "correct": 1,
+      "Only (ii) and (iii)",
+      "Only (i) and (ii)",
+      "Only (i) and (iii)",
+      "All – (i), (ii) and (iii)"
+    ], "correct": 0,
   "explanation": "Statement (i) is INCORRECT – Cell theory emphasised the UNITY underlying the DIVERSITY of forms, not 'diversity underlying unity.' This is a classic NCERT wording trap. Statements (ii) and (iii) are correct as per NCERT."
 },
 {
@@ -31,12 +30,11 @@ var allQuestions = [
   "topic": "Introduction to Cell Biology",
   "q": "G.N. Ramachandran is best known for his contribution in determining the structure of:",
   "options": [
-    "DNA double helix",
-    "α-helix of proteins",
-    "Triple helical structure of collagen",
-    "β-sheet structure of proteins"
-  ],
-  "correct": 2,
+      "DNA double helix",
+      "Triple helical structure of collagen",
+      "α-helix of proteins",
+      "β-sheet structure of proteins"
+    ], "correct": 1,
   "explanation": "G.N. Ramachandran discovered the triple helical structure of collagen (published in Nature, 1954). The DNA double helix was discovered by Watson and Crick. The α-helix and β-sheet structures were proposed by Linus Pauling. This is a common confusion point in NEET."
 },
 {
@@ -70,12 +68,11 @@ var allQuestions = [
   "topic": "Introduction to Cell Biology",
   "q": "Who among the following first saw and described a <b>live cell</b>?",
   "options": [
-    "Robert Hooke",
-    "Robert Brown",
-    "Antonie Von Leeuwenhoek",
-    "Schleiden and Schwann"
-  ],
-  "correct": 2,
+      "Robert Hooke",
+      "Robert Brown",
+      "Schleiden and Schwann",
+      "Antonie Von Leeuwenhoek"
+    ], "correct": 3,
   "explanation": "Antonie Von Leeuwenhoek first saw and described a LIVE cell. Robert Hooke observed dead cork cells. Robert Brown discovered the nucleus. Schleiden and Schwann proposed the cell theory. NEET frequently tests 'live cell' vs 'cell' distinction – Hooke saw dead cells, Leeuwenhoek saw live cells."
 },
 {
@@ -96,12 +93,11 @@ var allQuestions = [
   "topic": "Introduction to Cell Biology",
   "q": "The structural details of the cell were revealed by:",
   "options": [
-    "Simple microscope only",
-    "Compound light microscope only",
-    "Improvement in microscopy leading to electron microscope",
-    "Naked eye observations and dissection"
-  ],
-  "correct": 2,
+      "Improvement in microscopy leading to electron microscope",
+      "Compound light microscope only",
+      "Simple microscope only",
+      "Naked eye observations and dissection"
+    ], "correct": 0,
   "explanation": "As per NCERT, 'the invention of the microscope and its improvement leading to the electron microscope revealed ALL the structural details of the cell.' The key word is 'all structural details' which required electron microscopy, not just light microscopy."
 },
 {
@@ -122,12 +118,11 @@ var allQuestions = [
   "topic": "Introduction to Cell Biology",
   "q": "The cell theory created a sense of mystery around living phenomena because:",
   "options": [
-    "It showed that cells can be created from non-living matter",
-    "It required the integrity of cellular organisation for living phenomena to be demonstrated",
-    "It proved that viruses are living organisms",
-    "It demonstrated that all cells arise from pre-existing cells spontaneously"
-  ],
-  "correct": 1,
+      "It showed that cells can be created from non-living matter",
+      "It proved that viruses are living organisms",
+      "It required the integrity of cellular organisation for living phenomena to be demonstrated",
+      "It demonstrated that all cells arise from pre-existing cells spontaneously"
+    ], "correct": 2,
   "explanation": "As per NCERT, 'Cell theory also created a sense of mystery around living phenomena... this mystery was the requirement of integrity of cellular organisation for living phenomena to be demonstrated or observed.' This means living processes need intact cellular organization to function."
 },
 {
@@ -161,12 +156,11 @@ var allQuestions = [
   "topic": "Introduction to Cell Biology",
   "q": "Which of the following processes is <b>NOT</b> mentioned in NCERT as an example of gross physiological processes studied through molecular approach?",
   "options": [
-    "Digestion",
-    "Photosynthesis",
-    "Defense",
-    "Memory"
-  ],
-  "correct": 1,
+      "Photosynthesis",
+      "Digestion",
+      "Defense",
+      "Memory"
+    ], "correct": 0,
   "explanation": "NCERT specifically mentions digestion, excretion, memory, defense, and recognition as examples of gross physiological processes. Photosynthesis is NOT mentioned in this particular context in the introduction. This tests careful reading of NCERT text."
 },
 {
@@ -174,12 +168,11 @@ var allQuestions = [
   "topic": "Introduction to Cell Biology",
   "q": "The detailed description of form and appearance of living organisms primarily brought out their:",
   "options": [
-    "Unity",
-    "Cellular organisation",
-    "Diversity",
-    "Molecular composition"
-  ],
-  "correct": 2,
+      "Unity",
+      "Diversity",
+      "Cellular organisation",
+      "Molecular composition"
+    ], "correct": 1,
   "explanation": "As per NCERT, 'The detailed description of their form and appearance only brought out their DIVERSITY.' It was the cell theory that emphasised the UNITY underlying this diversity. This is a subtle but important distinction tested in NEET."
 },
 {
@@ -200,12 +193,11 @@ var allQuestions = [
   "topic": "Introduction to Cell Biology",
   "q": "In the context of studying living organisms, the correct sequence of the reductionist approach is:",
   "options": [
-    "Analysis of compounds → Analysis of elements → Molecular basis of processes → Understanding physiological processes",
-    "Analysis of living tissues for elements and compounds → Identifying organic compounds → Understanding their role in the cell → Explaining physiological processes at molecular level",
-    "Observing organisms → Classifying them → Studying their habitats → Molecular analysis",
-    "Studying behaviour → Studying physiology → Studying anatomy → Molecular analysis"
-  ],
-  "correct": 1,
+      "Analysis of compounds → Analysis of elements → Molecular basis of processes → Understanding physiological processes",
+      "Studying behaviour → Studying physiology → Studying anatomy → Molecular analysis",
+      "Observing organisms → Classifying them → Studying their habitats → Molecular analysis",
+      "Analysis of living tissues for elements and compounds → Identifying organic compounds → Understanding their role in the cell → Explaining physiological processes at molecular level"
+    ], "correct": 3,
   "explanation": "As per NCERT, the reductionist approach follows: (1) Analysis of living tissues for elements and compounds → (2) Identifying types of organic compounds in living organisms → (3) Understanding what these compounds do inside a cell → (4) Explaining gross physiological processes at molecular level."
 },
 {
@@ -213,12 +205,11 @@ var allQuestions = [
   "topic": "Introduction to Cell Biology",
   "q": "G.N. Ramachandran's father was a professor of:",
   "options": [
-    "Physics",
-    "Chemistry",
-    "Mathematics",
-    "Biology"
-  ],
-  "correct": 2,
+      "Mathematics",
+      "Chemistry",
+      "Physics",
+      "Biology"
+    ], "correct": 0,
   "explanation": "As per NCERT, 'His father was a professor of mathematics at a local college and thus had considerable influence in shaping Ramachandran's interest in mathematics.' This is a factual detail from the given passage."
 },
 {
@@ -252,12 +243,11 @@ var allQuestions = [
   "topic": "Introduction to Cell Biology",
   "q": "G.N. Ramachandran graduated as the top-ranking student in:",
   "options": [
-    "B.Sc. (Honors) Chemistry from University of Calcutta",
-    "B.Sc. (Honors) Physics from University of Madras",
-    "B.Sc. (Honors) Mathematics from University of Madras",
-    "B.Sc. (Honors) Physics from Cambridge University"
-  ],
-  "correct": 1,
+      "B.Sc. (Honors) Chemistry from University of Calcutta",
+      "B.Sc. (Honors) Mathematics from University of Madras",
+      "B.Sc. (Honors) Physics from University of Madras",
+      "B.Sc. (Honors) Physics from Cambridge University"
+    ], "correct": 2,
   "explanation": "As per NCERT, 'Ramachandran graduated in 1942 as the top-ranking student in the B.Sc. (Honors) Physics course of the University of Madras.' He later received his Ph.D. from Cambridge, but his graduation was from Madras."
 },
 {
@@ -278,12 +268,11 @@ var allQuestions = [
   "topic": "Introduction to Cell Biology",
   "q": "The meeting of G.N. Ramachandran with which scientist directed his attention to solving the structure of collagen?",
   "options": [
-    "James Watson",
-    "Francis Crick",
-    "Linus Pauling",
-    "Rosalind Franklin"
-  ],
-  "correct": 2,
+      "James Watson",
+      "Francis Crick",
+      "Rosalind Franklin",
+      "Linus Pauling"
+    ], "correct": 3,
   "explanation": "As per NCERT, 'While at Cambridge, Ramachandran met Linus Pauling and was deeply influenced by his publications on models of the α-helix and β-sheet structures that directed his attention to solving the structure of collagen.'"
 },
 {
@@ -304,12 +293,11 @@ var allQuestions = [
   "topic": "Introduction to Cell Biology",
   "q": "The Ramachandran plot and the triple helical structure of collagen are contributions that rank among the most outstanding in the field of:",
   "options": [
-    "Molecular genetics",
-    "Structural biology",
-    "Evolutionary biology",
-    "Developmental biology"
-  ],
-  "correct": 1,
+      "Structural biology",
+      "Molecular genetics",
+      "Evolutionary biology",
+      "Developmental biology"
+    ], "correct": 0,
   "explanation": "As per NCERT, Ramachandran's contributions 'rank among the most outstanding contributions in STRUCTURAL BIOLOGY.' This is a direct NCERT statement."
 },
 {
@@ -317,12 +305,11 @@ var allQuestions = [
   "topic": "Introduction to Cell Biology",
   "q": "Which year was the triple helical structure of collagen published in the journal <i>Nature</i>?",
   "options": [
-    "1942",
-    "1949",
-    "1953",
-    "1954"
-  ],
-  "correct": 3,
+      "1942",
+      "1954",
+      "1953",
+      "1949"
+    ], "correct": 1,
   "explanation": "The triple helical structure of collagen was published in Nature in 1954. 1942 – Ramachandran graduated B.Sc. 1949 – He received Ph.D. from Cambridge. 1953 – Watson and Crick published DNA structure (common distractor). This tests careful reading vs. year confusion."
 },
 {
@@ -330,12 +317,11 @@ var allQuestions = [
   "topic": "Introduction to Cell Biology",
   "q": "The physico-chemical approach in biology is established by:",
   "options": [
-    "Observing organisms in their natural habitat",
-    "Analysis of living tissues for elements and compounds",
-    "Studying fossil records",
-    "Comparing anatomical features of different organisms"
-  ],
-  "correct": 1,
+      "Observing organisms in their natural habitat",
+      "Studying fossil records",
+      "Analysis of living tissues for elements and compounds",
+      "Comparing anatomical features of different organisms"
+    ], "correct": 2,
   "explanation": "As per NCERT, 'the approach is established by analysis of living tissues for elements and compounds.' This is the starting point of the reductionist approach to biology."
 },
 {
@@ -343,12 +329,11 @@ var allQuestions = [
   "topic": "Introduction to Cell Biology",
   "q": "Consider the following statements:<br>(i) All organisms are composed of cells.<br>(ii) Organisms composed of a single cell are called multicellular organisms.<br>(iii) Organisms composed of many cells are called multicellular organisms.<br>Which of the above statements is/are <b>incorrect</b>?",
   "options": [
-    "Only (i)",
-    "Only (ii)",
-    "Only (iii)",
-    "(i) and (iii)"
-  ],
-  "correct": 1,
+      "Only (i)",
+      "(i) and (iii)",
+      "Only (iii)",
+      "Only (ii)"
+    ], "correct": 3,
   "explanation": "Statement (ii) is INCORRECT – organisms composed of a single cell are called UNICELLULAR organisms, not multicellular. Statement (i) and (iii) are correct as per NCERT. This is a simple word-swap trap commonly set in NEET."
 },
 {
@@ -369,12 +354,11 @@ var allQuestions = [
   "topic": "Introduction to Cell Biology",
   "q": "Which of the following is <b>NOT</b> mentioned as a gross physiological process in the given NCERT text?",
   "options": [
-    "Excretion",
-    "Recognition",
-    "Reproduction",
-    "Defense"
-  ],
-  "correct": 2,
+      "Reproduction",
+      "Recognition",
+      "Excretion",
+      "Defense"
+    ], "correct": 0,
   "explanation": "NCERT specifically mentions digestion, excretion, memory, defense, and recognition as examples of gross physiological processes. Reproduction is NOT mentioned in this particular list in the introduction. Students often assume reproduction must be listed."
 },
 {
@@ -408,12 +392,11 @@ var allQuestions = [
   "topic": "Cell Theory",
   "q": "Consider the following statements:<br>(i) Schleiden observed that all plants are composed of different kinds of cells.<br>(ii) Schwann reported that cells had a thin outer layer called the cell wall.<br>(iii) Schwann concluded that the presence of cell wall is a unique character of plant cells.<br>Which of the above statements is/are <b>correct</b>?",
   "options": [
-    "Only (i) and (ii)",
-    "Only (ii) and (iii)",
-    "Only (i) and (iii)",
-    "All – (i), (ii) and (iii)"
-  ],
-  "correct": 2,
+      "Only (i) and (ii)",
+      "Only (ii) and (iii)",
+      "All – (i), (ii) and (iii)",
+      "Only (i) and (iii)"
+    ], "correct": 3,
   "explanation": "Statement (ii) is INCORRECT – Schwann reported that cells had a thin outer layer known as the 'PLASMA MEMBRANE', NOT cell wall. The cell wall was identified as unique to plant cells (statement iii). This is a classic NEET trap where students confuse plasma membrane with cell wall in Schwann's observations."
 },
 {
@@ -421,12 +404,11 @@ var allQuestions = [
   "topic": "Cell Theory",
   "q": "The cell theory as understood today includes:<br>(i) All living organisms are composed of cells and products of cells.<br>(ii) All cells arise from pre-existing cells.<br>(iii) All cells contain DNA as genetic material.<br>(iv) The cell is the fundamental unit of structure and organisation in organisms.<br>Select the <b>correct</b> option as per NCERT:",
   "options": [
-    "(i), (ii), (iii) and (iv)",
-    "(i) and (ii) only",
-    "(i), (ii) and (iv) only",
-    "(i), (ii) and (iii) only"
-  ],
-  "correct": 1,
+      "(i) and (ii) only",
+      "(i), (ii), (iii) and (iv)",
+      "(i), (ii) and (iv) only",
+      "(i), (ii) and (iii) only"
+    ], "correct": 0,
   "explanation": "As per NCERT, the cell theory as understood today includes ONLY two tenets: (i) all living organisms are composed of cells and products of cells, and (ii) all cells arise from pre-existing cells. Statements (iii) and (iv) are true facts but are NOT listed as part of the cell theory in NCERT. Students commonly add extra tenets – a frequent NEET trap."
 },
 {
@@ -447,12 +429,11 @@ var allQuestions = [
   "topic": "Cell Theory",
   "q": "Match the following:<br>(a) Schleiden – (i) 1855<br>(b) Schwann – (ii) 1838<br>(c) Virchow – (iii) 1839<br>Select the correct matching:",
   "options": [
-    "a-(ii), b-(iii), c-(i)",
-    "a-(iii), b-(ii), c-(i)",
-    "a-(i), b-(ii), c-(iii)",
-    "a-(ii), b-(i), c-(iii)"
-  ],
-  "correct": 0,
+      "a-(iii), b-(ii), c-(i)",
+      "a-(ii), b-(iii), c-(i)",
+      "a-(i), b-(ii), c-(iii)",
+      "a-(ii), b-(i), c-(iii)"
+    ], "correct": 1,
   "explanation": "Schleiden (1838) examined plants; Schwann (1839) studied animal cells; Virchow (1855) proposed Omnis cellula-e cellula. The correct match is a-(ii), b-(iii), c-(i). Year-based matching is a frequently tested pattern in NEET."
 },
 {
@@ -473,12 +454,11 @@ var allQuestions = [
   "topic": "Cell Theory",
   "q": "Theodore Schwann is associated with all of the following <b>EXCEPT</b>:",
   "options": [
-    "Studying different types of animal cells",
-    "Reporting the thin outer layer of cells known as plasma membrane",
-    "Concluding that cell wall is unique to plant cells",
-    "First explaining that cells arise from pre-existing cells"
-  ],
-  "correct": 3,
+      "Studying different types of animal cells",
+      "Reporting the thin outer layer of cells known as plasma membrane",
+      "First explaining that cells arise from pre-existing cells",
+      "Concluding that cell wall is unique to plant cells"
+    ], "correct": 2,
   "explanation": "Schwann studied animal cells (A), reported plasma membrane (B), and concluded cell wall is unique to plants (C). However, it was Rudolf Virchow, NOT Schwann, who first explained that cells arise from pre-existing cells. This is a commonly confused point in NEET."
 },
 {
@@ -486,12 +466,11 @@ var allQuestions = [
   "topic": "Cell Theory",
   "q": "Which of the following is the delimiting structure of the human cheek cell?",
   "options": [
-    "Cell wall",
-    "Plasma membrane",
-    "Nuclear membrane",
-    "Tonoplast"
-  ],
-  "correct": 1,
+      "Cell wall",
+      "Tonoplast",
+      "Nuclear membrane",
+      "Plasma membrane"
+    ], "correct": 3,
   "explanation": "As per NCERT, 'The cells of the human cheek have an outer membrane as the delimiting structure of the cell.' Human cheek cells are animal cells and lack a cell wall. The outer boundary is the plasma membrane. Tonoplast is the membrane of the vacuole."
 },
 {
@@ -512,12 +491,11 @@ var allQuestions = [
   "topic": "Cell Theory",
   "q": "Ribosomes are found in all of the following locations <b>EXCEPT</b>:",
   "options": [
-    "Cytoplasm",
-    "Chloroplasts",
-    "Lysosomes",
-    "Mitochondria"
-  ],
-  "correct": 2,
+      "Cytoplasm",
+      "Lysosomes",
+      "Chloroplasts",
+      "Mitochondria"
+    ], "correct": 1,
   "explanation": "As per NCERT, ribosomes are found in the cytoplasm, within chloroplasts (in plants), within mitochondria, and on rough ER. Ribosomes are NOT found in lysosomes. This is a frequently tested NEET question on ribosome distribution."
 },
 {
@@ -538,12 +516,11 @@ var allQuestions = [
   "topic": "Cell Theory",
   "q": "The largest isolated single cell is:",
   "options": [
-    "Egg of a hen",
-    "Nerve cell of a whale",
-    "Egg of an ostrich",
-    "Acetabularia"
-  ],
-  "correct": 2,
+      "Egg of a hen",
+      "Nerve cell of a whale",
+      "Acetabularia",
+      "Egg of an ostrich"
+    ], "correct": 3,
   "explanation": "As per NCERT, 'The largest isolated single cell is the egg of an ostrich.' Note the word 'isolated' – meaning a single, free cell. Nerve cells may be longer but are not isolated single cells. Hen's egg is large but ostrich egg is the largest."
 },
 {
@@ -564,12 +541,11 @@ var allQuestions = [
   "topic": "Cell Theory",
   "q": "Which of the following is a <b>non-membrane bound</b> organelle found exclusively in <b>animal cells</b>?",
   "options": [
-    "Ribosome",
-    "Centrosome",
-    "Lysosome",
-    "Mitochondria"
-  ],
-  "correct": 1,
+      "Centrosome",
+      "Ribosome",
+      "Lysosome",
+      "Mitochondria"
+    ], "correct": 0,
   "explanation": "As per NCERT, 'Animal cells contain another non-membrane bound organelle called centrosome which helps in cell division.' Ribosomes are found in both plant and animal cells. Lysosomes and mitochondria are membrane-bound organelles. Centrosome is non-membrane bound and found in animal cells."
 },
 {
@@ -577,12 +553,11 @@ var allQuestions = [
   "topic": "Cell Theory",
   "q": "The diameter of human red blood cells is approximately:",
   "options": [
-    "0.3 μm",
-    "3–5 μm",
-    "7.0 μm",
-    "10.0 μm"
-  ],
-  "correct": 2,
+      "0.3 μm",
+      "7.0 μm",
+      "3–5 μm",
+      "10.0 μm"
+    ], "correct": 1,
   "explanation": "As per NCERT, 'human red blood cells are about 7.0 μm in diameter.' 0.3 μm is the size of Mycoplasma, 3–5 μm is the size range of bacteria. These size values are frequently asked in NEET."
 },
 {
@@ -590,12 +565,11 @@ var allQuestions = [
   "topic": "Cell Theory",
   "q": "The cytoplasm is described in NCERT as:",
   "options": [
-    "A solid matrix found only in eukaryotic cells",
-    "A semi-fluid matrix that occupies the volume of the cell",
-    "A fluid found only between the organelles",
-    "A rigid matrix surrounding the nucleus"
-  ],
-  "correct": 1,
+      "A solid matrix found only in eukaryotic cells",
+      "A fluid found only between the organelles",
+      "A semi-fluid matrix that occupies the volume of the cell",
+      "A rigid matrix surrounding the nucleus"
+    ], "correct": 2,
   "explanation": "As per NCERT, 'a semi-fluid matrix called cytoplasm occupies the volume of the cell.' Key points: it is SEMI-FLUID (not solid or rigid), and it occupies the volume of the cell in BOTH prokaryotic and eukaryotic cells."
 },
 {
@@ -616,12 +590,11 @@ var allQuestions = [
   "topic": "Cell Theory",
   "q": "Consider the following organelles:<br>(a) Endoplasmic reticulum<br>(b) Ribosomes<br>(c) Golgi complex<br>(d) Centrosome<br>(e) Mitochondria<br>Which of the above are <b>membrane-bound</b> organelles?",
   "options": [
-    "(a), (c) and (e) only",
-    "(a), (b), (c) and (e)",
-    "(a), (c), (d) and (e)",
-    "All of the above"
-  ],
-  "correct": 0,
+      "All of the above",
+      "(a), (b), (c) and (e)",
+      "(a), (c), (d) and (e)",
+      "(a), (c) and (e) only"
+    ], "correct": 3,
   "explanation": "Membrane-bound organelles include ER (a), Golgi complex (c), and mitochondria (e). Ribosomes (b) and centrosome (d) are NON-membrane bound organelles as clearly stated in NCERT. This classification is a very high-weightage NEET concept."
 },
 {
@@ -629,12 +602,11 @@ var allQuestions = [
   "topic": "Cell Theory",
   "q": "The nucleus of a cell contains chromosomes which in turn contain:",
   "options": [
-    "RNA only",
-    "Proteins only",
-    "DNA",
-    "Lipids"
-  ],
-  "correct": 2,
+      "DNA",
+      "Proteins only",
+      "RNA only",
+      "Lipids"
+    ], "correct": 0,
   "explanation": "As per NCERT, 'This nucleus contains the chromosomes which in turn contain the genetic material, DNA.' While chromosomes also contain proteins (histones), the NCERT text specifically mentions DNA as the genetic material contained in chromosomes."
 },
 {
@@ -642,12 +614,11 @@ var allQuestions = [
   "topic": "Cell Theory",
   "q": "Which of the following is <b>NOT</b> listed as a membrane-bound organelle in the NCERT text?",
   "options": [
-    "Lysosomes",
-    "Microbodies",
-    "Vacuoles",
-    "Ribosomes"
-  ],
-  "correct": 3,
+      "Lysosomes",
+      "Ribosomes",
+      "Vacuoles",
+      "Microbodies"
+    ], "correct": 1,
   "explanation": "NCERT lists ER, Golgi complex, lysosomes, mitochondria, microbodies, and vacuoles as membrane-bound organelles. Ribosomes are specifically stated as NON-membrane bound organelles. This is a direct NCERT fact tested frequently in NEET."
 },
 {
@@ -655,12 +626,11 @@ var allQuestions = [
   "topic": "Cell Theory",
   "q": "A cell that has a membrane-bound nucleus is called:",
   "options": [
-    "Prokaryotic",
-    "Eukaryotic",
-    "Acellular",
-    "Syncytial"
-  ],
-  "correct": 1,
+      "Prokaryotic",
+      "Acellular",
+      "Eukaryotic",
+      "Syncytial"
+    ], "correct": 2,
   "explanation": "As per NCERT, 'Cells that have membrane bound nuclei are called eukaryotic whereas cells that lack a membrane bound nucleus are prokaryotic.' The presence or absence of a membrane-bound nucleus is the fundamental distinction."
 },
 {
@@ -681,12 +651,11 @@ var allQuestions = [
   "topic": "Cell Theory",
   "q": "Schleiden was a:",
   "options": [
-    "German Zoologist",
-    "British Botanist",
-    "German Botanist",
-    "French Physician"
-  ],
-  "correct": 2,
+      "German Zoologist",
+      "British Botanist",
+      "French Physician",
+      "German Botanist"
+    ], "correct": 3,
   "explanation": "As per NCERT, 'Matthias Schleiden, a German botanist, examined a large number of plants.' Schwann was a German Zoologist. Students frequently interchange the professions of Schleiden and Schwann in NEET."
 },
 {
@@ -694,12 +663,11 @@ var allQuestions = [
   "topic": "Cell Theory",
   "q": "Which of the following correctly represents the size of bacteria?",
   "options": [
-    "0.3 μm",
-    "3 to 5 μm",
-    "7.0 μm",
-    "0.3 mm"
-  ],
-  "correct": 1,
+      "3 to 5 μm",
+      "0.3 μm",
+      "7.0 μm",
+      "0.3 mm"
+    ], "correct": 0,
   "explanation": "As per NCERT, 'bacteria could be 3 to 5 μm.' Mycoplasma is 0.3 μm, human RBC is 7.0 μm. Note: NCERT mentions Mycoplasma size as '0.3 mm' in the text but this is likely meant as 0.3 μm based on context. Bacteria are clearly 3–5 μm."
 },
 {
@@ -707,12 +675,11 @@ var allQuestions = [
   "topic": "Cell Theory",
   "q": "Consider the following:<br>(i) Cytoplasm is the main arena of cellular activities.<br>(ii) Various chemical reactions occur in cytoplasm to keep the cell in the 'living state'.<br>(iii) Cytoplasm is found only in eukaryotic cells.<br>Which of the above is/are <b>correct</b>?",
   "options": [
-    "Only (i) and (ii)",
-    "Only (i) and (iii)",
-    "Only (ii) and (iii)",
-    "All – (i), (ii) and (iii)"
-  ],
-  "correct": 0,
+      "Only (i) and (iii)",
+      "Only (i) and (ii)",
+      "Only (ii) and (iii)",
+      "All – (i), (ii) and (iii)"
+    ], "correct": 1,
   "explanation": "Statements (i) and (ii) are correct as per NCERT – cytoplasm is the main arena of cellular activities and various chemical reactions occur in it. Statement (iii) is INCORRECT – NCERT clearly states cytoplasm is found in BOTH prokaryotic and eukaryotic cells."
 },
 {
@@ -746,12 +713,11 @@ var allQuestions = [
   "topic": "Cell Theory",
   "q": "The shape of cells may vary with:",
   "options": [
-    "The age of the organism",
-    "The function they perform",
-    "The habitat of the organism",
-    "The season of the year"
-  ],
-  "correct": 1,
+      "The age of the organism",
+      "The season of the year",
+      "The habitat of the organism",
+      "The function they perform"
+    ], "correct": 3,
   "explanation": "As per NCERT, 'The shape of the cell may vary with the function they perform.' This is a direct NCERT statement. Cells can be disc-like, polygonal, columnar, cuboid, thread-like, or irregular depending on their function."
 },
 {
@@ -759,12 +725,11 @@ var allQuestions = [
   "topic": "Cell Theory",
   "q": "Which of the following is <b>NOT</b> a cell shape mentioned in the NCERT text?",
   "options": [
-    "Disc-like",
-    "Columnar",
-    "Stellate",
-    "Polygonal"
-  ],
-  "correct": 2,
+      "Stellate",
+      "Columnar",
+      "Disc-like",
+      "Polygonal"
+    ], "correct": 0,
   "explanation": "NCERT mentions disc-like, polygonal, columnar, cuboid, thread-like, and irregular as cell shapes. 'Stellate' (star-shaped) is NOT mentioned in the given NCERT text, although it is a valid cell shape found in biology."
 },
 {
@@ -785,12 +750,11 @@ var allQuestions = [
   "topic": "Prokaryotic Cells",
   "q": "Which of the following is <b>NOT</b> a prokaryotic organism?",
   "options": [
-    "Blue-green algae",
-    "Mycoplasma",
-    "Mucor",
-    "PPLO"
-  ],
-  "correct": 2,
+      "Blue-green algae",
+      "Mucor",
+      "Mycoplasma",
+      "PPLO"
+    ], "correct": 1,
   "explanation": "Mucor is a eukaryotic fungus, not a prokaryote. Blue-green algae (cyanobacteria), Mycoplasma, and PPLO (Pleuro Pneumonia Like Organisms) are all prokaryotic organisms as stated in NCERT. Students sometimes confuse blue-green algae as eukaryotic – they are prokaryotic."
 },
 {
@@ -798,12 +762,11 @@ var allQuestions = [
   "topic": "Prokaryotic Cells",
   "q": "Match the bacterial shapes with their descriptions:<br>(a) Bacillus – (i) Spiral<br>(b) Coccus – (ii) Rod-like<br>(c) Vibrio – (iii) Spherical<br>(d) Spirillum – (iv) Comma-shaped<br>Select the correct matching:",
   "options": [
-    "a-(ii), b-(iii), c-(iv), d-(i)",
-    "a-(i), b-(iii), c-(iv), d-(ii)",
-    "a-(ii), b-(iv), c-(iii), d-(i)",
-    "a-(ii), b-(iii), c-(i), d-(iv)"
-  ],
-  "correct": 0,
+      "a-(ii), b-(iv), c-(iii), d-(i)",
+      "a-(i), b-(iii), c-(iv), d-(ii)",
+      "a-(ii), b-(iii), c-(iv), d-(i)",
+      "a-(ii), b-(iii), c-(i), d-(iv)"
+    ], "correct": 2,
   "explanation": "Bacillus = rod-like (ii), Coccus = spherical (iii), Vibrio = comma-shaped (iv), Spirillum = spiral (i). The most common NEET trap is confusing vibrio (comma) with spirillum (spiral). Remember: Vibrio cholera is comma-shaped."
 },
 {
@@ -811,12 +774,11 @@ var allQuestions = [
   "topic": "Prokaryotic Cells",
   "q": "All prokaryotes have a cell wall surrounding the cell membrane <b>except</b>:",
   "options": [
-    "Bacteria",
-    "Blue-green algae",
-    "Mycoplasma",
-    "PPLO"
-  ],
-  "correct": 2,
+      "Bacteria",
+      "Blue-green algae",
+      "PPLO",
+      "Mycoplasma"
+    ], "correct": 3,
   "explanation": "As per NCERT, 'All prokaryotes have a cell wall surrounding the cell membrane except in mycoplasma.' This is one of the most frequently tested facts in NEET. Note: PPLO and Mycoplasma are often considered the same group, but NCERT specifically names mycoplasma as the exception."
 },
 {
@@ -824,12 +786,11 @@ var allQuestions = [
   "topic": "Prokaryotic Cells",
   "q": "Consider the following statements about prokaryotic genetic material:<br>(i) The genetic material is basically naked, not enveloped by a nuclear membrane.<br>(ii) The genomic DNA is a single linear chromosome.<br>(iii) Plasmids are small circular DNA outside the genomic DNA.<br>(iv) Plasmid DNA confers resistance to antibiotics.<br>Which of the above are <b>correct</b>?",
   "options": [
-    "(i), (ii) and (iii)",
-    "(i), (iii) and (iv)",
-    "(ii), (iii) and (iv)",
-    "All of the above"
-  ],
-  "correct": 1,
+      "(i), (iii) and (iv)",
+      "(i), (ii) and (iii)",
+      "(ii), (iii) and (iv)",
+      "All of the above"
+    ], "correct": 0,
   "explanation": "Statement (ii) is INCORRECT – the genomic DNA is a single CIRCULAR chromosome, not linear. NCERT states 'the single chromosome/circular DNA.' Statements (i), (iii), and (iv) are all correct. Linear vs circular DNA is a classic NEET trap for prokaryotes."
 },
 {
@@ -850,12 +811,11 @@ var allQuestions = [
   "topic": "Prokaryotic Cells",
   "q": "Mesosomes are formed by:",
   "options": [
-    "Infoldings of the cell wall",
-    "Extensions of the nuclear membrane",
-    "Extensions of plasma membrane into the cell",
-    "Independent membrane-bound structures in cytoplasm"
-  ],
-  "correct": 2,
+      "Infoldings of the cell wall",
+      "Extensions of plasma membrane into the cell",
+      "Extensions of the nuclear membrane",
+      "Independent membrane-bound structures in cytoplasm"
+    ], "correct": 1,
   "explanation": "As per NCERT, 'A special membranous structure is the mesosome which is formed by the extensions of plasma membrane into the cell.' They are NOT independent organelles or cell wall infoldings. NCERT also describes them as 'infoldings of cell membrane' – key distinction from cell wall."
 },
 {
@@ -863,12 +823,11 @@ var allQuestions = [
   "topic": "Prokaryotic Cells",
   "q": "Mesosomes are present in the form of:<br>(i) Vesicles<br>(ii) Tubules<br>(iii) Lamellae<br>(iv) Cristae<br>Select the <b>correct</b> option:",
   "options": [
-    "(i), (ii) and (iii) only",
-    "(i), (ii) and (iv) only",
-    "(ii), (iii) and (iv) only",
-    "All of the above"
-  ],
-  "correct": 0,
+      "(ii), (iii) and (iv) only",
+      "(i), (ii) and (iv) only",
+      "(i), (ii) and (iii) only",
+      "All of the above"
+    ], "correct": 2,
   "explanation": "As per NCERT, mesosome extensions are in the form of vesicles, tubules, and lamellae. Cristae are the infoldings of the inner mitochondrial membrane in eukaryotes, NOT a form of mesosomes. This is a common trap – students confuse mesosomes with mitochondrial cristae."
 },
 {
@@ -876,12 +835,11 @@ var allQuestions = [
   "topic": "Prokaryotic Cells",
   "q": "Which of the following is <b>NOT</b> a function of mesosomes as per NCERT?",
   "options": [
-    "Cell wall formation",
-    "DNA replication and distribution to daughter cells",
-    "Photosynthesis",
-    "Respiration"
-  ],
-  "correct": 2,
+      "Cell wall formation",
+      "DNA replication and distribution to daughter cells",
+      "Respiration",
+      "Photosynthesis"
+    ], "correct": 3,
   "explanation": "NCERT lists mesosome functions as: cell wall formation, DNA replication and distribution to daughter cells, respiration, secretion processes, increasing surface area of plasma membrane, and enzymatic content. Photosynthesis is NOT listed – chromatophores (not mesosomes) contain pigments in cyanobacteria."
 },
 {
@@ -889,12 +847,11 @@ var allQuestions = [
   "topic": "Prokaryotic Cells",
   "q": "The cell envelope of a bacterial cell consists of (from outermost to innermost):",
   "options": [
-    "Cell wall → Glycocalyx → Plasma membrane",
-    "Plasma membrane → Cell wall → Glycocalyx",
-    "Glycocalyx → Cell wall → Plasma membrane",
-    "Glycocalyx → Plasma membrane → Cell wall"
-  ],
-  "correct": 2,
+      "Glycocalyx → Cell wall → Plasma membrane",
+      "Plasma membrane → Cell wall → Glycocalyx",
+      "Cell wall → Glycocalyx → Plasma membrane",
+      "Glycocalyx → Plasma membrane → Cell wall"
+    ], "correct": 0,
   "explanation": "As per NCERT, 'The cell envelope consists of a tightly bound three layered structure i.e., the outermost glycocalyx followed by the cell wall and then the plasma membrane.' Order: Glycocalyx (outermost) → Cell wall → Plasma membrane (innermost). This sequence is very frequently tested in NEET."
 },
 {
@@ -915,12 +872,11 @@ var allQuestions = [
   "topic": "Prokaryotic Cells",
   "q": "The glycocalyx, when it is thick and tough, is called:",
   "options": [
-    "Slime layer",
-    "Capsule",
-    "Pellicle",
-    "Cell wall"
-  ],
-  "correct": 1,
+      "Slime layer",
+      "Pellicle",
+      "Capsule",
+      "Cell wall"
+    ], "correct": 2,
   "explanation": "As per NCERT, glycocalyx 'could be a loose sheath called the slime layer in some, while in others it may be thick and tough, called the capsule.' Loose = slime layer; Thick & tough = capsule. This distinction is a high-frequency NEET question."
 },
 {
@@ -941,12 +897,11 @@ var allQuestions = [
   "topic": "Prokaryotic Cells",
   "q": "Chromatophores are found in:",
   "options": [
-    "All bacteria",
-    "Mycoplasma",
-    "Some prokaryotes like cyanobacteria",
-    "All eukaryotic cells"
-  ],
-  "correct": 2,
+      "All bacteria",
+      "Mycoplasma",
+      "All eukaryotic cells",
+      "Some prokaryotes like cyanobacteria"
+    ], "correct": 3,
   "explanation": "As per NCERT, 'In some prokaryotes like cyanobacteria, there are other membranous extensions into the cytoplasm called chromatophores which contain pigments.' They are NOT found in all bacteria or all prokaryotes – only in some, like cyanobacteria."
 },
 {
@@ -954,12 +909,11 @@ var allQuestions = [
   "topic": "Prokaryotic Cells",
   "q": "The bacterial flagellum is composed of three parts. Which of the following is the <b>longest</b> portion?",
   "options": [
-    "Hook",
-    "Basal body",
-    "Filament",
-    "Pili"
-  ],
-  "correct": 2,
+      "Filament",
+      "Basal body",
+      "Hook",
+      "Pili"
+    ], "correct": 0,
   "explanation": "As per NCERT, 'Bacterial flagellum is composed of three parts – filament, hook and basal body. The filament is the longest portion and extends from the cell surface to the outside.' Pili is NOT a part of flagellum."
 },
 {
@@ -967,12 +921,11 @@ var allQuestions = [
   "topic": "Prokaryotic Cells",
   "q": "Consider the following statements:<br>(i) Pili are elongated tubular structures made of a special protein.<br>(ii) Fimbriae are small bristle-like fibres sprouting out of the cell.<br>(iii) Both pili and fimbriae play a role in bacterial motility.<br>Which of the above is/are <b>correct</b>?",
   "options": [
-    "Only (i) and (ii)",
-    "Only (ii) and (iii)",
-    "Only (i) and (iii)",
-    "All – (i), (ii) and (iii)"
-  ],
-  "correct": 0,
+      "Only (ii) and (iii)",
+      "Only (i) and (ii)",
+      "Only (i) and (iii)",
+      "All – (i), (ii) and (iii)"
+    ], "correct": 1,
   "explanation": "Statements (i) and (ii) are correct as per NCERT. Statement (iii) is INCORRECT – NCERT clearly states 'pili and fimbriae are also surface structures of the bacteria but do NOT play a role in motility.' Only flagella are responsible for motility. This is a very important NEET trap."
 },
 {
@@ -993,12 +946,11 @@ var allQuestions = [
   "topic": "Prokaryotic Cells",
   "q": "Bacterial flagella arise from:",
   "options": [
-    "Plasma membrane",
-    "Cell wall",
-    "Glycocalyx",
-    "Cytoplasm"
-  ],
-  "correct": 1,
+      "Plasma membrane",
+      "Cytoplasm",
+      "Glycocalyx",
+      "Cell wall"
+    ], "correct": 3,
   "explanation": "As per NCERT, bacteria 'have thin filamentous extensions from their cell wall called flagella.' Bacterial flagella arise from the cell wall, unlike eukaryotic flagella which arise from basal bodies. This is an important structural distinction."
 },
 {
@@ -1019,12 +971,11 @@ var allQuestions = [
   "topic": "Prokaryotic Cells",
   "q": "The only organelle found in prokaryotic cells (similar to eukaryotes) is:",
   "options": [
-    "Mitochondria",
-    "Endoplasmic reticulum",
-    "Ribosome",
-    "Golgi complex"
-  ],
-  "correct": 2,
+      "Ribosome",
+      "Endoplasmic reticulum",
+      "Mitochondria",
+      "Golgi complex"
+    ], "correct": 0,
   "explanation": "As per NCERT, 'No organelles, like the ones in eukaryotes, are found in prokaryotic cells except for ribosomes.' Ribosomes are the only organelles common to both prokaryotic and eukaryotic cells. All other listed options are membrane-bound organelles found only in eukaryotes."
 },
 {
@@ -1084,12 +1035,11 @@ var allQuestions = [
   "topic": "Prokaryotic Cells",
   "q": "Which of the following is <b>NOT</b> a function of mesosomes as stated in NCERT?",
   "options": [
-    "Secretion processes",
-    "Increasing the surface area of plasma membrane",
-    "Motility of the bacterial cell",
-    "Enzymatic content"
-  ],
-  "correct": 2,
+      "Secretion processes",
+      "Increasing the surface area of plasma membrane",
+      "Enzymatic content",
+      "Motility of the bacterial cell"
+    ], "correct": 3,
   "explanation": "NCERT lists mesosome functions as: cell wall formation, DNA replication, distribution to daughter cells, respiration, secretion processes, increasing surface area, and enzymatic content. Motility is the function of FLAGELLA, not mesosomes. This is a frequently tested distinction."
 },
 {
@@ -1097,12 +1047,11 @@ var allQuestions = [
   "topic": "Prokaryotic Cells",
   "q": "PPLO stands for:",
   "options": [
-    "Pleuro Pneumonia Like Organelles",
-    "Pleuro Pneumonia Like Organisms",
-    "Plasma Pneumonia Like Organisms",
-    "Pleuro Pulmonary Like Organisms"
-  ],
-  "correct": 1,
+      "Pleuro Pneumonia Like Organisms",
+      "Pleuro Pneumonia Like Organelles",
+      "Plasma Pneumonia Like Organisms",
+      "Pleuro Pulmonary Like Organisms"
+    ], "correct": 0,
   "explanation": "PPLO stands for Pleuro Pneumonia Like Organisms as stated in NCERT. They are among the prokaryotic organisms along with bacteria, blue-green algae, and mycoplasma. Students often confuse 'Organisms' with 'Organelles' – a common NEET trap."
 },
 {
@@ -1110,12 +1059,11 @@ var allQuestions = [
   "topic": "Prokaryotic Cells",
   "q": "Consider the following statements about the cell envelope of bacteria:<br>(i) It consists of a tightly bound three-layered structure.<br>(ii) Each layer performs distinct functions independently.<br>(iii) All three layers act together as a single protective unit.<br>Which of the above is/are <b>correct</b>?",
   "options": [
-    "Only (i) and (iii)",
-    "Only (i) and (ii)",
-    "Only (ii) and (iii)",
-    "All – (i), (ii) and (iii)"
-  ],
-  "correct": 3,
+      "Only (i) and (iii)",
+      "All – (i), (ii) and (iii)",
+      "Only (ii) and (iii)",
+      "Only (i) and (ii)"
+    ], "correct": 1,
   "explanation": "All three statements are correct. NCERT states the cell envelope is a 'tightly bound three layered structure' (i), 'each layer of the envelope performs distinct function' (ii), and 'they act together as a single protective unit' (iii). Note: performing distinct functions AND acting together are NOT contradictory."
 },
 {
@@ -1123,12 +1071,11 @@ var allQuestions = [
   "topic": "Prokaryotic Cells",
   "q": "A comma-shaped bacterium is termed as:",
   "options": [
-    "Bacillus",
-    "Spirillum",
-    "Coccus",
-    "Vibrio"
-  ],
-  "correct": 3,
+      "Bacillus",
+      "Spirillum",
+      "Vibrio",
+      "Coccus"
+    ], "correct": 2,
   "explanation": "As per NCERT, the four basic shapes are: bacillus (rod-like), coccus (spherical), vibrio (comma-shaped), and spirillum (spiral). Vibrio = comma-shaped. The most common error is confusing vibrio with spirillum."
 },
 {
@@ -1149,12 +1096,11 @@ var allQuestions = [
   "topic": "Prokaryotic Cells",
   "q": "Chromatophores in cyanobacteria are:",
   "options": [
-    "Membranous extensions of the cell wall containing enzymes",
-    "Membranous extensions into the cytoplasm containing pigments",
-    "Non-membranous structures containing DNA",
-    "Part of the flagellar apparatus"
-  ],
-  "correct": 1,
+      "Membranous extensions of the cell wall containing enzymes",
+      "Part of the flagellar apparatus",
+      "Non-membranous structures containing DNA",
+      "Membranous extensions into the cytoplasm containing pigments"
+    ], "correct": 3,
   "explanation": "As per NCERT, 'In some prokaryotes like cyanobacteria, there are other membranous extensions into the cytoplasm called chromatophores which contain pigments.' They are membranous extensions (not cell wall) and contain pigments (not DNA or enzymes specifically)."
 },
 {
@@ -1175,12 +1121,11 @@ var allQuestions = [
   "topic": "Ribosomes and Inclusion Bodies / Eukaryotic Cells",
   "q": "The prokaryotic ribosome is made of two subunits with sedimentation coefficients of:",
   "options": [
-    "40S and 60S",
-    "30S and 50S",
-    "40S and 50S",
-    "30S and 60S"
-  ],
-  "correct": 1,
+      "30S and 50S",
+      "40S and 60S",
+      "40S and 50S",
+      "30S and 60S"
+    ], "correct": 0,
   "explanation": "Prokaryotic ribosomes are 70S, made of two subunits – 50S (large) and 30S (small). Eukaryotic ribosomes are 80S with 60S and 40S subunits. This is one of the most frequently tested NEET facts. Remember: sedimentation coefficients are NOT additive (50+30 ≠ 80, they give 70S)."
 },
 {
@@ -1188,12 +1133,11 @@ var allQuestions = [
   "topic": "Ribosomes and Inclusion Bodies / Eukaryotic Cells",
   "q": "In prokaryotes, ribosomes are associated with:",
   "options": [
-    "Nuclear membrane",
-    "Endoplasmic reticulum",
-    "Plasma membrane of the cell",
-    "Cell wall"
-  ],
-  "correct": 2,
+      "Nuclear membrane",
+      "Plasma membrane of the cell",
+      "Endoplasmic reticulum",
+      "Cell wall"
+    ], "correct": 1,
   "explanation": "As per NCERT, 'In prokaryotes, ribosomes are associated with the plasma membrane of the cell.' Prokaryotes lack nuclear membrane and ER. In eukaryotes, ribosomes are found on rough ER and free in cytoplasm. This association with plasma membrane is unique to prokaryotes."
 },
 {
@@ -1214,12 +1158,11 @@ var allQuestions = [
   "topic": "Ribosomes and Inclusion Bodies / Eukaryotic Cells",
   "q": "A chain formed by several ribosomes attached to a single mRNA is called:",
   "options": [
-    "Polysome or polyribosome",
-    "Ribosomal RNA complex",
-    "Nucleosome",
-    "Mesosome"
-  ],
-  "correct": 0,
+      "Mesosome",
+      "Ribosomal RNA complex",
+      "Nucleosome",
+      "Polysome or polyribosome"
+    ], "correct": 3,
   "explanation": "As per NCERT, 'Several ribosomes may attach to a single mRNA and form a chain called polyribosomes or polysome.' The ribosomes of a polysome translate the mRNA into proteins. Nucleosome is a DNA-histone complex, and mesosome is a plasma membrane extension in prokaryotes."
 },
 {
@@ -1227,12 +1170,11 @@ var allQuestions = [
   "topic": "Ribosomes and Inclusion Bodies / Eukaryotic Cells",
   "q": "Consider the following statements about polysomes:<br>(i) Several ribosomes attach to multiple mRNAs to form a polysome.<br>(ii) The ribosomes of a polysome translate the mRNA into proteins.<br>(iii) Polysomes increase the efficiency of protein synthesis.<br>Which of the above is/are <b>correct</b>?",
   "options": [
-    "Only (i) and (ii)",
-    "Only (i) and (iii)",
-    "Only (ii) and (iii)",
-    "All – (i), (ii) and (iii)"
-  ],
-  "correct": 2,
+      "Only (ii) and (iii)",
+      "Only (i) and (iii)",
+      "Only (i) and (ii)",
+      "All – (i), (ii) and (iii)"
+    ], "correct": 0,
   "explanation": "Statement (i) is INCORRECT – several ribosomes attach to a SINGLE mRNA (not multiple mRNAs) to form a polysome. Statement (ii) is correct – NCERT states polysomes translate mRNA into proteins. Statement (iii) is correct – multiple ribosomes on one mRNA increases translational efficiency. Classic word-swap trap."
 },
 {
@@ -1253,12 +1195,11 @@ var allQuestions = [
   "topic": "Ribosomes and Inclusion Bodies / Eukaryotic Cells",
   "q": "Which of the following is <b>NOT</b> an example of inclusion bodies mentioned in NCERT?",
   "options": [
-    "Phosphate granules",
-    "Cyanophycean granules",
-    "Glycogen granules",
-    "Starch granules"
-  ],
-  "correct": 3,
+      "Phosphate granules",
+      "Starch granules",
+      "Glycogen granules",
+      "Cyanophycean granules"
+    ], "correct": 1,
   "explanation": "NCERT mentions phosphate granules, cyanophycean granules, and glycogen granules as examples of inclusion bodies. Starch granules are NOT mentioned in the NCERT text as prokaryotic inclusion bodies. Starch is typically stored in plant cell plastids (eukaryotes)."
 },
 {
@@ -1292,12 +1233,11 @@ var allQuestions = [
   "topic": "Ribosomes and Inclusion Bodies / Eukaryotic Cells",
   "q": "The eukaryotes include all of the following <b>EXCEPT</b>:",
   "options": [
-    "Protists",
-    "Fungi",
-    "Cyanobacteria",
-    "Animals"
-  ],
-  "correct": 2,
+      "Protists",
+      "Fungi",
+      "Animals",
+      "Cyanobacteria"
+    ], "correct": 3,
   "explanation": "As per NCERT, 'The eukaryotes include all the protists, plants, animals and fungi.' Cyanobacteria (blue-green algae) are PROKARYOTES, not eukaryotes. This is a frequently tested distinction in NEET – despite the name 'algae,' cyanobacteria are prokaryotic."
 },
 {
@@ -1305,12 +1245,11 @@ var allQuestions = [
   "topic": "Ribosomes and Inclusion Bodies / Eukaryotic Cells",
   "q": "Extensive compartmentalisation of cytoplasm in eukaryotic cells is achieved through:",
   "options": [
-    "Presence of inclusion bodies",
-    "Presence of cell wall",
-    "Presence of membrane-bound organelles",
-    "Presence of ribosomes"
-  ],
-  "correct": 2,
+      "Presence of membrane-bound organelles",
+      "Presence of cell wall",
+      "Presence of inclusion bodies",
+      "Presence of ribosomes"
+    ], "correct": 0,
   "explanation": "As per NCERT, 'In eukaryotic cells there is an extensive compartmentalisation of cytoplasm through the presence of membrane bound organelles.' Inclusion bodies are prokaryotic, ribosomes are non-membrane bound, and cell wall is not involved in cytoplasmic compartmentalisation."
 },
 {
@@ -1318,12 +1257,11 @@ var allQuestions = [
   "topic": "Ribosomes and Inclusion Bodies / Eukaryotic Cells",
   "q": "Which of the following structures is present in plant cells but absent in animal cells?<br>(i) Cell wall<br>(ii) Plastids<br>(iii) Large central vacuole<br>(iv) Centrioles<br>Select the <b>correct</b> option:",
   "options": [
-    "(i), (ii) and (iii) only",
-    "(i), (ii) and (iv) only",
-    "(ii), (iii) and (iv) only",
-    "All of the above"
-  ],
-  "correct": 0,
+      "(i), (ii) and (iv) only",
+      "(i), (ii) and (iii) only",
+      "(ii), (iii) and (iv) only",
+      "All of the above"
+    ], "correct": 1,
   "explanation": "As per NCERT, plant cells possess cell wall (i), plastids (ii), and a large central vacuole (iii) which are absent in animal cells. Centrioles (iv) are present in ANIMAL cells and absent in almost all plant cells – so (iv) is the opposite. This is a very common NEET question."
 },
 {
@@ -1370,12 +1308,11 @@ var allQuestions = [
   "topic": "Ribosomes and Inclusion Bodies / Eukaryotic Cells",
   "q": "Consider the following statements:<br>(i) Ribosomes are the site of protein synthesis.<br>(ii) 50S and 30S subunits together form 80S prokaryotic ribosomes.<br>(iii) Ribosomes in prokaryotes are associated with the plasma membrane.<br>Which of the above is/are <b>correct</b>?",
   "options": [
-    "Only (i) and (ii)",
-    "Only (ii) and (iii)",
-    "Only (i) and (iii)",
-    "All – (i), (ii) and (iii)"
-  ],
-  "correct": 2,
+      "Only (i) and (ii)",
+      "Only (ii) and (iii)",
+      "All – (i), (ii) and (iii)",
+      "Only (i) and (iii)"
+    ], "correct": 3,
   "explanation": "Statement (ii) is INCORRECT – 50S and 30S subunits form 70S prokaryotic ribosomes, NOT 80S. 80S ribosomes are eukaryotic (60S + 40S). Statements (i) and (iii) are correct as per NCERT. This is the most classic numerical trap in cell biology for NEET."
 },
 {
@@ -1383,12 +1320,11 @@ var allQuestions = [
   "topic": "Ribosomes and Inclusion Bodies / Eukaryotic Cells",
   "q": "Which of the following is a characteristic feature that distinguishes eukaryotic cells from prokaryotic cells?",
   "options": [
-    "Presence of ribosomes",
-    "Presence of cytoplasm",
-    "Extensive compartmentalisation of cytoplasm through membrane-bound organelles",
-    "Presence of genetic material"
-  ],
-  "correct": 2,
+      "Extensive compartmentalisation of cytoplasm through membrane-bound organelles",
+      "Presence of cytoplasm",
+      "Presence of ribosomes",
+      "Presence of genetic material"
+    ], "correct": 0,
   "explanation": "Ribosomes (A), cytoplasm (B), and genetic material (D) are found in BOTH prokaryotic and eukaryotic cells. The distinguishing feature of eukaryotic cells is the 'extensive compartmentalisation of cytoplasm through the presence of membrane bound organelles' as stated in NCERT."
 },
 {
@@ -1409,12 +1345,11 @@ var allQuestions = [
   "topic": "Ribosomes and Inclusion Bodies / Eukaryotic Cells",
   "q": "Eukaryotic cells have complex locomotory and cytoskeletal structures. Which of the following is <b>NOT</b> a feature of eukaryotic cells as per NCERT?",
   "options": [
-    "Organised nucleus with nuclear envelope",
-    "Membrane-bound organelles",
-    "Complex locomotory and cytoskeletal structures",
-    "Presence of mesosomes"
-  ],
-  "correct": 3,
+      "Organised nucleus with nuclear envelope",
+      "Membrane-bound organelles",
+      "Presence of mesosomes",
+      "Complex locomotory and cytoskeletal structures"
+    ], "correct": 2,
   "explanation": "Mesosomes are characteristic of PROKARYOTIC cells (formed by extensions of plasma membrane). Eukaryotic cells have an organised nucleus (A), membrane-bound organelles (B), and complex locomotory and cytoskeletal structures (C) – all mentioned in NCERT."
 },
 {
@@ -1435,12 +1370,11 @@ var allQuestions = [
   "topic": "Ribosomes and Inclusion Bodies / Eukaryotic Cells",
   "q": "Consider the following differences between plant and animal cells:<br>(i) Plant cells have cell wall; animal cells lack cell wall.<br>(ii) Plant cells have plastids; animal cells lack plastids.<br>(iii) Plant cells have centrioles; animal cells lack centrioles.<br>(iv) Plant cells have a large central vacuole; animal cells lack it.<br>Which of the above are <b>correct</b>?",
   "options": [
-    "(i), (ii) and (iv) only",
-    "(i), (ii) and (iii) only",
-    "(i), (iii) and (iv) only",
-    "All of the above"
-  ],
-  "correct": 0,
+      "All of the above",
+      "(i), (ii) and (iii) only",
+      "(i), (iii) and (iv) only",
+      "(i), (ii) and (iv) only"
+    ], "correct": 3,
   "explanation": "Statement (iii) is INCORRECT – it is REVERSED. Animal cells have centrioles, and centrioles are absent in almost all plant cells. Statements (i), (ii), and (iv) are correct as per NCERT. This reversal of plant/animal features is one of the most common NEET traps."
 },
 {
@@ -1448,12 +1382,11 @@ var allQuestions = [
   "topic": "Ribosomes and Inclusion Bodies / Eukaryotic Cells",
   "q": "The function of ribosomes in a polysome is to:",
   "options": [
-    "Replicate DNA",
-    "Translate mRNA into proteins",
-    "Transcribe DNA into mRNA",
-    "Synthesize lipids"
-  ],
-  "correct": 1,
+      "Translate mRNA into proteins",
+      "Replicate DNA",
+      "Transcribe DNA into mRNA",
+      "Synthesize lipids"
+    ], "correct": 0,
   "explanation": "As per NCERT, 'The ribosomes of a polysome translate the mRNA into proteins.' Ribosomes are the site of protein synthesis (translation). DNA replication and transcription occur in the nucleus (eukaryotes) or nucleoid region (prokaryotes). Lipid synthesis occurs in smooth ER."
 },
 {
@@ -1461,12 +1394,11 @@ var allQuestions = [
   "topic": "Ribosomes and Inclusion Bodies / Eukaryotic Cells",
   "q": "Cyanophycean granules are an example of:",
   "options": [
-    "Membrane-bound organelles",
-    "Gas vacuoles",
-    "Inclusion bodies",
-    "Mesosomes"
-  ],
-  "correct": 2,
+      "Membrane-bound organelles",
+      "Inclusion bodies",
+      "Gas vacuoles",
+      "Mesosomes"
+    ], "correct": 1,
   "explanation": "As per NCERT, cyanophycean granules are specifically mentioned as an example of inclusion bodies along with phosphate granules and glycogen granules. They are non-membrane bound and lie free in the cytoplasm of prokaryotic cells."
 },
 {
@@ -1487,12 +1419,11 @@ var allQuestions = [
   "topic": "Ribosomes and Inclusion Bodies / Eukaryotic Cells",
   "q": "When 50S and 30S ribosomal subunits come together in prokaryotes, the complete ribosome formed has a sedimentation coefficient of:",
   "options": [
-    "80S",
-    "100S",
-    "60S",
-    "70S"
-  ],
-  "correct": 3,
+      "80S",
+      "100S",
+      "70S",
+      "60S"
+    ], "correct": 2,
   "explanation": "As per NCERT, '50S and 30S units which when present together form 70S prokaryotic ribosomes.' Sedimentation coefficients are NOT arithmetically additive because S values depend on size, shape, and molecular weight. 50S + 30S = 70S (not 80S). 80S is the eukaryotic ribosome."
 },
 {
@@ -1526,12 +1457,11 @@ var allQuestions = [
   "topic": "Ribosomes and Inclusion Bodies / Eukaryotic Cells",
   "q": "Gas vacuoles found in photosynthetic bacteria help in:",
   "options": [
-    "Protein synthesis",
-    "Buoyancy regulation",
-    "DNA replication",
-    "Cell wall formation"
-  ],
-  "correct": 1,
+      "Protein synthesis",
+      "Cell wall formation",
+      "DNA replication",
+      "Buoyancy regulation"
+    ], "correct": 3,
   "explanation": "Gas vacuoles in blue-green and purple and green photosynthetic bacteria help in buoyancy regulation, allowing the organisms to float at optimal depths for photosynthesis. While NCERT mentions their presence, their functional significance (buoyancy) is a well-established concept tested in NEET."
 },
 {
@@ -1539,12 +1469,11 @@ var allQuestions = [
   "topic": "Ribosomes and Inclusion Bodies / Eukaryotic Cells",
   "q": "Which of the following correctly describes the nature of inclusion bodies in prokaryotic cells?",
   "options": [
-    "They are membrane-bound storage organelles",
-    "They are non-membrane bound reserve materials lying free in the cytoplasm",
-    "They are part of the cell envelope",
-    "They are always composed of lipids"
-  ],
-  "correct": 1,
+      "They are non-membrane bound reserve materials lying free in the cytoplasm",
+      "They are membrane-bound storage organelles",
+      "They are part of the cell envelope",
+      "They are always composed of lipids"
+    ], "correct": 0,
   "explanation": "As per NCERT, inclusion bodies 'are not bound by any membrane system and lie free in the cytoplasm.' They store reserve material and include phosphate granules, cyanophycean granules, and glycogen granules – not always lipids. They are NOT membrane-bound and NOT part of the cell envelope."
 },
 {
@@ -1552,12 +1481,11 @@ var allQuestions = [
   "topic": "Ribosomes and Inclusion Bodies / Eukaryotic Cells",
   "q": "Which of the following is a feature common to <b>BOTH</b> plant and animal eukaryotic cells?",
   "options": [
-    "Cell wall",
-    "Plastids",
-    "Membrane-bound organelles",
-    "Large central vacuole"
-  ],
-  "correct": 2,
+      "Cell wall",
+      "Membrane-bound organelles",
+      "Plastids",
+      "Large central vacuole"
+    ], "correct": 1,
   "explanation": "Cell wall (A), plastids (B), and large central vacuole (D) are present in plant cells but absent in animal cells. Membrane-bound organelles (C) are present in BOTH plant and animal eukaryotic cells as they are a defining feature of all eukaryotic cells."
 },
 {
@@ -1578,12 +1506,11 @@ var allQuestions = [
   "topic": "Cell Membrane",
   "q": "Chemical studies on cell membrane composition were carried out especially in:",
   "options": [
-    "Human nerve cells",
-    "Human red blood cells (RBCs)",
-    "Plant epidermal cells",
-    "Bacterial cells"
-  ],
-  "correct": 1,
+      "Human nerve cells",
+      "Bacterial cells",
+      "Plant epidermal cells",
+      "Human red blood cells (RBCs)"
+    ], "correct": 3,
   "explanation": "As per NCERT, 'chemical studies on the cell membrane, especially in human red blood cells (RBCs), enabled the scientists to deduce the possible structure of plasma membrane.' RBCs were ideal because they have a simple plasma membrane without organellar membranes to confound analysis."
 },
 {
@@ -1591,12 +1518,11 @@ var allQuestions = [
   "topic": "Cell Membrane",
   "q": "The cell membrane is mainly composed of:",
   "options": [
-    "Lipids and carbohydrates",
-    "Proteins and carbohydrates",
-    "Lipids and proteins",
-    "Nucleic acids and lipids"
-  ],
-  "correct": 2,
+      "Lipids and proteins",
+      "Proteins and carbohydrates",
+      "Lipids and carbohydrates",
+      "Nucleic acids and lipids"
+    ], "correct": 0,
   "explanation": "As per NCERT, 'These studies showed that the cell membrane is mainly composed of lipids and proteins.' While carbohydrates are also present, the MAIN components are lipids and proteins. The word 'mainly' is key – NEET tests precise NCERT wording."
 },
 {
@@ -1630,12 +1556,11 @@ var allQuestions = [
   "topic": "Cell Membrane",
   "q": "Consider the following statements about membrane proteins:<br>(i) Peripheral proteins are partially buried in the membrane.<br>(ii) Integral proteins are partially or totally buried in the membrane.<br>(iii) Membrane proteins are classified based on the ease of extraction.<br>Which of the above is/are <b>correct</b>?",
   "options": [
-    "Only (i) and (iii)",
-    "Only (ii) and (iii)",
-    "Only (i) and (ii)",
-    "All – (i), (ii) and (iii)"
-  ],
-  "correct": 1,
+      "Only (i) and (iii)",
+      "Only (i) and (ii)",
+      "Only (ii) and (iii)",
+      "All – (i), (ii) and (iii)"
+    ], "correct": 2,
   "explanation": "Statement (i) is INCORRECT – peripheral proteins LIE ON THE SURFACE of the membrane, they are NOT buried. Integral proteins are partially or totally buried (ii is correct). Classification is based on ease of extraction (iii is correct). Confusing peripheral with integral protein positions is a very common NEET error."
 },
 {
@@ -1643,12 +1568,11 @@ var allQuestions = [
   "topic": "Cell Membrane",
   "q": "The Fluid Mosaic Model of cell membrane was proposed by:",
   "options": [
-    "Schleiden and Schwann",
-    "Watson and Crick",
-    "Singer and Nicolson (1972)",
-    "Robertson (1959)"
-  ],
-  "correct": 2,
+      "Schleiden and Schwann",
+      "Watson and Crick",
+      "Robertson (1959)",
+      "Singer and Nicolson (1972)"
+    ], "correct": 3,
   "explanation": "As per NCERT, 'An improved model of the structure of cell membrane was proposed by Singer and Nicolson (1972) widely accepted as fluid mosaic model.' This is one of the most fundamental NEET facts. Robertson proposed the unit membrane model, Watson-Crick proposed DNA structure."
 },
 {
@@ -1656,12 +1580,11 @@ var allQuestions = [
   "topic": "Cell Membrane",
   "q": "According to the Fluid Mosaic Model, the lateral movement of proteins within the bilayer is enabled by:",
   "options": [
-    "The rigid nature of the lipid bilayer",
-    "The quasi-fluid nature of lipid",
-    "The presence of carbohydrates",
-    "The presence of cholesterol only"
-  ],
-  "correct": 1,
+      "The quasi-fluid nature of lipid",
+      "The rigid nature of the lipid bilayer",
+      "The presence of carbohydrates",
+      "The presence of cholesterol only"
+    ], "correct": 0,
   "explanation": "As per NCERT, 'the quasi-fluid nature of lipid enables lateral movement of proteins within the overall bilayer.' The key word is 'quasi-fluid' (semi-fluid), not rigid. Cholesterol modulates fluidity but the NCERT specifically attributes lateral movement to the quasi-fluid nature of lipids."
 },
 {
@@ -1669,12 +1592,11 @@ var allQuestions = [
   "topic": "Cell Membrane",
   "q": "The ability of membrane components to move within the membrane is measured as its:",
   "options": [
-    "Permeability",
-    "Selectivity",
-    "Viscosity",
-    "Fluidity"
-  ],
-  "correct": 3,
+      "Permeability",
+      "Fluidity",
+      "Viscosity",
+      "Selectivity"
+    ], "correct": 1,
   "explanation": "As per NCERT, 'This ability to move within the membrane is measured as its fluidity.' Fluidity specifically refers to the movement of membrane components (lipids and proteins) within the bilayer. Permeability and selectivity relate to transport, not movement of components."
 },
 {
@@ -1682,12 +1604,11 @@ var allQuestions = [
   "topic": "Cell Membrane",
   "q": "The fluid nature of the cell membrane is important for all of the following <b>EXCEPT</b>:",
   "options": [
-    "Cell growth",
-    "DNA replication",
-    "Endocytosis",
-    "Formation of intercellular junctions"
-  ],
-  "correct": 1,
+      "Cell growth",
+      "Endocytosis",
+      "DNA replication",
+      "Formation of intercellular junctions"
+    ], "correct": 2,
   "explanation": "As per NCERT, the fluid nature is important for 'cell growth, formation of intercellular junctions, secretion, endocytosis, cell division etc.' DNA replication is NOT mentioned as a function dependent on membrane fluidity. DNA replication occurs in the nucleus/nucleoid region."
 },
 {
@@ -1708,12 +1629,11 @@ var allQuestions = [
   "topic": "Cell Membrane",
   "q": "Passive transport across the membrane is characterised by:",
   "options": [
-    "Movement against concentration gradient with ATP",
-    "Movement from lower to higher concentration",
-    "Movement without any requirement of energy",
-    "Movement exclusively through carrier proteins"
-  ],
-  "correct": 2,
+      "Movement against concentration gradient with ATP",
+      "Movement from lower to higher concentration",
+      "Movement exclusively through carrier proteins",
+      "Movement without any requirement of energy"
+    ], "correct": 3,
   "explanation": "As per NCERT, 'Many molecules can move briefly across the membrane without any requirement of energy and this is called the passive transport.' It occurs along the concentration gradient (higher to lower). Active transport is against the gradient with ATP. Not all passive transport requires carriers."
 },
 {
@@ -1721,12 +1641,11 @@ var allQuestions = [
   "topic": "Cell Membrane",
   "q": "Movement of water by diffusion across the membrane is called:",
   "options": [
-    "Plasmolysis",
-    "Simple diffusion",
-    "Active transport",
-    "Osmosis"
-  ],
-  "correct": 3,
+      "Osmosis",
+      "Simple diffusion",
+      "Active transport",
+      "Plasmolysis"
+    ], "correct": 0,
   "explanation": "As per NCERT, 'Movement of water by diffusion is called osmosis.' Osmosis is specifically the diffusion of WATER molecules across a selectively permeable membrane from higher water concentration to lower water concentration. Simple diffusion is for neutral solutes."
 },
 {
@@ -1734,12 +1653,11 @@ var allQuestions = [
   "topic": "Cell Membrane",
   "q": "Neutral solutes move across the membrane by:",
   "options": [
-    "Active transport against the concentration gradient",
-    "Osmosis from lower to higher concentration",
-    "Simple diffusion along the concentration gradient",
-    "Endocytosis"
-  ],
-  "correct": 2,
+      "Active transport against the concentration gradient",
+      "Simple diffusion along the concentration gradient",
+      "Osmosis from lower to higher concentration",
+      "Endocytosis"
+    ], "correct": 1,
   "explanation": "As per NCERT, 'Neutral solutes may move across the membrane by the process of simple diffusion along the concentration gradient, i.e., from higher concentration to the lower.' This is a form of passive transport requiring no energy."
 },
 {
@@ -1747,12 +1665,11 @@ var allQuestions = [
   "topic": "Cell Membrane",
   "q": "Polar molecules cannot pass through the nonpolar lipid bilayer and therefore require:",
   "options": [
-    "ATP energy directly",
-    "A carrier protein of the membrane",
-    "Cholesterol molecules for passage",
-    "Carbohydrate channels"
-  ],
-  "correct": 1,
+      "ATP energy directly",
+      "Cholesterol molecules for passage",
+      "A carrier protein of the membrane",
+      "Carbohydrate channels"
+    ], "correct": 2,
   "explanation": "As per NCERT, 'As the polar molecules cannot pass through the nonpolar lipid bilayer, they require a carrier protein of the membrane to facilitate their transport across the membrane.' This is facilitated transport. ATP is needed for active transport, not facilitated transport."
 },
 {
@@ -1773,12 +1690,11 @@ var allQuestions = [
   "topic": "Cell Membrane",
   "q": "An example of active transport mentioned in NCERT is:",
   "options": [
-    "Simple diffusion",
-    "Osmosis",
-    "Na⁺/K⁺ Pump",
-    "Facilitated diffusion"
-  ],
-  "correct": 2,
+      "Simple diffusion",
+      "Osmosis",
+      "Facilitated diffusion",
+      "Na⁺/K⁺ Pump"
+    ], "correct": 3,
   "explanation": "As per NCERT, active transport is 'an energy dependent process, in which ATP is utilised and is called active transport, e.g., Na⁺/K⁺ Pump.' Simple diffusion and osmosis are passive transport. Facilitated diffusion uses carrier proteins but does not require ATP."
 },
 {
@@ -1812,12 +1728,11 @@ var allQuestions = [
   "topic": "Cell Membrane",
   "q": "Which of the following is <b>NOT</b> mentioned in NCERT as a function dependent on the fluid nature of the membrane?",
   "options": [
-    "Secretion",
-    "Cell division",
-    "Protein synthesis",
-    "Endocytosis"
-  ],
-  "correct": 2,
+      "Secretion",
+      "Protein synthesis",
+      "Cell division",
+      "Endocytosis"
+    ], "correct": 1,
   "explanation": "NCERT lists cell growth, formation of intercellular junctions, secretion, endocytosis, and cell division as functions dependent on membrane fluidity. Protein synthesis occurs on ribosomes and is NOT dependent on membrane fluidity. This is a subtle but important distinction."
 },
 {
@@ -1825,12 +1740,11 @@ var allQuestions = [
   "topic": "Cell Membrane",
   "q": "In the Fluid Mosaic Model, the term 'mosaic' refers to:",
   "options": [
-    "The bilayer arrangement of phospholipids",
-    "The pattern of proteins embedded in the lipid bilayer like tiles in a mosaic",
-    "The movement of lipids across the membrane",
-    "The rigid structure of the membrane"
-  ],
-  "correct": 1,
+      "The bilayer arrangement of phospholipids",
+      "The movement of lipids across the membrane",
+      "The pattern of proteins embedded in the lipid bilayer like tiles in a mosaic",
+      "The rigid structure of the membrane"
+    ], "correct": 2,
   "explanation": "In the Fluid Mosaic Model, 'fluid' refers to the quasi-fluid nature of lipids enabling lateral movement, and 'mosaic' refers to the pattern created by various proteins (integral and peripheral) embedded in the lipid bilayer, resembling tiles in a mosaic pattern."
 },
 {
@@ -1838,12 +1752,11 @@ var allQuestions = [
   "topic": "Cell Membrane",
   "q": "Integral proteins of the cell membrane are:",
   "options": [
-    "Found lying on the surface of the membrane",
-    "Easily extracted from the membrane",
-    "Partially or totally buried in the membrane",
-    "Found only on the outer surface"
-  ],
-  "correct": 2,
+      "Found lying on the surface of the membrane",
+      "Easily extracted from the membrane",
+      "Found only on the outer surface",
+      "Partially or totally buried in the membrane"
+    ], "correct": 3,
   "explanation": "As per NCERT, 'the integral proteins are partially or totally buried in the membrane.' Peripheral proteins lie on the surface and are more easily extracted. The classification is based on 'ease of extraction.' Integral proteins are deeply embedded and harder to extract."
 },
 {
@@ -1851,12 +1764,11 @@ var allQuestions = [
   "topic": "Cell Membrane",
   "q": "Which of the following transport mechanisms moves molecules from lower to higher concentration?",
   "options": [
-    "Simple diffusion",
-    "Osmosis",
-    "Facilitated diffusion",
-    "Active transport"
-  ],
-  "correct": 3,
+      "Active transport",
+      "Osmosis",
+      "Facilitated diffusion",
+      "Simple diffusion"
+    ], "correct": 0,
   "explanation": "As per NCERT, in active transport 'a few ions or molecules are transported across the membrane against their concentration gradient, i.e., from lower to the higher concentration.' Simple diffusion, osmosis, and facilitated diffusion all move substances from higher to lower concentration (passive)."
 },
 {
@@ -1864,12 +1776,11 @@ var allQuestions = [
   "topic": "Cell Membrane",
   "q": "Consider the following transport processes:<br>(a) Simple diffusion – (i) Requires ATP<br>(b) Osmosis – (ii) Diffusion of water<br>(c) Active transport – (iii) Along concentration gradient of neutral solutes<br>Select the correct matching:",
   "options": [
-    "a-(iii), b-(ii), c-(i)",
-    "a-(ii), b-(iii), c-(i)",
-    "a-(i), b-(ii), c-(iii)",
-    "a-(iii), b-(i), c-(ii)"
-  ],
-  "correct": 0,
+      "a-(ii), b-(iii), c-(i)",
+      "a-(iii), b-(ii), c-(i)",
+      "a-(i), b-(ii), c-(iii)",
+      "a-(iii), b-(i), c-(ii)"
+    ], "correct": 1,
   "explanation": "Simple diffusion = along concentration gradient of neutral solutes (iii). Osmosis = diffusion of water (ii). Active transport = requires ATP (i). The correct match is a-(iii), b-(ii), c-(i). This matching is directly from NCERT definitions."
 },
 {
@@ -1916,12 +1827,11 @@ var allQuestions = [
   "topic": "Cell Membrane",
   "q": "The major lipids present in the cell membrane that are arranged in a bilayer are:",
   "options": [
-    "Cholesterol",
-    "Triglycerides",
-    "Phospholipids",
-    "Glycolipids"
-  ],
-  "correct": 2,
+      "Cholesterol",
+      "Triglycerides",
+      "Glycolipids",
+      "Phospholipids"
+    ], "correct": 3,
   "explanation": "As per NCERT, 'The major lipids are phospholipids that are arranged in a bilayer.' While cholesterol is also present in the membrane, phospholipids are specifically stated as the MAJOR lipids forming the bilayer structure."
 },
 {
@@ -1942,12 +1852,11 @@ var allQuestions = [
   "topic": "Cell Membrane",
   "q": "The classification of membrane proteins into integral and peripheral is based on:",
   "options": [
-    "Their molecular weight",
-    "Their function in the cell",
-    "The ease of extraction from the membrane",
-    "Their amino acid composition"
-  ],
-  "correct": 2,
+      "The ease of extraction from the membrane",
+      "Their function in the cell",
+      "Their molecular weight",
+      "Their amino acid composition"
+    ], "correct": 0,
   "explanation": "As per NCERT, 'Depending on the ease of extraction, membrane proteins can be classified as integral and peripheral.' Peripheral proteins are easily extracted (loosely attached to surface), while integral proteins are difficult to extract (partially or totally buried). The basis of classification is extraction ease, not weight, function, or composition."
 },
 {
@@ -1981,12 +1890,11 @@ var allQuestions = [
   "topic": "Cell Wall, Endomembrane System, Golgi, Lysosomes, Vacuoles",
   "q": "The cell wall of algae is made of:<br>(i) Cellulose<br>(ii) Galactans<br>(iii) Mannans<br>(iv) Calcium carbonate<br>(v) Hemicellulose<br>Select the <b>correct</b> combination:",
   "options": [
-    "(i), (ii), (iii) and (iv)",
-    "(i), (ii), (iv) and (v)",
-    "(i), (iii), (iv) and (v)",
-    "(i), (ii), (iii) and (v)"
-  ],
-  "correct": 0,
+      "(i), (ii), (iii) and (v)",
+      "(i), (ii), (iv) and (v)",
+      "(i), (iii), (iv) and (v)",
+      "(i), (ii), (iii) and (iv)"
+    ], "correct": 3,
   "explanation": "As per NCERT, 'Algae have cell wall, made of cellulose, galactans, mannans and minerals like calcium carbonate.' Hemicellulose is a component of OTHER plant cell walls, not algae. This distinction between algal and plant cell wall composition is a frequently tested NEET concept."
 },
 {
@@ -1994,12 +1902,11 @@ var allQuestions = [
   "topic": "Cell Wall, Endomembrane System, Golgi, Lysosomes, Vacuoles",
   "q": "The cell wall of plants (other than algae) consists of:",
   "options": [
-    "Cellulose, galactans, mannans and calcium carbonate",
-    "Cellulose, hemicellulose, pectins and proteins",
-    "Cellulose, chitin, pectins and lipids",
-    "Cellulose, hemicellulose, galactans and minerals"
-  ],
-  "correct": 1,
+      "Cellulose, hemicellulose, pectins and proteins",
+      "Cellulose, galactans, mannans and calcium carbonate",
+      "Cellulose, chitin, pectins and lipids",
+      "Cellulose, hemicellulose, galactans and minerals"
+    ], "correct": 0,
   "explanation": "As per NCERT, 'in other plants it consists of cellulose, hemicellulose, pectins and proteins.' Galactans, mannans, and calcium carbonate are components of ALGAL cell walls. Chitin is found in fungal cell walls, not plant cell walls."
 },
 {
@@ -2033,12 +1940,11 @@ var allQuestions = [
   "topic": "Cell Wall, Endomembrane System, Golgi, Lysosomes, Vacuoles",
   "q": "Plasmodesmata are structures that:",
   "options": [
-    "Connect the nucleus to the cell wall",
-    "Connect the cytoplasm of neighbouring cells through cell wall and middle lamellae",
-    "Connect the ER to the Golgi apparatus",
-    "Connect the plasma membrane to the tonoplast"
-  ],
-  "correct": 1,
+      "Connect the nucleus to the cell wall",
+      "Connect the plasma membrane to the tonoplast",
+      "Connect the ER to the Golgi apparatus",
+      "Connect the cytoplasm of neighbouring cells through cell wall and middle lamellae"
+    ], "correct": 3,
   "explanation": "As per NCERT, 'The cell wall and middle lamellae may be traversed by plasmodesmata which connect the cytoplasm of neighbouring cells.' Plasmodesmata are cytoplasmic bridges that allow communication between adjacent plant cells."
 },
 {
@@ -2059,12 +1965,11 @@ var allQuestions = [
   "topic": "Cell Wall, Endomembrane System, Golgi, Lysosomes, Vacuoles",
   "q": "The endomembrane system includes all of the following <b>EXCEPT</b>:",
   "options": [
-    "Endoplasmic reticulum",
-    "Golgi complex",
-    "Mitochondria",
-    "Lysosomes"
-  ],
-  "correct": 2,
+      "Mitochondria",
+      "Golgi complex",
+      "Endoplasmic reticulum",
+      "Lysosomes"
+    ], "correct": 0,
   "explanation": "As per NCERT, 'The endomembrane system include endoplasmic reticulum, golgi complex, lysosomes and vacuoles. Since the functions of the mitochondria, chloroplast and peroxisomes are not coordinated with the above components, these are not considered as part of the endomembrane system.' Mitochondria are EXCLUDED."
 },
 {
@@ -2072,12 +1977,11 @@ var allQuestions = [
   "topic": "Cell Wall, Endomembrane System, Golgi, Lysosomes, Vacuoles",
   "q": "Which of the following organelles are <b>NOT</b> part of the endomembrane system?<br>(i) Mitochondria<br>(ii) Chloroplast<br>(iii) Peroxisomes<br>(iv) Lysosomes<br>(v) Vacuoles",
   "options": [
-    "(i), (ii) and (iii)",
-    "(i), (ii) and (iv)",
-    "(i), (iii) and (v)",
-    "(ii), (iv) and (v)"
-  ],
-  "correct": 0,
+      "(i), (ii) and (iv)",
+      "(i), (ii) and (iii)",
+      "(i), (iii) and (v)",
+      "(ii), (iv) and (v)"
+    ], "correct": 1,
   "explanation": "As per NCERT, mitochondria (i), chloroplast (ii), and peroxisomes (iii) are NOT part of the endomembrane system because their functions are not coordinated with the other components. Lysosomes (iv) and vacuoles (v) ARE part of the endomembrane system. This is one of the most frequently tested NEET questions."
 },
 {
@@ -2085,12 +1989,11 @@ var allQuestions = [
   "topic": "Cell Wall, Endomembrane System, Golgi, Lysosomes, Vacuoles",
   "q": "The endoplasmic reticulum divides the intracellular space into two distinct compartments namely:",
   "options": [
-    "Nuclear and cytoplasmic compartments",
-    "Luminal and extra-luminal compartments",
-    "Cis and trans compartments",
-    "Inner and outer membrane compartments"
-  ],
-  "correct": 1,
+      "Nuclear and cytoplasmic compartments",
+      "Cis and trans compartments",
+      "Luminal and extra-luminal compartments",
+      "Inner and outer membrane compartments"
+    ], "correct": 2,
   "explanation": "As per NCERT, 'ER divides the intracellular space into two distinct compartments, i.e., luminal (inside ER) and extra luminal (cytoplasm) compartments.' Cis and trans refer to Golgi apparatus faces, not ER compartments."
 },
 {
@@ -2098,12 +2001,11 @@ var allQuestions = [
   "topic": "Cell Wall, Endomembrane System, Golgi, Lysosomes, Vacuoles",
   "q": "RER is frequently observed in cells actively involved in:",
   "options": [
-    "Lipid synthesis and steroidal hormone production",
-    "Protein synthesis and secretion",
-    "Carbohydrate storage",
-    "Detoxification of drugs"
-  ],
-  "correct": 1,
+      "Lipid synthesis and steroidal hormone production",
+      "Detoxification of drugs",
+      "Carbohydrate storage",
+      "Protein synthesis and secretion"
+    ], "correct": 3,
   "explanation": "As per NCERT, 'RER is frequently observed in the cells actively involved in protein synthesis and secretion.' RER has ribosomes for protein synthesis. SER is the site of lipid synthesis and steroidal hormone production. This RER vs SER function distinction is extremely high-yield for NEET."
 },
 {
@@ -2124,12 +2026,11 @@ var allQuestions = [
   "topic": "Cell Wall, Endomembrane System, Golgi, Lysosomes, Vacuoles",
   "q": "Golgi bodies were first observed by:",
   "options": [
-    "Robert Brown",
-    "Singer and Nicolson",
-    "Camillo Golgi (1898)",
-    "Rudolf Virchow"
-  ],
-  "correct": 2,
+      "Robert Brown",
+      "Camillo Golgi (1898)",
+      "Singer and Nicolson",
+      "Rudolf Virchow"
+    ], "correct": 1,
   "explanation": "As per NCERT, 'Camillo Golgi (1898) first observed densely stained reticular structures near the nucleus. These were later named Golgi bodies after him.' The year 1898 is a commonly tested factual detail."
 },
 {
@@ -2137,12 +2038,11 @@ var allQuestions = [
   "topic": "Cell Wall, Endomembrane System, Golgi, Lysosomes, Vacuoles",
   "q": "The Golgi cisternae are concentrically arranged near the nucleus with:",
   "options": [
-    "Convex trans face and concave cis face",
-    "Convex cis face (forming face) and concave trans face (maturing face)",
-    "Both faces are convex",
-    "Both faces are concave"
-  ],
-  "correct": 1,
+      "Convex trans face and concave cis face",
+      "Both faces are convex",
+      "Convex cis face (forming face) and concave trans face (maturing face)",
+      "Both faces are concave"
+    ], "correct": 2,
   "explanation": "As per NCERT, 'distinct convex cis or the forming face and concave trans or the maturing face.' Cis = convex = forming face; Trans = concave = maturing face. Students frequently reverse cis/trans with convex/concave – a very common NEET trap."
 },
 {
@@ -2150,12 +2050,11 @@ var allQuestions = [
   "topic": "Cell Wall, Endomembrane System, Golgi, Lysosomes, Vacuoles",
   "q": "Materials from the ER fuse with which face of the Golgi apparatus?",
   "options": [
-    "Trans face (maturing face)",
-    "Cis face (forming face)",
-    "Both cis and trans faces simultaneously",
-    "Lateral face of cisternae"
-  ],
-  "correct": 1,
+      "Trans face (maturing face)",
+      "Lateral face of cisternae",
+      "Both cis and trans faces simultaneously",
+      "Cis face (forming face)"
+    ], "correct": 3,
   "explanation": "As per NCERT, 'Materials to be packaged in the form of vesicles from the ER fuse with the cis face of the golgi apparatus and move towards the maturing face.' ER vesicles arrive at the CIS (forming) face and processed materials leave from the TRANS (maturing) face."
 },
 {
@@ -2163,12 +2062,11 @@ var allQuestions = [
   "topic": "Cell Wall, Endomembrane System, Golgi, Lysosomes, Vacuoles",
   "q": "The Golgi apparatus is an important site of formation of:",
   "options": [
-    "Nucleic acids and nucleotides",
-    "Glycoproteins and glycolipids",
-    "Phospholipids and cholesterol",
-    "Steroidal hormones"
-  ],
-  "correct": 1,
+      "Glycoproteins and glycolipids",
+      "Nucleic acids and nucleotides",
+      "Phospholipids and cholesterol",
+      "Steroidal hormones"
+    ], "correct": 0,
   "explanation": "As per NCERT, 'Golgi apparatus is the important site of formation of glycoproteins and glycolipids.' Phospholipids and steroidal hormones are synthesised in SER. Nucleic acid synthesis occurs in the nucleus. Glycosylation (adding sugar moieties) is a key Golgi function."
 },
 {
@@ -2202,12 +2100,11 @@ var allQuestions = [
   "topic": "Cell Wall, Endomembrane System, Golgi, Lysosomes, Vacuoles",
   "q": "Lysosomes are formed by the process of packaging in the:",
   "options": [
-    "Endoplasmic reticulum",
-    "Golgi apparatus",
-    "Nucleus",
-    "Mitochondria"
-  ],
-  "correct": 1,
+      "Endoplasmic reticulum",
+      "Nucleus",
+      "Golgi apparatus",
+      "Mitochondria"
+    ], "correct": 2,
   "explanation": "As per NCERT, 'These are membrane bound vesicular structures formed by the process of packaging in the golgi apparatus.' Lysosomes are formed in the Golgi apparatus, not in the ER directly or nucleus."
 },
 {
@@ -2215,12 +2112,11 @@ var allQuestions = [
   "topic": "Cell Wall, Endomembrane System, Golgi, Lysosomes, Vacuoles",
   "q": "Lysosomal enzymes are optimally active at:",
   "options": [
-    "Neutral pH",
-    "Alkaline pH",
-    "Acidic pH",
-    "Any pH"
-  ],
-  "correct": 2,
+      "Neutral pH",
+      "Alkaline pH",
+      "Any pH",
+      "Acidic pH"
+    ], "correct": 3,
   "explanation": "As per NCERT, lysosomal vesicles are 'very rich in almost all types of hydrolytic enzymes (hydrolases – lipases, proteases, carbohydrases) optimally active at the acidic pH.' The acidic pH of lysosomes (~pH 5) is maintained by proton pumps and is essential for enzyme activity."
 },
 {
@@ -2228,12 +2124,11 @@ var allQuestions = [
   "topic": "Cell Wall, Endomembrane System, Golgi, Lysosomes, Vacuoles",
   "q": "Lysosomal enzymes are capable of digesting all of the following <b>EXCEPT</b>:",
   "options": [
-    "Carbohydrates",
-    "Proteins",
-    "Minerals",
-    "Nucleic acids"
-  ],
-  "correct": 2,
+      "Minerals",
+      "Proteins",
+      "Carbohydrates",
+      "Nucleic acids"
+    ], "correct": 0,
   "explanation": "As per NCERT, lysosomal enzymes 'are capable of digesting carbohydrates, proteins, lipids and nucleic acids.' Minerals are inorganic substances that cannot be digested by hydrolytic enzymes. NCERT mentions four substrates: carbohydrates, proteins, lipids, and nucleic acids."
 },
 {
@@ -2241,12 +2136,11 @@ var allQuestions = [
   "topic": "Cell Wall, Endomembrane System, Golgi, Lysosomes, Vacuoles",
   "q": "Consider the following hydrolases found in lysosomes:<br>(i) Lipases<br>(ii) Proteases<br>(iii) Carbohydrases<br>(iv) Oxidases<br>Which of the above are mentioned in NCERT as lysosomal enzymes?",
   "options": [
-    "(i), (ii) and (iii) only",
-    "(i), (ii) and (iv) only",
-    "(ii), (iii) and (iv) only",
-    "All of the above"
-  ],
-  "correct": 0,
+      "(i), (ii) and (iv) only",
+      "(i), (ii) and (iii) only",
+      "(ii), (iii) and (iv) only",
+      "All of the above"
+    ], "correct": 1,
   "explanation": "NCERT specifically mentions 'hydrolases – lipases, proteases, carbohydrases' as lysosomal enzymes. Oxidases are NOT mentioned as lysosomal enzymes. Oxidases are found in peroxisomes and mitochondria. Lysosomes specifically contain HYDROLYTIC enzymes."
 },
 {
@@ -2280,12 +2174,11 @@ var allQuestions = [
   "topic": "Cell Wall, Endomembrane System, Golgi, Lysosomes, Vacuoles",
   "q": "The tonoplast facilitates transport of ions and other materials into the vacuole by:",
   "options": [
-    "Simple diffusion along concentration gradient",
-    "Osmosis",
-    "Active transport against concentration gradient",
-    "Passive transport only"
-  ],
-  "correct": 2,
+      "Active transport against concentration gradient",
+      "Osmosis",
+      "Simple diffusion along concentration gradient",
+      "Passive transport only"
+    ], "correct": 0,
   "explanation": "As per NCERT, 'the tonoplast facilitates the transport of a number of ions and other materials against concentration gradients into the vacuole, hence their concentration is significantly higher in the vacuole than in the cytoplasm.' This is ACTIVE transport (against gradient)."
 },
 {
@@ -2293,12 +2186,11 @@ var allQuestions = [
   "topic": "Cell Wall, Endomembrane System, Golgi, Lysosomes, Vacuoles",
   "q": "The contractile vacuole in Amoeba is important for:",
   "options": [
-    "Digestion and absorption",
-    "Photosynthesis",
-    "Osmoregulation and excretion",
-    "Protein synthesis"
-  ],
-  "correct": 2,
+      "Digestion and absorption",
+      "Osmoregulation and excretion",
+      "Photosynthesis",
+      "Protein synthesis"
+    ], "correct": 1,
   "explanation": "As per NCERT, 'In Amoeba, the contractile vacuole is important for osmoregulation and excretion.' It helps in removing excess water and waste products. Note: NCERT mentions BOTH osmoregulation AND excretion – students often remember only one function."
 },
 {
@@ -2332,12 +2224,11 @@ var allQuestions = [
   "topic": "Cell Wall, Endomembrane System, Golgi, Lysosomes, Vacuoles",
   "q": "Consider the following statements about the Golgi apparatus:<br>(i) Proteins synthesised by ribosomes on ER are modified in the Golgi cisternae.<br>(ii) Modified proteins are released from the cis face.<br>(iii) The Golgi principally performs the function of packaging materials.<br>Which of the above is/are <b>correct</b>?",
   "options": [
-    "Only (i) and (ii)",
-    "Only (i) and (iii)",
-    "Only (ii) and (iii)",
-    "All – (i), (ii) and (iii)"
-  ],
-  "correct": 1,
+      "Only (i) and (ii)",
+      "All – (i), (ii) and (iii)",
+      "Only (ii) and (iii)",
+      "Only (i) and (iii)"
+    ], "correct": 3,
   "explanation": "Statement (ii) is INCORRECT – modified proteins are released from the TRANS face (maturing face), NOT the cis face. As per NCERT, proteins are 'modified in the cisternae of the golgi apparatus before they are released from its trans face.' Statements (i) and (iii) are correct."
 },
 {
@@ -2358,12 +2249,11 @@ var allQuestions = [
   "topic": "Cell Wall, Endomembrane System, Golgi, Lysosomes, Vacuoles",
   "q": "The cell wall of fungi and plants forms an outer covering for:",
   "options": [
-    "The nucleus",
-    "The cytoplasm directly",
-    "The plasma membrane",
-    "The tonoplast"
-  ],
-  "correct": 2,
+      "The plasma membrane",
+      "The cytoplasm directly",
+      "The nucleus",
+      "The tonoplast"
+    ], "correct": 0,
   "explanation": "As per NCERT, 'a non-living rigid structure called the cell wall forms an outer covering for the plasma membrane of fungi and plants.' The cell wall is external to the plasma membrane. This is a basic but important structural concept."
 },
 {
@@ -2423,12 +2313,11 @@ var allQuestions = [
   "topic": "Cell Wall, Endomembrane System, Golgi, Lysosomes, Vacuoles",
   "q": "In animal cells, lipid-like steroidal hormones are synthesised in:",
   "options": [
-    "Rough endoplasmic reticulum",
-    "Golgi apparatus",
-    "Smooth endoplasmic reticulum",
-    "Lysosomes"
-  ],
-  "correct": 2,
+      "Rough endoplasmic reticulum",
+      "Golgi apparatus",
+      "Lysosomes",
+      "Smooth endoplasmic reticulum"
+    ], "correct": 3,
   "explanation": "As per NCERT, 'In animal cells lipid-like steroidal hormones are synthesised in SER.' RER is involved in protein synthesis and secretion, not lipid/steroidal hormone synthesis. The Golgi modifies and packages but does not synthesise steroidal hormones."
 },
 {
@@ -2462,12 +2351,11 @@ var allQuestions = [
   "topic": "Cell Wall, Endomembrane System, Golgi, Lysosomes, Vacuoles",
   "q": "Consider the following:<br>(i) Cell wall helps in cell-to-cell interaction.<br>(ii) Middle lamella holds neighbouring cells together.<br>(iii) Plasmodesmata connect the nuclei of neighbouring cells.<br>Which of the above is/are <b>correct</b>?",
   "options": [
-    "Only (i) and (ii)",
-    "Only (i) and (iii)",
-    "Only (ii) and (iii)",
-    "All – (i), (ii) and (iii)"
-  ],
-  "correct": 0,
+      "Only (i) and (iii)",
+      "Only (i) and (ii)",
+      "Only (ii) and (iii)",
+      "All – (i), (ii) and (iii)"
+    ], "correct": 1,
   "explanation": "Statements (i) and (ii) are correct. Statement (iii) is INCORRECT – plasmodesmata connect the CYTOPLASM (not nuclei) of neighbouring cells. NCERT states 'plasmodesmata which connect the cytoplasm of neighbouring cells.' Confusing cytoplasm with nucleus is a common NEET trap."
 },
 {
@@ -2475,12 +2363,11 @@ var allQuestions = [
   "topic": "Mitochondria",
   "q": "Mitochondria are not easily visible under the microscope unless:",
   "options": [
-    "Viewed under electron microscope only",
-    "Specifically stained",
-    "The cell is fixed in formalin",
-    "Viewed under phase contrast microscope only"
-  ],
-  "correct": 1,
+      "Viewed under electron microscope only",
+      "The cell is fixed in formalin",
+      "Specifically stained",
+      "Viewed under phase contrast microscope only"
+    ], "correct": 2,
   "explanation": "As per NCERT, 'Mitochondria, unless specifically stained, are not easily visible under the microscope.' Specific staining (e.g., Janus Green B) is required to visualise mitochondria under light microscope. This is a direct NCERT factual detail."
 },
 {
@@ -2488,12 +2375,11 @@ var allQuestions = [
   "topic": "Mitochondria",
   "q": "The number of mitochondria per cell is variable depending on:",
   "options": [
-    "The size of the cell",
-    "The age of the organism",
-    "The physiological activity of the cells",
-    "The type of tissue only"
-  ],
-  "correct": 2,
+      "The size of the cell",
+      "The age of the organism",
+      "The type of tissue only",
+      "The physiological activity of the cells"
+    ], "correct": 3,
   "explanation": "As per NCERT, 'The number of mitochondria per cell is variable depending on the physiological activity of the cells.' Cells with high metabolic activity (e.g., muscle cells) have more mitochondria. It is NOT dependent on cell size or organism age as stated in NCERT."
 },
 {
@@ -2501,12 +2387,11 @@ var allQuestions = [
   "topic": "Mitochondria",
   "q": "The typical shape of mitochondria is described as:",
   "options": [
-    "Disc-shaped or flattened",
-    "Spherical or oval only",
-    "Sausage-shaped or cylindrical",
-    "Star-shaped or irregular"
-  ],
-  "correct": 2,
+      "Sausage-shaped or cylindrical",
+      "Spherical or oval only",
+      "Disc-shaped or flattened",
+      "Star-shaped or irregular"
+    ], "correct": 0,
   "explanation": "As per NCERT, 'Typically it is sausage-shaped or cylindrical.' While mitochondria show considerable variability in shape and size, the TYPICAL shape mentioned in NCERT is sausage-shaped or cylindrical. This exact NCERT wording is tested in NEET."
 },
 {
@@ -2540,12 +2425,11 @@ var allQuestions = [
   "topic": "Mitochondria",
   "q": "Each mitochondrion is a double membrane-bound structure that divides its lumen into:",
   "options": [
-    "Three aqueous compartments",
-    "Two aqueous compartments – outer compartment and inner compartment",
-    "A single continuous aqueous compartment",
-    "Four distinct compartments"
-  ],
-  "correct": 1,
+      "Three aqueous compartments",
+      "Four distinct compartments",
+      "A single continuous aqueous compartment",
+      "Two aqueous compartments – outer compartment and inner compartment"
+    ], "correct": 3,
   "explanation": "As per NCERT, 'the outer membrane and the inner membrane dividing its lumen distinctly into two aqueous compartments, i.e., the outer compartment and the inner compartment.' TWO compartments – outer (inter-membrane space) and inner (matrix). NOT three or four."
 },
 {
@@ -2553,12 +2437,11 @@ var allQuestions = [
   "topic": "Mitochondria",
   "q": "The inner compartment of the mitochondrion is filled with:",
   "options": [
-    "A fluid called stroma",
-    "A dense homogeneous substance called the matrix",
-    "Thylakoid membranes",
-    "Cristae fluid"
-  ],
-  "correct": 1,
+      "A dense homogeneous substance called the matrix",
+      "A fluid called stroma",
+      "Thylakoid membranes",
+      "Cristae fluid"
+    ], "correct": 0,
   "explanation": "As per NCERT, 'The inner compartment is filled with a dense homogeneous substance called the matrix.' Stroma is found in chloroplasts, not mitochondria. Thylakoids are also chloroplast structures. Matrix is the correct term for the mitochondrial inner compartment."
 },
 {
@@ -2566,12 +2449,11 @@ var allQuestions = [
   "topic": "Mitochondria",
   "q": "Cristae in mitochondria are:",
   "options": [
-    "Infoldings of the outer membrane towards the cytoplasm",
-    "Extensions of the matrix into the outer compartment",
-    "Infoldings of the inner membrane towards the matrix",
-    "Flat disc-shaped structures floating in the matrix"
-  ],
-  "correct": 2,
+      "Infoldings of the outer membrane towards the cytoplasm",
+      "Infoldings of the inner membrane towards the matrix",
+      "Extensions of the matrix into the outer compartment",
+      "Flat disc-shaped structures floating in the matrix"
+    ], "correct": 1,
   "explanation": "As per NCERT, 'The inner membrane forms a number of infoldings called the cristae towards the matrix.' Cristae are formed by the INNER membrane (not outer) and fold TOWARDS the matrix. This is a very high-frequency NEET question. Confusing inner with outer membrane is a classic trap."
 },
 {
@@ -2579,12 +2461,11 @@ var allQuestions = [
   "topic": "Mitochondria",
   "q": "The primary function of cristae in mitochondria is to:",
   "options": [
-    "Store genetic material",
-    "Increase the surface area",
-    "Protect the matrix",
-    "Synthesize lipids"
-  ],
-  "correct": 1,
+      "Store genetic material",
+      "Protect the matrix",
+      "Increase the surface area",
+      "Synthesize lipids"
+    ], "correct": 2,
   "explanation": "As per NCERT, 'The cristae increase the surface area.' Increased surface area allows for more ATP-generating reactions (oxidative phosphorylation) on the inner membrane. This functional significance of cristae is a commonly tested concept."
 },
 {
@@ -2605,12 +2486,11 @@ var allQuestions = [
   "topic": "Mitochondria",
   "q": "Mitochondria are called the 'power houses' of the cell because:",
   "options": [
-    "They are the sites of anaerobic respiration",
-    "They produce cellular energy in the form of ATP through aerobic respiration",
-    "They store large amounts of glucose",
-    "They synthesize all cellular proteins"
-  ],
-  "correct": 1,
+      "They produce cellular energy in the form of ATP through aerobic respiration",
+      "They are the sites of anaerobic respiration",
+      "They store large amounts of glucose",
+      "They synthesize all cellular proteins"
+    ], "correct": 0,
   "explanation": "As per NCERT, 'Mitochondria are the sites of aerobic respiration. They produce cellular energy in the form of ATP, hence they are called power houses of the cell.' They are specifically involved in AEROBIC respiration, not anaerobic. ATP production is the key reason for this name."
 },
 {
@@ -2631,12 +2511,11 @@ var allQuestions = [
   "topic": "Mitochondria",
   "q": "The ribosomes found in mitochondria are:",
   "options": [
-    "80S type",
-    "70S type",
-    "60S type",
-    "50S type"
-  ],
-  "correct": 1,
+      "80S type",
+      "60S type",
+      "70S type",
+      "50S type"
+    ], "correct": 2,
   "explanation": "As per NCERT, the matrix possesses 'ribosomes (70S).' Mitochondrial ribosomes are 70S, similar to prokaryotic ribosomes. This supports the endosymbiotic theory. 80S ribosomes are found in the cytoplasm of eukaryotic cells. 60S and 50S are subunits, not complete ribosomes."
 },
 {
@@ -2644,12 +2523,11 @@ var allQuestions = [
   "topic": "Mitochondria",
   "q": "The DNA molecule found in the mitochondrial matrix is:",
   "options": [
-    "Double linear chromosome",
-    "Multiple circular DNA molecules",
-    "Single circular DNA molecule",
-    "Single linear DNA molecule"
-  ],
-  "correct": 2,
+      "Double linear chromosome",
+      "Multiple circular DNA molecules",
+      "Single linear DNA molecule",
+      "Single circular DNA molecule"
+    ], "correct": 3,
   "explanation": "As per NCERT, the matrix possesses a 'single circular DNA molecule.' Key points: SINGLE (not multiple), CIRCULAR (not linear). This is similar to prokaryotic DNA and is very frequently tested in NEET. Students confuse it with nuclear DNA which is linear."
 },
 {
@@ -2657,12 +2535,11 @@ var allQuestions = [
   "topic": "Mitochondria",
   "q": "Mitochondria divide by:",
   "options": [
-    "Mitosis",
-    "Meiosis",
-    "Budding",
-    "Fission"
-  ],
-  "correct": 3,
+      "Fission",
+      "Meiosis",
+      "Budding",
+      "Mitosis"
+    ], "correct": 0,
   "explanation": "As per NCERT, 'The mitochondria divide by fission.' Fission is a simple division process similar to bacterial binary fission, NOT mitosis or meiosis (which are nuclear division processes). This supports the semi-autonomous nature and endosymbiotic origin of mitochondria."
 },
 {
@@ -2696,12 +2573,11 @@ var allQuestions = [
   "topic": "Mitochondria",
   "q": "Which of the following features of mitochondria is similar to prokaryotic cells?<br>(i) Circular DNA<br>(ii) 70S ribosomes<br>(iii) Division by fission<br>(iv) 80S ribosomes<br>Select the <b>correct</b> option:",
   "options": [
-    "(i), (ii) and (iii) only",
-    "(i), (ii) and (iv) only",
-    "(i) and (iii) only",
-    "All of the above"
-  ],
-  "correct": 0,
+      "(i) and (iii) only",
+      "(i), (ii) and (iv) only",
+      "(i), (ii) and (iii) only",
+      "All of the above"
+    ], "correct": 2,
   "explanation": "Mitochondria share circular DNA (i), 70S ribosomes (ii), and division by fission (iii) with prokaryotes – supporting the endosymbiotic theory. 80S ribosomes (iv) are characteristic of EUKARYOTIC cytoplasm, not prokaryotes or mitochondria. Only (i), (ii), and (iii) are correct."
 },
 {
@@ -2722,12 +2598,11 @@ var allQuestions = [
   "topic": "Mitochondria",
   "q": "Consider the following statements:<br>(i) Mitochondria produce cellular energy in the form of GTP.<br>(ii) The inner compartment of mitochondria is called the matrix.<br>(iii) The two membranes of mitochondria have their own specific enzymes.<br>Which of the above is/are <b>correct</b>?",
   "options": [
-    "Only (i) and (ii)",
-    "Only (ii) and (iii)",
-    "Only (i) and (iii)",
-    "All – (i), (ii) and (iii)"
-  ],
-  "correct": 1,
+      "Only (i) and (ii)",
+      "All – (i), (ii) and (iii)",
+      "Only (i) and (iii)",
+      "Only (ii) and (iii)"
+    ], "correct": 3,
   "explanation": "Statement (i) is INCORRECT – mitochondria produce cellular energy in the form of ATP, not GTP. NCERT specifically says 'They produce cellular energy in the form of ATP.' Statements (ii) and (iii) are correct as per NCERT."
 },
 {
@@ -2748,12 +2623,11 @@ var allQuestions = [
   "topic": "Mitochondria",
   "q": "The outer compartment of the mitochondrion is the space between:",
   "options": [
-    "The two layers of the inner membrane",
-    "The outer membrane and the inner membrane",
-    "The cristae and the matrix",
-    "The matrix and the DNA"
-  ],
-  "correct": 1,
+      "The outer membrane and the inner membrane",
+      "The two layers of the inner membrane",
+      "The cristae and the matrix",
+      "The matrix and the DNA"
+    ], "correct": 0,
   "explanation": "The outer compartment (also called inter-membrane space) is the space between the outer membrane and the inner membrane. NCERT describes two aqueous compartments: outer compartment (between the two membranes) and inner compartment (matrix, inside the inner membrane)."
 },
 {
@@ -2800,12 +2674,11 @@ var allQuestions = [
   "topic": "Mitochondria",
   "q": "Which of the following organelles is <b>NOT</b> part of the endomembrane system but possesses its own DNA and ribosomes?",
   "options": [
-    "Endoplasmic reticulum",
-    "Golgi apparatus",
-    "Mitochondria",
-    "Lysosomes"
-  ],
-  "correct": 2,
+      "Endoplasmic reticulum",
+      "Mitochondria",
+      "Golgi apparatus",
+      "Lysosomes"
+    ], "correct": 1,
   "explanation": "Mitochondria are NOT part of the endomembrane system (as stated in the previous chapter section) but possess their own circular DNA and 70S ribosomes. ER, Golgi, and lysosomes are all part of the endomembrane system and do not have their own DNA/ribosomes."
 },
 {
@@ -2813,12 +2686,11 @@ var allQuestions = [
   "topic": "Mitochondria",
   "q": "Consider the following about mitochondrial membranes:<br>(i) The outer membrane forms the continuous limiting boundary.<br>(ii) The inner membrane forms cristae towards the outer compartment.<br>(iii) Both membranes have their own specific enzymes.<br>Which of the above is/are <b>correct</b>?",
   "options": [
-    "Only (i) and (ii)",
-    "Only (i) and (iii)",
-    "Only (ii) and (iii)",
-    "All – (i), (ii) and (iii)"
-  ],
-  "correct": 1,
+      "Only (i) and (ii)",
+      "Only (ii) and (iii)",
+      "Only (i) and (iii)",
+      "All – (i), (ii) and (iii)"
+    ], "correct": 2,
   "explanation": "Statement (ii) is INCORRECT – the inner membrane forms cristae towards the MATRIX (inner compartment), NOT towards the outer compartment. NCERT states 'infoldings called the cristae towards the matrix.' Statements (i) and (iii) are correct as per NCERT."
 },
 {
@@ -2826,12 +2698,11 @@ var allQuestions = [
   "topic": "Mitochondria",
   "q": "Which of the following is <b>NOT</b> found in the mitochondrial matrix as per NCERT?",
   "options": [
-    "Circular DNA",
-    "RNA molecules",
-    "Histones",
-    "70S ribosomes"
-  ],
-  "correct": 2,
+      "Circular DNA",
+      "RNA molecules",
+      "70S ribosomes",
+      "Histones"
+    ], "correct": 3,
   "explanation": "NCERT mentions circular DNA, RNA molecules, 70S ribosomes, and components for protein synthesis in the matrix. Histones are NOT mentioned as mitochondrial matrix components. Mitochondrial DNA is naked/circular (like prokaryotic DNA), without histone association. Histones are characteristic of eukaryotic nuclear DNA."
 },
 {
@@ -2839,12 +2710,11 @@ var allQuestions = [
   "topic": "Mitochondria",
   "q": "The matrix of mitochondria is described as:",
   "options": [
-    "A fluid-filled space with thylakoids",
-    "A dense homogeneous substance",
-    "A semi-fluid matrix with no inclusions",
-    "A clear transparent liquid"
-  ],
-  "correct": 1,
+      "A dense homogeneous substance",
+      "A fluid-filled space with thylakoids",
+      "A semi-fluid matrix with no inclusions",
+      "A clear transparent liquid"
+    ], "correct": 0,
   "explanation": "As per NCERT, 'The inner compartment is filled with a dense homogeneous substance called the matrix.' It is DENSE and HOMOGENEOUS – not fluid, transparent, or containing thylakoids. Thylakoids are found in chloroplasts, not mitochondria."
 },
 {
@@ -2852,12 +2722,11 @@ var allQuestions = [
   "topic": "Mitochondria",
   "q": "Which of the following correctly lists ALL the features of mitochondria as per NCERT?<br>(i) Double membrane-bound<br>(ii) Possess 70S ribosomes<br>(iii) Contain single circular DNA<br>(iv) Divide by fission<br>(v) Site of anaerobic respiration",
   "options": [
-    "(i), (ii), (iii) and (iv) only",
-    "(i), (ii), (iii) and (v) only",
-    "(i), (iii), (iv) and (v) only",
-    "All of the above"
-  ],
-  "correct": 0,
+      "(i), (ii), (iii) and (v) only",
+      "(i), (ii), (iii) and (iv) only",
+      "(i), (iii), (iv) and (v) only",
+      "All of the above"
+    ], "correct": 1,
   "explanation": "Statement (v) is INCORRECT – mitochondria are the sites of AEROBIC respiration, NOT anaerobic. NCERT states 'Mitochondria are the sites of aerobic respiration.' Statements (i), (ii), (iii), and (iv) are all correct as per NCERT. Confusing aerobic with anaerobic is a NEET trap."
 },
 {
@@ -2878,12 +2747,11 @@ var allQuestions = [
   "topic": "Plastids, Ribosomes, Cytoskeleton",
   "q": "Plastids are classified into chloroplasts, chromoplasts and leucoplasts based on:",
   "options": [
-    "Their shape and size",
-    "Their location in the plant",
-    "The type of pigments they contain",
-    "Their function in metabolism"
-  ],
-  "correct": 2,
+      "Their shape and size",
+      "Their location in the plant",
+      "Their function in metabolism",
+      "The type of pigments they contain"
+    ], "correct": 3,
   "explanation": "As per NCERT, 'Based on the type of pigments plastids can be classified into chloroplasts, chromoplasts and leucoplasts.' The classification is based on PIGMENT TYPE, not shape, size, location, or function. Leucoplasts are colourless (no pigment), chloroplasts have chlorophyll, chromoplasts have carotenoids."
 },
 {
@@ -2891,12 +2759,11 @@ var allQuestions = [
   "topic": "Plastids, Ribosomes, Cytoskeleton",
   "q": "The chloroplasts contain which of the following pigments?<br>(i) Chlorophyll<br>(ii) Carotenoid<br>(iii) Xanthophyll only<br>Select the <b>correct</b> option:",
   "options": [
-    "Only (i)",
-    "Only (i) and (ii)",
-    "Only (i) and (iii)",
-    "All – (i), (ii) and (iii)"
-  ],
-  "correct": 1,
+      "Only (i) and (ii)",
+      "Only (i)",
+      "Only (i) and (iii)",
+      "All – (i), (ii) and (iii)"
+    ], "correct": 0,
   "explanation": "As per NCERT, 'The chloroplasts contain chlorophyll and carotenoid pigments which are responsible for trapping light energy essential for photosynthesis.' Chloroplasts contain chlorophyll AND carotenoids. Xanthophylls are specifically mentioned under chromoplasts as fat-soluble carotenoid pigments, not as a separate chloroplast pigment category."
 },
 {
@@ -2917,12 +2784,11 @@ var allQuestions = [
   "topic": "Plastids, Ribosomes, Cytoskeleton",
   "q": "Match the leucoplast types with their stored nutrients:<br>(a) Amyloplasts – (i) Proteins<br>(b) Elaioplasts – (ii) Carbohydrates (starch)<br>(c) Aleuroplasts – (iii) Oils and fats<br>Select the correct matching:",
   "options": [
-    "a-(ii), b-(iii), c-(i)",
-    "a-(i), b-(ii), c-(iii)",
-    "a-(iii), b-(i), c-(ii)",
-    "a-(ii), b-(i), c-(iii)"
-  ],
-  "correct": 0,
+      "a-(iii), b-(i), c-(ii)",
+      "a-(i), b-(ii), c-(iii)",
+      "a-(ii), b-(iii), c-(i)",
+      "a-(ii), b-(i), c-(iii)"
+    ], "correct": 2,
   "explanation": "As per NCERT: Amyloplasts store carbohydrates/starch (ii), Elaioplasts store oils and fats (iii), Aleuroplasts store proteins (i). The correct match is a-(ii), b-(iii), c-(i). NEET frequently tests this matching. Remember: Amylo = starch, Elaio = oil, Aleuro = protein."
 },
 {
@@ -2930,12 +2796,11 @@ var allQuestions = [
   "topic": "Plastids, Ribosomes, Cytoskeleton",
   "q": "An example of a plant organ that stores starch in amyloplasts is:",
   "options": [
-    "Rose petals",
-    "Green leaves",
-    "Potato",
-    "Carrot"
-  ],
-  "correct": 2,
+      "Rose petals",
+      "Green leaves",
+      "Carrot",
+      "Potato"
+    ], "correct": 3,
   "explanation": "As per NCERT, 'Amyloplasts store carbohydrates (starch), e.g., potato.' Potato tubers are the specific NCERT example for amyloplasts. Rose petals would have chromoplasts, green leaves have chloroplasts, and carrot root has chromoplasts (carotene)."
 },
 {
@@ -2943,12 +2808,11 @@ var allQuestions = [
   "topic": "Plastids, Ribosomes, Cytoskeleton",
   "q": "The majority of chloroplasts in green plants are found in:",
   "options": [
-    "Root cortex cells",
-    "Epidermal cells of stem",
-    "Mesophyll cells of leaves",
-    "Guard cells only"
-  ],
-  "correct": 2,
+      "Mesophyll cells of leaves",
+      "Epidermal cells of stem",
+      "Root cortex cells",
+      "Guard cells only"
+    ], "correct": 0,
   "explanation": "As per NCERT, 'Majority of the chloroplasts of the green plants are found in the mesophyll cells of the leaves.' While guard cells also contain chloroplasts, the MAJORITY are in mesophyll cells. Root cells generally lack chloroplasts."
 },
 {
@@ -2956,12 +2820,11 @@ var allQuestions = [
   "topic": "Plastids, Ribosomes, Cytoskeleton",
   "q": "The number of chloroplasts per cell in the mesophyll of higher plants is:",
   "options": [
-    "1 per cell",
-    "5-10 per cell",
-    "20-40 per cell",
-    "100-200 per cell"
-  ],
-  "correct": 2,
+      "1 per cell",
+      "20-40 per cell",
+      "5-10 per cell",
+      "100-200 per cell"
+    ], "correct": 1,
   "explanation": "As per NCERT, the number 'varies from 1 per cell of the Chlamydomonas, a green alga to 20-40 per cell in the mesophyll.' 1 per cell is for Chlamydomonas (an alga), while mesophyll cells of higher plants have 20-40 per cell. This distinction is frequently tested."
 },
 {
@@ -2995,12 +2858,11 @@ var allQuestions = [
   "topic": "Plastids, Ribosomes, Cytoskeleton",
   "q": "Consider the following statements about thylakoids:<br>(i) They are organised flattened membranous sacs present in the stroma.<br>(ii) Thylakoids arranged in stacks are called grana.<br>(iii) The membrane of thylakoids encloses a space called stroma.<br>Which of the above is/are <b>correct</b>?",
   "options": [
-    "Only (i) and (ii)",
-    "Only (i) and (iii)",
-    "Only (ii) and (iii)",
-    "All – (i), (ii) and (iii)"
-  ],
-  "correct": 0,
+      "All – (i), (ii) and (iii)",
+      "Only (i) and (iii)",
+      "Only (ii) and (iii)",
+      "Only (i) and (ii)"
+    ], "correct": 3,
   "explanation": "Statements (i) and (ii) are correct. Statement (iii) is INCORRECT – the membrane of thylakoids encloses a space called a LUMEN, not stroma. NCERT states 'The membrane of the thylakoids enclose a space called a lumen.' Stroma is the space outside thylakoids within the inner membrane. This is a very common NEET confusion."
 },
 {
@@ -3008,12 +2870,11 @@ var allQuestions = [
   "topic": "Plastids, Ribosomes, Cytoskeleton",
   "q": "Stroma lamellae are:",
   "options": [
-    "Stacked thylakoids forming grana",
-    "Flat membranous tubules connecting the thylakoids of different grana",
-    "Infoldings of the inner chloroplast membrane",
-    "Extensions of the outer chloroplast membrane"
-  ],
-  "correct": 1,
+      "Flat membranous tubules connecting the thylakoids of different grana",
+      "Stacked thylakoids forming grana",
+      "Infoldings of the inner chloroplast membrane",
+      "Extensions of the outer chloroplast membrane"
+    ], "correct": 0,
   "explanation": "As per NCERT, 'there are flat membranous tubules called the stroma lamellae connecting the thylakoids of the different grana.' Stroma lamellae (also called intergranal lamellae or fret channels) provide structural and functional connections between different grana."
 },
 {
@@ -3021,12 +2882,11 @@ var allQuestions = [
   "topic": "Plastids, Ribosomes, Cytoskeleton",
   "q": "The stroma of chloroplasts contains all of the following <b>EXCEPT</b>:",
   "options": [
-    "Enzymes for carbohydrate synthesis",
-    "Small double-stranded circular DNA molecules",
-    "Chlorophyll pigments",
-    "Ribosomes"
-  ],
-  "correct": 2,
+      "Enzymes for carbohydrate synthesis",
+      "Chlorophyll pigments",
+      "Small double-stranded circular DNA molecules",
+      "Ribosomes"
+    ], "correct": 1,
   "explanation": "As per NCERT, 'Chlorophyll pigments are present in the thylakoids,' NOT in the stroma. The stroma contains enzymes for carbohydrate and protein synthesis, double-stranded circular DNA, and ribosomes. This is an extremely important distinction – pigments in thylakoids, enzymes/DNA/ribosomes in stroma."
 },
 {
@@ -3034,12 +2894,11 @@ var allQuestions = [
   "topic": "Plastids, Ribosomes, Cytoskeleton",
   "q": "The DNA found in chloroplasts is:",
   "options": [
-    "Single-stranded linear DNA",
-    "Double-stranded linear DNA",
-    "Single-stranded circular DNA",
-    "Small double-stranded circular DNA"
-  ],
-  "correct": 3,
+      "Single-stranded linear DNA",
+      "Double-stranded linear DNA",
+      "Small double-stranded circular DNA",
+      "Single-stranded circular DNA"
+    ], "correct": 2,
   "explanation": "As per NCERT, the stroma 'contains small, double-stranded circular DNA molecules.' Note TWO key descriptors: DOUBLE-STRANDED and CIRCULAR. Mitochondrial DNA is described as 'single circular DNA' without specifying double-stranded. Chloroplast DNA is specifically 'double-stranded circular.' This subtle difference can appear in NEET."
 },
 {
@@ -3047,12 +2906,11 @@ var allQuestions = [
   "topic": "Plastids, Ribosomes, Cytoskeleton",
   "q": "The ribosomes of chloroplasts are:",
   "options": [
-    "Larger than cytoplasmic ribosomes (80S vs 70S)",
-    "Same size as cytoplasmic ribosomes (80S)",
-    "Smaller than cytoplasmic ribosomes (70S vs 80S)",
-    "Non-functional and inactive"
-  ],
-  "correct": 2,
+      "Larger than cytoplasmic ribosomes (80S vs 70S)",
+      "Same size as cytoplasmic ribosomes (80S)",
+      "Non-functional and inactive",
+      "Smaller than cytoplasmic ribosomes (70S vs 80S)"
+    ], "correct": 3,
   "explanation": "As per NCERT, 'The ribosomes of the chloroplasts are smaller (70S) than the cytoplasmic ribosomes (80S).' Chloroplast ribosomes are 70S (like prokaryotic and mitochondrial ribosomes), while cytoplasmic ribosomes are 80S. This supports the endosymbiotic theory."
 },
 {
@@ -3073,12 +2931,11 @@ var allQuestions = [
   "topic": "Plastids, Ribosomes, Cytoskeleton",
   "q": "The inner membrane of chloroplast compared to the outer membrane is:",
   "options": [
-    "More permeable",
-    "Equally permeable",
-    "Relatively less permeable",
-    "Completely impermeable"
-  ],
-  "correct": 2,
+      "Relatively less permeable",
+      "Equally permeable",
+      "More permeable",
+      "Completely impermeable"
+    ], "correct": 0,
   "explanation": "As per NCERT, 'Of the two, the inner chloroplast membrane is relatively less permeable.' This selective barrier function of the inner membrane helps maintain the unique chemical environment of the stroma. 'Relatively less permeable' is the NCERT-specific wording."
 },
 {
@@ -3086,12 +2943,11 @@ var allQuestions = [
   "topic": "Plastids, Ribosomes, Cytoskeleton",
   "q": "Ribosomes were first observed as dense particles under the electron microscope by:",
   "options": [
-    "Robert Brown",
-    "Camillo Golgi",
-    "George Palade (1953)",
-    "Singer and Nicolson"
-  ],
-  "correct": 2,
+      "Robert Brown",
+      "George Palade (1953)",
+      "Camillo Golgi",
+      "Singer and Nicolson"
+    ], "correct": 1,
   "explanation": "As per NCERT, 'Ribosomes are the granular structures first observed under the electron microscope as dense particles by George Palade (1953).' Robert Brown discovered the nucleus, Golgi discovered Golgi bodies, Singer-Nicolson proposed the fluid mosaic model."
 },
 {
@@ -3112,12 +2968,11 @@ var allQuestions = [
   "topic": "Plastids, Ribosomes, Cytoskeleton",
   "q": "The two subunits of 80S eukaryotic ribosomes are:",
   "options": [
-    "50S and 30S",
-    "60S and 40S",
-    "70S and 10S",
-    "45S and 35S"
-  ],
-  "correct": 1,
+      "50S and 30S",
+      "45S and 35S",
+      "70S and 10S",
+      "60S and 40S"
+    ], "correct": 3,
   "explanation": "As per NCERT, 'The two subunits of 80S ribosomes are 60S and 40S while that of 70S ribosomes are 50S and 30S.' 80S = 60S + 40S (eukaryotic); 70S = 50S + 30S (prokaryotic). Remember: S values are NOT additive (60+40≠100, they give 80S)."
 },
 {
@@ -3125,12 +2980,11 @@ var allQuestions = [
   "topic": "Plastids, Ribosomes, Cytoskeleton",
   "q": "The 'S' in Svedberg's Unit stands for the:",
   "options": [
-    "Size coefficient",
-    "Sedimentation coefficient",
-    "Structural coefficient",
-    "Solubility coefficient"
-  ],
-  "correct": 1,
+      "Sedimentation coefficient",
+      "Size coefficient",
+      "Structural coefficient",
+      "Solubility coefficient"
+    ], "correct": 0,
   "explanation": "As per NCERT, ''S' (Svedberg's Unit) stands for the sedimentation coefficient; it is indirectly a measure of density and size.' It is NOT a direct measure of size – it INDIRECTLY measures density and size. This subtle point is tested in NEET."
 },
 {
@@ -3151,12 +3005,11 @@ var allQuestions = [
   "topic": "Plastids, Ribosomes, Cytoskeleton",
   "q": "The cytoskeleton consists of:<br>(i) Microtubules<br>(ii) Microfilaments<br>(iii) Intermediate filaments<br>(iv) Centrioles<br>Select the <b>correct</b> option as per NCERT:",
   "options": [
-    "(i), (ii) and (iii) only",
-    "(i), (ii) and (iv) only",
-    "(i), (iii) and (iv) only",
-    "All of the above"
-  ],
-  "correct": 0,
+      "(i), (ii) and (iv) only",
+      "(i), (ii) and (iii) only",
+      "(i), (iii) and (iv) only",
+      "All of the above"
+    ], "correct": 1,
   "explanation": "As per NCERT, the cytoskeleton consists of 'microtubules, microfilaments and intermediate filaments.' Centrioles are separate organelles involved in cell division and are NOT listed as cytoskeletal components in NCERT. Only three components are mentioned."
 },
 {
@@ -3177,12 +3030,11 @@ var allQuestions = [
   "topic": "Plastids, Ribosomes, Cytoskeleton",
   "q": "The functions of cytoskeleton include all of the following <b>EXCEPT</b>:",
   "options": [
-    "Mechanical support",
-    "Motility",
-    "Protein synthesis",
-    "Maintenance of the shape of the cell"
-  ],
-  "correct": 2,
+      "Mechanical support",
+      "Motility",
+      "Maintenance of the shape of the cell",
+      "Protein synthesis"
+    ], "correct": 3,
   "explanation": "As per NCERT, the cytoskeleton is 'involved in many functions such as mechanical support, motility, maintenance of the shape of the cell.' Protein synthesis is the function of RIBOSOMES, not the cytoskeleton. This is a straightforward elimination question."
 },
 {
@@ -3203,12 +3055,11 @@ var allQuestions = [
   "topic": "Plastids, Ribosomes, Cytoskeleton",
   "q": "Leucoplasts are described as:",
   "options": [
-    "Coloured plastids with carotenoid pigments",
-    "Green plastids with chlorophyll",
-    "Colourless plastids of varied shapes and sizes with stored nutrients",
-    "Plastids found only in flowers"
-  ],
-  "correct": 2,
+      "Coloured plastids with carotenoid pigments",
+      "Colourless plastids of varied shapes and sizes with stored nutrients",
+      "Green plastids with chlorophyll",
+      "Plastids found only in flowers"
+    ], "correct": 1,
   "explanation": "As per NCERT, 'The leucoplasts are the colourless plastids of varied shapes and sizes with stored nutrients.' They lack pigments and function in storage. Chloroplasts are green with chlorophyll, and chromoplasts are coloured with carotenoids."
 },
 {
@@ -3255,12 +3106,11 @@ var allQuestions = [
   "topic": "Plastids, Ribosomes, Cytoskeleton",
   "q": "Chlamydomonas, a green alga, has how many chloroplasts per cell?",
   "options": [
-    "20-40",
-    "5-10",
-    "1",
-    "100"
-  ],
-  "correct": 2,
+      "20-40",
+      "5-10",
+      "100",
+      "1"
+    ], "correct": 3,
   "explanation": "As per NCERT, 'Their number varies from 1 per cell of the Chlamydomonas, a green alga to 20-40 per cell in the mesophyll.' Chlamydomonas has a single large cup-shaped chloroplast. 20-40 is the number in mesophyll cells."
 },
 {
@@ -3268,12 +3118,11 @@ var allQuestions = [
   "topic": "Plastids, Ribosomes, Cytoskeleton",
   "q": "Consider the following about chloroplasts:<br>(i) They are lens-shaped, oval, spherical, discoid or ribbon-like.<br>(ii) They are single membrane-bound organelles.<br>(iii) Chlorophyll pigments are present in the thylakoids.<br>(iv) The stroma contains enzymes for carbohydrate and protein synthesis.<br>Which of the above are <b>correct</b>?",
   "options": [
-    "(i), (ii) and (iii)",
-    "(i), (iii) and (iv)",
-    "(ii), (iii) and (iv)",
-    "All of the above"
-  ],
-  "correct": 1,
+      "(i), (iii) and (iv)",
+      "(i), (ii) and (iii)",
+      "(ii), (iii) and (iv)",
+      "All of the above"
+    ], "correct": 0,
   "explanation": "Statement (ii) is INCORRECT – chloroplasts are DOUBLE membrane-bound, not single membrane-bound. NCERT states 'the chloroplasts are also double membrane bound.' Statements (i), (iii), and (iv) are all correct as per NCERT."
 },
 {
@@ -3281,12 +3130,11 @@ var allQuestions = [
   "topic": "Plastids, Ribosomes, Cytoskeleton",
   "q": "Thylakoids arranged in stacks like piles of coins are called:",
   "options": [
-    "Stroma lamellae",
-    "Cristae",
-    "Grana",
-    "Cisternae"
-  ],
-  "correct": 2,
+      "Stroma lamellae",
+      "Grana",
+      "Cristae",
+      "Cisternae"
+    ], "correct": 1,
   "explanation": "As per NCERT, 'Thylakoids are arranged in stacks like the piles of coins called grana (singular: granum).' Stroma lamellae connect thylakoids of different grana. Cristae are mitochondrial structures. Cisternae are Golgi apparatus structures."
 },
 {
@@ -3294,12 +3142,11 @@ var allQuestions = [
   "topic": "Plastids, Ribosomes, Cytoskeleton",
   "q": "The space enclosed by the thylakoid membrane is called:",
   "options": [
-    "Stroma",
-    "Matrix",
-    "Cytoplasm",
-    "Lumen"
-  ],
-  "correct": 3,
+      "Stroma",
+      "Matrix",
+      "Lumen",
+      "Cytoplasm"
+    ], "correct": 2,
   "explanation": "As per NCERT, 'The membrane of the thylakoids enclose a space called a lumen.' Stroma is the space outside thylakoids within the inner membrane of chloroplast. Matrix is the inner space of mitochondria. Confusing lumen with stroma is a very common NEET error."
 },
 {
@@ -3307,12 +3154,11 @@ var allQuestions = [
   "topic": "Plastids, Ribosomes, Cytoskeleton",
   "q": "Which of the following correctly represents the comparison of stroma (chloroplast) and matrix (mitochondria)?<br>(i) Both are spaces within the inner membrane.<br>(ii) Both contain circular DNA and 70S ribosomes.<br>(iii) Stroma contains thylakoids; matrix contains cristae.<br>Select the <b>correct</b> option:",
   "options": [
-    "Only (i) and (ii)",
-    "Only (i) and (iii)",
-    "Only (ii) and (iii)",
-    "All – (i), (ii) and (iii)"
-  ],
-  "correct": 0,
+      "All – (i), (ii) and (iii)",
+      "Only (i) and (iii)",
+      "Only (ii) and (iii)",
+      "Only (i) and (ii)"
+    ], "correct": 3,
   "explanation": "Statements (i) and (ii) are correct – both stroma and matrix are spaces within the inner membrane, and both contain circular DNA and 70S ribosomes. Statement (iii) is INCORRECT – while stroma contains thylakoids (correct), the matrix does NOT contain cristae. Cristae are infoldings of the inner membrane INTO the matrix, not structures contained in it."
 },
 {
@@ -3320,12 +3166,11 @@ var allQuestions = [
   "topic": "Cilia and Flagella",
   "q": "Cilia and flagella are described in NCERT as:",
   "options": [
-    "Hair-like outgrowths of the cell wall",
-    "Hair-like outgrowths of the cell membrane",
-    "Filamentous extensions of the cytoskeleton",
-    "Membranous extensions of the nucleus"
-  ],
-  "correct": 1,
+      "Hair-like outgrowths of the cell membrane",
+      "Hair-like outgrowths of the cell wall",
+      "Filamentous extensions of the cytoskeleton",
+      "Membranous extensions of the nucleus"
+    ], "correct": 0,
   "explanation": "As per NCERT, 'Cilia and flagella are hair-like outgrowths of the cell membrane.' They are NOT outgrowths of the cell wall (which is non-living), cytoskeleton, or nucleus. This specific NCERT wording is important – they originate from the cell membrane."
 },
 {
@@ -3359,12 +3204,11 @@ var allQuestions = [
   "topic": "Cilia and Flagella",
   "q": "Consider the following statements:<br>(i) Prokaryotic bacteria possess flagella that are structurally similar to eukaryotic flagella.<br>(ii) Both cilia and flagella are covered with plasma membrane.<br>(iii) The core of cilia and flagella is called the axoneme.<br>Which of the above is/are <b>correct</b>?",
   "options": [
-    "Only (i) and (ii)",
-    "Only (ii) and (iii)",
-    "Only (i) and (iii)",
-    "All – (i), (ii) and (iii)"
-  ],
-  "correct": 1,
+      "Only (i) and (ii)",
+      "Only (i) and (iii)",
+      "Only (ii) and (iii)",
+      "All – (i), (ii) and (iii)"
+    ], "correct": 2,
   "explanation": "Statement (i) is INCORRECT – NCERT states prokaryotic flagella 'are structurally DIFFERENT from that of the eukaryotic flagella.' Statements (ii) and (iii) are correct – both are covered with plasma membrane and have an axoneme as core. Prokaryotic vs eukaryotic flagella comparison is a classic NEET trap."
 },
 {
@@ -3372,12 +3216,11 @@ var allQuestions = [
   "topic": "Cilia and Flagella",
   "q": "The axoneme of cilia and flagella possesses microtubules arranged in:",
   "options": [
-    "9+0 array",
-    "9+2 array",
-    "9+3 array",
-    "8+2 array"
-  ],
-  "correct": 1,
+      "9+0 array",
+      "8+2 array",
+      "9+3 array",
+      "9+2 array"
+    ], "correct": 3,
   "explanation": "As per NCERT, 'Such an arrangement of axonemal microtubules is referred to as the 9+2 array.' Nine doublets of radially arranged peripheral microtubules + a pair of centrally located microtubules = 9+2 array. Note: 9+0 array is found in centrioles/basal bodies, not in cilia/flagella."
 },
 {
@@ -3385,12 +3228,11 @@ var allQuestions = [
   "topic": "Cilia and Flagella",
   "q": "The 9+2 array of the axoneme consists of:",
   "options": [
-    "Nine singlets of peripheral microtubules and two central doublets",
-    "Nine doublets of radially arranged peripheral microtubules and a pair of centrally located microtubules",
-    "Nine triplets of peripheral microtubules and two central singlets",
-    "Nine doublets of central microtubules and two peripheral singlets"
-  ],
-  "correct": 1,
+      "Nine doublets of radially arranged peripheral microtubules and a pair of centrally located microtubules",
+      "Nine singlets of peripheral microtubules and two central doublets",
+      "Nine triplets of peripheral microtubules and two central singlets",
+      "Nine doublets of central microtubules and two peripheral singlets"
+    ], "correct": 0,
   "explanation": "As per NCERT, 'The axoneme usually has nine doublets of radially arranged peripheral microtubules, and a pair of centrally located microtubules.' Peripheral = DOUBLETS (9 sets of 2); Central = PAIR (2 singlets). Confusing doublets/singlets/triplets is a common NEET error."
 },
 {
@@ -3398,12 +3240,11 @@ var allQuestions = [
   "topic": "Cilia and Flagella",
   "q": "The total number of microtubules in the axoneme of a cilium is:",
   "options": [
-    "11",
-    "18",
-    "20",
-    "22"
-  ],
-  "correct": 2,
+      "11",
+      "20",
+      "18",
+      "22"
+    ], "correct": 1,
   "explanation": "The 9+2 array has 9 peripheral DOUBLETS (9×2=18 microtubules) + 2 central microtubules = 20 total microtubules. Students often incorrectly calculate this as 9+2=11 (forgetting that peripheral structures are DOUBLETS). This numerical question frequently appears in NEET."
 },
 {
@@ -3424,12 +3265,11 @@ var allQuestions = [
   "topic": "Cilia and Flagella",
   "q": "The number of radial spokes in the axoneme is:",
   "options": [
-    "Two",
-    "Seven",
-    "Nine",
-    "Eighteen"
-  ],
-  "correct": 2,
+      "Two",
+      "Seven",
+      "Eighteen",
+      "Nine"
+    ], "correct": 3,
   "explanation": "As per NCERT, 'the central sheath is connected to one of the tubules of each peripheral doublets by a radial spoke. Thus, there are nine radial spokes.' Since there are 9 peripheral doublets and each is connected by one radial spoke, there are exactly 9 radial spokes."
 },
 {
@@ -3437,12 +3277,11 @@ var allQuestions = [
   "topic": "Cilia and Flagella",
   "q": "The radial spoke connects:",
   "options": [
-    "The two central tubules to each other",
-    "The peripheral doublets to each other",
-    "The central sheath to one of the tubules of each peripheral doublet",
-    "The plasma membrane to the axoneme"
-  ],
-  "correct": 2,
+      "The central sheath to one of the tubules of each peripheral doublet",
+      "The peripheral doublets to each other",
+      "The two central tubules to each other",
+      "The plasma membrane to the axoneme"
+    ], "correct": 0,
   "explanation": "As per NCERT, 'the central sheath, which is connected to one of the tubules of each peripheral doublets by a radial spoke.' The radial spoke connects the CENTRAL SHEATH to ONE tubule of each PERIPHERAL DOUBLET. Central tubules are connected by bridges, and peripheral doublets are connected by linkers."
 },
 {
@@ -3450,12 +3289,11 @@ var allQuestions = [
   "topic": "Cilia and Flagella",
   "q": "The peripheral doublets of the axoneme are interconnected by:",
   "options": [
-    "Bridges",
-    "Radial spokes",
-    "Central sheath",
-    "Linkers"
-  ],
-  "correct": 3,
+      "Bridges",
+      "Linkers",
+      "Central sheath",
+      "Radial spokes"
+    ], "correct": 1,
   "explanation": "As per NCERT, 'The peripheral doublets are also interconnected by linkers.' This is a critical structural distinction: Bridges connect central tubules, radial spokes connect central sheath to peripheral doublets, and LINKERS connect peripheral doublets to each other."
 },
 {
@@ -3489,12 +3327,11 @@ var allQuestions = [
   "topic": "Cilia and Flagella",
   "q": "Consider the following structural components of the axoneme:<br>(a) Bridges – Connect central tubules<br>(b) Radial spokes – Connect peripheral doublets to each other<br>(c) Linkers – Connect central sheath to peripheral doublets<br>(d) Central sheath – Encloses central tubules<br>Which of the above are <b>correctly</b> matched?",
   "options": [
-    "Only (a) and (d)",
-    "Only (b) and (c)",
-    "Only (a), (b) and (d)",
-    "All of the above"
-  ],
-  "correct": 0,
+      "All of the above",
+      "Only (b) and (c)",
+      "Only (a), (b) and (d)",
+      "Only (a) and (d)"
+    ], "correct": 3,
   "explanation": "(a) is correct – bridges connect central tubules. (d) is correct – central sheath encloses central tubules. (b) is INCORRECT – radial spokes connect central sheath to peripheral doublets, NOT peripheral doublets to each other. (c) is INCORRECT – linkers connect peripheral doublets to each other, NOT central sheath to peripheral doublets. The functions of radial spokes and linkers are swapped in (b) and (c)."
 },
 {
@@ -3502,12 +3339,11 @@ var allQuestions = [
   "topic": "Cilia and Flagella",
   "q": "Cilia cause the movement of:",
   "options": [
-    "Only the cell itself",
-    "Only the surrounding fluid",
-    "Either the cell or the surrounding fluid",
-    "Neither the cell nor the surrounding fluid"
-  ],
-  "correct": 2,
+      "Either the cell or the surrounding fluid",
+      "Only the surrounding fluid",
+      "Only the cell itself",
+      "Neither the cell nor the surrounding fluid"
+    ], "correct": 0,
   "explanation": "As per NCERT, cilia are 'small structures which work like oars, causing the movement of either the cell or the surrounding fluid.' They can do BOTH – move the cell (e.g., Paramecium) OR move the surrounding fluid (e.g., ciliated epithelium in trachea). The word 'either...or' is key."
 },
 {
@@ -3554,12 +3390,11 @@ var allQuestions = [
   "topic": "Cilia and Flagella",
   "q": "Which of the following is <b>NOT</b> a structural component of the axoneme as per NCERT?",
   "options": [
-    "Radial spokes",
-    "Central sheath",
-    "Dynein arms",
-    "Linkers"
-  ],
-  "correct": 2,
+      "Radial spokes",
+      "Central sheath",
+      "Linkers",
+      "Dynein arms"
+    ], "correct": 3,
   "explanation": "NCERT mentions bridges, central sheath, radial spokes, and linkers as structural components of the axoneme. Dynein arms are NOT specifically mentioned in this NCERT text, though they are known in advanced biology. NCERT-level questions should only include components mentioned in the text."
 },
 {
@@ -3567,12 +3402,11 @@ var allQuestions = [
   "topic": "Cilia and Flagella",
   "q": "Consider the following:<br>(i) Cilia are covered with plasma membrane.<br>(ii) Flagella are covered with cell wall material.<br>(iii) The axoneme possesses the 9+2 array of microtubules.<br>(iv) There are nine radial spokes in the axoneme.<br>Which of the above are <b>correct</b>?",
   "options": [
-    "(i), (ii) and (iii)",
-    "(i), (iii) and (iv)",
-    "(ii), (iii) and (iv)",
-    "All of the above"
-  ],
-  "correct": 1,
+      "(i), (iii) and (iv)",
+      "(i), (ii) and (iii)",
+      "(ii), (iii) and (iv)",
+      "All of the above"
+    ], "correct": 0,
   "explanation": "Statement (ii) is INCORRECT – both cilia and flagella are covered with PLASMA MEMBRANE, not cell wall material. NCERT states 'they are covered with plasma membrane.' Statements (i), (iii), and (iv) are all correct as per NCERT."
 },
 {
@@ -3580,12 +3414,11 @@ var allQuestions = [
   "topic": "Cilia and Flagella",
   "q": "Which of the following correctly describes the peripheral arrangement in the 9+2 array?",
   "options": [
-    "Nine singlets of microtubules arranged radially",
-    "Nine triplets of microtubules arranged radially",
-    "Nine doublets of microtubules arranged radially",
-    "Nine pairs of doublets arranged randomly"
-  ],
-  "correct": 2,
+      "Nine singlets of microtubules arranged radially",
+      "Nine doublets of microtubules arranged radially",
+      "Nine triplets of microtubules arranged radially",
+      "Nine pairs of doublets arranged randomly"
+    ], "correct": 1,
   "explanation": "As per NCERT, the axoneme has 'nine doublets of radially arranged peripheral microtubules.' The peripheral microtubules are DOUBLETS (pairs of two), arranged RADIALLY (like spokes of a wheel). Singlets are the central ones, and triplets are found in centrioles/basal bodies."
 },
 {
@@ -3606,12 +3439,11 @@ var allQuestions = [
   "topic": "Cilia and Flagella",
   "q": "Which of the following is the correct structural hierarchy from outside to inside of a cilium?",
   "options": [
-    "Axoneme → Plasma membrane → Central sheath",
-    "Plasma membrane → Axoneme → Central sheath → Central tubules",
-    "Central sheath → Axoneme → Plasma membrane",
-    "Plasma membrane → Central tubules → Axoneme"
-  ],
-  "correct": 1,
+      "Axoneme → Plasma membrane → Central sheath",
+      "Central sheath → Axoneme → Plasma membrane",
+      "Plasma membrane → Axoneme → Central sheath → Central tubules",
+      "Plasma membrane → Central tubules → Axoneme"
+    ], "correct": 2,
   "explanation": "The structural hierarchy from outside to inside is: Plasma membrane (outermost covering) → Axoneme (core with 9+2 microtubules) → Central sheath (encloses central tubules) → Central tubules (innermost). This layered organization is key to understanding cilium architecture."
 },
 {
@@ -3645,12 +3477,11 @@ var allQuestions = [
   "topic": "Cilia and Flagella",
   "q": "Electron microscopic study of cilia and flagella revealed that their axoneme possesses microtubules made of:",
   "options": [
-    "Actin protein",
-    "Keratin protein",
-    "Tubulin protein",
-    "Flagellin protein"
-  ],
-  "correct": 2,
+      "Actin protein",
+      "Keratin protein",
+      "Flagellin protein",
+      "Tubulin protein"
+    ], "correct": 3,
   "explanation": "Microtubules are made of tubulin protein. While NCERT doesn't explicitly name tubulin in this section, microtubules (which form the axoneme) are universally composed of tubulin. Actin forms microfilaments, keratin forms intermediate filaments, and flagellin makes up prokaryotic flagella."
 },
 {
@@ -3658,12 +3489,11 @@ var allQuestions = [
   "topic": "Cilia and Flagella",
   "q": "The cilia function in causing movement of the surrounding fluid is seen in:",
   "options": [
-    "Prokaryotic cells only",
-    "Cells lining the trachea in humans",
-    "Red blood cells",
-    "Nerve cells"
-  ],
-  "correct": 1,
+      "Cells lining the trachea in humans",
+      "Prokaryotic cells only",
+      "Red blood cells",
+      "Nerve cells"
+    ], "correct": 0,
   "explanation": "NCERT states cilia cause 'the movement of either the cell or the surrounding fluid.' Ciliated epithelium lining the trachea in humans is a classic example where cilia move mucus (surrounding fluid) rather than the cell itself. RBCs and nerve cells do not have cilia."
 },
 {
@@ -3671,12 +3501,11 @@ var allQuestions = [
   "topic": "Cilia and Flagella",
   "q": "The term 'axoneme' refers to:",
   "options": [
-    "The basal body from which cilia emerge",
-    "The plasma membrane covering of cilia",
-    "The core of cilia or flagella possessing microtubules",
-    "The central sheath enclosing central tubules"
-  ],
-  "correct": 2,
+      "The basal body from which cilia emerge",
+      "The core of cilia or flagella possessing microtubules",
+      "The plasma membrane covering of cilia",
+      "The central sheath enclosing central tubules"
+    ], "correct": 1,
   "explanation": "As per NCERT, 'Their core called the axoneme, possesses a number of microtubules running parallel to the long axis.' Axoneme = the core structure of cilia/flagella. It is NOT the basal body, plasma membrane covering, or central sheath (which is a component within the axoneme)."
 },
 {
@@ -3710,12 +3539,11 @@ var allQuestions = [
   "topic": "Centrosome, Centrioles, Nucleus, Microbodies",
   "q": "A centrosome usually contains:",
   "options": [
-    "One cylindrical centriole",
-    "Two cylindrical centrioles surrounded by amorphous pericentriolar materials",
-    "Three centrioles arranged in a triangle",
-    "Multiple centrioles arranged randomly"
-  ],
-  "correct": 1,
+      "One cylindrical centriole",
+      "Multiple centrioles arranged randomly",
+      "Three centrioles arranged in a triangle",
+      "Two cylindrical centrioles surrounded by amorphous pericentriolar materials"
+    ], "correct": 3,
   "explanation": "As per NCERT, 'Centrosome is an organelle usually containing two cylindrical structures called centrioles. They are surrounded by amorphous pericentriolar materials.' Key details: TWO centrioles + surrounded by pericentriolar materials."
 },
 {
@@ -3723,12 +3551,11 @@ var allQuestions = [
   "topic": "Centrosome, Centrioles, Nucleus, Microbodies",
   "q": "The two centrioles in a centrosome are oriented:",
   "options": [
-    "Parallel to each other",
-    "At 45 degrees to each other",
-    "Perpendicular to each other",
-    "At 120 degrees to each other"
-  ],
-  "correct": 2,
+      "Perpendicular to each other",
+      "At 45 degrees to each other",
+      "Parallel to each other",
+      "At 120 degrees to each other"
+    ], "correct": 0,
   "explanation": "As per NCERT, 'Both the centrioles in a centrosome lie perpendicular to each other in which each has an organisation like the cartwheel.' Perpendicular = at right angles (90°). This spatial arrangement is a frequently tested structural detail."
 },
 {
@@ -3749,12 +3576,11 @@ var allQuestions = [
   "topic": "Centrosome, Centrioles, Nucleus, Microbodies",
   "q": "The peripheral fibrils of a centriole are:",
   "options": [
-    "Nine evenly spaced doublets of tubulin protein",
-    "Nine evenly spaced triplets of tubulin protein",
-    "Nine evenly spaced singlets of tubulin protein",
-    "Eleven evenly spaced triplets of actin protein"
-  ],
-  "correct": 1,
+      "Nine evenly spaced doublets of tubulin protein",
+      "Nine evenly spaced singlets of tubulin protein",
+      "Nine evenly spaced triplets of tubulin protein",
+      "Eleven evenly spaced triplets of actin protein"
+    ], "correct": 2,
   "explanation": "As per NCERT, 'They are made up of nine evenly spaced peripheral fibrils of tubulin protein. Each of the peripheral fibril is a triplet.' Centrioles have TRIPLETS (not doublets like cilia axoneme or singlets). The protein is TUBULIN (not actin). This centriole vs cilia distinction is extremely high-yield for NEET."
 },
 {
@@ -3762,12 +3588,11 @@ var allQuestions = [
   "topic": "Centrosome, Centrioles, Nucleus, Microbodies",
   "q": "Consider the following comparison:<br>(a) Centriole – 9 triplets of peripheral microtubules<br>(b) Cilia axoneme – 9 doublets of peripheral microtubules + 2 central microtubules<br>Which of the above is/are <b>correct</b>?",
   "options": [
-    "Only (a)",
-    "Only (b)",
-    "Both (a) and (b)",
-    "Neither (a) nor (b)"
-  ],
-  "correct": 2,
+      "Only (a)",
+      "Only (b)",
+      "Neither (a) nor (b)",
+      "Both (a) and (b)"
+    ], "correct": 3,
   "explanation": "Both are correct. Centrioles have 9 triplets of peripheral fibrils (no central microtubules – 9+0 arrangement). Cilia/flagella axoneme has 9 doublets + 2 central microtubules (9+2 arrangement). This comparison between centriolar and ciliary microtubular arrangement is one of the most frequently tested NEET concepts."
 },
 {
@@ -3775,12 +3600,11 @@ var allQuestions = [
   "topic": "Centrosome, Centrioles, Nucleus, Microbodies",
   "q": "The central part of the proximal region of the centriole is called:",
   "options": [
-    "Axoneme",
-    "Hub",
-    "Central sheath",
-    "Basal body"
-  ],
-  "correct": 1,
+      "Hub",
+      "Axoneme",
+      "Central sheath",
+      "Basal body"
+    ], "correct": 0,
   "explanation": "As per NCERT, 'The central part of the proximal region of the centriole is also proteinaceous and called the hub, which is connected with tubules of the peripheral triplets by radial spokes made of protein.' Hub is unique to the centriole description, while central sheath is part of the cilia axoneme."
 },
 {
@@ -3788,12 +3612,11 @@ var allQuestions = [
   "topic": "Centrosome, Centrioles, Nucleus, Microbodies",
   "q": "The centrioles form all of the following <b>EXCEPT</b>:",
   "options": [
-    "Basal body of cilia",
-    "Basal body of flagella",
-    "Spindle fibres during cell division",
-    "Cristae in mitochondria"
-  ],
-  "correct": 3,
+      "Basal body of cilia",
+      "Cristae in mitochondria",
+      "Spindle fibres during cell division",
+      "Basal body of flagella"
+    ], "correct": 1,
   "explanation": "As per NCERT, 'The centrioles form the basal body of cilia or flagella, and spindle fibres that give rise to spindle apparatus during cell division in animal cells.' Cristae are infoldings of the inner mitochondrial membrane and have NO relation to centrioles. Options A, B, and C are all centriole functions."
 },
 {
@@ -3801,12 +3624,11 @@ var allQuestions = [
   "topic": "Centrosome, Centrioles, Nucleus, Microbodies",
   "q": "Nucleus as a cell organelle was first described by:",
   "options": [
-    "Robert Hooke (1665)",
-    "Antonie Van Leeuwenhoek",
-    "Robert Brown (1831)",
-    "Flemming"
-  ],
-  "correct": 2,
+      "Robert Hooke (1665)",
+      "Antonie Van Leeuwenhoek",
+      "Flemming",
+      "Robert Brown (1831)"
+    ], "correct": 3,
   "explanation": "As per NCERT, 'Nucleus as a cell organelle was first described by Robert Brown as early as 1831.' Flemming named CHROMATIN but did not discover the nucleus. Robert Hooke observed dead cork cells. Leeuwenhoek observed live cells. Brown-nucleus association is very frequently tested."
 },
 {
@@ -3814,12 +3636,11 @@ var allQuestions = [
   "topic": "Centrosome, Centrioles, Nucleus, Microbodies",
   "q": "The material of the nucleus stained by basic dyes was named chromatin by:",
   "options": [
-    "Robert Brown",
-    "Flemming",
-    "Schleiden",
-    "Virchow"
-  ],
-  "correct": 1,
+      "Flemming",
+      "Robert Brown",
+      "Schleiden",
+      "Virchow"
+    ], "correct": 0,
   "explanation": "As per NCERT, 'the material of the nucleus stained by the basic dyes was given the name chromatin by Flemming.' Robert Brown described the nucleus, but Flemming named chromatin. Students frequently confuse who named what – a common NEET trap."
 },
 {
@@ -3827,12 +3648,11 @@ var allQuestions = [
   "topic": "Centrosome, Centrioles, Nucleus, Microbodies",
   "q": "The interphase nucleus contains all of the following <b>EXCEPT</b>:",
   "options": [
-    "Chromatin",
-    "Nuclear matrix",
-    "Nucleoli",
-    "Structured chromosomes"
-  ],
-  "correct": 3,
+      "Chromatin",
+      "Structured chromosomes",
+      "Nucleoli",
+      "Nuclear matrix"
+    ], "correct": 1,
   "explanation": "As per NCERT, 'The interphase nucleus has highly extended and elaborate nucleoprotein fibres called chromatin, nuclear matrix and one or more spherical bodies called nucleoli.' Structured CHROMOSOMES are visible only in DIVIDING cells, not in interphase. During interphase, chromatin exists as loose fibres."
 },
 {
@@ -3840,12 +3660,11 @@ var allQuestions = [
   "topic": "Centrosome, Centrioles, Nucleus, Microbodies",
   "q": "The nuclear envelope consists of:",
   "options": [
-    "A single membrane with pores",
-    "Two parallel membranes with a perinuclear space of 10 to 50 nm",
-    "Three layered membrane like the cell envelope of bacteria",
-    "Two membranes without any space between them"
-  ],
-  "correct": 1,
+      "A single membrane with pores",
+      "Two membranes without any space between them",
+      "Three layered membrane like the cell envelope of bacteria",
+      "Two parallel membranes with a perinuclear space of 10 to 50 nm"
+    ], "correct": 3,
   "explanation": "As per NCERT, 'the nuclear envelope, which consists of two parallel membranes with a space between (10 to 50 nm) called the perinuclear space.' Key details: TWO parallel membranes, space between them = perinuclear space, width = 10-50 nm. All four details are frequently tested."
 },
 {
@@ -3853,12 +3672,11 @@ var allQuestions = [
   "topic": "Centrosome, Centrioles, Nucleus, Microbodies",
   "q": "The outer membrane of the nuclear envelope is characterized by:",
   "options": [
-    "Being continuous with the Golgi apparatus",
-    "Lacking any ribosomes on its surface",
-    "Being continuous with the endoplasmic reticulum and bearing ribosomes",
-    "Being continuous with the plasma membrane"
-  ],
-  "correct": 2,
+      "Being continuous with the endoplasmic reticulum and bearing ribosomes",
+      "Lacking any ribosomes on its surface",
+      "Being continuous with the Golgi apparatus",
+      "Being continuous with the plasma membrane"
+    ], "correct": 0,
   "explanation": "As per NCERT, 'The outer membrane usually remains continuous with the endoplasmic reticulum and also bears ribosomes on it.' Two important features: (1) continuous with ER, and (2) bears ribosomes. This is why the outer nuclear membrane often appears rough (like RER)."
 },
 {
@@ -3866,12 +3684,11 @@ var allQuestions = [
   "topic": "Centrosome, Centrioles, Nucleus, Microbodies",
   "q": "Nuclear pores are formed by:",
   "options": [
-    "Invagination of the outer membrane only",
-    "Dissolution of the inner membrane only",
-    "Fusion of the two membranes of the nuclear envelope",
-    "Breakage of the nuclear matrix"
-  ],
-  "correct": 2,
+      "Invagination of the outer membrane only",
+      "Fusion of the two membranes of the nuclear envelope",
+      "Dissolution of the inner membrane only",
+      "Breakage of the nuclear matrix"
+    ], "correct": 1,
   "explanation": "As per NCERT, 'the nuclear envelope is interrupted by minute pores, which are formed by the fusion of its two membranes.' Nuclear pores are formed where the outer and inner membranes FUSE, creating channels for molecular transport."
 },
 {
@@ -3879,12 +3696,11 @@ var allQuestions = [
   "topic": "Centrosome, Centrioles, Nucleus, Microbodies",
   "q": "Through nuclear pores, the movement of molecules takes place:",
   "options": [
-    "Only from nucleus to cytoplasm",
-    "Only from cytoplasm to nucleus",
-    "In both directions between nucleus and cytoplasm",
-    "Only during cell division"
-  ],
-  "correct": 2,
+      "Only from nucleus to cytoplasm",
+      "Only from cytoplasm to nucleus",
+      "Only during cell division",
+      "In both directions between nucleus and cytoplasm"
+    ], "correct": 3,
   "explanation": "As per NCERT, 'These nuclear pores are the passages through which movement of RNA and protein molecules takes place in both directions between the nucleus and the cytoplasm.' BOTH directions – RNA moves out to cytoplasm, proteins (like histones) move into the nucleus. This bidirectional transport is frequently tested."
 },
 {
@@ -3892,12 +3708,11 @@ var allQuestions = [
   "topic": "Centrosome, Centrioles, Nucleus, Microbodies",
   "q": "Which of the following molecules move through nuclear pores?",
   "options": [
-    "Only RNA molecules",
-    "Only protein molecules",
-    "RNA and protein molecules",
-    "Lipid and carbohydrate molecules only"
-  ],
-  "correct": 2,
+      "RNA and protein molecules",
+      "Only protein molecules",
+      "Only RNA molecules",
+      "Lipid and carbohydrate molecules only"
+    ], "correct": 0,
   "explanation": "As per NCERT, nuclear pores allow 'movement of RNA and protein molecules.' Both RNA and proteins pass through nuclear pores. mRNA, tRNA, rRNA move out; histones, polymerases move in. NCERT specifically mentions these two types of molecules."
 },
 {
@@ -3931,12 +3746,11 @@ var allQuestions = [
   "topic": "Centrosome, Centrioles, Nucleus, Microbodies",
   "q": "Chromatin contains all of the following <b>EXCEPT</b>:",
   "options": [
-    "DNA",
-    "Histones",
-    "Lipids",
-    "RNA"
-  ],
-  "correct": 2,
+      "DNA",
+      "Histones",
+      "RNA",
+      "Lipids"
+    ], "correct": 3,
   "explanation": "As per NCERT, 'Chromatin contains DNA and some basic proteins called histones, some non-histone proteins and also RNA.' FOUR components: DNA + histones + non-histone proteins + RNA. Lipids are NOT a component of chromatin. Students often forget that RNA is also present in chromatin."
 },
 {
@@ -3957,12 +3771,11 @@ var allQuestions = [
   "topic": "Centrosome, Centrioles, Nucleus, Microbodies",
   "q": "Kinetochores are:",
   "options": [
-    "Thread-like structures connecting two chromosomes",
-    "Disc-shaped structures present on the sides of the centromere",
-    "Spherical bodies found in the nucleoplasm",
-    "Membrane-bound structures surrounding the nucleus"
-  ],
-  "correct": 1,
+      "Disc-shaped structures present on the sides of the centromere",
+      "Thread-like structures connecting two chromosomes",
+      "Spherical bodies found in the nucleoplasm",
+      "Membrane-bound structures surrounding the nucleus"
+    ], "correct": 0,
   "explanation": "As per NCERT, 'disc shaped structures called kinetochores are present' on the sides of the centromere. Key details: DISC-SHAPED and located on SIDES OF CENTROMERE. Kinetochores are attachment points for spindle fibres during cell division."
 },
 {
@@ -3970,12 +3783,11 @@ var allQuestions = [
   "topic": "Centrosome, Centrioles, Nucleus, Microbodies",
   "q": "Based on the position of the centromere, a chromosome with the centromere in the middle forming two equal arms is called:",
   "options": [
-    "Sub-metacentric",
-    "Acrocentric",
-    "Telocentric",
-    "Metacentric"
-  ],
-  "correct": 3,
+      "Sub-metacentric",
+      "Metacentric",
+      "Telocentric",
+      "Acrocentric"
+    ], "correct": 1,
   "explanation": "As per NCERT, 'The metacentric chromosome has middle centromere forming two equal arms of the chromosome.' Metacentric = middle centromere = equal arms. Sub-metacentric = slightly away from middle = unequal arms. Acrocentric = near end. Telocentric = terminal."
 },
 {
@@ -3983,12 +3795,11 @@ var allQuestions = [
   "topic": "Centrosome, Centrioles, Nucleus, Microbodies",
   "q": "A sub-metacentric chromosome is characterised by:",
   "options": [
-    "Centromere in the middle forming two equal arms",
-    "Centromere slightly away from the middle resulting in one shorter and one longer arm",
-    "Centromere close to the end forming one extremely short and one very long arm",
-    "Terminal centromere"
-  ],
-  "correct": 1,
+      "Centromere in the middle forming two equal arms",
+      "Terminal centromere",
+      "Centromere close to the end forming one extremely short and one very long arm",
+      "Centromere slightly away from the middle resulting in one shorter and one longer arm"
+    ], "correct": 3,
   "explanation": "As per NCERT, 'The sub-metacentric chromosome has centromere slightly away from the middle of the chromosome resulting into one shorter arm and one longer arm.' The centromere is NOT exactly in the middle (metacentric) and NOT near the end (acrocentric)."
 },
 {
@@ -4009,12 +3820,11 @@ var allQuestions = [
   "topic": "Centrosome, Centrioles, Nucleus, Microbodies",
   "q": "An acrocentric chromosome has:",
   "options": [
-    "Two equal arms",
-    "One shorter arm and one longer arm",
-    "One extremely short arm and one very long arm",
-    "No visible arms"
-  ],
-  "correct": 2,
+      "Two equal arms",
+      "One extremely short arm and one very long arm",
+      "One shorter arm and one longer arm",
+      "No visible arms"
+    ], "correct": 1,
   "explanation": "As per NCERT, 'In case of acrocentric chromosome the centromere is situated close to its end forming one extremely short and one very long arm.' The key distinction from sub-metacentric is: acrocentric has 'extremely short' and 'very long' arms (more extreme inequality)."
 },
 {
@@ -4035,12 +3845,11 @@ var allQuestions = [
   "topic": "Centrosome, Centrioles, Nucleus, Microbodies",
   "q": "Satellite chromosomes have:",
   "options": [
-    "Staining primary constrictions at variable locations",
-    "Non-staining secondary constrictions at a constant location",
-    "Multiple centromeres",
-    "No centromere"
-  ],
-  "correct": 1,
+      "Non-staining secondary constrictions at a constant location",
+      "Staining primary constrictions at variable locations",
+      "Multiple centromeres",
+      "No centromere"
+    ], "correct": 0,
   "explanation": "As per NCERT, 'Sometimes a few chromosomes have non-staining secondary constrictions at a constant location. This gives the appearance of a small fragment called the satellite.' Key details: NON-STAINING, SECONDARY constriction, CONSTANT location. Primary constriction = centromere."
 },
 {
@@ -4074,12 +3883,11 @@ var allQuestions = [
   "topic": "Centrosome, Centrioles, Nucleus, Microbodies",
   "q": "Microbodies are:",
   "options": [
-    "Non-membrane bound structures found only in plant cells",
-    "Membrane-bound minute vesicles containing various enzymes found in both plant and animal cells",
-    "Large membrane-bound organelles found only in animal cells",
-    "Non-membrane bound granules found in prokaryotic cells"
-  ],
-  "correct": 1,
+      "Non-membrane bound structures found only in plant cells",
+      "Non-membrane bound granules found in prokaryotic cells",
+      "Large membrane-bound organelles found only in animal cells",
+      "Membrane-bound minute vesicles containing various enzymes found in both plant and animal cells"
+    ], "correct": 3,
   "explanation": "As per NCERT, 'Many membrane bound minute vesicles called microbodies that contain various enzymes, are present in both plant and animal cells.' Key details: MEMBRANE-BOUND, MINUTE vesicles, contain ENZYMES, found in BOTH plant AND animal cells."
 },
 {
@@ -4100,12 +3908,11 @@ var allQuestions = [
   "topic": "Centrosome, Centrioles, Nucleus, Microbodies",
   "q": "The hub of the centriole is connected with tubules of the peripheral triplets by:",
   "options": [
-    "Linkers",
-    "Bridges",
-    "Radial spokes made of protein",
-    "Central sheath"
-  ],
-  "correct": 2,
+      "Linkers",
+      "Radial spokes made of protein",
+      "Bridges",
+      "Central sheath"
+    ], "correct": 1,
   "explanation": "As per NCERT, the hub 'is connected with tubules of the peripheral triplets by radial spokes made of protein.' Note: Both centrioles and cilia have radial spokes, but in centrioles they connect the hub to peripheral TRIPLETS, while in cilia they connect the central sheath to peripheral DOUBLETS."
 },
 {
@@ -4126,12 +3933,11 @@ var allQuestions = [
   "topic": "Centrosome, Centrioles, Nucleus, Microbodies",
   "q": "The centromere of a chromosome holds together:",
   "options": [
-    "Two homologous chromosomes",
-    "Two chromatids of a chromosome",
-    "Two nucleoli",
-    "Two satellite bodies"
-  ],
-  "correct": 1,
+      "Two homologous chromosomes",
+      "Two satellite bodies",
+      "Two nucleoli",
+      "Two chromatids of a chromosome"
+    ], "correct": 3,
   "explanation": "As per NCERT, 'Centromere holds two chromatids of a chromosome.' The centromere is the primary constriction that holds the two sister chromatids together. Homologous chromosomes are held together by chiasmata during meiosis, not by centromere."
 },
 {
@@ -4139,12 +3945,11 @@ var allQuestions = [
   "topic": "Centrosome, Centrioles, Nucleus, Microbodies",
   "q": "The adjacent triplets of centriolar peripheral fibrils are:",
   "options": [
-    "Freely floating without connections",
-    "Linked to each other",
-    "Connected only through the hub",
-    "Separated by membranes"
-  ],
-  "correct": 1,
+      "Linked to each other",
+      "Freely floating without connections",
+      "Connected only through the hub",
+      "Separated by membranes"
+    ], "correct": 0,
   "explanation": "As per NCERT, 'The adjacent triplets are also linked.' The peripheral triplets of the centriole are interconnected with each other through linkers, maintaining the structural integrity of the centriole."
 },
 {
@@ -4204,12 +4009,11 @@ var allQuestions = [
   "topic": "Summary – Cell: The Unit of Life",
   "q": "Consider the following functions of the Endoplasmic Reticulum as stated in the NCERT summary:<br>(i) Transport of substances<br>(ii) Synthesis of proteins<br>(iii) Synthesis of lipoproteins<br>(iv) Synthesis of glycogen<br>(v) Packaging of secretions<br>Which of the above are <b>correct</b>?",
   "options": [
-    "(i), (ii), (iii) and (iv) only",
-    "(i), (ii), (iii) and (v) only",
-    "(ii), (iii), (iv) and (v) only",
-    "All of the above"
-  ],
-  "correct": 0,
+      "(i), (ii), (iii) and (v) only",
+      "(i), (ii), (iii) and (iv) only",
+      "(ii), (iii), (iv) and (v) only",
+      "All of the above"
+    ], "correct": 1,
   "explanation": "As per NCERT summary, ER functions include transport of substances (i), synthesis of proteins (ii), lipoproteins (iii), and glycogen (iv). Packaging of secretions (v) is the function of the GOLGI BODY, not ER. NCERT states 'The secretions of cells are packed in them (Golgi).' Only (i)-(iv) are ER functions."
 },
 {
@@ -4217,12 +4021,11 @@ var allQuestions = [
   "topic": "Summary – Cell: The Unit of Life",
   "q": "Lysosomes are described in the NCERT summary as:",
   "options": [
-    "Double membrane structures containing enzymes for synthesis of macromolecules",
-    "Single membrane structures containing enzymes for digestion of all types of macromolecules",
-    "Non-membrane bound structures with hydrolytic enzymes",
-    "Double membrane structures for oxidative phosphorylation"
-  ],
-  "correct": 1,
+      "Double membrane structures containing enzymes for synthesis of macromolecules",
+      "Double membrane structures for oxidative phosphorylation",
+      "Non-membrane bound structures with hydrolytic enzymes",
+      "Single membrane structures containing enzymes for digestion of all types of macromolecules"
+    ], "correct": 3,
   "explanation": "As per NCERT summary, 'Lysosomes are single membrane structures containing enzymes for digestion of all types of macromolecules.' Key details: SINGLE membrane (not double), DIGESTION (not synthesis), ALL TYPES of macromolecules. Double membrane = mitochondria/chloroplasts."
 },
 {
@@ -4230,12 +4033,11 @@ var allQuestions = [
   "topic": "Summary – Cell: The Unit of Life",
   "q": "The nucleus not only controls the activities of organelles but also plays a major role in:",
   "options": [
-    "Photosynthesis",
-    "Osmotic regulation",
-    "Heredity",
-    "Lipid synthesis"
-  ],
-  "correct": 2,
+      "Photosynthesis",
+      "Heredity",
+      "Osmotic regulation",
+      "Lipid synthesis"
+    ], "correct": 1,
   "explanation": "As per NCERT summary, the nucleus 'not only controls the activities of organelles but also plays a major role in heredity.' Two functions of nucleus: (1) controls organelle activities, and (2) heredity (due to DNA/chromosomes). Photosynthesis is a chloroplast function, lipid synthesis is SER function."
 },
 {
@@ -4243,12 +4045,11 @@ var allQuestions = [
   "topic": "Summary – Cell: The Unit of Life",
   "q": "Mitochondria help in:",
   "options": [
-    "Photophosphorylation and generation of NADPH",
-    "Oxidative phosphorylation and generation of adenosine triphosphate",
-    "Glycolysis and generation of pyruvate",
-    "Substrate level phosphorylation only"
-  ],
-  "correct": 1,
+      "Photophosphorylation and generation of NADPH",
+      "Substrate level phosphorylation only",
+      "Glycolysis and generation of pyruvate",
+      "Oxidative phosphorylation and generation of adenosine triphosphate"
+    ], "correct": 3,
   "explanation": "As per NCERT summary, 'Mitochondria help in oxidative phosphorylation and generation of adenosine triphosphate.' The specific term 'oxidative phosphorylation' (not photophosphorylation) and 'adenosine triphosphate' (ATP) are used. Photophosphorylation occurs in chloroplasts."
 },
 {
@@ -4256,12 +4057,11 @@ var allQuestions = [
   "topic": "Summary – Cell: The Unit of Life",
   "q": "In mitochondria, the outer membrane is smooth and the inner one folds into:",
   "options": [
-    "Thylakoids",
-    "Grana",
-    "Several cristae",
-    "Stroma lamellae"
-  ],
-  "correct": 2,
+      "Thylakoids",
+      "Several cristae",
+      "Grana",
+      "Stroma lamellae"
+    ], "correct": 1,
   "explanation": "As per NCERT summary, mitochondria 'are bound by double membrane; the outer membrane is smooth and inner one folds into several cristae.' Cristae are specifically mitochondrial. Thylakoids, grana, and stroma lamellae are chloroplast structures. Students confusing cristae with thylakoids is a common error."
 },
 {
@@ -4269,12 +4069,11 @@ var allQuestions = [
   "topic": "Summary – Cell: The Unit of Life",
   "q": "In chloroplasts, the site of light reactions and dark reactions respectively are:",
   "options": [
-    "Stroma and grana",
-    "Grana and stroma",
-    "Thylakoid lumen and stroma",
-    "Stroma lamellae and grana"
-  ],
-  "correct": 1,
+      "Stroma and grana",
+      "Stroma lamellae and grana",
+      "Thylakoid lumen and stroma",
+      "Grana and stroma"
+    ], "correct": 3,
   "explanation": "As per NCERT summary, 'The grana, in the plastid, is the site of light reactions and the stroma of dark reactions.' GRANA = light reactions; STROMA = dark reactions. This is one of the most frequently reversed and incorrectly answered NEET questions. Students commonly swap grana and stroma."
 },
 {
@@ -4308,12 +4107,11 @@ var allQuestions = [
   "topic": "Summary – Cell: The Unit of Life",
   "q": "Consider the following:<br>(i) Chloroplasts contain chlorophyll.<br>(ii) Chromoplasts may contain carotene and xanthophyll.<br>(iii) Leucoplasts contain chlorophyll and carotenoids.<br>Which of the above is/are <b>correct</b>?",
   "options": [
-    "Only (i) and (ii)",
-    "Only (ii) and (iii)",
-    "Only (i) and (iii)",
-    "All – (i), (ii) and (iii)"
-  ],
-  "correct": 0,
+      "All – (i), (ii) and (iii)",
+      "Only (ii) and (iii)",
+      "Only (i) and (iii)",
+      "Only (i) and (ii)"
+    ], "correct": 3,
   "explanation": "Statements (i) and (ii) are correct as per NCERT summary. Statement (iii) is INCORRECT – leucoplasts are COLOURLESS plastids that store nutrients; they do NOT contain chlorophyll or carotenoids. Chlorophyll is in chloroplasts, carotenoids are in chromoplasts."
 },
 {
@@ -4321,12 +4119,11 @@ var allQuestions = [
   "topic": "Summary – Cell: The Unit of Life",
   "q": "Ribosomes are involved in protein synthesis and occur:",
   "options": [
-    "Only freely in the cytoplasm",
-    "Only associated with the endoplasmic reticulum",
-    "Freely in the cytoplasm or associated with ER",
-    "Only within the nucleus"
-  ],
-  "correct": 2,
+      "Only freely in the cytoplasm",
+      "Freely in the cytoplasm or associated with ER",
+      "Only associated with the endoplasmic reticulum",
+      "Only within the nucleus"
+    ], "correct": 1,
   "explanation": "As per NCERT summary, 'Ribosomes are involved in protein synthesis. These occur freely in the cytoplasm or are associated with ER.' BOTH locations are correct. Free ribosomes synthesize proteins for intracellular use, while ER-bound ribosomes synthesize proteins for secretion."
 },
 {
@@ -4347,12 +4144,11 @@ var allQuestions = [
   "topic": "Summary – Cell: The Unit of Life",
   "q": "The inner membrane of the nuclear envelope encloses:",
   "options": [
-    "Only the nucleoplasm",
-    "Only the chromatin material",
-    "The nucleoplasm and the chromatin material",
-    "The cytoplasm and organelles"
-  ],
-  "correct": 2,
+      "Only the nucleoplasm",
+      "Only the chromatin material",
+      "The cytoplasm and organelles",
+      "The nucleoplasm and the chromatin material"
+    ], "correct": 3,
   "explanation": "As per NCERT summary, 'The inner membrane encloses the nucleoplasm and the chromatin material.' BOTH nucleoplasm AND chromatin are enclosed by the inner nuclear membrane. Not just one or the other."
 },
 {
@@ -4373,12 +4169,11 @@ var allQuestions = [
   "topic": "Summary – Cell: The Unit of Life",
   "q": "The nucleus of a cell contains:",
   "options": [
-    "Nucleoli and ribosomes only",
-    "Nucleoli and chromatin network",
-    "Chromatin network and mitochondria",
-    "Nucleoli, chromatin and golgi bodies"
-  ],
-  "correct": 1,
+      "Nucleoli and ribosomes only",
+      "Nucleoli, chromatin and golgi bodies",
+      "Chromatin network and mitochondria",
+      "Nucleoli and chromatin network"
+    ], "correct": 3,
   "explanation": "As per NCERT summary, 'Nucleus contains nucleoli and chromatin network.' Only nucleoli and chromatin are specifically stated as nuclear contents. Ribosomes are found on the outer nuclear membrane and in cytoplasm. Mitochondria and Golgi are cytoplasmic organelles."
 },
 {
@@ -4399,12 +4194,11 @@ var allQuestions = [
   "topic": "Summary – Cell: The Unit of Life",
   "q": "Consider the following statements from the NCERT summary:<br>(i) The plasma membrane is selectively permeable.<br>(ii) The plasma membrane facilitates transport of several molecules.<br>(iii) All cell organelles perform different but specific functions.<br>(iv) Plastids are found in both plant and animal cells.<br>Which of the above are <b>correct</b>?",
   "options": [
-    "(i), (ii) and (iii) only",
-    "(i), (ii) and (iv) only",
-    "(i), (iii) and (iv) only",
-    "All of the above"
-  ],
-  "correct": 0,
+      "All of the above",
+      "(i), (ii) and (iv) only",
+      "(i), (iii) and (iv) only",
+      "(i), (ii) and (iii) only"
+    ], "correct": 3,
   "explanation": "Statement (iv) is INCORRECT – NCERT summary states 'Plastids are pigment containing organelles found in plant cells only' (though earlier text mentions euglenoides too). Statements (i), (ii), and (iii) are all correct as stated in the NCERT summary."
 },
 {
@@ -4425,12 +4219,11 @@ var allQuestions = [
   "topic": "Summary – Cell: The Unit of Life",
   "q": "Which of the following correctly represents the relationship between cell structure and life?",
   "options": [
-    "Cell is only the structural unit of life",
-    "Cell is only the functional unit of life",
-    "Cell is the structural and functional unit of life",
-    "Cell is neither structural nor functional unit"
-  ],
-  "correct": 2,
+      "Cell is only the structural unit of life",
+      "Cell is only the functional unit of life",
+      "Cell is neither structural nor functional unit",
+      "Cell is the structural and functional unit of life"
+    ], "correct": 3,
   "explanation": "As per NCERT summary, 'Thus, cell is the structural and functional unit of life.' The cell is BOTH structural (provides organization) AND functional (carries out life processes). This concluding statement of the chapter is the core concept of cell biology."
 },
 {
@@ -4438,12 +4231,11 @@ var allQuestions = [
   "topic": "Summary – Cell: The Unit of Life",
   "q": "Consider the following organelles and their membrane structure:<br>(a) Lysosomes – Single membrane<br>(b) Mitochondria – Double membrane<br>(c) Nucleus – Double membrane<br>(d) Ribosomes – Single membrane<br>Which of the above are <b>correctly</b> matched?",
   "options": [
-    "(a), (b) and (c) only",
-    "(a), (b) and (d) only",
-    "(b), (c) and (d) only",
-    "All of the above"
-  ],
-  "correct": 0,
+      "All of the above",
+      "(a), (b) and (d) only",
+      "(b), (c) and (d) only",
+      "(a), (b) and (c) only"
+    ], "correct": 3,
   "explanation": "Lysosomes = single membrane (a-correct), Mitochondria = double membrane (b-correct), Nucleus = double membrane with nuclear envelope (c-correct). Ribosomes are NON-membrane bound (d-INCORRECT). Options (a), (b), and (c) are correctly matched."
 },
 {
@@ -4464,12 +4256,11 @@ var allQuestions = [
   "topic": "Summary – Cell: The Unit of Life",
   "q": "The green coloured plastids are called _____ which contain _____:",
   "options": [
-    "Chromoplasts, which contain carotene",
-    "Chloroplasts, which contain chlorophyll",
-    "Leucoplasts, which contain stored nutrients",
-    "Chloroplasts, which contain xanthophyll only"
-  ],
-  "correct": 1,
+      "Chromoplasts, which contain carotene",
+      "Chloroplasts, which contain xanthophyll only",
+      "Leucoplasts, which contain stored nutrients",
+      "Chloroplasts, which contain chlorophyll"
+    ], "correct": 3,
   "explanation": "As per NCERT summary, 'The green coloured plastids are chloroplasts, which contain chlorophyll.' Chromoplasts are OTHER coloured (yellow/orange/red) plastids. Leucoplasts are colourless. Chloroplasts are specifically green due to chlorophyll."
 },
 {
@@ -4477,12 +4268,11 @@ var allQuestions = [
   "topic": "Summary – Cell: The Unit of Life",
   "q": "Which of the following pairs of organelles are bound by double membranes?",
   "options": [
-    "Mitochondria and lysosomes",
-    "Mitochondria and nucleus",
-    "Lysosomes and Golgi complex",
-    "Vacuoles and ribosomes"
-  ],
-  "correct": 1,
+      "Mitochondria and lysosomes",
+      "Vacuoles and ribosomes",
+      "Lysosomes and Golgi complex",
+      "Mitochondria and nucleus"
+    ], "correct": 3,
   "explanation": "As per NCERT summary, mitochondria are 'bound by double membrane' and the nucleus is enclosed by 'nuclear envelope, a double membrane structure.' Lysosomes are single membrane, Golgi is membranous but not double membrane, vacuoles are single membrane (tonoplast), ribosomes are non-membrane bound."
 },
 {
@@ -4490,12 +4280,11 @@ var allQuestions = [
   "topic": "Summary – Cell: The Unit of Life",
   "q": "Consider the following summary statements:<br>(i) All organisms are made of cells or aggregates of cells.<br>(ii) Cells vary in their shape, size and activities/functions.<br>(iii) All cells are identical in structure and function.<br>Which of the above is/are <b>correct</b>?",
   "options": [
-    "Only (i) and (ii)",
-    "Only (i) and (iii)",
-    "Only (ii) and (iii)",
-    "All – (i), (ii) and (iii)"
-  ],
-  "correct": 0,
+      "All – (i), (ii) and (iii)",
+      "Only (i) and (iii)",
+      "Only (ii) and (iii)",
+      "Only (i) and (ii)"
+    ], "correct": 3,
   "explanation": "Statements (i) and (ii) are correct as per NCERT summary. Statement (iii) is INCORRECT – the summary explicitly states cells 'vary in their shape, size and activities/functions,' meaning they are NOT identical. Cell diversity is a fundamental concept."
 },
 {
@@ -4503,12 +4292,11 @@ var allQuestions = [
   "topic": "Summary – Cell: The Unit of Life",
   "q": "Chromoplasts may contain pigments like:",
   "options": [
-    "Chlorophyll a and chlorophyll b",
-    "Carotene and xanthophyll",
-    "Phycocyanin and phycoerythrin",
-    "Anthocyanin and flavonoids"
-  ],
-  "correct": 1,
+      "Chlorophyll a and chlorophyll b",
+      "Anthocyanin and flavonoids",
+      "Phycocyanin and phycoerythrin",
+      "Carotene and xanthophyll"
+    ], "correct": 3,
   "explanation": "As per NCERT summary, 'the other coloured plastids are chromoplasts, which may contain pigments like carotene and xanthophyll.' Chlorophylls are in chloroplasts. Phycobilins are in cyanobacteria. Anthocyanins are vacuolar pigments. Only carotene and xanthophyll are specifically stated as chromoplast pigments."
 },
 {
@@ -4516,12 +4304,11 @@ var allQuestions = [
   "topic": "Summary – Cell: The Unit of Life",
   "q": "Which of the following organelles facilitates locomotion?",
   "options": [
-    "Mitochondria",
-    "Lysosomes",
-    "Cilia and flagella",
-    "Golgi complex"
-  ],
-  "correct": 2,
+      "Mitochondria",
+      "Lysosomes",
+      "Golgi complex",
+      "Cilia and flagella"
+    ], "correct": 3,
   "explanation": "As per NCERT summary, 'Centrosome and centriole form the basal body of cilia and flagella that facilitate locomotion.' Cilia and flagella are specifically involved in locomotion. Mitochondria provide energy (ATP), lysosomes digest, and Golgi packages – none directly facilitate locomotion."
 },
 {
@@ -4529,12 +4316,11 @@ var allQuestions = [
   "topic": "Summary – Cell: The Unit of Life",
   "q": "The endomembrane system as per NCERT summary includes:",
   "options": [
-    "ER, Golgi complex, mitochondria and vacuoles",
-    "ER, Golgi complex, lysosomes and vacuoles",
-    "ER, Golgi complex, lysosomes and chloroplasts",
-    "ER, Golgi complex, lysosomes and peroxisomes"
-  ],
-  "correct": 1,
+      "ER, Golgi complex, mitochondria and vacuoles",
+      "ER, Golgi complex, lysosomes and peroxisomes",
+      "ER, Golgi complex, lysosomes and chloroplasts",
+      "ER, Golgi complex, lysosomes and vacuoles"
+    ], "correct": 3,
   "explanation": "As per NCERT summary, 'The endomembrane system includes ER, golgi complex, lysosomes and vacuoles.' Mitochondria, chloroplasts, and peroxisomes are explicitly EXCLUDED from the endomembrane system as their functions are not coordinated with these components."
 },
 {

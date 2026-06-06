@@ -1,15 +1,14 @@
-var allQuestions = [
+﻿var allQuestions = [
 {
   id: 1,
   topic: "Introduction - The Living World",
   q: "Biology is defined in the NCERT text as:",
   options: [
-    "The science of life forms only",
-    "The science of living processes only",
-    "The science of life forms and living processes",
-    "The science of classification of living organisms"
-  ],
-  correct: 2,
+      "The science of life forms and living processes",
+      "The science of living processes only",
+      "The science of life forms only",
+      "The science of classification of living organisms"
+    ], correct: 0,
   explanation: "As per NCERT, 'Biology is the science of life forms and living processes.' It covers both — the organisms themselves and the processes occurring in them. Options A and B are incomplete, and D is too narrow."
 },
 {
@@ -17,12 +16,11 @@ var allQuestions = [
   topic: "Introduction - The Living World",
   q: "Which of the following was deified by early man?<br>(i) Wind<br>(ii) Sea<br>(iii) Fire<br>(iv) Soil<br>(v) Some animals and plants",
   options: [
-    "i, ii, iii and v only",
-    "i, ii, iii, iv and v",
-    "i, ii and iii only",
-    "i, iii and v only"
-  ],
-  correct: 0,
+      "i, ii, iii, iv and v",
+      "i, ii, iii and v only",
+      "i, ii and iii only",
+      "i, iii and v only"
+    ], correct: 1,
   explanation: "NCERT specifically mentions that early man deified some inanimate matter — wind, sea, fire — and some among animals and plants. Soil is NOT mentioned. Hence (i), (ii), (iii) and (v) only."
 },
 {
@@ -43,12 +41,11 @@ var allQuestions = [
   topic: "Introduction - The Living World",
   q: "Which of the following views of biology led to limited progress in biological knowledge?",
   options: [
-    "Biocentric view",
-    "Anthropocentric view",
-    "Ecocentric view",
-    "Theocentric view"
-  ],
-  correct: 1,
+      "Biocentric view",
+      "Theocentric view",
+      "Ecocentric view",
+      "Anthropocentric view"
+    ], correct: 3,
   explanation: "NCERT clearly states: 'Societies which indulged in anthropocentric view of biology could register limited progress in biological knowledge.' Anthropocentric = human-centred view."
 },
 {
@@ -69,12 +66,11 @@ var allQuestions = [
   topic: "Introduction - The Living World",
   q: "The biggest spin-off of systematic studies of life forms was:",
   options: [
-    "Discovery of new species",
-    "Development of medicines",
-    "Recognition of sharing of similarities among living organisms both horizontally and vertically",
-    "Understanding of evolution by natural selection"
-  ],
-  correct: 2,
+      "Discovery of new species",
+      "Recognition of sharing of similarities among living organisms both horizontally and vertically",
+      "Development of medicines",
+      "Understanding of evolution by natural selection"
+    ], correct: 1,
   explanation: "NCERT explicitly says: 'The biggest spin off of such studies was the recognition of the sharing of similarities among living organisms both horizontally and vertically.'"
 },
 {
@@ -82,12 +78,11 @@ var allQuestions = [
   topic: "Introduction - The Living World",
   q: "The revelation that all present-day living organisms are related to each other and to all organisms that ever lived on earth led to:",
   options: [
-    "Development of genetic engineering",
-    "Cultural movements for conservation of biodiversity",
-    "Discovery of fossils",
-    "Establishment of zoological parks"
-  ],
-  correct: 1,
+      "Development of genetic engineering",
+      "Discovery of fossils",
+      "Cultural movements for conservation of biodiversity",
+      "Establishment of zoological parks"
+    ], correct: 2,
   explanation: "NCERT states this revelation 'humbled man and led to cultural movements for conservation of biodiversity.' Not genetic engineering or fossil discovery."
 },
 {
@@ -95,12 +90,11 @@ var allQuestions = [
   topic: "Introduction - The Living World",
   q: "Ernst Mayr has been called:",
   options: [
-    "The Father of Modern Biology",
-    "The Father of Taxonomy",
-    "The Darwin of the 20th century",
-    "The Linnaeus of the 20th century"
-  ],
-  correct: 2,
+      "The Father of Modern Biology",
+      "The Father of Taxonomy",
+      "The Linnaeus of the 20th century",
+      "The Darwin of the 20th century"
+    ], correct: 3,
   explanation: "NCERT mentions Ernst Mayr as 'The Darwin of the 20th century.' He was a Harvard University evolutionary biologist. Other titles are not attributed to him in the text."
 },
 {
@@ -108,12 +102,11 @@ var allQuestions = [
   topic: "Introduction - The Living World",
   q: "Ernst Mayr was born in:",
   options: [
-    "London, England",
-    "Vienna, Austria",
-    "Kempten, Germany",
-    "Zurich, Switzerland"
-  ],
-  correct: 2,
+      "Kempten, Germany",
+      "Vienna, Austria",
+      "London, England",
+      "Zurich, Switzerland"
+    ], correct: 0,
   explanation: "As per NCERT, Ernst Mayr was born on 5 July 1904, in Kempten, Germany."
 },
 {
@@ -121,12 +114,11 @@ var allQuestions = [
   topic: "Introduction - The Living World",
   q: "Which of the following is <b>NOT</b> a research area of Ernst Mayr?",
   options: [
-    "Ornithology and taxonomy",
-    "Zoogeography and evolution",
-    "Molecular biology and genetics",
-    "Systematics and history of biology"
-  ],
-  correct: 2,
+      "Ornithology and taxonomy",
+      "Molecular biology and genetics",
+      "Zoogeography and evolution",
+      "Systematics and history of biology"
+    ], correct: 1,
   explanation: "NCERT lists Mayr's research areas as ornithology, taxonomy, zoogeography, evolution, systematics, and the history and philosophy of biology. Molecular biology and genetics are NOT mentioned."
 },
 {
@@ -147,12 +139,11 @@ var allQuestions = [
   topic: "Introduction - The Living World",
   q: "Ernst Mayr pioneered the currently accepted definition of:",
   options: [
-    "A taxonomic genus",
-    "A biological species",
-    "Natural selection",
-    "A phylogenetic tree"
-  ],
-  correct: 1,
+      "A taxonomic genus",
+      "A phylogenetic tree",
+      "Natural selection",
+      "A biological species"
+    ], correct: 3,
   explanation: "NCERT clearly states: 'He also pioneered the currently accepted definition of a biological species.' This is the Biological Species Concept (BSC)."
 },
 {
@@ -160,12 +151,11 @@ var allQuestions = [
   topic: "Introduction - The Living World",
   q: "The three prizes widely regarded as the <b>triple crown of biology</b> won by Ernst Mayr are:",
   options: [
-    "Nobel Prize, Balzan Prize, Crafoord Prize",
-    "Balzan Prize, International Prize for Biology, Crafoord Prize",
-    "Nobel Prize, International Prize for Biology, Balzan Prize",
-    "Crafoord Prize, Nobel Prize, International Prize for Biology"
-  ],
-  correct: 1,
+      "Balzan Prize, International Prize for Biology, Crafoord Prize",
+      "Nobel Prize, Balzan Prize, Crafoord Prize",
+      "Nobel Prize, International Prize for Biology, Balzan Prize",
+      "Crafoord Prize, Nobel Prize, International Prize for Biology"
+    ], correct: 0,
   explanation: "NCERT states: 'Mayr was awarded the three prizes widely regarded as the triple crown of biology: the Balzan Prize in 1983, the International Prize for Biology in 1994, and the Crafoord Prize in 1999.' Nobel Prize is NOT among them."
 },
 {
@@ -173,12 +163,11 @@ var allQuestions = [
   topic: "Introduction - The Living World",
   q: "Match the following prizes of Ernst Mayr with the correct year:<br>(i) Balzan Prize - (a) 1999<br>(ii) International Prize for Biology - (b) 1983<br>(iii) Crafoord Prize - (c) 1994",
   options: [
-    "i-b, ii-c, iii-a",
-    "i-a, ii-b, iii-c",
-    "i-c, ii-a, iii-b",
-    "i-b, ii-a, iii-c"
-  ],
-  correct: 0,
+      "i-a, ii-b, iii-c",
+      "i-b, ii-c, iii-a",
+      "i-c, ii-a, iii-b",
+      "i-b, ii-a, iii-c"
+    ], correct: 1,
   explanation: "Balzan Prize → 1983 (b), International Prize for Biology → 1994 (c), Crafoord Prize → 1999 (a). The chronological order is important and frequently tested."
 },
 {
@@ -186,12 +175,11 @@ var allQuestions = [
   topic: "Introduction - The Living World",
   q: "Ernst Mayr joined Harvard's Faculty of Arts and Sciences in _____ and retired in _____.",
   options: [
-    "1950 and 1970",
-    "1953 and 1975",
-    "1955 and 1980",
-    "1948 and 1975"
-  ],
-  correct: 1,
+      "1950 and 1970",
+      "1955 and 1980",
+      "1953 and 1975",
+      "1948 and 1975"
+    ], correct: 2,
   explanation: "NCERT states: 'Mayr joined Harvard's Faculty of Arts and Sciences in 1953 and retired in 1975.' He assumed the title Alexander Agassiz Professor of Zoology Emeritus."
 },
 {
@@ -199,12 +187,11 @@ var allQuestions = [
   topic: "Introduction - The Living World",
   q: "Ernst Mayr died at the age of:",
   options: [
-    "96 in 2000",
-    "98 in 2002",
-    "100 in 2004",
-    "102 in 2006"
-  ],
-  correct: 2,
+      "96 in 2000",
+      "98 in 2002",
+      "102 in 2006",
+      "100 in 2004"
+    ], correct: 3,
   explanation: "NCERT clearly states: 'Mayr died at the age of 100 in the year 2004.' He was born in 1904 and lived a full century."
 },
 {
@@ -212,12 +199,11 @@ var allQuestions = [
   topic: "Introduction - The Living World",
   q: "The title assumed by Ernst Mayr after retirement from Harvard was:",
   options: [
-    "Professor Emeritus of Evolutionary Biology",
-    "Alexander Agassiz Professor of Zoology Emeritus",
-    "Charles Darwin Professor of Ornithology Emeritus",
-    "Honorary Professor of Systematics"
-  ],
-  correct: 1,
+      "Alexander Agassiz Professor of Zoology Emeritus",
+      "Professor Emeritus of Evolutionary Biology",
+      "Charles Darwin Professor of Ornithology Emeritus",
+      "Honorary Professor of Systematics"
+    ], correct: 0,
   explanation: "NCERT specifically mentions the title 'Alexander Agassiz Professor of Zoology Emeritus' was assumed by Mayr after retirement."
 },
 {
@@ -225,12 +211,11 @@ var allQuestions = [
   topic: "Introduction - The Living World",
   q: "Which of the following habitats are <b>NOT</b> mentioned in NCERT as extraordinary habitats for living organisms?",
   options: [
-    "Cold mountains and deciduous forests",
-    "Oceans and fresh water lakes",
-    "Deserts and hot springs",
-    "Tropical rainforests and caves"
-  ],
-  correct: 3,
+      "Cold mountains and deciduous forests",
+      "Tropical rainforests and caves",
+      "Deserts and hot springs",
+      "Oceans and fresh water lakes"
+    ], correct: 1,
   explanation: "NCERT lists cold mountains, deciduous forests, oceans, fresh water lakes, deserts, and hot springs. Tropical rainforests and caves are NOT specifically mentioned in this introductory paragraph."
 },
 {
@@ -238,12 +223,11 @@ var allQuestions = [
   topic: "Introduction - The Living World",
   q: "Consider the following statements:<br>(i) The ecological conflict and cooperation occur among members of a population<br>(ii) The ecological conflict and cooperation occur among populations of a community<br>(iii) Molecular traffic occurs inside a cell<br>Which of the above statements are correct as per NCERT?",
   options: [
-    "i and ii only",
-    "ii and iii only",
-    "i and iii only",
-    "i, ii and iii"
-  ],
-  correct: 3,
+      "i and ii only",
+      "ii and iii only",
+      "i, ii and iii",
+      "i and iii only"
+    ], correct: 2,
   explanation: "All three are directly from NCERT: 'The ecological conflict and cooperation among members of a population and among populations of a community or even the molecular traffic inside a cell.' All three are correct."
 },
 {
@@ -251,12 +235,11 @@ var allQuestions = [
   topic: "Introduction - The Living World",
   q: "The question 'What indeed is life?' has two implicit questions. These are:",
   options: [
-    "A scientific question and a religious question",
-    "A technical question and a philosophical question",
-    "A biological question and a chemical question",
-    "A theoretical question and a practical question"
-  ],
-  correct: 1,
+      "A scientific question and a religious question",
+      "A theoretical question and a practical question",
+      "A biological question and a chemical question",
+      "A technical question and a philosophical question"
+    ], correct: 3,
   explanation: "NCERT states: 'The first is a technical one...what living is as opposed to the non-living, and the second is a philosophical one...what the purpose of life is.' Scientists attempt only the technical question."
 },
 {
@@ -303,12 +286,11 @@ var allQuestions = [
   topic: "Introduction - The Living World",
   q: "The description of living organisms including human beings began:",
   options: [
-    "At the very beginning of human civilization",
-    "Much later in human history",
-    "Only after the invention of the microscope",
-    "Only after Darwin's theory of evolution"
-  ],
-  correct: 1,
+      "Much later in human history",
+      "At the very beginning of human civilization",
+      "Only after the invention of the microscope",
+      "Only after Darwin's theory of evolution"
+    ], correct: 0,
   explanation: "NCERT states: 'The description of living organisms including human beings began much later in human history.' Not at the beginning or after specific scientific inventions."
 },
 {
@@ -316,12 +298,11 @@ var allQuestions = [
   topic: "Introduction - The Living World",
   q: "Sharing of similarities among living organisms is described in NCERT as occurring:",
   options: [
-    "Only horizontally",
-    "Only vertically",
-    "Both horizontally and vertically",
-    "Neither horizontally nor vertically"
-  ],
-  correct: 2,
+      "Only horizontally",
+      "Both horizontally and vertically",
+      "Only vertically",
+      "Neither horizontally nor vertically"
+    ], correct: 1,
   explanation: "NCERT mentions 'recognition of the sharing of similarities among living organisms both horizontally and vertically.' Horizontal = among contemporaries; Vertical = across evolutionary lineage."
 },
 {
@@ -342,12 +323,11 @@ var allQuestions = [
   topic: "Introduction - The Living World",
   q: "The systematic and monumental description of life forms was brought about:",
   options: [
-    "Out of curiosity",
-    "Out of necessity",
-    "Out of religious motivation",
-    "Out of economic interest"
-  ],
-  correct: 1,
+      "Out of curiosity",
+      "Out of religious motivation",
+      "Out of necessity",
+      "Out of economic interest"
+    ], correct: 2,
   explanation: "NCERT uses the phrase 'out of necessity' — 'Systematic and monumental description of life forms brought in, out of necessity, detailed systems of identification, nomenclature and classification.'"
 },
 {
@@ -381,12 +361,11 @@ var allQuestions = [
   topic: "Introduction - The Living World",
   q: "The technical question implicit in 'What is life?' seeks to answer:",
   options: [
-    "What the purpose of life is",
-    "What living is as opposed to the non-living",
-    "How organisms evolve over time",
-    "Why biodiversity should be conserved"
-  ],
-  correct: 1,
+      "What living is as opposed to the non-living",
+      "What the purpose of life is",
+      "How organisms evolve over time",
+      "Why biodiversity should be conserved"
+    ], correct: 0,
   explanation: "NCERT states: 'The first is a technical one and seeks answer to what living is as opposed to the non-living.' The purpose of life is the philosophical question which scientists do not attempt."
 },
 {
@@ -394,12 +373,11 @@ var allQuestions = [
   topic: "Introduction - The Living World",
   q: "Ernst Mayr's career spanned nearly:",
   options: [
-    "50 years",
-    "60 years",
-    "80 years",
-    "100 years"
-  ],
-  correct: 2,
+      "50 years",
+      "80 years",
+      "60 years",
+      "100 years"
+    ], correct: 1,
   explanation: "NCERT states: 'Throughout his nearly 80-year career.' Although he lived 100 years, his career span was about 80 years."
 },
 {
@@ -474,11 +452,10 @@ var allQuestions = [
     "q": "The number of known and described species of living organisms ranges between:",
     "options": [
       "1.2–1.3 million",
-      "1.5–1.6 million",
       "1.7–1.8 million",
+      "1.5–1.6 million",
       "2.5–3.0 million"
-    ],
-    "correct": 2,
+    ], "correct": 1,
     "explanation": "NCERT states: 'The number of species that are known and described range between 1.7-1.8 million.' This refers to biodiversity. Students often confuse this with estimated total species."
   },
   {
@@ -525,12 +502,11 @@ var allQuestions = [
     "topic": "Diversity in the Living World",
     "q": "Nomenclature is only possible when:",
     "options": [
-      "The organism is classified into a kingdom",
       "The organism is described correctly and we know to what organism the name is attached to",
+      "The organism is classified into a kingdom",
       "The organism's DNA has been sequenced",
       "The organism's evolutionary history is known"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "NCERT states: 'Nomenclature or naming is only possible when the organism is described correctly and we know to what organism the name is attached to. This is identification.'"
   },
   {
@@ -552,11 +528,10 @@ var allQuestions = [
     "q": "ICZN stands for:",
     "options": [
       "International Code for Zoological Nomenclature",
-      "International Code of Zoological Nomenclature",
       "International Commission of Zoological Nomenclature",
+      "International Code of Zoological Nomenclature",
       "International Committee for Zoological Nomenclature"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "NCERT uses: 'International Code of Zoological Nomenclature (ICZN).' Note the preposition 'of' — NCERT uses 'for' in ICBN but 'of' in ICZN. This is a common NEET trap. ICBN uses 'for', ICZN uses 'of'."
   },
   {
@@ -566,10 +541,9 @@ var allQuestions = [
     "options": [
       "Polynomial nomenclature",
       "Trinomial nomenclature",
-      "Binomial nomenclature",
-      "Uninomial nomenclature"
-    ],
-    "correct": 2,
+      "Uninomial nomenclature",
+      "Binomial nomenclature"
+    ], "correct": 3,
     "explanation": "NCERT states: 'Each name has two components – the Generic name and the specific epithet. This system of providing a name with two components is called Binomial nomenclature.'"
   },
   {
@@ -577,12 +551,11 @@ var allQuestions = [
     "topic": "Diversity in the Living World",
     "q": "Binomial nomenclature was given by:",
     "options": [
-      "Ernst Mayr",
-      "Charles Darwin",
       "Carolus Linnaeus",
+      "Charles Darwin",
+      "Ernst Mayr",
       "Aristotle"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "NCERT clearly states: 'This naming system given by Carolus Linnaeus is being practised by biologists all over the world.' Linnaeus is the Father of Taxonomy."
   },
   {
@@ -591,11 +564,10 @@ var allQuestions = [
     "q": "In the scientific name <i>Mangifera indica</i>, <i>Mangifera</i> represents the:",
     "options": [
       "Specific epithet",
-      "Species",
       "Genus",
+      "Species",
       "Family"
-    ],
-    "correct": 2,
+    ], "correct": 1,
     "explanation": "NCERT states: 'In this name Mangifera represents the genus while indica, is a particular species, or a specific epithet.' The first word is always the generic name."
   },
   {
@@ -603,12 +575,11 @@ var allQuestions = [
     "topic": "Diversity in the Living World",
     "q": "Consider the following rules of nomenclature:<br>(i) Biological names are generally in Latin<br>(ii) They are written in italics<br>(iii) Both words when handwritten are separately underlined<br>(iv) The specific epithet starts with a capital letter<br>Which of the above are correct?",
     "options": [
-      "i, ii and iii only",
-      "i, ii, iii and iv",
       "i, iii and iv only",
+      "i, ii, iii and iv",
+      "i, ii and iii only",
       "ii, iii and iv only"
-    ],
-    "correct": 0,
+    ], "correct": 2,
     "explanation": "Statement (iv) is INCORRECT — the specific epithet starts with a small letter, not a capital letter. NCERT says: 'The first word denoting the genus starts with a capital letter while the specific epithet starts with a small letter.' Statements i, ii and iii are correct."
   },
   {
@@ -617,11 +588,10 @@ var allQuestions = [
     "q": "In a biological name, both words when handwritten are:",
     "options": [
       "Jointly underlined",
-      "Separately underlined",
+      "Written in CAPITALS",
       "Written in bold",
-      "Written in CAPITALS"
-    ],
-    "correct": 1,
+      "Separately underlined"
+    ], "correct": 3,
     "explanation": "NCERT states: 'Both the words in a biological name, when handwritten, are separately underlined, or printed in italics to indicate their Latin origin.' Jointly underlined is a very common student error."
   },
   {
@@ -629,12 +599,11 @@ var allQuestions = [
     "topic": "Diversity in the Living World",
     "q": "In the scientific name <i>Mangifera indica</i> Linn., 'Linn.' indicates:",
     "options": [
-      "The genus was described by Linnaeus",
       "The species was first described by Linnaeus",
+      "The genus was described by Linnaeus",
       "The plant belongs to the family Linnaceae",
       "The nomenclature system was given by Linnaeus"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "NCERT states: 'Mangifera indica Linn. It indicates that this species was first described by Linnaeus.' The author name appears after the specific epithet and refers to who first described the species."
   },
   {
@@ -643,11 +612,10 @@ var allQuestions = [
     "q": "The name of the author appears in a scientific name:",
     "options": [
       "Before the generic name",
-      "Between the generic name and specific epithet",
       "After the specific epithet",
+      "Between the generic name and specific epithet",
       "It is not included in the scientific name"
-    ],
-    "correct": 2,
+    ], "correct": 1,
     "explanation": "NCERT states: 'Name of the author appears after the specific epithet, i.e., at the end of the biological name and is written in an abbreviated form.'"
   },
   {
@@ -670,10 +638,9 @@ var allQuestions = [
     "options": [
       "Evolutionary relationships",
       "Genetic makeup",
-      "Some easily observable characters",
-      "Geographical distribution"
-    ],
-    "correct": 2,
+      "Geographical distribution",
+      "Some easily observable characters"
+    ], "correct": 3,
     "explanation": "NCERT defines: 'Classification is the process by which anything is grouped into convenient categories based on some easily observable characters.' Not evolutionary relationships or genetics."
   },
   {
@@ -681,12 +648,11 @@ var allQuestions = [
     "topic": "Diversity in the Living World",
     "q": "The scientific term for categories used to study organisms is:",
     "options": [
-      "Taxon",
       "Taxa",
+      "Taxon",
       "Taxonomy",
       "Systematics"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "NCERT states: 'The scientific term for these categories is taxa.' Taxa is the plural form. A single category is a taxon. Taxonomy is the process, not the category."
   },
   {
@@ -722,10 +688,9 @@ var allQuestions = [
     "options": [
       "i, ii and iii only",
       "i, ii, iii and iv only",
-      "i, ii, iii, iv and v",
-      "i and ii only"
-    ],
-    "correct": 2,
+      "i and ii only",
+      "i, ii, iii, iv and v"
+    ], "correct": 3,
     "explanation": "NCERT states: 'External and internal structure, along with the structure of cell, development process and ecological information of organisms are essential and form the basis of modern taxonomic studies.' All five are included."
   },
   {
@@ -747,11 +712,10 @@ var allQuestions = [
     "q": "The earliest classifications of organisms were based on:",
     "options": [
       "Morphological characters",
-      "Evolutionary relationships",
       "Uses of various organisms",
+      "Evolutionary relationships",
       "Habitat of organisms"
-    ],
-    "correct": 2,
+    ], "correct": 1,
     "explanation": "NCERT states: 'Human beings needed to find sources for their basic needs of food, clothing and shelter. Hence, the earliest classifications were based on the uses of various organisms.'"
   },
   {
@@ -759,12 +723,11 @@ var allQuestions = [
     "topic": "Diversity in the Living World",
     "q": "The word 'systematics' is derived from the Latin word:",
     "options": [
-      "Systema meaning systematic arrangement of organisms",
-      "Systemos meaning system of organisms",
       "Systematikos meaning orderly arrangement",
+      "Systemos meaning system of organisms",
+      "Systema meaning systematic arrangement of organisms",
       "Systema meaning system of classification"
-    ],
-    "correct": 0,
+    ], "correct": 2,
     "explanation": "NCERT states: 'The word systematics is derived from the Latin word 'systema' which means systematic arrangement of organisms.'"
   },
   {
@@ -773,11 +736,10 @@ var allQuestions = [
     "q": "Linnaeus used which title for his publication?",
     "options": [
       "Systema Plantarum",
-      "Systema Naturae",
+      "Genera Plantarum",
       "Species Plantarum",
-      "Genera Plantarum"
-    ],
-    "correct": 1,
+      "Systema Naturae"
+    ], "correct": 3,
     "explanation": "NCERT states: 'Linnaeus used Systema Naturae as the title of his publication.' Species Plantarum is another work by Linnaeus but not mentioned in this context."
   },
   {
@@ -785,12 +747,11 @@ var allQuestions = [
     "topic": "Diversity in the Living World",
     "q": "Systematics takes into account:",
     "options": [
-      "Only morphological characters",
-      "Only classification of organisms",
       "Evolutionary relationships between organisms",
+      "Only classification of organisms",
+      "Only morphological characters",
       "Only nomenclature of organisms"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "NCERT states: 'Systematics takes into account evolutionary relationships between organisms.' This distinguishes systematics from taxonomy which focuses more on classification."
   },
   {
@@ -903,11 +864,10 @@ var allQuestions = [
     "q": "The earliest classification by human beings was based on basic needs of:",
     "options": [
       "Food, water and shelter",
-      "Food, clothing and shelter",
       "Food, clothing and medicine",
+      "Food, clothing and shelter",
       "Food, shelter and transport"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "NCERT states: 'Human beings needed to find sources for their basic needs of food, clothing and shelter.' Water, medicine and transport are NOT mentioned."
   },
   {
@@ -915,12 +875,11 @@ var allQuestions = [
     "topic": "Diversity in the Living World",
     "q": "Which of the following correctly differentiates taxonomy from systematics?<br>(i) Taxonomy deals with classification of organisms into different taxa<br>(ii) Systematics takes into account evolutionary relationships<br>(iii) The scope of systematics is narrower than taxonomy",
     "options": [
-      "i and ii only",
+      "i, ii and iii",
       "i and iii only",
       "ii and iii only",
-      "i, ii and iii"
-    ],
-    "correct": 0,
+      "i and ii only"
+    ], "correct": 3,
     "explanation": "Statements (i) and (ii) are correct. Statement (iii) is INCORRECT — the scope of systematics is BROADER (not narrower) than taxonomy, as it also includes evolutionary relationships."
   },
   {
@@ -941,12 +900,11 @@ var allQuestions = [
     "topic": "Diversity in the Living World",
     "q": "The branch of study that deals with relationships among different kinds of organisms and their diversities is referred to as:",
     "options": [
-      "Taxonomy",
-      "Nomenclature",
       "Systematics",
+      "Nomenclature",
+      "Taxonomy",
       "Ecology"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "NCERT states: 'Human beings were not only interested in knowing more about different kinds of organisms and their diversities, but also the relationships among them. This branch of study was referred to as systematics.'"
   },
   {
@@ -993,12 +951,11 @@ var allQuestions = [
     "topic": "Diversity in the Living World",
     "q": "The scope of systematics was later enlarged to include:<br>(i) Identification<br>(ii) Nomenclature<br>(iii) Classification<br>(iv) Genetics",
     "options": [
-      "i, ii and iii only",
       "i, ii, iii and iv",
+      "i, ii and iii only",
       "ii and iii only",
       "i and iv only"
-    ],
-    "correct": 0,
+    ], "correct": 1,
     "explanation": "NCERT states: 'The scope of systematics was later enlarged to include identification, nomenclature and classification.' Genetics is NOT mentioned in this context."
   }
 ,
@@ -1008,11 +965,10 @@ var allQuestions = [
     "q": "Classification involves:",
     "options": [
       "A single step process",
-      "A hierarchy of steps in which each step represents a rank or category",
       "Random grouping of organisms",
+      "A hierarchy of steps in which each step represents a rank or category",
       "Only two steps — identification and naming"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "NCERT states: 'Classification is not a single step process but involves hierarchy of steps in which each step represents a rank or category.' It is a multi-step hierarchical process."
   },
   {
@@ -1022,10 +978,9 @@ var allQuestions = [
     "options": [
       "Taxonomic key",
       "Taxonomic aid",
-      "Taxonomic hierarchy",
-      "Taxonomic index"
-    ],
-    "correct": 2,
+      "Taxonomic index",
+      "Taxonomic hierarchy"
+    ], "correct": 3,
     "explanation": "NCERT states: 'All categories together constitute the taxonomic hierarchy.' Each category is a part of the overall taxonomic arrangement."
   },
   {
@@ -1033,12 +988,11 @@ var allQuestions = [
     "topic": "Taxonomic Categories",
     "q": "Each category referred to as a unit of classification represents a rank and is commonly termed as:",
     "options": [
-      "Taxa",
       "Taxon",
+      "Taxa",
       "Taxonomy",
       "Taxonomic aid"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "NCERT states: 'Each category, referred to as a unit of classification, in fact, represents a rank and is commonly termed as taxon (pl.: taxa).' Taxon is singular; taxa is plural."
   },
   {
@@ -1060,11 +1014,10 @@ var allQuestions = [
     "q": "Insects are recognisable as a concrete group because they share common features like:",
     "options": [
       "Two pairs of jointed legs",
-      "Three pairs of jointed legs",
       "Four pairs of jointed legs",
+      "Three pairs of jointed legs",
       "Five pairs of jointed legs"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "NCERT states: 'Insects represent a group of organisms sharing common features like three pairs of jointed legs.' Three pairs = six legs, which is the defining feature of class Insecta."
   },
   {
@@ -1087,10 +1040,9 @@ var allQuestions = [
     "options": [
       "Class",
       "Order",
-      "Division",
-      "Section"
-    ],
-    "correct": 2,
+      "Section",
+      "Division"
+    ], "correct": 3,
     "explanation": "NCERT mentions: 'kingdom, phylum or division (for plants).' In plant taxonomy, 'Division' is used instead of 'Phylum' which is used for animals. This is a very commonly asked fact."
   },
   {
@@ -1098,12 +1050,11 @@ var allQuestions = [
     "topic": "Taxonomic Categories",
     "q": "The lowest taxonomic category for all organisms including plants and animals is:",
     "options": [
-      "Genus",
-      "Family",
       "Species",
+      "Family",
+      "Genus",
       "Variety"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "NCERT states: 'All organisms, including those in the plant and animal kingdoms have species as the lowest category.' Not genus, family, or variety."
   },
   {
@@ -1124,12 +1075,11 @@ var allQuestions = [
     "topic": "Taxonomic Categories",
     "q": "Consider the following statements:<br>(i) Each rank or taxon represents a unit of classification<br>(ii) Category denotes rank<br>(iii) Groups represent category<br>(iv) Taxonomic categories are merely morphological aggregates<br>Which of the above are correct?",
     "options": [
-      "i, ii and iii only",
-      "i, ii, iii and iv",
       "i and ii only",
+      "i, ii, iii and iv",
+      "i, ii and iii only",
       "ii, iii and iv only"
-    ],
-    "correct": 0,
+    ], "correct": 2,
     "explanation": "Statements i, ii and iii are directly from NCERT. Statement iv is INCORRECT — NCERT says they are 'distinct biological entities and NOT merely morphological aggregates.'"
   },
   {
@@ -1150,12 +1100,11 @@ var allQuestions = [
     "topic": "Taxonomic Categories",
     "q": "Which of the following is the correct hierarchy from lowest to highest?",
     "options": [
-      "Species → Genus → Family → Order → Class → Phylum → Kingdom",
+      "Species → Genus → Family → Class → Order → Phylum → Kingdom",
       "Species → Family → Genus → Order → Class → Phylum → Kingdom",
       "Species → Genus → Order → Family → Class → Phylum → Kingdom",
-      "Species → Genus → Family → Class → Order → Phylum → Kingdom"
-    ],
-    "correct": 0,
+      "Species → Genus → Family → Order → Class → Phylum → Kingdom"
+    ], "correct": 3,
     "explanation": "The correct ascending order is: Species → Genus → Family → Order → Class → Phylum/Division → Kingdom. Options B, C and D jumble Family/Order or Order/Class positions."
   },
   {
@@ -1163,12 +1112,11 @@ var allQuestions = [
     "topic": "Taxonomic Categories",
     "q": "The total number of obligate taxonomic categories from Kingdom to Species is:",
     "options": [
-      "Five",
-      "Six",
       "Seven",
+      "Six",
+      "Five",
       "Eight"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "The seven obligate categories are: Kingdom, Phylum/Division, Class, Order, Family, Genus, Species = 7 categories. This is directly from the NCERT list."
   },
   {
@@ -1203,11 +1151,10 @@ var allQuestions = [
     "q": "One should be able to distinguish one species from another closely related species based on:",
     "options": [
       "Geographical distribution",
-      "Distinct morphological differences",
       "Behavioural differences only",
+      "Distinct morphological differences",
       "Molecular differences only"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "NCERT states: 'One should be able to distinguish one species from the other closely related species based on the distinct morphological differences.'"
   },
   {
@@ -1216,11 +1163,10 @@ var allQuestions = [
     "q": "Match the following organisms with their correct specific epithets:<br>(i) Mango - (a) tuberosum<br>(ii) Potato - (b) leo<br>(iii) Lion - (c) indica",
     "options": [
       "i-a, ii-b, iii-c",
-      "i-c, ii-a, iii-b",
+      "i-c, ii-b, iii-a",
       "i-b, ii-c, iii-a",
-      "i-c, ii-b, iii-a"
-    ],
-    "correct": 1,
+      "i-c, ii-a, iii-b"
+    ], "correct": 3,
     "explanation": "Mango = Mangifera indica (c), Potato = Solanum tuberosum (a), Lion = Panthera leo (b). These are directly given examples in NCERT."
   },
   {
@@ -1228,12 +1174,11 @@ var allQuestions = [
     "topic": "Species",
     "q": "In the names <i>Mangifera indica</i>, <i>Solanum tuberosum</i> and <i>Panthera leo</i>, the first words represent:",
     "options": [
-      "Specific epithets",
-      "Species names",
       "Genera (another higher level of taxon)",
+      "Species names",
+      "Specific epithets",
       "Family names"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "NCERT states: 'The first words Mangifera, Solanum and Panthera are genera and represents another higher level of taxon or category.' They are generic names, not specific epithets."
   },
   {
@@ -1255,11 +1200,10 @@ var allQuestions = [
     "q": "<i>Panthera</i> has another specific epithet called:",
     "options": [
       "pardus",
-      "tigris",
       "leo",
+      "tigris",
       "domestica"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "NCERT states: 'Panthera has another specific epithet called tigris.' So Panthera leo (lion) and Panthera tigris (tiger) are two species of genus Panthera. Pardus is mentioned later under Genus topic."
   },
   {
@@ -1267,12 +1211,11 @@ var allQuestions = [
     "topic": "Species",
     "q": "<i>Solanum</i> includes species like:",
     "options": [
-      "nigrum and melongena",
+      "sapiens and erectus",
       "indica and tuberosum",
       "leo and tigris",
-      "sapiens and erectus"
-    ],
-    "correct": 0,
+      "nigrum and melongena"
+    ], "correct": 3,
     "explanation": "NCERT states: 'Solanum includes species like nigrum and melongena.' Solanum nigrum (black nightshade) and Solanum melongena (brinjal) are species of genus Solanum along with S. tuberosum (potato)."
   },
   {
@@ -1293,12 +1236,11 @@ var allQuestions = [
     "topic": "Species",
     "q": "Consider the following:<br>(A) indica is the specific epithet of mango<br>(B) tuberosum is the genus of potato<br>(C) Panthera is the genus of lion<br>(D) Homo is the specific epithet of human beings<br>Which are correct?",
     "options": [
-      "A and C only",
       "A, B and C",
+      "A and C only",
       "B and D only",
       "A, C and D"
-    ],
-    "correct": 0,
+    ], "correct": 1,
     "explanation": "A is correct (indica = specific epithet of mango). B is INCORRECT (tuberosum is the specific epithet, not genus; Solanum is the genus). C is correct (Panthera = genus of lion). D is INCORRECT (Homo is the genus, not specific epithet; sapiens is the specific epithet)."
   },
   {
@@ -1307,11 +1249,10 @@ var allQuestions = [
     "q": "The organisms within a genus have different specific epithets but share:",
     "options": [
       "Identical morphology",
-      "Morphological similarities",
       "Same specific epithet",
+      "Morphological similarities",
       "Same habitat"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "NCERT states organisms in a genus have 'one or more than one specific epithets representing different organisms, but having morphological similarities.' They share similarities, not identical morphology."
   },
   {
@@ -1334,10 +1275,9 @@ var allQuestions = [
     "options": [
       "Related families",
       "Related orders",
-      "Related species which has more characters in common compared to species of other genera",
-      "Related classes"
-    ],
-    "correct": 2,
+      "Related classes",
+      "Related species which has more characters in common compared to species of other genera"
+    ], "correct": 3,
     "explanation": "NCERT states: 'Genus comprises a group of related species which has more characters in common in comparison to species of other genera.' Genera are aggregates of closely related species."
   },
   {
@@ -1345,12 +1285,11 @@ var allQuestions = [
     "topic": "Genus",
     "q": "Genera can be defined as:",
     "options": [
-      "Aggregates of closely related families",
       "Aggregates of closely related species",
+      "Aggregates of closely related families",
       "Aggregates of closely related orders",
       "Aggregates of closely related kingdoms"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "NCERT states: 'We can say that genera are aggregates of closely related species.' This is a precise and frequently tested definition."
   },
   {
@@ -1359,11 +1298,10 @@ var allQuestions = [
     "q": "Potato and brinjal are two different species but both belong to the genus:",
     "options": [
       "Panthera",
-      "Mangifera",
       "Solanum",
+      "Mangifera",
       "Felis"
-    ],
-    "correct": 2,
+    ], "correct": 1,
     "explanation": "NCERT states: 'Potato and brinjal are two different species but both belong to the genus Solanum.' Potato = Solanum tuberosum, Brinjal = Solanum melongena."
   },
   {
@@ -1371,12 +1309,11 @@ var allQuestions = [
     "topic": "Genus",
     "q": "Which of the following are species of the genus <i>Panthera</i>?<br>(i) Lion<br>(ii) Leopard<br>(iii) Tiger<br>(iv) Cat",
     "options": [
-      "i, ii and iii only",
-      "i, ii, iii and iv",
       "i and iii only",
+      "i, ii, iii and iv",
+      "i, ii and iii only",
       "i, iii and iv only"
-    ],
-    "correct": 0,
+    ], "correct": 2,
     "explanation": "NCERT states: 'Lion (Panthera leo), leopard (P. pardus) and tiger (P. tigris)...are all species of the genus Panthera.' Cat belongs to genus Felis, NOT Panthera."
   },
   {
@@ -1384,12 +1321,11 @@ var allQuestions = [
     "topic": "Genus",
     "q": "Match the following species with their scientific names:<br>(i) Lion - (a) P. tigris<br>(ii) Leopard - (b) P. leo<br>(iii) Tiger - (c) P. pardus",
     "options": [
-      "i-b, ii-c, iii-a",
+      "i-b, ii-a, iii-c",
       "i-a, ii-b, iii-c",
       "i-c, ii-a, iii-b",
-      "i-b, ii-a, iii-c"
-    ],
-    "correct": 0,
+      "i-b, ii-c, iii-a"
+    ], "correct": 3,
     "explanation": "Lion = Panthera leo (b), Leopard = P. pardus (c), Tiger = P. tigris (a). This is directly stated in NCERT and frequently asked in NEET."
   },
   {
@@ -1397,12 +1333,11 @@ var allQuestions = [
     "topic": "Genus",
     "q": "The genus <i>Panthera</i> differs from the genus <i>Felis</i>. <i>Felis</i> includes:",
     "options": [
-      "Lions",
-      "Tigers",
       "Cats",
+      "Tigers",
+      "Lions",
       "Leopards"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "NCERT states: 'This genus (Panthera) differs from another genus Felis which includes cats.' Lions, tigers, and leopards belong to Panthera, not Felis."
   },
   {
@@ -1411,11 +1346,10 @@ var allQuestions = [
     "q": "Which of the following is <b>incorrectly</b> matched?",
     "options": [
       "Panthera leo – Lion",
-      "Panthera pardus – Leopard",
+      "Panthera domestica – Cat",
       "Panthera tigris – Tiger",
-      "Panthera domestica – Cat"
-    ],
-    "correct": 3,
+      "Panthera pardus – Leopard"
+    ], "correct": 1,
     "explanation": "Cat belongs to genus Felis, NOT Panthera. NCERT clearly states: 'This genus differs from another genus Felis which includes cats.' So Panthera domestica is an incorrect combination."
   },
   {
@@ -1423,12 +1357,11 @@ var allQuestions = [
     "topic": "Genus",
     "q": "Consider the following statements:<br>(A) Species of the same genus have more characters in common than species of other genera<br>(B) Potato and brinjal belong to different genera<br>(C) Lion and cat belong to the same genus<br>Which of the above is/are correct?",
     "options": [
-      "A only",
-      "A and B only",
       "B and C only",
+      "A and B only",
+      "A only",
       "A, B and C"
-    ],
-    "correct": 0,
+    ], "correct": 2,
     "explanation": "Only A is correct — this is the NCERT definition of genus. B is INCORRECT (both potato and brinjal belong to genus Solanum). C is INCORRECT (lion = Panthera, cat = Felis — different genera)."
   },
   {
@@ -1488,12 +1421,11 @@ var allQuestions = [
     "topic": "Taxonomic Categories",
     "q": "Consider the following mnemonic-related sequence:<br>King Philip Came Over For Good Spaghetti<br>This represents:",
     "options": [
-      "Kingdom, Phylum, Class, Order, Family, Genus, Species",
+      "Kingdom, Phylum, Class, Organism, Family, Genus, Species",
       "Kingdom, Phylum, Community, Order, Family, Genus, Species",
       "Kingdom, Phylum, Class, Order, Form, Genus, Species",
-      "Kingdom, Phylum, Class, Organism, Family, Genus, Species"
-    ],
-    "correct": 0,
+      "Kingdom, Phylum, Class, Order, Family, Genus, Species"
+    ], "correct": 3,
     "explanation": "The mnemonic represents the seven taxonomic categories in descending order: Kingdom, Phylum, Class, Order, Family, Genus, Species — exactly as listed in NCERT."
   },
   {
@@ -1501,12 +1433,11 @@ var allQuestions = [
     "topic": "Species",
     "q": "How many species of genus <i>Solanum</i> are mentioned in the NCERT text?",
     "options": [
-      "One",
-      "Two",
       "Three",
+      "Two",
+      "One",
       "Four"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "NCERT mentions three species of Solanum: tuberosum (potato), nigrum, and melongena (brinjal). Students often miss Solanum nigrum mentioned in the text."
   },
   {
@@ -1515,11 +1446,10 @@ var allQuestions = [
     "q": "Select the <b>incorrect</b> statement regarding taxonomic categories:",
     "options": [
       "Each category is a part of overall taxonomic arrangement",
-      "All categories together constitute the taxonomic hierarchy",
       "Species is the highest taxonomic category",
+      "All categories together constitute the taxonomic hierarchy",
       "Each category represents a rank commonly termed as taxon"
-    ],
-    "correct": 2,
+    ], "correct": 1,
     "explanation": "Species is the LOWEST taxonomic category, not the highest. NCERT states: 'All organisms have species as the lowest category.' Kingdom is the highest. Options A, B and D are all correct statements from NCERT."
   },
   {
@@ -1540,12 +1470,11 @@ var allQuestions = [
     "topic": "Species",
     "q": "Consider the following:<br>(i) <i>indica</i> is a specific epithet<br>(ii) <i>tuberosum</i> is a specific epithet<br>(iii) <i>leo</i> is a generic name<br>(iv) <i>Panthera</i> is a specific epithet<br>Which are correct?",
     "options": [
-      "i and ii only",
+      "iii and iv only",
       "i, ii and iii",
       "i, ii, iii and iv",
-      "iii and iv only"
-    ],
-    "correct": 0,
+      "i and ii only"
+    ], "correct": 3,
     "explanation": "Only (i) and (ii) are correct — indica and tuberosum are specific epithets. (iii) is WRONG — leo is a specific epithet, not a generic name. (iv) is WRONG — Panthera is a generic name (genus), not a specific epithet."
   },
   {
@@ -1566,12 +1495,11 @@ var allQuestions = [
     "topic": "Species",
     "q": "The scientific name of human being is correctly written as:",
     "options": [
-      "homo sapiens",
-      "Homo Sapiens",
       "Homo sapiens",
+      "Homo Sapiens",
+      "homo sapiens",
       "HOMO SAPIENS"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "As per nomenclature rules stated in NCERT: genus starts with capital letter, specific epithet starts with small letter. So Homo (capital H) sapiens (small s) is correct. NCERT confirms: 'Homo sapiens.'"
   },
   {
@@ -1579,12 +1507,11 @@ var allQuestions = [
     "topic": "Genus",
     "q": "Which of the following genera and their included organisms is <b>correctly</b> matched?<br>(i) Solanum — Potato, Brinjal<br>(ii) Panthera — Lion, Tiger, Leopard<br>(iii) Felis — Cat<br>(iv) Mangifera — Potato, Mango",
     "options": [
-      "i, ii and iii only",
       "i, ii, iii and iv",
+      "i, ii and iii only",
       "ii and iii only",
       "i and iv only"
-    ],
-    "correct": 0,
+    ], "correct": 1,
     "explanation": "Statements i, ii and iii are all correctly matched as per NCERT. Statement iv is INCORRECT — Mangifera includes mango (Mangifera indica), NOT potato. Potato belongs to Solanum."
   },
   {
@@ -1607,11 +1534,10 @@ var allQuestions = [
     "q": "Family has a group of related genera with:",
     "options": [
       "More similarities as compared to genus and species",
-      "Still less number of similarities as compared to genus and species",
+      "No similarities at all",
       "Same number of similarities as genus",
-      "No similarities at all"
-    ],
-    "correct": 1,
+      "Still less number of similarities as compared to genus and species"
+    ], "correct": 3,
     "explanation": "NCERT states: 'Family, has a group of related genera with still less number of similarities as compared to genus and species.' As we go higher in hierarchy, similarities decrease."
   },
   {
@@ -1619,12 +1545,11 @@ var allQuestions = [
     "topic": "Family",
     "q": "Among plants, families are characterised on the basis of:",
     "options": [
-      "Only vegetative features",
-      "Only reproductive features",
       "Both vegetative and reproductive features",
+      "Only reproductive features",
+      "Only vegetative features",
       "Only molecular features"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "NCERT states: 'Families are characterised on the basis of both vegetative and reproductive features of plant species.' Not one or the other alone."
   },
   {
@@ -1632,12 +1557,11 @@ var allQuestions = [
     "topic": "Family",
     "q": "Which of the following genera are placed in the family Solanaceae?<br>(i) Solanum<br>(ii) Petunia<br>(iii) Datura<br>(iv) Mangifera",
     "options": [
-      "i, ii and iii only",
       "i, ii, iii and iv",
+      "i, ii and iii only",
       "i and iii only",
       "i and ii only"
-    ],
-    "correct": 0,
+    ], "correct": 1,
     "explanation": "NCERT states: 'Three different genera Solanum, Petunia and Datura are placed in the family Solanaceae.' Mangifera is NOT mentioned under Solanaceae."
   },
   {
@@ -1673,10 +1597,9 @@ var allQuestions = [
     "options": [
       "A and B only",
       "B and C only",
-      "A and C only",
-      "A, B and C"
-    ],
-    "correct": 2,
+      "A, B and C",
+      "A and C only"
+    ], "correct": 3,
     "explanation": "A is correct (NCERT exact line). B is INCORRECT — NCERT says both Panthera AND Felis are placed in family Felidae, not different families. C is correct (NCERT exact line). So A and C only."
   },
   {
@@ -1697,12 +1620,11 @@ var allQuestions = [
     "topic": "Family",
     "q": "Which of the following is <b>incorrectly</b> matched?",
     "options": [
-      "Solanum – Solanaceae",
+      "Panthera – Canidae",
       "Petunia – Solanaceae",
       "Datura – Solanaceae",
-      "Panthera – Canidae"
-    ],
-    "correct": 3,
+      "Solanum – Solanaceae"
+    ], "correct": 0,
     "explanation": "Panthera belongs to family Felidae, NOT Canidae. NCERT states: 'genus Panthera...is put along with genus Felis (cats) in the family Felidae.' Canidae includes dogs."
   },
   {
@@ -1711,11 +1633,10 @@ var allQuestions = [
     "q": "If you observe the features of a cat and a dog, you will find:",
     "options": [
       "Only similarities",
-      "Only differences",
       "Some similarities and some differences",
+      "Only differences",
       "No observable features in common"
-    ],
-    "correct": 2,
+    ], "correct": 1,
     "explanation": "NCERT states: 'If you observe the features of a cat and a dog, you will find some similarities and some differences as well.' That's why they are in the same order (Carnivora) but different families (Felidae & Canidae)."
   },
   {
@@ -1737,11 +1658,10 @@ var allQuestions = [
     "q": "Generally, order and other higher taxonomic categories are identified based on:",
     "options": [
       "A single unique character",
-      "Aggregates of characters",
+      "Only reproductive characters",
       "Only molecular characters",
-      "Only reproductive characters"
-    ],
-    "correct": 1,
+      "Aggregates of characters"
+    ], "correct": 3,
     "explanation": "NCERT states: 'Generally, order and other higher taxonomic categories are identified based on the aggregates of characters.' Not a single character or only molecular/reproductive characters."
   },
   {
@@ -1749,12 +1669,11 @@ var allQuestions = [
     "topic": "Order",
     "q": "Plant families Convolvulaceae and Solanaceae are included in the order:",
     "options": [
-      "Carnivora",
-      "Primata",
       "Polymoniales",
+      "Primata",
+      "Carnivora",
       "Rosales"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "NCERT states: 'Plant families like Convolvulaceae, Solanaceae are included in the order Polymoniales mainly based on the floral characters.' Carnivora and Primata are animal orders."
   },
   {
@@ -1763,11 +1682,10 @@ var allQuestions = [
     "q": "The plant families Convolvulaceae and Solanaceae are placed in the same order mainly based on:",
     "options": [
       "Vegetative characters",
-      "Root characters",
       "Floral characters",
+      "Root characters",
       "Seed characters"
-    ],
-    "correct": 2,
+    ], "correct": 1,
     "explanation": "NCERT states: 'Plant families like Convolvulaceae, Solanaceae are included in the order Polymoniales mainly based on the floral characters.' Floral characters are the primary basis."
   },
   {
@@ -1776,11 +1694,10 @@ var allQuestions = [
     "q": "The animal order Carnivora includes which of the following families?",
     "options": [
       "Felidae and Hominidae",
-      "Felidae and Canidae",
       "Canidae and Hominidae",
+      "Felidae and Canidae",
       "Felidae only"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "NCERT states: 'The animal order, Carnivora, includes families like Felidae and Canidae.' Hominidae is NOT mentioned under Carnivora — it belongs to order Primata."
   },
   {
@@ -1790,10 +1707,9 @@ var allQuestions = [
     "options": [
       "More",
       "Equal",
-      "Less",
-      "Always zero"
-    ],
-    "correct": 2,
+      "Always zero",
+      "Less"
+    ], "correct": 3,
     "explanation": "NCERT states: 'The similar characters are less in number as compared to different genera included in a family.' As we move from family to order, common characters decrease."
   },
   {
@@ -1828,11 +1744,10 @@ var allQuestions = [
     "q": "The category 'Class' includes:",
     "options": [
       "Related species",
-      "Related genera",
+      "Related orders",
       "Related families",
-      "Related orders"
-    ],
-    "correct": 3,
+      "Related genera"
+    ], "correct": 1,
     "explanation": "NCERT states: 'This category includes related orders.' Class groups related orders — for example, class Mammalia includes order Primata and order Carnivora."
   },
   {
@@ -1841,11 +1756,10 @@ var allQuestions = [
     "q": "Order Primata comprises:",
     "options": [
       "Tiger, cat and dog",
-      "Monkey, gorilla and gibbon",
       "Lion, tiger and leopard",
+      "Monkey, gorilla and gibbon",
       "Fishes, amphibians and reptiles"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "NCERT states: 'Order Primata comprising monkey, gorilla and gibbon.' Tiger, cat and dog belong to order Carnivora."
   },
   {
@@ -1854,11 +1768,10 @@ var allQuestions = [
     "q": "Order Primata and order Carnivora are both placed in:",
     "options": [
       "Phylum Chordata",
-      "Class Mammalia",
+      "Kingdom Animalia",
       "Family Felidae",
-      "Kingdom Animalia"
-    ],
-    "correct": 1,
+      "Class Mammalia"
+    ], "correct": 3,
     "explanation": "NCERT states: 'Order Primata...is placed in class Mammalia along with order Carnivora.' Both are orders within class Mammalia."
   },
   {
@@ -1866,12 +1779,11 @@ var allQuestions = [
     "topic": "Class",
     "q": "Order Carnivora includes animals like:",
     "options": [
-      "Monkey, gorilla and gibbon",
       "Tiger, cat and dog",
+      "Monkey, gorilla and gibbon",
       "Fishes, amphibians and reptiles",
       "Only lion and tiger"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "NCERT states: 'Order Carnivora that includes animals like tiger, cat and dog.' Monkey, gorilla and gibbon belong to order Primata."
   },
   {
@@ -1879,12 +1791,11 @@ var allQuestions = [
     "topic": "Class",
     "q": "Consider the following statements:<br>(A) Order Primata includes monkey, gorilla and gibbon<br>(B) Order Carnivora includes tiger, cat and dog<br>(C) Both orders are placed in class Mammalia<br>(D) Class Mammalia has only two orders",
     "options": [
-      "A, B and C only",
       "A, B, C and D",
+      "A, B and C only",
       "A and B only",
       "B, C and D only"
-    ],
-    "correct": 0,
+    ], "correct": 1,
     "explanation": "A, B and C are all correct per NCERT. D is INCORRECT — NCERT states: 'Class Mammalia has other orders also.' So it has MORE than just Primata and Carnivora."
   },
   {
@@ -1920,10 +1831,9 @@ var allQuestions = [
     "options": [
       "Order",
       "Family",
-      "Phylum",
-      "Division"
-    ],
-    "correct": 2,
+      "Division",
+      "Phylum"
+    ], "correct": 3,
     "explanation": "NCERT states: 'Classes comprising animals like fishes, amphibians, reptiles, birds along with mammals constitute the next higher category called Phylum.' Division is used for plants."
   },
   {
@@ -1931,12 +1841,11 @@ var allQuestions = [
     "topic": "Phylum",
     "q": "Fishes, amphibians, reptiles, birds and mammals are all included in phylum Chordata based on common features like:",
     "options": [
-      "Presence of vertebral column and lungs",
       "Presence of notochord and dorsal hollow neural system",
+      "Presence of vertebral column and lungs",
       "Presence of exoskeleton and jointed appendages",
       "Presence of mammary glands and hair"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "NCERT states: 'All these, based on the common features like presence of notochord and dorsal hollow neural system, are included in phylum Chordata.' Not vertebral column/lungs (not all chordates have these)."
   },
   {
@@ -1970,12 +1879,11 @@ var allQuestions = [
     "topic": "Phylum",
     "q": "Consider the following statements about Phylum Chordata:<br>(i) It includes fishes, amphibians, reptiles, birds and mammals<br>(ii) Common feature is presence of notochord<br>(iii) Common feature is dorsal hollow neural system<br>(iv) Common feature is presence of mammary glands",
     "options": [
-      "i, ii and iii only",
+      "ii and iii only",
       "i, ii, iii and iv",
       "i and iv only",
-      "ii and iii only"
-    ],
-    "correct": 0,
+      "i, ii and iii only"
+    ], "correct": 3,
     "explanation": "Statements i, ii and iii are correct per NCERT. Statement iv is INCORRECT — mammary glands are a feature of class Mammalia only, not of all chordates. Fishes, amphibians, reptiles and birds lack mammary glands."
   },
   {
@@ -1996,12 +1904,11 @@ var allQuestions = [
     "topic": "Kingdom",
     "q": "The highest category in the classification system of animals is:",
     "options": [
-      "Phylum",
-      "Class",
       "Kingdom Animalia",
+      "Class",
+      "Phylum",
       "Division"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "NCERT states: 'All animals belonging to various phyla are assigned to the highest category called Kingdom Animalia.' Kingdom is the highest (broadest) taxonomic category."
   },
   {
@@ -2036,11 +1943,10 @@ var allQuestions = [
     "q": "Lower the taxa:",
     "options": [
       "Fewer are the characteristics that members within the taxon share",
-      "More are the characteristics that the members within the taxon share",
+      "More complex is the classification",
       "Greater is the difficulty of determining relationships",
-      "More complex is the classification"
-    ],
-    "correct": 1,
+      "More are the characteristics that the members within the taxon share"
+    ], "correct": 3,
     "explanation": "NCERT states: 'Lower the taxa, more are the characteristics that the members within the taxon share.' Species (lowest) members share the most characters; Kingdom (highest) members share the fewest."
   },
   {
@@ -2048,12 +1954,11 @@ var allQuestions = [
     "topic": "Kingdom",
     "q": "Higher the category:",
     "options": [
-      "Easier is the determination of relationships to other taxa at the same level",
       "Greater is the difficulty of determining the relationship to other taxa at the same level",
+      "Easier is the determination of relationships to other taxa at the same level",
       "More are the common characteristics shared",
       "Simpler is the classification"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "NCERT states: 'Higher the category, greater is the difficulty of determining the relationship to other taxa at the same level. Hence, the problem of classification becomes more complex.'"
   },
   {
@@ -2075,11 +1980,10 @@ var allQuestions = [
     "q": "Consider the following statements:<br>(i) Species to Kingdom is the ascending order of taxonomic hierarchy<br>(ii) Common characteristics increase from species to kingdom<br>(iii) Problem of classification becomes more complex at higher categories<br>Which of the above is/are correct?",
     "options": [
       "i and ii only",
-      "i and iii only",
       "ii and iii only",
+      "i and iii only",
       "i, ii and iii"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "Statement i is correct — Species to Kingdom IS ascending order (NCERT exact). Statement ii is INCORRECT — common characteristics DECREASE from species to kingdom, not increase. Statement iii is correct (NCERT exact line)."
   },
   {
@@ -2101,11 +2005,10 @@ var allQuestions = [
     "q": "Which of the following represents the correct relationship?",
     "options": [
       "Family Felidae includes genus Panthera only",
-      "Family Felidae includes genus Panthera and genus Felis",
+      "Family Felidae includes genus Panthera and genus Canis",
       "Family Canidae includes genus Panthera and genus Felis",
-      "Family Felidae includes genus Panthera and genus Canis"
-    ],
-    "correct": 1,
+      "Family Felidae includes genus Panthera and genus Felis"
+    ], "correct": 3,
     "explanation": "NCERT states: 'Genus Panthera...is put along with genus, Felis (cats) in the family Felidae.' Both Panthera (big cats) and Felis (small cats) are in Felidae. Canidae is for dogs."
   },
   {
@@ -2113,12 +2016,11 @@ var allQuestions = [
     "topic": "Order",
     "q": "Which of the following pairs of families belongs to the order Carnivora?",
     "options": [
-      "Solanaceae and Convolvulaceae",
       "Felidae and Canidae",
+      "Solanaceae and Convolvulaceae",
       "Felidae and Hominidae",
       "Canidae and Solanaceae"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "NCERT states: 'The animal order, Carnivora, includes families like Felidae and Canidae.' Solanaceae and Convolvulaceae are plant families (order Polymoniales). Hominidae is not mentioned under Carnivora."
   },
   {
@@ -2126,12 +2028,11 @@ var allQuestions = [
     "topic": "Family, Order, Class - Integrated",
     "q": "Arrange the following in correct hierarchical ascending order:<br>Felidae → Carnivora → Mammalia → Chordata → Animalia",
     "options": [
-      "Family → Order → Class → Phylum → Kingdom",
       "Order → Family → Class → Phylum → Kingdom",
+      "Family → Order → Class → Phylum → Kingdom",
       "Family → Class → Order → Phylum → Kingdom",
       "Family → Order → Phylum → Class → Kingdom"
-    ],
-    "correct": 0,
+    ], "correct": 1,
     "explanation": "Felidae = Family, Carnivora = Order, Mammalia = Class, Chordata = Phylum, Animalia = Kingdom. The correct ascending hierarchy is: Family → Order → Class → Phylum → Kingdom."
   },
   {
@@ -2154,10 +2055,9 @@ var allQuestions = [
     "options": [
       "Tiger",
       "Cat",
-      "Dog",
-      "Gorilla"
-    ],
-    "correct": 3,
+      "Gorilla",
+      "Dog"
+    ], "correct": 2,
     "explanation": "NCERT says order Carnivora includes tiger, cat and dog. Gorilla belongs to order Primata (along with monkey and gibbon). This is a frequently asked NEET trap."
   },
   {
@@ -2204,12 +2104,11 @@ var allQuestions = [
     "topic": "Phylum",
     "q": "The two common features mentioned by NCERT that unite all chordates are:<br>(i) Presence of notochord<br>(ii) Dorsal hollow neural system<br>(iii) Presence of vertebral column<br>(iv) Bilateral symmetry",
     "options": [
-      "i and ii only",
+      "iii and iv only",
       "i, ii and iii",
       "i, ii, iii and iv",
-      "iii and iv only"
-    ],
-    "correct": 0,
+      "i and ii only"
+    ], "correct": 3,
     "explanation": "NCERT specifically mentions only two features: 'presence of notochord and dorsal hollow neural system.' Vertebral column and bilateral symmetry are NOT mentioned in this context. The question tests NCERT-specific knowledge."
   },
   {
@@ -2231,11 +2130,10 @@ var allQuestions = [
     "q": "How many genera of family Solanaceae are mentioned in NCERT?",
     "options": [
       "One",
-      "Two",
       "Three",
+      "Two",
       "Four"
-    ],
-    "correct": 2,
+    ], "correct": 1,
     "explanation": "NCERT mentions three genera under Solanaceae: Solanum, Petunia and Datura. Students sometimes forget Petunia or Datura."
   },
   {
@@ -2259,10 +2157,9 @@ var allQuestions = [
     "options": [
       "i, ii and iii only",
       "i, iv and v only",
-      "i, ii, iii, iv and v",
-      "iv and v only"
-    ],
-    "correct": 2,
+      "iv and v only",
+      "i, ii, iii, iv and v"
+    ], "correct": 3,
     "explanation": "NCERT states: 'The very range of organisms in terms of size, colour, habitat, physiological and morphological features make us seek the defining characteristics of living organisms.' All five are mentioned."
   },
   {
@@ -2270,12 +2167,11 @@ var allQuestions = [
     "topic": "Summary & Table 1.1",
     "q": "The taxonomic studies of various species of plants and animals are useful in:<br>(i) Agriculture<br>(ii) Forestry<br>(iii) Industry<br>(iv) Knowing bio-resources and their diversity",
     "options": [
-      "i, ii and iii only",
-      "i and iv only",
       "i, ii, iii and iv",
+      "i and iv only",
+      "i, ii and iii only",
       "i and ii only"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "NCERT states: 'The taxonomic studies of various species of plants and animals are useful in agriculture, forestry, industry and in general for knowing our bio-resources and their diversity.' All four are correct."
   },
   {
@@ -2298,10 +2194,9 @@ var allQuestions = [
     "options": [
       "Only resemblances among organisms",
       "Only distinct differences among organisms",
-      "Resemblances and distinct differences",
-      "Habitat and geographical distribution"
-    ],
-    "correct": 2,
+      "Habitat and geographical distribution",
+      "Resemblances and distinct differences"
+    ], "correct": 3,
     "explanation": "NCERT states: 'Based on the resemblances and distinct differences, each organism is identified and assigned a correct scientific/biological name.' Both similarities AND differences are considered."
   },
   {
@@ -2309,12 +2204,11 @@ var allQuestions = [
     "topic": "Summary & Table 1.1",
     "q": "An organism represents/occupies a _____ in the system of classification.",
     "options": [
-      "Random position",
       "Place or position",
+      "Random position",
       "Temporary slot",
       "Variable rank"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "NCERT states: 'An organism represents/occupies a place or position in the system of classification.' Each organism has a definite position in the hierarchy."
   },
   {
@@ -2337,10 +2231,9 @@ var allQuestions = [
     "options": [
       "Triticum indica",
       "Poaceae aestivum",
-      "Triticum aestivum",
-      "Oryza aestivum"
-    ],
-    "correct": 2,
+      "Oryza aestivum",
+      "Triticum aestivum"
+    ], "correct": 3,
     "explanation": "From Table 1.1: Wheat = Triticum aestivum. Triticum is the genus, aestivum is the specific epithet. Poaceae is the family. Oryza is the genus for rice."
   },
   {
@@ -2348,12 +2241,11 @@ var allQuestions = [
     "topic": "Summary & Table 1.1",
     "q": "The family of mango (<i>Mangifera indica</i>) is:",
     "options": [
-      "Solanaceae",
-      "Poaceae",
       "Anacardiaceae",
+      "Poaceae",
+      "Solanaceae",
       "Muscidae"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "From Table 1.1: Mango belongs to family Anacardiaceae. This is a very common NEET trap — students often confuse it with Solanaceae (which includes Solanum, Petunia, Datura)."
   },
   {
@@ -2362,11 +2254,10 @@ var allQuestions = [
     "q": "The order to which mango belongs is:",
     "options": [
       "Polymoniales",
-      "Poales",
       "Sapindales",
+      "Poales",
       "Primata"
-    ],
-    "correct": 2,
+    ], "correct": 1,
     "explanation": "From Table 1.1: Mango → Order Sapindales. Polymoniales includes Solanaceae and Convolvulaceae. Poales is for wheat. Primata is an animal order."
   },
   {
@@ -2375,11 +2266,10 @@ var allQuestions = [
     "q": "Mango belongs to class:",
     "options": [
       "Monocotyledonae",
-      "Dicotyledonae",
+      "Insecta",
       "Mammalia",
-      "Insecta"
-    ],
-    "correct": 1,
+      "Dicotyledonae"
+    ], "correct": 3,
     "explanation": "From Table 1.1: Mango → Class Dicotyledonae. Wheat belongs to Monocotyledonae. Mammalia and Insecta are animal classes."
   },
   {
@@ -2387,12 +2277,11 @@ var allQuestions = [
     "topic": "Summary & Table 1.1",
     "q": "Wheat belongs to class:",
     "options": [
-      "Dicotyledonae",
       "Monocotyledonae",
+      "Dicotyledonae",
       "Insecta",
       "Mammalia"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "From Table 1.1: Wheat → Class Monocotyledonae. Mango is Dicotyledonae. This distinction is extremely important for NEET."
   },
   {
@@ -2401,11 +2290,10 @@ var allQuestions = [
     "q": "Both mango and wheat belong to the same:",
     "options": [
       "Class",
-      "Order",
+      "Division/Phylum",
       "Family",
-      "Division/Phylum"
-    ],
-    "correct": 3,
+      "Order"
+    ], "correct": 1,
     "explanation": "From Table 1.1: Mango = Angiospermae, Wheat = Angiospermae. Both share the same Division (Angiospermae) but differ in Class (Dicotyledonae vs Monocotyledonae), Order (Sapindales vs Poales) and Family (Anacardiaceae vs Poaceae)."
   },
   {
@@ -2426,12 +2314,11 @@ var allQuestions = [
     "topic": "Summary & Table 1.1",
     "q": "The order of wheat is:",
     "options": [
-      "Sapindales",
+      "Poales",
       "Primata",
       "Diptera",
-      "Poales"
-    ],
-    "correct": 3,
+      "Sapindales"
+    ], "correct": 0,
     "explanation": "From Table 1.1: Wheat → Order Poales. Sapindales is for mango, Primata is for man, Diptera is for housefly."
   },
   {
@@ -2440,11 +2327,10 @@ var allQuestions = [
     "q": "The family of man (<i>Homo sapiens</i>) is:",
     "options": [
       "Muscidae",
-      "Felidae",
       "Hominidae",
+      "Felidae",
       "Canidae"
-    ],
-    "correct": 2,
+    ], "correct": 1,
     "explanation": "From Table 1.1: Man → Family Hominidae. Muscidae is for housefly, Felidae is for cats/big cats, Canidae is for dogs."
   },
   {
@@ -2453,11 +2339,10 @@ var allQuestions = [
     "q": "Housefly belongs to the order:",
     "options": [
       "Primata",
-      "Diptera",
+      "Poales",
       "Carnivora",
-      "Poales"
-    ],
-    "correct": 1,
+      "Diptera"
+    ], "correct": 3,
     "explanation": "From Table 1.1: Housefly → Order Diptera. Diptera means 'two wings' — houseflies have one pair of functional wings. Primata is for primates, Carnivora for carnivores."
   },
   {
@@ -2465,12 +2350,11 @@ var allQuestions = [
     "topic": "Summary & Table 1.1",
     "q": "Housefly belongs to class:",
     "options": [
-      "Mammalia",
-      "Dicotyledonae",
       "Insecta",
+      "Dicotyledonae",
+      "Mammalia",
       "Monocotyledonae"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "From Table 1.1: Housefly → Class Insecta. Mammalia is for mammals (man). Dicotyledonae and Monocotyledonae are plant classes."
   },
   {
@@ -2479,11 +2363,10 @@ var allQuestions = [
     "q": "Housefly belongs to phylum:",
     "options": [
       "Chordata",
-      "Angiospermae",
       "Arthropoda",
+      "Angiospermae",
       "Mollusca"
-    ],
-    "correct": 2,
+    ], "correct": 1,
     "explanation": "From Table 1.1: Housefly → Phylum Arthropoda. Chordata is for man. Angiospermae is a plant division for mango and wheat."
   },
   {
@@ -2491,12 +2374,11 @@ var allQuestions = [
     "topic": "Summary & Table 1.1",
     "q": "Match the organisms with their correct families:<br>(i) Man - (a) Poaceae<br>(ii) Housefly - (b) Anacardiaceae<br>(iii) Mango - (c) Hominidae<br>(iv) Wheat - (d) Muscidae",
     "options": [
-      "i-c, ii-d, iii-b, iv-a",
+      "i-a, ii-d, iii-c, iv-b",
       "i-d, ii-c, iii-a, iv-b",
       "i-c, ii-b, iii-d, iv-a",
-      "i-a, ii-d, iii-c, iv-b"
-    ],
-    "correct": 0,
+      "i-c, ii-d, iii-b, iv-a"
+    ], "correct": 3,
     "explanation": "Man → Hominidae (c), Housefly → Muscidae (d), Mango → Anacardiaceae (b), Wheat → Poaceae (a). All from Table 1.1."
   },
   {
@@ -2504,12 +2386,11 @@ var allQuestions = [
     "topic": "Summary & Table 1.1",
     "q": "Match the organisms with their correct orders:<br>(i) Man - (a) Diptera<br>(ii) Housefly - (b) Poales<br>(iii) Mango - (c) Primata<br>(iv) Wheat - (d) Sapindales",
     "options": [
-      "i-c, ii-a, iii-b, iv-d",
-      "i-a, ii-c, iii-d, iv-b",
       "i-c, ii-a, iii-d, iv-b",
+      "i-a, ii-c, iii-d, iv-b",
+      "i-c, ii-a, iii-b, iv-d",
       "i-d, ii-a, iii-c, iv-b"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "Man → Primata (c), Housefly → Diptera (a), Mango → Sapindales (d), Wheat → Poales (b). All directly from Table 1.1."
   },
   {
@@ -2531,11 +2412,10 @@ var allQuestions = [
     "q": "Which two organisms from Table 1.1 share the same phylum/division?",
     "options": [
       "Man and Housefly",
-      "Mango and Wheat",
+      "Housefly and Wheat",
       "Man and Mango",
-      "Housefly and Wheat"
-    ],
-    "correct": 1,
+      "Mango and Wheat"
+    ], "correct": 3,
     "explanation": "Mango and Wheat both belong to Division Angiospermae. Man = Chordata, Housefly = Arthropoda. No animal-plant pair shares the same phylum/division."
   },
   {
@@ -2543,12 +2423,11 @@ var allQuestions = [
     "topic": "Summary & Table 1.1",
     "q": "Which of the following organisms belongs to phylum Chordata?",
     "options": [
-      "Housefly",
+      "Man",
       "Mango",
       "Wheat",
-      "Man"
-    ],
-    "correct": 3,
+      "Housefly"
+    ], "correct": 0,
     "explanation": "From Table 1.1: Only Man (Homo sapiens) belongs to Phylum Chordata. Housefly = Arthropoda. Mango and Wheat = Angiospermae (Division, not Phylum)."
   },
   {
@@ -2571,10 +2450,9 @@ var allQuestions = [
     "options": [
       "Man – Hominidae – Primata",
       "Housefly – Muscidae – Diptera",
-      "Mango – Anacardiaceae – Poales",
-      "Wheat – Poaceae – Poales"
-    ],
-    "correct": 2,
+      "Wheat – Poaceae – Poales",
+      "Mango – Anacardiaceae – Poales"
+    ], "correct": 3,
     "explanation": "Mango belongs to family Anacardiaceae but order Sapindales (NOT Poales). Poales is the order for Wheat. This is a very common NEET trap — confusing orders of mango and wheat."
   },
   {
@@ -2582,12 +2460,11 @@ var allQuestions = [
     "topic": "Summary & Table 1.1",
     "q": "The genus name of housefly is the same as its:",
     "options": [
-      "Family name",
+      "None of the above — genus and common name differ",
       "Specific epithet",
       "Common name",
-      "None of the above — genus and common name differ"
-    ],
-    "correct": 3,
+      "Family name"
+    ], "correct": 0,
     "explanation": "The genus of housefly is Musca, while its common name is Housefly, specific epithet is domestica, and family is Muscidae. None of these match — genus (Musca) is distinct from common name (Housefly)."
   },
   {
@@ -2610,10 +2487,9 @@ var allQuestions = [
     "options": [
       "Man",
       "Housefly",
-      "Mango",
-      "Wheat"
-    ],
-    "correct": 2,
+      "Wheat",
+      "Mango"
+    ], "correct": 3,
     "explanation": "From Table 1.1: Only Mango (Mangifera indica) belongs to order Sapindales. Man = Primata, Housefly = Diptera, Wheat = Poales."
   },
   {
@@ -2621,12 +2497,11 @@ var allQuestions = [
     "topic": "Summary & Table 1.1",
     "q": "The genus and specific epithet of wheat are:",
     "options": [
-      "Poaceae and aestivum",
-      "Triticum and Poaceae",
       "Triticum and aestivum",
+      "Triticum and Poaceae",
+      "Poaceae and aestivum",
       "Poales and Triticum"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "From Table 1.1: Wheat = Triticum aestivum. Triticum = genus, aestivum = specific epithet. Poaceae is the family, Poales is the order."
   },
   {
@@ -2634,12 +2509,11 @@ var allQuestions = [
     "topic": "Summary & Table 1.1",
     "q": "Select the organism whose genus name is the same as the first part of its biological name:",
     "options": [
-      "All four organisms in Table 1.1",
       "Only Man and Mango",
+      "All four organisms in Table 1.1",
       "Only Housefly and Wheat",
       "None of the organisms"
-    ],
-    "correct": 0,
+    ], "correct": 1,
     "explanation": "In binomial nomenclature, the first word IS always the genus name. So for ALL organisms: Homo (Man), Musca (Housefly), Mangifera (Mango), Triticum (Wheat) — the genus = first part of biological name."
   },
   {
@@ -2687,11 +2561,10 @@ var allQuestions = [
     "q": "How many organisms in Table 1.1 belong to Division Angiospermae?",
     "options": [
       "One",
-      "Two",
+      "Four",
       "Three",
-      "Four"
-    ],
-    "correct": 1,
+      "Two"
+    ], "correct": 3,
     "explanation": "Two organisms — Mango (Mangifera indica) and Wheat (Triticum aestivum) — both belong to Division Angiospermae. Man and Housefly are animals and belong to phyla (Chordata and Arthropoda respectively)."
   },
   {
@@ -2738,12 +2611,11 @@ var allQuestions = [
     "topic": "Summary & Table 1.1",
     "q": "Which of the following represents the complete classification of Wheat in correct descending order?",
     "options": [
-      "Angiospermae → Monocotyledonae → Poales → Poaceae → Triticum → aestivum",
       "Angiospermae → Dicotyledonae → Poales → Poaceae → Triticum → aestivum",
+      "Angiospermae → Monocotyledonae → Poales → Poaceae → Triticum → aestivum",
       "Angiospermae → Monocotyledonae → Poaceae → Poales → Triticum → aestivum",
       "Angiospermae → Monocotyledonae → Sapindales → Poaceae → Triticum → aestivum"
-    ],
-    "correct": 0,
+    ], "correct": 1,
     "explanation": "Correct order: Division Angiospermae → Class Monocotyledonae → Order Poales → Family Poaceae → Genus Triticum → Species aestivum. B has wrong class, C reverses order/family, D has wrong order."
   },
   {
@@ -2753,10 +2625,9 @@ var allQuestions = [
     "options": [
       "Angiospermae → Dicotyledonae → Sapindales → Solanaceae → Mangifera → indica",
       "Angiospermae → Monocotyledonae → Sapindales → Anacardiaceae → Mangifera → indica",
-      "Angiospermae → Dicotyledonae → Sapindales → Anacardiaceae → Mangifera → indica",
-      "Angiospermae → Dicotyledonae → Polymoniales → Anacardiaceae → Mangifera → indica"
-    ],
-    "correct": 2,
+      "Angiospermae → Dicotyledonae → Polymoniales → Anacardiaceae → Mangifera → indica",
+      "Angiospermae → Dicotyledonae → Sapindales → Anacardiaceae → Mangifera → indica"
+    ], "correct": 3,
     "explanation": "Correct: Angiospermae → Dicotyledonae → Sapindales → Anacardiaceae → Mangifera → indica. A has wrong family (Solanaceae). B has wrong class (Monocotyledonae). D has wrong order (Polymoniales)."
   },
   {
@@ -2765,11 +2636,10 @@ var allQuestions = [
     "q": "Consider the following pairs:<br>(A) Man – Arthropoda<br>(B) Housefly – Chordata<br>(C) Mango – Angiospermae<br>(D) Wheat – Angiospermae<br>Which pairs are <b>correctly</b> matched?",
     "options": [
       "A and B only",
-      "C and D only",
+      "B and C only",
       "A, B, C and D",
-      "B and C only"
-    ],
-    "correct": 1,
+      "C and D only"
+    ], "correct": 3,
     "explanation": "A is INCORRECT (Man = Chordata, not Arthropoda). B is INCORRECT (Housefly = Arthropoda, not Chordata). C is correct (Mango = Angiospermae). D is correct (Wheat = Angiospermae). Only C and D."
   },
   {
@@ -2779,10 +2649,9 @@ var allQuestions = [
     "options": [
       "Man – Hominidae",
       "Housefly – Muscidae",
-      "Mango – Poaceae",
-      "Wheat – Poaceae"
-    ],
-    "correct": 2,
+      "Wheat – Poaceae",
+      "Mango – Poaceae"
+    ], "correct": 3,
     "explanation": "Mango belongs to family Anacardiaceae, NOT Poaceae. Poaceae is the family of Wheat. Man → Hominidae and Housefly → Muscidae are correct. This is a high-frequency NEET trap."
   },
   {
@@ -2804,11 +2673,10 @@ var allQuestions = [
     "q": "Which two organisms from Table 1.1 belong to the same kingdom but different phyla/divisions?",
     "options": [
       "Man and Mango",
-      "Man and Housefly",
+      "Housefly and Wheat",
       "Mango and Wheat",
-      "Housefly and Wheat"
-    ],
-    "correct": 1,
+      "Man and Housefly"
+    ], "correct": 3,
     "explanation": "Man (Chordata) and Housefly (Arthropoda) — both belong to Kingdom Animalia but different phyla. Mango and Wheat share the same division (Angiospermae). Man-Mango and Housefly-Wheat are from different kingdoms entirely."
   },
   {
@@ -2817,11 +2685,10 @@ var allQuestions = [
     "q": "In Table 1.1, the lowest taxonomic category at which Mango and Wheat differ is:",
     "options": [
       "Division",
-      "Class",
+      "Family",
       "Order",
-      "Family"
-    ],
-    "correct": 1,
+      "Class"
+    ], "correct": 3,
     "explanation": "Both share the same Division (Angiospermae) but differ at Class level — Mango = Dicotyledonae, Wheat = Monocotyledonae. Since Class is a lower level than Division, they first differ at Class."
   },
   {
@@ -2831,10 +2698,9 @@ var allQuestions = [
     "options": [
       "Phylum",
       "Class",
-      "Kingdom",
-      "Order"
-    ],
-    "correct": 2,
+      "Order",
+      "Kingdom"
+    ], "correct": 3,
     "explanation": "Man and Housefly both belong to Kingdom Animalia. They differ at every level below that: Phylum (Chordata vs Arthropoda), Class (Mammalia vs Insecta), Order (Primata vs Diptera), etc."
   },
   {
@@ -2856,11 +2722,10 @@ var allQuestions = [
     "q": "A student claims that Wheat belongs to family Anacardiaceae. This statement is:",
     "options": [
       "Correct, as Wheat is an angiosperm",
-      "Incorrect, Wheat belongs to family Poaceae",
+      "Incorrect, Wheat belongs to family Muscidae",
       "Correct, as Wheat and Mango are both flowering plants",
-      "Incorrect, Wheat belongs to family Muscidae"
-    ],
-    "correct": 1,
+      "Incorrect, Wheat belongs to family Poaceae"
+    ], "correct": 3,
     "explanation": "Wheat belongs to family Poaceae (grass family), NOT Anacardiaceae. Anacardiaceae is the family of Mango. Muscidae is an animal family (housefly). Being an angiosperm doesn't determine family."
   },
   {
@@ -2868,12 +2733,11 @@ var allQuestions = [
     "topic": "Summary & Table 1.1",
     "q": "Consider the following about the organisms in Table 1.1:<br>(i) Man and Housefly both belong to Kingdom Animalia<br>(ii) Mango and Wheat both belong to Kingdom Plantae<br>(iii) All four organisms share the same Kingdom<br>Which of the above is/are correct?",
     "options": [
-      "i and ii only",
+      "i, ii and iii",
       "iii only",
       "i only",
-      "i, ii and iii"
-    ],
-    "correct": 0,
+      "i and ii only"
+    ], "correct": 3,
     "explanation": "i is correct — Man and Housefly are animals. ii is correct — Mango and Wheat are plants. iii is INCORRECT — animals and plants belong to DIFFERENT kingdoms (Animalia vs Plantae). They do NOT all share the same kingdom."
   },
   {
@@ -2896,10 +2760,9 @@ var allQuestions = [
     "options": [
       "Systematics",
       "Morphology",
-      "Taxonomy",
-      "Ecology"
-    ],
-    "correct": 2,
+      "Ecology",
+      "Taxonomy"
+    ], "correct": 3,
     "explanation": "NCERT Summary states: 'The branch of knowledge dealing with these aspects is referred to as taxonomy.' While systematics is related, the summary specifically uses 'taxonomy' for identification, nomenclature and classification."
   }
 ];

@@ -1,15 +1,14 @@
-var allQuestions = [
+﻿var allQuestions = [
   {
     id: 1,
     topic: "Introduction – Plant Kingdom",
     q: "Which of the following is <b>not</b> included under Kingdom Plantae in the modern classification?",
     options: [
-      "Bryophytes",
       "Cyanobacteria",
+      "Bryophytes",
       "Pteridophytes",
       "Gymnosperms"
-    ],
-    correct: 1,
+    ], correct: 0,
     explanation: "Cyanobacteria (blue-green algae) belong to Kingdom Monera and have been excluded from Plantae. Despite the name 'algae,' they are prokaryotic and not true plants."
   },
   {
@@ -18,11 +17,10 @@ var allQuestions = [
     q: "The Five Kingdom classification was proposed by:",
     options: [
       "Bentham and Hooker",
-      "Linnaeus",
       "Whittaker",
+      "Linnaeus",
       "Engler and Prantl"
-    ],
-    correct: 2,
+    ], correct: 1,
     explanation: "R.H. Whittaker (1969) proposed the Five Kingdom classification — Monera, Protista, Fungi, Animalia and Plantae."
   },
   {
@@ -30,12 +28,11 @@ var allQuestions = [
     topic: "Introduction – Plant Kingdom",
     q: "Which of the following groups were earlier placed under Plantae but are now <b>excluded</b>?<br>(i) Fungi<br>(ii) Monera with cell walls<br>(iii) Protista with cell walls<br>(iv) Gymnosperms",
     options: [
-      "(i), (ii) and (iii) only",
-      "(i) and (iv) only",
       "(ii) and (iii) only",
+      "(i) and (iv) only",
+      "(i), (ii) and (iii) only",
       "(i), (ii), (iii) and (iv)"
-    ],
-    correct: 0,
+    ], correct: 2,
     explanation: "Fungi, cell-walled members of Monera (e.g., cyanobacteria) and cell-walled Protista were earlier placed in Plantae but are now excluded. Gymnosperms remain in Plantae."
   },
   {
@@ -56,12 +53,11 @@ var allQuestions = [
     topic: "Introduction – Plant Kingdom",
     q: "The classification system given by Linnaeus was based primarily on:",
     options: [
-      "Evolutionary relationships",
       "Androecium structure",
+      "Evolutionary relationships",
       "Phytochemistry",
       "Embryological features"
-    ],
-    correct: 1,
+    ], correct: 0,
     explanation: "Linnaeus's system of classification was based on the androecium structure (stamens). It is considered an artificial system."
   },
   {
@@ -83,11 +79,10 @@ var allQuestions = [
     q: "Natural classification of flowering plants was given by:",
     options: [
       "Linnaeus",
-      "Whittaker",
       "George Bentham and Joseph Dalton Hooker",
+      "Whittaker",
       "Engler and Prantl"
-    ],
-    correct: 2,
+    ], correct: 1,
     explanation: "George Bentham and Joseph Dalton Hooker gave a natural classification system for flowering plants based on natural affinities."
   },
   {
@@ -95,12 +90,11 @@ var allQuestions = [
     topic: "Introduction – Plant Kingdom",
     q: "Which of the following features are considered in <b>natural classification</b> but <b>not</b> in artificial classification?<br>(i) Ultrastructure<br>(ii) Anatomy<br>(iii) Embryology<br>(iv) Phytochemistry<br>(v) Habit and colour",
     options: [
-      "(i), (ii), (iii) and (iv)",
-      "(i), (ii), (iii), (iv) and (v)",
       "(v) only",
+      "(i), (ii), (iii), (iv) and (v)",
+      "(i), (ii), (iii) and (iv)",
       "(i) and (ii) only"
-    ],
-    correct: 0,
+    ], correct: 2,
     explanation: "Natural classification considers internal features like ultrastructure, anatomy, embryology and phytochemistry. Habit and colour are superficial characters used in artificial systems."
   },
   {
@@ -110,10 +104,9 @@ var allQuestions = [
     options: [
       "Gross morphological characters",
       "Vegetative characters only",
-      "Evolutionary relationships",
-      "Chemical constituents of the plant"
-    ],
-    correct: 2,
+      "Chemical constituents of the plant",
+      "Evolutionary relationships"
+    ], correct: 3,
     explanation: "Phylogenetic classification systems are based on evolutionary relationships between organisms and assume that members of the same taxa share a common ancestor."
   },
   {
@@ -121,12 +114,11 @@ var allQuestions = [
     topic: "Introduction – Plant Kingdom",
     q: "In phylogenetic classification, organisms belonging to the same taxa are assumed to have:",
     options: [
-      "Similar habitat",
       "A common ancestor",
+      "Similar habitat",
       "Same chromosome number",
       "Identical chemical composition"
-    ],
-    correct: 1,
+    ], correct: 0,
     explanation: "Phylogenetic classification assumes a common ancestor for organisms placed in the same taxon, reflecting evolutionary descent."
   },
   {
@@ -147,12 +139,11 @@ var allQuestions = [
     topic: "Introduction – Plant Kingdom",
     q: "Which of the following statements about <b>Numerical Taxonomy</b> is/are correct?<br>(i) Each character is given equal importance<br>(ii) Hundreds of characters can be considered simultaneously<br>(iii) It is easily carried out using computers<br>(iv) It gives more weightage to reproductive characters",
     options: [
-      "(i), (ii) and (iii) only",
-      "(i) and (iii) only",
       "(i), (ii), (iii) and (iv)",
+      "(i) and (iii) only",
+      "(i), (ii) and (iii) only",
       "(iv) only"
-    ],
-    correct: 0,
+    ], correct: 2,
     explanation: "In numerical taxonomy, every character is given equal importance, hundreds of characters can be considered, and computation is done by computers. Statement (iv) is wrong — no extra weightage is given to reproductive characters."
   },
   {
@@ -161,11 +152,10 @@ var allQuestions = [
     q: "Cytotaxonomy is based on:",
     options: [
       "Chemical constituents of the plant",
-      "Chromosome number, structure and behaviour",
+      "Anatomical features only",
       "Fossil records",
-      "Anatomical features only"
-    ],
-    correct: 1,
+      "Chromosome number, structure and behaviour"
+    ], correct: 3,
     explanation: "Cytotaxonomy uses cytological information such as chromosome number, structure and behaviour for classification."
   },
   {
@@ -173,12 +163,11 @@ var allQuestions = [
     topic: "Introduction – Plant Kingdom",
     q: "Chemotaxonomy utilises which of the following for resolving taxonomic confusions?",
     options: [
-      "Cytological information",
-      "Evolutionary relationships",
       "Chemical constituents of the plant",
+      "Evolutionary relationships",
+      "Cytological information",
       "Morphological features"
-    ],
-    correct: 2,
+    ], correct: 0,
     explanation: "Chemotaxonomy uses chemical constituents of plants to help resolve taxonomic confusions."
   },
   {
@@ -200,11 +189,10 @@ var allQuestions = [
     q: "Which of the following is the correct sequence of classification systems from earliest to most recent?",
     options: [
       "Natural → Artificial → Phylogenetic",
-      "Phylogenetic → Artificial → Natural",
       "Artificial → Natural → Phylogenetic",
+      "Phylogenetic → Artificial → Natural",
       "Natural → Phylogenetic → Artificial"
-    ],
-    correct: 2,
+    ], correct: 1,
     explanation: "The earliest were artificial systems (e.g., Linnaeus), followed by natural systems (e.g., Bentham & Hooker), and presently phylogenetic classification systems are accepted."
   },
   {
@@ -213,11 +201,10 @@ var allQuestions = [
     q: "Consider the following statements:<br>(i) Linnaeus's classification is an example of a natural system.<br>(ii) Bentham and Hooker's classification is a natural system.<br>(iii) Phylogenetic systems consider evolutionary relationships.<br>Which of the above statements is/are correct?",
     options: [
       "(i) and (ii) only",
-      "(ii) and (iii) only",
       "(i) only",
+      "(ii) and (iii) only",
       "(i), (ii) and (iii)"
-    ],
-    correct: 1,
+    ], correct: 2,
     explanation: "Linnaeus's system is artificial (based on androecium), not natural. Bentham and Hooker gave a natural classification. Phylogenetic systems are based on evolutionary relationships. So (ii) and (iii) are correct."
   },
   {
@@ -238,12 +225,11 @@ var allQuestions = [
     topic: "Introduction – Plant Kingdom",
     q: "Which of the following is <b>not</b> a major group described under Kingdom Plantae in this chapter?",
     options: [
-      "Algae",
       "Fungi",
+      "Algae",
       "Bryophytes",
       "Angiosperms"
-    ],
-    correct: 1,
+    ], correct: 0,
     explanation: "Fungi have been excluded from Kingdom Plantae. The chapter describes Algae, Bryophytes, Pteridophytes, Gymnosperms and Angiosperms under Plantae."
   },
   {
@@ -251,12 +237,11 @@ var allQuestions = [
     topic: "Introduction – Plant Kingdom",
     q: "Match the following:<br>(a) Numerical Taxonomy → (i) Chemical constituents<br>(b) Cytotaxonomy → (ii) All observable characters with computer processing<br>(c) Chemotaxonomy → (iii) Chromosome number, structure, behaviour",
     options: [
-      "a-(ii), b-(iii), c-(i)",
       "a-(i), b-(ii), c-(iii)",
+      "a-(ii), b-(iii), c-(i)",
       "a-(iii), b-(i), c-(ii)",
       "a-(ii), b-(i), c-(iii)"
-    ],
-    correct: 0,
+    ], correct: 1,
     explanation: "Numerical taxonomy uses all observable characters processed by computers (ii). Cytotaxonomy is based on chromosomal information (iii). Chemotaxonomy uses chemical constituents (i)."
   },
   {
@@ -277,12 +262,11 @@ var allQuestions = [
     topic: "Introduction – Plant Kingdom",
     q: "The earliest systems of classification used:<br>(i) Habit<br>(ii) Colour<br>(iii) Number and shape of leaves<br>(iv) Embryological features",
     options: [
-      "(i), (ii) and (iii) only",
-      "(i), (ii), (iii) and (iv)",
       "(iv) only",
+      "(i), (ii), (iii) and (iv)",
+      "(i), (ii) and (iii) only",
       "(i) and (iii) only"
-    ],
-    correct: 0,
+    ], correct: 2,
     explanation: "The earliest (artificial) systems used gross superficial morphological characters such as habit, colour, number and shape of leaves. Embryological features were used in natural systems, not artificial ones."
   },
   {
@@ -291,11 +275,10 @@ var allQuestions = [
     q: "Which of the following taxonomic tools becomes especially important when there is <b>no supporting fossil evidence</b>?",
     options: [
       "Only morphological classification",
-      "Numerical taxonomy, cytotaxonomy and chemotaxonomy",
+      "Only the Linnaeus system",
       "Artificial classification systems",
-      "Only the Linnaeus system"
-    ],
-    correct: 1,
+      "Numerical taxonomy, cytotaxonomy and chemotaxonomy"
+    ], correct: 3,
     explanation: "When fossil evidence is unavailable, alternative sources like numerical taxonomy, cytotaxonomy and chemotaxonomy help resolve classification difficulties."
   },
   {
@@ -303,12 +286,11 @@ var allQuestions = [
     topic: "Introduction – Plant Kingdom",
     q: "In which year was the Five Kingdom classification proposed?",
     options: [
-      "1959",
       "1969",
+      "1959",
       "1979",
       "1989"
-    ],
-    correct: 1,
+    ], correct: 0,
     explanation: "Whittaker proposed the Five Kingdom classification in 1969."
   },
   {
@@ -343,11 +325,10 @@ var allQuestions = [
     q: "Consider the following:<br>Statement I: Blue-green algae are true algae belonging to Kingdom Plantae.<br>Statement II: Fungi were earlier classified under Plantae but are now excluded.<br>Which of the above is correct?",
     options: [
       "Only Statement I",
-      "Only Statement II",
+      "Neither Statement I nor Statement II",
       "Both Statement I and Statement II",
-      "Neither Statement I nor Statement II"
-    ],
-    correct: 1,
+      "Only Statement II"
+    ], correct: 3,
     explanation: "Blue-green algae (cyanobacteria) are prokaryotes belonging to Monera, not true algae — so Statement I is wrong. Fungi were indeed earlier placed in Plantae but now excluded — Statement II is correct."
   },
   {
@@ -355,12 +336,11 @@ var allQuestions = [
     topic: "Introduction – Plant Kingdom",
     q: "Which of the following is <b>not</b> a feature used in natural classification?",
     options: [
-      "Embryology",
+      "Only habit and colour",
       "Ultrastructure",
       "Phytochemistry",
-      "Only habit and colour"
-    ],
-    correct: 3,
+      "Embryology"
+    ], correct: 0,
     explanation: "Only habit and colour are superficial features used in artificial classification. Natural classification uses embryology, ultrastructure, anatomy and phytochemistry."
   },
   {
@@ -382,11 +362,10 @@ var allQuestions = [
     q: "Which of the following classification system is <b>presently acceptable</b>?",
     options: [
       "Artificial classification",
-      "Natural classification",
       "Phylogenetic classification",
+      "Natural classification",
       "Classification by Linnaeus"
-    ],
-    correct: 2,
+    ], correct: 1,
     explanation: "At present, phylogenetic classification systems based on evolutionary relationships are considered the most acceptable."
   },
   {
@@ -408,11 +387,10 @@ var allQuestions = [
     q: "Which one of the following groups is <b>correctly</b> described under Kingdom Plantae in modern classification?",
     options: [
       "Algae, Bryophytes, Fungi, Gymnosperms, Angiosperms",
-      "Algae, Bryophytes, Pteridophytes, Gymnosperms, Angiosperms",
+      "Algae, Bryophytes, Pteridophytes, Fungi, Angiosperms",
       "Cyanobacteria, Bryophytes, Pteridophytes, Gymnosperms, Angiosperms",
-      "Algae, Bryophytes, Pteridophytes, Fungi, Angiosperms"
-    ],
-    correct: 1,
+      "Algae, Bryophytes, Pteridophytes, Gymnosperms, Angiosperms"
+    ], correct: 3,
     explanation: "Under Kingdom Plantae, the groups described are Algae, Bryophytes, Pteridophytes, Gymnosperms and Angiosperms. Fungi and Cyanobacteria are excluded."
   },
   {
@@ -420,12 +398,11 @@ var allQuestions = [
     topic: "Introduction – Plant Kingdom",
     q: "Which of the following characters is most <b>unreliable</b> for classification because it is easily affected by environment?",
     options: [
-      "Reproductive characters",
       "Vegetative characters",
+      "Reproductive characters",
       "Chromosomal characters",
       "Chemical constituents"
-    ],
-    correct: 1,
+    ], correct: 0,
     explanation: "Vegetative characters (habit, leaf shape, colour, etc.) are more easily influenced by environmental factors, making them unreliable for classification compared to reproductive characters."
   },
   {
@@ -434,11 +411,10 @@ var allQuestions = [
     q: "The natural classification system for flowering plants given by Bentham and Hooker considered:<br>(i) External features<br>(ii) Internal features<br>(iii) Ultrastructure<br>(iv) Anatomy<br>(v) Embryology<br>(vi) Phytochemistry",
     options: [
       "(i) only",
-      "(i) and (ii) only",
       "(i), (ii), (iii), (iv), (v) and (vi)",
+      "(i) and (ii) only",
       "(iii), (iv), (v) and (vi) only"
-    ],
-    correct: 2,
+    ], correct: 1,
     explanation: "Natural classification systems consider not only external features but also internal features including ultrastructure, anatomy, embryology and phytochemistry — all six are considered."
   },
   {
@@ -474,10 +450,9 @@ var allQuestions = [
     options: [
       "Lichen – association with animals",
       "Algae on sloth bear – association with fungi",
-      "Lichen – association with fungi",
-      "Algae on moist stones – association with animals"
-    ],
-    correct: 2,
+      "Algae on moist stones – association with animals",
+      "Lichen – association with fungi"
+    ], correct: 3,
     explanation: "Lichens represent an association between algae and fungi. Algae also occur on animals like the sloth bear, but lichen is specifically an algae-fungi association."
   },
   {
@@ -499,11 +474,10 @@ var allQuestions = [
     q: "The most common type of asexual spore produced by algae is:",
     options: [
       "Aplanospore",
-      "Hypnospore",
       "Zoospore",
+      "Hypnospore",
       "Autospore"
-    ],
-    correct: 2,
+    ], correct: 1,
     explanation: "The most common asexual spores in algae are zoospores, which are flagellated (motile) and on germination give rise to new plants."
   },
   {
@@ -512,11 +486,10 @@ var allQuestions = [
     q: "In <b>Spirogyra</b>, sexual reproduction involves fusion of gametes that are:",
     options: [
       "Flagellated and similar in size",
-      "Non-flagellated and similar in size",
       "Flagellated and dissimilar in size",
+      "Non-flagellated and similar in size",
       "Non-motile female and motile male"
-    ],
-    correct: 1,
+    ], correct: 2,
     explanation: "In Spirogyra, gametes are non-flagellated (non-motile) but similar in size. This type of isogamous reproduction involves non-motile isogametes."
   },
   {
@@ -526,10 +499,9 @@ var allQuestions = [
     options: [
       "Fusion of flagellated gametes of similar size as in Ulothrix",
       "Fusion of non-flagellated gametes of similar size as in Spirogyra",
-      "Fusion of two gametes dissimilar in size as in Eudorina",
-      "Fusion of a large non-motile female gamete and smaller motile male gamete as in Volvox"
-    ],
-    correct: 2,
+      "Fusion of a large non-motile female gamete and smaller motile male gamete as in Volvox",
+      "Fusion of two gametes dissimilar in size as in Eudorina"
+    ], correct: 3,
     explanation: "Anisogamous reproduction involves fusion of two gametes that are dissimilar in size, as seen in species of Eudorina. Volvox and Fucus show oogamy, not anisogamy."
   },
   {
@@ -564,11 +536,10 @@ var allQuestions = [
     q: "Which of the following is <b>incorrectly</b> matched?",
     options: [
       "Porphyra – Marine algae used as food",
-      "Gelidium – Source of agar",
+      "Laminaria – Source of carrageen",
       "Chlorella – Unicellular alga used as food supplement",
-      "Laminaria – Source of carrageen"
-    ],
-    correct: 3,
+      "Gelidium – Source of agar"
+    ], correct: 1,
     explanation: "Carrageen is obtained from red algae, not from Laminaria (which is a brown alga). Laminaria is used as food. Algin is obtained from brown algae, and carrageen from red algae."
   },
   {
@@ -577,11 +548,10 @@ var allQuestions = [
     q: "Agar is commercially obtained from:",
     options: [
       "Sargassum and Laminaria",
-      "Gelidium and Gracilaria",
       "Porphyra and Polysiphonia",
+      "Gelidium and Gracilaria",
       "Chlorella and Chlamydomonas"
-    ],
-    correct: 1,
+    ], correct: 2,
     explanation: "Agar is obtained from Gelidium and Gracilaria (red algae). It is used to grow microbes and in preparation of ice-creams and jellies."
   },
   {
@@ -590,11 +560,10 @@ var allQuestions = [
     q: "<b>Chlorella</b> is used as a food supplement because it is:",
     options: [
       "Rich in carbohydrates",
-      "Rich in proteins",
+      "Rich in minerals only",
       "Rich in lipids only",
-      "Rich in minerals only"
-    ],
-    correct: 1,
+      "Rich in proteins"
+    ], correct: 3,
     explanation: "Chlorella is a unicellular alga rich in proteins, used as a food supplement even by space travellers."
   },
   {
@@ -602,12 +571,11 @@ var allQuestions = [
     topic: "Algae",
     q: "Hydrocolloids like <b>algin</b> and <b>carrageen</b> are obtained from:",
     options: [
-      "Green algae and brown algae respectively",
       "Brown algae and red algae respectively",
+      "Green algae and brown algae respectively",
       "Red algae and green algae respectively",
       "Brown algae and green algae respectively"
-    ],
-    correct: 1,
+    ], correct: 0,
     explanation: "Algin is obtained from brown algae and carrageen from red algae. Both are hydrocolloids (water-holding substances) used commercially."
   },
   {
@@ -616,11 +584,10 @@ var allQuestions = [
     q: "The major pigments present in Chlorophyceae are:",
     options: [
       "Chlorophyll a, c and fucoxanthin",
-      "Chlorophyll a, d and r-phycoerythrin",
       "Chlorophyll a and b",
+      "Chlorophyll a, d and r-phycoerythrin",
       "Chlorophyll a, b and phycoerythrin"
-    ],
-    correct: 2,
+    ], correct: 1,
     explanation: "Chlorophyceae (green algae) have chlorophyll a and b as dominant pigments, which give them a grass green colour."
   },
   {
@@ -642,11 +609,10 @@ var allQuestions = [
     q: "The cell wall of green algae is composed of:",
     options: [
       "Inner layer of pectose and outer layer of cellulose",
-      "Inner layer of cellulose and outer layer of pectose",
+      "Cellulose and algin",
       "Only cellulose",
-      "Cellulose and algin"
-    ],
-    correct: 1,
+      "Inner layer of cellulose and outer layer of pectose"
+    ], correct: 3,
     explanation: "Green algae have a rigid cell wall made of an inner layer of cellulose and an outer layer of pectose."
   },
   {
@@ -654,12 +620,11 @@ var allQuestions = [
     topic: "Algae",
     q: "Which of the following chloroplast shapes is <b>not</b> found in green algae?",
     options: [
-      "Cup-shaped",
+      "All of these are found in green algae",
       "Spiral or ribbon-shaped",
       "Reticulate",
-      "All of these are found in green algae"
-    ],
-    correct: 3,
+      "Cup-shaped"
+    ], correct: 0,
     explanation: "Chloroplasts in green algae can be discoid, plate-like, reticulate, cup-shaped, spiral or ribbon-shaped. All forms mentioned are found in different species of green algae."
   },
   {
@@ -668,11 +633,10 @@ var allQuestions = [
     q: "Which of the following statements about <b>Phaeophyceae</b> is <b>incorrect</b>?",
     options: [
       "They are found primarily in marine habitats",
-      "They possess chlorophyll a and c",
       "Food is stored as floridean starch",
+      "They possess chlorophyll a and c",
       "Kelps may reach a height of 100 metres"
-    ],
-    correct: 2,
+    ], correct: 1,
     explanation: "Floridean starch is the stored food in Rhodophyceae (red algae), not Phaeophyceae. Brown algae store food as laminarin or mannitol."
   },
   {
@@ -694,11 +658,10 @@ var allQuestions = [
     q: "In brown algae, the vegetative cell wall is composed of:",
     options: [
       "Cellulose only",
-      "Cellulose with a gelatinous coating of algin",
+      "Pectose and cellulose",
       "Cellulose, pectin and polysulphate esters",
-      "Pectose and cellulose"
-    ],
-    correct: 1,
+      "Cellulose with a gelatinous coating of algin"
+    ], correct: 3,
     explanation: "Brown algae have a cellulosic wall usually covered on the outside by a gelatinous coating of algin."
   },
   {
@@ -706,12 +669,11 @@ var allQuestions = [
     topic: "Algae",
     q: "The plant body of brown algae is usually differentiated into:<br>(i) Holdfast<br>(ii) Stipe<br>(iii) Frond<br>Select the correct option:",
     options: [
-      "(i) and (ii) only",
-      "(i) and (iii) only",
       "(i), (ii) and (iii)",
+      "(i) and (iii) only",
+      "(i) and (ii) only",
       "(ii) and (iii) only"
-    ],
-    correct: 2,
+    ], correct: 0,
     explanation: "Brown algae body is usually attached by a holdfast, has a stalk called stipe, and a leaf-like photosynthetic organ called the frond."
   },
   {
@@ -746,11 +708,10 @@ var allQuestions = [
     q: "Floridean starch is structurally very similar to:",
     options: [
       "Amylose and cellulose",
-      "Amylopectin and glycogen",
       "Starch and mannitol",
+      "Amylopectin and glycogen",
       "Laminarin and mannitol"
-    ],
-    correct: 1,
+    ], correct: 2,
     explanation: "Floridean starch, the stored food of red algae, is very similar to amylopectin and glycogen in structure."
   },
   {
@@ -759,11 +720,10 @@ var allQuestions = [
     q: "Which of the following is a <b>unique</b> feature of Rhodophyceae regarding reproduction?",
     options: [
       "They reproduce by flagellated zoospores",
-      "Both spores and gametes are non-motile",
+      "They produce biflagellate gametes",
       "Sexual reproduction is isogamous",
-      "They produce biflagellate gametes"
-    ],
-    correct: 1,
+      "Both spores and gametes are non-motile"
+    ], correct: 3,
     explanation: "Red algae reproduce asexually by non-motile spores and sexually by non-motile gametes. Flagella are completely absent in Rhodophyceae — this is a distinctive feature."
   },
   {
@@ -771,12 +731,11 @@ var allQuestions = [
     topic: "Algae",
     q: "Sexual reproduction in red algae is:",
     options: [
-      "Isogamous",
-      "Anisogamous",
       "Oogamous with complex post-fertilisation developments",
+      "Anisogamous",
+      "Isogamous",
       "Both isogamous and anisogamous"
-    ],
-    correct: 2,
+    ], correct: 0,
     explanation: "Sexual reproduction in Rhodophyceae is oogamous and is accompanied by complex post-fertilisation developments."
   },
   {
@@ -784,12 +743,11 @@ var allQuestions = [
     topic: "Algae",
     q: "Consider the following statements:<br>(i) Chlorophyceae stores food as starch<br>(ii) Phaeophyceae stores food as mannitol or laminarin<br>(iii) Rhodophyceae stores food as floridean starch<br>(iv) All three classes store food as starch<br>Which statements are correct?",
     options: [
-      "(i), (ii) and (iii) only",
       "(i) and (iv) only",
+      "(i), (ii) and (iii) only",
       "(i), (ii), (iii) and (iv)",
       "(iv) only"
-    ],
-    correct: 0,
+    ], correct: 1,
     explanation: "Green algae store starch, brown algae store mannitol/laminarin, and red algae store floridean starch. Statement (iv) is incorrect — storage forms differ among the three classes."
   },
   {
@@ -810,12 +768,11 @@ var allQuestions = [
     topic: "Algae",
     q: "Match the following algal classes with their cell wall composition:<br>(a) Chlorophyceae – (i) Cellulose and algin<br>(b) Phaeophyceae – (ii) Cellulose, pectin and polysulphate esters<br>(c) Rhodophyceae – (iii) Cellulose and pectose",
     options: [
-      "a-(iii), b-(i), c-(ii)",
+      "a-(iii), b-(ii), c-(i)",
       "a-(i), b-(ii), c-(iii)",
       "a-(ii), b-(iii), c-(i)",
-      "a-(iii), b-(ii), c-(i)"
-    ],
-    correct: 0,
+      "a-(iii), b-(i), c-(ii)"
+    ], correct: 3,
     explanation: "Chlorophyceae: cellulose + pectose (iii); Phaeophyceae: cellulose + algin (i); Rhodophyceae: cellulose + pectin + polysulphate esters (ii)."
   },
   {
@@ -837,11 +794,10 @@ var allQuestions = [
     q: "Which of the following algae is <b>not</b> a member of Rhodophyceae?",
     options: [
       "Polysiphonia",
-      "Porphyra",
       "Ectocarpus",
+      "Porphyra",
       "Gracilaria"
-    ],
-    correct: 2,
+    ], correct: 1,
     explanation: "Ectocarpus is a member of Phaeophyceae (brown algae), not Rhodophyceae. Polysiphonia, Porphyra, Gracilaria and Gelidium are red algae."
   },
   {
@@ -863,9 +819,11 @@ var allQuestions = [
     q: "Which of the following correctly describes the <b>habitat</b> distribution of the three algal classes?",
     options: [
       "Chlorophyceae – mostly marine; Phaeophyceae – freshwater; Rhodophyceae – marine",
-      "Chlorophyceae – freshwater, brackish and salt water; Phaeophyceae – primarily marine; Rhodophyceae – mostly marine in warmer areas"
+      "Chlorophyceae – only freshwater; Phaeophyceae – mostly freshwater; Rhodophyceae – primarily marine",
+      "Chlorophyceae – freshwater, brackish and salt water; Phaeophyceae – primarily marine; Rhodophyceae – mostly marine in warmer areas",
+      "Chlorophyceae – mostly marine; Phaeophyceae – only marine; Rhodophyceae – only freshwater"
     ],
-    correct: 1,
+    correct: 2,
     explanation: "Green algae occur in fresh, brackish and salt water. Brown algae are primarily marine. Red algae are mostly marine with greater concentrations in warmer areas."
   },
   {
@@ -874,11 +832,10 @@ var allQuestions = [
     q: "In brown algae, gametes are:",
     options: [
       "Pyriform with two equal apically attached flagella",
-      "Pyriform with two laterally attached flagella",
+      "Amoeboid and non-flagellated",
       "Spherical and non-motile",
-      "Amoeboid and non-flagellated"
-    ],
-    correct: 1,
+      "Pyriform with two laterally attached flagella"
+    ], correct: 3,
     explanation: "In brown algae, gametes are pyriform (pear-shaped) and bear two laterally attached flagella."
   },
   {
@@ -886,12 +843,11 @@ var allQuestions = [
     topic: "Algae",
     q: "Consider the following statements about types of sexual reproduction in algae:<br>(A) Isogamous – fusion of flagellated, similar-sized gametes occurs in <b>Ulothrix</b><br>(B) Isogamous – fusion of non-flagellated, similar-sized gametes occurs in <b>Spirogyra</b><br>(C) Anisogamous – fusion of dissimilar-sized gametes occurs in <b>Eudorina</b><br>(D) Oogamous – fusion of large non-motile female and smaller motile male gamete occurs in <b>Volvox</b>",
     options: [
-      "Only A and B are correct",
-      "Only A, B and C are correct",
       "All A, B, C and D are correct",
+      "Only A, B and C are correct",
+      "Only A and B are correct",
       "Only C and D are correct"
-    ],
-    correct: 2,
+    ], correct: 0,
     explanation: "All four statements are correct as per NCERT. Ulothrix – flagellated isogamy; Spirogyra – non-flagellated isogamy; Eudorina – anisogamy; Volvox – oogamy."
   },
   {
@@ -900,11 +856,10 @@ var allQuestions = [
     q: "Which of the following is <b>not</b> a use of agar obtained from red algae?",
     options: [
       "Growing microbes in laboratories",
-      "Preparation of ice-creams",
+      "Extraction of algin for commercial use",
       "Preparation of jellies",
-      "Extraction of algin for commercial use"
-    ],
-    correct: 3,
+      "Preparation of ice-creams"
+    ], correct: 1,
     explanation: "Algin is obtained from brown algae, not from agar/red algae. Agar (from Gelidium and Gracilaria) is used to grow microbes, and in ice-cream and jelly preparations."
   },
   {
@@ -927,10 +882,9 @@ var allQuestions = [
     options: [
       "Only Rhodophyceae",
       "Only Chlorophyceae",
-      "Both Chlorophyceae and Phaeophyceae",
-      "Only Phaeophyceae"
-    ],
-    correct: 2,
+      "Only Phaeophyceae",
+      "Both Chlorophyceae and Phaeophyceae"
+    ], correct: 3,
     explanation: "Both Chlorophyceae (green algae) and Phaeophyceae (brown algae) can exhibit isogamous, anisogamous or oogamous sexual reproduction. Red algae show only oogamous reproduction."
   },
   {
@@ -938,12 +892,11 @@ var allQuestions = [
     topic: "Algae",
     q: "Which of the following is a correct statement about <b>Phaeophyceae</b>?",
     options: [
-      "They are predominantly freshwater forms",
-      "Food is stored as floridean starch",
       "The simplest form is Ectocarpus and the largest forms are kelps reaching up to 100 metres",
+      "Food is stored as floridean starch",
+      "They are predominantly freshwater forms",
       "Flagella are absent in all reproductive cells"
-    ],
-    correct: 2,
+    ], correct: 0,
     explanation: "Brown algae range from simple filamentous Ectocarpus to profusely branched kelps reaching up to 100 metres. They are primarily marine, store food as laminarin/mannitol, and have flagellated zoospores and gametes."
   },
   {
@@ -952,11 +905,10 @@ var allQuestions = [
     q: "Select the <b>incorrect</b> match:",
     options: [
       "Chlamydomonas – Chlorophyceae",
-      "Dictyota – Phaeophyceae",
       "Gelidium – Phaeophyceae",
+      "Dictyota – Phaeophyceae",
       "Polysiphonia – Rhodophyceae"
-    ],
-    correct: 2,
+    ], correct: 1,
     explanation: "Gelidium is a member of Rhodophyceae (red algae), not Phaeophyceae. It is a source of agar."
   },
   {
@@ -991,11 +943,10 @@ var allQuestions = [
     q: "Which of the following algae is used as food by space travellers?",
     options: [
       "Sargassum",
-      "Chlorella",
+      "Polysiphonia",
       "Gelidium",
-      "Polysiphonia"
-    ],
-    correct: 1,
+      "Chlorella"
+    ], correct: 3,
     explanation: "Chlorella, a unicellular green alga rich in proteins, is used as a food supplement even by space travellers."
   },
   {
@@ -1044,10 +995,9 @@ var allQuestions = [
     options: [
       "Only in water",
       "Only within the oogonium",
-      "In water or within the oogonium",
-      "Only on land surface"
-    ],
-    correct: 2,
+      "Only on land surface",
+      "In water or within the oogonium"
+    ], correct: 3,
     explanation: "In brown algae, union of gametes may take place in water or within the oogonium in oogamous species."
   },
   {
@@ -1055,12 +1005,11 @@ var allQuestions = [
     topic: "Algae",
     q: "Which of the following is <b>not</b> a member of Chlorophyceae?",
     options: [
-      "Chlamydomonas",
-      "Chara",
       "Fucus",
+      "Chara",
+      "Chlamydomonas",
       "Spirogyra"
-    ],
-    correct: 2,
+    ], correct: 0,
     explanation: "Fucus is a member of Phaeophyceae (brown algae). Chlamydomonas, Volvox, Ulothrix, Spirogyra and Chara are members of Chlorophyceae."
   },
   {
@@ -1095,11 +1044,10 @@ var allQuestions = [
     q: "The main plant body of a bryophyte is:",
     options: [
       "Diploid sporophyte",
-      "Haploid gametophyte",
       "Diploid gametophyte",
+      "Haploid gametophyte",
       "Haploid sporophyte"
-    ],
-    correct: 1,
+    ], correct: 2,
     explanation: "The main plant body of bryophytes is haploid. It produces gametes, hence called a gametophyte. The sporophyte is dependent on the gametophyte."
   },
   {
@@ -1107,12 +1055,11 @@ var allQuestions = [
     topic: "Bryophytes",
     q: "Which of the following statements about bryophytes is <b>incorrect</b>?",
     options: [
-      "They possess true roots, stems and leaves",
+      "They play an important role in plant succession on bare rocks",
       "They are attached to substratum by rhizoids",
       "The plant body is thallus-like",
-      "They play an important role in plant succession on bare rocks"
-    ],
-    correct: 0,
+      "They possess true roots, stems and leaves"
+    ], correct: 3,
     explanation: "Bryophytes lack true roots, stems or leaves. They may possess root-like, leaf-like or stem-like structures. All other statements are correct."
   },
   {
@@ -1120,12 +1067,11 @@ var allQuestions = [
     topic: "Bryophytes",
     q: "The rhizoids in bryophytes can be:",
     options: [
-      "Only unicellular",
-      "Only multicellular",
       "Unicellular or multicellular",
+      "Only multicellular",
+      "Only unicellular",
       "Always absent"
-    ],
-    correct: 2,
+    ], correct: 0,
     explanation: "Bryophytes are attached to the substratum by unicellular or multicellular rhizoids. The type varies among different bryophyte groups."
   },
   {
@@ -1147,11 +1093,10 @@ var allQuestions = [
     q: "The female sex organ in bryophytes is:",
     options: [
       "Club-shaped archegonium producing multiple eggs",
-      "Flask-shaped archegonium producing a single egg",
       "Flask-shaped oogonium producing multiple eggs",
+      "Flask-shaped archegonium producing a single egg",
       "Spherical archegonium producing a single egg"
-    ],
-    correct: 1,
+    ], correct: 2,
     explanation: "The female sex organ is the archegonium, which is flask-shaped and produces a single egg."
   },
   {
@@ -1173,11 +1118,10 @@ var allQuestions = [
     q: "After fertilisation in bryophytes, the zygote:",
     options: [
       "Immediately undergoes reduction division",
-      "Does not undergo reduction division immediately but produces a multicellular sporophyte",
+      "Remains dormant permanently",
       "Directly germinates into a gametophyte",
-      "Remains dormant permanently"
-    ],
-    correct: 1,
+      "Does not undergo reduction division immediately but produces a multicellular sporophyte"
+    ], correct: 3,
     explanation: "Zygotes do not undergo reduction division immediately. They produce a multicellular body called the sporophyte. Meiosis occurs later in the sporophyte to produce haploid spores."
   },
   {
@@ -1185,12 +1129,11 @@ var allQuestions = [
     topic: "Bryophytes",
     q: "The sporophyte in bryophytes is:",
     options: [
-      "Free-living and autotrophic",
-      "Free-living but heterotrophic",
       "Not free-living, attached to the gametophyte and derives nourishment from it",
+      "Free-living but heterotrophic",
+      "Free-living and autotrophic",
       "Partially free-living and partially parasitic"
-    ],
-    correct: 2,
+    ], correct: 0,
     explanation: "The sporophyte in bryophytes is not free-living. It is attached to the photosynthetic gametophyte and derives nourishment from it."
   },
   {
@@ -1212,11 +1155,10 @@ var allQuestions = [
     q: "Which of the following correctly represents the life cycle sequence in bryophytes?",
     options: [
       "Spore → Sporophyte → Gametes → Zygote → Gametophyte",
-      "Spore → Gametophyte → Gametes → Zygote → Sporophyte → Spores",
       "Zygote → Gametophyte → Spores → Sporophyte → Gametes",
+      "Spore → Gametophyte → Gametes → Zygote → Sporophyte → Spores",
       "Gametes → Sporophyte → Spores → Gametophyte → Zygote"
-    ],
-    correct: 1,
+    ], correct: 2,
     explanation: "Spores germinate to form the gametophyte, which produces gametes. Gamete fusion forms the zygote, which develops into the sporophyte. The sporophyte produces spores by meiosis."
   },
   {
@@ -1225,11 +1167,10 @@ var allQuestions = [
     q: "Species of <b>Sphagnum</b> provide peat which is used as:<br>(i) Fuel<br>(ii) Packing material for trans-shipment of living material<br>(iii) Food for humans<br>Select the correct option:",
     options: [
       "(i) only",
-      "(i) and (ii) only",
+      "(iii) only",
       "(i), (ii) and (iii)",
-      "(iii) only"
-    ],
-    correct: 1,
+      "(i) and (ii) only"
+    ], correct: 3,
     explanation: "Sphagnum provides peat used as fuel and as packing material for trans-shipment of living material (due to its water-holding capacity). It is not used as human food."
   },
   {
@@ -1237,12 +1178,11 @@ var allQuestions = [
     topic: "Bryophytes",
     q: "Mosses along with lichens are the first organisms to colonise rocks. This makes them important because:",
     options: [
-      "They produce oxygen for other organisms",
       "They decompose rocks making the substrate suitable for growth of higher plants",
+      "They produce oxygen for other organisms",
       "They prevent rainfall",
       "They attract animal pollinators"
-    ],
-    correct: 1,
+    ], correct: 0,
     explanation: "Mosses and lichens colonise bare rocks first (pioneers in succession). They decompose rocks, making the substrate suitable for the growth of higher plants — this is their great ecological importance."
   },
   {
@@ -1264,11 +1204,10 @@ var allQuestions = [
     q: "The plant body of liverworts is:",
     options: [
       "Thalloid, isobilateral and erect",
-      "Thalloid, dorsiventral and closely appressed to the substrate",
       "Leafy, radially symmetrical and erect",
+      "Thalloid, dorsiventral and closely appressed to the substrate",
       "Thalloid, dorsiventral and free-floating"
-    ],
-    correct: 1,
+    ], correct: 2,
     explanation: "The plant body of liverworts (e.g., Marchantia) is thalloid, dorsiventral and closely appressed (pressed close) to the substrate."
   },
   {
@@ -1277,11 +1216,10 @@ var allQuestions = [
     q: "<b>Gemmae</b> in liverworts are:",
     options: [
       "Green, multicellular, sexual buds developing in archegonia",
-      "Green, multicellular, asexual buds developing in gemma cups on thalli",
+      "Colourless, multicellular, sexual structures in antheridia",
       "Brown, unicellular, asexual spores in capsules",
-      "Colourless, multicellular, sexual structures in antheridia"
-    ],
-    correct: 1,
+      "Green, multicellular, asexual buds developing in gemma cups on thalli"
+    ], correct: 3,
     explanation: "Gemmae are green, multicellular, asexual buds which develop in small receptacles called gemma cups located on the thalli. They detach and germinate to form new individuals."
   },
   {
@@ -1330,10 +1268,9 @@ var allQuestions = [
     options: [
       "Only the protonema stage",
       "Only the leafy stage",
-      "Two stages — protonema stage and leafy stage",
-      "Three stages — protonema, leafy and capsule stages"
-    ],
-    correct: 2,
+      "Three stages — protonema, leafy and capsule stages",
+      "Two stages — protonema stage and leafy stage"
+    ], correct: 3,
     explanation: "The moss gametophyte consists of two stages: (1) the protonema stage (first) that develops from spore, and (2) the leafy stage that develops from secondary protonema as a lateral bud."
   },
   {
@@ -1341,12 +1278,11 @@ var allQuestions = [
     topic: "Bryophytes",
     q: "The protonema stage of mosses is:",
     options: [
-      "An upright, leafy structure",
       "A creeping, green, branched and frequently filamentous stage",
+      "An upright, leafy structure",
       "A capsule-bearing sporophytic structure",
       "A non-green, underground structure"
-    ],
-    correct: 1,
+    ], correct: 0,
     explanation: "The protonema is the first stage of the moss gametophyte. It is a creeping, green, branched and frequently filamentous stage that develops directly from a spore."
   },
   {
@@ -1381,11 +1317,10 @@ var allQuestions = [
     q: "In mosses, the rhizoids are:",
     options: [
       "Unicellular and unbranched",
-      "Multicellular and branched",
+      "Unicellular and branched",
       "Always absent",
-      "Unicellular and branched"
-    ],
-    correct: 1,
+      "Multicellular and branched"
+    ], correct: 3,
     explanation: "In the leafy stage of mosses, the plant is attached to the soil through multicellular and branched rhizoids."
   },
   {
@@ -1393,12 +1328,11 @@ var allQuestions = [
     topic: "Bryophytes",
     q: "In mosses, sex organs are produced at:",
     options: [
-      "The base of the leafy shoots",
-      "The protonema stage",
       "The apex of the leafy shoots",
+      "The protonema stage",
+      "The base of the leafy shoots",
       "The capsule of the sporophyte"
-    ],
-    correct: 2,
+    ], correct: 0,
     explanation: "In mosses, antheridia and archegonia are produced at the apex of the leafy shoots."
   },
   {
@@ -1406,12 +1340,11 @@ var allQuestions = [
     topic: "Bryophytes",
     q: "Vegetative reproduction in mosses occurs by:",
     options: [
-      "Fragmentation and budding in the secondary protonema",
       "Only by gemma cups",
+      "Fragmentation and budding in the secondary protonema",
       "Only by zoospores",
       "Only by fragmentation of the sporophyte"
-    ],
-    correct: 0,
+    ], correct: 1,
     explanation: "Vegetative reproduction in mosses takes place by fragmentation and by budding in the secondary protonema."
   },
   {
@@ -1446,11 +1379,10 @@ var allQuestions = [
     q: "Consider the following statements:<br>(i) Bryophytes have more differentiated plant body than algae<br>(ii) Bryophytes possess true roots, stems and leaves<br>(iii) The dominant phase in bryophytes is the gametophyte<br>(iv) The sporophyte is parasitic on the gametophyte",
     options: [
       "(i), (ii) and (iii) only",
-      "(i), (iii) and (iv) only",
+      "(i), (ii), (iii) and (iv)",
       "(i) and (iii) only",
-      "(i), (ii), (iii) and (iv)"
-    ],
-    correct: 1,
+      "(i), (iii) and (iv) only"
+    ], correct: 3,
     explanation: "Statement (ii) is wrong — bryophytes lack true roots, stems and leaves. Statements (i), (iii) and (iv) are correct. The sporophyte is attached to and derives nourishment from the gametophyte (parasitic on it)."
   },
   {
@@ -1471,12 +1403,11 @@ var allQuestions = [
     topic: "Bryophytes",
     q: "In the leafy members of liverworts, tiny leaf-like appendages are arranged in:",
     options: [
-      "Spiral arrangement on stem-like structures",
       "Two rows on stem-like structures",
+      "Spiral arrangement on stem-like structures",
       "Whorled arrangement on stem-like structures",
       "Random arrangement on thallus"
-    ],
-    correct: 1,
+    ], correct: 0,
     explanation: "The leafy members of liverworts have tiny leaf-like appendages arranged in two rows on the stem-like structures, unlike mosses where leaves are spirally arranged."
   },
   {
@@ -1498,11 +1429,10 @@ var allQuestions = [
     q: "Sphagnum is economically important because of its capacity to:",
     options: [
       "Fix atmospheric nitrogen",
-      "Hold water",
       "Produce antibiotics",
+      "Hold water",
       "Produce edible fruits"
-    ],
-    correct: 1,
+    ], correct: 2,
     explanation: "Sphagnum (a moss) provides peat used as fuel and packing material for trans-shipment of living material because of its excellent capacity to hold water."
   },
   {
@@ -1511,11 +1441,10 @@ var allQuestions = [
     q: "Which of the following pairs act as <b>pioneer species</b> in ecological succession on bare rocks?",
     options: [
       "Ferns and gymnosperms",
-      "Mosses and lichens",
+      "Angiosperms and bryophytes",
       "Algae and fungi",
-      "Angiosperms and bryophytes"
-    ],
-    correct: 1,
+      "Mosses and lichens"
+    ], correct: 3,
     explanation: "Mosses along with lichens are the first organisms to colonise rocks (pioneer species in lithosere succession). They decompose rocks, making the substrate suitable for higher plants."
   },
   {
@@ -1550,11 +1479,10 @@ var allQuestions = [
     q: "Spores produced within the capsule of a bryophyte sporophyte are formed after:",
     options: [
       "Mitosis",
-      "Meiosis",
       "Amitosis",
+      "Meiosis",
       "Binary fission"
-    ],
-    correct: 1,
+    ], correct: 2,
     explanation: "Spores are formed after meiosis (reduction division) within the capsule of the sporophyte. These haploid spores germinate to form the gametophyte."
   },
   {
@@ -1575,12 +1503,11 @@ var allQuestions = [
     topic: "Bryophytes",
     q: "Match the following structures with their descriptions:<br>(a) Antheridium – (i) Flask-shaped, produces a single egg<br>(b) Archegonium – (ii) Male sex organ producing biflagellate antherozoids<br>(c) Gemma – (iii) Green, multicellular, asexual bud<br>(d) Protonema – (iv) Creeping, green, branched, filamentous stage",
     options: [
-      "a-(ii), b-(i), c-(iii), d-(iv)",
+      "a-(iii), b-(iv), c-(i), d-(ii)",
       "a-(i), b-(ii), c-(iv), d-(iii)",
       "a-(ii), b-(i), c-(iv), d-(iii)",
-      "a-(iii), b-(iv), c-(i), d-(ii)"
-    ],
-    correct: 0,
+      "a-(ii), b-(i), c-(iii), d-(iv)"
+    ], correct: 3,
     explanation: "Antheridium (ii) is the male sex organ producing biflagellate antherozoids. Archegonium (i) is flask-shaped producing a single egg. Gemma (iii) is a green, multicellular, asexual bud. Protonema (iv) is creeping, green, branched and filamentous."
   },
   {
@@ -1588,12 +1515,11 @@ var allQuestions = [
     topic: "Bryophytes",
     q: "The spores germinated from the capsule of a moss sporophyte give rise to:",
     options: [
-      "Another sporophyte directly",
       "A free-living gametophyte (protonema)",
+      "Another sporophyte directly",
       "Gemmae",
       "Antherozoids"
-    ],
-    correct: 1,
+    ], correct: 0,
     explanation: "Haploid spores from the moss capsule germinate to produce the protonema — the first stage of the free-living gametophyte."
   },
   {
@@ -1616,10 +1542,9 @@ var allQuestions = [
     options: [
       "Funaria",
       "Polytrichum",
-      "Sphagnum",
-      "Marchantia"
-    ],
-    correct: 3,
+      "Marchantia",
+      "Sphagnum"
+    ], correct: 2,
     explanation: "Marchantia is a liverwort with a thalloid, dorsiventral body. Funaria, Polytrichum and Sphagnum are mosses."
   },
   {
@@ -1629,10 +1554,9 @@ var allQuestions = [
     options: [
       "(i) and (ii) only",
       "(i), (ii) and (iii) only",
-      "(i), (ii), (iii) and (iv)",
-      "(iv) only"
-    ],
-    correct: 2,
+      "(iv) only",
+      "(i), (ii), (iii) and (iv)"
+    ], correct: 3,
     explanation: "All four statements are correct. The leafy stage has upright slender axes, spirally arranged leaves, is attached by multicellular branched rhizoids, and bears the sex organs (antheridia and archegonia) at the apex."
   },
   {
@@ -1640,12 +1564,11 @@ var allQuestions = [
     topic: "Bryophytes",
     q: "In bryophytes, the <b>dominant generation</b> is:",
     options: [
-      "Sporophytic and diploid",
-      "Gametophytic and diploid",
       "Gametophytic and haploid",
+      "Gametophytic and diploid",
+      "Sporophytic and diploid",
       "Sporophytic and haploid"
-    ],
-    correct: 2,
+    ], correct: 0,
     explanation: "In bryophytes, the dominant (main) plant body is gametophyte, which is haploid. The sporophyte is dependent on the gametophyte."
   },
   {
@@ -1667,11 +1590,10 @@ var allQuestions = [
     q: "Which of the following is <b>not</b> a part of the bryophyte sporophyte?",
     options: [
       "Foot",
-      "Seta",
+      "Protonema",
       "Capsule",
-      "Protonema"
-    ],
-    correct: 3,
+      "Seta"
+    ], correct: 1,
     explanation: "Protonema is the first stage of the gametophyte in mosses, not a part of the sporophyte. The sporophyte consists of foot, seta and capsule."
   },
   {
@@ -1679,12 +1601,11 @@ var allQuestions = [
     topic: "Bryophytes",
     q: "Some mosses provide food for:",
     options: [
-      "Herbaceous mammals, birds and other animals",
-      "Only insects",
       "Only aquatic organisms",
+      "Only insects",
+      "Herbaceous mammals, birds and other animals",
       "Only fungi"
-    ],
-    correct: 0,
+    ], correct: 2,
     explanation: "As per NCERT, some mosses provide food for herbaceous mammals, birds and other animals."
   },
   {
@@ -1693,11 +1614,10 @@ var allQuestions = [
     q: "Which is the <b>correct sequence</b> of stages in the life cycle of a moss?",
     options: [
       "Spore → Leafy stage → Protonema → Gametes → Zygote → Sporophyte",
-      "Spore → Protonema → Leafy stage → Gametes → Zygote → Sporophyte",
+      "Gametes → Zygote → Spore → Protonema → Leafy stage → Sporophyte",
       "Spore → Sporophyte → Protonema → Leafy stage → Gametes → Zygote",
-      "Gametes → Zygote → Spore → Protonema → Leafy stage → Sporophyte"
-    ],
-    correct: 1,
+      "Spore → Protonema → Leafy stage → Gametes → Zygote → Sporophyte"
+    ], correct: 3,
     explanation: "The correct sequence is: Spore germinates into protonema (1st stage) → leafy stage develops from protonema (2nd stage) → sex organs produce gametes → fertilisation forms zygote → zygote develops into sporophyte → spores formed by meiosis."
   },
   {
@@ -1705,12 +1625,11 @@ var allQuestions = [
     topic: "Pteridophytes",
     q: "Pteridophytes are evolutionarily significant because they are the:",
     options: [
-      "First plants to show alternation of generations",
       "First terrestrial plants to possess vascular tissues",
+      "First plants to show alternation of generations",
       "First plants to produce seeds",
       "First plants to show heterospory"
-    ],
-    correct: 1,
+    ], correct: 0,
     explanation: "Pteridophytes are the first terrestrial plants to possess vascular tissues — xylem and phloem. This is a key evolutionary milestone as per NCERT."
   },
   {
@@ -1719,11 +1638,10 @@ var allQuestions = [
     q: "Which of the following is <b>not</b> a use of pteridophytes?",
     options: [
       "Medicinal purposes",
-      "Soil-binders",
+      "Primary source of timber",
       "Grown as ornamentals",
-      "Primary source of timber"
-    ],
-    correct: 3,
+      "Soil-binders"
+    ], correct: 1,
     explanation: "Pteridophytes are used for medicinal purposes, as soil-binders, and are frequently grown as ornamentals. Timber is obtained from gymnosperms and angiosperms, not pteridophytes."
   },
   {
@@ -1759,10 +1677,9 @@ var allQuestions = [
     options: [
       "Foot, seta and capsule",
       "Holdfast, stipe and frond",
-      "True root, stem and leaves",
-      "Thallus, rhizoids and sporangium"
-    ],
-    correct: 2,
+      "Thallus, rhizoids and sporangium",
+      "True root, stem and leaves"
+    ], correct: 3,
     explanation: "The pteridophyte sporophyte is differentiated into true root, stem and leaves with well-differentiated vascular tissues. Foot, seta and capsule is the bryophyte sporophyte."
   },
   {
@@ -1770,12 +1687,11 @@ var allQuestions = [
     topic: "Pteridophytes",
     q: "Small leaves in pteridophytes are called <b>microphylls</b>, as found in:",
     options: [
-      "Ferns",
       "Selaginella",
+      "Ferns",
       "Dryopteris",
       "Adiantum"
-    ],
-    correct: 1,
+    ], correct: 0,
     explanation: "Microphylls (small leaves) are found in Selaginella. Ferns (Dryopteris, Pteris, Adiantum) possess macrophylls (large leaves)."
   },
   {
@@ -1784,11 +1700,10 @@ var allQuestions = [
     q: "Macrophylls (large leaves) in pteridophytes are characteristic of:",
     options: [
       "Selaginella",
-      "Equisetum",
+      "Ferns",
       "Lycopodium",
-      "Ferns"
-    ],
-    correct: 3,
+      "Equisetum"
+    ], correct: 1,
     explanation: "Macrophylls are large leaves characteristic of ferns (e.g., Dryopteris, Pteris, Adiantum). Selaginella has microphylls (small leaves)."
   },
   {
@@ -1797,11 +1712,10 @@ var allQuestions = [
     q: "Sporangia in pteridophytes are borne on leaf-like appendages called:",
     options: [
       "Strobili",
-      "Sporophylls",
       "Prothallus",
+      "Sporophylls",
       "Rhizophores"
-    ],
-    correct: 1,
+    ], correct: 2,
     explanation: "Sporangia are subtended by leaf-like appendages called sporophylls. In some cases, sporophylls may form compact structures called strobili or cones."
   },
   {
@@ -1809,12 +1723,11 @@ var allQuestions = [
     topic: "Pteridophytes",
     q: "Strobili or cones are formed by compact arrangement of sporophylls in:",
     options: [
-      "Selaginella and Equisetum",
+      "Lycopodium and Adiantum",
       "Dryopteris and Pteris",
       "Adiantum and Psilotum",
-      "Lycopodium and Adiantum"
-    ],
-    correct: 0,
+      "Selaginella and Equisetum"
+    ], correct: 3,
     explanation: "Sporophylls may form distinct compact structures called strobili or cones in Selaginella and Equisetum as per NCERT."
   },
   {
@@ -1822,12 +1735,11 @@ var allQuestions = [
     topic: "Pteridophytes",
     q: "Spores in pteridophytes are produced by:",
     options: [
-      "Mitosis in spore mother cells",
       "Meiosis in spore mother cells",
+      "Mitosis in spore mother cells",
       "Budding of sporangia",
       "Fragmentation of sporophylls"
-    ],
-    correct: 1,
+    ], correct: 0,
     explanation: "Sporangia produce spores by meiosis in spore mother cells. These haploid spores germinate to give rise to the gametophyte (prothallus)."
   },
   {
@@ -1876,10 +1788,9 @@ var allQuestions = [
     options: [
       "Germination of spores",
       "Photosynthesis in sporophyte",
-      "Transfer of antherozoids to the archegonium",
-      "Growth of the sporophyte"
-    ],
-    correct: 2,
+      "Growth of the sporophyte",
+      "Transfer of antherozoids to the archegonium"
+    ], correct: 3,
     explanation: "Water is required for transfer of antherozoids (male gametes) released from antheridia to the mouth of archegonium for fertilisation — similar to bryophytes."
   },
   {
@@ -1887,12 +1798,11 @@ var allQuestions = [
     topic: "Pteridophytes",
     q: "In majority of pteridophytes, all spores are of similar kind. Such plants are called:",
     options: [
-      "Heterosporous",
       "Homosporous",
+      "Heterosporous",
       "Monosporous",
       "Polysporous"
-    ],
-    correct: 1,
+    ], correct: 0,
     explanation: "Plants producing spores of similar kind are called homosporous. Majority of pteridophytes are homosporous."
   },
   {
@@ -1914,11 +1824,10 @@ var allQuestions = [
     q: "In heterosporous pteridophytes, megaspores germinate to give rise to:",
     options: [
       "Male gametophytes",
-      "Female gametophytes",
       "Sporophytes directly",
+      "Female gametophytes",
       "Strobili"
-    ],
-    correct: 1,
+    ], correct: 2,
     explanation: "Megaspores (large spores) germinate to give rise to female gametophytes, while microspores (small spores) give rise to male gametophytes."
   },
   {
@@ -1928,10 +1837,9 @@ var allQuestions = [
     options: [
       "Alternation of generations",
       "Vegetative reproduction",
-      "Seed habit",
-      "Spore formation"
-    ],
-    correct: 2,
+      "Spore formation",
+      "Seed habit"
+    ], correct: 3,
     explanation: "In heterosporous pteridophytes, the female gametophyte is retained on the parent sporophyte and zygote develops into embryo within it. This event is a precursor to the seed habit — an important step in evolution."
   },
   {
@@ -1966,11 +1874,10 @@ var allQuestions = [
     q: "Pteridophytes are classified into how many classes?",
     options: [
       "Two",
-      "Three",
       "Four",
+      "Three",
       "Five"
-    ],
-    correct: 2,
+    ], correct: 1,
     explanation: "Pteridophytes are classified into four classes: Psilopsida, Lycopsida, Sphenopsida and Pteropsida."
   },
   {
@@ -1992,11 +1899,10 @@ var allQuestions = [
     q: "Which of the following correctly lists members of class <b>Pteropsida</b>?",
     options: [
       "Selaginella, Lycopodium",
-      "Dryopteris, Pteris, Adiantum",
+      "Salvinia, Selaginella",
       "Psilotum, Equisetum",
-      "Salvinia, Selaginella"
-    ],
-    correct: 1,
+      "Dryopteris, Pteris, Adiantum"
+    ], correct: 3,
     explanation: "Pteropsida includes the ferns — Dryopteris, Pteris and Adiantum."
   },
   {
@@ -2031,11 +1937,10 @@ var allQuestions = [
     q: "The gametophyte (prothallus) of pteridophytes is:",
     options: [
       "Large, conspicuous and the dominant phase",
-      "Inconspicuous, small but free-living and mostly photosynthetic",
       "Non-photosynthetic and parasitic on sporophyte",
+      "Inconspicuous, small but free-living and mostly photosynthetic",
       "Large, free-living and non-photosynthetic"
-    ],
-    correct: 1,
+    ], correct: 2,
     explanation: "The prothallus is inconspicuous, small, multicellular, free-living and mostly photosynthetic. Unlike bryophytes where gametophyte is dominant, in pteridophytes it is reduced."
   },
   {
@@ -2045,10 +1950,9 @@ var allQuestions = [
     options: [
       "Antheridia only",
       "Archegonia only",
-      "Both antheridia and archegonia",
-      "Neither antheridia nor archegonia"
-    ],
-    correct: 2,
+      "Neither antheridia nor archegonia",
+      "Both antheridia and archegonia"
+    ], correct: 3,
     explanation: "The gametophytes of pteridophytes bear both male sex organs (antheridia) and female sex organs (archegonia)."
   },
   {
@@ -2056,12 +1960,11 @@ var allQuestions = [
     topic: "Pteridophytes",
     q: "Select the <b>incorrect</b> statement about pteridophytes:",
     options: [
-      "The main plant body is a sporophyte",
-      "They are the first terrestrial plants with vascular tissues",
       "The gametophyte is dependent on the sporophyte for nutrition",
+      "They are the first terrestrial plants with vascular tissues",
+      "The main plant body is a sporophyte",
       "The sporangia produce spores by meiosis"
-    ],
-    correct: 2,
+    ], correct: 0,
     explanation: "The prothallus (gametophyte) of pteridophytes is free-living and mostly photosynthetic — NOT dependent on the sporophyte. In bryophytes, the sporophyte depends on the gametophyte, but in pteridophytes, the gametophyte is independent."
   },
   {
@@ -2096,11 +1999,10 @@ var allQuestions = [
     q: "Which of the following is <b>not</b> an example of pteridophyte?",
     options: [
       "Selaginella",
-      "Marchantia",
       "Equisetum",
+      "Marchantia",
       "Adiantum"
-    ],
-    correct: 1,
+    ], correct: 2,
     explanation: "Marchantia is a liverwort (bryophyte), not a pteridophyte. Selaginella, Equisetum and Adiantum are all pteridophytes."
   },
   {
@@ -2110,10 +2012,9 @@ var allQuestions = [
     options: [
       "Female gametophytes",
       "Sporophytes",
-      "Male gametophytes",
-      "Prothallus with both sexes"
-    ],
-    correct: 2,
+      "Prothallus with both sexes",
+      "Male gametophytes"
+    ], correct: 3,
     explanation: "Microspores (small spores) germinate to give rise to male gametophytes, while megaspores (large spores) give rise to female gametophytes."
   },
   {
@@ -2121,12 +2022,11 @@ var allQuestions = [
     topic: "Pteridophytes",
     q: "Consider the following statements about <b>Selaginella</b>:<br>(i) It has microphylls<br>(ii) It forms strobili<br>(iii) It is heterosporous<br>(iv) It belongs to class Lycopsida",
     options: [
-      "(i) and (ii) only",
-      "(i), (ii) and (iii) only",
       "(i), (ii), (iii) and (iv)",
+      "(i), (ii) and (iii) only",
+      "(i) and (ii) only",
       "(iii) and (iv) only"
-    ],
-    correct: 2,
+    ], correct: 0,
     explanation: "All four statements are correct for Selaginella: microphylls (small leaves), strobili formation, heterosporous nature, and classification under Lycopsida."
   },
   {
@@ -2173,12 +2073,11 @@ var allQuestions = [
     topic: "Pteridophytes",
     q: "Which of the following pairs of characters differentiates pteridophytes from bryophytes?<br>(i) Presence of vascular tissues<br>(ii) Dominant sporophytic phase<br>(iii) True roots, stems and leaves<br>(iv) Presence of archegonia",
     options: [
-      "(i), (ii) and (iii) only",
+      "(i) and (iv) only",
       "(i), (ii), (iii) and (iv)",
       "(iv) only",
-      "(i) and (iv) only"
-    ],
-    correct: 0,
+      "(i), (ii) and (iii) only"
+    ], correct: 3,
     explanation: "Vascular tissues, dominant sporophyte, and true roots/stems/leaves differentiate pteridophytes from bryophytes. Archegonia are present in BOTH groups, so (iv) is not a differentiating character."
   },
   {
@@ -2186,12 +2085,11 @@ var allQuestions = [
     topic: "Pteridophytes",
     q: "Which of the following represents the <b>correct</b> evolutionary sequence?",
     options: [
-      "Pteridophytes → Bryophytes → Gymnosperms → Angiosperms",
       "Bryophytes → Pteridophytes → Gymnosperms → Angiosperms",
+      "Pteridophytes → Bryophytes → Gymnosperms → Angiosperms",
       "Gymnosperms → Bryophytes → Pteridophytes → Angiosperms",
       "Angiosperms → Gymnosperms → Pteridophytes → Bryophytes"
-    ],
-    correct: 1,
+    ], correct: 0,
     explanation: "The correct evolutionary sequence is: Bryophytes → Pteridophytes → Gymnosperms → Angiosperms, showing progressive complexity and adaptation to terrestrial life."
   },
   {
@@ -2213,11 +2111,10 @@ var allQuestions = [
     q: "Select the <b>correct</b> statement about spore production and gametophyte development in pteridophytes:",
     options: [
       "Spores are produced by mitosis and develop into sporophytes",
-      "Spores are produced by meiosis and germinate to form gametophytes (prothallus)",
       "Spores are produced by mitosis and germinate to form gametophytes",
+      "Spores are produced by meiosis and germinate to form gametophytes (prothallus)",
       "Spores are produced by meiosis and develop directly into sporophytes"
-    ],
-    correct: 1,
+    ], correct: 2,
     explanation: "Spores are produced by meiosis in spore mother cells within sporangia. These haploid spores germinate to give rise to the gametophyte (prothallus)."
   },
   {
@@ -2226,11 +2123,10 @@ var allQuestions = [
     q: "<b>Lycopodium</b> belongs to the class:",
     options: [
       "Psilopsida",
-      "Lycopsida",
+      "Pteropsida",
       "Sphenopsida",
-      "Pteropsida"
-    ],
-    correct: 1,
+      "Lycopsida"
+    ], correct: 3,
     explanation: "Lycopodium (club moss) belongs to class Lycopsida, along with Selaginella."
   },
   {
@@ -2251,12 +2147,11 @@ var allQuestions = [
     topic: "Pteridophytes",
     q: "Consider the following:<br>Statement I: In homosporous pteridophytes, all spores are of similar kind.<br>Statement II: Selaginella and Salvinia are homosporous.<br>Which of the above is/are correct?",
     options: [
-      "Only Statement I",
       "Only Statement II",
+      "Only Statement I",
       "Both Statements I and II",
       "Neither Statement I nor Statement II"
-    ],
-    correct: 0,
+    ], correct: 1,
     explanation: "Statement I is correct — homosporous plants produce spores of similar kind. Statement II is wrong — Selaginella and Salvinia are heterosporous, producing megaspores and microspores."
   },
   {
@@ -2265,11 +2160,10 @@ var allQuestions = [
     q: "The female gametophyte in heterosporous pteridophytes is retained on the parent sporophyte. This is significant because:",
     options: [
       "It prevents fertilisation",
-      "It facilitates embryo development within female gametophyte — a precursor to seed habit",
       "It leads to asexual reproduction",
+      "It facilitates embryo development within female gametophyte — a precursor to seed habit",
       "It makes the gametophyte independent"
-    ],
-    correct: 1,
+    ], correct: 2,
     explanation: "Retention of the female gametophyte on the parent sporophyte and development of the zygote into embryo within it is a precursor to the seed habit, considered an important evolutionary step."
   },
   {
@@ -2291,11 +2185,10 @@ var allQuestions = [
     q: "Which of the following <b>correctly</b> compares the sporophyte of bryophytes and pteridophytes?",
     options: [
       "Bryophyte sporophyte is free-living; pteridophyte sporophyte is dependent",
-      "Bryophyte sporophyte is dependent on gametophyte; pteridophyte sporophyte is the dominant independent phase",
+      "Both have dependent sporophytes",
       "Both have free-living sporophytes",
-      "Both have dependent sporophytes"
-    ],
-    correct: 1,
+      "Bryophyte sporophyte is dependent on gametophyte; pteridophyte sporophyte is the dominant independent phase"
+    ], correct: 3,
     explanation: "In bryophytes, the sporophyte is dependent on the gametophyte. In pteridophytes, the sporophyte is the dominant, well-differentiated independent phase with true roots, stems, leaves and vascular tissues."
   },
   {
@@ -2303,12 +2196,11 @@ var allQuestions = [
     topic: "Pteridophytes",
     q: "Which of the following is <b>incorrectly</b> matched?",
     options: [
-      "Psilopsida — Psilotum",
-      "Lycopsida — Selaginella",
       "Sphenopsida — Dryopteris",
+      "Lycopsida — Selaginella",
+      "Psilopsida — Psilotum",
       "Pteropsida — Adiantum"
-    ],
-    correct: 2,
+    ], correct: 0,
     explanation: "Dryopteris belongs to Pteropsida, not Sphenopsida. Sphenopsida includes Equisetum. All other matches are correct."
   },
   {
@@ -2329,12 +2221,11 @@ var allQuestions = [
     topic: "Pteridophytes",
     q: "In the context of evolution, arrange the following events in the <b>correct order</b>:<br>(i) Development of vascular tissues<br>(ii) Heterospory<br>(iii) Seed habit<br>(iv) Terrestrial adaptation with rhizoids",
     options: [
-      "(iv) → (i) → (ii) → (iii)",
       "(i) → (iv) → (iii) → (ii)",
+      "(iv) → (i) → (ii) → (iii)",
       "(iii) → (ii) → (i) → (iv)",
       "(ii) → (iii) → (iv) → (i)"
-    ],
-    correct: 0,
+    ], correct: 1,
     explanation: "Evolutionary sequence: terrestrial adaptation with rhizoids (bryophytes) → vascular tissues (pteridophytes) → heterospory (advanced pteridophytes) → seed habit (gymnosperms)."
   },
   {
@@ -2343,11 +2234,10 @@ var allQuestions = [
     q: "Some pteridophytes may flourish well in:",
     options: [
       "Only aquatic conditions",
-      "Sandy-soil conditions",
       "Only extremely cold conditions",
+      "Sandy-soil conditions",
       "Only deep ocean habitats"
-    ],
-    correct: 1,
+    ], correct: 2,
     explanation: "While pteridophytes are generally found in cool, damp, shady places, NCERT specifically mentions that some may flourish well in sandy-soil conditions."
   },
   {
@@ -2356,11 +2246,10 @@ var allQuestions = [
     q: "The term 'gymnosperm' literally means:",
     options: [
       "Covered seeds",
-      "Naked seeds",
+      "Winged seeds",
       "Hidden seeds",
-      "Winged seeds"
-    ],
-    correct: 1,
+      "Naked seeds"
+    ], correct: 3,
     explanation: "Gymnosperm is derived from Greek words 'gymnos' meaning naked and 'sperma' meaning seeds. The seeds are not enclosed within an ovary wall and remain exposed."
   },
   {
@@ -2368,12 +2257,11 @@ var allQuestions = [
     topic: "Gymnosperms",
     q: "In gymnosperms, the ovules are:",
     options: [
-      "Enclosed within the ovary wall before and after fertilisation",
       "Not enclosed by any ovary wall and remain exposed before and after fertilisation",
+      "Enclosed within the ovary wall before and after fertilisation",
       "Enclosed before fertilisation but exposed after fertilisation",
       "Exposed before fertilisation but enclosed after fertilisation"
-    ],
-    correct: 1,
+    ], correct: 0,
     explanation: "In gymnosperms, the ovules are not enclosed by any ovary wall and remain exposed both before and after fertilisation. Hence, the seeds are naked."
   },
   {
@@ -2382,11 +2270,10 @@ var allQuestions = [
     q: "One of the tallest tree species belongs to gymnosperms. It is:",
     options: [
       "Pinus",
-      "Cycas",
       "Sequoia",
+      "Cycas",
       "Cedrus"
-    ],
-    correct: 2,
+    ], correct: 1,
     explanation: "The giant redwood tree Sequoia is one of the tallest tree species and belongs to gymnosperms."
   },
   {
@@ -2395,11 +2282,10 @@ var allQuestions = [
     q: "Coralloid roots are found in <b>Cycas</b> and are associated with:",
     options: [
       "Mycorrhizal fungi",
-      "N₂-fixing cyanobacteria",
       "Parasitic angiosperms",
+      "N₂-fixing cyanobacteria",
       "Rhizobium bacteria"
-    ],
-    correct: 1,
+    ], correct: 2,
     explanation: "In Cycas, small specialised roots called coralloid roots are associated with N₂-fixing cyanobacteria. Mycorrhizal association is found in Pinus, not Cycas."
   },
   {
@@ -2408,11 +2294,10 @@ var allQuestions = [
     q: "Mycorrhiza (fungal association with roots) is found in:",
     options: [
       "Cycas",
-      "Pinus",
+      "Cedrus",
       "Sequoia",
-      "Cedrus"
-    ],
-    correct: 1,
+      "Pinus"
+    ], correct: 3,
     explanation: "Roots in Pinus have fungal association in the form of mycorrhiza. Cycas has coralloid roots with N₂-fixing cyanobacteria."
   },
   {
@@ -2474,10 +2359,9 @@ var allQuestions = [
     options: [
       "(i) and (ii) only",
       "(ii) and (iii) only",
-      "(i), (ii) and (iii)",
-      "(i) only"
-    ],
-    correct: 2,
+      "(i) only",
+      "(i), (ii) and (iii)"
+    ], correct: 3,
     explanation: "All three adaptations are present — needle-like leaves (reduced surface area), thick cuticle and sunken stomata — all help reduce water loss in gymnosperms."
   },
   {
@@ -2485,12 +2369,11 @@ var allQuestions = [
     topic: "Gymnosperms",
     q: "Gymnosperms are:",
     options: [
-      "Homosporous",
       "Heterosporous",
+      "Homosporous",
       "Non-sporous",
       "Sometimes homosporous, sometimes heterosporous"
-    ],
-    correct: 1,
+    ], correct: 0,
     explanation: "Gymnosperms are heterosporous — they produce haploid microspores and megaspores."
   },
   {
@@ -2499,11 +2382,10 @@ var allQuestions = [
     q: "The sporophylls in gymnosperms are arranged spirally along an axis to form:",
     options: [
       "Sori",
-      "Gemma cups",
       "Strobili or cones",
+      "Gemma cups",
       "Prothallus"
-    ],
-    correct: 2,
+    ], correct: 1,
     explanation: "Sporophylls are arranged spirally along an axis to form lax or compact strobili or cones in gymnosperms."
   },
   {
@@ -2512,11 +2394,10 @@ var allQuestions = [
     q: "The microsporangiate strobili are also called:",
     options: [
       "Female cones",
-      "Male strobili",
       "Megasporangiate cones",
+      "Male strobili",
       "Archegonial cones"
-    ],
-    correct: 1,
+    ], correct: 2,
     explanation: "Strobili bearing microsporophylls and microsporangia are called microsporangiate or male strobili."
   },
   {
@@ -2526,10 +2407,9 @@ var allQuestions = [
     options: [
       "Prothallus",
       "Protonema",
-      "Pollen grain",
-      "Archegonium"
-    ],
-    correct: 2,
+      "Archegonium",
+      "Pollen grain"
+    ], correct: 3,
     explanation: "The microspores develop into a highly reduced male gametophytic generation confined to a limited number of cells — called a pollen grain."
   },
   {
@@ -2537,12 +2417,11 @@ var allQuestions = [
     topic: "Gymnosperms",
     q: "Development of pollen grains in gymnosperms takes place within the:",
     options: [
-      "Megasporangia",
       "Microsporangia",
+      "Megasporangia",
       "Archegonia",
       "Nucellus"
-    ],
-    correct: 1,
+    ], correct: 0,
     explanation: "The development of pollen grains takes place within the microsporangia, which are borne on microsporophylls of male cones."
   },
   {
@@ -2564,11 +2443,10 @@ var allQuestions = [
     q: "In <b>Pinus</b>, the male and female cones are borne:",
     options: [
       "On different trees",
-      "On the same tree",
       "Only male cones are present",
+      "On the same tree",
       "Only female cones are present"
-    ],
-    correct: 1,
+    ], correct: 2,
     explanation: "In Pinus, the male or female cones or strobili may be borne on the same tree (monoecious condition)."
   },
   {
@@ -2577,11 +2455,10 @@ var allQuestions = [
     q: "In <b>Cycas</b>, the male cones and megasporophylls are borne on:",
     options: [
       "The same tree",
-      "Different trees",
+      "Underground structures",
       "Same cone",
-      "Underground structures"
-    ],
-    correct: 1,
+      "Different trees"
+    ], correct: 3,
     explanation: "In Cycas, male cones and megasporophylls are borne on different trees (dioecious condition). This contrasts with Pinus where both are on the same tree."
   },
   {
@@ -2602,12 +2479,11 @@ var allQuestions = [
     topic: "Gymnosperms",
     q: "The megaspore mother cell in gymnosperms is differentiated from one of the cells of the:",
     options: [
-      "Integument",
       "Nucellus",
+      "Integument",
       "Archegonium",
       "Microsporangium"
-    ],
-    correct: 1,
+    ], correct: 0,
     explanation: "The megaspore mother cell is differentiated from one of the cells of the nucellus. The nucellus is protected by envelopes and the composite structure is called an ovule."
   },
   {
@@ -2654,12 +2530,11 @@ var allQuestions = [
     topic: "Gymnosperms",
     q: "The multicellular female gametophyte in gymnosperms bears:",
     options: [
-      "Antheridia only",
       "Two or more archegonia",
+      "Antheridia only",
       "Gemma cups",
       "Zoospores"
-    ],
-    correct: 1,
+    ], correct: 0,
     explanation: "The female gametophyte bears two or more archegonia or female sex organs. It is retained within the megasporangium."
   },
   {
@@ -2668,11 +2543,10 @@ var allQuestions = [
     q: "Unlike bryophytes and pteridophytes, in gymnosperms the male and female gametophytes:",
     options: [
       "Are large and conspicuous",
-      "Have independent free-living existence",
       "Do not have independent free-living existence and remain within sporangia on sporophytes",
+      "Have independent free-living existence",
       "Are always found in aquatic habitats"
-    ],
-    correct: 2,
+    ], correct: 1,
     explanation: "In gymnosperms, both male and female gametophytes do not have an independent free-living existence. They remain within the sporangia retained on the sporophytes — a key difference from bryophytes and pteridophytes."
   },
   {
@@ -2694,11 +2568,10 @@ var allQuestions = [
     q: "After pollination in gymnosperms, the pollen tube:",
     options: [
       "Grows towards the stigma",
-      "Grows towards archegonia in the ovules and discharges contents near the mouth of archegonia",
+      "Develops into a prothallus",
       "Directly releases spores into the megasporangium",
-      "Develops into a prothallus"
-    ],
-    correct: 1,
+      "Grows towards archegonia in the ovules and discharges contents near the mouth of archegonia"
+    ], correct: 3,
     explanation: "The pollen tube carrying male gametes grows towards archegonia in the ovules and discharges their contents near the mouth of the archegonia. There is no stigma in gymnosperms."
   },
   {
@@ -2706,12 +2579,11 @@ var allQuestions = [
     topic: "Gymnosperms",
     q: "Following fertilisation in gymnosperms:",
     options: [
-      "Zygote develops into an embryo and ovules develop into naked seeds",
       "Zygote develops into a gametophyte",
+      "Zygote develops into an embryo and ovules develop into naked seeds",
       "Ovules develop into fruits",
       "Seeds are enclosed within an ovary wall"
-    ],
-    correct: 0,
+    ], correct: 1,
     explanation: "After fertilisation, the zygote develops into an embryo and ovules into seeds. These seeds are not covered (naked) — the defining feature of gymnosperms."
   },
   {
@@ -2719,12 +2591,11 @@ var allQuestions = [
     topic: "Gymnosperms",
     q: "Consider the following statements:<br>(i) Gymnosperms include medium-sized trees, tall trees and shrubs<br>(ii) The roots are generally tap roots<br>(iii) Leaves may be simple or compound<br>(iv) All gymnosperms are herbaceous",
     options: [
-      "(i), (ii) and (iii) only",
-      "(i), (ii), (iii) and (iv)",
       "(iv) only",
+      "(i), (ii), (iii) and (iv)",
+      "(i), (ii) and (iii) only",
       "(i) and (ii) only"
-    ],
-    correct: 0,
+    ], correct: 2,
     explanation: "Statements (i), (ii) and (iii) are correct. Statement (iv) is wrong — gymnosperms include medium-sized trees or tall trees and shrubs, not herbs."
   },
   {
@@ -2772,11 +2643,10 @@ var allQuestions = [
     q: "Select the <b>incorrect</b> statement about gymnosperms:",
     options: [
       "They are heterosporous",
-      "Ovules are enclosed within an ovary wall",
       "Seeds are naked",
+      "Ovules are enclosed within an ovary wall",
       "Sporophylls are arranged to form cones"
-    ],
-    correct: 1,
+    ], correct: 2,
     explanation: "Ovules in gymnosperms are NOT enclosed by any ovary wall — they remain exposed. This is the defining feature that makes their seeds 'naked'. All other statements are correct."
   },
   {
@@ -2784,12 +2654,11 @@ var allQuestions = [
     topic: "Gymnosperms",
     q: "Match the following root associations with the correct gymnosperm:<br>(a) Mycorrhiza – (i) Cycas<br>(b) Coralloid roots with cyanobacteria – (ii) Pinus",
     options: [
-      "a-(ii), b-(i)",
+      "a-(ii), b-(ii)",
       "a-(i), b-(ii)",
       "a-(i), b-(i)",
-      "a-(ii), b-(ii)"
-    ],
-    correct: 0,
+      "a-(ii), b-(i)"
+    ], correct: 3,
     explanation: "Mycorrhiza (fungal association) is found in Pinus (ii). Coralloid roots associated with N₂-fixing cyanobacteria are found in Cycas (i)."
   },
   {
@@ -2798,11 +2667,10 @@ var allQuestions = [
     q: "The female gametophyte in gymnosperms is retained within the:",
     options: [
       "Microsporangium",
-      "Pollen grain",
       "Megasporangium",
+      "Pollen grain",
       "Strobilus"
-    ],
-    correct: 2,
+    ], correct: 1,
     explanation: "The multicellular female gametophyte is retained within the megasporangium (ovule). It does not have a free-living existence."
   },
   {
@@ -2837,11 +2705,10 @@ var allQuestions = [
     q: "In gymnosperms, the male gametophytic generation is:",
     options: [
       "Highly elaborate with many cells",
-      "Highly reduced and confined to a limited number of cells",
+      "A multicellular protonema",
       "A large, free-living prothallus",
-      "A multicellular protonema"
-    ],
-    correct: 1,
+      "Highly reduced and confined to a limited number of cells"
+    ], correct: 3,
     explanation: "The male gametophyte in gymnosperms is highly reduced and confined to only a limited number of cells. This reduced gametophyte is the pollen grain."
   },
   {
@@ -2877,10 +2744,9 @@ var allQuestions = [
     options: [
       "Water medium",
       "Insect vectors",
-      "Air currents reaching the opening of ovules on megasporophylls",
-      "Underground root connections"
-    ],
-    correct: 2,
+      "Underground root connections",
+      "Air currents reaching the opening of ovules on megasporophylls"
+    ], correct: 3,
     explanation: "Pollen grains are carried by air currents and come in contact with the opening of ovules borne on megasporophylls. Gymnosperms are wind-pollinated."
   },
   {
@@ -2889,11 +2755,10 @@ var allQuestions = [
     q: "Consider the following about <b>heterospory</b> in gymnosperms:<br>(i) Microspores develop into pollen grains<br>(ii) Megaspores develop into female gametophyte<br>(iii) Both types of spores are produced within sporangia<br>(iv) Sporangia are borne on sporophylls",
     options: [
       "(i) and (ii) only",
-      "(i), (ii) and (iii) only",
       "(i), (ii), (iii) and (iv)",
+      "(i), (ii) and (iii) only",
       "(iii) and (iv) only"
-    ],
-    correct: 2,
+    ], correct: 1,
     explanation: "All four statements are correct. Gymnosperms are heterosporous; microspores become pollen grains, megaspores give rise to female gametophytes, both spore types form in sporangia on sporophylls."
   },
   {
@@ -2903,10 +2768,9 @@ var allQuestions = [
     options: [
       "Pinus — Branched stem, mycorrhiza",
       "Cycas — Unbranched stem, coralloid roots",
-      "Cedrus — Branched stem",
-      "Sequoia — Unbranched stem, coralloid roots"
-    ],
-    correct: 3,
+      "Sequoia — Unbranched stem, coralloid roots",
+      "Cedrus — Branched stem"
+    ], correct: 2,
     explanation: "Sequoia (giant redwood) is described as one of the tallest tree species. Unbranched stem and coralloid roots are specifically described for Cycas, not Sequoia."
   },
   {
@@ -2916,10 +2780,9 @@ var allQuestions = [
     options: [
       "Increase rate of photosynthesis",
       "Increase water absorption",
-      "Reduce water loss",
-      "Facilitate gas exchange during rain"
-    ],
-    correct: 2,
+      "Facilitate gas exchange during rain",
+      "Reduce water loss"
+    ], correct: 3,
     explanation: "Sunken stomata (stomata located in pits below the leaf surface) create a humid microenvironment that reduces the rate of transpiration (water loss)."
   },
   {
@@ -2941,11 +2804,10 @@ var allQuestions = [
     q: "Which of the following features is shared by <b>both</b> pteridophytes and gymnosperms?",
     options: [
       "Free-living gametophyte",
-      "Heterospory in all members",
       "Presence of archegonia",
+      "Heterospory in all members",
       "Seed formation"
-    ],
-    correct: 2,
+    ], correct: 1,
     explanation: "Both pteridophytes and gymnosperms possess archegonia (female sex organs). Free-living gametophytes are found in pteridophytes but NOT in gymnosperms. Not all pteridophytes are heterosporous. Seed formation is found in gymnosperms but not in pteridophytes."
   },
   {
@@ -2954,11 +2816,10 @@ var allQuestions = [
     q: "How many archegonia are typically present in the female gametophyte of gymnosperms?",
     options: [
       "Only one",
-      "Two or more",
       "Exactly ten",
+      "Two or more",
       "Archegonia are absent"
-    ],
-    correct: 1,
+    ], correct: 2,
     explanation: "The multicellular female gametophyte in gymnosperms bears two or more archegonia or female sex organs."
   },
   {
@@ -2966,12 +2827,11 @@ var allQuestions = [
     topic: "Gymnosperms",
     q: "Consider the following statements:<br>Statement I: In Pinus, male and female cones are borne on the same tree.<br>Statement II: In Cycas, male cones and megasporophylls are borne on the same tree.<br>Which is/are correct?",
     options: [
-      "Only Statement I",
+      "Neither Statement I nor Statement II",
       "Only Statement II",
       "Both Statements I and II",
-      "Neither Statement I nor Statement II"
-    ],
-    correct: 0,
+      "Only Statement I"
+    ], correct: 3,
     explanation: "Only Statement I is correct. In Pinus, male and female cones are on the same tree (monoecious). In Cycas, they are on different trees (dioecious) — so Statement II is wrong."
   },
   {
@@ -3006,11 +2866,10 @@ var allQuestions = [
     q: "In gymnosperms, the two kinds of spores are produced within sporangia that are borne on:",
     options: [
       "Rhizoids",
-      "Sporophylls arranged spirally along an axis",
       "Prothallus",
+      "Sporophylls arranged spirally along an axis",
       "Gemma cups"
-    ],
-    correct: 1,
+    ], correct: 2,
     explanation: "Sporangia bearing microspores and megaspores are borne on sporophylls, which are arranged spirally along an axis to form lax or compact strobili or cones."
   },
   {
@@ -3019,11 +2878,10 @@ var allQuestions = [
     q: "The strobili bearing microsporophylls and microsporangia are called:",
     options: [
       "Macrosporangiate or female strobili",
-      "Microsporangiate or male strobili",
+      "Archegoniate strobili",
       "Megasporangiate or bisexual strobili",
-      "Archegoniate strobili"
-    ],
-    correct: 1,
+      "Microsporangiate or male strobili"
+    ], correct: 3,
     explanation: "Strobili bearing microsporophylls and microsporangia are called microsporangiate or male strobili. Those bearing megasporophylls with ovules are macrosporangiate or female strobili."
   },
   {
@@ -3057,12 +2915,11 @@ var allQuestions = [
     topic: "Gymnosperm Reproduction",
     q: "Consider the following statements:<br>(i) In Pinus, male and female cones are borne on the same tree<br>(ii) In Cycas, male cones and megasporophylls are borne on different trees<br>(iii) In Cycas, male cones and megasporophylls are borne on the same tree<br>Which of the above is/are correct?",
     options: [
-      "(i) and (ii) only",
+      "(ii) and (iii) only",
       "(i) and (iii) only",
       "(i), (ii) and (iii)",
-      "(ii) and (iii) only"
-    ],
-    correct: 0,
+      "(i) and (ii) only"
+    ], correct: 3,
     explanation: "Statements (i) and (ii) are correct. Pinus is monoecious (both cones on same tree), while Cycas is dioecious (male cones and megasporophylls on different trees). Statement (iii) is wrong."
   },
   {
@@ -3071,11 +2928,10 @@ var allQuestions = [
     q: "The megaspore mother cell in gymnosperms is differentiated from one of the cells of the:",
     options: [
       "Integument",
-      "Archegonium",
       "Nucellus",
+      "Archegonium",
       "Microsporangium"
-    ],
-    correct: 2,
+    ], correct: 1,
     explanation: "The megaspore mother cell is differentiated from one of the cells of the nucellus. The nucellus, protected by envelopes (integuments), forms the composite structure called an ovule."
   },
   {
@@ -3084,11 +2940,10 @@ var allQuestions = [
     q: "The composite structure called an <b>ovule</b> in gymnosperms consists of:",
     options: [
       "Only the megaspore mother cell",
-      "Nucellus protected by envelopes (integuments)",
       "Only the integuments",
+      "Nucellus protected by envelopes (integuments)",
       "Microsporangium and nucellus"
-    ],
-    correct: 1,
+    ], correct: 2,
     explanation: "The nucellus is protected by envelopes (integuments) and this composite structure is called an ovule. Ovules are borne on megasporophylls."
   },
   {
@@ -3098,10 +2953,9 @@ var allQuestions = [
     options: [
       "Two megaspores",
       "Three megaspores",
-      "Four megaspores",
-      "Eight megaspores"
-    ],
-    correct: 2,
+      "Eight megaspores",
+      "Four megaspores"
+    ], correct: 3,
     explanation: "The megaspore mother cell divides meiotically to form four megaspores. Only one of them develops into a multicellular female gametophyte."
   },
   {
@@ -3110,11 +2964,10 @@ var allQuestions = [
     q: "Out of four megaspores formed after meiosis in gymnosperms, how many develop into the female gametophyte?",
     options: [
       "All four",
-      "Three",
+      "One",
       "Two",
-      "One"
-    ],
-    correct: 3,
+      "Three"
+    ], correct: 1,
     explanation: "Only one of the four megaspores, enclosed within the megasporangium, develops into a multicellular female gametophyte that bears two or more archegonia."
   },
   {
@@ -3149,11 +3002,10 @@ var allQuestions = [
     q: "The pollen tube in gymnosperms grows towards the archegonia in the ovules and:",
     options: [
       "Releases spores near the archegonia",
-      "Discharges male gametes near the mouth of the archegonia",
+      "Forms a new sporophyte directly",
       "Produces female gametes",
-      "Forms a new sporophyte directly"
-    ],
-    correct: 1,
+      "Discharges male gametes near the mouth of the archegonia"
+    ], correct: 3,
     explanation: "The pollen tube carrying male gametes grows towards archegonia in the ovules and discharges their contents near the mouth of the archegonia, facilitating fertilisation."
   },
   {
@@ -3174,12 +3026,11 @@ var allQuestions = [
     topic: "Gymnosperm Reproduction",
     q: "Which of the following represents the <b>correct sequence</b> of events in gymnosperm reproduction?",
     options: [
-      "Pollination → Pollen tube formation → Male gamete discharge near archegonia → Fertilisation → Embryo → Seed",
-      "Fertilisation → Pollination → Embryo → Seed → Pollen tube",
       "Seed → Pollination → Fertilisation → Embryo → Pollen tube",
+      "Fertilisation → Pollination → Embryo → Seed → Pollen tube",
+      "Pollination → Pollen tube formation → Male gamete discharge near archegonia → Fertilisation → Embryo → Seed",
       "Pollen tube → Pollination → Archegonia → Seed → Embryo"
-    ],
-    correct: 0,
+    ], correct: 2,
     explanation: "The correct sequence: Pollen grains reach ovules via air currents (pollination) → pollen tube grows towards archegonia → male gametes discharged near mouth of archegonia → fertilisation → zygote → embryo → ovule becomes seed."
   },
   {
@@ -3201,11 +3052,10 @@ var allQuestions = [
     q: "Kingdom Plantae includes:<br>(i) Algae<br>(ii) Bryophytes<br>(iii) Pteridophytes<br>(iv) Gymnosperms<br>(v) Angiosperms<br>(vi) Fungi",
     options: [
       "(i), (ii), (iii), (iv), (v) and (vi)",
-      "(i), (ii), (iii), (iv) and (v) only",
+      "(iv) and (v) only",
       "(i), (ii) and (iii) only",
-      "(iv) and (v) only"
-    ],
-    correct: 1,
+      "(i), (ii), (iii), (iv) and (v) only"
+    ], correct: 3,
     explanation: "Plant Kingdom includes algae, bryophytes, pteridophytes, gymnosperms and angiosperms. Fungi are excluded from Plantae in modern classification."
   },
   {
@@ -3227,11 +3077,10 @@ var allQuestions = [
     q: "Algae are classified into three classes based on:<br>(i) Type of pigment possessed<br>(ii) Type of stored food<br>(iii) Number of flagella<br>Select the correct option:",
     options: [
       "(i) only",
-      "(i) and (ii) only",
       "(i), (ii) and (iii)",
+      "(i) and (ii) only",
       "(iii) only"
-    ],
-    correct: 1,
+    ], correct: 2,
     explanation: "According to the NCERT summary, algae are classified into Chlorophyceae, Phaeophyceae and Rhodophyceae based on the type of pigment possessed and the type of stored food."
   },
   {
@@ -3240,11 +3089,10 @@ var allQuestions = [
     q: "Which of the following correctly describes <b>bryophytes</b>?",
     options: [
       "Plants with true roots, stems and leaves that are fully aquatic",
-      "Plants that can live in soil but are dependent on water for sexual reproduction",
+      "Naked-seeded plants with cones",
       "Plants with vascular tissues and independent sporophyte",
-      "Naked-seeded plants with cones"
-    ],
-    correct: 1,
+      "Plants that can live in soil but are dependent on water for sexual reproduction"
+    ], correct: 3,
     explanation: "Bryophytes are plants that can live in soil but depend on water for sexual reproduction. They lack true roots, stems and leaves and lack vascular tissues."
   },
   {
@@ -3266,11 +3114,10 @@ var allQuestions = [
     q: "In bryophytes, the main plant body is called a <b>gametophyte</b> because it:",
     options: [
       "Produces spores",
-      "Produces gametes",
       "Develops from the zygote",
+      "Produces gametes",
       "Bears sporangia"
-    ],
-    correct: 1,
+    ], correct: 2,
     explanation: "The main plant body of bryophytes is gamete-producing, hence called a gametophyte. It bears antheridia (male sex organs) and archegonia (female sex organs)."
   },
   {
@@ -3279,11 +3126,10 @@ var allQuestions = [
     q: "Consider the following about pteridophytes:<br>(i) The main plant is a sporophyte<br>(ii) It is differentiated into true root, stem and leaves<br>(iii) These organs possess well-differentiated vascular tissues<br>(iv) The gametophytes require hot, dry places to grow",
     options: [
       "(i), (ii), (iii) and (iv)",
-      "(i), (ii) and (iii) only",
+      "(iv) only",
       "(i) and (iv) only",
-      "(iv) only"
-    ],
-    correct: 1,
+      "(i), (ii) and (iii) only"
+    ], correct: 3,
     explanation: "Statements (i), (ii) and (iii) are correct. Statement (iv) is wrong — gametophytes of pteridophytes require cool, damp places to grow, not hot dry places."
   },
   {
@@ -3292,11 +3138,10 @@ var allQuestions = [
     q: "Water is required for transfer of male gametes to archegonium in:",
     options: [
       "Only bryophytes",
-      "Only pteridophytes",
       "Both bryophytes and pteridophytes",
+      "Only pteridophytes",
       "Bryophytes, pteridophytes and gymnosperms"
-    ],
-    correct: 2,
+    ], correct: 1,
     explanation: "Both bryophytes and pteridophytes require water for the transfer of male gametes (antherozoids) to the archegonium. Gymnosperms do not require water — male gametes are carried by pollen tubes."
   },
   {
@@ -3332,10 +3177,9 @@ var allQuestions = [
     options: [
       "Antheridia",
       "Microsporangia",
-      "Archegonia",
-      "Megasporangia wall"
-    ],
-    correct: 2,
+      "Megasporangia wall",
+      "Archegonia"
+    ], correct: 3,
     explanation: "The pollen tube carries male gametes to the archegonia in the ovule, where the male gamete fuses with the egg cell."
   },
   {
@@ -3344,11 +3188,10 @@ var allQuestions = [
     q: "Angiosperms are divided into:",
     options: [
       "Gymnosperms and pteridophytes",
-      "Liverworts and mosses",
       "Dicotyledons and monocotyledons",
+      "Liverworts and mosses",
       "Chlorophyceae and Rhodophyceae"
-    ],
-    correct: 2,
+    ], correct: 1,
     explanation: "Angiosperms are divided into two classes — the dicotyledons and the monocotyledons."
   },
   {
@@ -3357,11 +3200,10 @@ var allQuestions = [
     q: "Arrange the following plant groups in <b>increasing order of body complexity</b>:",
     options: [
       "Pteridophytes → Algae → Bryophytes → Gymnosperms → Angiosperms",
-      "Algae → Bryophytes → Pteridophytes → Gymnosperms → Angiosperms",
       "Bryophytes → Algae → Gymnosperms → Pteridophytes → Angiosperms",
+      "Algae → Bryophytes → Pteridophytes → Gymnosperms → Angiosperms",
       "Angiosperms → Gymnosperms → Pteridophytes → Bryophytes → Algae"
-    ],
-    correct: 1,
+    ], correct: 2,
     explanation: "The correct evolutionary order of increasing complexity: Algae (simplest, thalloid) → Bryophytes (more differentiated, no vascular tissue) → Pteridophytes (true organs, vascular tissue) → Gymnosperms (seeds, no fruit) → Angiosperms (seeds within fruits)."
   },
   {
@@ -3369,12 +3211,11 @@ var allQuestions = [
     topic: "Plant Kingdom Summary – Comparative",
     q: "Match the plant group with the <b>dominant phase</b> in their life cycle:<br>(a) Bryophytes – (i) Sporophyte<br>(b) Pteridophytes – (ii) Gametophyte<br>(c) Gymnosperms – (iii) Sporophyte",
     options: [
-      "a-(ii), b-(i), c-(iii)",
+      "a-(iii), b-(ii), c-(i)",
       "a-(i), b-(ii), c-(iii)",
       "a-(ii), b-(iii), c-(i)",
-      "a-(iii), b-(ii), c-(i)"
-    ],
-    correct: 0,
+      "a-(ii), b-(i), c-(iii)"
+    ], correct: 3,
     explanation: "Bryophytes — gametophyte dominant (ii); Pteridophytes — sporophyte dominant (i); Gymnosperms — sporophyte dominant (iii)."
   },
   {
@@ -3383,11 +3224,10 @@ var allQuestions = [
     q: "Which of the following is the <b>first</b> group of plants to possess vascular tissues?",
     options: [
       "Algae",
-      "Bryophytes",
       "Pteridophytes",
+      "Bryophytes",
       "Gymnosperms"
-    ],
-    correct: 2,
+    ], correct: 1,
     explanation: "Pteridophytes are the first terrestrial plants to possess well-differentiated vascular tissues (xylem and phloem)."
   },
   {
@@ -3396,11 +3236,10 @@ var allQuestions = [
     q: "Which of the following groups has <b>true roots, stems and leaves</b>?<br>(i) Algae<br>(ii) Bryophytes<br>(iii) Pteridophytes<br>(iv) Gymnosperms",
     options: [
       "(i) and (ii) only",
-      "(iii) and (iv) only",
       "(i), (ii), (iii) and (iv)",
+      "(iii) and (iv) only",
       "(ii) and (iii) only"
-    ],
-    correct: 1,
+    ], correct: 2,
     explanation: "Only pteridophytes and gymnosperms (and angiosperms) have true roots, stems and leaves. Algae have a thalloid body. Bryophytes have root-like, stem-like and leaf-like structures but NOT true roots, stems or leaves."
   },
   {
@@ -3410,10 +3249,9 @@ var allQuestions = [
     options: [
       "Only Statement I",
       "Only Statement II",
-      "Both Statements I and II",
-      "Neither Statement I nor Statement II"
-    ],
-    correct: 2,
+      "Neither Statement I nor Statement II",
+      "Both Statements I and II"
+    ], correct: 3,
     explanation: "Both are correct. In bryophytes, the sporophyte produces haploid spores that germinate to form gametophytes. In pteridophytes, the sporophyte bears sporangia that produce spores, which germinate to form gametophytes."
   },
   {
@@ -3422,11 +3260,10 @@ var allQuestions = [
     q: "Select the group in which <b>seeds are produced</b>:",
     options: [
       "Bryophytes and pteridophytes",
-      "Algae and bryophytes",
       "Gymnosperms and angiosperms",
+      "Algae and bryophytes",
       "Pteridophytes and gymnosperms"
-    ],
-    correct: 2,
+    ], correct: 1,
     explanation: "Seeds are produced only in gymnosperms and angiosperms. Algae, bryophytes and pteridophytes do not produce seeds — they reproduce by spores."
   },
   {
@@ -3448,11 +3285,10 @@ var allQuestions = [
     q: "Which plant group shows the <b>most primitive</b> body organisation?",
     options: [
       "Bryophytes",
-      "Algae",
       "Pteridophytes",
+      "Algae",
       "Gymnosperms"
-    ],
-    correct: 1,
+    ], correct: 2,
     explanation: "Algae have the most primitive body organisation — simple, thalloid bodies without any differentiation into root, stem or leaf-like structures (though some show slight differentiation)."
   },
   {
@@ -3462,10 +3298,9 @@ var allQuestions = [
     options: [
       "Algae — rhizoids; Bryophytes — holdfasts; Pteridophytes — true roots",
       "Algae — true roots; Bryophytes — rhizoids; Pteridophytes — rhizoids",
-      "Bryophytes — rhizoids; Pteridophytes — true roots; Gymnosperms — tap roots",
-      "All groups have true roots"
-    ],
-    correct: 2,
+      "All groups have true roots",
+      "Bryophytes — rhizoids; Pteridophytes — true roots; Gymnosperms — tap roots"
+    ], correct: 3,
     explanation: "Bryophytes are attached by rhizoids (unicellular or multicellular). Pteridophytes have true roots. Gymnosperms generally have tap roots. Algae may be attached by holdfasts (in some forms)."
   },
   {
@@ -3474,11 +3309,10 @@ var allQuestions = [
     q: "In which of the following plant groups are <b>both antheridia and archegonia</b> present?<br>(i) Bryophytes<br>(ii) Pteridophytes<br>(iii) Gymnosperms",
     options: [
       "(i) only",
-      "(i) and (ii) only",
       "(i), (ii) and (iii)",
+      "(i) and (ii) only",
       "(ii) and (iii) only"
-    ],
-    correct: 2,
+    ], correct: 1,
     explanation: "Antheridia and archegonia are present in bryophytes, pteridophytes and gymnosperms (all three). In gymnosperms, archegonia are present in the female gametophyte within the ovule."
   },
   {
@@ -3500,11 +3334,10 @@ var allQuestions = [
     q: "The <b>zygote</b> in bryophytes develops into:",
     options: [
       "A free-living gametophyte",
-      "A multicellular body called sporophyte",
       "Haploid spores directly",
+      "A multicellular body called sporophyte",
       "A prothallus"
-    ],
-    correct: 1,
+    ], correct: 2,
     explanation: "In bryophytes, male and female gametes fuse to form a zygote, which produces a multicellular body called a sporophyte. The sporophyte then produces haploid spores."
   },
   {
@@ -3513,11 +3346,10 @@ var allQuestions = [
     q: "In pteridophytes, spores germinate to form gametophytes which require:",
     options: [
       "Hot, dry places",
-      "Cool, damp places",
+      "Direct sunlight only",
       "Deep ocean water",
-      "Direct sunlight only"
-    ],
-    correct: 1,
+      "Cool, damp places"
+    ], correct: 3,
     explanation: "The gametophytes (prothallus) of pteridophytes require cool, damp places to grow. This is one reason for the limited geographical distribution of pteridophytes."
   },
   {
@@ -3552,11 +3384,10 @@ var allQuestions = [
     q: "Which of the following correctly traces the <b>progressive reduction of gametophyte</b> across plant groups?",
     options: [
       "Algae (reduced) → Bryophytes (dominant) → Pteridophytes (free-living, small) → Gymnosperms (retained, not free-living)",
-      "Bryophytes (dominant) → Pteridophytes (free-living, small) → Gymnosperms (retained, not free-living)",
       "Gymnosperms (dominant) → Pteridophytes (reduced) → Bryophytes (absent)",
+      "Bryophytes (dominant) → Pteridophytes (free-living, small) → Gymnosperms (retained, not free-living)",
       "Pteridophytes (dominant) → Bryophytes (reduced) → Gymnosperms (absent)"
-    ],
-    correct: 1,
+    ], correct: 2,
     explanation: "The gametophyte shows progressive reduction: Bryophytes (dominant, independent) → Pteridophytes (free-living but small, inconspicuous) → Gymnosperms (highly reduced, not free-living, retained within sporangia)."
   },
   {
@@ -3566,10 +3397,9 @@ var allQuestions = [
     options: [
       "Presence of vascular tissues",
       "Production of seeds",
-      "Alternation of generations",
-      "Presence of true roots"
-    ],
-    correct: 2,
+      "Presence of true roots",
+      "Alternation of generations"
+    ], correct: 3,
     explanation: "Alternation of generations (between gametophytic and sporophytic phases) is common to all plant groups. Vascular tissues start from pteridophytes, seeds from gymnosperms, and true roots from pteridophytes."
   },
   {
@@ -3578,11 +3408,10 @@ var allQuestions = [
     q: "Consider the following comparisons:<br>(i) Algae reproduce vegetatively by fragmentation<br>(ii) Bryophytes reproduce asexually by spore formation in the sporophyte<br>(iii) Pteridophytes produce spores by meiosis in sporangia<br>(iv) Gymnosperms produce microspores and megaspores<br>Which of the above is/are correct?",
     options: [
       "(i) and (ii) only",
-      "(i), (ii) and (iii) only",
       "(i), (ii), (iii) and (iv)",
+      "(i), (ii) and (iii) only",
       "(iii) and (iv) only"
-    ],
-    correct: 2,
+    ], correct: 1,
     explanation: "All four statements are correct as per NCERT. Algae reproduce vegetatively by fragmentation, bryophyte sporophytes produce spores, pteridophyte sporangia produce spores by meiosis, and gymnosperms produce both microspores and megaspores."
   },
   {
@@ -3590,12 +3419,11 @@ var allQuestions = [
     topic: "Plant Kingdom Summary – Comparative",
     q: "Match the following plant groups with the type of body differentiation:<br>(a) Algae – (i) True root, stem and leaves with vascular tissue<br>(b) Bryophytes – (ii) Simple, thalloid<br>(c) Pteridophytes – (iii) Root-like, stem-like, leaf-like structures without vascular tissue",
     options: [
-      "a-(ii), b-(iii), c-(i)",
-      "a-(iii), b-(ii), c-(i)",
       "a-(i), b-(ii), c-(iii)",
+      "a-(iii), b-(ii), c-(i)",
+      "a-(ii), b-(iii), c-(i)",
       "a-(ii), b-(i), c-(iii)"
-    ],
-    correct: 0,
+    ], correct: 2,
     explanation: "Algae — simple, thalloid (ii); Bryophytes — root-like, stem-like, leaf-like structures without vascular tissue (iii); Pteridophytes — true root, stem and leaves with vascular tissue (i)."
   },
   {
@@ -3618,10 +3446,9 @@ var allQuestions = [
     options: [
       "Pteridophytes",
       "Gymnosperms",
-      "Bryophytes",
-      "Angiosperms"
-    ],
-    correct: 2,
+      "Angiosperms",
+      "Bryophytes"
+    ], correct: 3,
     explanation: "In bryophytes, the sporophyte is not free-living and is attached to the photosynthetic gametophyte, deriving nourishment from it. In pteridophytes and gymnosperms, the sporophyte is independent and dominant."
   },
   {
@@ -3642,12 +3469,11 @@ var allQuestions = [
     topic: "Plant Kingdom Summary – Comparative",
     q: "Select the correct order of the appearance of the following features during plant evolution:<br>(i) Vascular tissues<br>(ii) Seeds<br>(iii) Flowers and fruits<br>(iv) Rhizoids for attachment",
     options: [
-      "(iv) → (i) → (ii) → (iii)",
-      "(i) → (iv) → (ii) → (iii)",
       "(iii) → (ii) → (i) → (iv)",
+      "(i) → (iv) → (ii) → (iii)",
+      "(iv) → (i) → (ii) → (iii)",
       "(iv) → (ii) → (i) → (iii)"
-    ],
-    correct: 0,
+    ], correct: 2,
     explanation: "Evolutionary order: Rhizoids (bryophytes, iv) → Vascular tissues (pteridophytes, i) → Seeds (gymnosperms, ii) → Flowers and fruits (angiosperms, iii)."
   },
   {
@@ -3657,10 +3483,9 @@ var allQuestions = [
     options: [
       "Presence of vascular tissues",
       "Production of seeds",
-      "Seeds enclosed within fruits (ovary wall)",
-      "Presence of archegonia"
-    ],
-    correct: 2,
+      "Presence of archegonia",
+      "Seeds enclosed within fruits (ovary wall)"
+    ], correct: 3,
     explanation: "In angiosperms, seeds are enclosed within fruits (developed from the ovary wall). In gymnosperms, seeds are naked. Vascular tissues and seed production are shared features. Archegonia are absent in angiosperms."
   },
   {
@@ -3695,11 +3520,10 @@ var allQuestions = [
     q: "Which of the following is common to <b>bryophytes, pteridophytes and gymnosperms</b> but <b>absent in algae</b>?",
     options: [
       "Alternation of generations",
-      "Multicellular sex organs (antheridia and archegonia)",
       "Autotrophic nutrition",
+      "Multicellular sex organs (antheridia and archegonia)",
       "Chlorophyll"
-    ],
-    correct: 1,
+    ], correct: 2,
     explanation: "Multicellular sex organs (antheridia and archegonia) are present in bryophytes, pteridophytes and gymnosperms but absent in algae (which generally have unicellular sex organs). Alternation of generations, autotrophic nutrition and chlorophyll are present in all groups."
   },
   {
@@ -3708,11 +3532,10 @@ var allQuestions = [
     q: "Which of the following shows the <b>correct progressive increase</b> in sporophyte independence?",
     options: [
       "Gymnosperms → Pteridophytes → Bryophytes",
-      "Bryophytes (dependent on gametophyte) → Pteridophytes (independent, dominant) → Gymnosperms (independent, dominant, seed-forming)",
+      "Pteridophytes → Bryophytes → Gymnosperms",
       "Algae → Gymnosperms → Bryophytes → Pteridophytes",
-      "Pteridophytes → Bryophytes → Gymnosperms"
-    ],
-    correct: 1,
+      "Bryophytes (dependent on gametophyte) → Pteridophytes (independent, dominant) → Gymnosperms (independent, dominant, seed-forming)"
+    ], correct: 3,
     explanation: "Sporophyte independence increases: Bryophytes (sporophyte dependent on gametophyte) → Pteridophytes (sporophyte independent and dominant) → Gymnosperms (sporophyte dominant, produces seeds, gametophyte fully dependent)."
   },
 
@@ -3723,11 +3546,10 @@ var allQuestions = [
     q: "Angiosperms differ from gymnosperms in having:",
     options: [
       "Pollen grains",
-      "Seeds",
       "Flowers and fruits enclosing seeds",
+      "Seeds",
       "Vascular tissue"
-    ],
-    correct: 2,
+    ], correct: 1,
     explanation: "The defining feature of angiosperms is that the seeds are enclosed within a fruit (ripened ovary), hence also called flowering plants. Gymnosperms also have pollen, seeds, and vascular tissue — but their seeds are naked (not enclosed in fruit)."
   },
   {
@@ -3736,11 +3558,10 @@ var allQuestions = [
     q: "The term 'angiosperm' literally means:",
     options: [
       "Naked seed",
-      "Enclosed seed",
       "Flowering plant only",
+      "Enclosed seed",
       "Vascular plant"
-    ],
-    correct: 1,
+    ], correct: 2,
     explanation: "Angiosperm is derived from Greek: 'angios' = vessel/container and 'sperma' = seed. So angiosperm literally means 'enclosed seed' — seeds are enclosed within a fruit (the ripened ovary). Gymnosperm = 'naked seed.'"
   },
   {
@@ -3748,12 +3569,11 @@ var allQuestions = [
     topic: "Angiosperms",
     q: "Angiosperms are the most dominant plant group on Earth today. Which of the following <b>correctly</b> lists reasons for their success?<br>(i) Presence of flowers for pollination<br>(ii) Seeds enclosed in fruits for dispersal<br>(iii) Vessel elements for efficient water transport<br>(iv) Dependence on water for fertilisation",
     options: [
-      "(i), (ii) and (iii) only",
+      "(i) and (iv) only",
       "(i), (ii), (iii) and (iv)",
       "(iv) only",
-      "(i) and (iv) only"
-    ],
-    correct: 0,
+      "(i), (ii) and (iii) only"
+    ], correct: 3,
     explanation: "Angiosperms' ecological success is attributed to flowers (aid in pollination), enclosed seeds/fruits (aid in dispersal), and vessel elements (for efficient water and mineral transport). Dependence on water for fertilisation is a DISADVANTAGE — angiosperms are independent of water for fertilisation (unlike bryophytes and pteridophytes)."
   },
   {
@@ -3762,11 +3582,10 @@ var allQuestions = [
     q: "Angiosperms are divided into two classes based on the number of cotyledons. Which of the following is <b>incorrect</b>?",
     options: [
       "Monocots have one cotyledon",
-      "Dicots have two cotyledons",
       "Monocots have reticulate venation",
+      "Dicots have two cotyledons",
       "Dicots have tap root system"
-    ],
-    correct: 2,
+    ], correct: 1,
     explanation: "Monocots have parallel venation (NOT reticulate). Reticulate venation is characteristic of dicots. Other statements are correct: monocots have 1 cotyledon, dicots have 2 cotyledons, and dicots typically have tap root systems."
   },
   {
@@ -3802,10 +3621,9 @@ var allQuestions = [
     options: [
       "Diploid (2n), formed from fertilisation of egg",
       "Haploid (n), formed from polar nuclei directly",
-      "Triploid (3n), formed by triple fusion",
-      "Tetraploid (4n), formed by double fertilisation"
-    ],
-    correct: 2,
+      "Tetraploid (4n), formed by double fertilisation",
+      "Triploid (3n), formed by triple fusion"
+    ], correct: 3,
     explanation: "Endosperm is formed by triple fusion — one male gamete (n) + two polar nuclei (n + n) = Primary Endosperm Nucleus (3n = triploid). Endosperm nourishes the developing embryo. This triploid endosperm is unique to angiosperms."
   },
   {
@@ -3840,11 +3658,10 @@ var allQuestions = [
     q: "The fruit in angiosperms is derived from:",
     options: [
       "The ovule after fertilisation",
-      "The ripened ovary after fertilisation",
+      "The pericarp alone",
       "The entire flower after pollination",
-      "The pericarp alone"
-    ],
-    correct: 1,
+      "The ripened ovary after fertilisation"
+    ], correct: 3,
     explanation: "A fruit is a ripened ovary. After fertilisation, the ovary wall (pericarp) develops into the fruit wall, enclosing the seeds (developed from ovules). This enclosure of seeds distinguishes angiosperms from gymnosperms where seeds are naked."
   },
   {
@@ -3853,11 +3670,10 @@ var allQuestions = [
     q: "Consider the following:<br>(i) Angiosperms have vessels in xylem<br>(ii) Gymnosperms have only tracheids in xylem<br>(iii) Angiosperms have companion cells in phloem<br>(iv) Gymnosperms have companion cells in phloem<br><br>How many are correct?",
     options: [
       "One",
-      "Two",
       "Three",
+      "Two",
       "Four"
-    ],
-    correct: 2,
+    ], correct: 1,
     explanation: "(i) CORRECT — angiosperms have vessels (highly efficient water conducting elements). (ii) CORRECT — gymnosperms lack vessels; they have only tracheids. (iii) CORRECT — angiosperm phloem has companion cells. (iv) INCORRECT — gymnosperm phloem lacks companion cells; it has sieve cells but NO companion cells. Three are correct."
   },
   {
@@ -3866,11 +3682,10 @@ var allQuestions = [
     q: "The flower is considered a modified:",
     options: [
       "Vegetative shoot",
-      "Sporophyll-bearing condensed shoot",
       "Leaf",
+      "Sporophyll-bearing condensed shoot",
       "Underground structure"
-    ],
-    correct: 1,
+    ], correct: 2,
     explanation: "A flower is a condensed, modified shoot bearing sporophylls (stamens = microsporophylls; carpels = megasporophylls). This interpretation links the flower to the sporangia-bearing structures of pteridophytes and gymnosperms, reflecting evolutionary continuity."
   },
   {
@@ -3893,10 +3708,9 @@ var allQuestions = [
     options: [
       "(i) and (ii) only",
       "(i), (ii) and (iii) only",
-      "(i), (ii), (iii) and (iv)",
-      "(iii) and (iv) only"
-    ],
-    correct: 2,
+      "(iii) and (iv) only",
+      "(i), (ii), (iii) and (iv)"
+    ], correct: 3,
     explanation: "All four statements are correct. Monocots have fibrous roots, parallel venation, flower parts in multiples of 3, and scattered vascular bundles. Dicots have tap roots, reticulate venation, flower parts in 4s or 5s, and ring-arranged vascular bundles."
   },
   {
@@ -3917,12 +3731,11 @@ var allQuestions = [
     topic: "Angiosperms",
     q: "The embryo sac of a typical angiosperm is:",
     options: [
-      "7-celled and 8-nucleate",
-      "4-celled and 4-nucleate",
       "8-celled and 8-nucleate",
+      "4-celled and 4-nucleate",
+      "7-celled and 8-nucleate",
       "3-celled and 6-nucleate"
-    ],
-    correct: 0,
+    ], correct: 2,
     explanation: "A typical (Polygonum type) angiosperm embryo sac is 7-celled and 8-nucleate: 3 antipodal cells, 2 synergids, 1 egg cell, and 1 central cell with 2 polar nuclei. The central cell thus has 2 nuclei — making 8 nuclei total in 7 cells."
   },
   {
@@ -3945,10 +3758,9 @@ var allQuestions = [
     options: [
       "Pollen grains",
       "Seeds",
-      "Naked ovules (ovules not enclosed in ovary)",
-      "Vascular tissue"
-    ],
-    correct: 2,
+      "Vascular tissue",
+      "Naked ovules (ovules not enclosed in ovary)"
+    ], correct: 3,
     explanation: "Gymnosperms have naked ovules — ovules not enclosed in an ovary. In angiosperms, ovules are enclosed within the ovary. After fertilisation, the ovary becomes the fruit. The enclosed nature of ovules/seeds is the key difference. Pollen grains, seeds, and vascular tissue are present in both."
   },
   {
@@ -3972,11 +3784,10 @@ var allQuestions = [
     q: "Among gymnosperms, which genus contains the vessel elements in its xylem — making it exceptional among gymnosperms?",
     options: [
       "Pinus",
-      "Cycas",
       "Gnetum",
+      "Cycas",
       "Cedrus"
-    ],
-    correct: 2,
+    ], correct: 1,
     explanation: "Gnetum is exceptional among gymnosperms in possessing vessel elements in its xylem, a feature typically associated with angiosperms. Most other gymnosperms (Pinus, Cycas) have only tracheids. This is an important NEET distinction."
   },
   {
@@ -3985,11 +3796,10 @@ var allQuestions = [
     q: "The coralloid roots of Cycas contain:",
     options: [
       "Mycorrhizal fungi for mineral absorption",
-      "Nitrogen-fixing cyanobacteria (Anabaena, Nostoc)",
       "Parasitic nematodes",
+      "Nitrogen-fixing cyanobacteria (Anabaena, Nostoc)",
       "Rhizobium bacteria for nitrogen fixation"
-    ],
-    correct: 1,
+    ], correct: 2,
     explanation: "NCERT states that Cycas has special coralloid roots which contain N₂-fixing cyanobacteria such as Anabaena and Nostoc. This nitrogen fixation provides the plant with usable nitrogen. Rhizobium is found in legumes (dicots), not gymnosperms."
   },
   {
@@ -4010,12 +3820,11 @@ var allQuestions = [
     topic: "Gymnosperms",
     q: "The microsporophylls and megasporophylls in gymnosperms are arranged to form:",
     options: [
-      "Strobili (cones)",
+      "Thalli",
       "Flowers",
       "Fruits",
-      "Thalli"
-    ],
-    correct: 0,
+      "Strobili (cones)"
+    ], correct: 3,
     explanation: "NCERT states: 'The microsporophylls and the megasporophylls are arranged spirally or in a whorled fashion on an axis to form lax or compact strobili or cones.' Strobili/cones are equivalent to the flower in gymnosperms — but they are NOT true flowers."
   },
 
@@ -4039,11 +3848,10 @@ var allQuestions = [
     q: "Consider the following:<br>(i) Algae — no alternation of generations<br>(ii) Bryophytes — gametophyte dominant<br>(iii) Pteridophytes — sporophyte dominant<br>(iv) Gymnosperms — gametophyte dominant<br><br>How many are correct?",
     options: [
       "One",
-      "Two",
+      "Four",
       "Three",
-      "Four"
-    ],
-    correct: 1,
+      "Two"
+    ], correct: 3,
     explanation: "(i) INCORRECT — algae do show alternation of generations (e.g., Ectocarpus has isomorphic AoG). (ii) CORRECT — in bryophytes, the gametophyte is the dominant, independent generation. (iii) CORRECT — in pteridophytes, the sporophyte (fern plant) is dominant and independent. (iv) INCORRECT — in gymnosperms, the SPOROPHYTE is dominant; gametophyte is highly reduced and dependent. Two are correct."
   },
   {
@@ -4051,12 +3859,11 @@ var allQuestions = [
     topic: "Plant Kingdom Summary – Comparative",
     q: "Which of the following groups requires water as a medium for fertilisation?<br>(i) Algae<br>(ii) Bryophytes<br>(iii) Pteridophytes<br>(iv) Gymnosperms<br>(v) Angiosperms",
     options: [
-      "(i), (ii) and (iii) only",
+      "(i), (ii), (iii), (iv) and (v)",
       "(i), (ii), (iii) and (iv)",
       "(iv) and (v) only",
-      "(i), (ii), (iii), (iv) and (v)"
-    ],
-    correct: 0,
+      "(i), (ii) and (iii) only"
+    ], correct: 3,
     explanation: "Algae, bryophytes, and pteridophytes all require water for fertilisation — their sperms are motile (flagellated) and swim to the egg. Gymnosperms and angiosperms evolved the pollen tube mechanism, eliminating water dependence for fertilisation. This was a major evolutionary advance."
   },
   {
@@ -4091,11 +3898,10 @@ var allQuestions = [
     q: "Which of the following is a <b>correct</b> match between a plant group and its unique feature?",
     options: [
       "Bryophytes — first vascular plants to colonise land",
-      "Pteridophytes — first plants with vascular tissue and true roots, stem and leaves",
+      "Algae — multicellular sex organs with sterile jacket layer",
       "Gymnosperms — enclosed seeds within fruit",
-      "Algae — multicellular sex organs with sterile jacket layer"
-    ],
-    correct: 1,
+      "Pteridophytes — first plants with vascular tissue and true roots, stem and leaves"
+    ], correct: 3,
     explanation: "Pteridophytes are the first vascular plants — they have xylem and phloem, true roots, stems and leaves. Bryophytes are non-vascular ('amphibians of plant kingdom'). Gymnosperms have naked seeds (not enclosed). Multicellular sex organs with sterile jacket layer are present in bryophytes and pteridophytes, not algae."
   },
   {

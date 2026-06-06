@@ -1,15 +1,14 @@
-var allQuestions = [
+﻿var allQuestions = [
 {
   id: 1,
   topic: "Introduction – Respiration in Plants",
   q: "Which of the following can serve as respiratory substrates in plants under certain conditions?",
   options: [
-    "Carbohydrates only",
-    "Carbohydrates and fats only",
-    "Carbohydrates, proteins, fats and organic acids",
-    "Carbohydrates and proteins only"
-  ],
-  correct: 2,
+      "Carbohydrates, proteins, fats and organic acids",
+      "Carbohydrates and fats only",
+      "Carbohydrates only",
+      "Carbohydrates and proteins only"
+    ], correct: 0,
   explanation: "As per NCERT, usually carbohydrates are oxidised, but proteins, fats and even organic acids can be used as respiratory substrates in some plants under certain conditions. Students often forget organic acids."
 },
 {
@@ -43,12 +42,11 @@ var allQuestions = [
   topic: "Introduction – Respiration in Plants",
   q: "In eukaryotes, the breakdown of complex molecules to yield energy during cellular respiration takes place in:",
   options: [
-    "Chloroplasts and cytoplasm",
-    "Mitochondria only",
-    "Cytoplasm only",
-    "Cytoplasm and mitochondria"
-  ],
-  correct: 3,
+      "Chloroplasts and cytoplasm",
+      "Mitochondria only",
+      "Cytoplasm and mitochondria",
+      "Cytoplasm only"
+    ], correct: 2,
   explanation: "NCERT clearly states that breakdown of complex molecules occurs in the cytoplasm AND in the mitochondria in eukaryotes. Saying 'mitochondria only' is a common student error — glycolysis occurs in the cytoplasm."
 },
 {
@@ -56,12 +54,11 @@ var allQuestions = [
   topic: "Introduction – Respiration in Plants",
   q: "Which of the following statements is/are correct regarding cellular respiration?<br>(I) It involves breaking of C-C bonds of complex compounds<br>(II) It occurs through oxidation within cells<br>(III) It leads to release of considerable amount of energy<br>(IV) All energy contained in respiratory substrates is released in a single step",
   options: [
-    "I and III only",
-    "I, II and IV",
-    "I, II and III only",
-    "I, II, III and IV"
-  ],
-  correct: 2,
+      "I and III only",
+      "I, II and IV",
+      "I, II, III and IV",
+      "I, II and III only"
+    ], correct: 3,
   explanation: "Statements I, II and III are correct as per NCERT definition of respiration. Statement IV is false — energy is NOT released in a single step; it is released in a series of slow stepwise reactions controlled by enzymes."
 },
 {
@@ -95,12 +92,11 @@ var allQuestions = [
   topic: "Introduction – Respiration in Plants",
   q: "Saprophytes like fungi obtain their nutrition by:",
   options: [
-    "Trapping light energy for photosynthesis",
-    "Directly consuming living organisms",
-    "Absorbing minerals from soil only",
-    "Depending on dead and decaying matter"
-  ],
-  correct: 3,
+      "Trapping light energy for photosynthesis",
+      "Directly consuming living organisms",
+      "Depending on dead and decaying matter",
+      "Absorbing minerals from soil only"
+    ], correct: 2,
   explanation: "NCERT explicitly states: 'Saprophytes like fungi are dependent on dead and decaying matter.' They are neither photosynthetic nor parasitic as described in this context."
 },
 {
@@ -108,12 +104,11 @@ var allQuestions = [
   topic: "Introduction – Respiration in Plants",
   q: "The breaking of C-C bonds of complex compounds through oxidation within the cells, leading to release of considerable amount of energy is called:",
   options: [
-    "Respiration",
-    "Photosynthesis",
-    "Fermentation",
-    "Photorespiration"
-  ],
-  correct: 0,
+      "Photorespiration",
+      "Photosynthesis",
+      "Fermentation",
+      "Respiration"
+    ], correct: 3,
   explanation: "This is the exact NCERT definition of respiration. Students may confuse this with fermentation, but fermentation is a specific anaerobic pathway, not the general definition of respiration."
 },
 {
@@ -134,12 +129,11 @@ var allQuestions = [
   topic: "Introduction – Respiration in Plants",
   q: "In green plants, food needs to be translocated to non-green parts because:",
   options: [
-    "All cells in the plant are heterotrophic",
-    "Only cells containing chloroplasts can carry out photosynthesis",
-    "Non-green cells lack mitochondria for respiration",
-    "Translocation occurs only for storage purposes"
-  ],
-  correct: 1,
+      "Only cells containing chloroplasts can carry out photosynthesis",
+      "All cells in the plant are heterotrophic",
+      "Non-green cells lack mitochondria for respiration",
+      "Translocation occurs only for storage purposes"
+    ], correct: 0,
   explanation: "NCERT states that only cells containing chloroplasts carry out photosynthesis. Non-green cells lack chloroplasts, so they cannot make their own food and need it translocated. They do NOT lack mitochondria — they carry out respiration normally."
 },
 {
@@ -160,12 +154,11 @@ var allQuestions = [
   topic: "Introduction – Respiration in Plants",
   q: "The ultimate source of all food that is respired by living organisms for life processes is:",
   options: [
-    "Photosynthesis",
-    "Chemosynthesis",
-    "Fermentation",
-    "Nitrogen fixation"
-  ],
-  correct: 0,
+      "Chemosynthesis",
+      "Photosynthesis",
+      "Fermentation",
+      "Nitrogen fixation"
+    ], correct: 1,
   explanation: "NCERT states: 'ultimately all the food that is respired for life processes comes from photosynthesis.' This includes food for heterotrophs and saprophytes, which indirectly depends on photosynthesis."
 },
 {
@@ -199,12 +192,11 @@ var allQuestions = [
   topic: "Introduction – Respiration in Plants",
   q: "The carbon skeleton produced during the process of respiration is used as:",
   options: [
-    "Waste products to be excreted from the cell",
-    "Direct energy source for cellular processes",
-    "Fuel for further oxidation only",
-    "Precursors for biosynthesis of other molecules in the cell"
-  ],
-  correct: 3,
+      "Waste products to be excreted from the cell",
+      "Direct energy source for cellular processes",
+      "Precursors for biosynthesis of other molecules in the cell",
+      "Fuel for further oxidation only"
+    ], correct: 2,
   explanation: "NCERT states: 'the carbon skeleton produced during respiration is used as precursors for biosynthesis of other molecules in the cell.' This is an often-overlooked concept — respiration is not just about energy; it provides building blocks too."
 },
 {
@@ -212,12 +204,11 @@ var allQuestions = [
   topic: "Introduction – Respiration in Plants",
   q: "Which of the following statements about respiration is <b>INCORRECT</b>?",
   options: [
-    "Energy released by oxidation in respiration is used directly for cellular processes",
-    "Respiratory substrates are compounds that are oxidised during respiration",
-    "ATP is broken down whenever and wherever energy needs to be utilised",
-    "Carbohydrates are usually oxidised to release energy"
-  ],
-  correct: 0,
+      "Carbohydrates are usually oxidised to release energy",
+      "Respiratory substrates are compounds that are oxidised during respiration",
+      "ATP is broken down whenever and wherever energy needs to be utilised",
+      "Energy released by oxidation in respiration is used directly for cellular processes"
+    ], correct: 3,
   explanation: "NCERT emphasizes that energy released during respiration is NOT used directly. It is first trapped as ATP, which is then broken down when needed. This is one of the most important conceptual traps in this chapter."
 },
 {
@@ -225,12 +216,11 @@ var allQuestions = [
   topic: "Introduction – Respiration in Plants",
   q: "All living organisms need energy for carrying out daily life activities. Which of the following is/are included in such activities?",
   options: [
-    "Absorption and transport only",
-    "Movement and reproduction only",
-    "Absorption, transport, movement, reproduction and even breathing",
-    "Only movement and breathing"
-  ],
-  correct: 2,
+      "Absorption, transport, movement, reproduction and even breathing",
+      "Movement and reproduction only",
+      "Absorption and transport only",
+      "Only movement and breathing"
+    ], correct: 0,
   explanation: "NCERT lists absorption, transport, movement, reproduction and even breathing as life activities requiring energy. The word 'even breathing' is significant — it highlights that breathing itself requires energy, which surprises many students."
 },
 {
@@ -251,12 +241,11 @@ var allQuestions = [
   topic: "Introduction – Respiration in Plants",
   q: "All of the following statements about photosynthesis in green plants are true <b>EXCEPT</b>:",
   options: [
-    "Light energy is converted into chemical energy",
-    "Energy is stored in bonds of carbohydrates like glucose, sucrose and starch",
-    "Cyanobacteria can also prepare their own food via photosynthesis",
-    "All cells in a green plant carry out photosynthesis"
-  ],
-  correct: 3,
+      "Light energy is converted into chemical energy",
+      "All cells in a green plant carry out photosynthesis",
+      "Cyanobacteria can also prepare their own food via photosynthesis",
+      "Energy is stored in bonds of carbohydrates like glucose, sucrose and starch"
+    ], correct: 1,
   explanation: "NCERT clearly states 'not all cells, tissues and organs photosynthesise' — only cells with chloroplasts (in superficial layers) do. Options A, B and C are all correct as per NCERT."
 },
 {
@@ -264,12 +253,11 @@ var allQuestions = [
   topic: "Introduction – Respiration in Plants",
   q: "All the energy required for 'life' processes is obtained by:",
   options: [
-    "Oxidation of some macromolecules that we call food",
-    "Reduction of macromolecules in the cell",
-    "Hydrolysis of water molecules",
-    "Direct absorption of solar energy by all cells"
-  ],
-  correct: 0,
+      "Hydrolysis of water molecules",
+      "Reduction of macromolecules in the cell",
+      "Oxidation of some macromolecules that we call food",
+      "Direct absorption of solar energy by all cells"
+    ], correct: 2,
   explanation: "NCERT states: 'All the energy required for life processes is obtained by oxidation of some macromolecules that we call food.' The key word is oxidation, not reduction or hydrolysis."
 },
 {
@@ -277,12 +265,11 @@ var allQuestions = [
   topic: "Introduction – Respiration in Plants",
   q: "Which of the following correctly describes the relationship between breathing and cellular respiration?",
   options: [
-    "Breathing and cellular respiration are completely unrelated processes",
-    "Breathing provides CO₂ which is used in cellular respiration",
-    "The process of breathing is very much connected to the process of release of energy from food",
-    "Cellular respiration can occur only during active breathing"
-  ],
-  correct: 2,
+      "Breathing and cellular respiration are completely unrelated processes",
+      "Breathing provides CO₂ which is used in cellular respiration",
+      "Cellular respiration can occur only during active breathing",
+      "The process of breathing is very much connected to the process of release of energy from food"
+    ], correct: 3,
   explanation: "NCERT states: 'the process of breathing is very much connected to the process of release of energy from food.' Breathing provides O₂ (not CO₂) for oxidation, and they are connected, not identical or unrelated."
 },
 {
@@ -303,12 +290,11 @@ var allQuestions = [
   topic: "Introduction – Respiration in Plants",
   q: "Consider the following statements:<br>(I) Proteins can be used as respiratory substrates in some plants<br>(II) Fats can serve as respiratory substrates under certain conditions<br>(III) Organic acids cannot be used as respiratory substrates<br>(IV) Carbohydrates are the usual respiratory substrates<br>Which statements are correct?",
   options: [
-    "I, II and III",
-    "III and IV only",
-    "I, III and IV",
-    "I, II and IV"
-  ],
-  correct: 3,
+      "I, II and IV",
+      "III and IV only",
+      "I, III and IV",
+      "I, II and III"
+    ], correct: 0,
   explanation: "NCERT states that proteins, fats and even organic acids can be used as respiratory substrates under certain conditions. So statement III is false — organic acids CAN be used. Statements I, II and IV are correct."
 },
 {
@@ -316,12 +302,11 @@ var allQuestions = [
   topic: "Introduction – Respiration in Plants",
   q: "Which of the following is the correct sequence of energy transformation during photosynthesis and respiration?",
   options: [
-    "Light energy → Chemical energy (in carbohydrate bonds) → ATP",
-    "Chemical energy → Light energy → ATP",
-    "ATP → Light energy → Chemical energy",
-    "Light energy → ATP → Chemical energy (in carbohydrate bonds)"
-  ],
-  correct: 0,
+      "Chemical energy → Light energy → ATP",
+      "Light energy → Chemical energy (in carbohydrate bonds) → ATP",
+      "ATP → Light energy → Chemical energy",
+      "Light energy → ATP → Chemical energy (in carbohydrate bonds)"
+    ], correct: 1,
   explanation: "During photosynthesis, light energy is trapped and converted to chemical energy stored in carbohydrate bonds. During respiration, this chemical energy is released stepwise and trapped as ATP. The correct flow is: Light → Chemical energy in bonds → ATP."
 },
 {
@@ -329,12 +314,11 @@ var allQuestions = [
   topic: "Introduction – Respiration in Plants",
   q: "A student states: 'Fungi are heterotrophs that obtain food from living host organisms.' With reference to NCERT, this statement is:",
   options: [
-    "Correct, as fungi are parasites",
-    "Incorrect, as NCERT describes fungi (saprophytes) as dependent on dead and decaying matter",
-    "Correct, as all heterotrophs depend on living organisms",
-    "Incorrect, as fungi are autotrophs"
-  ],
-  correct: 1,
+      "Correct, as fungi are parasites",
+      "Correct, as all heterotrophs depend on living organisms",
+      "Incorrect, as NCERT describes fungi (saprophytes) as dependent on dead and decaying matter",
+      "Incorrect, as fungi are autotrophs"
+    ], correct: 2,
   explanation: "NCERT specifically states: 'Saprophytes like fungi are dependent on dead and decaying matter.' While some fungi can be parasitic, the NCERT introduction describes them as saprophytes. Fungi are NOT autotrophs."
 },
 {
@@ -420,12 +404,11 @@ var allQuestions = [
   topic: "Do Plants Breathe?",
   q: "Plants do not possess specialised organs for gaseous exchange. Instead, they use:",
   options: [
-    "Lungs and trachea",
-    "Stomata and lenticels",
-    "Gills and spiracles",
-    "Alveoli and bronchioles"
-  ],
-  correct: 1,
+      "Lungs and trachea",
+      "Alveoli and bronchioles",
+      "Gills and spiracles",
+      "Stomata and lenticels"
+    ], correct: 3,
   explanation: "NCERT states plants have no specialised organs for gaseous exchange but use stomata and lenticels for this purpose. Lungs, gills, spiracles, alveoli are all animal respiratory structures."
 },
 {
@@ -433,12 +416,11 @@ var allQuestions = [
   topic: "Do Plants Breathe?",
   q: "Which of the following is <b>NOT</b> a reason why plants can get along without respiratory organs?",
   options: [
-    "Each plant part takes care of its own gas-exchange needs",
-    "Plants have an efficient circulatory system that transports gases rapidly between parts",
-    "Plants do not present great demands for gas exchange",
-    "The distance that gases must diffuse is not great even in large plants"
-  ],
-  correct: 1,
+      "Plants have an efficient circulatory system that transports gases rapidly between parts",
+      "Each plant part takes care of its own gas-exchange needs",
+      "Plants do not present great demands for gas exchange",
+      "The distance that gases must diffuse is not great even in large plants"
+    ], correct: 0,
   explanation: "NCERT explicitly states there is VERY LITTLE transport of gases from one plant part to another. Plants do NOT have an efficient gas transport system — the opposite is true. This is a key NCERT trap where students confuse animal and plant physiology."
 },
 {
@@ -446,12 +428,11 @@ var allQuestions = [
   topic: "Do Plants Breathe?",
   q: "Consider the following statements:<br>(I) There is very little transport of gases from one plant part to another<br>(II) Roots, stems and leaves respire at rates far higher than animals<br>(III) Each living cell in a plant is located quite close to the surface of the plant<br>(IV) Loose packing of parenchyma cells provides an interconnected network of air spaces<br>Which of the above are correct?",
   options: [
-    "I, II and III",
-    "II, III and IV",
-    "I, III and IV",
-    "I, II and IV"
-  ],
-  correct: 2,
+      "I, II and III",
+      "I, III and IV",
+      "II, III and IV",
+      "I, II and IV"
+    ], correct: 1,
   explanation: "Statement II is false — NCERT states plants respire at rates FAR LOWER than animals, not higher. Statements I, III and IV are directly from NCERT. This is a common trap that reverses the comparison."
 },
 {
@@ -472,12 +453,11 @@ var allQuestions = [
   topic: "Do Plants Breathe?",
   q: "In thick woody stems, the living cells are:",
   options: [
-    "Uniformly distributed throughout the stem cross-section",
-    "Organised in thin layers inside and beneath the bark",
-    "Found only in the pith region",
-    "Absent, as all stem cells are dead"
-  ],
-  correct: 1,
+      "Uniformly distributed throughout the stem cross-section",
+      "Found only in the pith region",
+      "Organised in thin layers inside and beneath the bark",
+      "Absent, as all stem cells are dead"
+    ], correct: 2,
   explanation: "NCERT specifically states: 'In stems, the living cells are organised in thin layers inside and beneath the bark.' The interior cells are dead and provide only mechanical support. This ensures gas exchange is not a problem."
 },
 {
@@ -485,12 +465,11 @@ var allQuestions = [
   topic: "Do Plants Breathe?",
   q: "The cells in the interior of thick, woody stems are:",
   options: [
-    "Actively photosynthesising cells",
-    "Living cells that carry out high rates of respiration",
-    "Dead cells that provide only mechanical support",
-    "Living parenchyma cells with loose packing"
-  ],
-  correct: 2,
+      "Actively photosynthesising cells",
+      "Living cells that carry out high rates of respiration",
+      "Living parenchyma cells with loose packing",
+      "Dead cells that provide only mechanical support"
+    ], correct: 3,
   explanation: "NCERT states: 'The cells in the interior are dead and provide only mechanical support.' This is why diffusion distance is not a limiting factor — living cells are near the surface, not deep inside."
 },
 {
@@ -498,12 +477,11 @@ var allQuestions = [
   topic: "Do Plants Breathe?",
   q: "The interconnected network of air spaces in plants is facilitated by:",
   options: [
-    "Tight packing of sclerenchyma cells",
-    "Presence of tracheids and vessels",
-    "Loose packing of parenchyma cells in leaves, stems and roots",
-    "Presence of large intercellular spaces in xylem"
-  ],
-  correct: 2,
+      "Loose packing of parenchyma cells in leaves, stems and roots",
+      "Presence of tracheids and vessels",
+      "Tight packing of sclerenchyma cells",
+      "Presence of large intercellular spaces in xylem"
+    ], correct: 0,
   explanation: "NCERT states the loose packing of parenchyma cells in leaves, stems and roots provides an interconnected network of air spaces. Sclerenchyma is tightly packed. Tracheids/vessels are for water transport."
 },
 {
@@ -537,12 +515,11 @@ var allQuestions = [
   topic: "Do Plants Breathe?",
   q: "Consider the following statements about gas exchange in plants:<br>(I) Plants have specialised organs like lungs for gaseous exchange<br>(II) Stomata and lenticels help in gaseous exchange<br>(III) Only during photosynthesis are large volumes of gases exchanged<br>(IV) Each leaf is well adapted to take care of its own gas exchange needs<br>Which statements are correct?",
   options: [
-    "I, II and III",
-    "II, III and IV",
-    "I and IV only",
-    "I, II, III and IV"
-  ],
-  correct: 1,
+      "I, II and III",
+      "I, II, III and IV",
+      "I and IV only",
+      "II, III and IV"
+    ], correct: 3,
   explanation: "Statement I is false — NCERT clearly states plants have NO specialised organs for gaseous exchange. Statements II, III and IV are directly from NCERT. Students often miss that large volume gas exchange occurs ONLY during photosynthesis."
 },
 {
@@ -563,12 +540,11 @@ var allQuestions = [
   topic: "Do Plants Breathe?",
   q: "The first cells on this planet are believed to have lived in an atmosphere that:",
   options: [
-    "Was rich in oxygen",
-    "Lacked oxygen",
-    "Had equal amounts of O₂ and CO₂",
-    "Contained only nitrogen"
-  ],
-  correct: 1,
+      "Lacked oxygen",
+      "Was rich in oxygen",
+      "Had equal amounts of O₂ and CO₂",
+      "Contained only nitrogen"
+    ], correct: 0,
   explanation: "NCERT states: 'There are sufficient reasons to believe that the first cells on this planet lived in an atmosphere that lacked oxygen.' This is consistent with the idea that early Earth was reducing/anaerobic."
 },
 {
@@ -589,12 +565,11 @@ var allQuestions = [
   topic: "Do Plants Breathe?",
   q: "All living organisms retain the enzymatic machinery to partially oxidise glucose without the help of oxygen. This implies that:",
   options: [
-    "Aerobic respiration evolved before anaerobic respiration",
-    "Glycolysis is an evolutionarily ancient pathway present in all organisms",
-    "Only anaerobic organisms can perform glycolysis",
-    "Oxygen is essential for all forms of glucose oxidation"
-  ],
-  correct: 1,
+      "Aerobic respiration evolved before anaerobic respiration",
+      "Only anaerobic organisms can perform glycolysis",
+      "Glycolysis is an evolutionarily ancient pathway present in all organisms",
+      "Oxygen is essential for all forms of glucose oxidation"
+    ], correct: 2,
   explanation: "NCERT states all living organisms retain this machinery, indicating glycolysis is evolutionarily ancient and universal. It existed before oxygen appeared in Earth's atmosphere. Aerobic respiration evolved later, not before."
 },
 {
@@ -602,12 +577,11 @@ var allQuestions = [
   topic: "Do Plants Breathe?",
   q: "Organisms in which the requirement for anaerobic conditions is compulsory are called:",
   options: [
-    "Facultative anaerobes",
-    "Obligate aerobes",
-    "Obligate anaerobes",
-    "Facultative aerobes"
-  ],
-  correct: 2,
+      "Facultative anaerobes",
+      "Obligate aerobes",
+      "Facultative aerobes",
+      "Obligate anaerobes"
+    ], correct: 3,
   explanation: "NCERT distinguishes between facultative anaerobes (can survive with or without O₂) and obligate anaerobes (requirement for anaerobic condition is obligatory/compulsory). Students commonly confuse these two terms."
 },
 {
@@ -615,12 +589,11 @@ var allQuestions = [
   topic: "Do Plants Breathe?",
   q: "Which of the following organisms can survive both in the presence and absence of oxygen?",
   options: [
-    "Obligate aerobes",
-    "Obligate anaerobes",
-    "Facultative anaerobes",
-    "Strict anaerobes"
-  ],
-  correct: 2,
+      "Facultative anaerobes",
+      "Obligate anaerobes",
+      "Obligate aerobes",
+      "Strict anaerobes"
+    ], correct: 0,
   explanation: "Facultative anaerobes can switch between aerobic and anaerobic modes of respiration depending on oxygen availability. Obligate anaerobes can survive ONLY without oxygen. Obligate aerobes require oxygen compulsorily."
 },
 {
@@ -680,12 +653,11 @@ var allQuestions = [
   topic: "Do Plants Breathe?",
   q: "Why is the complete combustion of glucose not a useful strategy for cells?",
   options: [
-    "It does not produce CO₂ and H₂O",
-    "It yields energy but most of it is given out as heat and cannot be coupled to ATP synthesis",
-    "It does not release any energy",
-    "It requires anaerobic conditions"
-  ],
-  correct: 1,
+      "It does not produce CO₂ and H₂O",
+      "It requires anaerobic conditions",
+      "It does not release any energy",
+      "It yields energy but most of it is given out as heat and cannot be coupled to ATP synthesis"
+    ], correct: 3,
   explanation: "NCERT states that complete combustion yields energy 'most of which is given out as heat.' If all energy is released as heat in one step, it cannot be coupled to useful ATP synthesis. Hence stepwise oxidation is the cellular strategy."
 },
 {
@@ -693,12 +665,11 @@ var allQuestions = [
   topic: "Do Plants Breathe?",
   q: "Consider the following statements:<br>(I) Large volumes of gases are exchanged during photosynthesis<br>(II) Large volumes of gases are exchanged during respiration in plants<br>(III) Plants respire at rates far lower than animals<br>(IV) Each leaf takes care of its own gas exchange needs during photosynthesis<br>Which statements are correct as per NCERT?",
   options: [
-    "I, II, III and IV",
-    "I and II only",
-    "I, III and IV only",
-    "II and III only"
-  ],
-  correct: 2,
+      "I, III and IV only",
+      "I and II only",
+      "I, II, III and IV",
+      "II and III only"
+    ], correct: 0,
   explanation: "NCERT states 'Only during photosynthesis are large volumes of gases exchanged' — implying during respiration, gas exchange volumes are small. So statement II is incorrect. Statements I, III and IV are correct."
 },
 {
@@ -706,12 +677,11 @@ var allQuestions = [
   topic: "Do Plants Breathe?",
   q: "The oxidation of glucose in cells occurs in several small steps primarily to:",
   options: [
-    "Produce more CO₂ per molecule of glucose",
-    "Reduce the requirement for enzymes",
-    "Enable coupling of released energy to ATP synthesis",
-    "Increase heat production for thermoregulation"
-  ],
-  correct: 2,
+      "Produce more CO₂ per molecule of glucose",
+      "Enable coupling of released energy to ATP synthesis",
+      "Reduce the requirement for enzymes",
+      "Increase heat production for thermoregulation"
+    ], correct: 1,
   explanation: "NCERT states the key strategy is to oxidise glucose in several small steps 'enabling some steps to be just large enough such that the energy released can be coupled to ATP synthesis.' The goal is ATP production, not heat generation."
 },
 {
@@ -732,12 +702,11 @@ var allQuestions = [
   topic: "Do Plants Breathe?",
   q: "Which of the following correctly differentiates facultative anaerobes from obligate anaerobes?",
   options: [
-    "Facultative anaerobes can survive only without O₂; obligate anaerobes can survive with or without O₂",
-    "Facultative anaerobes can survive with or without O₂; obligate anaerobes require absence of O₂",
-    "Both can survive only in the presence of O₂",
-    "Both can survive only in the absence of O₂"
-  ],
-  correct: 1,
+      "Facultative anaerobes can survive only without O₂; obligate anaerobes can survive with or without O₂",
+      "Both can survive only in the presence of O₂",
+      "Facultative anaerobes can survive with or without O₂; obligate anaerobes require absence of O₂",
+      "Both can survive only in the absence of O₂"
+    ], correct: 2,
   explanation: "Facultative anaerobes are flexible — they can switch between aerobic and anaerobic metabolism. Obligate anaerobes require anaerobic conditions compulsorily — oxygen is toxic to them. Students often reverse these definitions."
 },
 {
@@ -745,12 +714,11 @@ var allQuestions = [
   topic: "Do Plants Breathe?",
   q: "Which of the following statements about lenticels is correct?",
   options: [
-    "They are found in leaves and are the main site of transpiration",
-    "They are openings in stems that facilitate gaseous exchange",
-    "They are present only in herbaceous stems",
-    "They transport water from roots to leaves"
-  ],
-  correct: 1,
+      "They are found in leaves and are the main site of transpiration",
+      "They transport water from roots to leaves",
+      "They are present only in herbaceous stems",
+      "They are openings in stems that facilitate gaseous exchange"
+    ], correct: 3,
   explanation: "NCERT states that stems 'have openings called lenticels.' Lenticels are present in bark of woody stems and facilitate gaseous exchange. Stomata (not lenticels) are the main sites of transpiration in leaves."
 },
 {
@@ -758,12 +726,11 @@ var allQuestions = [
   topic: "Do Plants Breathe?",
   q: "A plant cell catabolises the glucose molecule in such a way that not all the liberated energy goes out as heat. This is called:",
   options: [
-    "Complete combustion",
-    "Spontaneous oxidation",
-    "Stepwise controlled oxidation (cellular respiration)",
-    "Uncontrolled exothermic reaction"
-  ],
-  correct: 2,
+      "Stepwise controlled oxidation (cellular respiration)",
+      "Spontaneous oxidation",
+      "Complete combustion",
+      "Uncontrolled exothermic reaction"
+    ], correct: 0,
   explanation: "NCERT describes the cellular strategy as catabolising glucose in several small controlled steps (not all at once) so energy can be trapped as ATP rather than being entirely lost as heat. This is the essence of cellular respiration."
 },
 {
@@ -771,12 +738,11 @@ var allQuestions = [
   topic: "Do Plants Breathe?",
   q: "Consider the following statements:<br>(I) Most cells of a plant have at least a part of their surface in contact with air<br>(II) This is facilitated by tight packing of collenchyma cells<br>(III) Parenchyma cells in leaves, stems and roots show loose packing<br>(IV) Loose packing provides an interconnected network of air spaces<br>Which statements are correct?",
   options: [
-    "I and II only",
-    "I, II and III",
-    "I, III and IV",
-    "II, III and IV"
-  ],
-  correct: 2,
+      "I and II only",
+      "I, III and IV",
+      "I, II and III",
+      "II, III and IV"
+    ], correct: 1,
   explanation: "Statement II is false — NCERT says LOOSE packing of PARENCHYMA (not tight packing of collenchyma) facilitates air contact. Statements I, III and IV are directly from NCERT."
 },
 {
@@ -810,12 +776,11 @@ var allQuestions = [
   topic: "Do Plants Breathe?",
   q: "How many of the following statements are correct?<br>(I) Plants require O₂ for respiration<br>(II) Plants give out CO₂ during respiration<br>(III) Plants have specialised organs similar to animal lungs<br>(IV) Plants use stomata and lenticels for gas exchange<br>(V) Gas exchange in plants occurs mainly through long-distance transport",
   options: [
-    "Two",
-    "Three",
-    "Four",
-    "Five"
-  ],
-  correct: 1,
+      "Two",
+      "Five",
+      "Four",
+      "Three"
+    ], correct: 3,
   explanation: "Statements I, II and IV are correct (three statements). Statement III is wrong — plants have NO specialised respiratory organs. Statement V is wrong — there is very little transport of gases between plant parts; each part handles its own exchange."
 },
 {
@@ -823,12 +788,11 @@ var allQuestions = [
   topic: "Do Plants Breathe?",
   q: "The combustion reaction during respiration requires oxygen. However, some organisms can survive without O₂. Which of the following is the partial oxidation pathway that all organisms possess?",
   options: [
-    "Krebs cycle",
-    "Electron Transport Chain",
-    "Glycolysis",
-    "Oxidative phosphorylation"
-  ],
-  correct: 2,
+      "Glycolysis",
+      "Electron Transport Chain",
+      "Krebs cycle",
+      "Oxidative phosphorylation"
+    ], correct: 0,
   explanation: "NCERT states all organisms retain the enzymatic machinery for glycolysis — the partial oxidation of glucose to pyruvic acid without oxygen. Krebs cycle, ETC and oxidative phosphorylation all require aerobic conditions (mitochondria)."
 },
 {
@@ -862,12 +826,11 @@ var allQuestions = [
   topic: "Glycolysis",
   q: "The scheme of glycolysis is also referred to as the EMP pathway. EMP stands for:",
   options: [
-    "Embden-Meyerhof-Pauling",
-    "Embden-Meyerhof-Parnas",
-    "Embden-Morgan-Parnas",
-    "Euler-Meyerhof-Parnas"
-  ],
-  correct: 1,
+      "Embden-Meyerhof-Pauling",
+      "Embden-Morgan-Parnas",
+      "Embden-Meyerhof-Parnas",
+      "Euler-Meyerhof-Parnas"
+    ], correct: 2,
   explanation: "NCERT states the scheme was given by Gustav Embden, Otto Meyerhof, and J. Parnas — hence EMP pathway. Common trap: confusing Parnas with Pauling or Morgan."
 },
 {
@@ -875,12 +838,11 @@ var allQuestions = [
   topic: "Glycolysis",
   q: "Glycolysis occurs in which part of the cell?",
   options: [
-    "Mitochondrial matrix",
-    "Inner mitochondrial membrane",
-    "Cytoplasm",
-    "Chloroplast stroma"
-  ],
-  correct: 2,
+      "Mitochondrial matrix",
+      "Inner mitochondrial membrane",
+      "Chloroplast stroma",
+      "Cytoplasm"
+    ], correct: 3,
   explanation: "NCERT clearly states: 'Glycolysis occurs in the cytoplasm of the cell.' This is one of the most frequently tested facts — students often confuse it with the mitochondrial matrix (where Krebs cycle occurs)."
 },
 {
@@ -888,12 +850,11 @@ var allQuestions = [
   topic: "Glycolysis",
   q: "In anaerobic organisms, glycolysis is:",
   options: [
-    "One of several respiratory pathways available",
-    "The only process in respiration",
-    "Not present as they use Krebs cycle instead",
-    "Present but functions only in the presence of O₂"
-  ],
-  correct: 1,
+      "The only process in respiration",
+      "One of several respiratory pathways available",
+      "Not present as they use Krebs cycle instead",
+      "Present but functions only in the presence of O₂"
+    ], correct: 0,
   explanation: "NCERT states: 'In anaerobic organisms, it is the only process in respiration.' They lack mitochondrial pathways (Krebs cycle, ETC) and rely solely on glycolysis followed by fermentation."
 },
 {
@@ -901,12 +862,11 @@ var allQuestions = [
   topic: "Glycolysis",
   q: "In plants, the glucose used for glycolysis is primarily derived from:",
   options: [
-    "Amino acid degradation",
-    "Fatty acid oxidation",
-    "Sucrose (end product of photosynthesis) or storage carbohydrates",
-    "Direct absorption from the soil"
-  ],
-  correct: 2,
+      "Amino acid degradation",
+      "Sucrose (end product of photosynthesis) or storage carbohydrates",
+      "Fatty acid oxidation",
+      "Direct absorption from the soil"
+    ], correct: 1,
   explanation: "NCERT states: 'In plants, this glucose is derived from sucrose, which is the end product of photosynthesis, or from storage carbohydrates.' Plants do not absorb glucose from soil."
 },
 {
@@ -914,12 +874,11 @@ var allQuestions = [
   topic: "Glycolysis",
   q: "The enzyme that converts sucrose into glucose and fructose is:",
   options: [
-    "Hexokinase",
-    "Invertase",
-    "Phosphofructokinase",
-    "Aldolase"
-  ],
-  correct: 1,
+      "Hexokinase",
+      "Phosphofructokinase",
+      "Invertase",
+      "Aldolase"
+    ], correct: 2,
   explanation: "NCERT states: 'Sucrose is converted into glucose and fructose by the enzyme, invertase.' Hexokinase phosphorylates glucose to glucose-6-phosphate. Students commonly confuse invertase with hexokinase."
 },
 {
@@ -940,12 +899,11 @@ var allQuestions = [
   topic: "Glycolysis",
   q: "How many enzyme-controlled reactions are involved in glycolysis?",
   options: [
-    "Eight",
-    "Nine",
-    "Ten",
-    "Twelve"
-  ],
-  correct: 2,
+      "Ten",
+      "Nine",
+      "Eight",
+      "Twelve"
+    ], correct: 0,
   explanation: "NCERT states: 'a chain of ten reactions, under the control of different enzymes, takes place to produce pyruvate from glucose.' Exactly 10 steps — this is a commonly tested numerical fact."
 },
 {
@@ -966,12 +924,11 @@ var allQuestions = [
   topic: "Glycolysis",
   q: "During glycolysis, glucose undergoes:",
   options: [
-    "Complete oxidation to CO₂ and H₂O",
-    "Complete reduction to ethanol",
-    "Partial oxidation to form two molecules of pyruvic acid",
-    "Partial reduction to form lactic acid"
-  ],
-  correct: 2,
+      "Complete oxidation to CO₂ and H₂O",
+      "Partial oxidation to form two molecules of pyruvic acid",
+      "Complete reduction to ethanol",
+      "Partial reduction to form lactic acid"
+    ], correct: 1,
   explanation: "NCERT states: 'glucose undergoes partial oxidation to form two molecules of pyruvic acid.' Complete oxidation requires Krebs cycle and ETC. Glycolysis is only partial oxidation — a frequently tested concept."
 },
 {
@@ -992,12 +949,11 @@ var allQuestions = [
   topic: "Glycolysis",
   q: "Fructose 1,6-bisphosphate is split into:",
   options: [
-    "Two molecules of glyceraldehyde-3-phosphate",
-    "Dihydroxyacetone phosphate and 3-phosphoglyceraldehyde (PGAL)",
-    "Two molecules of dihydroxyacetone phosphate",
-    "Phosphoenolpyruvate and pyruvic acid"
-  ],
-  correct: 1,
+      "Two molecules of glyceraldehyde-3-phosphate",
+      "Two molecules of dihydroxyacetone phosphate",
+      "Dihydroxyacetone phosphate and 3-phosphoglyceraldehyde (PGAL)",
+      "Phosphoenolpyruvate and pyruvic acid"
+    ], correct: 2,
   explanation: "NCERT states: 'The fructose 1,6-bisphosphate is split into dihydroxyacetone phosphate and 3-phosphoglyceraldehyde (PGAL).' These are two different triose phosphates (both 3C), not two identical molecules."
 },
 {
@@ -1005,12 +961,11 @@ var allQuestions = [
   topic: "Glycolysis",
   q: "During glycolysis, NADH + H⁺ is formed from NAD⁺ at which step?",
   options: [
-    "Glucose → Glucose-6-phosphate",
-    "Fructose-6-phosphate → Fructose 1,6-bisphosphate",
-    "3-phosphoglyceraldehyde (PGAL) → 1,3-bisphosphoglycerate (BPGA)",
-    "PEP → Pyruvic acid"
-  ],
-  correct: 2,
+      "Glucose → Glucose-6-phosphate",
+      "Fructose-6-phosphate → Fructose 1,6-bisphosphate",
+      "PEP → Pyruvic acid",
+      "3-phosphoglyceraldehyde (PGAL) → 1,3-bisphosphoglycerate (BPGA)"
+    ], correct: 3,
   explanation: "NCERT states: 'there is one step where NADH + H⁺ is formed from NAD⁺; this is when 3-phosphoglyceraldehyde (PGAL) is converted to 1,3-bisphosphoglycerate (BPGA).' Two redox-equivalents are removed from PGAL and transferred to NAD⁺."
 },
 {
@@ -1018,12 +973,11 @@ var allQuestions = [
   topic: "Glycolysis",
   q: "During the conversion of PGAL to BPGA, which of the following occurs?<br>(I) PGAL is oxidised<br>(II) NAD⁺ is reduced to NADH + H⁺<br>(III) Inorganic phosphate is added<br>(IV) ATP is directly consumed",
   options: [
-    "I and II only",
-    "I, II and III",
-    "II and IV only",
-    "I, II, III and IV"
-  ],
-  correct: 1,
+      "I, II and III",
+      "I and II only",
+      "II and IV only",
+      "I, II, III and IV"
+    ], correct: 0,
   explanation: "NCERT states: 'Two redox-equivalents are removed from PGAL and transferred to NAD⁺. PGAL is oxidised and with inorganic phosphate to get converted into BPGA.' So I, II and III are correct. ATP is NOT consumed at this step — IV is wrong."
 },
 {
@@ -1031,12 +985,11 @@ var allQuestions = [
   topic: "Glycolysis",
   q: "The conversion of BPGA to 3-phosphoglyceric acid (PGA) is an energy yielding process. This energy is trapped by the formation of:",
   options: [
-    "NADH + H⁺",
-    "FADH₂",
-    "GTP",
-    "ATP"
-  ],
-  correct: 3,
+      "NADH + H⁺",
+      "ATP",
+      "GTP",
+      "FADH₂"
+    ], correct: 1,
   explanation: "NCERT states: 'The conversion of BPGA to 3-phosphoglyceric acid (PGA), is also an energy yielding process; this energy is trapped by the formation of ATP.' This is substrate-level phosphorylation."
 },
 {
@@ -1057,12 +1010,11 @@ var allQuestions = [
   topic: "Glycolysis",
   q: "How many ATP molecules are <b>directly synthesised</b> (gross) during glycolysis from one molecule of glucose?",
   options: [
-    "2 ATP",
-    "4 ATP",
-    "6 ATP",
-    "8 ATP"
-  ],
-  correct: 1,
+      "2 ATP",
+      "6 ATP",
+      "4 ATP",
+      "8 ATP"
+    ], correct: 2,
   explanation: "ATP is produced at 2 steps (BPGA→PGA and PEP→pyruvate), but since one glucose gives 2 triose molecules, each step produces 2 ATP. Total = 2 + 2 = 4 ATP (gross). Net is 4 − 2 consumed = 2 ATP. The question asks for directly synthesised (gross), which is 4."
 },
 {
@@ -1070,12 +1022,11 @@ var allQuestions = [
   topic: "Glycolysis",
   q: "The <b>net gain</b> of ATP per glucose molecule during glycolysis is:",
   options: [
-    "4 ATP",
-    "2 ATP",
-    "8 ATP",
-    "6 ATP"
-  ],
-  correct: 1,
+      "4 ATP",
+      "6 ATP",
+      "8 ATP",
+      "2 ATP"
+    ], correct: 3,
   explanation: "Gross ATP produced = 4 (2 from BPGA→PGA × 2, and 2 from PEP→pyruvate × 2). ATP consumed = 2 (glucose→G6P and F6P→F1,6-BP). Net gain = 4 − 2 = 2 ATP. This is one of the most commonly tested calculations in NEET."
 },
 {
@@ -1083,12 +1034,11 @@ var allQuestions = [
   topic: "Glycolysis",
   q: "How many molecules of NADH + H⁺ are produced per glucose molecule during glycolysis?",
   options: [
-    "1",
-    "2",
-    "4",
-    "6"
-  ],
-  correct: 1,
+      "2",
+      "1",
+      "4",
+      "6"
+    ], correct: 0,
   explanation: "NADH + H⁺ is produced at one step (PGAL → BPGA), but since each glucose produces 2 PGAL molecules, total NADH + H⁺ produced = 2. Students sometimes forget to account for both triose molecules."
 },
 {
@@ -1122,12 +1072,11 @@ var allQuestions = [
   topic: "Glycolysis",
   q: "Pyruvic acid produced during glycolysis can follow three major metabolic fates. These are:",
   options: [
-    "Lactic acid fermentation, alcoholic fermentation and β-oxidation",
-    "Lactic acid fermentation, alcoholic fermentation and aerobic respiration",
-    "Gluconeogenesis, Krebs cycle and pentose phosphate pathway",
-    "Alcoholic fermentation, photorespiration and aerobic respiration"
-  ],
-  correct: 1,
+      "Lactic acid fermentation, alcoholic fermentation and β-oxidation",
+      "Gluconeogenesis, Krebs cycle and pentose phosphate pathway",
+      "Lactic acid fermentation, alcoholic fermentation and aerobic respiration",
+      "Alcoholic fermentation, photorespiration and aerobic respiration"
+    ], correct: 2,
   explanation: "NCERT clearly states: 'There are three major ways in which different cells handle pyruvic acid — lactic acid fermentation, alcoholic fermentation and aerobic respiration.' β-oxidation, gluconeogenesis and photorespiration are not mentioned as fates of pyruvate in this context."
 },
 {
@@ -1135,12 +1084,11 @@ var allQuestions = [
   topic: "Glycolysis",
   q: "Fermentation takes place under:",
   options: [
-    "Aerobic conditions in all eukaryotes",
-    "Anaerobic conditions in many prokaryotes and unicellular eukaryotes",
-    "Aerobic conditions only in prokaryotes",
-    "Anaerobic conditions only in multicellular organisms"
-  ],
-  correct: 1,
+      "Aerobic conditions in all eukaryotes",
+      "Anaerobic conditions only in multicellular organisms",
+      "Aerobic conditions only in prokaryotes",
+      "Anaerobic conditions in many prokaryotes and unicellular eukaryotes"
+    ], correct: 3,
   explanation: "NCERT states: 'Fermentation takes place under anaerobic conditions in many prokaryotes and unicellular eukaryotes.' It is not aerobic, and it is not limited to multicellular organisms."
 },
 {
@@ -1174,12 +1122,11 @@ var allQuestions = [
   topic: "Glycolysis",
   q: "Glucose-6-phosphate isomerises to form:",
   options: [
-    "Fructose 1,6-bisphosphate",
-    "Fructose-6-phosphate",
-    "3-phosphoglyceraldehyde",
-    "Dihydroxyacetone phosphate"
-  ],
-  correct: 1,
+      "Fructose-6-phosphate",
+      "Fructose 1,6-bisphosphate",
+      "3-phosphoglyceraldehyde",
+      "Dihydroxyacetone phosphate"
+    ], correct: 0,
   explanation: "NCERT states: 'This phosphorylated form of glucose then isomerises to produce fructose-6-phosphate.' Fructose 1,6-bisphosphate is formed by further phosphorylation of fructose-6-phosphate (another ATP consumed). Students confuse these two steps."
 },
 {
@@ -1187,12 +1134,11 @@ var allQuestions = [
   topic: "Glycolysis",
   q: "Which of the following is the correct sequence of intermediates in glycolysis?",
   options: [
-    "Glucose → G6P → F6P → F1,6-BP → PGAL → BPGA → PGA → PEP → Pyruvate",
-    "Glucose → F6P → G6P → F1,6-BP → BPGA → PGAL → PGA → PEP → Pyruvate",
-    "Glucose → G6P → F1,6-BP → F6P → PGAL → PGA → BPGA → PEP → Pyruvate",
-    "Glucose → G6P → F6P → PGAL → F1,6-BP → BPGA → PEP → PGA → Pyruvate"
-  ],
-  correct: 0,
+      "Glucose → F6P → G6P → F1,6-BP → BPGA → PGAL → PGA → PEP → Pyruvate",
+      "Glucose → G6P → F6P → F1,6-BP → PGAL → BPGA → PGA → PEP → Pyruvate",
+      "Glucose → G6P → F1,6-BP → F6P → PGAL → PGA → BPGA → PEP → Pyruvate",
+      "Glucose → G6P → F6P → PGAL → F1,6-BP → BPGA → PEP → PGA → Pyruvate"
+    ], correct: 1,
   explanation: "The correct NCERT sequence is: Glucose → Glucose-6-phosphate → Fructose-6-phosphate → Fructose 1,6-bisphosphate → PGAL (+ DHAP) → BPGA → PGA → 2-PG → PEP → Pyruvate. Options B, C and D scramble the order."
 },
 {
@@ -1213,12 +1159,11 @@ var allQuestions = [
   topic: "Glycolysis",
   q: "Consider the following statements:<br>(I) Sucrose is the end product of photosynthesis in plants<br>(II) Invertase converts sucrose into glucose and galactose<br>(III) Both glucose and fructose readily enter the glycolytic pathway<br>(IV) Hexokinase phosphorylates both glucose and fructose<br>Which statements are correct?",
   options: [
-    "I, II and III",
-    "I, III and IV",
-    "I and III only",
-    "I, II, III and IV"
-  ],
-  correct: 1,
+      "I, II and III",
+      "I, II, III and IV",
+      "I and III only",
+      "I, III and IV"
+    ], correct: 3,
   explanation: "Statement II is WRONG — invertase converts sucrose into glucose and FRUCTOSE, not galactose (lactose is split into glucose and galactose by lactase). Statements I, III and IV are directly from NCERT. Galactose vs fructose is a common trap."
 },
 {
@@ -1226,12 +1171,11 @@ var allQuestions = [
   topic: "Glycolysis",
   q: "The key product of glycolysis is:",
   options: [
-    "Acetyl CoA",
-    "Citric acid",
-    "Pyruvic acid",
-    "Lactic acid"
-  ],
-  correct: 2,
+      "Pyruvic acid",
+      "Citric acid",
+      "Acetyl CoA",
+      "Lactic acid"
+    ], correct: 0,
   explanation: "NCERT states: 'Pyruvic acid is then the key product of glycolysis.' Acetyl CoA is formed after pyruvate oxidation (link reaction). Citric acid is a Krebs cycle intermediate. Lactic acid is a fermentation product."
 },
 {
@@ -1252,12 +1196,11 @@ var allQuestions = [
   topic: "Glycolysis",
   q: "How many carbon atoms are present in each molecule of pyruvic acid formed at the end of glycolysis?",
   options: [
-    "6",
-    "2",
-    "3",
-    "5"
-  ],
-  correct: 2,
+      "6",
+      "3",
+      "2",
+      "5"
+    ], correct: 1,
   explanation: "Glucose is a 6-carbon molecule. It is split into two 3-carbon pyruvic acid molecules during glycolysis. This is evident from the figure: Glucose (6C) → 2 × Pyruvic acid (3C)."
 },
 {
@@ -1265,12 +1208,11 @@ var allQuestions = [
   topic: "Glycolysis",
   q: "Which of the following statements is <b>INCORRECT</b> regarding glycolysis?",
   options: [
-    "It involves the partial oxidation of glucose",
-    "It occurs in the cytoplasm of the cell",
-    "It produces 2 molecules of pyruvic acid per glucose molecule",
-    "It requires molecular oxygen for completion"
-  ],
-  correct: 3,
+      "It involves the partial oxidation of glucose",
+      "It occurs in the cytoplasm of the cell",
+      "It requires molecular oxygen for completion",
+      "It produces 2 molecules of pyruvic acid per glucose molecule"
+    ], correct: 2,
   explanation: "Glycolysis does NOT require molecular oxygen — it is an anaerobic process that can occur with or without O₂. NCERT states all organisms retain the machinery to partially oxidise glucose WITHOUT the help of oxygen. Options A, B and C are all correct."
 },
 {
@@ -1291,12 +1233,11 @@ var allQuestions = [
   topic: "Glycolysis",
   q: "Consider the following about the net products of glycolysis from one glucose molecule:<br>(I) 2 ATP (net)<br>(II) 2 NADH + H⁺<br>(III) 2 Pyruvic acid<br>(IV) 2 CO₂<br>Which of the above are correct?",
   options: [
-    "I, II, III and IV",
-    "I, II and III only",
-    "I and III only",
-    "II and IV only"
-  ],
-  correct: 1,
+      "I, II, III and IV",
+      "II and IV only",
+      "I and III only",
+      "I, II and III only"
+    ], correct: 3,
   explanation: "Glycolysis produces: 2 ATP (net), 2 NADH + H⁺, and 2 pyruvic acid molecules from one glucose. CO₂ is NOT released during glycolysis — it is released during pyruvate oxidation and Krebs cycle. Statement IV is a major conceptual trap."
 },
 {
@@ -1304,12 +1245,11 @@ var allQuestions = [
   topic: "Fermentation",
   q: "Fermentation involves:",
   options: [
-    "Complete oxidation of glucose under aerobic conditions",
-    "Incomplete oxidation of glucose under anaerobic conditions",
-    "Complete oxidation of glucose under anaerobic conditions",
-    "Incomplete oxidation of glucose under aerobic conditions"
-  ],
-  correct: 1,
+      "Incomplete oxidation of glucose under anaerobic conditions",
+      "Complete oxidation of glucose under aerobic conditions",
+      "Complete oxidation of glucose under anaerobic conditions",
+      "Incomplete oxidation of glucose under aerobic conditions"
+    ], correct: 0,
   explanation: "NCERT states: 'In fermentation, the incomplete oxidation of glucose is achieved under anaerobic conditions.' It is NOT complete oxidation (that requires aerobic respiration) and it is NOT aerobic. Both keywords — 'incomplete' and 'anaerobic' — must be correct."
 },
 {
@@ -1343,12 +1283,11 @@ var allQuestions = [
   topic: "Fermentation",
   q: "In animal muscle cells during vigorous exercise, when oxygen is inadequate, pyruvic acid is reduced to lactic acid by the enzyme:",
   options: [
-    "Pyruvic acid decarboxylase",
-    "Alcohol dehydrogenase",
-    "Lactate dehydrogenase",
-    "Invertase"
-  ],
-  correct: 2,
+      "Pyruvic acid decarboxylase",
+      "Alcohol dehydrogenase",
+      "Invertase",
+      "Lactate dehydrogenase"
+    ], correct: 3,
   explanation: "NCERT states: 'pyruvic acid is reduced to lactic acid by lactate dehydrogenase.' Pyruvic acid decarboxylase and alcohol dehydrogenase are involved in alcoholic fermentation (yeast), not lactic acid fermentation in muscles."
 },
 {
@@ -1369,12 +1308,11 @@ var allQuestions = [
   topic: "Fermentation",
   q: "During fermentation, the percentage of energy in glucose that is released is:",
   options: [
-    "More than 50 per cent",
-    "About 40 per cent",
-    "Less than seven per cent",
-    "About 25 per cent"
-  ],
-  correct: 2,
+      "Less than seven per cent",
+      "About 40 per cent",
+      "More than 50 per cent",
+      "About 25 per cent"
+    ], correct: 0,
   explanation: "NCERT states: 'less than seven per cent of the energy in glucose is released.' This exact figure is highly tested in NEET. Students often confuse this with the ~40% efficiency of aerobic respiration."
 },
 {
@@ -1382,12 +1320,11 @@ var allQuestions = [
   topic: "Fermentation",
   q: "Consider the following statements about fermentation:<br>(I) Less than 7% of the energy in glucose is released<br>(II) All of the released energy is trapped as high energy bonds of ATP<br>(III) Hazardous products like acid or alcohol are produced<br>(IV) Net 2 ATP molecules are synthesised per glucose molecule<br>Which of the above are correct?",
   options: [
-    "I, II and III",
-    "I, II and IV",
-    "I, III and IV",
-    "I, II, III and IV"
-  ],
-  correct: 2,
+      "I, II and III",
+      "I, III and IV",
+      "I, II and IV",
+      "I, II, III and IV"
+    ], correct: 1,
   explanation: "Statement II is WRONG — NCERT states 'not all of it is trapped as high energy bonds of ATP.' Statements I, III and IV are correct. The trap is designed to catch students who assume all released energy becomes ATP."
 },
 {
@@ -1395,12 +1332,11 @@ var allQuestions = [
   topic: "Fermentation",
   q: "The net ATP synthesised when one molecule of glucose is fermented to alcohol or lactic acid is:",
   options: [
-    "4 ATP",
-    "2 ATP",
-    "38 ATP",
-    "0 ATP"
-  ],
-  correct: 1,
+      "4 ATP",
+      "38 ATP",
+      "2 ATP",
+      "0 ATP"
+    ], correct: 2,
   explanation: "During fermentation, ATP is produced only during glycolysis (gross 4 ATP − 2 ATP consumed = net 2 ATP). No additional ATP is produced during the conversion of pyruvate to ethanol or lactic acid. The 38 ATP figure is for complete aerobic respiration."
 },
 {
@@ -1408,12 +1344,11 @@ var allQuestions = [
   topic: "Fermentation",
   q: "Yeasts poison themselves to death when the concentration of alcohol reaches about:",
   options: [
-    "5 per cent",
-    "8 per cent",
-    "13 per cent",
-    "20 per cent"
-  ],
-  correct: 2,
+      "5 per cent",
+      "8 per cent",
+      "20 per cent",
+      "13 per cent"
+    ], correct: 3,
   explanation: "NCERT states: 'Yeasts poison themselves to death when the concentration of alcohol reaches about 13 per cent.' This is why naturally fermented beverages cannot exceed ~13% alcohol content. This specific figure is frequently tested."
 },
 {
@@ -1421,12 +1356,11 @@ var allQuestions = [
   topic: "Fermentation",
   q: "The maximum concentration of alcohol in beverages that are naturally fermented would be approximately:",
   options: [
-    "5%",
-    "13%",
-    "25%",
-    "40%"
-  ],
-  correct: 1,
+      "13%",
+      "5%",
+      "25%",
+      "40%"
+    ], correct: 0,
   explanation: "Since yeast dies at about 13% alcohol concentration, naturally fermented beverages cannot exceed this limit. Higher concentrations (like in spirits) are obtained by distillation, not natural fermentation. This is a direct NCERT-based application question."
 },
 {
@@ -1434,12 +1368,11 @@ var allQuestions = [
   topic: "Fermentation",
   q: "Alcoholic beverages with alcohol content greater than 13% are obtained by:",
   options: [
-    "Using genetically modified yeast strains",
-    "Allowing fermentation to continue for a longer period",
-    "Distillation",
-    "Adding more sugar to the fermentation mixture"
-  ],
-  correct: 2,
+      "Using genetically modified yeast strains",
+      "Distillation",
+      "Allowing fermentation to continue for a longer period",
+      "Adding more sugar to the fermentation mixture"
+    ], correct: 1,
   explanation: "Since yeast dies at ~13% alcohol, natural fermentation cannot exceed this. NCERT implies that higher alcohol content beverages are obtained by distillation — a physical process of concentrating alcohol by evaporation and condensation."
 },
 {
@@ -1460,12 +1393,11 @@ var allQuestions = [
   topic: "Fermentation",
   q: "Which of the following statements correctly distinguishes alcoholic fermentation from lactic acid fermentation?",
   options: [
-    "CO₂ is released in lactic acid fermentation but not in alcoholic fermentation",
-    "CO₂ is released in alcoholic fermentation but not in lactic acid fermentation",
-    "Both release CO₂ as a byproduct",
-    "Neither releases CO₂"
-  ],
-  correct: 1,
+      "CO₂ is released in lactic acid fermentation but not in alcoholic fermentation",
+      "Both release CO₂ as a byproduct",
+      "CO₂ is released in alcoholic fermentation but not in lactic acid fermentation",
+      "Neither releases CO₂"
+    ], correct: 2,
   explanation: "In alcoholic fermentation, pyruvic acid → CO₂ + ethanol (CO₂ IS released, catalysed by pyruvic acid decarboxylase). In lactic acid fermentation, pyruvic acid → lactic acid directly (NO CO₂ released). This is one of the most important distinctions tested in NEET."
 },
 {
@@ -1473,12 +1405,11 @@ var allQuestions = [
   topic: "Fermentation",
   q: "In which of the following conditions does lactic acid fermentation occur in animal muscles?",
   options: [
-    "When oxygen supply is adequate",
-    "During rest and relaxation",
-    "When oxygen is inadequate for cellular respiration",
-    "Only in cardiac muscles continuously"
-  ],
-  correct: 2,
+      "When oxygen supply is adequate",
+      "During rest and relaxation",
+      "Only in cardiac muscles continuously",
+      "When oxygen is inadequate for cellular respiration"
+    ], correct: 3,
   explanation: "NCERT states: 'in animal cells also, like muscles during exercise, when oxygen is inadequate for cellular respiration pyruvic acid is reduced to lactic acid.' This happens during vigorous exercise when O₂ demand exceeds supply."
 },
 {
@@ -1499,12 +1430,11 @@ var allQuestions = [
   topic: "Fermentation",
   q: "During both lactic acid and alcoholic fermentation, which of the following acts as the reducing agent?",
   options: [
-    "FAD",
-    "NAD⁺",
-    "NADH+H⁺",
-    "FADH₂"
-  ],
-  correct: 2,
+      "NADH+H⁺",
+      "NAD⁺",
+      "FAD",
+      "FADH₂"
+    ], correct: 0,
   explanation: "NCERT clearly states: 'The reducing agent is NADH+H⁺ which is reoxidised to NAD⁺ in both the processes.' NAD⁺ is the oxidised form (not the reducing agent). FADH₂ and FAD are not involved in fermentation reactions."
 },
 {
@@ -1525,12 +1455,11 @@ var allQuestions = [
   topic: "Fermentation",
   q: "During fermentation, NADH+H⁺ is reoxidised to NAD⁺. The biological significance of this reoxidation is:",
   options: [
-    "To produce additional ATP molecules",
-    "To regenerate NAD⁺ so that glycolysis can continue",
-    "To release CO₂ from the cell",
-    "To produce water as a byproduct"
-  ],
-  correct: 1,
+      "To produce additional ATP molecules",
+      "To release CO₂ from the cell",
+      "To regenerate NAD⁺ so that glycolysis can continue",
+      "To produce water as a byproduct"
+    ], correct: 2,
   explanation: "NAD⁺ is required as an electron acceptor in glycolysis (PGAL → BPGA step). If NADH is not reoxidised back to NAD⁺, glycolysis would halt due to NAD⁺ depletion. Fermentation serves to regenerate NAD⁺ so glycolysis can continue producing ATP under anaerobic conditions."
 },
 {
@@ -1551,12 +1480,11 @@ var allQuestions = [
   topic: "Fermentation",
   q: "Which organisms produce lactic acid from pyruvic acid during fermentation?",
   options: [
-    "Yeast only",
-    "Some bacteria",
-    "All fungi",
-    "All plants"
-  ],
-  correct: 1,
+      "Yeast only",
+      "All plants",
+      "All fungi",
+      "Some bacteria"
+    ], correct: 3,
   explanation: "NCERT states: 'Other organisms like some bacteria produce lactic acid from pyruvic acid.' Yeast produces ethanol and CO₂ (alcoholic fermentation), not lactic acid. Not all fungi or plants carry out lactic acid fermentation."
 },
 {
@@ -1564,12 +1492,11 @@ var allQuestions = [
   topic: "Fermentation",
   q: "Aerobic respiration differs from fermentation in that:",
   options: [
-    "It leads to incomplete oxidation of organic substances",
-    "It does not require oxygen",
-    "It leads to complete oxidation of organic substances in the presence of oxygen",
-    "It produces less energy than fermentation"
-  ],
-  correct: 2,
+      "It leads to complete oxidation of organic substances in the presence of oxygen",
+      "It does not require oxygen",
+      "It leads to incomplete oxidation of organic substances",
+      "It produces less energy than fermentation"
+    ], correct: 0,
   explanation: "NCERT states: 'Aerobic respiration is the process that leads to a complete oxidation of organic substances in the presence of oxygen, and releases CO₂, water and a large amount of energy.' Fermentation is incomplete oxidation and anaerobic."
 },
 {
@@ -1590,12 +1517,11 @@ var allQuestions = [
   topic: "Fermentation",
   q: "In eukaryotes, the complete oxidation of glucose to CO₂ and H₂O takes place within:",
   options: [
-    "Cytoplasm only",
-    "Chloroplasts",
-    "Mitochondria",
-    "Ribosomes"
-  ],
-  correct: 2,
+      "Cytoplasm only",
+      "Mitochondria",
+      "Chloroplasts",
+      "Ribosomes"
+    ], correct: 1,
   explanation: "NCERT states: 'In eukaryotes these steps take place within the mitochondria and this requires O₂.' Glycolysis occurs in cytoplasm but the complete oxidation (Krebs cycle + ETC) occurs in mitochondria."
 },
 {
@@ -1642,12 +1568,11 @@ var allQuestions = [
   topic: "Fermentation",
   q: "The step of decarboxylation during alcoholic fermentation is catalysed by:",
   options: [
-    "Alcohol dehydrogenase",
-    "Lactate dehydrogenase",
-    "Pyruvic acid decarboxylase",
-    "Hexokinase"
-  ],
-  correct: 2,
+      "Alcohol dehydrogenase",
+      "Lactate dehydrogenase",
+      "Hexokinase",
+      "Pyruvic acid decarboxylase"
+    ], correct: 3,
   explanation: "Decarboxylation (removal of CO₂) from pyruvic acid is catalysed by pyruvic acid decarboxylase, forming acetaldehyde. Alcohol dehydrogenase then converts acetaldehyde to ethanol. The two enzymes act sequentially but have different roles."
 },
 {
@@ -1655,12 +1580,11 @@ var allQuestions = [
   topic: "Fermentation",
   q: "During lactic acid fermentation in muscle cells, pyruvic acid is:",
   options: [
-    "Oxidised to lactic acid",
-    "Reduced to lactic acid",
-    "Decarboxylated to lactic acid",
-    "Hydrolysed to lactic acid"
-  ],
-  correct: 1,
+      "Reduced to lactic acid",
+      "Oxidised to lactic acid",
+      "Decarboxylated to lactic acid",
+      "Hydrolysed to lactic acid"
+    ], correct: 0,
   explanation: "NCERT uses the term 'pyruvic acid is REDUCED to lactic acid.' NADH+H⁺ donates hydrogen atoms (electrons) to pyruvic acid, reducing it. This is a key concept — pyruvate is reduced while NADH is oxidised. Students often confuse oxidation and reduction here."
 },
 {
@@ -1668,12 +1592,11 @@ var allQuestions = [
   topic: "Fermentation",
   q: "How many of the following statements about fermentation are correct?<br>(I) It involves incomplete oxidation of glucose<br>(II) Less than 7% of energy in glucose is released<br>(III) It produces hazardous products<br>(IV) It occurs under aerobic conditions<br>(V) NADH+H⁺ is reoxidised to NAD⁺",
   options: [
-    "Two",
-    "Three",
-    "Four",
-    "Five"
-  ],
-  correct: 2,
+      "Two",
+      "Four",
+      "Three",
+      "Five"
+    ], correct: 1,
   explanation: "Statements I, II, III and V are correct (four statements). Statement IV is WRONG — fermentation occurs under ANAEROBIC conditions, not aerobic. This 'how many' format requires careful analysis of each statement."
 },
 {
@@ -1681,12 +1604,11 @@ var allQuestions = [
   topic: "Fermentation",
   q: "Which of the following is the correct sequence of events in alcoholic fermentation?",
   options: [
-    "Pyruvic acid → Lactic acid → Ethanol + CO₂",
-    "Pyruvic acid → Acetaldehyde + CO₂ → Ethanol",
-    "Pyruvic acid → Ethanol → Acetaldehyde + CO₂",
-    "Pyruvic acid → Ethanol + CO₂ (single step)"
-  ],
-  correct: 1,
+      "Pyruvic acid → Lactic acid → Ethanol + CO₂",
+      "Pyruvic acid → Ethanol → Acetaldehyde + CO₂",
+      "Pyruvic acid → Acetaldehyde + CO₂ → Ethanol",
+      "Pyruvic acid → Ethanol + CO₂ (single step)"
+    ], correct: 2,
   explanation: "Alcoholic fermentation is a two-step process: first, pyruvic acid decarboxylase removes CO₂ to form acetaldehyde; then alcohol dehydrogenase reduces acetaldehyde to ethanol using NADH+H⁺. It is NOT a single step and does NOT go through lactic acid."
 },
 {
@@ -1733,12 +1655,11 @@ var allQuestions = [
   topic: "Fermentation",
   q: "Which of the following is common to BOTH lactic acid fermentation and alcoholic fermentation?",
   options: [
-    "Release of CO₂",
-    "Production of ethanol",
-    "NADH+H⁺ is reoxidised to NAD⁺",
-    "Involvement of pyruvic acid decarboxylase"
-  ],
-  correct: 2,
+      "Release of CO₂",
+      "Production of ethanol",
+      "Involvement of pyruvic acid decarboxylase",
+      "NADH+H⁺ is reoxidised to NAD⁺"
+    ], correct: 3,
   explanation: "NCERT states: 'The reducing agent is NADH+H⁺ which is reoxidised to NAD⁺ in both the processes.' CO₂ is released only in alcoholic fermentation. Ethanol is produced only in alcoholic fermentation. Pyruvic acid decarboxylase is involved only in alcoholic fermentation."
 },
 {
@@ -1746,12 +1667,11 @@ var allQuestions = [
   topic: "Fermentation",
   q: "A student claims: 'During fermentation, since energy is released from glucose, fermentation is more efficient than aerobic respiration.' This claim is:",
   options: [
-    "Correct, because fermentation is faster",
-    "Correct, because fermentation does not need O₂",
-    "Incorrect, because fermentation releases less than 7% of glucose energy whereas aerobic respiration releases much more",
-    "Incorrect, because fermentation does not release any energy"
-  ],
-  correct: 2,
+      "Incorrect, because fermentation releases less than 7% of glucose energy whereas aerobic respiration releases much more",
+      "Correct, because fermentation does not need O₂",
+      "Correct, because fermentation is faster",
+      "Incorrect, because fermentation does not release any energy"
+    ], correct: 0,
   explanation: "The claim is incorrect. NCERT states fermentation releases less than 7% of glucose energy and not all of it is trapped as ATP. Aerobic respiration releases much more energy through complete oxidation. Fermentation does release SOME energy (not zero), but it is highly inefficient."
 },
 {
@@ -1759,12 +1679,11 @@ var allQuestions = [
   topic: "Aerobic Respiration – Pyruvate Oxidation",
   q: "For aerobic respiration to take place within the mitochondria, the final product of glycolysis must be transported from:",
   options: [
-    "Mitochondrial matrix to the cytoplasm",
-    "Cytoplasm to the chloroplast",
-    "Cytoplasm into the mitochondria",
-    "Inner mitochondrial membrane to the cytoplasm"
-  ],
-  correct: 2,
+      "Mitochondrial matrix to the cytoplasm",
+      "Cytoplasm into the mitochondria",
+      "Cytoplasm to the chloroplast",
+      "Inner mitochondrial membrane to the cytoplasm"
+    ], correct: 1,
   explanation: "NCERT states: 'the final product of glycolysis, pyruvate is transported from the cytoplasm into the mitochondria.' Glycolysis occurs in cytoplasm; aerobic respiration continues in mitochondria. This transport step is essential."
 },
 {
@@ -1785,12 +1704,11 @@ var allQuestions = [
   topic: "Aerobic Respiration – Pyruvate Oxidation",
   q: "The complete oxidation of pyruvate involves the stepwise removal of all hydrogen atoms, leaving behind:",
   options: [
-    "Two molecules of CO₂",
-    "Three molecules of CO₂",
-    "Six molecules of CO₂",
-    "One molecule of CO₂"
-  ],
-  correct: 1,
+      "Two molecules of CO₂",
+      "Six molecules of CO₂",
+      "Three molecules of CO₂",
+      "One molecule of CO₂"
+    ], correct: 2,
   explanation: "NCERT states: 'The complete oxidation of pyruvate by the stepwise removal of all the hydrogen atoms, leaving three molecules of CO₂.' Since pyruvate is a 3C compound, all 3 carbons are released as CO₂. Per glucose (2 pyruvates): 6 CO₂ total."
 },
 {
@@ -1798,12 +1716,11 @@ var allQuestions = [
   topic: "Aerobic Respiration – Pyruvate Oxidation",
   q: "Pyruvate undergoes oxidative decarboxylation in the mitochondrial matrix. This reaction is catalysed by:",
   options: [
-    "Pyruvic acid decarboxylase",
-    "Lactate dehydrogenase",
-    "Pyruvic dehydrogenase",
-    "Alcohol dehydrogenase"
-  ],
-  correct: 2,
+      "Pyruvic acid decarboxylase",
+      "Lactate dehydrogenase",
+      "Alcohol dehydrogenase",
+      "Pyruvic dehydrogenase"
+    ], correct: 3,
   explanation: "NCERT states pyruvate 'undergoes oxidative decarboxylation by a complex set of reactions catalysed by pyruvic dehydrogenase.' Students often confuse this with pyruvic acid DECARBOXYLASE (involved in alcoholic fermentation). The key difference: dehydrogenase vs decarboxylase."
 },
 {
@@ -1824,12 +1741,11 @@ var allQuestions = [
   topic: "Aerobic Respiration – Pyruvate Oxidation",
   q: "The coenzymes required for the reactions catalysed by pyruvic dehydrogenase include:",
   options: [
-    "FAD and FMN",
-    "NAD⁺ and Coenzyme A",
-    "FADH₂ and cytochrome c",
-    "Coenzyme Q and NAD⁺"
-  ],
-  correct: 1,
+      "NAD⁺ and Coenzyme A",
+      "FAD and FMN",
+      "FADH₂ and cytochrome c",
+      "Coenzyme Q and NAD⁺"
+    ], correct: 0,
   explanation: "NCERT states: 'The reactions catalysed by pyruvic dehydrogenase require the participation of several coenzymes, including NAD⁺ and Coenzyme A.' FAD, FMN, cytochrome c and Coenzyme Q are involved in other steps (ETC)."
 },
 {
@@ -1863,12 +1779,11 @@ var allQuestions = [
   topic: "Aerobic Respiration – Pyruvate Oxidation",
   q: "How many molecules of NADH are produced during the oxidative decarboxylation of pyruvic acid derived from one molecule of glucose?",
   options: [
-    "1 NADH",
-    "2 NADH",
-    "4 NADH",
-    "6 NADH"
-  ],
-  correct: 1,
+      "1 NADH",
+      "6 NADH",
+      "4 NADH",
+      "2 NADH"
+    ], correct: 3,
   explanation: "NCERT states: 'two molecules of NADH are produced from the metabolism of two molecules of pyruvic acid (produced from one glucose molecule during glycolysis).' Each pyruvate produces 1 NADH, and one glucose gives 2 pyruvates, so total = 2 NADH."
 },
 {
@@ -1889,12 +1804,11 @@ var allQuestions = [
   topic: "Aerobic Respiration – Pyruvate Oxidation",
   q: "Consider the following statements:<br>(I) Pyruvate is formed in the cytosol by glycolysis<br>(II) Pyruvate enters the mitochondrial matrix for oxidative decarboxylation<br>(III) Pyruvic dehydrogenase is located in the cytoplasm<br>(IV) Acetyl CoA is the product that enters Krebs' cycle<br>Which of the above are correct?",
   options: [
-    "I, II and IV only",
-    "I, II, III and IV",
-    "I and IV only",
-    "II, III and IV only"
-  ],
-  correct: 0,
+      "I, II, III and IV",
+      "I, II and IV only",
+      "I and IV only",
+      "II, III and IV only"
+    ], correct: 1,
   explanation: "Statement III is WRONG — pyruvic dehydrogenase is located in the mitochondrial matrix, not the cytoplasm. NCERT clearly states pyruvate enters the mitochondrial matrix where it undergoes oxidative decarboxylation. Statements I, II and IV are correct."
 },
 {
@@ -1915,12 +1829,11 @@ var allQuestions = [
   topic: "Aerobic Respiration – Pyruvate Oxidation",
   q: "Krebs' cycle was first elucidated by:",
   options: [
-    "Gustav Embden",
-    "Otto Meyerhof",
-    "Hans Krebs",
-    "J. Parnas"
-  ],
-  correct: 2,
+      "Gustav Embden",
+      "Otto Meyerhof",
+      "J. Parnas",
+      "Hans Krebs"
+    ], correct: 3,
   explanation: "NCERT states Krebs' cycle is 'called as Krebs' cycle after the scientist Hans Krebs who first elucidated it.' Embden, Meyerhof and Parnas are associated with glycolysis (EMP pathway)."
 },
 {
@@ -1967,12 +1880,11 @@ var allQuestions = [
   topic: "Aerobic Respiration – Pyruvate Oxidation",
   q: "Consider the following about the link reaction (oxidative decarboxylation of pyruvate):<br>(I) It takes place in the cytoplasm<br>(II) It produces Acetyl CoA<br>(III) It is catalysed by pyruvic dehydrogenase<br>(IV) It requires NAD⁺ and Coenzyme A<br>(V) It releases CO₂<br>How many of the above statements are correct?",
   options: [
-    "Five",
-    "Three",
-    "Four",
-    "Two"
-  ],
-  correct: 2,
+      "Four",
+      "Three",
+      "Five",
+      "Two"
+    ], correct: 0,
   explanation: "Statement I is WRONG — it takes place in the mitochondrial matrix, NOT cytoplasm. Statements II, III, IV and V are all correct (four statements). This is a critical location trap — students confuse glycolysis (cytoplasm) with oxidative decarboxylation (matrix)."
 },
 {
@@ -1980,12 +1892,11 @@ var allQuestions = [
   topic: "Aerobic Respiration – Pyruvate Oxidation",
   q: "The number of carbon atoms in pyruvic acid and acetyl CoA respectively are:",
   options: [
-    "3C and 2C",
-    "2C and 3C",
-    "3C and 3C",
-    "4C and 2C"
-  ],
-  correct: 0,
+      "2C and 3C",
+      "3C and 2C",
+      "3C and 3C",
+      "4C and 2C"
+    ], correct: 1,
   explanation: "Pyruvic acid is a 3-carbon compound. During oxidative decarboxylation, one carbon is removed as CO₂, leaving a 2-carbon acetyl group attached to CoA (Acetyl CoA). This carbon count is essential for understanding the stoichiometry of aerobic respiration."
 },
 {
@@ -2032,12 +1943,11 @@ var allQuestions = [
   topic: "Aerobic Respiration – Pyruvate Oxidation",
   q: "Pyruvate is formed by the glycolytic catabolism of carbohydrates in the cytosol. The term 'cytosol' refers to:",
   options: [
-    "Mitochondrial matrix",
-    "The fluid portion of cytoplasm",
-    "Inner mitochondrial membrane",
-    "Nuclear matrix"
-  ],
-  correct: 1,
+      "Mitochondrial matrix",
+      "Nuclear matrix",
+      "Inner mitochondrial membrane",
+      "The fluid portion of cytoplasm"
+    ], correct: 3,
   explanation: "Cytosol refers to the fluid (aqueous) portion of the cytoplasm. NCERT uses 'cytosol' and 'cytoplasm' interchangeably in this context for the location of glycolysis. It is NOT the mitochondrial matrix or any organelle interior."
 },
 {
@@ -2045,12 +1955,11 @@ var allQuestions = [
   topic: "Aerobic Respiration – Pyruvate Oxidation",
   q: "Which of the following is <b>NOT</b> a reactant in the oxidative decarboxylation of pyruvate as per the NCERT equation?",
   options: [
-    "Pyruvic acid",
-    "CoA",
-    "NAD⁺",
-    "FADH₂"
-  ],
-  correct: 3,
+      "FADH₂",
+      "CoA",
+      "NAD⁺",
+      "Pyruvic acid"
+    ], correct: 0,
   explanation: "The NCERT equation shows: Pyruvic acid + CoA + NAD⁺ → Acetyl CoA + CO₂ + NADH + H⁺. FADH₂ is NOT a reactant in this reaction; it is a product of the Krebs cycle. Pyruvic acid, CoA and NAD⁺ are the three reactants."
 },
 {
@@ -2058,12 +1967,11 @@ var allQuestions = [
   topic: "Aerobic Respiration – Pyruvate Oxidation",
   q: "Consider the following statements:<br>(I) Pyruvic dehydrogenase catalyses a simple, single-step reaction<br>(II) The reactions require participation of several coenzymes<br>(III) NAD⁺ and Coenzyme A are among the coenzymes involved<br>(IV) Mg²⁺ is required as a cofactor<br>Which of the above are correct?",
   options: [
-    "I, II, III and IV",
-    "I, III and IV only",
-    "II, III and IV only",
-    "I and II only"
-  ],
-  correct: 2,
+      "I, II, III and IV",
+      "II, III and IV only",
+      "I, III and IV only",
+      "I and II only"
+    ], correct: 1,
   explanation: "Statement I is WRONG — NCERT states pyruvate 'undergoes oxidative decarboxylation by a COMPLEX SET of reactions', not a simple single-step reaction. Statements II, III and IV are all directly from NCERT."
 },
 {
@@ -2071,12 +1979,11 @@ var allQuestions = [
   topic: "Aerobic Respiration – Pyruvate Oxidation",
   q: "During the complete oxidation of one molecule of glucose through aerobic respiration, CO₂ is released at which stages?",
   options: [
-    "Glycolysis and Krebs cycle",
-    "Oxidative decarboxylation of pyruvate and Krebs cycle",
-    "Glycolysis and ETC",
-    "Only during ETC"
-  ],
-  correct: 1,
+      "Glycolysis and Krebs cycle",
+      "Glycolysis and ETC",
+      "Oxidative decarboxylation of pyruvate and Krebs cycle",
+      "Only during ETC"
+    ], correct: 2,
   explanation: "CO₂ is NOT released during glycolysis or ETC. CO₂ is released during: (1) oxidative decarboxylation of pyruvate (2 CO₂ per glucose) and (2) Krebs cycle (4 CO₂ per glucose). Total 6 CO₂ per glucose. This is a very common NEET trap."
 },
 {
@@ -2097,12 +2004,11 @@ var allQuestions = [
   topic: "Aerobic Respiration – Pyruvate Oxidation",
   q: "The tricarboxylic acid cycle is also known as:",
   options: [
-    "EMP pathway",
-    "Krebs' cycle",
-    "HMP shunt",
-    "Cori cycle"
-  ],
-  correct: 1,
+      "EMP pathway",
+      "Cori cycle",
+      "HMP shunt",
+      "Krebs' cycle"
+    ], correct: 3,
   explanation: "NCERT states: 'tricarboxylic acid cycle, more commonly called as Krebs' cycle after the scientist Hans Krebs.' EMP pathway = glycolysis. HMP shunt = pentose phosphate pathway. Cori cycle involves lactate recycling between muscles and liver."
 },
 {
@@ -2110,12 +2016,11 @@ var allQuestions = [
   topic: "Aerobic Respiration – Pyruvate Oxidation",
   q: "Which of the following correctly describes the fate of the hydrogen atoms removed during complete oxidation of pyruvate?",
   options: [
-    "They combine directly with CO₂ to form carbohydrates",
-    "They are released as H₂ gas from the cell",
-    "Their electrons are passed on to molecular O₂ with simultaneous synthesis of ATP",
-    "They are stored permanently in NADH without further use"
-  ],
-  correct: 2,
+      "Their electrons are passed on to molecular O₂ with simultaneous synthesis of ATP",
+      "They are released as H₂ gas from the cell",
+      "They combine directly with CO₂ to form carbohydrates",
+      "They are stored permanently in NADH without further use"
+    ], correct: 0,
   explanation: "NCERT states: 'The passing on of the electrons removed as part of the hydrogen atoms to molecular O₂ with simultaneous synthesis of ATP.' This is the electron transport chain / oxidative phosphorylation process on the inner mitochondrial membrane."
 },
 {
@@ -2136,12 +2041,11 @@ var allQuestions = [
   topic: "Aerobic Respiration – Pyruvate Oxidation",
   q: "The oxidative decarboxylation of pyruvate is often called the 'link reaction' because:",
   options: [
-    "It links photosynthesis to respiration",
-    "It links glycolysis (in cytoplasm) to Krebs cycle (in mitochondrial matrix)",
-    "It links ETC to Krebs cycle",
-    "It links fermentation to aerobic respiration"
-  ],
-  correct: 1,
+      "It links photosynthesis to respiration",
+      "It links ETC to Krebs cycle",
+      "It links glycolysis (in cytoplasm) to Krebs cycle (in mitochondrial matrix)",
+      "It links fermentation to aerobic respiration"
+    ], correct: 2,
   explanation: "The oxidative decarboxylation of pyruvate serves as a connecting step (link) between glycolysis (cytoplasm) and the Krebs cycle (mitochondrial matrix). It converts the glycolytic product (pyruvate) into the Krebs cycle substrate (Acetyl CoA)."
 },
 {
@@ -2149,12 +2053,11 @@ var allQuestions = [
   topic: "Aerobic Respiration – Pyruvate Oxidation",
   q: "Which of the following statements is <b>INCORRECT</b> about aerobic respiration?",
   options: [
-    "It requires O₂",
-    "The complete oxidation of pyruvate takes place in the mitochondrial matrix",
-    "Electron transfer to O₂ occurs in the mitochondrial matrix",
-    "It produces CO₂ and water as end products"
-  ],
-  correct: 2,
+      "It requires O₂",
+      "The complete oxidation of pyruvate takes place in the mitochondrial matrix",
+      "It produces CO₂ and water as end products",
+      "Electron transfer to O₂ occurs in the mitochondrial matrix"
+    ], correct: 3,
   explanation: "Electron transfer to O₂ occurs on the INNER MITOCHONDRIAL MEMBRANE, not in the mitochondrial matrix. NCERT clearly states: 'the second process is located on the inner membrane of the mitochondria.' Options A, B and D are correct."
 },
 {
@@ -2188,12 +2091,11 @@ var allQuestions = [
   topic: "Tricarboxylic Acid Cycle",
   q: "The TCA cycle starts with the condensation of acetyl group with:",
   options: [
-    "Citric acid and water",
-    "Succinyl-CoA and water",
-    "Oxaloacetic acid (OAA) and water",
-    "α-ketoglutaric acid and water"
-  ],
-  correct: 2,
+      "Oxaloacetic acid (OAA) and water",
+      "Succinyl-CoA and water",
+      "Citric acid and water",
+      "α-ketoglutaric acid and water"
+    ], correct: 0,
   explanation: "NCERT states: 'The TCA cycle starts with the condensation of acetyl group with oxaloacetic acid (OAA) and water to yield citric acid.' OAA (4C) + Acetyl CoA (2C) → Citric acid (6C). This is the gateway reaction of the TCA cycle."
 },
 {
@@ -2227,12 +2129,11 @@ var allQuestions = [
   topic: "Tricarboxylic Acid Cycle",
   q: "Citrate is then converted to isocitrate by the process of:",
   options: [
-    "Decarboxylation",
-    "Oxidation",
-    "Isomerisation",
-    "Phosphorylation"
-  ],
-  correct: 2,
+      "Decarboxylation",
+      "Oxidation",
+      "Phosphorylation",
+      "Isomerisation"
+    ], correct: 3,
   explanation: "NCERT states: 'Citrate is then isomerised to isocitrate.' Isomerisation means rearrangement of atoms within the molecule without adding or removing atoms. No carbon is lost (both are 6C) and no oxidation/reduction occurs."
 },
 {
@@ -2240,12 +2141,11 @@ var allQuestions = [
   topic: "Tricarboxylic Acid Cycle",
   q: "How many successive steps of decarboxylation follow the formation of isocitrate in the TCA cycle?",
   options: [
-    "One",
-    "Two",
-    "Three",
-    "Four"
-  ],
-  correct: 1,
+      "Two",
+      "One",
+      "Three",
+      "Four"
+    ], correct: 0,
   explanation: "NCERT states: 'It is followed by two successive steps of decarboxylation, leading to the formation of α-ketoglutaric acid and then succinyl-CoA.' First: Isocitrate (6C) → α-ketoglutaric acid (5C) + CO₂. Second: α-ketoglutaric acid (5C) → Succinyl-CoA (4C) + CO₂."
 },
 {
@@ -2253,12 +2153,11 @@ var allQuestions = [
   topic: "Tricarboxylic Acid Cycle",
   q: "The two successive decarboxylation steps in TCA cycle lead to the formation of:",
   options: [
-    "Citric acid and isocitrate",
-    "Succinic acid and malic acid",
-    "α-ketoglutaric acid and succinyl-CoA",
-    "OAA and citric acid"
-  ],
-  correct: 2,
+      "Citric acid and isocitrate",
+      "α-ketoglutaric acid and succinyl-CoA",
+      "Succinic acid and malic acid",
+      "OAA and citric acid"
+    ], correct: 1,
   explanation: "NCERT states: 'two successive steps of decarboxylation, leading to the formation of α-ketoglutaric acid and then succinyl-CoA.' First decarboxylation: isocitrate → α-ketoglutarate. Second: α-ketoglutarate → succinyl-CoA."
 },
 {
@@ -2279,12 +2178,11 @@ var allQuestions = [
   topic: "Tricarboxylic Acid Cycle",
   q: "The synthesis of GTP during the conversion of succinyl-CoA to succinic acid is an example of:",
   options: [
-    "Oxidative phosphorylation",
-    "Photophosphorylation",
-    "Substrate level phosphorylation",
-    "Chemiosmotic phosphorylation"
-  ],
-  correct: 2,
+      "Oxidative phosphorylation",
+      "Photophosphorylation",
+      "Chemiosmotic phosphorylation",
+      "Substrate level phosphorylation"
+    ], correct: 3,
   explanation: "NCERT specifically states: 'This is a substrate level phosphorylation.' Unlike oxidative phosphorylation (which occurs in ETC), substrate level phosphorylation involves direct transfer of a phosphate group to form GTP/ATP without involvement of the electron transport chain."
 },
 {
@@ -2305,12 +2203,11 @@ var allQuestions = [
   topic: "Tricarboxylic Acid Cycle",
   q: "In the TCA cycle, NAD⁺ is reduced to NADH + H⁺ at how many points?",
   options: [
-    "One",
-    "Two",
-    "Three",
-    "Four"
-  ],
-  correct: 2,
+      "Three",
+      "Two",
+      "One",
+      "Four"
+    ], correct: 0,
   explanation: "NCERT states: 'there are three points in the cycle where NAD⁺ is reduced to NADH + H⁺.' These occur at: (1) Isocitrate → α-ketoglutarate, (2) α-ketoglutarate → succinyl-CoA, (3) Malate → OAA. Students often confuse this with 4 NADH per pyruvate (which includes the link reaction NADH)."
 },
 {
@@ -2318,12 +2215,11 @@ var allQuestions = [
   topic: "Tricarboxylic Acid Cycle",
   q: "In the TCA cycle, FAD⁺ is reduced to FADH₂ at how many points?",
   options: [
-    "One",
-    "Two",
-    "Three",
-    "Four"
-  ],
-  correct: 0,
+      "Two",
+      "One",
+      "Three",
+      "Four"
+    ], correct: 1,
   explanation: "NCERT states: 'one point where FAD⁺ is reduced to FADH₂.' This occurs during the conversion of succinic acid to fumarate (or as shown in figure: succinic acid → malic acid step). Only ONE FADH₂ per TCA turn — students often incorrectly state 2."
 },
 {
@@ -2331,12 +2227,11 @@ var allQuestions = [
   topic: "Tricarboxylic Acid Cycle",
   q: "The continued oxidation of acetyl CoA via the TCA cycle requires the continued replenishment of:",
   options: [
-    "Citric acid",
-    "α-ketoglutaric acid",
-    "Succinyl-CoA",
-    "Oxaloacetic acid (OAA)"
-  ],
-  correct: 3,
+      "Citric acid",
+      "α-ketoglutaric acid",
+      "Oxaloacetic acid (OAA)",
+      "Succinyl-CoA"
+    ], correct: 2,
   explanation: "NCERT states: 'The continued oxidation of acetyl CoA via the TCA cycle requires the continued replenishment of oxaloacetic acid, the first member of the cycle.' OAA is regenerated at the end of each cycle when malate is oxidised."
 },
 {
@@ -2344,12 +2239,11 @@ var allQuestions = [
   topic: "Tricarboxylic Acid Cycle",
   q: "Besides the replenishment of OAA, the TCA cycle also requires regeneration of:",
   options: [
-    "ATP and GTP",
-    "Glucose and fructose",
-    "NAD⁺ and FAD⁺ from NADH and FADH₂ respectively",
-    "CoA and acetaldehyde"
-  ],
-  correct: 2,
+      "ATP and GTP",
+      "Glucose and fructose",
+      "CoA and acetaldehyde",
+      "NAD⁺ and FAD⁺ from NADH and FADH₂ respectively"
+    ], correct: 3,
   explanation: "NCERT states: 'it also requires regeneration of NAD⁺ and FAD⁺ from NADH and FADH₂ respectively.' This regeneration occurs via the electron transport chain. Without NAD⁺/FAD⁺ regeneration, the cycle would halt."
 },
 {
@@ -2370,12 +2264,11 @@ var allQuestions = [
   topic: "Tricarboxylic Acid Cycle",
   q: "From one molecule of glucose, through the link reaction and TCA cycle combined, how many NADH + H⁺ molecules are produced?",
   options: [
-    "4",
-    "6",
-    "8",
-    "10"
-  ],
-  correct: 2,
+      "8",
+      "6",
+      "4",
+      "10"
+    ], correct: 0,
   explanation: "Per pyruvate: 4 NADH (1 from link reaction + 3 from TCA). Per glucose: 4 × 2 = 8 NADH + H⁺. NCERT confirms: 'eight molecules of NADH + H⁺ have been synthesised.' This does NOT include the 2 NADH from glycolysis."
 },
 {
@@ -2396,12 +2289,11 @@ var allQuestions = [
   topic: "Tricarboxylic Acid Cycle",
   q: "How many ATP molecules are directly synthesised in the TCA cycle (both turns) from one molecule of glucose?",
   options: [
-    "1",
-    "2",
-    "4",
-    "6"
-  ],
-  correct: 1,
+      "1",
+      "4",
+      "2",
+      "6"
+    ], correct: 2,
   explanation: "NCERT states: 'two molecules of ATP in TCA cycle.' One GTP (equivalent to 1 ATP) per turn × 2 turns = 2 ATP via substrate level phosphorylation. The large number of ATP comes later via ETC and oxidative phosphorylation."
 },
 {
@@ -2409,12 +2301,11 @@ var allQuestions = [
   topic: "Tricarboxylic Acid Cycle",
   q: "Consider the following intermediates of TCA cycle and their carbon numbers:<br>(I) Citric acid – 6C<br>(II) α-ketoglutaric acid – 5C<br>(III) Succinyl-CoA – 4C<br>(IV) OAA – 6C<br>Which of the above are correct?",
   options: [
-    "I, II and III only",
-    "I, II, III and IV",
-    "I and II only",
-    "II, III and IV only"
-  ],
-  correct: 0,
+      "II, III and IV only",
+      "I, II, III and IV",
+      "I and II only",
+      "I, II and III only"
+    ], correct: 3,
   explanation: "Statement IV is WRONG — OAA is a 4C compound, not 6C. From the figure: OAA (4C) + Acetyl CoA (2C) → Citric acid (6C). Statements I (6C), II (5C) and III (4C) are correct. Confusing OAA carbon count is a common error."
 },
 {
@@ -2448,12 +2339,11 @@ var allQuestions = [
   topic: "Tricarboxylic Acid Cycle",
   q: "How many CO₂ molecules are released per turn of the TCA cycle (from one acetyl CoA)?",
   options: [
-    "1",
-    "2",
-    "3",
-    "4"
-  ],
-  correct: 1,
+      "2",
+      "1",
+      "3",
+      "4"
+    ], correct: 0,
   explanation: "Per TCA turn: 2 CO₂ are released (one at isocitrate → α-ketoglutarate, one at α-ketoglutarate → succinyl-CoA). Note: the 3rd CO₂ from each pyruvate is released during the link reaction (oxidative decarboxylation), NOT during TCA cycle itself."
 },
 {
@@ -2461,12 +2351,11 @@ var allQuestions = [
   topic: "Tricarboxylic Acid Cycle",
   q: "How many total CO₂ molecules are released from one glucose molecule through link reaction + TCA cycle?",
   options: [
-    "2",
-    "4",
-    "6",
-    "8"
-  ],
-  correct: 2,
+      "2",
+      "6",
+      "4",
+      "8"
+    ], correct: 1,
   explanation: "Per pyruvate: 1 CO₂ (link reaction) + 2 CO₂ (TCA) = 3 CO₂. Per glucose (2 pyruvates): 3 × 2 = 6 CO₂. This accounts for all 6 carbons of glucose being fully oxidised to CO₂. No CO₂ is released during glycolysis or ETC."
 },
 {
@@ -2474,12 +2363,11 @@ var allQuestions = [
   topic: "Tricarboxylic Acid Cycle",
   q: "Which of the following is the correct sequence of TCA cycle intermediates?",
   options: [
-    "OAA → Citrate → Isocitrate → α-ketoglutarate → Succinyl-CoA → Succinate → Malate → OAA",
-    "OAA → Isocitrate → Citrate → α-ketoglutarate → Succinate → Succinyl-CoA → Malate → OAA",
-    "Citrate → OAA → Isocitrate → Succinyl-CoA → α-ketoglutarate → Succinate → Malate → OAA",
-    "OAA → Citrate → α-ketoglutarate → Isocitrate → Succinyl-CoA → Malate → Succinate → OAA"
-  ],
-  correct: 0,
+      "Citrate → OAA → Isocitrate → Succinyl-CoA → α-ketoglutarate → Succinate → Malate → OAA",
+      "OAA → Isocitrate → Citrate → α-ketoglutarate → Succinate → Succinyl-CoA → Malate → OAA",
+      "OAA → Citrate → Isocitrate → α-ketoglutarate → Succinyl-CoA → Succinate → Malate → OAA",
+      "OAA → Citrate → α-ketoglutarate → Isocitrate → Succinyl-CoA → Malate → Succinate → OAA"
+    ], correct: 2,
   explanation: "The correct NCERT sequence: OAA + Acetyl CoA → Citrate → Isocitrate → α-ketoglutarate → Succinyl-CoA → Succinate → Malate → OAA. Options B, C and D scramble the order — notably confusing citrate/isocitrate and succinate/succinyl-CoA positions."
 },
 {
@@ -2487,12 +2375,11 @@ var allQuestions = [
   topic: "Tricarboxylic Acid Cycle",
   q: "Which of the following statements about the TCA cycle is <b>INCORRECT</b>?",
   options: [
-    "Citrate synthase catalyses the first reaction of TCA cycle",
-    "Citrate is isomerised to isocitrate",
-    "GTP is synthesised during the conversion of α-ketoglutarate to succinyl-CoA",
-    "Succinyl-CoA is oxidised to OAA in the remaining steps"
-  ],
-  correct: 2,
+      "Citrate synthase catalyses the first reaction of TCA cycle",
+      "Citrate is isomerised to isocitrate",
+      "Succinyl-CoA is oxidised to OAA in the remaining steps",
+      "GTP is synthesised during the conversion of α-ketoglutarate to succinyl-CoA"
+    ], correct: 3,
   explanation: "GTP is synthesised during the conversion of SUCCINYL-CoA to SUCCINIC ACID, NOT α-ketoglutarate to succinyl-CoA. The step α-ketoglutarate → succinyl-CoA involves decarboxylation and NADH production, not GTP synthesis. This is a frequently set NEET trap."
 },
 {
@@ -2500,12 +2387,11 @@ var allQuestions = [
   topic: "Tricarboxylic Acid Cycle",
   q: "Consider the following about products from one glucose molecule through glycolysis, link reaction and TCA cycle combined:<br>(I) 10 NADH + H⁺<br>(II) 2 FADH₂<br>(III) 4 ATP (total from substrate level phosphorylation)<br>(IV) 6 CO₂<br>Which are correct?",
   options: [
-    "I, II and III only",
-    "I, II, III and IV",
-    "I and IV only",
-    "II, III and IV only"
-  ],
-  correct: 1,
+      "I, II, III and IV",
+      "I, II and III only",
+      "I and IV only",
+      "II, III and IV only"
+    ], correct: 0,
   explanation: "Glycolysis: 2 NADH + 2 ATP. Link reaction: 2 NADH. TCA: 6 NADH + 2 FADH₂ + 2 ATP (GTP). Totals: 10 NADH, 2 FADH₂, 4 ATP (2 from glycolysis + 2 from TCA), 6 CO₂. All four statements are correct."
 },
 {
@@ -2526,12 +2412,11 @@ var allQuestions = [
   topic: "Tricarboxylic Acid Cycle",
   q: "The first member (starting compound) of the TCA cycle that must be continually replenished is:",
   options: [
-    "Citric acid",
-    "Acetyl CoA",
-    "α-ketoglutaric acid",
-    "Oxaloacetic acid (OAA)"
-  ],
-  correct: 3,
+      "Citric acid",
+      "Oxaloacetic acid (OAA)",
+      "α-ketoglutaric acid",
+      "Acetyl CoA"
+    ], correct: 1,
   explanation: "NCERT states: 'requires the continued replenishment of oxaloacetic acid, the first member of the cycle.' Citric acid is the first product formed, not the starting compound that needs replenishment. Acetyl CoA comes from outside the cycle."
 },
 {
@@ -2552,12 +2437,11 @@ var allQuestions = [
   topic: "Tricarboxylic Acid Cycle",
   q: "Which of the following statements is true regarding citric acid in the TCA cycle?",
   options: [
-    "Citric acid is a 4-carbon compound",
-    "Citric acid is formed by condensation of acetyl group (2C) with OAA (4C)",
-    "Citric acid is directly decarboxylated to α-ketoglutaric acid",
-    "Citric acid is the last intermediate of TCA cycle"
-  ],
-  correct: 1,
+      "Citric acid is a 4-carbon compound",
+      "Citric acid is the last intermediate of TCA cycle",
+      "Citric acid is directly decarboxylated to α-ketoglutaric acid",
+      "Citric acid is formed by condensation of acetyl group (2C) with OAA (4C)"
+    ], correct: 3,
   explanation: "NCERT states: 'condensation of acetyl group with oxaloacetic acid (OAA) and water to yield citric acid.' Acetyl (2C) + OAA (4C) = Citric acid (6C), not 4C. Citrate is first isomerised to isocitrate before decarboxylation. Citric acid is the first product, not the last."
 },
 {
@@ -2591,12 +2475,11 @@ var allQuestions = [
   topic: "Tricarboxylic Acid Cycle",
   q: "Up to the end of TCA cycle (from one glucose), no oxygen has been used. The role of the NADH + H⁺ and FADH₂ produced is to:",
   options: [
-    "Be excreted as waste products",
-    "Directly synthesise glucose via gluconeogenesis",
-    "Donate electrons to the electron transport chain for ATP synthesis",
-    "Reduce CO₂ back to glucose"
-  ],
-  correct: 2,
+      "Donate electrons to the electron transport chain for ATP synthesis",
+      "Directly synthesise glucose via gluconeogenesis",
+      "Be excreted as waste products",
+      "Reduce CO₂ back to glucose"
+    ], correct: 0,
   explanation: "NCERT poses the question: 'what is the role of the NADH + H⁺ and FADH₂ that is synthesised?' Their electrons are passed through the ETC on the inner mitochondrial membrane to molecular O₂, driving ATP synthesis by oxidative phosphorylation."
 },
 {
@@ -2617,12 +2500,11 @@ var allQuestions = [
   topic: "Tricarboxylic Acid Cycle",
   q: "Consider the following about substrate level phosphorylation in respiration:<br>(I) Conversion of BPGA → PGA in glycolysis<br>(II) Conversion of PEP → pyruvate in glycolysis<br>(III) Conversion of succinyl-CoA → succinic acid in TCA<br>(IV) ATP synthesis in ETC<br>Which of the above are examples of substrate level phosphorylation?",
   options: [
-    "I, II and III only",
-    "I, II, III and IV",
-    "III and IV only",
-    "III only"
-  ],
-  correct: 0,
+      "III and IV only",
+      "I, II, III and IV",
+      "I, II and III only",
+      "III only"
+    ], correct: 2,
   explanation: "Substrate level phosphorylation involves direct transfer of phosphate to ADP/GDP without ETC involvement. This occurs at: (I) BPGA → PGA, (II) PEP → pyruvate (both in glycolysis), and (III) succinyl-CoA → succinic acid (TCA). ATP synthesis in ETC is OXIDATIVE phosphorylation, NOT substrate level."
 },
 {
@@ -2643,12 +2525,11 @@ var allQuestions = [
   topic: "ETS and Oxidative Phosphorylation",
   q: "The electron transport system (ETS) is present in the:",
   options: [
-    "Outer mitochondrial membrane",
-    "Mitochondrial matrix",
-    "Inner mitochondrial membrane",
-    "Cytoplasm"
-  ],
-  correct: 2,
+      "Outer mitochondrial membrane",
+      "Mitochondrial matrix",
+      "Cytoplasm",
+      "Inner mitochondrial membrane"
+    ], correct: 3,
   explanation: "NCERT states: 'the electron transport system (ETS) is present in the inner mitochondrial membrane.' The matrix houses the TCA cycle, and the outer membrane is permeable. This location fact is one of the most repeatedly tested in NEET."
 },
 {
@@ -2656,12 +2537,11 @@ var allQuestions = [
   topic: "ETS and Oxidative Phosphorylation",
   q: "The metabolic pathway through which electrons pass from one carrier to another is called:",
   options: [
-    "Krebs cycle",
-    "Glycolysis",
-    "Electron Transport System (ETS)",
-    "Calvin cycle"
-  ],
-  correct: 2,
+      "Electron Transport System (ETS)",
+      "Glycolysis",
+      "Krebs cycle",
+      "Calvin cycle"
+    ], correct: 0,
   explanation: "NCERT defines: 'The metabolic pathway through which the electron passes from one carrier to another, is called the electron transport system (ETS).' Krebs cycle and glycolysis are metabolic pathways but do not describe electron carrier chains."
 },
 {
@@ -2669,12 +2549,11 @@ var allQuestions = [
   topic: "ETS and Oxidative Phosphorylation",
   q: "NADH produced in the mitochondrial matrix during the citric acid cycle is oxidised by:",
   options: [
-    "Complex II (Succinate dehydrogenase)",
-    "Complex III (Cytochrome bc₁)",
-    "Complex I (NADH dehydrogenase)",
-    "Complex IV (Cytochrome c oxidase)"
-  ],
-  correct: 2,
+      "Complex II (Succinate dehydrogenase)",
+      "Complex I (NADH dehydrogenase)",
+      "Complex III (Cytochrome bc₁)",
+      "Complex IV (Cytochrome c oxidase)"
+    ], correct: 1,
   explanation: "NCERT states: 'Electrons from NADH produced in the mitochondrial matrix during citric acid cycle are oxidised by an NADH dehydrogenase (Complex I).' Complex II handles FADH₂ from succinate oxidation. Students commonly confuse Complexes I and II."
 },
 {
@@ -2682,12 +2561,11 @@ var allQuestions = [
   topic: "ETS and Oxidative Phosphorylation",
   q: "After electrons from NADH are accepted by Complex I, they are transferred to:",
   options: [
-    "Cytochrome c",
-    "Ubiquinone",
-    "Complex IV directly",
-    "Molecular O₂"
-  ],
-  correct: 1,
+      "Cytochrome c",
+      "Complex IV directly",
+      "Ubiquinone",
+      "Molecular O₂"
+    ], correct: 2,
   explanation: "NCERT states: 'electrons are then transferred to ubiquinone located within the inner membrane.' Ubiquinone (Coenzyme Q) is the first mobile carrier that collects electrons from both Complex I and Complex II before passing them to Complex III."
 },
 {
@@ -2695,12 +2573,11 @@ var allQuestions = [
   topic: "ETS and Oxidative Phosphorylation",
   q: "Ubiquinone receives reducing equivalents via FADH₂ through:",
   options: [
-    "Complex I",
-    "Complex II",
-    "Complex III",
-    "Complex IV"
-  ],
-  correct: 1,
+      "Complex I",
+      "Complex IV",
+      "Complex III",
+      "Complex II"
+    ], correct: 3,
   explanation: "NCERT states: 'Ubiquinone also receives reducing equivalents via FADH₂ (Complex II) that is generated during oxidation of succinate in the citric acid cycle.' FADH₂ bypasses Complex I entirely and enters at Complex II — this is why FADH₂ produces fewer ATP than NADH."
 },
 {
@@ -2708,12 +2585,11 @@ var allQuestions = [
   topic: "ETS and Oxidative Phosphorylation",
   q: "The reduced ubiquinone (ubiquinol) transfers electrons to cytochrome c via:",
   options: [
-    "Complex I (NADH dehydrogenase)",
-    "Complex IV (Cytochrome c oxidase)",
-    "Complex III (Cytochrome bc₁ complex)",
-    "Complex V (ATP synthase)"
-  ],
-  correct: 2,
+      "Complex III (Cytochrome bc₁ complex)",
+      "Complex IV (Cytochrome c oxidase)",
+      "Complex I (NADH dehydrogenase)",
+      "Complex V (ATP synthase)"
+    ], correct: 0,
   explanation: "NCERT states: 'The reduced ubiquinone (ubiquinol) is then oxidised with the transfer of electrons to cytochrome c via cytochrome bc₁ complex (Complex III).' The electron path is: Complex I/II → Ubiquinone → Complex III → Cyt c → Complex IV."
 },
 {
@@ -2721,12 +2597,11 @@ var allQuestions = [
   topic: "ETS and Oxidative Phosphorylation",
   q: "Cytochrome c is described in NCERT as:",
   options: [
-    "A large protein embedded deep within the inner membrane",
-    "An integral membrane protein forming a proton channel",
-    "A small protein attached to the outer surface of the inner membrane acting as a mobile carrier",
-    "A copper-containing enzyme in the mitochondrial matrix"
-  ],
-  correct: 2,
+      "A large protein embedded deep within the inner membrane",
+      "A small protein attached to the outer surface of the inner membrane acting as a mobile carrier",
+      "An integral membrane protein forming a proton channel",
+      "A copper-containing enzyme in the mitochondrial matrix"
+    ], correct: 1,
   explanation: "NCERT states: 'Cytochrome c is a small protein attached to the outer surface of the inner membrane and acts as a mobile carrier for transfer of electrons between complex III and IV.' It is NOT integral or matrix-located."
 },
 {
@@ -2760,12 +2635,11 @@ var allQuestions = [
   topic: "ETS and Oxidative Phosphorylation",
   q: "Oxidation of one molecule of NADH through the ETS gives rise to:",
   options: [
-    "2 molecules of ATP",
-    "3 molecules of ATP",
-    "1 molecule of ATP",
-    "4 molecules of ATP"
-  ],
-  correct: 1,
+      "2 molecules of ATP",
+      "4 molecules of ATP",
+      "1 molecule of ATP",
+      "3 molecules of ATP"
+    ], correct: 3,
   explanation: "NCERT states: 'Oxidation of one molecule of NADH gives rise to 3 molecules of ATP.' FADH₂ gives 2 ATP. The difference is because FADH₂ enters at Complex II, bypassing Complex I and one proton-pumping site."
 },
 {
@@ -2773,12 +2647,11 @@ var allQuestions = [
   topic: "ETS and Oxidative Phosphorylation",
   q: "Oxidation of one molecule of FADH₂ through the ETS produces:",
   options: [
-    "3 molecules of ATP",
-    "1 molecule of ATP",
-    "2 molecules of ATP",
-    "4 molecules of ATP"
-  ],
-  correct: 2,
+      "2 molecules of ATP",
+      "1 molecule of ATP",
+      "3 molecules of ATP",
+      "4 molecules of ATP"
+    ], correct: 0,
   explanation: "NCERT states: 'one molecule of FADH₂ produces 2 molecules of ATP.' FADH₂ enters ETS at Complex II (not Complex I), so fewer protons are pumped across the membrane, resulting in fewer ATP compared to NADH (3 ATP)."
 },
 {
@@ -2799,12 +2672,11 @@ var allQuestions = [
   topic: "ETS and Oxidative Phosphorylation",
   q: "Although aerobic respiration requires oxygen, its role is limited to:",
   options: [
-    "The TCA cycle in the mitochondrial matrix",
-    "Glycolysis in the cytoplasm",
-    "The terminal stage of the electron transport chain",
-    "The link reaction between glycolysis and TCA"
-  ],
-  correct: 2,
+      "The TCA cycle in the mitochondrial matrix",
+      "The terminal stage of the electron transport chain",
+      "Glycolysis in the cytoplasm",
+      "The link reaction between glycolysis and TCA"
+    ], correct: 1,
   explanation: "NCERT states: 'the role of oxygen is limited to the terminal stage of the process.' O₂ is the final electron/hydrogen acceptor at Complex IV. It does not participate in glycolysis, TCA cycle, or the link reaction."
 },
 {
@@ -2825,12 +2697,11 @@ var allQuestions = [
   topic: "ETS and Oxidative Phosphorylation",
   q: "The presence of oxygen is vital in aerobic respiration because:",
   options: [
-    "It directly participates in the TCA cycle reactions",
-    "It drives the whole process by removing hydrogen from the system",
-    "It is needed for glycolysis to proceed",
-    "It converts NADH directly to ATP"
-  ],
-  correct: 1,
+      "It directly participates in the TCA cycle reactions",
+      "It converts NADH directly to ATP",
+      "It is needed for glycolysis to proceed",
+      "It drives the whole process by removing hydrogen from the system"
+    ], correct: 3,
   explanation: "NCERT states: 'the presence of oxygen is vital, since it drives the whole process by removing hydrogen from the system.' By accepting electrons and H⁺ at the end of ETS, O₂ allows the chain to continue functioning and NADH/FADH₂ to be reoxidised."
 },
 {
@@ -2838,12 +2709,11 @@ var allQuestions = [
   topic: "ETS and Oxidative Phosphorylation",
   q: "The process of ATP synthesis coupled to electron transport is called oxidative phosphorylation because:",
   options: [
-    "Light energy is utilised to produce proton gradient",
-    "The energy of oxidation-reduction is utilised for phosphorylation",
-    "Oxygen directly phosphorylates ADP to ATP",
-    "Substrate-level phosphate transfer occurs"
-  ],
-  correct: 1,
+      "The energy of oxidation-reduction is utilised for phosphorylation",
+      "Light energy is utilised to produce proton gradient",
+      "Oxygen directly phosphorylates ADP to ATP",
+      "Substrate-level phosphate transfer occurs"
+    ], correct: 0,
   explanation: "NCERT states: 'in respiration it is the energy of oxidation-reduction utilised for the same process. It is for this reason that the process is called oxidative phosphorylation.' In contrast, photophosphorylation uses light energy for the proton gradient."
 },
 {
@@ -2864,12 +2734,11 @@ var allQuestions = [
   topic: "ETS and Oxidative Phosphorylation",
   q: "ATP synthase (Complex V) consists of two major components:",
   options: [
-    "F₁ and F₂",
-    "F₀ and F₂",
-    "F₁ and F₀",
-    "Fa and Fb"
-  ],
-  correct: 2,
+      "F₁ and F₂",
+      "F₁ and F₀",
+      "F₀ and F₂",
+      "Fa and Fb"
+    ], correct: 1,
   explanation: "NCERT states: 'This complex consists of two major components, F₁ and F₀.' F₁ is the headpiece (peripheral) and F₀ is the membrane-embedded portion (integral). Students should remember the subscript is F₀ (letter 'O' for oligomycin sensitivity), not F-zero."
 },
 {
@@ -2877,12 +2746,11 @@ var allQuestions = [
   topic: "ETS and Oxidative Phosphorylation",
   q: "The F₁ headpiece of ATP synthase is:",
   options: [
-    "An integral membrane protein complex forming a proton channel",
-    "A peripheral membrane protein complex containing the site for ATP synthesis",
-    "A mobile electron carrier between Complex III and IV",
-    "An enzyme that directly reduces O₂ to H₂O"
-  ],
-  correct: 1,
+      "An integral membrane protein complex forming a proton channel",
+      "A mobile electron carrier between Complex III and IV",
+      "A peripheral membrane protein complex containing the site for ATP synthesis",
+      "An enzyme that directly reduces O₂ to H₂O"
+    ], correct: 2,
   explanation: "NCERT states: 'The F₁ headpiece is a peripheral membrane protein complex and contains the site for synthesis of ATP from ADP and inorganic phosphate.' F₀ (not F₁) is the integral membrane protein forming the proton channel."
 },
 {
@@ -2890,12 +2758,11 @@ var allQuestions = [
   topic: "ETS and Oxidative Phosphorylation",
   q: "The F₀ component of ATP synthase is:",
   options: [
-    "A peripheral membrane protein with catalytic activity",
-    "A small mobile carrier protein",
-    "An integral membrane protein complex that forms the channel through which protons cross the inner membrane",
-    "A matrix-located enzyme"
-  ],
-  correct: 2,
+      "A peripheral membrane protein with catalytic activity",
+      "A small mobile carrier protein",
+      "A matrix-located enzyme",
+      "An integral membrane protein complex that forms the channel through which protons cross the inner membrane"
+    ], correct: 3,
   explanation: "NCERT states: 'F₀ is an integral membrane protein complex that forms the channel through which protons cross the inner membrane.' F₁ is peripheral (catalytic), F₀ is integral (channel). This distinction is heavily tested in NEET."
 },
 {
@@ -2916,12 +2783,11 @@ var allQuestions = [
   topic: "ETS and Oxidative Phosphorylation",
   q: "For each ATP produced by ATP synthase, how many protons (H⁺) pass through F₀ from the intermembrane space to the matrix?",
   options: [
-    "2H⁺",
-    "3H⁺",
-    "4H⁺",
-    "6H⁺"
-  ],
-  correct: 2,
+      "4H⁺",
+      "3H⁺",
+      "2H⁺",
+      "6H⁺"
+    ], correct: 0,
   explanation: "NCERT states: 'For each ATP produced, 4H⁺ pass through F₀ from the intermembrane space to the matrix down the electrochemical proton gradient.' This specific number (4H⁺ per ATP) is frequently asked in NEET."
 },
 {
@@ -2942,12 +2808,11 @@ var allQuestions = [
   topic: "ETS and Oxidative Phosphorylation",
   q: "Consider the following statements about the ETS:<br>(I) ETS is located on the inner mitochondrial membrane<br>(II) NADH is oxidised by Complex II<br>(III) FADH₂ donates electrons to Complex II<br>(IV) Cytochrome c transfers electrons between Complex III and IV<br>Which of the above are correct?",
   options: [
-    "I, II and III",
-    "I, III and IV",
-    "I, II, III and IV",
-    "II and IV only"
-  ],
-  correct: 1,
+      "I, II and III",
+      "I, II, III and IV",
+      "I, III and IV",
+      "II and IV only"
+    ], correct: 2,
   explanation: "Statement II is WRONG — NADH is oxidised by Complex I (NADH dehydrogenase), NOT Complex II. Complex II handles FADH₂ from succinate oxidation. Statements I, III and IV are directly from NCERT."
 },
 {
@@ -2955,12 +2820,11 @@ var allQuestions = [
   topic: "ETS and Oxidative Phosphorylation",
   q: "The correct sequence of electron flow in ETS is:",
   options: [
-    "NADH → Complex I → Ubiquinone → Complex III → Cytochrome c → Complex IV → O₂",
-    "NADH → Complex II → Ubiquinone → Complex I → Cytochrome c → Complex IV → O₂",
-    "NADH → Complex I → Cytochrome c → Ubiquinone → Complex III → Complex IV → O₂",
-    "NADH → Complex III → Ubiquinone → Complex I → Cytochrome c → Complex IV → O₂"
-  ],
-  correct: 0,
+      "NADH → Complex III → Ubiquinone → Complex I → Cytochrome c → Complex IV → O₂",
+      "NADH → Complex II → Ubiquinone → Complex I → Cytochrome c → Complex IV → O₂",
+      "NADH → Complex I → Cytochrome c → Ubiquinone → Complex III → Complex IV → O₂",
+      "NADH → Complex I → Ubiquinone → Complex III → Cytochrome c → Complex IV → O₂"
+    ], correct: 3,
   explanation: "NCERT flow: NADH → Complex I → Ubiquinone → Complex III → Cytochrome c → Complex IV → O₂. Options B, C and D scramble the sequence. A critical point: ubiquinone comes BEFORE Complex III, and cytochrome c comes AFTER Complex III."
 },
 {
@@ -2968,12 +2832,11 @@ var allQuestions = [
   topic: "ETS and Oxidative Phosphorylation",
   q: "Which of the following are mobile electron carriers in the ETS?",
   options: [
-    "Complex I and Complex III",
-    "Ubiquinone and Cytochrome c",
-    "Complex II and Complex IV",
-    "F₁ and F₀"
-  ],
-  correct: 1,
+      "Ubiquinone and Cytochrome c",
+      "Complex I and Complex III",
+      "Complex II and Complex IV",
+      "F₁ and F₀"
+    ], correct: 0,
   explanation: "Ubiquinone is a mobile carrier within the inner membrane (shuttles electrons from Complex I/II to Complex III). Cytochrome c is a mobile carrier on the outer surface of the inner membrane (shuttles electrons from Complex III to IV). Complexes I-IV are fixed; F₁/F₀ form ATP synthase."
 },
 {
@@ -3046,12 +2909,11 @@ var allQuestions = [
   topic: "ETS and Oxidative Phosphorylation",
   q: "When electrons pass through the ETS, they ultimately combine with:",
   options: [
-    "CO₂ to form carbonic acid",
-    "NAD⁺ to regenerate NADH",
-    "Molecular O₂ resulting in the formation of H₂O",
-    "ADP to form ATP"
-  ],
-  correct: 2,
+      "CO₂ to form carbonic acid",
+      "NAD⁺ to regenerate NADH",
+      "ADP to form ATP",
+      "Molecular O₂ resulting in the formation of H₂O"
+    ], correct: 3,
   explanation: "NCERT states: 'the electrons are passed on to O₂ resulting in the formation of H₂O.' At Complex IV, electrons combine with H⁺ and O₂ → H₂O. This is why aerobic respiration requires oxygen as the terminal electron acceptor."
 },
 {
@@ -3059,12 +2921,11 @@ var allQuestions = [
   topic: "ETS and Oxidative Phosphorylation",
   q: "How many of the following statements are correct?<br>(I) Ubiquinone is located within the inner membrane<br>(II) Cytochrome c is attached to the outer surface of the inner membrane<br>(III) Complex IV contains two copper centres<br>(IV) FADH₂ donates electrons to Complex I<br>(V) 4H⁺ pass through F₀ per ATP produced",
   options: [
-    "Five",
-    "Four",
-    "Three",
-    "Two"
-  ],
-  correct: 1,
+      "Four",
+      "Five",
+      "Three",
+      "Two"
+    ], correct: 0,
   explanation: "Statement IV is WRONG — FADH₂ donates electrons to Complex II (succinate dehydrogenase), NOT Complex I. Statements I, II, III and V are all correct (four statements). FADH₂ entry point is one of the most frequently tested NEET traps."
 },
 {
@@ -3098,12 +2959,11 @@ var allQuestions = [
   topic: "Respiratory Balance Sheet",
   q: "The theoretical net gain of ATP during aerobic respiration of one molecule of glucose is:",
   options: [
-    "36 ATP",
-    "40 ATP",
-    "38 ATP",
-    "34 ATP"
-  ],
-  correct: 2,
+      "36 ATP",
+      "38 ATP",
+      "40 ATP",
+      "34 ATP"
+    ], correct: 1,
   explanation: "NCERT states: 'there can be a net gain of 38 ATP molecules during aerobic respiration of one molecule of glucose.' This is a theoretical figure based on certain assumptions. 36 ATP is sometimes cited in other references but NCERT clearly states 38."
 },
 {
@@ -3124,12 +2984,11 @@ var allQuestions = [
   topic: "Respiratory Balance Sheet",
   q: "Consider the following assumptions for the respiratory balance sheet calculation:<br>(I) Sequential, orderly pathway functioning<br>(II) NADH from glycolysis transferred into mitochondria<br>(III) All intermediates freely used for other biosynthesis<br>(IV) Only glucose is being respired<br>Which of the above are correct assumptions as per NCERT?",
   options: [
-    "I, II, III and IV",
-    "I, II and IV only",
-    "I and IV only",
-    "II and III only"
-  ],
-  correct: 1,
+      "I, II, III and IV",
+      "I and IV only",
+      "I, II and IV only",
+      "II and III only"
+    ], correct: 2,
   explanation: "Statement III is WRONG — the assumption is that NONE of the intermediates are utilised for other compound synthesis (opposite of III). Statements I, II and IV are the correct NCERT assumptions. This is a subtle reversal trap."
 },
 {
@@ -3163,12 +3022,11 @@ var allQuestions = [
   topic: "Respiratory Balance Sheet",
   q: "Fermentation accounts for:",
   options: [
-    "Complete breakdown of glucose to CO₂ and H₂O",
-    "Partial breakdown of glucose",
-    "Complete oxidation of pyruvate to CO₂",
-    "Oxidative phosphorylation of NADH"
-  ],
-  correct: 1,
+      "Complete breakdown of glucose to CO₂ and H₂O",
+      "Oxidative phosphorylation of NADH",
+      "Complete oxidation of pyruvate to CO₂",
+      "Partial breakdown of glucose"
+    ], correct: 3,
   explanation: "NCERT states: 'Fermentation accounts for only a partial breakdown of glucose whereas in aerobic respiration it is completely degraded to CO₂ and H₂O.' Fermentation ends at ethanol/lactic acid — glucose is not fully oxidised."
 },
 {
@@ -3176,12 +3034,11 @@ var allQuestions = [
   topic: "Respiratory Balance Sheet",
   q: "In fermentation, the net gain of ATP for each molecule of glucose degraded to pyruvic acid is:",
   options: [
-    "4 molecules of ATP",
-    "38 molecules of ATP",
-    "2 molecules of ATP",
-    "6 molecules of ATP"
-  ],
-  correct: 2,
+      "2 molecules of ATP",
+      "38 molecules of ATP",
+      "4 molecules of ATP",
+      "6 molecules of ATP"
+    ], correct: 0,
   explanation: "NCERT states: 'In fermentation there is a net gain of only two molecules of ATP for each molecule of glucose degraded to pyruvic acid.' This comes from glycolysis alone (4 gross − 2 consumed = 2 net). No additional ATP is produced during fermentation steps."
 },
 {
@@ -3189,12 +3046,11 @@ var allQuestions = [
   topic: "Respiratory Balance Sheet",
   q: "Consider the following comparison between fermentation and aerobic respiration:<br>(I) Fermentation — partial breakdown; Aerobic — complete degradation<br>(II) Fermentation — net 2 ATP; Aerobic — 38 ATP<br>(III) NADH oxidised vigorously in fermentation; slowly in aerobic respiration<br>(IV) Fermentation is anaerobic; aerobic respiration requires O₂<br>Which statements are correct?",
   options: [
-    "I, II, III and IV",
-    "I and II only",
-    "I, II and IV only",
-    "I, II and III only"
-  ],
-  correct: 2,
+      "I, II, III and IV",
+      "I, II and IV only",
+      "I and II only",
+      "I, II and III only"
+    ], correct: 1,
   explanation: "Statement III is WRONG — NCERT states 'NADH is oxidised to NAD⁺ rather SLOWLY in fermentation, however the reaction is very VIGOROUS in case of aerobic respiration.' Option III REVERSES this. Statements I, II and IV are correct."
 },
 {
@@ -3241,12 +3097,11 @@ var allQuestions = [
   topic: "Respiratory Balance Sheet",
   q: "The total number of NADH molecules produced from one glucose molecule during glycolysis, link reaction and TCA cycle (for 38 ATP calculation) is:",
   options: [
-    "8",
-    "10",
-    "12",
-    "6"
-  ],
-  correct: 1,
+      "8",
+      "6",
+      "12",
+      "10"
+    ], correct: 3,
   explanation: "Glycolysis: 2 NADH. Link reaction: 2 NADH. TCA cycle (×2 turns): 6 NADH. Total = 2 + 2 + 6 = 10 NADH. At 3 ATP per NADH = 30 ATP from NADH alone. Plus 2 FADH₂ × 2 = 4 ATP, plus 4 substrate-level ATP = 38 ATP total."
 },
 {
@@ -3254,12 +3109,11 @@ var allQuestions = [
   topic: "Respiratory Balance Sheet",
   q: "Calculate the total ATP yield from one glucose molecule:<br>10 NADH × 3 ATP = 30 ATP<br>2 FADH₂ × 2 ATP = 4 ATP<br>4 ATP (substrate level phosphorylation)<br>Total = ?",
   options: [
-    "36 ATP",
-    "34 ATP",
-    "38 ATP",
-    "40 ATP"
-  ],
-  correct: 2,
+      "38 ATP",
+      "34 ATP",
+      "36 ATP",
+      "40 ATP"
+    ], correct: 0,
   explanation: "30 (from NADH) + 4 (from FADH₂) + 4 (substrate level: 2 from glycolysis + 2 from TCA) = 38 ATP. This matches the NCERT figure of 38 ATP net gain per glucose molecule during aerobic respiration."
 },
 {
@@ -3293,12 +3147,11 @@ var allQuestions = [
   topic: "Amphibolic Pathway",
   q: "When fats are used as respiratory substrates, they are first broken down into:",
   options: [
-    "Amino acids and glycerol",
-    "Glucose and fructose",
-    "Glycerol and fatty acids",
-    "Pyruvate and acetyl CoA"
-  ],
-  correct: 2,
+      "Amino acids and glycerol",
+      "Glucose and fructose",
+      "Pyruvate and acetyl CoA",
+      "Glycerol and fatty acids"
+    ], correct: 3,
   explanation: "NCERT states: 'Fats would need to be broken down into glycerol and fatty acids first.' Glycerol enters as PGAL and fatty acids are degraded to acetyl CoA. Fats are NOT directly converted to glucose or amino acids."
 },
 {
@@ -3306,12 +3159,11 @@ var allQuestions = [
   topic: "Amphibolic Pathway",
   q: "Fatty acids, when used as respiratory substrates, enter the respiratory pathway as:",
   options: [
-    "Glucose-6-phosphate",
-    "PGAL (glyceraldehyde-3-phosphate)",
-    "Pyruvic acid",
-    "Acetyl CoA"
-  ],
-  correct: 3,
+      "Acetyl CoA",
+      "PGAL (glyceraldehyde-3-phosphate)",
+      "Pyruvic acid",
+      "Glucose-6-phosphate"
+    ], correct: 0,
   explanation: "NCERT states: 'If fatty acids were to be respired they would first be degraded to acetyl CoA and enter the pathway.' They enter at the Acetyl CoA stage, NOT at glucose or PGAL (that is where glycerol enters). This is a very commonly tested entry point question."
 },
 {
@@ -3319,12 +3171,11 @@ var allQuestions = [
   topic: "Amphibolic Pathway",
   q: "Glycerol, when used as a respiratory substrate, enters the respiratory pathway after being converted to:",
   options: [
-    "Acetyl CoA",
-    "Pyruvic acid",
-    "PGAL (glyceraldehyde-3-phosphate)",
-    "OAA"
-  ],
-  correct: 2,
+      "Acetyl CoA",
+      "PGAL (glyceraldehyde-3-phosphate)",
+      "Pyruvic acid",
+      "OAA"
+    ], correct: 1,
   explanation: "NCERT states: 'Glycerol would enter the pathway after being converted to PGAL.' PGAL is a glycolytic intermediate (3C triose phosphate). Students commonly confuse glycerol entry (PGAL) with fatty acid entry (Acetyl CoA)."
 },
 {
@@ -3332,12 +3183,11 @@ var allQuestions = [
   topic: "Amphibolic Pathway",
   q: "Proteins used as respiratory substrates are first degraded by proteases to amino acids, which after deamination enter the respiratory pathway at:",
   options: [
-    "Only at the glucose stage",
-    "Some stage within the Krebs' cycle, or as pyruvate, or as acetyl CoA",
-    "Only as PGAL in glycolysis",
-    "Only at the ETS stage"
-  ],
-  correct: 1,
+      "Only at the glucose stage",
+      "Only as PGAL in glycolysis",
+      "Some stage within the Krebs' cycle, or as pyruvate, or as acetyl CoA",
+      "Only at the ETS stage"
+    ], correct: 2,
   explanation: "NCERT states: 'individual amino acids (after deamination) depending on their structure would enter the pathway at some stage within the Krebs' cycle or even as pyruvate or acetyl CoA.' The entry point depends on the specific amino acid structure."
 },
 {
@@ -3358,12 +3208,11 @@ var allQuestions = [
   topic: "Amphibolic Pathway",
   q: "The respiratory pathway has traditionally been considered as:",
   options: [
-    "An anabolic pathway",
-    "An amphibolic pathway",
-    "A catabolic pathway",
-    "A photosynthetic pathway"
-  ],
-  correct: 2,
+      "An anabolic pathway",
+      "An amphibolic pathway",
+      "A photosynthetic pathway",
+      "A catabolic pathway"
+    ], correct: 3,
   explanation: "NCERT states: 'Since respiration involves breakdown of substrates, the respiratory process has traditionally been considered a catabolic process.' However, NCERT goes on to argue it should be considered amphibolic. The question asks the TRADITIONAL view."
 },
 {
@@ -3371,12 +3220,11 @@ var allQuestions = [
   topic: "Amphibolic Pathway",
   q: "The respiratory pathway is better described as an amphibolic pathway because:",
   options: [
-    "It is involved only in catabolism (breakdown)",
-    "It is involved only in anabolism (synthesis)",
-    "It is involved in both anabolism and catabolism",
-    "It functions only when glucose is the substrate"
-  ],
-  correct: 2,
+      "It is involved in both anabolism and catabolism",
+      "It is involved only in anabolism (synthesis)",
+      "It is involved only in catabolism (breakdown)",
+      "It functions only when glucose is the substrate"
+    ], correct: 0,
   explanation: "NCERT states: 'Because the respiratory pathway is involved in both anabolism and catabolism, it would hence be better to consider the respiratory pathway as an amphibolic pathway rather than as a catabolic one.' Intermediates are used for both breakdown and synthesis."
 },
 {
@@ -3397,12 +3245,11 @@ var allQuestions = [
   topic: "Amphibolic Pathway",
   q: "When the organism needs to synthesise fatty acids, which respiratory intermediate is withdrawn from the pathway?",
   options: [
-    "Pyruvic acid",
-    "PGAL",
-    "OAA",
-    "Acetyl CoA"
-  ],
-  correct: 3,
+      "Pyruvic acid",
+      "Acetyl CoA",
+      "OAA",
+      "PGAL"
+    ], correct: 1,
   explanation: "NCERT states: 'when the organism needs to synthesise fatty acids, acetyl CoA would be withdrawn from the respiratory pathway for it.' Acetyl CoA is both the entry point for fat catabolism and the withdrawal point for fat anabolism."
 },
 {
@@ -3410,12 +3257,11 @@ var allQuestions = [
   topic: "Amphibolic Pathway",
   q: "Consider the following statements:<br>(I) Fatty acids are broken down to acetyl CoA during catabolism<br>(II) Acetyl CoA is withdrawn for fatty acid synthesis during anabolism<br>(III) The respiratory pathway functions only as a catabolic pathway<br>(IV) Respiratory intermediates link both breakdown and synthesis of proteins<br>Which of the above are correct?",
   options: [
-    "I, II, III and IV",
-    "I, II and IV only",
-    "I and II only",
-    "III and IV only"
-  ],
-  correct: 1,
+      "I, II, III and IV",
+      "I and II only",
+      "I, II and IV only",
+      "III and IV only"
+    ], correct: 2,
   explanation: "Statement III is WRONG — NCERT argues that the respiratory pathway is AMPHIBOLIC (both catabolic and anabolic), not just catabolic. Statements I, II and IV are all correct and form the basis for calling it amphibolic."
 },
 {
@@ -3423,12 +3269,11 @@ var allQuestions = [
   topic: "Amphibolic Pathway",
   q: "The term 'deamination' refers to:",
   options: [
-    "Addition of an amino group to a molecule",
-    "Removal of an amino group from amino acids",
-    "Conversion of fats to fatty acids",
-    "Breakdown of glucose to pyruvate"
-  ],
-  correct: 1,
+      "Addition of an amino group to a molecule",
+      "Breakdown of glucose to pyruvate",
+      "Conversion of fats to fatty acids",
+      "Removal of an amino group from amino acids"
+    ], correct: 3,
   explanation: "NCERT mentions that amino acids undergo deamination before entering respiratory pathway. Deamination is the removal of the amino group (-NH₂) from amino acids, allowing the carbon skeleton to enter metabolic pathways. Addition of amino group is called amination/transamination."
 },
 {
@@ -3436,12 +3281,11 @@ var allQuestions = [
   topic: "Amphibolic Pathway",
   q: "Which of the following correctly describes the entry of proteins into the respiratory pathway?",
   options: [
-    "Proteins directly enter glycolysis as glucose",
-    "Proteins are degraded by lipases to amino acids which enter Krebs' cycle",
-    "Proteins are degraded by proteases to amino acids, which after deamination enter Krebs' cycle, pyruvate or acetyl CoA",
-    "Proteins cannot be used as respiratory substrates"
-  ],
-  correct: 2,
+      "Proteins are degraded by proteases to amino acids, which after deamination enter Krebs' cycle, pyruvate or acetyl CoA",
+      "Proteins are degraded by lipases to amino acids which enter Krebs' cycle",
+      "Proteins directly enter glycolysis as glucose",
+      "Proteins cannot be used as respiratory substrates"
+    ], correct: 0,
   explanation: "NCERT states: 'The proteins would be degraded by proteases and the individual amino acids (after deamination) depending on their structure would enter the pathway at some stage within the Krebs' cycle or even as pyruvate or acetyl CoA.' Lipases degrade fats, not proteins."
 },
 {
@@ -3488,12 +3332,11 @@ var allQuestions = [
   topic: "Amphibolic Pathway",
   q: "From the NCERT figure, the correct entry point of glycerol into the respiratory pathway is at:",
   options: [
-    "Acetyl CoA level",
-    "Krebs' cycle intermediates",
-    "Dihydroxyacetone phosphate / Glyceraldehyde-3-phosphate (PGAL) level",
-    "Pyruvic acid level"
-  ],
-  correct: 2,
+      "Acetyl CoA level",
+      "Krebs' cycle intermediates",
+      "Pyruvic acid level",
+      "Dihydroxyacetone phosphate / Glyceraldehyde-3-phosphate (PGAL) level"
+    ], correct: 3,
   explanation: "From NCERT Figure 12.6, glycerol enters at the triose phosphate level (DHAP/PGAL) in glycolysis. This is because glycerol is a 3-carbon compound that can be phosphorylated and converted to PGAL. Fatty acids (NOT glycerol) enter at acetyl CoA."
 },
 {
@@ -3501,12 +3344,11 @@ var allQuestions = [
   topic: "Respiratory Balance Sheet & Amphibolic Pathway",
   q: "Consider the following statements:<br>(I) The 38 ATP figure is a theoretical calculation valid in living systems<br>(II) In living systems, substrates enter and are withdrawn from pathways as needed<br>(III) Respiration is an amphibolic pathway<br>(IV) Fatty acids enter the pathway as PGAL<br>How many of the above statements are correct?",
   options: [
-    "One",
-    "Two",
-    "Three",
-    "Four"
-  ],
-  correct: 1,
+      "Two",
+      "One",
+      "Three",
+      "Four"
+    ], correct: 0,
   explanation: "Statement I is WRONG — 38 ATP is theoretical and NOT really valid in living systems. Statement IV is WRONG — fatty acids enter as Acetyl CoA (glycerol enters as PGAL). Statements II and III are correct. So 2 correct statements."
 },
 {
@@ -3527,12 +3369,11 @@ var allQuestions = [
   topic: "Respiratory Balance Sheet",
   q: "Which of the following correctly compares NADH oxidation in fermentation vs aerobic respiration?",
   options: [
-    "NADH is oxidised vigorously in fermentation and slowly in aerobic respiration",
-    "NADH is not oxidised in either process",
-    "NADH is oxidised at the same rate in both processes",
-    "NADH is oxidised rather slowly in fermentation and very vigorously in aerobic respiration"
-  ],
-  correct: 3,
+      "NADH is oxidised vigorously in fermentation and slowly in aerobic respiration",
+      "NADH is oxidised rather slowly in fermentation and very vigorously in aerobic respiration",
+      "NADH is oxidised at the same rate in both processes",
+      "NADH is not oxidised in either process"
+    ], correct: 1,
   explanation: "NCERT states: 'NADH is oxidised to NAD⁺ rather slowly in fermentation, however the reaction is very vigorous in case of aerobic respiration.' This is because fermentation uses only pyruvate reduction for NAD⁺ regeneration, while aerobic respiration uses the entire ETS."
 },
 {
@@ -3566,12 +3407,11 @@ var allQuestions = [
   topic: "Respiratory Quotient",
   q: "The respiratory quotient is also known as:",
   options: [
-    "Respiratory coefficient",
-    "Respiratory ratio",
-    "Respiratory index",
-    "Respiratory constant"
-  ],
-  correct: 1,
+      "Respiratory coefficient",
+      "Respiratory index",
+      "Respiratory ratio",
+      "Respiratory constant"
+    ], correct: 2,
   explanation: "NCERT states RQ is 'called the respiratory quotient (RQ) or respiratory ratio.' The other terms (coefficient, index, constant) are not used in NCERT for this concept."
 },
 {
@@ -3579,12 +3419,11 @@ var allQuestions = [
   topic: "Respiratory Quotient",
   q: "The respiratory quotient depends upon:",
   options: [
-    "The rate of breathing",
-    "The amount of water produced",
-    "The type of respiratory substrate used during respiration",
-    "The temperature of the organism"
-  ],
-  correct: 2,
+      "The rate of breathing",
+      "The amount of water produced",
+      "The temperature of the organism",
+      "The type of respiratory substrate used during respiration"
+    ], correct: 3,
   explanation: "NCERT states: 'The respiratory quotient depends upon the type of respiratory substrate used during respiration.' Different substrates (carbohydrates, fats, proteins) have different RQ values because of their different chemical compositions."
 },
 {
@@ -3592,12 +3431,11 @@ var allQuestions = [
   topic: "Respiratory Quotient",
   q: "When carbohydrates are used as substrate and are completely oxidised, the RQ will be:",
   options: [
-    "0.7",
-    "0.9",
-    "1.0",
-    "More than 1"
-  ],
-  correct: 2,
+      "1.0",
+      "0.9",
+      "0.7",
+      "More than 1"
+    ], correct: 0,
   explanation: "NCERT states: 'When carbohydrates are used as substrate and are completely oxidised, the RQ will be 1.' This is because equal amounts of CO₂ and O₂ are evolved and consumed respectively (6CO₂/6O₂ = 1 for glucose)."
 },
 {
@@ -3605,12 +3443,11 @@ var allQuestions = [
   topic: "Respiratory Quotient",
   q: "The equation C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + Energy gives an RQ of:",
   options: [
-    "0.7",
-    "0.9",
-    "0.5",
-    "1.0"
-  ],
-  correct: 3,
+      "0.7",
+      "1.0",
+      "0.5",
+      "0.9"
+    ], correct: 1,
   explanation: "RQ = Volume of CO₂ evolved / Volume of O₂ consumed = 6CO₂ / 6O₂ = 1.0. This is the standard glucose oxidation equation. Equal volumes of CO₂ are produced and O₂ are consumed, giving RQ = 1."
 },
 {
@@ -3631,12 +3468,11 @@ var allQuestions = [
   topic: "Respiratory Quotient",
   q: "The RQ value for the fatty acid tripalmitin is:",
   options: [
-    "1.0",
-    "0.9",
-    "0.7",
-    "0.5"
-  ],
-  correct: 2,
+      "1.0",
+      "0.9",
+      "0.5",
+      "0.7"
+    ], correct: 3,
   explanation: "NCERT gives the calculation: 2(C₅₁H₉₈O₆) + 145O₂ → 102CO₂ + 98H₂O + Energy. RQ = 102CO₂/145O₂ = 0.7. This specific value (0.7) is a frequently tested numerical fact in NEET."
 },
 {
@@ -3644,12 +3480,11 @@ var allQuestions = [
   topic: "Respiratory Quotient",
   q: "When proteins are used as respiratory substrates, the RQ would be about:",
   options: [
-    "1.0",
-    "0.7",
-    "0.5",
-    "0.9"
-  ],
-  correct: 3,
+      "0.9",
+      "0.7",
+      "0.5",
+      "1.0"
+    ], correct: 0,
   explanation: "NCERT states: 'When proteins are respiratory substrates the ratio would be about 0.9.' This is an intermediate value between carbohydrates (1.0) and fats (0.7). The order to remember: Carbohydrates (1.0) > Proteins (0.9) > Fats (0.7)."
 },
 {
@@ -3683,12 +3518,11 @@ var allQuestions = [
   topic: "Respiratory Quotient",
   q: "Consider the following statements:<br>(I) RQ of carbohydrates = 1.0<br>(II) RQ of fats = 0.7<br>(III) RQ of proteins = 0.7<br>(IV) RQ depends on the type of respiratory substrate<br>Which of the above are correct?",
   options: [
-    "I, II, III and IV",
-    "I, II and IV only",
-    "I and IV only",
-    "I, III and IV only"
-  ],
-  correct: 1,
+      "I, II, III and IV",
+      "I and IV only",
+      "I, II and IV only",
+      "I, III and IV only"
+    ], correct: 2,
   explanation: "Statement III is WRONG — RQ of proteins is approximately 0.9, NOT 0.7. RQ of 0.7 is for fats (tripalmitin). Students commonly confuse the RQ values of proteins and fats. Statements I, II and IV are correct."
 },
 {
@@ -3696,12 +3530,11 @@ var allQuestions = [
   topic: "Respiratory Quotient",
   q: "In living organisms, respiratory substrates are:",
   options: [
-    "Always only glucose",
-    "Always only fats",
-    "Often more than one type",
-    "Always pure proteins"
-  ],
-  correct: 2,
+      "Always only glucose",
+      "Always only fats",
+      "Always pure proteins",
+      "Often more than one type"
+    ], correct: 3,
   explanation: "NCERT states: 'in living organisms, respiratory substrates are often more than one.' Organisms use a mixture of carbohydrates, fats and proteins simultaneously. This is why the actual RQ in a living organism is not exactly 1.0, 0.7 or 0.9."
 },
 {
@@ -3709,12 +3542,11 @@ var allQuestions = [
   topic: "Respiratory Quotient",
   q: "Which of the following statements is correct as per NCERT?",
   options: [
-    "Pure proteins are commonly used as respiratory substrates",
-    "Pure fats are the preferred respiratory substrates",
-    "Pure proteins or fats are never used as respiratory substrates",
-    "Only carbohydrates can serve as respiratory substrates"
-  ],
-  correct: 2,
+      "Pure proteins or fats are never used as respiratory substrates",
+      "Pure fats are the preferred respiratory substrates",
+      "Pure proteins are commonly used as respiratory substrates",
+      "Only carbohydrates can serve as respiratory substrates"
+    ], correct: 0,
   explanation: "NCERT states: 'pure proteins or fats are never used as respiratory substrates.' In reality, organisms use a mixture of substrates. While glucose is the favoured substrate, pure forms of fats or proteins alone are never the sole respiratory substrate."
 },
 {
@@ -3748,12 +3580,11 @@ var allQuestions = [
   topic: "Respiratory Quotient",
   q: "If an organism has an RQ of exactly 1.0, it is most likely respiring:",
   options: [
-    "Fats",
-    "Proteins",
-    "Carbohydrates",
-    "A mixture of fats and proteins"
-  ],
-  correct: 2,
+      "Fats",
+      "Carbohydrates",
+      "Proteins",
+      "A mixture of fats and proteins"
+    ], correct: 1,
   explanation: "RQ = 1.0 is characteristic of carbohydrate respiration (glucose: 6CO₂/6O₂ = 1). Fats give RQ = 0.7 and proteins give RQ ≈ 0.9. A mixture of fats and proteins would give an RQ between 0.7 and 0.9, not exactly 1.0."
 },
 {
@@ -3774,12 +3605,11 @@ var allQuestions = [
   topic: "Respiratory Quotient",
   q: "Why is the RQ of carbohydrates equal to 1?",
   options: [
-    "Because no O₂ is consumed during carbohydrate oxidation",
-    "Because more CO₂ is evolved than O₂ consumed",
-    "Because equal amounts of CO₂ are evolved and O₂ are consumed",
-    "Because no CO₂ is produced during carbohydrate oxidation"
-  ],
-  correct: 2,
+      "Because no O₂ is consumed during carbohydrate oxidation",
+      "Because more CO₂ is evolved than O₂ consumed",
+      "Because no CO₂ is produced during carbohydrate oxidation",
+      "Because equal amounts of CO₂ are evolved and O₂ are consumed"
+    ], correct: 3,
   explanation: "NCERT states: 'the RQ will be 1, because equal amounts of CO₂ and O₂ are evolved and consumed, respectively.' For glucose: 6 moles of O₂ consumed and 6 moles of CO₂ evolved → ratio = 1. The molecular structure of carbohydrates has a balanced C:H:O ratio."
 },
 {
@@ -3800,12 +3630,11 @@ var allQuestions = [
   topic: "Respiratory Quotient",
   q: "If the RQ of an organism is between 0.7 and 1.0, it is most likely that:",
   options: [
-    "Only carbohydrates are being respired",
-    "Only fats are being respired",
-    "A mixture of carbohydrates and fats is being respired",
-    "No respiration is occurring"
-  ],
-  correct: 2,
+      "A mixture of carbohydrates and fats is being respired",
+      "Only fats are being respired",
+      "Only carbohydrates are being respired",
+      "No respiration is occurring"
+    ], correct: 0,
   explanation: "Since carbohydrate RQ = 1.0 and fat RQ = 0.7, an intermediate RQ (between 0.7 and 1.0) indicates a mixture of both is being used. NCERT states 'respiratory substrates are often more than one' in living organisms, making mixed RQ values the norm."
 },
 {
@@ -3865,12 +3694,11 @@ var allQuestions = [
   topic: "Respiratory Quotient",
   q: "In the equation for glucose oxidation, the number of O₂ molecules consumed equals the number of CO₂ molecules evolved. This number is:",
   options: [
-    "3",
-    "12",
-    "6",
-    "8"
-  ],
-  correct: 2,
+      "6",
+      "12",
+      "3",
+      "8"
+    ], correct: 0,
   explanation: "C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + Energy. Both O₂ consumed and CO₂ evolved = 6 molecules each. This equality is why the RQ for glucose = 6/6 = 1.0."
 },
 {
@@ -3878,12 +3706,11 @@ var allQuestions = [
   topic: "Respiratory Quotient",
   q: "Which of the following is <b>INCORRECT</b> regarding respiratory quotient?",
   options: [
-    "RQ of carbohydrates is 1.0",
-    "RQ depends on the type of respiratory substrate",
-    "RQ of fats is greater than 1",
-    "RQ of proteins is approximately 0.9"
-  ],
-  correct: 2,
+      "RQ of carbohydrates is 1.0",
+      "RQ of fats is greater than 1",
+      "RQ depends on the type of respiratory substrate",
+      "RQ of proteins is approximately 0.9"
+    ], correct: 1,
   explanation: "NCERT states RQ of fats is LESS than 1 (0.7 for tripalmitin), NOT greater than 1. Options A, B and D are all correct as per NCERT. Stating that fat RQ > 1 is a major conceptual error."
 },
 {
@@ -3917,12 +3744,11 @@ var allQuestions = [
   topic: "Respiratory Quotient",
   q: "A student measured the RQ of germinating castor seeds (which store fats) and found it to be approximately:",
   options: [
-    "1.0",
-    "0.9",
-    "0.7",
-    "1.3"
-  ],
-  correct: 2,
+      "1.0",
+      "0.9",
+      "1.3",
+      "0.7"
+    ], correct: 3,
   explanation: "Castor seeds store fats as their primary reserve. Since fats have RQ = 0.7 (as shown by tripalmitin calculation in NCERT), germinating castor seeds would show RQ ≈ 0.7. Germinating wheat/rice seeds (starch-storing) would show RQ ≈ 1.0."
 },
 {
@@ -3930,12 +3756,11 @@ var allQuestions = [
   topic: "Respiratory Quotient",
   q: "If an organism's RQ is exactly 0.9, it most likely indicates respiration of:",
   options: [
-    "Carbohydrates",
-    "Fats",
-    "Proteins",
-    "Organic acids"
-  ],
-  correct: 2,
+      "Proteins",
+      "Fats",
+      "Carbohydrates",
+      "Organic acids"
+    ], correct: 0,
   explanation: "NCERT states: 'When proteins are respiratory substrates the ratio would be about 0.9.' Carbohydrates give 1.0 and fats give 0.7. An RQ of exactly 0.9 points to protein respiration. However, NCERT also notes pure proteins are never used alone in living organisms."
 },
 {
@@ -3956,12 +3781,11 @@ var allQuestions = [
   topic: "Respiratory Quotient",
   q: "Which of the following statements about RQ is correct?<br>(I) RQ can help determine the type of substrate being respired<br>(II) RQ is always exactly 1.0 in all living organisms<br>(III) RQ value changes depending on the respiratory substrate<br>(IV) An RQ of less than 1 indicates fat respiration",
   options: [
-    "I, II, III and IV",
-    "I and III only",
-    "I, III and IV only",
-    "II and IV only"
-  ],
-  correct: 2,
+      "I, II, III and IV",
+      "I, III and IV only",
+      "I and III only",
+      "II and IV only"
+    ], correct: 1,
   explanation: "Statement II is WRONG — RQ is NOT always 1.0. It varies with the substrate (1.0 for carbs, 0.7 for fats, 0.9 for proteins). In living organisms, since mixed substrates are used, RQ varies. Statements I, III and IV are correct."
 },
 {
@@ -3969,12 +3793,11 @@ var allQuestions = [
   topic: "Respiratory Quotient",
   q: "In the tripalmitin oxidation equation, 145 molecules of O₂ are consumed but only 102 molecules of CO₂ are evolved. This difference exists because:",
   options: [
-    "Some CO₂ is reabsorbed by the cell",
-    "Additional O₂ is needed to oxidise the large number of hydrogen atoms in the fat molecule to form water",
-    "Some O₂ is stored within the mitochondria",
-    "CO₂ is converted back to glucose in the cell"
-  ],
-  correct: 1,
+      "Some CO₂ is reabsorbed by the cell",
+      "Some O₂ is stored within the mitochondria",
+      "Additional O₂ is needed to oxidise the large number of hydrogen atoms in the fat molecule to form water",
+      "CO₂ is converted back to glucose in the cell"
+    ], correct: 2,
   explanation: "Tripalmitin (C₅₁H₉₈O₆) has 98 hydrogen atoms. These need O₂ to form H₂O (98H₂O produced). The extra O₂ consumed (beyond that needed for CO₂ production) goes to oxidise these abundant hydrogen atoms. This is why more O₂ is consumed than CO₂ released, giving RQ < 1."
 },
 {
@@ -3982,12 +3805,11 @@ var allQuestions = [
   topic: "Respiratory Quotient",
   q: "A researcher measures the RQ of a tissue and finds it to be 1.0. She can conclude that:",
   options: [
-    "The tissue is not respiring",
-    "The tissue is using only fats as substrate",
-    "The tissue is likely using carbohydrates as the primary respiratory substrate",
-    "The tissue is using only proteins as substrate"
-  ],
-  correct: 2,
+      "The tissue is not respiring",
+      "The tissue is using only fats as substrate",
+      "The tissue is using only proteins as substrate",
+      "The tissue is likely using carbohydrates as the primary respiratory substrate"
+    ], correct: 3,
   explanation: "RQ = 1.0 is characteristic of carbohydrate respiration. NCERT states: 'When carbohydrates are used as substrate and are completely oxidised, the RQ will be 1.' However, since living organisms use mixed substrates, 'likely using carbohydrates as the PRIMARY substrate' is the most accurate conclusion."
 },
 {
@@ -4008,12 +3830,11 @@ var allQuestions = [
   topic: "Summary – Respiration in Plants (Integrative)",
   q: "Consider the following statements about respiration in plants:<br>(I) Plants have special systems for breathing like animals<br>(II) Stomata and lenticels allow gaseous exchange by diffusion<br>(III) Almost all living cells in a plant have their surfaces exposed to air<br>(IV) Cellular respiration involves breaking of C-C bonds by oxidation<br>Which of the above are correct?",
   options: [
-    "I, II, III and IV",
-    "II, III and IV only",
-    "I and IV only",
-    "I, II and III only"
-  ],
-  correct: 1,
+      "II, III and IV only",
+      "I, II, III and IV",
+      "I and IV only",
+      "I, II and III only"
+    ], correct: 0,
   explanation: "Statement I is FALSE — NCERT clearly states 'Plants unlike animals have no special systems for breathing or gaseous exchange.' Statements II, III and IV are directly from the NCERT summary. This is the most fundamental concept of the chapter."
 },
 {
@@ -4034,12 +3855,11 @@ var allQuestions = [
   topic: "Summary – Respiration in Plants (Integrative)",
   q: "Match the following stages of respiration with their locations:<br>Column I &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Column II<br>(i) Glycolysis &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; (P) Inner mitochondrial membrane<br>(ii) Oxidative decarboxylation &emsp;&emsp; (Q) Cytoplasm<br>(iii) Krebs' cycle &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;(R) Mitochondrial matrix<br>(iv) ETS &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;(S) Mitochondrial matrix<br><br>Select the correct match:",
   options: [
-    "i-Q, ii-R, iii-S, iv-P",
-    "i-R, ii-Q, iii-P, iv-S",
-    "i-Q, ii-P, iii-R, iv-S",
-    "i-P, ii-Q, iii-S, iv-R"
-  ],
-  correct: 0,
+      "i-R, ii-Q, iii-P, iv-S",
+      "i-Q, ii-R, iii-S, iv-P",
+      "i-Q, ii-P, iii-R, iv-S",
+      "i-P, ii-Q, iii-S, iv-R"
+    ], correct: 1,
   explanation: "Glycolysis → Cytoplasm (Q); Oxidative decarboxylation → Matrix (R); Krebs' cycle → Matrix (S); ETS → Inner mitochondrial membrane (P). Both oxidative decarboxylation and Krebs cycle occur in the matrix, while ETS is on the inner membrane. This is the most important location-mapping question."
 },
 {
@@ -4047,12 +3867,11 @@ var allQuestions = [
   topic: "Summary – Respiration in Plants (Integrative)",
   q: "The fate of pyruvate produced during glycolysis depends on:",
   options: [
-    "The amount of glucose available",
-    "The availability of oxygen and the type of organism",
-    "The number of mitochondria in the cell",
-    "The temperature of the surroundings only"
-  ],
-  correct: 1,
+      "The amount of glucose available",
+      "The number of mitochondria in the cell",
+      "The availability of oxygen and the type of organism",
+      "The temperature of the surroundings only"
+    ], correct: 2,
   explanation: "NCERT summary states: 'The fate of the pyruvate depends on the availability of oxygen and the organism.' Under anaerobic conditions → fermentation; under aerobic conditions → Acetyl CoA → Krebs' cycle. Different organisms handle pyruvate differently."
 },
 {
@@ -4086,12 +3905,11 @@ var allQuestions = [
   topic: "Summary – Respiration in Plants (Integrative)",
   q: "Consider the complete pathway of aerobic respiration. At which stage(s) is CO₂ released?",
   options: [
-    "Glycolysis and ETS",
-    "Oxidative decarboxylation of pyruvate and Krebs' cycle",
-    "Glycolysis and Krebs' cycle",
-    "Only during ETS"
-  ],
-  correct: 1,
+      "Oxidative decarboxylation of pyruvate and Krebs' cycle",
+      "Glycolysis and ETS",
+      "Glycolysis and Krebs' cycle",
+      "Only during ETS"
+    ], correct: 0,
   explanation: "CO₂ is released during: (1) Oxidative decarboxylation of pyruvate to Acetyl CoA, and (2) Krebs' cycle (two decarboxylation steps). CO₂ is NOT released during glycolysis (no carbon is lost) or ETS (electrons transferred to O₂ forming H₂O, not CO₂)."
 },
 {
@@ -4099,12 +3917,11 @@ var allQuestions = [
   topic: "Summary – Respiration in Plants (Integrative)",
   q: "The energy stored in NADH + H⁺ and FADH₂ is used to synthesise ATP through:",
   options: [
-    "Glycolysis in the cytoplasm",
-    "Krebs' cycle in the mitochondrial matrix",
-    "The electron transport system (ETS) on the inner mitochondrial membrane",
-    "Fermentation under anaerobic conditions"
-  ],
-  correct: 2,
+      "Glycolysis in the cytoplasm",
+      "The electron transport system (ETS) on the inner mitochondrial membrane",
+      "Krebs' cycle in the mitochondrial matrix",
+      "Fermentation under anaerobic conditions"
+    ], correct: 1,
   explanation: "NCERT states: 'The energy in these molecules... are used to synthesise ATP. This is accomplished through a system of electron carriers called electron transport system (ETS) located on the inner membrane of the mitochondria.' Glycolysis and Krebs cycle PRODUCE NADH/FADH₂; ETS USES them."
 },
 {
@@ -4125,12 +3942,11 @@ var allQuestions = [
   topic: "Summary – Respiration in Plants (Integrative)",
   q: "Consider the following integrated summary of aerobic respiration:<br>(I) Glycolysis occurs in the cytoplasm<br>(II) Pyruvate is converted to Acetyl CoA in the mitochondrial matrix<br>(III) Krebs' cycle operates on the inner mitochondrial membrane<br>(IV) ETS is located on the inner mitochondrial membrane<br>Which statements are correct?",
   options: [
-    "I, II, III and IV",
-    "I, II and IV only",
-    "I and IV only",
-    "I, III and IV only"
-  ],
-  correct: 1,
+      "I, II, III and IV",
+      "I, III and IV only",
+      "I and IV only",
+      "I, II and IV only"
+    ], correct: 3,
   explanation: "Statement III is WRONG — Krebs' cycle operates in the MATRIX of the mitochondria, NOT on the inner membrane. The inner membrane houses ETS. Statements I, II and IV are correct. This is the most critical location question in the entire chapter."
 },
 {
@@ -4138,12 +3954,11 @@ var allQuestions = [
   topic: "Summary – Respiration in Plants (Integrative)",
   q: "Under anaerobic conditions, pyruvic acid can undergo:",
   options: [
-    "Only lactic acid fermentation",
-    "Only alcohol fermentation",
-    "Either lactic acid fermentation or alcohol fermentation",
-    "Oxidative phosphorylation"
-  ],
-  correct: 2,
+      "Either lactic acid fermentation or alcohol fermentation",
+      "Only alcohol fermentation",
+      "Only lactic acid fermentation",
+      "Oxidative phosphorylation"
+    ], correct: 0,
   explanation: "NCERT states: 'Under anaerobic conditions either lactic acid fermentation or alcohol fermentation occurs.' The type of fermentation depends on the organism. Oxidative phosphorylation requires O₂ and occurs only under aerobic conditions."
 },
 {
@@ -4177,12 +3992,11 @@ var allQuestions = [
   topic: "Summary – Respiration in Plants (Integrative)",
   q: "Glucose is the favoured substrate for respiration. Besides glucose, which other macromolecules can also be broken down to yield energy?",
   options: [
-    "Only fats",
-    "Only proteins",
-    "Fats and proteins",
-    "Nucleic acids only"
-  ],
-  correct: 2,
+      "Only fats",
+      "Only proteins",
+      "Nucleic acids only",
+      "Fats and proteins"
+    ], correct: 3,
   explanation: "NCERT states: 'Glucose is the favoured substrate for respiration. Fats and proteins can also be broken down to yield energy.' Both fats and proteins can serve as respiratory substrates, entering the pathway at different intermediate points."
 },
 {
@@ -4190,12 +4004,11 @@ var allQuestions = [
   topic: "Summary – Respiration in Plants (Integrative)",
   q: "How many molecules of pyruvic acid are produced from one molecule of glucose during glycolysis?",
   options: [
-    "One",
-    "Two",
-    "Three",
-    "Four"
-  ],
-  correct: 1,
+      "Two",
+      "One",
+      "Three",
+      "Four"
+    ], correct: 0,
   explanation: "NCERT states: 'Each glucose molecule is broken through a series of enzyme catalysed reactions into two molecules of pyruvic acid.' Glucose (6C) → 2 Pyruvic acid (3C each). This is a fundamental fact tested repeatedly."
 },
 {
@@ -4203,12 +4016,11 @@ var allQuestions = [
   topic: "Summary – Respiration in Plants (Integrative)",
   q: "The electrons moving through the ETS release energy that is trapped to synthesise ATP. This process is called:",
   options: [
-    "Substrate level phosphorylation",
-    "Photophosphorylation",
-    "Oxidative phosphorylation",
-    "Glycolytic phosphorylation"
-  ],
-  correct: 2,
+      "Substrate level phosphorylation",
+      "Oxidative phosphorylation",
+      "Photophosphorylation",
+      "Glycolytic phosphorylation"
+    ], correct: 1,
   explanation: "NCERT states: 'The electrons, as they move through the system, release enough energy that are trapped to synthesise ATP. This is called oxidative phosphorylation.' Substrate level phosphorylation occurs in glycolysis and Krebs. Photophosphorylation is in photosynthesis."
 },
 {
@@ -4242,12 +4054,11 @@ var allQuestions = [
   topic: "Summary – Respiration in Plants (Integrative)",
   q: "Consider the following integrated flow chart:<br>Glucose → (Process I in Cytoplasm) → 2 Pyruvic acid → (Process II in Matrix) → Acetyl CoA → (Process III in Matrix) → NADH + FADH₂ → (Process IV on Inner Membrane) → ATP<br><br>Processes I, II, III and IV are respectively:",
   options: [
-    "Krebs' cycle, Glycolysis, ETS, Oxidative decarboxylation",
-    "Glycolysis, Oxidative decarboxylation, Krebs' cycle, ETS/Oxidative phosphorylation",
-    "ETS, Glycolysis, Oxidative decarboxylation, Krebs' cycle",
-    "Glycolysis, Krebs' cycle, Oxidative decarboxylation, ETS"
-  ],
-  correct: 1,
+      "Krebs' cycle, Glycolysis, ETS, Oxidative decarboxylation",
+      "Glycolysis, Krebs' cycle, Oxidative decarboxylation, ETS",
+      "ETS, Glycolysis, Oxidative decarboxylation, Krebs' cycle",
+      "Glycolysis, Oxidative decarboxylation, Krebs' cycle, ETS/Oxidative phosphorylation"
+    ], correct: 3,
   explanation: "Process I (Cytoplasm) = Glycolysis; Process II (Matrix, pyruvate → Acetyl CoA) = Oxidative decarboxylation; Process III (Matrix, Acetyl CoA → NADH/FADH₂) = Krebs' cycle; Process IV (Inner membrane, NADH → ATP) = ETS/Oxidative phosphorylation."
 },
 {
@@ -4268,12 +4079,11 @@ var allQuestions = [
   topic: "Summary – Respiration in Plants (Integrative)",
   q: "NADH + H⁺ is generated at which of the following stages?<br>(I) Glycolysis<br>(II) Oxidative decarboxylation of pyruvate<br>(III) Krebs' cycle<br>(IV) ETS",
   options: [
-    "I and III only",
-    "I, II and III only",
-    "III and IV only",
-    "I, II, III and IV"
-  ],
-  correct: 1,
+      "I, II and III only",
+      "I and III only",
+      "III and IV only",
+      "I, II, III and IV"
+    ], correct: 0,
   explanation: "NADH + H⁺ is generated during: Glycolysis (PGAL → BPGA), Oxidative decarboxylation (pyruvate → Acetyl CoA), and Krebs' cycle (3 points). ETS CONSUMES NADH (oxidises it) to produce ATP — it does NOT generate NADH. This is a critical distinction."
 },
 {
@@ -4281,12 +4091,11 @@ var allQuestions = [
   topic: "Summary – Respiration in Plants (Integrative)",
   q: "FADH₂ is generated during:",
   options: [
-    "Glycolysis",
-    "Oxidative decarboxylation of pyruvate",
-    "Krebs' cycle",
-    "ETS"
-  ],
-  correct: 2,
+      "Glycolysis",
+      "Krebs' cycle",
+      "Oxidative decarboxylation of pyruvate",
+      "ETS"
+    ], correct: 1,
   explanation: "NCERT summary states: 'NADH + H⁺ and FADH₂ are generated in the Krebs' cycle.' FADH₂ is produced specifically during succinate → fumarate step. It is NOT generated during glycolysis (which produces NADH), link reaction (NADH), or ETS (which consumes FADH₂)."
 },
 {
@@ -4307,12 +4116,11 @@ var allQuestions = [
   topic: "Summary – Respiration in Plants (Integrative)",
   q: "How many of the following statements are correct?<br>(I) Plants have no special systems for gaseous exchange<br>(II) Glycolysis takes place in the mitochondria<br>(III) Krebs' cycle operates in the matrix of mitochondria<br>(IV) O₂ is the ultimate electron acceptor in ETS<br>(V) The respiratory pathway is purely catabolic",
   options: [
-    "Two",
-    "Three",
-    "Four",
-    "Five"
-  ],
-  correct: 1,
+      "Two",
+      "Five",
+      "Four",
+      "Three"
+    ], correct: 3,
   explanation: "Statement II is WRONG (glycolysis occurs in CYTOPLASM). Statement V is WRONG (respiratory pathway is AMPHIBOLIC, not purely catabolic). Statements I, III and IV are correct = three correct statements. This tests comprehensive chapter understanding."
 },
 {
@@ -4320,12 +4128,11 @@ var allQuestions = [
   topic: "Summary – Respiration in Plants (Integrative)",
   q: "The respiratory quotient (RQ) depends upon:",
   options: [
-    "The rate of ATP consumption in the cell",
-    "The number of mitochondria per cell",
-    "The type of respiratory substance used during respiration",
-    "The amount of water produced during respiration"
-  ],
-  correct: 2,
+      "The type of respiratory substance used during respiration",
+      "The number of mitochondria per cell",
+      "The rate of ATP consumption in the cell",
+      "The amount of water produced during respiration"
+    ], correct: 0,
   explanation: "NCERT summary states: 'The respiratory quotient depends upon the type of respiratory substance used during respiration.' Different substrates (carbohydrates, fats, proteins) have different RQ values (1.0, 0.7, 0.9 respectively)."
 },
 {
@@ -4333,12 +4140,11 @@ var allQuestions = [
   topic: "Summary – Respiration in Plants (Integrative)",
   q: "Consider the following about the role of O₂ in respiration:<br>(I) O₂ is consumed during glycolysis<br>(II) O₂ is consumed during Krebs' cycle<br>(III) O₂ is the ultimate electron acceptor in ETS<br>(IV) O₂ gets reduced to water in oxidative phosphorylation<br>Which are correct?",
   options: [
-    "I and II only",
-    "III and IV only",
-    "I, II, III and IV",
-    "I, III and IV only"
-  ],
-  correct: 1,
+      "I and II only",
+      "I, III and IV only",
+      "I, II, III and IV",
+      "III and IV only"
+    ], correct: 3,
   explanation: "O₂ is NOT consumed during glycolysis (I is wrong — glycolysis is anaerobic) or directly in Krebs' cycle (II is wrong). O₂ is the terminal electron acceptor in ETS (III) and gets reduced to H₂O (IV). Both III and IV are from NCERT summary."
 },
 {
@@ -4359,12 +4165,11 @@ var allQuestions = [
   topic: "Summary – Respiration in Plants (Integrative)",
   q: "Which of the following is the correct integrated ATP balance for complete aerobic respiration of one glucose molecule (theoretical)?",
   options: [
-    "Glycolysis: 2 ATP + Link reaction: 2 ATP + TCA: 2 ATP + ETS: 32 ATP = 38 ATP",
-    "Glycolysis: 2 ATP + Link reaction: 0 ATP + TCA: 2 ATP + ETS: 34 ATP = 38 ATP",
-    "Glycolysis: 4 ATP + Link reaction: 2 ATP + TCA: 4 ATP + ETS: 28 ATP = 38 ATP",
-    "Glycolysis: 2 ATP + Link reaction: 0 ATP + TCA: 2 ATP + Oxidative phosphorylation of 10 NADH (30 ATP) + 2 FADH₂ (4 ATP) = 38 ATP"
-  ],
-  correct: 3,
+      "Glycolysis: 2 ATP + Link reaction: 0 ATP + TCA: 2 ATP + Oxidative phosphorylation of 10 NADH (30 ATP) + 2 FADH₂ (4 ATP) = 38 ATP",
+      "Glycolysis: 2 ATP + Link reaction: 0 ATP + TCA: 2 ATP + ETS: 34 ATP = 38 ATP",
+      "Glycolysis: 4 ATP + Link reaction: 2 ATP + TCA: 4 ATP + ETS: 28 ATP = 38 ATP",
+      "Glycolysis: 2 ATP + Link reaction: 2 ATP + TCA: 2 ATP + ETS: 32 ATP = 38 ATP"
+    ], correct: 0,
   explanation: "The 38 ATP breakdown: Substrate level phosphorylation = 4 ATP (2 glycolysis + 2 TCA). Oxidative phosphorylation = 34 ATP (10 NADH × 3 = 30 ATP + 2 FADH₂ × 2 = 4 ATP). Total = 4 + 34 = 38 ATP. Link reaction doesn't directly produce ATP — it produces NADH which is counted in oxidative phosphorylation."
 },
 {
@@ -4385,12 +4190,11 @@ var allQuestions = [
   topic: "Summary – Respiration in Plants (Integrative)",
   q: "The conversion of pyruvic acid to Acetyl CoA occurs in the:",
   options: [
-    "Cytoplasm",
-    "Mitochondrial matrix",
-    "Inner mitochondrial membrane",
-    "Outer mitochondrial membrane"
-  ],
-  correct: 1,
+      "Mitochondrial matrix",
+      "Cytoplasm",
+      "Inner mitochondrial membrane",
+      "Outer mitochondrial membrane"
+    ], correct: 0,
   explanation: "NCERT summary states: 'Pyruvic acid is transported into the mitochondria where it is converted into acetyl CoA with the release of CO₂.' This occurs in the mitochondrial matrix (catalysed by pyruvic dehydrogenase). NOT in cytoplasm (where glycolysis occurs) or inner membrane (where ETS occurs)."
 },
 {
@@ -4398,12 +4202,11 @@ var allQuestions = [
   topic: "Summary – Respiration in Plants (Integrative)",
   q: "Consider the following comprehensive table:<br><br>| Stage | Location | Key Product |<br>|---|---|---|<br>| Glycolysis | (I) | 2 Pyruvic acid |<br>| Link reaction | (II) | Acetyl CoA + CO₂ |<br>| Krebs' cycle | (III) | NADH + FADH₂ + CO₂ |<br>| ETS | (IV) | ATP + H₂O |<br><br>The correct locations I, II, III, IV are:",
   options: [
-    "Matrix, Cytoplasm, Inner membrane, Matrix",
-    "Cytoplasm, Matrix, Matrix, Inner membrane",
-    "Inner membrane, Matrix, Cytoplasm, Matrix",
-    "Cytoplasm, Inner membrane, Matrix, Matrix"
-  ],
-  correct: 1,
+      "Matrix, Cytoplasm, Inner membrane, Matrix",
+      "Cytoplasm, Inner membrane, Matrix, Matrix",
+      "Inner membrane, Matrix, Cytoplasm, Matrix",
+      "Cytoplasm, Matrix, Matrix, Inner membrane"
+    ], correct: 3,
   explanation: "I = Cytoplasm (Glycolysis); II = Mitochondrial matrix (Link reaction); III = Mitochondrial matrix (Krebs' cycle); IV = Inner mitochondrial membrane (ETS). This location sequence is the backbone of the entire chapter."
 },
 {
@@ -4411,12 +4214,11 @@ var allQuestions = [
   topic: "Summary – Respiration in Plants (Integrative)",
   q: "A student makes the following claims:<br>Claim 1: O₂ is consumed during glycolysis<br>Claim 2: CO₂ is released during ETS<br>Claim 3: H₂O is produced during ETS when O₂ accepts electrons<br>Which claim(s) is/are correct?",
   options: [
-    "Claims 1 and 2 only",
-    "Claims 1, 2 and 3",
-    "Claim 3 only",
-    "Claims 2 and 3 only"
-  ],
-  correct: 2,
+      "Claim 3 only",
+      "Claims 1, 2 and 3",
+      "Claims 1 and 2 only",
+      "Claims 2 and 3 only"
+    ], correct: 0,
   explanation: "Claim 1 is WRONG — glycolysis does not consume O₂ (it is anaerobic). Claim 2 is WRONG — CO₂ is released during link reaction and Krebs' cycle, NOT during ETS. Claim 3 is CORRECT — NCERT states 'O₂ is the ultimate acceptor of electrons and it gets reduced to water' in ETS."
 },
 {
@@ -4437,12 +4239,11 @@ var allQuestions = [
   topic: "Summary – Respiration in Plants (Integrative)",
   q: "Which of the following statements best describes the amphibolic nature of the respiratory pathway?",
   options: [
-    "It only breaks down glucose to CO₂ and H₂O",
-    "It only synthesises complex molecules from simple ones",
-    "It involves both anabolism (synthesis) and catabolism (breakdown)",
-    "It functions exclusively under anaerobic conditions"
-  ],
-  correct: 2,
+      "It involves both anabolism (synthesis) and catabolism (breakdown)",
+      "It only synthesises complex molecules from simple ones",
+      "It only breaks down glucose to CO₂ and H₂O",
+      "It functions exclusively under anaerobic conditions"
+    ], correct: 0,
   explanation: "NCERT states: 'The respiratory pathway is an amphibolic pathway as it involves both anabolism and catabolism.' Intermediates of respiration can be withdrawn for biosynthesis (anabolism) or broken down for energy (catabolism). It is NOT limited to one direction."
 },
 {

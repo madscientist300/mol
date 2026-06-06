@@ -1,16 +1,15 @@
-// ===== CHAPTER: Organisms and Populations =====
+﻿// ===== CHAPTER: Organisms and Populations =====
 var allQuestions = [
   {
     "id": 1,
     "topic": "Introduction - Organisms and Population",
     "q": "Who is revered as the <b>Father of Ecology in India</b>?",
     "options": [
-      "Ernst Haeckel",
       "Ramdeo Misra",
+      "Ernst Haeckel",
       "R. Mishra",
       "W. H. Pearsall"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "Ramdeo Misra is revered as the Father of Ecology in India. Ernst Haeckel coined the term 'Ecology' but is not referred to as the Father of Ecology in India. W. H. Pearsall was Misra's Ph.D. supervisor."
   },
   {
@@ -19,11 +18,10 @@ var allQuestions = [
     "q": "Ramdeo Misra obtained his Ph.D. in Ecology from:",
     "options": [
       "Banaras Hindu University",
-      "University of Cambridge",
       "Leeds University, UK",
+      "University of Cambridge",
       "Oxford University, UK"
-    ],
-    "correct": 2,
+    ], "correct": 1,
     "explanation": "Ramdeo Misra obtained his Ph.D. in Ecology (1937) from Leeds University in UK under Prof. W. H. Pearsall, FRS."
   },
   {
@@ -32,11 +30,10 @@ var allQuestions = [
     "q": "Consider the following statements regarding Ramdeo Misra:<br>(i) He obtained Ph.D. under Prof. W. H. Pearsall from Oxford University.<br>(ii) He established teaching and research in ecology at BHU, Varanasi.<br>(iii) He formulated the first postgraduate course in ecology in India.<br>(iv) He was awarded the Sanjay Gandhi Award in Environment and Ecology.<br><br>Which of the above statements are <b>correct</b>?",
     "options": [
       "(i), (ii) and (iii)",
-      "(ii), (iii) and (iv)",
       "(i), (iii) and (iv)",
+      "(ii), (iii) and (iv)",
       "All of the above"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "Statement (i) is incorrect — Misra obtained his Ph.D. from Leeds University, UK, not Oxford. Statements (ii), (iii), and (iv) are all correct."
   },
   {
@@ -45,11 +42,10 @@ var allQuestions = [
     "q": "Ecology is basically concerned with how many levels of biological organisation as per NCERT?",
     "options": [
       "Three",
-      "Four",
+      "Six",
       "Five",
-      "Six"
-    ],
-    "correct": 1,
+      "Four"
+    ], "correct": 3,
     "explanation": "'Ecology is basically concerned with four levels of biological organisation – organisms, populations, communities and biomes.'"
   },
   {
@@ -57,12 +53,11 @@ var allQuestions = [
     "topic": "Introduction - Organisms and Population",
     "q": "Which of the following is <b>NOT</b> one of the four levels of biological organisation with which ecology is basically concerned?",
     "options": [
-      "Organisms",
-      "Populations",
       "Ecosystems",
+      "Populations",
+      "Organisms",
       "Biomes"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "Ecology is basically concerned with four levels: organisms, populations, communities and biomes. 'Ecosystems' is a level of biological organisation but is not listed among the four levels ecology is 'basically concerned with''s specific statement."
   },
   {
@@ -110,11 +105,10 @@ var allQuestions = [
     "q": "The National Committee for Environmental Planning and Coordination was established in India in:",
     "options": [
       "1937",
-      "1972",
+      "1986",
       "1984",
-      "1986"
-    ],
-    "correct": 1,
+      "1972"
+    ], "correct": 3,
     "explanation": "Due to Ramdeo Misra's efforts, the Government of India established the National Committee for Environmental Planning and Coordination in 1972, which later paved the way for the Ministry of Environment and Forests (1984)."
   },
   {
@@ -122,12 +116,11 @@ var allQuestions = [
     "topic": "Introduction - Organisms and Population",
     "q": "The Ministry of Environment and Forests in India was established in:",
     "options": [
-      "1972",
-      "1980",
       "1984",
+      "1980",
+      "1972",
       "1986"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "The Ministry of Environment and Forests was established in 1984. Students often confuse this with 1972 (National Committee for Environmental Planning and Coordination) or 1986 (Environment Protection Act)."
   },
   {
@@ -135,12 +128,11 @@ var allQuestions = [
     "topic": "Introduction - Organisms and Population",
     "q": "Which of the following correctly represents the sequence from lowest to highest level of biological organisation?",
     "options": [
-      "Macromolecules → Cells → Tissues → Organs → Organisms → Population → Communities → Ecosystems → Biomes",
       "Cells → Macromolecules → Tissues → Organs → Organisms → Population → Communities → Biomes → Ecosystems",
+      "Macromolecules → Cells → Tissues → Organs → Organisms → Population → Communities → Ecosystems → Biomes",
       "Macromolecules → Tissues → Cells → Organs → Organisms → Population → Ecosystems → Communities → Biomes",
       "Macromolecules → Cells → Organs → Tissues → Organisms → Population → Communities → Ecosystems → Biomes"
-    ],
-    "correct": 0,
+    ], "correct": 1,
     "explanation": "The correct sequence is: macromolecules → cells → tissues → organs → individual organisms → population → communities → ecosystems → biomes."
   },
   {
@@ -161,12 +153,11 @@ var allQuestions = [
     "topic": "Introduction - Organisms and Population",
     "q": "Ramdeo Misra's research laid the foundation for understanding of:<br>(i) Tropical communities and their succession<br>(ii) Environmental responses of plant populations<br>(iii) Productivity and nutrient cycling in tropical forest and grassland ecosystems<br>(iv) Marine ecosystem dynamics<br><br>Select the <b>correct</b> statements:",
     "options": [
-      "(i), (ii) and (iii) only",
+      "All of the above",
       "(i), (ii) and (iv) only",
       "(ii), (iii) and (iv) only",
-      "All of the above"
-    ],
-    "correct": 0,
+      "(i), (ii) and (iii) only"
+    ], "correct": 3,
     "explanation": "Misra's research covered tropical communities and succession, environmental responses of plant populations, and productivity and nutrient cycling in tropical forest and grassland ecosystems. Marine ecosystem dynamics is not mentioned."
   },
   {
@@ -214,11 +205,10 @@ var allQuestions = [
     "q": "At the Department of Botany of which university did Ramdeo Misra establish teaching and research in ecology?",
     "options": [
       "Delhi University",
-      "Banaras Hindu University, Varanasi",
       "Allahabad University",
+      "Banaras Hindu University, Varanasi",
       "Calcutta University"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "Misra established teaching and research in ecology at the Department of Botany, Banaras Hindu University, Varanasi."
   },
   {
@@ -228,10 +218,9 @@ var allQuestions = [
     "options": [
       "Genetics",
       "Evolution",
-      "Ecology",
-      "Molecular Biology"
-    ],
-    "correct": 2,
+      "Molecular Biology",
+      "Ecology"
+    ], "correct": 3,
     "explanation": "'Ecology is one such thread which gives us a holistic perspective to biology' by weaving different areas of biological information into a unifying principle."
   },
   {
@@ -239,12 +228,11 @@ var allQuestions = [
     "topic": "Introduction - Organisms and Population",
     "q": "How many scholars obtained Ph.D. degrees under the supervision of Ramdeo Misra?",
     "options": [
-      "Over 30",
-      "Over 40",
       "Over 50",
+      "Over 40",
+      "Over 30",
       "Over 60"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "Over 50 scholars obtained Ph.D. degree under Ramdeo Misra's supervision."
   },
   {
@@ -252,12 +240,11 @@ var allQuestions = [
     "topic": "Introduction - Organisms and Population",
     "q": "Which of the following fellowships was conferred upon Ramdeo Misra?<br>(i) Fellowship of the Indian National Science Academy<br>(ii) Fellowship of the World Academy of Arts and Science<br>(iii) Fellowship of the Royal Society, London<br><br>Select the correct answer:",
     "options": [
-      "(i) and (ii) only",
       "(i) and (iii) only",
+      "(i) and (ii) only",
       "(ii) and (iii) only",
       "(i), (ii) and (iii)"
-    ],
-    "correct": 0,
+    ], "correct": 1,
     "explanation": "Misra was honoured with Fellowships of the Indian National Science Academy and World Academy of Arts and Science. Fellowship of the Royal Society (FRS) is mentioned for his supervisor W. H. Pearsall, not for Misra himself."
   },
   {
@@ -266,11 +253,10 @@ var allQuestions = [
     "q": "The establishment of National Committee for Environmental Planning and Coordination (1972) later paved the way for the establishment of:",
     "options": [
       "Central Pollution Control Board",
-      "Ministry of Environment and Forests (1984)",
       "National Biodiversity Authority",
+      "Ministry of Environment and Forests (1984)",
       "Wildlife Institute of India"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "The National Committee for Environmental Planning and Coordination (1972) paved the way for the Ministry of Environment and Forests (1984)."
   },
   {
@@ -279,11 +265,10 @@ var allQuestions = [
     "q": "Which of the following is an example of a '<b>how-type</b>' question as described in NCERT?",
     "options": [
       "Why are night-blooming flowers generally white?",
-      "How does the bee know which flower has nectar?",
+      "Why does cactus have so many thorns?",
       "Why does the bird sing?",
-      "Why does cactus have so many thorns?"
-    ],
-    "correct": 1,
+      "How does the bee know which flower has nectar?"
+    ], "correct": 3,
     "explanation": "'How does the bee know which flower has nectar?' is a 'how-type' question seeking the mechanism. All other options are 'why-type' questions seeking significance."
   },
   {
@@ -291,12 +276,11 @@ var allQuestions = [
     "topic": "Introduction - Organisms and Population",
     "q": "Which of the following is an example of a '<b>why-type</b>' question as given in NCERT?",
     "options": [
-      "How does the bird sing?",
+      "Why does cactus have so many thorns?",
       "How does the bee know which flower has nectar?",
       "How does the chick recognise her own mother?",
-      "Why does cactus have so many thorns?"
-    ],
-    "correct": 3,
+      "How does the bird sing?"
+    ], "correct": 0,
     "explanation": "'Why does cactus have so many thorns?' is a 'why-type' question seeking significance. Options A, B, and C are all 'how-type' questions seeking mechanisms."
   },
   {
@@ -331,11 +315,10 @@ var allQuestions = [
     "q": "The answer to the question 'How does the bird sing?' involves:",
     "options": [
       "The bird's need to communicate with its mate",
-      "The operation of the voice box and the vibrating bone in the bird",
       "The ecological significance of bird song",
+      "The operation of the voice box and the vibrating bone in the bird",
       "The evolutionary advantage of singing behaviour"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "The answer to 'how does the bird sing' is in terms of the operation of the voice box and the vibrating bone in the bird — this describes the mechanism."
   },
   {
@@ -344,11 +327,10 @@ var allQuestions = [
     "q": "Ramdeo Misra obtained his Ph.D. in Ecology in the year:",
     "options": [
       "1908",
-      "1937",
+      "1984",
       "1972",
-      "1984"
-    ],
-    "correct": 1,
+      "1937"
+    ], "correct": 3,
     "explanation": "Ramdeo Misra obtained Ph.D. in Ecology in 1937 from Leeds University, UK."
   },
   {
@@ -409,11 +391,10 @@ var allQuestions = [
     "q": "The chapter 'Organisms and Populations' in NCERT primarily explores ecology at which level?",
     "options": [
       "Community level",
-      "Population level",
+      "Biome level",
       "Ecosystem level",
-      "Biome level"
-    ],
-    "correct": 1,
+      "Population level"
+    ], "correct": 3,
     "explanation": "NCERT concludes the introduction by stating: 'In this chapter we explore ecology at population levels.' (and organisms level as indicated by the chapter title)."
   },
   {
@@ -421,12 +402,11 @@ var allQuestions = [
     "topic": "Introduction - Organisms and Population",
     "q": "Consider the following:<br>Statement I: Diversity is a characteristic of living organisms only.<br>Statement II: Biology textbooks also show diversity in the way content is presented.<br><br>Which of the above is/are correct?",
     "options": [
-      "Only Statement I",
       "Only Statement II",
+      "Only Statement I",
       "Both Statements I and II",
       "Neither Statement I nor II"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "'Diversity is not only a characteristic of living organisms but also of content in biology textbooks.' So Statement I is incorrect (it says 'only'), while Statement II is correct."
   },
   {
@@ -448,11 +428,10 @@ var allQuestions = [
     "q": "As per NCERT, 'Modern biology' is described as a euphemism for:",
     "options": [
       "Ecological aspects of biology",
-      "Molecular aspects of biology",
       "Applied aspects of biology",
+      "Molecular aspects of biology",
       "Evolutionary aspects of biology"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "'The latter (modern) is a euphemism for molecular aspects of biology.'"
   },
   {
@@ -460,12 +439,11 @@ var allQuestions = [
     "topic": "Populations - Population Attributes",
     "q": "A population is defined as a group of individuals of a species that:<br>(i) Live in a well-defined geographical area<br>(ii) Share or compete for similar resources<br>(iii) Potentially interbreed<br>(iv) Always reproduce sexually<br><br>Which of the above are correct?",
     "options": [
-      "(i), (ii) and (iii) only",
+      "All of the above",
       "(i), (ii) and (iv) only",
       "(i), (iii) and (iv) only",
-      "All of the above"
-    ],
-    "correct": 0,
+      "(i), (ii) and (iii) only"
+    ], "correct": 3,
     "explanation": "A population shares a well-defined geographical area, shares/competes for similar resources, and potentially interbreeds. Statement (iv) is incorrect because even groups resulting from asexual reproduction are considered populations for ecological studies."
   },
   {
@@ -473,12 +451,11 @@ var allQuestions = [
     "topic": "Populations - Population Attributes",
     "q": "Although the term 'interbreeding' implies sexual reproduction, a group of individuals resulting from <b>asexual reproduction</b> is:",
     "options": [
-      "Not considered a population",
-      "Considered a population only for genetic studies",
       "Generally considered a population for the purpose of ecological studies",
+      "Considered a population only for genetic studies",
+      "Not considered a population",
       "Considered a community, not a population"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "'A group of individuals resulting from even asexual reproduction is also generally considered a population for the purpose of ecological studies.'"
   },
   {
@@ -487,11 +464,10 @@ var allQuestions = [
     "q": "Which of the following is <b>NOT</b> an example of a population as mentioned in NCERT?",
     "options": [
       "All cormorants in a wetland",
-      "Rats in an abandoned dwelling",
       "All animals in a forest tract",
+      "Rats in an abandoned dwelling",
       "Lotus plants in a pond"
-    ],
-    "correct": 2,
+    ], "correct": 1,
     "explanation": "NCERT gives examples: cormorants in a wetland, rats in an abandoned dwelling, teakwood trees in a forest tract, bacteria in a culture plate, and lotus plants in a pond. 'All animals in a forest tract' includes multiple species, making it a community, not a population."
   },
   {
@@ -500,11 +476,10 @@ var allQuestions = [
     "q": "Population ecology is an important area because it links:",
     "options": [
       "Ecology to molecular biology and biochemistry",
-      "Ecology to population genetics and evolution",
       "Ecology to anatomy and morphology",
+      "Ecology to population genetics and evolution",
       "Ecology to taxonomy and systematics"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "'Population ecology is, therefore, an important area because it links ecology to population genetics and evolution.'"
   },
   {
@@ -525,12 +500,11 @@ var allQuestions = [
     "topic": "Populations - Population Attributes",
     "q": "An individual organism has births and deaths, but a population has:",
     "options": [
-      "Birth rates and death rates",
+      "Only growth rates",
       "Births and deaths",
       "Only birth rates",
-      "Only growth rates"
-    ],
-    "correct": 0,
+      "Birth rates and death rates"
+    ], "correct": 3,
     "explanation": "NCERT clearly distinguishes: 'An individual may have births and deaths, but a population has birth rates and death rates.' These are per capita rates."
   },
   {
@@ -538,12 +512,11 @@ var allQuestions = [
     "topic": "Populations - Population Attributes",
     "q": "If in a pond there were 20 lotus plants last year and through reproduction 8 new plants were added, the <b>birth rate</b> is:",
     "options": [
-      "8/28 = 0.__(approximately) offspring per lotus per year",
       "8/20 = 0.4 offspring per lotus per year",
+      "8/28 = 0.__(approximately) offspring per lotus per year",
       "20/8 = 2.5 offspring per lotus per year",
       "28/20 = 1.4 offspring per lotus per year"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "Birth rate = number of new individuals / initial population = 8/20 = 0.4 offspring per lotus per year. A common student trap is dividing by the final population (28) instead of the initial population (20)."
   },
   {
@@ -552,11 +525,10 @@ var allQuestions = [
     "q": "In a laboratory population of 40 fruitflies, 4 individuals died during a week. The <b>death rate</b> in the population during that period is:",
     "options": [
       "0.01 individuals per fruitfly per week",
-      "0.4 individuals per fruitfly per week",
       "0.1 individuals per fruitfly per week",
+      "0.4 individuals per fruitfly per week",
       "4.0 individuals per fruitfly per week"
-    ],
-    "correct": 2,
+    ], "correct": 1,
     "explanation": "Death rate = number of deaths / total population = 4/40 = 0.1 individuals per fruitfly per week,."
   },
   {
@@ -579,10 +551,9 @@ var allQuestions = [
     "options": [
       "Birth",
       "Death",
-      "Sex ratio",
-      "Growth"
-    ],
-    "correct": 2,
+      "Growth",
+      "Sex ratio"
+    ], "correct": 3,
     "explanation": "'An individual is either a male or a female but a population has a sex ratio.' Birth and death are individual attributes; birth rates and death rates are population attributes. Sex ratio is exclusively a population attribute."
   },
   {
@@ -590,12 +561,11 @@ var allQuestions = [
     "topic": "Populations - Population Attributes",
     "q": "If the age distribution (per cent individuals of a given age or age group) is plotted for a population, the resulting structure is called:",
     "options": [
-      "Growth curve",
       "Age pyramid",
+      "Growth curve",
       "Survivorship curve",
       "Population histogram"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "'If the age distribution is plotted for the population, the resulting structure is called an age pyramid.'"
   },
   {
@@ -631,10 +601,9 @@ var allQuestions = [
     "options": [
       "D",
       "P",
-      "N",
-      "ρ"
-    ],
-    "correct": 2,
+      "ρ",
+      "N"
+    ], "correct": 3,
     "explanation": "'Population size, technically called population density (designated as N).' This is a frequently asked factual point."
   },
   {
@@ -642,12 +611,11 @@ var allQuestions = [
     "topic": "Populations - Population Attributes",
     "q": "The population size of <b>Siberian cranes at Bharatpur wetlands</b> in any year could be as low as:",
     "options": [
-      "< 100",
-      "< 50",
       "< 10",
+      "< 50",
+      "< 100",
       "< 1000"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "'The size, in nature, could be as low as < 10 (Siberian cranes at Bharatpur wetlands in any year).'"
   },
   {
@@ -682,11 +650,10 @@ var allQuestions = [
     "q": "The common name of <b>Parthenium hysterophorus</b> as mentioned in NCERT is:",
     "options": [
       "Congress grass",
-      "Carrot grass",
       "Banyan grass",
+      "Carrot grass",
       "Water hyacinth"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "Parthenium hysterophorus as carrot grass."
   },
   {
@@ -695,11 +662,10 @@ var allQuestions = [
     "q": "For a dense laboratory culture of bacteria in a petri dish, the best measure to report its population density would be:",
     "options": [
       "Total number by counting each individual",
-      "Biomass or turbidity (optical density)",
+      "Number of petri dishes used",
       "Sex ratio of the culture",
-      "Number of petri dishes used"
-    ],
-    "correct": 1,
+      "Biomass or turbidity (optical density)"
+    ], "correct": 3,
     "explanation": "When the population is huge and counting is impossible or very time-consuming (like dense bacterial cultures), alternative measures like biomass or optical density are more practical."
   },
   {
@@ -707,12 +673,11 @@ var allQuestions = [
     "topic": "Populations - Population Attributes",
     "q": "Which of the following is an example of <b>relative population density</b> as given in NCERT?",
     "options": [
-      "Counting all fish in a lake",
       "Number of fish caught per trap",
+      "Counting all fish in a lake",
       "Total biomass of fish in a lake",
       "Per cent cover of fish in a lake"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "'The number of fish caught per trap is good enough measure of its total population density in the lake.' This is an example of relative density, not absolute density."
   },
   {
@@ -721,11 +686,10 @@ var allQuestions = [
     "q": "The tiger census in national parks and tiger reserves is often based on:",
     "options": [
       "Direct counting of tigers",
-      "Camera traps only",
       "Pug marks and fecal pellets",
+      "Camera traps only",
       "Radio collaring only"
-    ],
-    "correct": 2,
+    ], "correct": 1,
     "explanation": "'The tiger census in our national parks and tiger reserves is often based on pug marks and fecal pellets.' This is an indirect method of estimation."
   },
   {
@@ -747,11 +711,10 @@ var allQuestions = [
     "q": "Which of the following correctly represents a <b>declining population</b>?",
     "options": [
       "Age pyramid with a broad base",
-      "Age pyramid with a narrow base and broad top",
       "Age pyramid with equal proportions at all age groups",
+      "Age pyramid with a narrow base and broad top",
       "Age pyramid that is bell-shaped"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "A declining population has fewer individuals in the pre-reproductive age group (narrow base) and more in older age groups (broad top). A broad base indicates a growing population, and equal proportions indicate a stable population."
   },
   {
@@ -761,10 +724,9 @@ var allQuestions = [
     "options": [
       "Urn-shaped (narrow base)",
       "Bell-shaped (equal proportions)",
-      "Triangular with a broad base",
-      "Inverted triangular"
-    ],
-    "correct": 2,
+      "Inverted triangular",
+      "Triangular with a broad base"
+    ], "correct": 3,
     "explanation": "A growing population has more pre-reproductive individuals (broad base) giving a triangular shape. Urn-shaped = declining; Bell-shaped = stable."
   },
   {
@@ -785,12 +747,11 @@ var allQuestions = [
     "topic": "Populations - Population Attributes",
     "q": "Whatever ecological processes we wish to investigate in a population, we always evaluate them in terms of:",
     "options": [
-      "Change in sex ratio",
-      "Change in species diversity",
       "Change in population size",
+      "Change in species diversity",
+      "Change in sex ratio",
       "Change in biomass only"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "'Whatever ecological processes we wish to investigate in a population, be it the outcome of competition with another species, the impact of a predator or the effect of a pesticide application, we always evaluate them in terms of any change in the population size.'"
   },
   {
@@ -798,12 +759,11 @@ var allQuestions = [
     "topic": "Populations - Population Attributes",
     "q": "Which of the following examples of population sizes is mentioned in NCERT?<br>(i) Siberian cranes at Bharatpur — <10<br>(ii) Chlamydomonas in a pond — millions<br>(iii) Tigers in India — thousands<br><br>Select the correct option:",
     "options": [
-      "(i) and (ii) only",
       "(ii) and (iii) only",
+      "(i) and (ii) only",
       "(i) and (iii) only",
       "(i), (ii) and (iii)"
-    ],
-    "correct": 0,
+    ], "correct": 1,
     "explanation": "Siberian cranes at Bharatpur (<10) and Chlamydomonas in a pond (millions). Tigers in India being thousands is not mentioned in this context."
   },
   {
@@ -811,12 +771,11 @@ var allQuestions = [
     "topic": "Populations - Population Attributes",
     "q": "Match the following measures of population density with appropriate situations:<br>(a) Total number — (i) Dense bacterial culture<br>(b) Per cent cover/biomass — (ii) Fish in a lake<br>(c) Relative density — (iii) Moderate-sized countable population<br>(d) Indirect estimation — (iv) Banyan tree vs Parthenium<br><br>Choose the correct match:",
     "options": [
-      "(a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)",
-      "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)",
       "(a)-(iii), (b)-(i), (c)-(iv), (d)-(ii)",
+      "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)",
+      "(a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)",
       "(a)-(ii), (b)-(iv), (c)-(iii), (d)-(i)"
-    ],
-    "correct": 0,
+    ], "correct": 2,
     "explanation": "Total number is best for moderate-sized countable populations; per cent cover/biomass for banyan vs Parthenium scenario; relative density for fish caught per trap; indirect estimation (pug marks) for tiger census. Dense bacterial culture would use biomass/turbidity."
   },
   {
@@ -825,11 +784,10 @@ var allQuestions = [
     "q": "In a population, if 60 per cent are females and 40 per cent are males, this is an example of:",
     "options": [
       "Age distribution",
-      "Sex ratio",
+      "Birth rate",
       "Population density",
-      "Birth rate"
-    ],
-    "correct": 1,
+      "Sex ratio"
+    ], "correct": 3,
     "explanation": "'A population has a sex ratio (e.g., 60 per cent of the population are females and 40 per cent males).'"
   },
   {
@@ -837,12 +795,11 @@ var allQuestions = [
     "topic": "Populations - Population Attributes",
     "q": "Consider the following statements:<br>Statement I: Natural selection operates at the individual level to evolve desired traits.<br>Statement II: An individual organism is the one that has to cope with a changed environment.<br><br>Choose the correct option:",
     "options": [
-      "Both Statement I and II are correct",
-      "Both Statement I and II are incorrect",
       "Statement I is incorrect but Statement II is correct",
+      "Both Statement I and II are incorrect",
+      "Both Statement I and II are correct",
       "Statement I is correct but Statement II is incorrect"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "Statement I is incorrect — natural selection operates at the POPULATION level. Statement II is correct — 'an individual organism is the one that has to cope with a changed environment.' This is a frequently tested conceptual trap."
   },
   {
@@ -891,10 +848,9 @@ var allQuestions = [
     "options": [
       "Birth rate",
       "Sex ratio",
-      "Body size of an individual",
-      "Age pyramid"
-    ],
-    "correct": 2,
+      "Age pyramid",
+      "Body size of an individual"
+    ], "correct": 3,
     "explanation": "Body size is an attribute of an individual organism, not of a population. Birth rate, sex ratio, and age pyramid are all population attributes."
   },
   {
@@ -902,12 +858,11 @@ var allQuestions = [
     "topic": "Populations - Population Attributes",
     "q": "We are mostly obliged to estimate population sizes indirectly because:",
     "options": [
-      "Direct counting is always inaccurate",
       "Many populations are difficult to count directly or are never seen",
+      "Direct counting is always inaccurate",
       "Indirect methods are always more accurate",
       "Populations remain constant and do not need counting"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "'We are mostly obliged to estimate population sizes indirectly, without actually counting them or seeing them.' This is because many populations are huge, elusive, or difficult to count."
   },
   {
@@ -928,12 +883,11 @@ var allQuestions = [
     "topic": "Populations - Population Attributes",
     "q": "If in a population of 200 deer, 30 died and 50 were born during a year, the per capita death rate and per capita birth rate respectively are:",
     "options": [
-      "0.15 and 0.25",
-      "0.25 and 0.15",
       "30 and 50",
+      "0.25 and 0.15",
+      "0.15 and 0.25",
       "0.__(3) and 0.__(5)"
-    ],
-    "correct": 0,
+    ], "correct": 2,
     "explanation": "Per capita death rate = 30/200 = 0.15; Per capita birth rate = 50/200 = 0.25. Rates are always calculated against the initial population size."
   },
   {
@@ -942,11 +896,10 @@ var allQuestions = [
     "q": "Which ecological investigation mentioned in NCERT uses <b>pug marks and fecal pellets</b> for population estimation?",
     "options": [
       "Lion census in Gir forest",
-      "Tiger census in national parks and tiger reserves",
+      "Rhinoceros census in Kaziranga",
       "Elephant census in Kerala",
-      "Rhinoceros census in Kaziranga"
-    ],
-    "correct": 1,
+      "Tiger census in national parks and tiger reserves"
+    ], "correct": 3,
     "explanation": "'The tiger census in our national parks and tiger reserves is often based on pug marks and fecal pellets.'"
   },
   {
@@ -954,12 +907,11 @@ var allQuestions = [
     "topic": "Populations - Population Attributes",
     "q": "<b>Chlamydomonas</b> in a pond is mentioned in NCERT as an example of a population with a size that can go into:",
     "options": [
-      "Hundreds",
+      "Millions",
       "Thousands",
       "Lakhs",
-      "Millions"
-    ],
-    "correct": 3,
+      "Hundreds"
+    ], "correct": 0,
     "explanation": "Population size 'could go into millions (Chlamydomonas in a pond).'"
   },
   {
@@ -968,11 +920,10 @@ var allQuestions = [
     "q": "Consider the following statements about population density:<br>Statement I: Population density is always measured in terms of number of individuals per unit area.<br>Statement II: For some ecological investigations, relative densities serve the purpose equally well as absolute densities.<br><br>Which is correct?",
     "options": [
       "Both Statement I and II are correct",
-      "Statement I is correct but Statement II is incorrect",
       "Statement I is incorrect but Statement II is correct",
+      "Statement I is correct but Statement II is incorrect",
       "Both Statement I and II are incorrect"
-    ],
-    "correct": 2,
+    ], "correct": 1,
     "explanation": "Statement I is incorrect — population density need NOT necessarily be measured in numbers only; per cent cover, biomass, or relative densities may be used. Statement II is correct."
   },
   {
@@ -980,12 +931,11 @@ var allQuestions = [
     "topic": "Population Growth",
     "q": "The four basic processes that affect population density are:<br>(i) Natality<br>(ii) Mortality<br>(iii) Immigration<br>(iv) Emigration<br><br>Which of these contribute to an <b>increase</b> in population density?",
     "options": [
-      "(i) and (iii)",
-      "(ii) and (iv)",
       "(i) and (iv)",
+      "(ii) and (iv)",
+      "(i) and (iii)",
       "(ii) and (iii)"
-    ],
-    "correct": 0,
+    ], "correct": 2,
     "explanation": "Natality (births) and Immigration (individuals coming in) increase population density. Mortality (deaths) and Emigration (individuals leaving) decrease it. NCERT: 'two of which (natality and immigration) contribute to an increase in population density.'"
   },
   {
@@ -994,11 +944,10 @@ var allQuestions = [
     "q": "The population density at time t+1 is given by the equation:",
     "options": [
       "Nt+1 = Nt + [(B + E) – (D + I)]",
-      "Nt+1 = Nt + [(B + I) – (D + E)]",
+      "Nt+1 = Nt – [(B + I) + (D + E)]",
       "Nt+1 = Nt × [(B + I) – (D + E)]",
-      "Nt+1 = Nt – [(B + I) + (D + E)]"
-    ],
-    "correct": 1,
+      "Nt+1 = Nt + [(B + I) – (D + E)]"
+    ], "correct": 3,
     "explanation": "NCERT gives the equation: Nt+1 = Nt + [(B + I) – (D + E)], where B = Births, I = Immigration, D = Deaths, E = Emigration."
   },
   {
@@ -1006,12 +955,11 @@ var allQuestions = [
     "topic": "Population Growth",
     "q": "<b>Natality</b> refers to:",
     "options": [
-      "The number of deaths during a given period in the population",
       "The number of births during a given period in the population that are added to the initial density",
+      "The number of deaths during a given period in the population",
       "The number of individuals that have come into the habitat from elsewhere",
       "The number of individuals that left the habitat"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "Natality as 'the number of births during a given period in the population that are added to the initial density.'"
   },
   {
@@ -1020,11 +968,10 @@ var allQuestions = [
     "q": "<b>Emigration</b> refers to:",
     "options": [
       "The number of individuals of the same species that have come into the habitat from elsewhere",
-      "The number of births during a given period",
       "The number of individuals of the population who left the habitat and gone elsewhere during the time period",
+      "The number of births during a given period",
       "The number of deaths in the population during a given period"
-    ],
-    "correct": 2,
+    ], "correct": 1,
     "explanation": "Emigration as 'the number of individuals of the population who left the habitat and gone elsewhere during the time period under consideration.'"
   },
   {
@@ -1033,11 +980,10 @@ var allQuestions = [
     "q": "Under normal conditions, which two factors are the most important in influencing population density?",
     "options": [
       "Immigration and emigration",
-      "Births and deaths",
       "Immigration and births",
+      "Births and deaths",
       "Emigration and deaths"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "'Under normal conditions, births and deaths are the most important factors influencing population density, the other two factors assuming importance only under special conditions.'"
   },
   {
@@ -1046,11 +992,10 @@ var allQuestions = [
     "q": "Immigration may contribute more significantly to population growth than birth rates when:",
     "options": [
       "The population is at carrying capacity",
-      "A new habitat is just being colonised",
+      "The population shows logistic growth",
       "The population is declining due to predation",
-      "The population shows logistic growth"
-    ],
-    "correct": 1,
+      "A new habitat is just being colonised"
+    ], "correct": 3,
     "explanation": "'If a new habitat is just being colonised, immigration may contribute more significantly to population growth than birth rates.'"
   },
   {
@@ -1058,12 +1003,11 @@ var allQuestions = [
     "topic": "Population Growth",
     "q": "Population density will increase when:",
     "options": [
-      "(B + I) < (D + E)",
-      "(B + I) = (D + E)",
       "(B + I) > (D + E)",
+      "(B + I) = (D + E)",
+      "(B + I) < (D + E)",
       "B < D and I < E"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "From the equation Nt+1 = Nt + [(B + I) – (D + E)], population density increases when (B + I) > (D + E)."
   },
   {
@@ -1084,12 +1028,11 @@ var allQuestions = [
     "topic": "Population Growth",
     "q": "If a population has N = 500, births = 100, deaths = 50, immigration = 30, and emigration = 20, the population density at the next time period would be:",
     "options": [
-      "560",
       "600",
+      "560",
       "540",
       "580"
-    ],
-    "correct": 0,
+    ], "correct": 1,
     "explanation": "Nt+1 = Nt + [(B + I) – (D + E)] = 500 + [(100 + 30) – (50 + 20)] = 500 + [130 – 70] = 500 + 60 = 560."
   },
   {
@@ -1111,11 +1054,10 @@ var allQuestions = [
     "q": "The equation for exponential growth is:",
     "options": [
       "dN/dt = rN(K–N)/K",
-      "dN/dt = rN",
+      "dN/dt = K – N",
       "dN/dt = (b + d) × N",
-      "dN/dt = K – N"
-    ],
-    "correct": 1,
+      "dN/dt = rN"
+    ], "correct": 3,
     "explanation": "NCERT gives the exponential growth equation as dN/dt = rN, where r = intrinsic rate of natural increase and N = population size."
   },
   {
@@ -1123,12 +1065,11 @@ var allQuestions = [
     "topic": "Growth Models",
     "q": "In the exponential growth equation dN/dt = rN, the value of 'r' is called:",
     "options": [
-      "Reproductive rate",
       "Intrinsic rate of natural increase",
+      "Reproductive rate",
       "Carrying capacity",
       "Growth potential"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "'The r in this equation is called the intrinsic rate of natural increase and is a very important parameter chosen for assessing impacts of any biotic or abiotic factor on population growth.'"
   },
   {
@@ -1164,10 +1105,9 @@ var allQuestions = [
     "options": [
       "0.12",
       "0.0205",
-      "0.015",
-      "0.__(0.__(5))"
-    ],
-    "correct": 2,
+      "0.__(0.__(5))",
+      "0.015"
+    ], "correct": 3,
     "explanation": "'For the Norway rat the r is 0.015.' The flour beetle has r = 0.12, and India's human population (1981) had r = 0.0205."
   },
   {
@@ -1175,12 +1115,11 @@ var allQuestions = [
     "topic": "Growth Models",
     "q": "The r value for the <b>flour beetle</b> is:",
     "options": [
-      "0.015",
-      "0.0205",
       "0.12",
+      "0.0205",
+      "0.015",
       "1.2"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "The r value for flour beetle is 0.12. Norway rat = 0.015, India's human population (1981) = 0.0205."
   },
   {
@@ -1189,11 +1128,10 @@ var allQuestions = [
     "q": "In 1981, the r value for the human population in India was:",
     "options": [
       "0.015",
-      "0.0__(5)",
+      "0.0205",
       "0.12",
-      "0.0205"
-    ],
-    "correct": 3,
+      "0.0__(5)"
+    ], "correct": 1,
     "explanation": "'In 1981, the r value for human population in India was 0.0205.'"
   },
   {
@@ -1202,11 +1140,10 @@ var allQuestions = [
     "q": "Match the organism with its r value:<br>(a) Norway rat — (i) 0.12<br>(b) Flour beetle — (ii) 0.0205<br>(c) Human population India (1981) — (iii) 0.015<br><br>Choose the correct match:",
     "options": [
       "(a)-(i), (b)-(ii), (c)-(iii)",
-      "(a)-(iii), (b)-(i), (c)-(ii)",
       "(a)-(ii), (b)-(iii), (c)-(i)",
+      "(a)-(iii), (b)-(i), (c)-(ii)",
       "(a)-(iii), (b)-(ii), (c)-(i)"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "Norway rat = 0.015 (iii), Flour beetle = 0.12 (i), Human population India (1981) = 0.0205 (ii)."
   },
   {
@@ -1215,11 +1152,10 @@ var allQuestions = [
     "q": "The exponential growth equation when plotted as N versus time gives a:",
     "options": [
       "S-shaped curve",
-      "J-shaped curve",
+      "Linear graph",
       "Bell-shaped curve",
-      "Linear graph"
-    ],
-    "correct": 1,
+      "J-shaped curve"
+    ], "correct": 3,
     "explanation": "The exponential growth equation 'results in a J-shaped curve when we plot N in relation to time.'"
   },
   {
@@ -1227,12 +1163,11 @@ var allQuestions = [
     "topic": "Growth Models",
     "q": "The integral form of the exponential growth equation is:",
     "options": [
-      "Nt = N0 × r × t",
       "Nt = N0 e^rt",
+      "Nt = N0 × r × t",
       "Nt = N0 + rt",
       "Nt = K × e^rt"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "NCERT gives the integral form as Nt = N0 e^rt, where Nt = population density after time t, N0 = initial population density, r = intrinsic rate of natural increase, e = base of natural logarithms."
   },
   {
@@ -1280,11 +1215,10 @@ var allQuestions = [
     "q": "The concept of exponential growth was related by Darwin to his theory of:",
     "options": [
       "Inheritance of acquired characters",
-      "Natural selection",
+      "Mutation theory",
       "Use and disuse",
-      "Mutation theory"
-    ],
-    "correct": 1,
+      "Natural selection"
+    ], "correct": 3,
     "explanation": "'Each species has the ability to realise fully its innate potential to grow in number, as Darwin observed while developing his theory of natural selection.'"
   },
   {
@@ -1292,12 +1226,11 @@ var allQuestions = [
     "topic": "Growth Models",
     "q": "Which of the following is true regarding logistic growth?",
     "options": [
-      "Resources are unlimited",
-      "The growth curve is J-shaped",
       "It is also called Verhulst-Pearl Logistic Growth",
+      "The growth curve is J-shaped",
+      "Resources are unlimited",
       "Carrying capacity is not considered"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "'This type of population growth is called Verhulst-Pearl Logistic Growth.' Logistic growth occurs under limited resources, produces a sigmoid (S-shaped, not J-shaped) curve, and involves carrying capacity."
   },
   {
@@ -1333,10 +1266,9 @@ var allQuestions = [
     "options": [
       "The intrinsic rate of natural increase",
       "The proportion of carrying capacity already utilised",
-      "The environmental resistance or the fraction of carrying capacity still available",
-      "The total population density"
-    ],
-    "correct": 2,
+      "The total population density",
+      "The environmental resistance or the fraction of carrying capacity still available"
+    ], "correct": 3,
     "explanation": "The term (K–N)/K represents the fraction of carrying capacity still available for growth (environmental resistance). As N approaches K, this term approaches 0, slowing down growth."
   },
   {
@@ -1344,12 +1276,11 @@ var allQuestions = [
     "topic": "Growth Models",
     "q": "When N equals K in the logistic growth equation, dN/dt becomes:",
     "options": [
-      "rN",
-      "rK",
       "Zero",
+      "rK",
+      "rN",
       "Infinity"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "When N = K: dN/dt = rN(K–N)/K = rN(K–K)/K = rN × 0/K = 0. Growth stops when population reaches carrying capacity."
   },
   {
@@ -1371,11 +1302,10 @@ var allQuestions = [
     "q": "A population growing in a habitat with limited resources shows the following phases in order:",
     "options": [
       "Acceleration → Lag → Deceleration → Asymptote",
-      "Lag → Acceleration → Deceleration → Asymptote",
       "Lag → Deceleration → Acceleration → Asymptote",
+      "Lag → Acceleration → Deceleration → Asymptote",
       "Asymptote → Lag → Acceleration → Deceleration"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "'A population growing in a habitat with limited resources show initially a lag phase, followed by phases of acceleration and deceleration and finally an asymptote.'"
   },
   {
@@ -1384,11 +1314,10 @@ var allQuestions = [
     "q": "A plot of N in relation to time in logistic growth results in a:",
     "options": [
       "J-shaped curve",
-      "Sigmoid curve",
+      "Hyperbolic curve",
       "Linear curve",
-      "Hyperbolic curve"
-    ],
-    "correct": 1,
+      "Sigmoid curve"
+    ], "correct": 3,
     "explanation": "'A plot of N in relation to time (t) results in a sigmoid curve' for logistic growth."
   },
   {
@@ -1409,12 +1338,11 @@ var allQuestions = [
     "topic": "Growth Models",
     "q": "Consider the following statements:<br>Statement I: Exponential growth pattern gives a sigmoid curve.<br>Statement II: Logistic growth pattern gives a J-shaped curve.<br><br>Choose the correct option:",
     "options": [
-      "Both Statement I and II are correct",
-      "Statement I is correct but Statement II is incorrect",
       "Both Statement I and II are incorrect",
+      "Statement I is correct but Statement II is incorrect",
+      "Both Statement I and II are correct",
       "Statement I is incorrect but Statement II is correct"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "Both are INCORRECT. Exponential growth gives a J-shaped curve (not sigmoid), and logistic growth gives a sigmoid/S-shaped curve (not J-shaped). This is one of the most common conceptual traps in NEET."
   },
   {
@@ -1436,11 +1364,10 @@ var allQuestions = [
     "q": "Which of the following correctly differentiates exponential and logistic growth?",
     "options": [
       "Exponential — limited resources, S-curve; Logistic — unlimited resources, J-curve",
-      "Exponential — unlimited resources, J-curve; Logistic — limited resources, S-curve",
       "Both show J-shaped curves under different conditions",
+      "Exponential — unlimited resources, J-curve; Logistic — limited resources, S-curve",
       "Both show S-shaped curves under different conditions"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "Exponential growth occurs under unlimited resources and produces a J-shaped curve. Logistic growth occurs under limited resources and produces an S-shaped (sigmoid) curve."
   },
   {
@@ -1449,11 +1376,10 @@ var allQuestions = [
     "q": "If a population has N0 = 100, r = 0.05 per year, and grows exponentially for 2 years, which equation would you use to calculate Nt?",
     "options": [
       "Nt = 100 + (0.05 × 2)",
-      "Nt = 100 × e^(0.05 × 2)",
+      "Nt = 100 / e^(0.05 × 2)",
       "Nt = 100 × (0.05)^2",
-      "Nt = 100 / e^(0.05 × 2)"
-    ],
-    "correct": 1,
+      "Nt = 100 × e^(0.05 × 2)"
+    ], "correct": 3,
     "explanation": "Using the integral form Nt = N0 e^rt = 100 × e^(0.05 × 2) = 100 × e^0.1."
   },
   {
@@ -1461,12 +1387,11 @@ var allQuestions = [
     "topic": "Growth Models",
     "q": "In the logistic growth equation, when the population density (N) is exactly half of the carrying capacity (K), the value of (K–N)/K is:",
     "options": [
-      "0",
-      "0.25",
       "0.5",
+      "0.25",
+      "0",
       "1.0"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "When N = K/2: (K–N)/K = (K – K/2)/K = (K/2)/K = 0.5. At this point, the population growth rate is maximum."
   },
   {
@@ -1475,11 +1400,10 @@ var allQuestions = [
     "q": "In logistic growth, the population growth rate (dN/dt) is <b>maximum</b> when:",
     "options": [
       "N = K",
-      "N = 0",
       "N = K/2",
+      "N = 0",
       "N = 2K"
-    ],
-    "correct": 2,
+    ], "correct": 1,
     "explanation": "In logistic growth, dN/dt = rN(K–N)/K. This is maximized when N = K/2 (half the carrying capacity). This can be derived mathematically and is a frequently asked NEET concept."
   },
   {
@@ -1488,11 +1412,10 @@ var allQuestions = [
     "q": "The logistic growth model was proposed by:",
     "options": [
       "Darwin and Wallace",
-      "Verhulst and Pearl",
       "Hardy and Weinberg",
+      "Verhulst and Pearl",
       "Malthus and Darwin"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "Logistic growth as 'Verhulst-Pearl Logistic Growth.'"
   },
   {
@@ -1513,12 +1436,11 @@ var allQuestions = [
     "topic": "Growth Models",
     "q": "Which of the following is <b>NOT</b> a phase of logistic growth as described in NCERT?",
     "options": [
-      "Lag phase",
-      "Acceleration phase",
       "Exponential phase",
+      "Acceleration phase",
+      "Lag phase",
       "Asymptote"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "NCERT describes four phases: lag phase → acceleration → deceleration → asymptote. 'Exponential phase' is not mentioned as a phase of logistic growth."
   },
   {
@@ -1540,11 +1462,10 @@ var allQuestions = [
     "q": "Among the following organisms, which has the <b>highest</b> intrinsic rate of natural increase (r)?",
     "options": [
       "Human population in India (1981)",
-      "Norway rat",
       "Flour beetle",
+      "Norway rat",
       "Elephant"
-    ],
-    "correct": 2,
+    ], "correct": 1,
     "explanation": "Flour beetle r = 0.12 > India human population r = 0.0205 > Norway rat r = 0.015. Elephant would have an even lower r value as Darwin described it as a slow-growing animal."
   },
   {
@@ -1553,11 +1474,10 @@ var allQuestions = [
     "q": "Among the following, which has the <b>lowest</b> intrinsic rate of natural increase (r) as per NCERT values?",
     "options": [
       "Flour beetle",
-      "Norway rat",
       "Human population in India (1981)",
+      "Norway rat",
       "Norway rat has the lowest"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "Norway rat r = 0.015, which is the lowest among the three values given. India (1981) = 0.0205, Flour beetle = 0.12."
   },
   {
@@ -1566,11 +1486,10 @@ var allQuestions = [
     "q": "Consider the following:<br>Statement I: Immigration is the number of individuals of the same species that come into the habitat from elsewhere.<br>Statement II: Emigration is the number of individuals of any species that come into the habitat.<br><br>Choose the correct option:",
     "options": [
       "Both statements are correct",
-      "Statement I is correct but Statement II is incorrect",
+      "Both statements are incorrect",
       "Statement I is incorrect but Statement II is correct",
-      "Both statements are incorrect"
-    ],
-    "correct": 1,
+      "Statement I is correct but Statement II is incorrect"
+    ], "correct": 3,
     "explanation": "Statement I is correct. Statement II is incorrect — emigration is the number of individuals who LEFT the habitat (not came in), and immigration refers to same species (not any species)."
   },
   {
@@ -1578,12 +1497,11 @@ var allQuestions = [
     "topic": "Growth Models",
     "q": "The parameter 'r' is chosen for assessing impacts of:",
     "options": [
-      "Only biotic factors on population growth",
-      "Only abiotic factors on population growth",
       "Any biotic or abiotic factor on population growth",
+      "Only abiotic factors on population growth",
+      "Only biotic factors on population growth",
       "Only predation on population growth"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "R is 'a very important parameter chosen for assessing impacts of any biotic or abiotic factor on population growth.'"
   },
   {
@@ -1592,11 +1510,10 @@ var allQuestions = [
     "q": "If in a population, per capita birth rate (b) = 0.3 and per capita death rate (d) = 0.1, the intrinsic rate of natural increase (r) is:",
     "options": [
       "0.4",
-      "0.__(3)",
       "0.2",
+      "0.__(3)",
       "0.03"
-    ],
-    "correct": 2,
+    ], "correct": 1,
     "explanation": "r = b – d = 0.3 – 0.1 = 0.2. This follows directly from the NCERT equation."
   },
   {
@@ -1605,11 +1522,10 @@ var allQuestions = [
     "q": "In a population with K = 1000 and current N = 250, the value of (K–N)/K is:",
     "options": [
       "0.25",
-      "0.75",
       "0.50",
+      "0.75",
       "1.0"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "(K–N)/K = (1000–250)/1000 = 750/1000 = 0.75. This means 75% of the carrying capacity is still available."
   },
   {
@@ -1619,10 +1535,9 @@ var allQuestions = [
     "options": [
       "50",
       "25",
-      "0",
-      "500"
-    ],
-    "correct": 2,
+      "500",
+      "0"
+    ], "correct": 3,
     "explanation": "dN/dt = rN(K–N)/K = 0.1 × 500 × (500–500)/500 = 0.1 × 500 × 0 = 0. When N = K, growth rate is zero."
   },
   {
@@ -1630,12 +1545,11 @@ var allQuestions = [
     "topic": "Growth Models",
     "q": "In a population with K = 200, N = 100, and r = 0.2, the population growth rate (dN/dt) is:",
     "options": [
-      "20",
       "10",
+      "20",
       "40",
       "5"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "dN/dt = rN(K–N)/K = 0.2 × 100 × (200–100)/200 = 0.2 × 100 × 0.5 = 10."
   },
   {
@@ -1669,12 +1583,11 @@ var allQuestions = [
     "topic": "Growth Models",
     "q": "Consider the following statements about carrying capacity (K):<br>(i) It is species-specific for a given habitat<br>(ii) It represents unlimited resources<br>(iii) Beyond K, no further growth is possible<br>(iv) It is the same for all species in a habitat<br><br>Which are correct?",
     "options": [
-      "(i) and (iii) only",
+      "All of the above",
       "(ii) and (iv) only",
       "(i), (ii) and (iii)",
-      "All of the above"
-    ],
-    "correct": 0,
+      "(i) and (iii) only"
+    ], "correct": 3,
     "explanation": "NCERT says K is 'nature's carrying capacity for that species in that habitat' — making it species and habitat specific (i correct, iv incorrect). K represents maximum supportable number under limited resources (ii incorrect). Beyond K, no further growth is possible (iii correct)."
   },
   {
@@ -1682,12 +1595,11 @@ var allQuestions = [
     "topic": "Growth Models",
     "q": "Which of the following correctly describes the relationship between 'r' and population growth?",
     "options": [
-      "When r is positive, population is declining",
-      "When r is zero, population is growing",
       "When r is negative, population is declining",
+      "When r is zero, population is growing",
+      "When r is positive, population is declining",
       "When r is negative, population is growing"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "r = b – d. When r > 0, births exceed deaths and population grows. When r = 0, population is stable. When r < 0, deaths exceed births and population declines."
   },
   {
@@ -1695,12 +1607,11 @@ var allQuestions = [
     "topic": "Growth Models",
     "q": "If a population of 1000 organisms has a per capita birth rate of 0.04 and per capita death rate of 0.01, the rate of population increase (dN/dt) under exponential growth is:",
     "options": [
-      "30",
       "40",
+      "30",
       "50",
       "10"
-    ],
-    "correct": 0,
+    ], "correct": 1,
     "explanation": "r = b – d = 0.04 – 0.01 = 0.03. dN/dt = rN = 0.03 × 1000 = 30 individuals per unit time."
   },
   {
@@ -1736,10 +1647,9 @@ var allQuestions = [
     "options": [
       "60",
       "30",
-      "0",
-      "6"
-    ],
-    "correct": 2,
+      "6",
+      "0"
+    ], "correct": 3,
     "explanation": "dN/dt = rN(K–N)/K = 0.1 × 600 × (600–600)/600 = 0.1 × 600 × 0 = 0. At carrying capacity, growth is zero."
   },
   {
@@ -1747,12 +1657,11 @@ var allQuestions = [
     "topic": "Growth Models",
     "q": "The governments of many countries have introduced various restraints to limit human population growth. This is analogous to which concept in ecology?",
     "options": [
-      "Exponential growth",
       "Carrying capacity and logistic growth",
+      "Exponential growth",
       "Immigration",
       "Natality"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "'The governments of many countries have also realised this fact and introduced various restraints with a view to limit human population growth,' analogous to how carrying capacity limits population growth in nature (logistic growth)."
   },
   {
@@ -1774,11 +1683,10 @@ var allQuestions = [
     "q": "Which of the following organisms breed <b>only once</b> in their lifetime?",
     "options": [
       "Most birds and mammals",
-      "Pacific salmon fish and bamboo",
       "Oysters and pelagic fishes",
+      "Pacific salmon fish and bamboo",
       "Birds and mammals"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "'Some organisms breed only once in their lifetime (Pacific salmon fish, bamboo).' This reproductive strategy is called semelparity."
   },
   {
@@ -1788,10 +1696,9 @@ var allQuestions = [
     "options": [
       "Pacific salmon fish",
       "Bamboo",
-      "Most birds and mammals",
-      "Pacific salmon and bamboo both"
-    ],
-    "correct": 2,
+      "Pacific salmon and bamboo both",
+      "Most birds and mammals"
+    ], "correct": 3,
     "explanation": "'Others breed many times during their lifetime (most birds and mammals).' This is called iteroparity. Pacific salmon and bamboo breed only once."
   },
   {
@@ -1799,12 +1706,11 @@ var allQuestions = [
     "topic": "Life History Variation",
     "q": "Which of the following produce a <b>large number of small-sized offspring</b>?",
     "options": [
-      "Birds and mammals",
       "Oysters and pelagic fishes",
+      "Birds and mammals",
       "Pacific salmon fish and bamboo",
       "Elephants and whales"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "'Some produce a large number of small-sized offspring (Oysters, pelagic fishes).' Birds and mammals produce a small number of large-sized offspring."
   },
   {
@@ -1813,11 +1719,10 @@ var allQuestions = [
     "q": "Which of the following produce a <b>small number of large-sized offspring</b>?",
     "options": [
       "Oysters",
-      "Pelagic fishes",
       "Birds and mammals",
+      "Pelagic fishes",
       "Pacific salmon fish"
-    ],
-    "correct": 2,
+    ], "correct": 1,
     "explanation": "'Others produce a small number of large-sized offspring (birds, mammals).'"
   },
   {
@@ -1852,11 +1757,10 @@ var allQuestions = [
     "q": "Consider the following statements:<br>(i) Pacific salmon breeds many times in its lifetime.<br>(ii) Bamboo breeds only once in its lifetime.<br>(iii) Birds produce large number of small-sized offspring.<br>(iv) Oysters produce large number of small-sized offspring.<br><br>Which of the above are correct?",
     "options": [
       "(i) and (iii) only",
-      "(ii) and (iv) only",
+      "(ii) and (iii) only",
       "(i) and (iv) only",
-      "(ii) and (iii) only"
-    ],
-    "correct": 1,
+      "(ii) and (iv) only"
+    ], "correct": 3,
     "explanation": "Statement (i) is incorrect — Pacific salmon breeds only ONCE. Statement (ii) is correct — bamboo breeds once. Statement (iii) is incorrect — birds produce small number of large-sized offspring. Statement (iv) is correct — oysters produce large number of small-sized offspring."
   },
   {
@@ -1864,12 +1768,11 @@ var allQuestions = [
     "topic": "Life History Variation",
     "q": "Under a particular set of selection pressures, organisms evolve towards:",
     "options": [
-      "The largest body size possible",
-      "The longest lifespan possible",
       "The most efficient reproductive strategy",
+      "The longest lifespan possible",
+      "The largest body size possible",
       "The highest metabolic rate"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "'Under a particular set of selection pressures, organisms evolve towards the most efficient reproductive strategy.'"
   },
   {
@@ -1904,11 +1807,10 @@ var allQuestions = [
     "q": "The evolution of life history traits in different species is currently:",
     "options": [
       "A resolved and well-understood topic",
-      "No longer a focus of ecological research",
       "An important area of research being conducted by ecologists",
+      "No longer a focus of ecological research",
       "Only studied in the context of marine organisms"
-    ],
-    "correct": 2,
+    ], "correct": 1,
     "explanation": "'Evolution of life history traits in different species is currently an important area of research being conducted by ecologists.'"
   },
   {
@@ -1917,11 +1819,10 @@ var allQuestions = [
     "q": "Even a plant species which makes its own food cannot survive alone because it needs:<br>(i) Soil microbes to break down organic matter and return inorganic nutrients<br>(ii) Animal agents for pollination<br>(iii) Other plants for competition<br><br>Which of the above are mentioned in NCERT?",
     "options": [
       "(i) only",
-      "(i) and (ii) only",
       "(ii) and (iii) only",
+      "(i) and (ii) only",
       "(i), (ii) and (iii)"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "'It needs soil microbes to break down the organic matter in soil and return the inorganic nutrients for absorption. And then, how will the plant manage pollination without an animal agent?' Competition is not mentioned as a reason for why a plant cannot survive alone."
   },
   {
@@ -1930,11 +1831,10 @@ var allQuestions = [
     "q": "Interspecific interactions arise from the interaction of populations of:",
     "options": [
       "Same species",
-      "Two different species",
+      "Individuals within a single population",
       "Three or more species simultaneously",
-      "Individuals within a single population"
-    ],
-    "correct": 1,
+      "Two different species"
+    ], "correct": 3,
     "explanation": "'Interspecific interactions arise from the interaction of populations of two different species.'"
   },
   {
@@ -1942,12 +1842,11 @@ var allQuestions = [
     "topic": "Population Interactions",
     "q": "In interspecific interactions, '+' sign represents:",
     "options": [
-      "Detrimental interaction",
-      "Neutral interaction",
       "Beneficial interaction",
+      "Neutral interaction",
+      "Detrimental interaction",
       "No interaction"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "NCERT assigns: '+' for beneficial, '–' for detrimental, and '0' for neutral interaction."
   },
   {
@@ -1982,11 +1881,10 @@ var allQuestions = [
     "q": "In <b>parasitism</b>, the interaction is:",
     "options": [
       "+/+ (both benefit)",
-      "+/– (parasite benefits, host is harmed)",
+      "+/0 (parasite benefits, host unaffected)",
       "–/– (both are harmed)",
-      "+/0 (parasite benefits, host unaffected)"
-    ],
-    "correct": 1,
+      "+/– (parasite benefits, host is harmed)"
+    ], "correct": 3,
     "explanation": "'In both parasitism and predation only one species benefits (parasite and predator, respectively) and the interaction is detrimental to the other species (host and prey, respectively).' So parasitism is +/–."
   },
   {
@@ -1994,12 +1892,11 @@ var allQuestions = [
     "topic": "Population Interactions",
     "q": "In <b>predation</b>, which species benefits and which is harmed?",
     "options": [
-      "Prey benefits, predator is harmed",
-      "Both benefit equally",
       "Predator benefits, prey is harmed",
+      "Both benefit equally",
+      "Prey benefits, predator is harmed",
       "Neither benefits nor is harmed"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "'In predation only one species benefits (predator) and the interaction is detrimental to the other species (prey).' So predation is +/– (predator +, prey –)."
   },
   {
@@ -2008,11 +1905,10 @@ var allQuestions = [
     "q": "The interaction where one species is benefitted and the other is <b>neither benefitted nor harmed</b> is called:",
     "options": [
       "Mutualism",
-      "Amensalism",
       "Commensalism",
+      "Amensalism",
       "Parasitism"
-    ],
-    "correct": 2,
+    ], "correct": 1,
     "explanation": "'The interaction where one species is benefitted and the other is neither benefitted nor harmed is called commensalism.' (+/0)"
   },
   {
@@ -2021,11 +1917,10 @@ var allQuestions = [
     "q": "In <b>amensalism</b>, the interaction is:",
     "options": [
       "+/0",
-      "–/0",
       "+/–",
+      "–/0",
       "–/–"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "'In amensalism on the other hand one species is harmed whereas the other is unaffected.' So amensalism is –/0."
   },
   {
@@ -2034,11 +1929,10 @@ var allQuestions = [
     "q": "Which of the following three types of interactions share the common characteristic that the <b>interacting species live closely together</b>?",
     "options": [
       "Mutualism, competition and predation",
-      "Predation, parasitism and commensalism",
+      "Mutualism, parasitism and competition",
       "Competition, parasitism and amensalism",
-      "Mutualism, parasitism and competition"
-    ],
-    "correct": 1,
+      "Predation, parasitism and commensalism"
+    ], "correct": 3,
     "explanation": "'Predation, parasitism and commensalism share a common characteristic – the interacting species live closely together.' This is a very important and frequently tested statement."
   },
   {
@@ -2046,12 +1940,11 @@ var allQuestions = [
     "topic": "Population Interactions",
     "q": "Consider the following table of interactions:<br>(i) Mutualism: +/+<br>(ii) Competition: –/–<br>(iii) Parasitism: +/–<br>(iv) Commensalism: –/0<br>(v) Amensalism: +/0<br><br>Which of the above are <b>incorrectly</b> matched?",
     "options": [
-      "(i) and (ii)",
-      "(iii) and (iv)",
       "(iv) and (v)",
+      "(iii) and (iv)",
+      "(i) and (ii)",
       "(i) and (iii)"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "Commensalism is +/0 (not –/0), and Amensalism is –/0 (not +/0). Options (iv) and (v) have their signs swapped. This is one of the most common traps in NEET."
   },
   {
@@ -2072,12 +1965,11 @@ var allQuestions = [
     "topic": "Population Interactions",
     "q": "Match the type of interaction with its correct sign notation:<br>(a) Mutualism — (i) –/0<br>(b) Amensalism — (ii) +/+<br>(c) Predation — (iii) –/–<br>(d) Competition — (iv) +/–<br><br>Choose the correct match:",
     "options": [
-      "(a)-(ii), (b)-(i), (c)-(iv), (d)-(iii)",
       "(a)-(ii), (b)-(iv), (c)-(i), (d)-(iii)",
+      "(a)-(ii), (b)-(i), (c)-(iv), (d)-(iii)",
       "(a)-(iv), (b)-(i), (c)-(ii), (d)-(iii)",
       "(a)-(iii), (b)-(i), (c)-(iv), (d)-(ii)"
-    ],
-    "correct": 0,
+    ], "correct": 1,
     "explanation": "Mutualism = +/+ (ii); Amensalism = –/0 (i); Predation = +/– (iv); Competition = –/– (iii)."
   },
   {
@@ -2086,11 +1978,10 @@ var allQuestions = [
     "q": "Which of the following pairs of interactions have the <b>same sign notation</b> (+/–)?",
     "options": [
       "Mutualism and commensalism",
-      "Parasitism and predation",
       "Competition and amensalism",
+      "Parasitism and predation",
       "Commensalism and amensalism"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "Both parasitism and predation have +/– interaction. In parasitism, parasite benefits and host is harmed. In predation, predator benefits and prey is harmed."
   },
   {
@@ -2100,10 +1991,9 @@ var allQuestions = [
     "options": [
       "Both Statement I and II are correct",
       "Statement I is correct but Statement II is incorrect",
-      "Statement I is incorrect but Statement II is correct",
-      "Both Statement I and II are incorrect"
-    ],
-    "correct": 2,
+      "Both Statement I and II are incorrect",
+      "Statement I is incorrect but Statement II is correct"
+    ], "correct": 3,
     "explanation": "Statement I is incorrect — in commensalism, one species is benefitted and the other is NEITHER benefitted NOR harmed (+/0), not harmed. Statement II is correct — in amensalism, one is harmed and the other is unaffected (–/0)."
   },
   {
@@ -2111,12 +2001,11 @@ var allQuestions = [
     "topic": "Population Interactions",
     "q": "For any species, the <b>minimal requirement</b> in a habitat is:",
     "options": [
-      "No other species at all",
       "At least one more species on which it can feed",
+      "No other species at all",
       "At least ten different species for a balanced ecosystem",
       "At least one predator species"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "'For any species, the minimal requirement is one more species on which it can feed.'"
   },
   {
@@ -2138,11 +2027,10 @@ var allQuestions = [
     "q": "Which of the following is <b>NOT</b> a possible outcome sign for interspecific interactions as described in NCERT?",
     "options": [
       "+/+",
-      "+/–",
+      "+/+/+",
       "–/0",
-      "+/+/+"
-    ],
-    "correct": 3,
+      "+/–"
+    ], "correct": 1,
     "explanation": "NCERT describes two-species interactions with signs +, –, and 0. '+/+/+' would imply three species, which is not part of the interspecific interaction classification given."
   },
   {
@@ -2165,10 +2053,9 @@ var allQuestions = [
     "options": [
       "Both are correct",
       "Only Statement I is correct",
-      "Only Statement II is correct",
-      "Both are incorrect"
-    ],
-    "correct": 2,
+      "Both are incorrect",
+      "Only Statement II is correct"
+    ], "correct": 3,
     "explanation": "Statement I is incorrect — pelagic fishes produce LARGE number of SMALL-sized offspring. Statement II is correct — mammals produce small number of large-sized offspring,."
   },
   {
@@ -2176,12 +2063,11 @@ var allQuestions = [
     "topic": "Population Interactions",
     "q": "Interspecific interactions can be:<br>(i) Beneficial to one or both species<br>(ii) Detrimental to one or both species<br>(iii) Neutral to one or both species<br><br>Which of the above is/are correct?",
     "options": [
-      "(i) only",
-      "(i) and (ii) only",
       "(i), (ii) and (iii)",
+      "(i) and (ii) only",
+      "(i) only",
       "(ii) and (iii) only"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "'They could be beneficial, detrimental or neutral (neither harm nor benefit) to one of the species or both.' All three outcomes are possible."
   },
   {
@@ -2203,11 +2089,10 @@ var allQuestions = [
     "q": "Which of the following correctly lists ALL six types of interspecific interactions mentioned in NCERT?",
     "options": [
       "Mutualism, Competition, Predation, Parasitism, Commensalism, Neutralism",
-      "Mutualism, Competition, Predation, Parasitism, Commensalism, Amensalism",
       "Mutualism, Competition, Predation, Parasitism, Symbiosis, Amensalism",
+      "Mutualism, Competition, Predation, Parasitism, Commensalism, Amensalism",
       "Mutualism, Competition, Predation, Parasitism, Protocooperation, Amensalism"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "NCERT lists six interspecific interactions: Mutualism (+/+), Competition (–/–), Predation (+/–), Parasitism (+/–), Commensalism (+/0), and Amensalism (–/0). Neutralism and Protocooperation are not mentioned."
   },
   {
@@ -2230,10 +2115,9 @@ var allQuestions = [
     "options": [
       "Commensalism",
       "Mutualism",
-      "Amensalism",
-      "Parasitism"
-    ],
-    "correct": 2,
+      "Parasitism",
+      "Amensalism"
+    ], "correct": 3,
     "explanation": "In amensalism (–/0), one species is harmed and the other is unaffected. In commensalism (+/0), one benefits and the other is unaffected. In parasitism (+/–), one benefits and one is harmed."
   },
   {
@@ -2241,12 +2125,11 @@ var allQuestions = [
     "topic": "Population Interactions",
     "q": "Consider the following statements:<br>Statement I: Predation, parasitism and commensalism share the characteristic that interacting species live closely together.<br>Statement II: In competition, both species benefit from each other's presence.<br><br>Choose the correct option:",
     "options": [
-      "Both statements are correct",
       "Only Statement I is correct",
+      "Both statements are correct",
       "Only Statement II is correct",
       "Both statements are incorrect"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "Statement I is correct — directly from NCERT. Statement II is incorrect — in competition both species LOSE (–/–), they do not benefit."
   },
   {
@@ -2255,11 +2138,10 @@ var allQuestions = [
     "q": "Which of the following interactions is represented by the sign notation <b>+/0</b>?",
     "options": [
       "Amensalism",
-      "Parasitism",
       "Commensalism",
+      "Parasitism",
       "Mutualism"
-    ],
-    "correct": 2,
+    ], "correct": 1,
     "explanation": "Commensalism is +/0 — one species benefits, other is unaffected. Amensalism is –/0, Parasitism is +/–, Mutualism is +/+."
   },
   {
@@ -2268,11 +2150,10 @@ var allQuestions = [
     "q": "Which of the following interactions is represented by the sign notation <b>–/0</b>?",
     "options": [
       "Commensalism",
-      "Amensalism",
       "Predation",
+      "Amensalism",
       "Competition"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "Amensalism is –/0 — one species is harmed, other is unaffected. This is often confused with commensalism (+/0)."
   },
   {
@@ -2281,11 +2162,10 @@ var allQuestions = [
     "q": "Predation can be thought of as nature's way of:",
     "options": [
       "Eliminating weaker species permanently",
-      "Transferring energy fixed by plants to higher trophic levels",
+      "Increasing competition among prey species",
       "Reducing biodiversity in an ecosystem",
-      "Increasing competition among prey species"
-    ],
-    "correct": 1,
+      "Transferring energy fixed by plants to higher trophic levels"
+    ], "correct": 3,
     "explanation": "'You can think of predation as nature's way of transferring to higher trophic levels the energy fixed by plants.'"
   },
   {
@@ -2293,12 +2173,11 @@ var allQuestions = [
     "topic": "Predation",
     "q": "In a broad ecological context, which of the following is considered a predator?",
     "options": [
-      "Only a tiger eating a deer",
-      "Only carnivorous animals",
       "A sparrow eating a seed",
+      "Only carnivorous animals",
+      "Only a tiger eating a deer",
       "Only parasites feeding on hosts"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "'A sparrow eating any seed is no less a predator. Although animals eating plants are categorised separately as herbivores, they are, in a broad ecological context, not very different from predators.'"
   },
   {
@@ -2320,11 +2199,10 @@ var allQuestions = [
     "q": "The <b>prickly pear cactus</b> was introduced into Australia in:",
     "options": [
       "Early 1900's",
-      "Early 1920's",
       "Early 1940's",
+      "Early 1920's",
       "Early 1950's"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "'The prickly pear cactus introduced into Australia in the early 1920's caused havoc by spreading rapidly into millions of hectares of rangeland.'"
   },
   {
@@ -2333,11 +2211,10 @@ var allQuestions = [
     "q": "The invasive prickly pear cactus in Australia was brought under control by introducing:",
     "options": [
       "A cactus-feeding beetle",
-      "A cactus-feeding moth",
+      "A chemical herbicide",
       "A cactus-feeding bird",
-      "A chemical herbicide"
-    ],
-    "correct": 1,
+      "A cactus-feeding moth"
+    ], "correct": 3,
     "explanation": "'The invasive cactus was brought under control only after a cactus-feeding predator (a moth) from its natural habitat was introduced into the country.' Students often confuse this with a beetle."
   },
   {
@@ -2385,11 +2262,10 @@ var allQuestions = [
     "q": "In the rocky intertidal communities of the American Pacific Coast, the important predator mentioned in NCERT is:",
     "options": [
       "Sea urchin",
-      "Starfish Pisaster",
       "Lobster",
+      "Starfish Pisaster",
       "Octopus"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "'The starfish Pisaster is an important predator' in the rocky intertidal communities of the American Pacific Coast."
   },
   {
@@ -2398,11 +2274,10 @@ var allQuestions = [
     "q": "In the Pisaster experiment, when all starfish were removed from an enclosed intertidal area, what happened within a year?",
     "options": [
       "Biodiversity increased significantly",
-      "More than 10 species of invertebrates became extinct",
+      "Only 2 species became extinct",
       "The ecosystem remained unchanged",
-      "Only 2 species became extinct"
-    ],
-    "correct": 1,
+      "More than 10 species of invertebrates became extinct"
+    ], "correct": 3,
     "explanation": "'When all the starfish were removed from an enclosed intertidal area, more than 10 species of invertebrates became extinct within a year, because of interspecific competition.'"
   },
   {
@@ -2410,12 +2285,11 @@ var allQuestions = [
     "topic": "Predation",
     "q": "The extinction of more than 10 invertebrate species after removal of Pisaster was due to:",
     "options": [
-      "Lack of food",
       "Interspecific competition",
+      "Lack of food",
       "Disease outbreak",
       "Environmental pollution"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "The extinction was 'because of interspecific competition.' Without the predator to keep dominant competitors in check, competitive exclusion eliminated many species."
   },
   {
@@ -2450,11 +2324,10 @@ var allQuestions = [
     "q": "Some species of insects and frogs avoid being detected by predators through:",
     "options": [
       "Aposematic colouration",
-      "Cryptic colouration (camouflage)",
       "Mullerian mimicry",
+      "Cryptic colouration (camouflage)",
       "Batesian mimicry"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "'Some species of insects and frogs are cryptically-coloured (camouflaged) to avoid being detected easily by the predator.'"
   },
   {
@@ -2464,10 +2337,9 @@ var allQuestions = [
     "options": [
       "Thorns on its wings",
       "Cryptic colouration",
-      "A special chemical present in its body",
-      "Its large body size"
-    ],
-    "correct": 2,
+      "Its large body size",
+      "A special chemical present in its body"
+    ], "correct": 3,
     "explanation": "'The Monarch butterfly is highly distasteful to its predator (bird) because of a special chemical present in its body.'"
   },
   {
@@ -2475,12 +2347,11 @@ var allQuestions = [
     "topic": "Predation",
     "q": "The Monarch butterfly acquires its distasteful chemical during:",
     "options": [
-      "The adult stage by feeding on nectar",
-      "The pupal stage",
       "The caterpillar stage by feeding on a poisonous weed",
+      "The pupal stage",
+      "The adult stage by feeding on nectar",
       "The egg stage"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "'The butterfly acquires this chemical during its caterpillar stage by feeding on a poisonous weed.' This is a frequently tested fact — students often think the adult butterfly produces the chemical."
   },
   {
@@ -2516,10 +2387,9 @@ var allQuestions = [
     "options": [
       "Feeding on fungi",
       "Feeding on dead organic matter",
-      "Feeding on plant sap and other parts of plants",
-      "Feeding on other insects"
-    ],
-    "correct": 2,
+      "Feeding on other insects",
+      "Feeding on plant sap and other parts of plants"
+    ], "correct": 3,
     "explanation": "Phytophagous as 'feeding on plant sap and other parts of plants.'"
   },
   {
@@ -2527,12 +2397,11 @@ var allQuestions = [
     "topic": "Predation",
     "q": "Plants have evolved defences against herbivores because unlike animals they:",
     "options": [
-      "Do not have immune systems",
       "Cannot run away from their predators",
+      "Do not have immune systems",
       "Do not have nervous systems",
       "Cannot produce chemical compounds"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "'The problem is particularly severe for plants because, unlike animals, they cannot run away from their predators.'"
   },
   {
@@ -2541,11 +2410,10 @@ var allQuestions = [
     "q": "The <b>most common morphological means of defence</b> in plants against herbivores is:",
     "options": [
       "Thick bark",
-      "Waxy cuticle",
       "Thorns",
+      "Waxy cuticle",
       "Spines on leaves"
-    ],
-    "correct": 2,
+    ], "correct": 1,
     "explanation": "'Thorns (Acacia, Cactus) are the most common morphological means of defence.'"
   },
   {
@@ -2554,11 +2422,10 @@ var allQuestions = [
     "q": "Which of the following plants are mentioned as examples of plants having thorns as a morphological defence?",
     "options": [
       "Calotropis and Nerium",
-      "Acacia and Cactus",
       "Banyan and Parthenium",
+      "Acacia and Cactus",
       "Teak and Bamboo"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "'Thorns (Acacia, Cactus) are the most common morphological means of defence.'"
   },
   {
@@ -2568,10 +2435,9 @@ var allQuestions = [
     "options": [
       "Alkaloids",
       "Tannins",
-      "Cardiac glycosides",
-      "Cyanogenic glucosides"
-    ],
-    "correct": 2,
+      "Cyanogenic glucosides",
+      "Cardiac glycosides"
+    ], "correct": 3,
     "explanation": "'The plant produces highly poisonous cardiac glycosides and that is why you never see any cattle or goats browsing on this plant.'"
   },
   {
@@ -2592,12 +2458,11 @@ var allQuestions = [
     "topic": "Predation",
     "q": "Chemical substances extracted from plants on a commercial scale, such as nicotine, caffeine, quinine, strychnine and opium, are actually produced by plants as:",
     "options": [
-      "Attractants for pollinators",
-      "Nutrients for growth",
       "Defences against grazers and browsers",
+      "Nutrients for growth",
+      "Attractants for pollinators",
       "Waste products of metabolism"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "'A wide variety of chemical substances that we extract from plants on a commercial scale (nicotine, caffeine, quinine, strychnine, opium, etc.,) are produced by them actually as defences against grazers and browsers.'"
   },
   {
@@ -2606,11 +2471,10 @@ var allQuestions = [
     "q": "Which of the following is <b>NOT</b> mentioned as a plant chemical defence against herbivores in NCERT?",
     "options": [
       "Nicotine",
-      "Caffeine",
       "Capsaicin",
+      "Caffeine",
       "Strychnine"
-    ],
-    "correct": 2,
+    ], "correct": 1,
     "explanation": "NCERT specifically lists nicotine, caffeine, quinine, strychnine, and opium as chemical defences. Capsaicin is not mentioned in this context."
   },
   {
@@ -2620,10 +2484,9 @@ var allQuestions = [
     "options": [
       "(i) and (ii) only",
       "(i), (ii) and (iii) only",
-      "(iii) and (iv) only",
-      "(i), (ii), (iii) and (iv)"
-    ],
-    "correct": 3,
+      "(i), (ii), (iii) and (iv)",
+      "(iii) and (iv) only"
+    ], "correct": 2,
     "explanation": "'Many plants produce and store chemicals that make the herbivore sick when they are eaten, inhibit feeding or digestion, disrupt its reproduction or even kill it.' All four effects are mentioned."
   },
   {
@@ -2631,12 +2494,11 @@ var allQuestions = [
     "topic": "Predation",
     "q": "Consider the following statements:<br>Statement I: Herbivores are categorised separately from predators.<br>Statement II: In a broad ecological context, herbivores are not very different from predators.<br><br>Choose the correct option:",
     "options": [
-      "Both are correct and not contradictory",
+      "Both are incorrect",
       "Only Statement I is correct",
       "Only Statement II is correct",
-      "Both are incorrect"
-    ],
-    "correct": 0,
+      "Both are correct and not contradictory"
+    ], "correct": 3,
     "explanation": "Both are correct and represent the same NCERT line: 'Although animals eating plants are categorised separately as herbivores, they are, in a broad ecological context, not very different from predators.' Both statements are valid from different perspectives."
   },
   {
@@ -2644,12 +2506,11 @@ var allQuestions = [
     "topic": "Predation",
     "q": "The prickly pear cactus in Australia spread rapidly into:",
     "options": [
-      "Thousands of hectares",
-      "Hundreds of hectares",
       "Millions of hectares of rangeland",
+      "Hundreds of hectares",
+      "Thousands of hectares",
       "Billions of hectares"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "The prickly pear cactus caused havoc 'by spreading rapidly into millions of hectares of rangeland.'"
   },
   {
@@ -2658,11 +2519,10 @@ var allQuestions = [
     "q": "The cactus-feeding moth used to control prickly pear cactus in Australia was introduced from:",
     "options": [
       "India",
-      "Africa",
       "Its natural habitat (home range of prickly pear)",
+      "Africa",
       "Europe"
-    ],
-    "correct": 2,
+    ], "correct": 1,
     "explanation": "'A cactus-feeding predator (a moth) from its natural habitat was introduced into the country.' The moth came from the natural habitat of the prickly pear cactus."
   },
   {
@@ -2671,11 +2531,10 @@ var allQuestions = [
     "q": "Which of the following is an example of <b>biological control</b> as described in NCERT?",
     "options": [
       "Using chemical pesticides to control crop pests",
-      "Introducing cactus-feeding moth to control prickly pear cactus",
       "Genetic modification of crops for pest resistance",
+      "Introducing cactus-feeding moth to control prickly pear cactus",
       "Manual removal of weeds"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "The introduction of the cactus-feeding moth to control invasive prickly pear cactus in Australia is a classic example of biological control, based on the predator's ability to regulate prey population."
   },
   {
@@ -2698,10 +2557,9 @@ var allQuestions = [
     "options": [
       "(i) and (ii) only",
       "(iii) and (iv) only",
-      "(i), (ii), (iii) and (iv)",
-      "(i) and (iii) only"
-    ],
-    "correct": 2,
+      "(i) and (iii) only",
+      "(i), (ii), (iii) and (iv)"
+    ], "correct": 3,
     "explanation": "All four are defence mechanisms against predation as described — cryptic colouration, chemical defence of Monarch butterfly, thorns in plants, and cardiac glycosides in Calotropis."
   },
   {
@@ -2723,11 +2581,10 @@ var allQuestions = [
     "q": "Which of the following is <b>NOT</b> a chemical defence substance produced by plants as mentioned in NCERT?",
     "options": [
       "Nicotine",
-      "Quinine",
+      "Morphine",
       "Opium",
-      "Morphine"
-    ],
-    "correct": 3,
+      "Quinine"
+    ], "correct": 1,
     "explanation": "NCERT specifically lists nicotine, caffeine, quinine, strychnine, and opium as plant chemical defences. Morphine (derived from opium) is not separately mentioned in this list."
   },
   {
@@ -2750,10 +2607,9 @@ var allQuestions = [
     "options": [
       "Both are correct",
       "Only Statement I is correct",
-      "Only Statement II is correct",
-      "Both are incorrect"
-    ],
-    "correct": 2,
+      "Both are incorrect",
+      "Only Statement II is correct"
+    ], "correct": 3,
     "explanation": "Statement I is incorrect — the butterfly does not produce the chemical itself as an adult. Statement II is correct — 'the butterfly acquires this chemical during its caterpillar stage by feeding on a poisonous weed.'"
   },
   {
@@ -2761,12 +2617,11 @@ var allQuestions = [
     "topic": "Predation",
     "q": "The predator of the Monarch butterfly, as mentioned in NCERT, is:",
     "options": [
-      "Snake",
-      "Lizard",
       "Bird",
+      "Lizard",
+      "Snake",
       "Spider"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "'The Monarch butterfly is highly distasteful to its predator (bird).'"
   },
   {
@@ -2788,11 +2643,10 @@ var allQuestions = [
     "q": "The term '<b>prudent predator</b>' refers to a predator that:",
     "options": [
       "Kills all prey efficiently",
-      "Does not overexploit its prey, thereby ensuring its own survival",
       "Feeds only on plants",
+      "Does not overexploit its prey, thereby ensuring its own survival",
       "Switches between multiple prey species randomly"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "NCERT explains that predators in nature are 'prudent' — they do not overexploit their prey because doing so would lead to the extinction of both prey and predator."
   },
   {
@@ -2815,10 +2669,9 @@ var allQuestions = [
     "options": [
       "Reducing species diversity",
       "Increasing prey population density",
-      "Maintaining species diversity",
-      "Causing ecosystem instability"
-    ],
-    "correct": 2,
+      "Causing ecosystem instability",
+      "Maintaining species diversity"
+    ], "correct": 3,
     "explanation": "The removal of Pisaster (predator) led to extinction of >10 invertebrate species due to competition. This demonstrates that predators maintain species diversity by reducing competitive exclusion."
   },
   {
@@ -2839,12 +2692,11 @@ var allQuestions = [
     "topic": "Competition",
     "q": "Darwin was convinced that <b>interspecific competition</b> is:",
     "options": [
-      "Irrelevant to evolution",
       "A potent force in organic evolution",
+      "Irrelevant to evolution",
       "Only important for plants",
       "Only applicable to predator-prey interactions"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "'When Darwin spoke of the struggle for existence and survival of the fittest in nature, he was convinced that interspecific competition is a potent force in organic evolution.'"
   },
   {
@@ -2866,11 +2718,10 @@ var allQuestions = [
     "q": "In some shallow South American lakes, visiting flamingoes and resident fishes compete for:",
     "options": [
       "Space on the lake bed",
-      "Zooplankton",
       "Phytoplankton",
+      "Zooplankton",
       "Aquatic plants"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "They compete for 'their common food, the zooplankton in the lake.'"
   },
   {
@@ -2879,11 +2730,10 @@ var allQuestions = [
     "q": "In <b>interference competition</b>, the feeding efficiency of one species is reduced due to:",
     "options": [
       "Lack of food resources",
-      "The interfering and inhibitory presence of the other species",
+      "Abiotic environmental changes",
       "Predation by a third species",
-      "Abiotic environmental changes"
-    ],
-    "correct": 1,
+      "The interfering and inhibitory presence of the other species"
+    ], "correct": 3,
     "explanation": "'In interference competition, the feeding efficiency of one species might be reduced due to the interfering and inhibitory presence of the other species, even if resources (food and space) are abundant.'"
   },
   {
@@ -2904,12 +2754,11 @@ var allQuestions = [
     "topic": "Competition",
     "q": "Competition is best defined as a process in which the fitness of one species is significantly lower in the presence of another species. Fitness here is measured in terms of:",
     "options": [
-      "Body size",
-      "Longevity",
       "'r' — the intrinsic rate of natural increase",
+      "Longevity",
+      "Body size",
       "Number of predators it can avoid"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "'Competition is best defined as a process in which the fitness of one species (measured in terms of its 'r' the intrinsic rate of increase) is significantly lower in the presence of another species.'"
   },
   {
@@ -2931,11 +2780,10 @@ var allQuestions = [
     "q": "Gause's Competitive Exclusion Principle may be true if:",
     "options": [
       "Resources are unlimited",
-      "Resources are limiting",
       "There are no predators",
+      "Resources are limiting",
       "The habitat is very large"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "'This may be true if resources are limiting, but not otherwise.'"
   },
   {
@@ -2944,11 +2792,10 @@ var allQuestions = [
     "q": "The <b>Abingdon tortoise</b> in Galapagos Islands became extinct within a decade after the introduction of:",
     "options": [
       "Rats",
-      "Goats",
+      "Dogs",
       "Cats",
-      "Dogs"
-    ],
-    "correct": 1,
+      "Goats"
+    ], "correct": 3,
     "explanation": "'The Abingdon tortoise in Galapagos Islands became extinct within a decade after goats were introduced on the island, apparently due to the greater browsing efficiency of the goats.'"
   },
   {
@@ -2956,12 +2803,11 @@ var allQuestions = [
     "topic": "Competition",
     "q": "The extinction of the Abingdon tortoise was apparently due to:",
     "options": [
-      "Predation by goats",
       "Greater browsing efficiency of the goats",
+      "Predation by goats",
       "Disease introduced by goats",
       "Habitat destruction by goats"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "It was 'apparently due to the greater browsing efficiency of the goats.' This is competition (not predation) — goats outcompeted the tortoise for food."
   },
   {
@@ -2996,11 +2842,10 @@ var allQuestions = [
     "q": "In Connell's barnacle experiment, the larger and competitively superior barnacle is:",
     "options": [
       "Chathamalus",
-      "Balanus",
+      "Patella",
       "Pisaster",
-      "Patella"
-    ],
-    "correct": 1,
+      "Balanus"
+    ], "correct": 3,
     "explanation": "'The larger and competitively superior barnacle Balanus dominates the intertidal area, and excludes the smaller barnacle Chathamalus from that zone.'"
   },
   {
@@ -3008,12 +2853,11 @@ var allQuestions = [
     "topic": "Competition",
     "q": "In the Connell experiment, <b>Chathamalus</b> is excluded from the intertidal zone by:",
     "options": [
-      "Pisaster starfish",
       "Balanus",
+      "Pisaster starfish",
       "Predatory fish",
       "Wave action"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "'The larger and competitively superior barnacle Balanus dominates the intertidal area, and excludes the smaller barnacle Chathamalus from that zone.'"
   },
   {
@@ -3035,11 +2879,10 @@ var allQuestions = [
     "q": "In general, which groups appear to be <b>more adversely affected</b> by competition?",
     "options": [
       "Carnivores and omnivores",
-      "Herbivores and plants",
       "Decomposers and microbes",
+      "Herbivores and plants",
       "Predators and parasites"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "'In general, herbivores and plants appear to be more adversely affected by competition than carnivores.'"
   },
   {
@@ -3048,11 +2891,10 @@ var allQuestions = [
     "q": "More recent studies on competition suggest that species facing competition might evolve mechanisms that promote:",
     "options": [
       "Competitive exclusion",
-      "Co-existence rather than exclusion",
+      "Predation on the competing species",
       "Emigration from the habitat",
-      "Predation on the competing species"
-    ],
-    "correct": 1,
+      "Co-existence rather than exclusion"
+    ], "correct": 3,
     "explanation": "'Species facing competition might evolve mechanisms that promote co-existence rather than exclusion.'"
   },
   {
@@ -3060,12 +2902,11 @@ var allQuestions = [
     "topic": "Competition",
     "q": "One mechanism that promotes co-existence of competing species is:",
     "options": [
-      "Competitive exclusion",
       "Resource partitioning",
+      "Competitive exclusion",
       "Predation",
       "Emigration"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "'One such mechanism is resource partitioning.'"
   },
   {
@@ -3099,12 +2940,11 @@ var allQuestions = [
     "topic": "Competition",
     "q": "If two species compete for the same resource, they could avoid competition by:<br>(i) Choosing different times for feeding<br>(ii) Adopting different foraging patterns<br>(iii) Eating the same food at the same time<br><br>Which of the above are correct examples of resource partitioning?",
     "options": [
-      "(i) and (ii) only",
+      "(i), (ii) and (iii)",
       "(ii) and (iii) only",
       "(i) and (iii) only",
-      "(i), (ii) and (iii)"
-    ],
-    "correct": 0,
+      "(i) and (ii) only"
+    ], "correct": 3,
     "explanation": "'They could avoid competition by choosing, for instance, different times for feeding or different foraging patterns.' Eating the same food at the same time is NOT resource partitioning."
   },
   {
@@ -3139,11 +2979,10 @@ var allQuestions = [
     "q": "Consider the following:<br>Statement I: Competition occurs only when closely related species compete for limiting resources.<br>Statement II: Totally unrelated species can also compete for the same resource.<br><br>Choose the correct option:",
     "options": [
       "Both are correct",
-      "Only Statement I is correct",
       "Only Statement II is correct",
+      "Only Statement I is correct",
       "Both are incorrect"
-    ],
-    "correct": 2,
+    ], "correct": 1,
     "explanation": "Statement I is incorrect — NCERT says 'this is not entirely true.' Statement II is correct — NCERT gives the example of flamingoes (birds) and fishes competing for zooplankton."
   },
   {
@@ -3165,11 +3004,10 @@ var allQuestions = [
     "q": "The Abingdon tortoise became extinct within:",
     "options": [
       "A year",
-      "A decade",
+      "Two decades",
       "A century",
-      "Two decades"
-    ],
-    "correct": 1,
+      "A decade"
+    ], "correct": 3,
     "explanation": "The Abingdon tortoise 'became extinct within a decade after goats were introduced.'"
   },
   {
@@ -3190,12 +3028,11 @@ var allQuestions = [
     "topic": "Competition",
     "q": "Which of the following statements about Gause's Competitive Exclusion Principle is correct?",
     "options": [
-      "It is universally applicable in all situations",
       "It applies only when resources are limiting",
+      "It is universally applicable in all situations",
       "It has been conclusively proven in all natural habitats",
       "It suggests both species always go extinct"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "'This may be true if resources are limiting, but not otherwise.' It is not universally applicable, not always conclusively proven in nature, and only the inferior species is eliminated (not both)."
   },
   {
@@ -3203,12 +3040,11 @@ var allQuestions = [
     "topic": "Competition",
     "q": "Consider the following scientists and their contributions:<br>(i) Gause demonstrated competitive exclusion in laboratory experiments<br>(ii) Connell conducted field experiments on warblers<br>(iii) MacArthur studied barnacle competition in Scotland<br><br>Which of the above are correctly matched?",
     "options": [
-      "(i) only",
       "(i) and (ii) only",
+      "(i) only",
       "(ii) and (iii) only",
       "None of the above"
-    ],
-    "correct": 0,
+    ], "correct": 1,
     "explanation": "Only (i) is correct — Gause demonstrated competitive exclusion in lab. (ii) is incorrect — Connell studied barnacles (not warblers). (iii) is incorrect — MacArthur studied warblers (not barnacles). Students frequently interchange Connell and MacArthur."
   },
   {
@@ -3231,10 +3067,9 @@ var allQuestions = [
     "options": [
       "Temporal partitioning only",
       "Morphological differences",
-      "Behavioural differences in foraging activities (resource partitioning)",
-      "Predator avoidance behaviour"
-    ],
-    "correct": 2,
+      "Predator avoidance behaviour",
+      "Behavioural differences in foraging activities (resource partitioning)"
+    ], "correct": 3,
     "explanation": "'Five closely related species of warblers living on the same tree were able to avoid competition and co-exist due to behavioural differences in their foraging activities.' This is resource partitioning."
   },
   {
@@ -3242,12 +3077,11 @@ var allQuestions = [
     "topic": "Competition",
     "q": "Which of the following correctly describes <b>interference competition</b>?",
     "options": [
-      "Competition that occurs only when resources are scarce",
       "Competition where one species directly inhibits the feeding efficiency of another, even when resources are abundant",
+      "Competition that occurs only when resources are scarce",
       "Competition that always leads to extinction of one species",
       "Competition between predator and prey"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "'In interference competition, the feeding efficiency of one species might be reduced due to the interfering and inhibitory presence of the other species, even if resources (food and space) are abundant.'"
   },
   {
@@ -3269,11 +3103,10 @@ var allQuestions = [
     "q": "In the context of competition, 'circumstantial evidence' mentioned in NCERT includes:<br>(i) Extinction of Abingdon tortoise after introduction of goats<br>(ii) Competitive release experiments<br>(iii) Connell's barnacle experiment<br><br>Which of the above are correct?",
     "options": [
       "(i) only",
-      "(i) and (ii) only",
       "(i), (ii) and (iii)",
+      "(i) and (ii) only",
       "(ii) and (iii) only"
-    ],
-    "correct": 2,
+    ], "correct": 1,
     "explanation": "All three as evidence for competition: Abingdon tortoise extinction (circumstantial), competitive release, and Connell's barnacle experiment."
   },
   {
@@ -3282,11 +3115,10 @@ var allQuestions = [
     "q": "In Connell's experiment, <b>Balanus</b> dominates which zone?",
     "options": [
       "The subtidal zone",
-      "The intertidal area",
       "The supratidal zone",
+      "The intertidal area",
       "The deep sea zone"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "'The larger and competitively superior barnacle Balanus dominates the intertidal area, and excludes the smaller barnacle Chathamalus from that zone.'"
   },
   {
@@ -3296,10 +3128,9 @@ var allQuestions = [
     "options": [
       "Connell — Warblers on same tree",
       "MacArthur — Barnacles on rocky coast",
-      "Gause — Competitive Exclusion Principle",
-      "Darwin — Resource partitioning theory"
-    ],
-    "correct": 2,
+      "Darwin — Resource partitioning theory",
+      "Gause — Competitive Exclusion Principle"
+    ], "correct": 3,
     "explanation": "Gause — Competitive Exclusion Principle is correct. Connell studied barnacles (not warblers). MacArthur studied warblers (not barnacles). Darwin spoke about competition as a force in evolution (not resource partitioning)."
   },
   {
@@ -3307,12 +3138,11 @@ var allQuestions = [
     "topic": "Competition",
     "q": "Consider the following statements about competition:<br>Statement I: Only closely related species can compete with each other.<br>Statement II: Flamingoes and fishes compete for zooplankton in shallow South American lakes.<br><br>In light of Statement II, Statement I is:",
     "options": [
-      "Correct because flamingoes and fishes are related",
-      "Correct because they share the same habitat",
       "Incorrect because totally unrelated species can also compete",
+      "Correct because they share the same habitat",
+      "Correct because flamingoes and fishes are related",
       "Correct because zooplankton is a limiting resource"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "NCERT explicitly states this is 'not entirely true' and gives the flamingoe-fish example showing that totally unrelated species can also compete for the same resource."
   },
   {
@@ -3321,11 +3151,10 @@ var allQuestions = [
     "q": "Which of the following experiments is associated with the rocky sea coasts of <b>Scotland</b>?",
     "options": [
       "Gause's Paramecium experiment",
-      "MacArthur's warbler experiment",
       "Connell's barnacle experiment",
+      "MacArthur's warbler experiment",
       "Pisaster starfish removal experiment"
-    ],
-    "correct": 2,
+    ], "correct": 1,
     "explanation": "'Connell's elegant field experiments showed that on the rocky sea coasts of Scotland...' The Pisaster experiment was on the American Pacific Coast."
   },
   {
@@ -3347,11 +3176,10 @@ var allQuestions = [
     "q": "Many parasites have evolved to be <b>host-specific</b>, which means they:",
     "options": [
       "Can parasitise any species of host",
-      "Can parasitise only a single species of host",
+      "Can parasitise only animals",
       "Can parasitise only plants",
-      "Can parasitise only animals"
-    ],
-    "correct": 1,
+      "Can parasitise only a single species of host"
+    ], "correct": 3,
     "explanation": "'Many parasites have evolved to be host-specific (they can parasitise only a single species of host).'"
   },
   {
@@ -3359,12 +3187,11 @@ var allQuestions = [
     "topic": "Parasitism",
     "q": "Host-parasite <b>co-evolution</b> means:",
     "options": [
-      "Both host and parasite evolve independently without affecting each other",
       "If the host evolves resistance mechanisms, the parasite evolves mechanisms to counteract them",
+      "Both host and parasite evolve independently without affecting each other",
       "The host always wins the evolutionary arms race",
       "The parasite always eliminates the host"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "'Both host and the parasite tend to co-evolve; that is, if the host evolves special mechanisms for rejecting or resisting the parasite, the parasite has to evolve mechanisms to counteract and neutralise them.'"
   },
   {
@@ -3373,11 +3200,10 @@ var allQuestions = [
     "q": "Which of the following are special adaptations evolved by parasites?<br>(i) Loss of unnecessary sense organs<br>(ii) Presence of adhesive organs or suckers<br>(iii) Loss of digestive system<br>(iv) High reproductive capacity<br><br>Select the correct option:",
     "options": [
       "(i) and (ii) only",
-      "(i), (ii) and (iii) only",
+      "(i), (ii), (iii) and (iv)",
       "(iii) and (iv) only",
-      "(i), (ii), (iii) and (iv)"
-    ],
-    "correct": 3,
+      "(i), (ii) and (iii) only"
+    ], "correct": 1,
     "explanation": "ALL four: loss of unnecessary sense organs, presence of adhesive organs or suckers, loss of digestive system, and high reproductive capacity."
   },
   {
@@ -3386,11 +3212,10 @@ var allQuestions = [
     "q": "The <b>human liver fluke</b> (a trematode parasite) depends on how many intermediate hosts to complete its life cycle?",
     "options": [
       "One",
-      "Two",
       "Three",
+      "Two",
       "None"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "'The human liver fluke depends on two intermediate hosts (a snail and a fish) to complete its life cycle.' This is a very frequently tested fact."
   },
   {
@@ -3399,11 +3224,10 @@ var allQuestions = [
     "q": "The two intermediate hosts of the human liver fluke are:",
     "options": [
       "Snail and mosquito",
-      "Snail and fish",
+      "Mosquito and fish",
       "Fish and frog",
-      "Mosquito and fish"
-    ],
-    "correct": 1,
+      "Snail and fish"
+    ], "correct": 3,
     "explanation": "'A snail and a fish' are the two intermediate hosts of the human liver fluke."
   },
   {
@@ -3411,12 +3235,11 @@ var allQuestions = [
     "topic": "Parasitism",
     "q": "The malarial parasite needs a <b>vector</b> to spread to other hosts. This vector is:",
     "options": [
-      "Housefly",
-      "Sandfly",
       "Mosquito",
+      "Sandfly",
+      "Housefly",
       "Tsetse fly"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "'The malarial parasite needs a vector (mosquito) to spread to other hosts.'"
   },
   {
@@ -3424,12 +3247,11 @@ var allQuestions = [
     "topic": "Parasitism",
     "q": "Parasites may harm the host by:<br>(i) Reducing survival, growth and reproduction<br>(ii) Reducing population density<br>(iii) Rendering host more vulnerable to predation<br>(iv) Always killing the host<br><br>Which of the above are correct as per NCERT?",
     "options": [
-      "(i), (ii) and (iii) only",
       "(i) and (iv) only",
+      "(i), (ii) and (iii) only",
       "(ii), (iii) and (iv) only",
       "(i), (ii), (iii) and (iv)"
-    ],
-    "correct": 0,
+    ], "correct": 1,
     "explanation": "(i), (ii), and (iii). Statement (iv) is incorrect — parasites may harm but do not ALWAYS kill the host. An ideal parasite thrives without killing."
   },
   {
@@ -3438,11 +3260,10 @@ var allQuestions = [
     "q": "Parasites that feed on the <b>external surface</b> of the host organism are called:",
     "options": [
       "Endoparasites",
-      "Ectoparasites",
       "Hyperparasites",
+      "Ectoparasites",
       "Brood parasites"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "'Parasites that feed on the external surface of the host organism are called ectoparasites.'"
   },
   {
@@ -3450,12 +3271,11 @@ var allQuestions = [
     "topic": "Parasitism",
     "q": "Which of the following are examples of <b>ectoparasites</b> as mentioned in NCERT?<br>(i) Lice on humans<br>(ii) Ticks on dogs<br>(iii) Copepods on marine fish<br>(iv) Liver fluke in humans<br><br>Select the correct option:",
     "options": [
-      "(i), (ii) and (iii) only",
+      "(iii) and (iv) only",
       "(i) and (ii) only",
       "(i), (ii), (iii) and (iv)",
-      "(iii) and (iv) only"
-    ],
-    "correct": 0,
+      "(i), (ii) and (iii) only"
+    ], "correct": 3,
     "explanation": "Lice on humans, ticks on dogs, and copepods on marine fish are all ectoparasites (external surface). Liver fluke is an endoparasite (lives inside the host)."
   },
   {
@@ -3463,12 +3283,11 @@ var allQuestions = [
     "topic": "Parasitism",
     "q": "<b>Cuscuta</b> is a parasitic plant that has lost its:",
     "options": [
-      "Chlorophyll only",
-      "Leaves only",
       "Both chlorophyll and leaves",
+      "Leaves only",
+      "Chlorophyll only",
       "Roots and stems"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "'Cuscuta, a parasitic plant...has lost its chlorophyll and leaves in the course of evolution.' Students often mention only chlorophyll — it has lost BOTH."
   },
   {
@@ -3504,10 +3323,9 @@ var allQuestions = [
     "options": [
       "(i) and (ii) only",
       "(i), (ii) and (iii) only",
-      "(iii) and (iv) only",
-      "(i), (ii), (iii) and (iv)"
-    ],
-    "correct": 3,
+      "(i), (ii), (iii) and (iv)",
+      "(iii) and (iv) only"
+    ], "correct": 2,
     "explanation": "'Endoparasites are those that live inside the host body at different sites (liver, kidney, lungs, red blood cells, etc.).' All four are mentioned."
   },
   {
@@ -3516,11 +3334,10 @@ var allQuestions = [
     "q": "The life cycles of <b>endoparasites</b> are more complex because of:",
     "options": [
       "Their large body size",
-      "Their extreme specialisation",
+      "Their dependence on sunlight",
       "Their high mobility",
-      "Their dependence on sunlight"
-    ],
-    "correct": 1,
+      "Their extreme specialisation"
+    ], "correct": 3,
     "explanation": "'The life cycles of endoparasites are more complex because of their extreme specialisation.'"
   },
   {
@@ -3528,12 +3345,11 @@ var allQuestions = [
     "topic": "Parasitism",
     "q": "The morphological and anatomical features of endoparasites are:",
     "options": [
-      "Highly complex and elaborate",
       "Greatly simplified while emphasising reproductive potential",
+      "Highly complex and elaborate",
       "Identical to free-living organisms",
       "Focused on locomotion and sensory perception"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "'Their morphological and anatomical features are greatly simplified while emphasising their reproductive potential.'"
   },
   {
@@ -3568,11 +3384,10 @@ var allQuestions = [
     "q": "The eggs of the parasitic bird resemble the host's eggs to reduce the chances of:",
     "options": [
       "Predation by other birds",
-      "The host bird detecting and ejecting the foreign eggs",
+      "Competition with the host's chicks",
       "The eggs being damaged by weather",
-      "Competition with the host's chicks"
-    ],
-    "correct": 1,
+      "The host bird detecting and ejecting the foreign eggs"
+    ], "correct": 3,
     "explanation": "'To reduce the chances of the host bird detecting the foreign eggs and ejecting them from the nest.'"
   },
   {
@@ -3580,12 +3395,11 @@ var allQuestions = [
     "topic": "Parasitism",
     "q": "An example of brood parasitism mentioned in NCERT is:",
     "options": [
-      "Eagle and sparrow",
       "Cuckoo (koel) and crow",
+      "Eagle and sparrow",
       "Parrot and pigeon",
       "Owl and robin"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "'Try to follow the movements of the cuckoo (koel) and the crow in your neighborhood park during the breeding season.'"
   },
   {
@@ -3594,11 +3408,10 @@ var allQuestions = [
     "q": "The breeding season for observing brood parasitism between cuckoo and crow is:",
     "options": [
       "Autumn to winter",
-      "Winter to spring",
       "Spring to summer",
+      "Winter to spring",
       "Summer to autumn"
-    ],
-    "correct": 2,
+    ], "correct": 1,
     "explanation": "'Follow the movements of the cuckoo (koel) and the crow...during the breeding season (spring to summer).'"
   },
   {
@@ -3632,12 +3445,11 @@ var allQuestions = [
     "topic": "Parasitism",
     "q": "Match the following:<br>(a) Ectoparasite on humans — (i) Copepods<br>(b) Ectoparasite on dogs — (ii) Cuscuta<br>(c) Ectoparasite on marine fish — (iii) Lice<br>(d) Parasitic plant — (iv) Ticks<br><br>Choose the correct match:",
     "options": [
-      "(a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)",
+      "(a)-(iii), (b)-(i), (c)-(iv), (d)-(ii)",
       "(a)-(iv), (b)-(iii), (c)-(ii), (d)-(i)",
       "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)",
-      "(a)-(iii), (b)-(i), (c)-(iv), (d)-(ii)"
-    ],
-    "correct": 0,
+      "(a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)"
+    ], "correct": 3,
     "explanation": "Ectoparasite on humans = lice (iii); on dogs = ticks (iv); on marine fish = copepods (i); parasitic plant = Cuscuta (ii)."
   },
   {
@@ -3645,12 +3457,11 @@ var allQuestions = [
     "topic": "Parasitism",
     "q": "Which of the following is an example of an <b>intermediate host</b> in the life cycle of the human liver fluke?",
     "options": [
-      "Mosquito",
       "Snail",
+      "Mosquito",
       "Dog",
       "Crow"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "The human liver fluke depends on 'two intermediate hosts (a snail and a fish).' Snail is one of the intermediate hosts."
   },
   {
@@ -3658,12 +3469,11 @@ var allQuestions = [
     "topic": "Parasitism",
     "q": "Consider the following:<br>(i) Loss of digestive system<br>(ii) Development of strong locomotory organs<br>(iii) High reproductive capacity<br>(iv) Presence of adhesive organs or suckers<br><br>Which of the above are adaptations of parasites?",
     "options": [
-      "(i), (iii) and (iv) only",
       "(i), (ii) and (iii) only",
+      "(i), (iii) and (iv) only",
       "(ii), (iii) and (iv) only",
       "(i), (ii), (iii) and (iv)"
-    ],
-    "correct": 0,
+    ], "correct": 1,
     "explanation": "Loss of sense organs, adhesive organs/suckers, loss of digestive system, and high reproductive capacity. Development of strong locomotory organs is NOT a parasite adaptation — parasites generally have reduced locomotion."
   },
   {
@@ -3685,11 +3495,10 @@ var allQuestions = [
     "q": "The human liver fluke belongs to the class:",
     "options": [
       "Cestoda",
-      "Trematoda",
       "Nematoda",
+      "Trematoda",
       "Insecta"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "'The human liver fluke (a trematode parasite)' — it belongs to class Trematoda."
   },
   {
@@ -3698,11 +3507,10 @@ var allQuestions = [
     "q": "Which of the following is the reason why <b>female mosquito is NOT considered a parasite</b>?",
     "options": [
       "It does not feed on blood",
-      "It feeds on blood only temporarily and does not live on or in the host",
+      "It is a predator, not a parasite",
       "It only feeds on plant sap",
-      "It is a predator, not a parasite"
-    ],
-    "correct": 1,
+      "It feeds on blood only temporarily and does not live on or in the host"
+    ], "correct": 3,
     "explanation": "The female mosquito feeds on blood temporarily for egg development but does not live on or in the host permanently. A true parasite has a sustained association with the host. NCERT poses this as a thought question."
   },
   {
@@ -3710,12 +3518,11 @@ var allQuestions = [
     "topic": "Parasitism",
     "q": "Consider the following:<br>Statement I: An ideal parasite should thrive within the host without harming it.<br>Statement II: Natural selection has led to the evolution of totally harmless parasites.<br><br>Choose the correct option:",
     "options": [
-      "Both are correct",
       "Only Statement I is correct",
+      "Both are correct",
       "Only Statement II is correct",
       "Both are incorrect"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "Statement I is presented as a concept. Statement II is incorrect — NCERT poses the question 'why didn't natural selection lead to the evolution of such totally harmless parasites?' implying it hasn't happened."
   },
   {
@@ -3724,11 +3531,10 @@ var allQuestions = [
     "q": "In <b>commensalism</b>, the interaction between two species is such that:",
     "options": [
       "Both species benefit",
-      "One species benefits and the other is harmed",
       "One species benefits and the other is neither harmed nor benefited",
+      "One species benefits and the other is harmed",
       "Both species are harmed"
-    ],
-    "correct": 2,
+    ], "correct": 1,
     "explanation": "'This is the interaction in which one species benefits and the other is neither harmed nor benefited.'"
   },
   {
@@ -3762,12 +3568,11 @@ var allQuestions = [
     "topic": "Commensalism",
     "q": "The <b>cattle egret and grazing cattle</b> association is a classic example of:",
     "options": [
-      "Mutualism",
       "Commensalism",
+      "Mutualism",
       "Parasitism",
       "Amensalism"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "NCERT describes the cattle egret and grazing cattle as 'a classic example of commensalism.' Egrets benefit by catching insects flushed out by cattle movement."
   },
   {
@@ -3789,11 +3594,10 @@ var allQuestions = [
     "q": "In the interaction between <b>sea anemone and clown fish</b>:",
     "options": [
       "Both benefit equally (mutualism)",
-      "The clown fish gets protection from predators while the anemone does not appear to benefit",
       "The sea anemone benefits while the clown fish is harmed",
+      "The clown fish gets protection from predators while the anemone does not appear to benefit",
       "Both are harmed by each other"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "'The fish gets protection from predators which stay away from the stinging tentacles. The anemone does not appear to derive any benefit by hosting the clown fish.' This is commensalism."
   },
   {
@@ -3802,11 +3606,10 @@ var allQuestions = [
     "q": "The clown fish living among sea anemone's stinging tentacles gets protection from:",
     "options": [
       "Disease-causing pathogens",
-      "Predators which stay away from the stinging tentacles",
+      "Water currents",
       "Extreme water temperatures",
-      "Water currents"
-    ],
-    "correct": 1,
+      "Predators which stay away from the stinging tentacles"
+    ], "correct": 3,
     "explanation": "'The fish gets protection from predators which stay away from the stinging tentacles.'"
   },
   {
@@ -3827,12 +3630,11 @@ var allQuestions = [
     "topic": "Commensalism",
     "q": "Consider the following examples of commensalism from NCERT:<br>(i) Orchid on mango branch<br>(ii) Barnacles on whale<br>(iii) Cattle egret and grazing cattle<br>(iv) Sea anemone and clown fish<br><br>Which of the above are correct examples?",
     "options": [
-      "(i) and (ii) only",
+      "(i), (ii), (iii) and (iv)",
       "(i), (ii) and (iii) only",
       "(iii) and (iv) only",
-      "(i), (ii), (iii) and (iv)"
-    ],
-    "correct": 3,
+      "(i) and (ii) only"
+    ], "correct": 0,
     "explanation": "All four are examples of commensalism as described. In each case, one species benefits while the other is neither harmed nor benefited."
   },
   {
@@ -3841,11 +3643,10 @@ var allQuestions = [
     "q": "Consider the following:<br>Statement I: Ectoparasites live inside the host body.<br>Statement II: Endoparasites feed on the external surface of the host.<br><br>Choose the correct option:",
     "options": [
       "Both are correct",
-      "Only Statement I is correct",
+      "Both are incorrect",
       "Only Statement II is correct",
-      "Both are incorrect"
-    ],
-    "correct": 3,
+      "Only Statement I is correct"
+    ], "correct": 1,
     "explanation": "Both statements are incorrect — they are swapped. ECTOPARASITES feed on the EXTERNAL surface. ENDOPARASITES live INSIDE the host body. This is a very common NEET trap."
   },
   {
@@ -3853,12 +3654,11 @@ var allQuestions = [
     "topic": "Commensalism",
     "q": "Match the following commensal relationships:<br>(a) Orchid — (i) Clown fish<br>(b) Barnacles — (ii) Cattle<br>(c) Cattle egret — (iii) Whale<br>(d) Sea anemone — (iv) Mango tree<br><br>Choose the correct match:",
     "options": [
-      "(a)-(iv), (b)-(iii), (c)-(ii), (d)-(i)",
-      "(a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)",
       "(a)-(iv), (b)-(ii), (c)-(iii), (d)-(i)",
+      "(a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)",
+      "(a)-(iv), (b)-(iii), (c)-(ii), (d)-(i)",
       "(a)-(i), (b)-(iii), (c)-(ii), (d)-(iv)"
-    ],
-    "correct": 0,
+    ], "correct": 2,
     "explanation": "Orchid — mango tree (iv); Barnacles — whale (iii); Cattle egret — cattle (ii); Sea anemone — clown fish (i)."
   },
   {
@@ -3894,10 +3694,9 @@ var allQuestions = [
     "options": [
       "Human liver fluke — one intermediate host (snail)",
       "Malarial parasite — two intermediate hosts (snail and fish)",
-      "Human liver fluke — two intermediate hosts (snail and fish)",
-      "Malarial parasite — two intermediate hosts (mosquito and snail)"
-    ],
-    "correct": 2,
+      "Malarial parasite — two intermediate hosts (mosquito and snail)",
+      "Human liver fluke — two intermediate hosts (snail and fish)"
+    ], "correct": 3,
     "explanation": "Human liver fluke has TWO intermediate hosts — a snail and a fish. Malarial parasite needs a vector (mosquito), not two intermediate hosts."
   },
   {
@@ -3918,12 +3717,11 @@ var allQuestions = [
     "topic": "Parasitism",
     "q": "Cuscuta derives its nutrition from:",
     "options": [
-      "Soil through its own roots",
-      "Photosynthesis using its own chlorophyll",
       "The host plant which it parasitises",
+      "Photosynthesis using its own chlorophyll",
+      "Soil through its own roots",
       "Atmospheric nitrogen fixation"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "'It derives its nutrition from the host plant which it parasitises.' Cuscuta has lost its chlorophyll and leaves."
   },
   {
@@ -3945,11 +3743,10 @@ var allQuestions = [
     "q": "Mutualism is an interaction that confers:",
     "options": [
       "Benefits to one species and harm to the other",
-      "Benefits to both interacting species",
       "Harm to both interacting species",
+      "Benefits to both interacting species",
       "Benefit to one and no effect on the other"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "'This interaction confers benefits on both the interacting species.' Mutualism is a +/+ interaction."
   },
   {
@@ -3958,11 +3755,10 @@ var allQuestions = [
     "q": "<b>Lichens</b> represent an intimate mutualistic relationship between:",
     "options": [
       "A fungus and the roots of higher plants",
-      "A fungus and photosynthesising algae or cyanobacteria",
+      "An alga and a bryophyte",
       "Two species of algae",
-      "An alga and a bryophyte"
-    ],
-    "correct": 1,
+      "A fungus and photosynthesising algae or cyanobacteria"
+    ], "correct": 3,
     "explanation": "'Lichens represent an intimate mutualistic relationship between a fungus and photosynthesising algae or cyanobacteria.'"
   },
   {
@@ -3970,12 +3766,11 @@ var allQuestions = [
     "topic": "Mutualism",
     "q": "<b>Mycorrhizae</b> are associations between:",
     "options": [
-      "Fungi and photosynthesising algae",
       "Fungi and the roots of higher plants",
+      "Fungi and photosynthesising algae",
       "Fungi and the stems of higher plants",
       "Two species of fungi"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "'The mycorrhizae are associations between fungi and the roots of higher plants.'"
   },
   {
@@ -3997,11 +3792,10 @@ var allQuestions = [
     "q": "In mycorrhizal associations, the plant provides the fungi with:",
     "options": [
       "Water and minerals",
-      "Energy-yielding carbohydrates",
       "Nitrogen compounds",
+      "Energy-yielding carbohydrates",
       "Lipids and proteins"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "'The plant in turn provides the fungi with energy-yielding carbohydrates.'"
   },
   {
@@ -4023,11 +3817,10 @@ var allQuestions = [
     "q": "Plants offer rewards to pollinators in the form of:",
     "options": [
       "Fruits and seeds",
-      "Pollen and nectar",
+      "Roots and tubers",
       "Leaves and bark",
-      "Roots and tubers"
-    ],
-    "correct": 1,
+      "Pollen and nectar"
+    ], "correct": 3,
     "explanation": "'Plants offer rewards or fees in the form of pollen and nectar for pollinators and juicy and nutritious fruits for seed dispersers.'"
   },
   {
@@ -4035,12 +3828,11 @@ var allQuestions = [
     "topic": "Mutualism",
     "q": "Plants offer rewards to <b>seed dispersers</b> in the form of:",
     "options": [
-      "Pollen and nectar",
       "Juicy and nutritious fruits",
+      "Pollen and nectar",
       "Thorns and spines",
       "Resin and latex"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "'Juicy and nutritious fruits for seed dispersers.' Pollen and nectar are for pollinators, not seed dispersers."
   },
   {
@@ -4062,11 +3854,10 @@ var allQuestions = [
     "q": "In many species of <b>fig trees</b>, there is a tight one-to-one relationship with:",
     "options": [
       "A species of butterfly",
-      "A species of wasp",
       "A species of beetle",
+      "A species of wasp",
       "A species of ant"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "'In many species of fig trees, there is a tight one-to-one relationship with the pollinator species of wasp.'"
   },
   {
@@ -4075,11 +3866,10 @@ var allQuestions = [
     "q": "A given fig species can be pollinated only by:",
     "options": [
       "Any wasp species",
-      "Its 'partner' wasp species and no other species",
+      "Any insect visiting the flower",
       "Wind pollination",
-      "Any insect visiting the flower"
-    ],
-    "correct": 1,
+      "Its 'partner' wasp species and no other species"
+    ], "correct": 3,
     "explanation": "'A given fig species can be pollinated only by its partner wasp species and no other species.'"
   },
   {
@@ -4087,12 +3877,11 @@ var allQuestions = [
     "topic": "Mutualism",
     "q": "The female wasp uses the fig fruit as:",
     "options": [
-      "Only a food source for adults",
       "An oviposition (egg-laying) site and uses developing seeds for nourishing its larvae",
+      "Only a food source for adults",
       "A shelter from predators only",
       "A site for pupation only"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "'The female wasp uses the fruit not only as an oviposition (egg-laying) site but uses the developing seeds within the fruit for nourishing its larvae.'"
   },
   {
@@ -4114,11 +3903,10 @@ var allQuestions = [
     "q": "In return for the favour of pollination, the fig offers the wasp:",
     "options": [
       "Nectar and pollen",
-      "Some of its developing seeds as food for wasp larvae",
       "A permanent shelter",
+      "Some of its developing seeds as food for wasp larvae",
       "Protection from predators"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "'In return for the favour of pollination the fig offers the wasp some of its developing seeds, as food for the developing wasp larvae.'"
   },
   {
@@ -4127,11 +3915,10 @@ var allQuestions = [
     "q": "Consider the following statements about fig-wasp mutualism:<br>(i) The male wasp uses the fig fruit for oviposition.<br>(ii) A given fig species can be pollinated by any wasp species.<br>(iii) The fig offers some of its developing seeds to the wasp.<br>(iv) The wasp pollinates the fig while searching for egg-laying sites.<br><br>Which are correct?",
     "options": [
       "(i) and (ii) only",
-      "(iii) and (iv) only",
+      "(i), (ii), (iii) and (iv)",
       "(i), (ii) and (iii) only",
-      "(i), (ii), (iii) and (iv)"
-    ],
-    "correct": 1,
+      "(iii) and (iv) only"
+    ], "correct": 3,
     "explanation": "Statement (i) is incorrect — the FEMALE wasp (not male) uses the fruit for oviposition. Statement (ii) is incorrect — only its specific partner wasp can pollinate a given fig species. Statements (iii) and (iv) are correct."
   },
   {
@@ -4139,12 +3926,11 @@ var allQuestions = [
     "topic": "Mutualism",
     "q": "Orchids show a bewildering diversity of floral patterns that have evolved to attract:",
     "options": [
-      "Butterflies and moths",
       "The right pollinator insect (bees and bumblebees)",
+      "Butterflies and moths",
       "Birds and bats",
       "Wind currents for pollination"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "'Orchids show a bewildering diversity of floral patterns many of which have evolved to attract the right pollinator insect (bees and bumblebees).'"
   },
   {
@@ -4166,11 +3952,10 @@ var allQuestions = [
     "q": "In <b>Ophrys</b>, one petal of the flower bears an uncanny resemblance to:",
     "options": [
       "The male bee in size, colour and markings",
-      "The female bee in size, colour and markings",
       "A wasp in shape and colour",
+      "The female bee in size, colour and markings",
       "A butterfly in wing pattern"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "'One petal of its flower bears an uncanny resemblance to the female of the bee in size, colour and markings.'"
   },
   {
@@ -4179,11 +3964,10 @@ var allQuestions = [
     "q": "In Ophrys pollination, the <b>male bee</b>:",
     "options": [
       "Feeds on the nectar of the orchid",
-      "Is attracted to the flower petal resembling a female bee and pseudocopulates with it",
+      "Collects pollen deliberately for its hive",
       "Lays eggs on the orchid flower",
-      "Collects pollen deliberately for its hive"
-    ],
-    "correct": 1,
+      "Is attracted to the flower petal resembling a female bee and pseudocopulates with it"
+    ], "correct": 3,
     "explanation": "'The male bee is attracted to what it perceives as a female, pseudocopulates with the flower, and during that process is dusted with pollen from the flower.'"
   },
   {
@@ -4191,12 +3975,11 @@ var allQuestions = [
     "topic": "Mutualism",
     "q": "During '<b>pseudocopulation</b>' with the Ophrys flower, the male bee:",
     "options": [
-      "Deposits pollen on the flower",
       "Is dusted with pollen from the flower",
+      "Deposits pollen on the flower",
       "Eats the flower petals",
       "Damages the ovary of the flower"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "'Pseudocopulates with the flower, and during that process is dusted with pollen from the flower.'"
   },
   {
@@ -4231,11 +4014,10 @@ var allQuestions = [
     "q": "In the co-evolution of Ophrys and its bee pollinator, if the <b>female bee's colour patterns change</b> during evolution:",
     "options": [
       "Pollination will be enhanced",
-      "Pollination success will be reduced unless the orchid co-evolves to maintain resemblance",
       "The orchid will switch to wind pollination",
+      "Pollination success will be reduced unless the orchid co-evolves to maintain resemblance",
       "The male bee will adapt immediately"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "'If the female bee's colour patterns change even slightly for any reason during evolution, pollination success will be reduced unless the orchid flower co-evolves to maintain the resemblance of its petal to the female bee.'"
   },
   {
@@ -4256,12 +4038,11 @@ var allQuestions = [
     "topic": "Mutualism",
     "q": "The most spectacular and evolutionarily fascinating examples of mutualism are found in:",
     "options": [
-      "Animal-animal relationships",
       "Plant-animal relationships",
+      "Animal-animal relationships",
       "Microbe-microbe relationships",
       "Plant-plant relationships"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "'The most spectacular and evolutionarily fascinating examples of mutualism are found in plant-animal relationships.'"
   },
   {
@@ -4282,12 +4063,11 @@ var allQuestions = [
     "topic": "Mutualism",
     "q": "Match the following mutualistic associations:<br>(a) Lichens — (i) Fungi and roots of higher plants<br>(b) Mycorrhizae — (ii) Fungus and algae/cyanobacteria<br>(c) Fig-wasp — (iii) Orchid and bee (sexual deceit)<br>(d) Ophrys — (iv) Tight one-to-one pollination relationship<br><br>Choose the correct match:",
     "options": [
-      "(a)-(ii), (b)-(i), (c)-(iv), (d)-(iii)",
-      "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)",
       "(a)-(ii), (b)-(iv), (c)-(i), (d)-(iii)",
+      "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)",
+      "(a)-(ii), (b)-(i), (c)-(iv), (d)-(iii)",
       "(a)-(iii), (b)-(i), (c)-(ii), (d)-(iv)"
-    ],
-    "correct": 0,
+    ], "correct": 2,
     "explanation": "Lichens = fungus and algae/cyanobacteria (ii); Mycorrhizae = fungi and roots (i); Fig-wasp = tight one-to-one pollination (iv); Ophrys = sexual deceit by orchid with bee (iii)."
   },
   {
@@ -4296,11 +4076,10 @@ var allQuestions = [
     "q": "<b>Co-evolution</b> in plant-pollinator interactions refers to:",
     "options": [
       "Plants and pollinators evolving independently of each other",
-      "The evolution of the flower and its pollinator species being tightly linked with one another",
+      "Only the pollinator evolving while the plant remains unchanged",
       "Only the plant evolving while the pollinator remains unchanged",
-      "Only the pollinator evolving while the plant remains unchanged"
-    ],
-    "correct": 1,
+      "The evolution of the flower and its pollinator species being tightly linked with one another"
+    ], "correct": 3,
     "explanation": "'The evolutions of the flower and its pollinator species are tightly linked with one another.'"
   },
   {
@@ -4308,12 +4087,11 @@ var allQuestions = [
     "topic": "Mutualism",
     "q": "Which of the following is <b>NOT</b> an example of mutualism?",
     "options": [
-      "Lichens",
+      "Barnacles on whale",
       "Mycorrhizae",
       "Fig-wasp relationship",
-      "Barnacles on whale"
-    ],
-    "correct": 3,
+      "Lichens"
+    ], "correct": 0,
     "explanation": "Barnacles on whale is an example of COMMENSALISM (barnacles benefit, whale unaffected). Lichens, mycorrhizae, and fig-wasp are all examples of mutualism."
   },
   {
@@ -4321,12 +4099,11 @@ var allQuestions = [
     "topic": "Mutualism",
     "q": "Consider the following statements:<br>(i) Lichens are mutualistic associations between fungus and algae/cyanobacteria.<br>(ii) Mycorrhizae are mutualistic associations between two species of fungi.<br>(iii) In mycorrhizae, fungi provide carbohydrates to the plant.<br><br>Which of the above are correct?",
     "options": [
-      "(i) only",
       "(i) and (ii) only",
+      "(i) only",
       "(ii) and (iii) only",
       "(i), (ii) and (iii)"
-    ],
-    "correct": 0,
+    ], "correct": 1,
     "explanation": "Only (i) is correct. (ii) is incorrect — mycorrhizae are between fungi and roots of higher plants (not two fungi). (iii) is incorrect — the PLANT provides carbohydrates to the FUNGI (not vice versa)."
   },
   {
@@ -4348,11 +4125,10 @@ var allQuestions = [
     "q": "In the fig-wasp mutualism, which of the following uses the fig fruit for <b>oviposition</b>?",
     "options": [
       "Male wasp",
-      "Female wasp",
       "Both male and female wasps",
+      "Female wasp",
       "Neither male nor female wasp"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "'The female wasp uses the fruit not only as an oviposition (egg-laying) site...' Only the female wasp lays eggs."
   },
   {
@@ -4361,11 +4137,10 @@ var allQuestions = [
     "q": "Which of the following orchids does <b>NOT</b> offer any reward to its pollinator?",
     "options": [
       "All orchids offer rewards",
-      "Mediterranean orchid Ophrys",
+      "Orchids pollinated by bumblebees",
       "Orchids pollinated by bees",
-      "Orchids pollinated by bumblebees"
-    ],
-    "correct": 1,
+      "Mediterranean orchid Ophrys"
+    ], "correct": 3,
     "explanation": "'Not all orchids offer rewards. The Mediterranean orchid Ophrys employs sexual deceit to get pollination done.' Ophrys does not offer any reward."
   },
   {
@@ -4373,12 +4148,11 @@ var allQuestions = [
     "topic": "Summary - Revision",
     "q": "As per the NCERT summary, ecology is concerned with how many levels of biological organisation?",
     "options": [
-      "Three",
       "Four",
+      "Three",
       "Five",
       "Six"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "NCERT summary states: 'It is concerned with four levels of biological organisation — organisms, populations, communities and biomes.'"
   },
   {
@@ -4387,11 +4161,10 @@ var allQuestions = [
     "q": "As per the NCERT summary, evolutionary changes through natural selection take place at:",
     "options": [
       "Individual level",
-      "Community level",
       "Population level",
+      "Community level",
       "Ecosystem level"
-    ],
-    "correct": 2,
+    ], "correct": 1,
     "explanation": "NCERT summary: 'Evolutionary changes through natural selection take place at the population level.'"
   },
   {
@@ -4399,12 +4172,11 @@ var allQuestions = [
     "topic": "Summary - Revision",
     "q": "The shape of the age pyramid indicates whether a population is:",
     "options": [
-      "Stationary, growing or declining",
-      "Increasing, fluctuating or stable",
       "Young, mature or old",
+      "Increasing, fluctuating or stable",
+      "Stationary, growing or declining",
       "Large, medium or small"
-    ],
-    "correct": 0,
+    ], "correct": 2,
     "explanation": "NCERT summary uses the terms 'stationary, growing or declining.' Note: the summary uses 'stationary' instead of 'stable' used earlier in the chapter — both terms should be known."
   },
   {
@@ -4413,11 +4185,10 @@ var allQuestions = [
     "q": "According to the NCERT summary, the intrinsic rate of natural increase (r) is a measure of:",
     "options": [
       "The maximum population size",
-      "The inherent potential of a population to grow",
+      "The death rate of the population",
       "The carrying capacity of the environment",
-      "The death rate of the population"
-    ],
-    "correct": 1,
+      "The inherent potential of a population to grow"
+    ], "correct": 3,
     "explanation": "NCERT summary states: 'The intrinsic rate of natural increase (r) is a measure of the inherent potential of a population to grow.'"
   },
   {
@@ -4425,12 +4196,11 @@ var allQuestions = [
     "topic": "Summary - Revision",
     "q": "According to the NCERT summary, when resources are unlimited the growth is usually:",
     "options": [
-      "Logistic",
       "Exponential",
+      "Logistic",
       "Linear",
       "Static"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "NCERT summary: 'When resources are unlimited, the growth is usually exponential but when resources become progressively limiting, the growth pattern turns logistic.'"
   },
   {
@@ -4439,11 +4209,10 @@ var allQuestions = [
     "q": "According to the NCERT summary, growth is ultimately limited by:",
     "options": [
       "The intrinsic rate of increase",
-      "The birth rate",
       "The carrying capacity of the environment",
+      "The birth rate",
       "The immigration rate"
-    ],
-    "correct": 2,
+    ], "correct": 1,
     "explanation": "NCERT summary: 'In either case, growth is ultimately limited by the carrying capacity of the environment.'"
   },
   {
@@ -4452,11 +4221,10 @@ var allQuestions = [
     "q": "Consider the following interactions and their outcomes as per NCERT summary:<br>(i) Competition — both species suffer<br>(ii) Predation — both species benefit<br>(iii) Commensalism — one benefits, other unaffected<br>(iv) Amensalism — one is harmed, other unaffected<br><br>Which are correctly matched?",
     "options": [
       "(i), (ii) and (iii) only",
-      "(i), (iii) and (iv) only",
       "(ii), (iii) and (iv) only",
+      "(i), (iii) and (iv) only",
       "(i), (ii), (iii) and (iv)"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "Statement (ii) is incorrect — in predation, one benefits and the other SUFFERS (not both benefit). Statements (i), (iii) and (iv) are correctly matched."
   },
   {
@@ -4465,11 +4233,10 @@ var allQuestions = [
     "q": "According to the NCERT summary, predation is a very important process through which:",
     "options": [
       "Species diversity is reduced",
-      "Trophic energy transfer is facilitated",
+      "Carrying capacity is determined",
       "Competition is increased among prey",
-      "Carrying capacity is determined"
-    ],
-    "correct": 1,
+      "Trophic energy transfer is facilitated"
+    ], "correct": 3,
     "explanation": "NCERT summary: 'Predation is a very important process through which trophic energy transfer is facilitated and some predators help in controlling their prey populations.'"
   },
   {
@@ -4477,12 +4244,11 @@ var allQuestions = [
     "topic": "Summary - Revision",
     "q": "According to the NCERT summary, some of the most fascinating cases of mutualism in nature are seen in:",
     "options": [
-      "Animal-animal interactions",
-      "Microbe-microbe interactions",
       "Plant-pollinator interactions",
+      "Microbe-microbe interactions",
+      "Animal-animal interactions",
       "Predator-prey interactions"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "NCERT summary: 'Some of the most fascinating cases of mutualism in nature are seen in plant-pollinator interactions.'"
   },
   {
@@ -4504,11 +4270,10 @@ var allQuestions = [
     "q": "According to the NCERT summary, in competition it is presumed that:",
     "options": [
       "Both species co-exist indefinitely",
-      "The superior competitor eliminates the inferior one",
       "Both species go extinct",
+      "The superior competitor eliminates the inferior one",
       "Neither species is affected"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "NCERT summary: 'In competition, it is presumed that the superior competitor eliminates the inferior one (the Competitive Exclusion Principle).'"
   },
   {
@@ -4518,10 +4283,9 @@ var allQuestions = [
     "options": [
       "Extinction",
       "Competition",
-      "Co-existence",
-      "Emigration"
-    ],
-    "correct": 2,
+      "Emigration",
+      "Co-existence"
+    ], "correct": 3,
     "explanation": "NCERT summary: 'many closely related species have evolved various mechanisms which facilitate their co-existence.'"
   },
   {
@@ -4542,12 +4306,11 @@ var allQuestions = [
     "topic": "Mutualism",
     "q": "Which of the following is an example of <b>sexual deceit</b> in pollination?",
     "options": [
-      "Fig-wasp mutualism",
       "Orchid Ophrys and bee",
+      "Fig-wasp mutualism",
       "Mycorrhizal association",
       "Lichen formation"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "'The Mediterranean orchid Ophrys employs sexual deceit to get pollination done by a species of bee.' No other example of sexual deceit is mentioned."
   },
   {
@@ -4569,11 +4332,10 @@ var allQuestions = [
     "q": "A few organisms can tolerate and thrive in a wide range of temperatures. Such organisms are called:",
     "options": [
       "Stenothermal",
-      "Eurythermal",
       "Thermophilic",
+      "Eurythermal",
       "Cryophilic"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "'Organisms that can tolerate and thrive in a wide range of temperatures are called eurythermal.' Organisms restricted to a narrow range of temperatures are called stenothermal."
   },
   {
@@ -4596,10 +4358,9 @@ var allQuestions = [
     "options": [
       "Deep-sea fishes",
       "Chemosynthetic bacteria",
-      "Photosynthetic organisms (plants/algae)",
-      "Detritivores"
-    ],
-    "correct": 2,
+      "Detritivores",
+      "Photosynthetic organisms (plants/algae)"
+    ], "correct": 3,
     "explanation": "'Many plants are adapted to low light conditions, and many others (the so-called sun plants) fail to survive.' At great ocean depths, light cannot penetrate — so photosynthetic organisms cannot survive there. Deep-sea fishes and chemosynthetic bacteria do not depend on light."
   },
   {
@@ -4607,12 +4368,11 @@ var allQuestions = [
     "topic": "Introduction - Organisms and Population",
     "q": "Which of the following correctly describes the role of water in the distribution of organisms?",
     "options": [
-      "Water affects organisms only through rainfall patterns",
       "The productivity and distribution of plants is largely determined by water availability; saline water affects osmoregulation",
+      "Water affects organisms only through rainfall patterns",
       "Water affects only aquatic organisms",
       "Water availability has no bearing on species distribution in terrestrial habitats"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "'The productivity and distribution of plants is largely determined by water availability.' It also notes that aquatic organisms face challenges with salinity (e.g., freshwater vs marine organisms cannot easily exchange). Both terrestrial and aquatic organisms are affected by water."
   },
   {
@@ -4621,11 +4381,10 @@ var allQuestions = [
     "q": "An organism that is restricted to a narrow range of temperature is called:",
     "options": [
       "Eurythermal",
-      "Euryhaline",
       "Stenothermal",
+      "Euryhaline",
       "Stenohaline"
-    ],
-    "correct": 2,
+    ], "correct": 1,
     "explanation": "Stenothermal as organisms 'restricted to a narrow range of temperature.' Eurythermal organisms can tolerate wide temperature ranges. Euryhaline/stenohaline refer to salinity tolerance."
   },
   {
@@ -4698,12 +4457,11 @@ var allQuestions = [
     "topic": "Life History Variation",
     "q": "The trade-off between the number of offspring and parental care is best illustrated by which pair?",
     "options": [
-      "Oyster produces millions of eggs (no parental care) vs elephant (1–2 offspring with extensive care)",
-      "Frog produces eggs vs bird produces eggs",
       "Bacteria vs virus reproduction",
+      "Frog produces eggs vs bird produces eggs",
+      "Oyster produces millions of eggs (no parental care) vs elephant (1–2 offspring with extensive care)",
       "Annual vs perennial plants"
-    ],
-    "correct": 0,
+    ], "correct": 2,
     "explanation": "NCERT emphasizes the trade-off: oysters produce millions of eggs with no parental investment (high r-strategy), while elephants produce 1–2 offspring with extensive parental care (K-strategy). This illustrates the inverse relationship between offspring number and parental investment."
   },
   {
@@ -4712,11 +4470,10 @@ var allQuestions = [
     "q": "In species that produce a large number of small-sized offspring, the parental investment per offspring is:",
     "options": [
       "High, ensuring low mortality",
-      "Low, resulting in high mortality of offspring",
+      "Zero, as offspring are all self-sufficient",
       "Medium, regulated by population density",
-      "Zero, as offspring are all self-sufficient"
-    ],
-    "correct": 1,
+      "Low, resulting in high mortality of offspring"
+    ], "correct": 3,
     "explanation": "NCERT discusses how life history evolution involves trade-offs. Species producing many small offspring (r-strategists like fish, frogs, oysters) invest little per offspring — leading to high mortality. Few survive to reproduce. The opposite strategy (K-strategists) produces fewer, well-nourished offspring with better survival."
   },
   {
@@ -4724,12 +4481,11 @@ var allQuestions = [
     "topic": "Population Interactions",
     "q": "Amensalism is a type of interaction where:",
     "options": [
-      "Both species benefit from the interaction",
       "One species is harmed while the other is unaffected",
+      "Both species benefit from the interaction",
       "Both species are harmed",
       "One species benefits while the other is unaffected"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "Amensalism involves two species where one is harmed and the other is neither harmed nor benefited. Example: Penicillium producing penicillin harms bacteria (the bacterium is harmed; the fungus is unaffected). In the NCERT table, amensalism is shown as (–, 0) — one minus, one neutral."
   },
   {
@@ -4738,11 +4494,10 @@ var allQuestions = [
     "q": "In NCERT's table of population interactions, which symbol pair correctly represents <b>mutualism</b>?",
     "options": [
       "(+, –)",
-      "(–, –)",
+      "(+, +)",
       "(+, 0)",
-      "(+, +)"
-    ],
-    "correct": 3,
+      "(–, –)"
+    ], "correct": 1,
     "explanation": "'S interaction table: Mutualism = (+, +) — both species benefit. Predation/Parasitism = (+, –) — one benefits, one harmed. Competition = (–, –) — both harmed. Commensalism = (+, 0) — one benefits, other unaffected."
   },
   {
@@ -4751,11 +4506,10 @@ var allQuestions = [
     "q": "Which of the following is an example of a plant using <b>chemical defence</b> against herbivores as mentioned in NCERT?",
     "options": [
       "Thorns and spines of cacti",
-      "Quinine in Cinchona bark, strychnine in Nux vomica, opium in poppy",
       "Waxy cuticle of leaves",
+      "Quinine in Cinchona bark, strychnine in Nux vomica, opium in poppy",
       "Root system depth in savanna grasses"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "'Plants have evolved an astonishing variety of chemical substances... many of these are chemical substances which make them unpalatable to grazers — quinine (Cinchona), strychnine (Nux vomica), opium (poppy).' Thorns are morphological defences; cuticle prevents desiccation, not predation."
   },
   {
@@ -4778,10 +4532,9 @@ var allQuestions = [
     "options": [
       "One",
       "Two",
-      "Three",
-      "Four"
-    ],
-    "correct": 2,
+      "Four",
+      "Three"
+    ], "correct": 3,
     "explanation": "(i) Predation = (+, –): predator gains, prey loses — CORRECT. (ii) Competition = (–, –): both harmed — CORRECT. (iii) Commensalism = (+, 0): one benefits, other unaffected — CORRECT. (iv) Mutualism should be (+, +) not (+, –) — INCORRECT. Three are correctly matched."
   },
   {
@@ -4802,12 +4555,11 @@ var allQuestions = [
     "topic": "Summary - Revision",
     "q": "Match the following population interaction examples correctly:<br>(i) Mycorrhizae on plant roots — (a) Parasitism<br>(ii) Cuscuta on hedge plants — (b) Mutualism<br>(iii) Egret picking insects from cattle back — (c) Commensalism<br>(iv) Barnacles on a whale — (d) Commensalism<br><br>How many are correctly matched?",
     "options": [
-      "One",
+      "Four",
       "Two",
       "Three",
-      "Four"
-    ],
-    "correct": 3,
+      "One"
+    ], "correct": 0,
     "explanation": "(i) Mycorrhizae = Mutualism (b) — fungus + plant root, both benefit. CORRECT. (ii) Cuscuta = Parasitism (a) — Cuscuta derives nutrients from host plant which is harmed. CORRECT. (iii) Egret picking insects from cattle = Commensalism (c) — egret benefits (food), cattle unaffected. CORRECT. (iv) Barnacles on whale = Commensalism (d) — barnacles get transport, whale unaffected. CORRECT. All four are correctly matched."
   },
   {
@@ -4818,11 +4570,10 @@ var allQuestions = [
     "q": "Choose the correct option with respect to habitat and organisms",
     "options": [
       "Mango tree - Canada and Germany",
-      "Snow leopard - Kerala",
+      "Polar bear - Arctic Tundra",
       "Tuna fish - Mostly caught beyond tropical latitudes in ocean",
-      "Polar bear - Arctic Tundra"
-    ],
-    "correct": 3,
+      "Snow leopard - Kerala"
+    ], "correct": 1,
     "explanation": "Mango tree is not found in temperate countries like Canada and Germany. Polar bears are found in Arctic Tundra. CORRECT: Polar bears are strictly adapted to the Arctic Tundra biome. TEMPTING WRONG: Tuna fish is a tempting option, but they are typically caught within tropical latitudes, not beyond."
   },
   {
@@ -4862,12 +4613,11 @@ var allQuestions = [
     "type": "Direct",
     "q": "Which interaction is harmful to both the interacting organisms?",
     "options": [
-      "Commensalism",
+      "Competition",
       "Predation",
       "Parasitism",
-      "Competition"
-    ],
-    "correct": 3,
+      "Commensalism"
+    ], "correct": 0,
     "explanation": "Competition is (-,-) interaction i.e., mutual inhibition. CORRECT: In competition, both species expend energy and resources, negatively impacting both. TEMPTING WRONG: Parasitism harms one but benefits the other (+,-), making it a common distractor."
   },
   {
@@ -4878,11 +4628,10 @@ var allQuestions = [
     "q": "Which one is not allowed by a prudent predator?",
     "options": [
       "Keeps prey population under control",
-      "Maintains species diversity",
       "Overexploitation of prey",
+      "Maintains species diversity",
       "Allows transfer of energy across trophic levels"
-    ],
-    "correct": 2,
+    ], "correct": 1,
     "explanation": "Overexploitation is not allowed because it might result in extinction of prey. CORRECT: A prudent predator avoids overexploiting its prey to ensure a sustainable food source. TEMPTING WRONG: Keeping prey population under control is a primary function of predators, making it a correct statement and thus the wrong answer here."
   },
   {
@@ -4893,11 +4642,10 @@ var allQuestions = [
     "q": "Read the statements carefully and choose the correct option.<br><b>a.</b> Biosphere is the life supporting zone for terrestrial biomass only.<br><b>b.</b> Biome is the major vegetation with fauna in a specific climatic zone.<br><b>c.</b> Population includes different animal or plant species in an area.",
     "options": [
       "Only a is correct",
-      "Only b is correct",
       "c is correct",
+      "Only b is correct",
       "Both a and b are correct"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "Population is a grouping of individuals of the same species in a given area. Biosphere is called life supporting zone of Earth. CORRECT: Biome accurately describes major vegetation and fauna in a climatic zone. TEMPTING WRONG: Statement 'c' defines a community, not a population, which only includes a single species."
   },
   {
@@ -4907,12 +4655,11 @@ var allQuestions = [
     "type": "Direct",
     "q": "Pine plants supposed to be present in",
     "options": [
-      "Coniferous forest",
+      "Grasslands",
       "Temperate forest",
       "Tropical rain forest",
-      "Grasslands"
-    ],
-    "correct": 0,
+      "Coniferous forest"
+    ], "correct": 3,
     "explanation": "Pine (Pinus) plants grow in coniferous forest. CORRECT: Pines are conifers, which dominate the coniferous forest biome. TEMPTING WRONG: Temperate forest is a distractor as pines can exist there, but coniferous forests are defined by them."
   },
   {
@@ -4938,11 +4685,10 @@ var allQuestions = [
     "q": "Which one is the case of competitive exclusion?<br><b>(1)</b> Introduction of goat removed abingdon tortoise in Galapagos island<br><b>(2)</b> Darwin's Finches in Galapagos Island<br><b>(3)</b> Balanus and Chathamalus in rocky coast of Scotland<br><b>(4)</b> More than one option is correct",
     "options": [
       "Introduction of goat removed abingdon tortoise",
-      "Darwin's Finches in Galapagos Island",
+      "More than one option is correct",
       "Balanus and Chathamalus in rocky coast of Scotland",
-      "More than one option is correct"
-    ],
-    "correct": 3,
+      "Darwin's Finches in Galapagos Island"
+    ], "correct": 1,
     "explanation": "Option (2) is the example of competitive coexistence. CORRECT: Both (1) and (3) are classic examples of competitive exclusion, meaning 'More than one option is correct' is the right choice. TEMPTING WRONG: Darwin's Finches (2) show resource partitioning (coexistence), not exclusion, which tricks many students."
   },
   {
@@ -4982,12 +4728,11 @@ var allQuestions = [
     "type": "Diagram",
     "q": "In which shape of pyramid stable population can be seen?",
     "options": [
-      "Triangular",
       "Bell-shaped",
+      "Triangular",
       "Urn-shaped",
       "Both (1) and (3)"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "Triangular age pyramid exhibits expanding population. (Bell-shaped corresponds to stable). CORRECT: A bell-shaped pyramid indicates equal numbers of pre-reproductive and reproductive individuals, signifying stability. TEMPTING WRONG: Urn-shaped indicates a declining population, not a stable one."
   },
   {
@@ -4998,11 +4743,10 @@ var allQuestions = [
     "q": "Read the statements and find how many are incorrect with respect to adaptation to temperature and pressure tolerance.<br><b>(a)</b> Antarctic fish survives below 0°C as their body contains antifreeze solute.<br><b>(b)</b> Very large animals are rarely found in polar regions.<br><b>(c)</b> Nearly all plants can maintain a constant internal environment.<br><b>(d)</b> Xerophytes have thick cuticle to mitigate water loss.",
     "options": [
       "4",
-      "3",
+      "1",
       "2",
-      "1"
-    ],
-    "correct": 3,
+      "3"
+    ], "correct": 1,
     "explanation": "The physiological adaptations allow organisms to overcome altitude sickness. Xerophytes show adaptation towards water availability. (c) is incorrect because plants are conformers; (b) is incorrect because very small animals are rare in polar regions, not large ones. CORRECT: Statements (b) and (c) are incorrect, meaning 2 statements are wrong. TEMPTING WRONG: Assuming only (c) is incorrect by misreading (b) about Allen's rule and body size."
   },
   {
@@ -5029,10 +4773,9 @@ var allQuestions = [
     "options": [
       "dN/dt = rN",
       "r = (b - d)",
-      "(K - N) / K",
-      "dN/dt = (K - N) / K"
-    ],
-    "correct": 2,
+      "dN/dt = (K - N) / K",
+      "(K - N) / K"
+    ], "correct": 3,
     "explanation": "Environmental resistance over the biotic potential is denoted by (K-N)/K. CORRECT: This term acts as the dampening factor in the logistic equation as population size (N) approaches carrying capacity (K). TEMPTING WRONG: dN/dt = rN denotes exponential growth, totally lacking environmental resistance."
   },
   {
@@ -5042,12 +4785,11 @@ var allQuestions = [
     "type": "Direct",
     "q": "Asymptote is a stage during logistic growth when population density reaches",
     "options": [
-      "Lag phase",
+      "Carrying capacity",
       "Log phase",
       "Exponential phase",
-      "Carrying capacity"
-    ],
-    "correct": 3,
+      "Lag phase"
+    ], "correct": 0,
     "explanation": "A population growing in a habitat with limited resources, finally reach at asymptote where population density reaches carrying capacity. CORRECT: The asymptote is the plateau where growth rate becomes zero at 'K'. TEMPTING WRONG: Exponential phase refers to the rapid growth period, not the stabilization phase."
   },
   {
@@ -5088,11 +4830,10 @@ var allQuestions = [
     "q": "The graphical representation of age distribution for the population is called",
     "options": [
       "Age structure",
-      "Age pyramid",
+      "Growth model",
       "Ecological pyramid",
-      "Growth model"
-    ],
-    "correct": 1,
+      "Age pyramid"
+    ], "correct": 3,
     "explanation": "Age pyramid represents the proportion of various age group of a population. CORRECT: It specifically visually graphs the pre-reproductive, reproductive, and post-reproductive cohorts. TEMPTING WRONG: Ecological pyramid represents trophic levels (energy, biomass), not age."
   },
   {
@@ -5117,12 +4858,11 @@ var allQuestions = [
     "type": "Direct",
     "q": "Parasitic bird lays its eggs in the nest of its host birds and lets the host incubate them represent",
     "options": [
-      "Ectoparasitism",
+      "Brood parasitism",
       "Endoparasitism",
       "Hyperparasitism",
-      "Brood parasitism"
-    ],
-    "correct": 3,
+      "Ectoparasitism"
+    ], "correct": 0,
     "explanation": "Cuckoo lays its egg in Crow's nest, is an example of brood parasitism. CORRECT: This specific behavioral parasitism involving eggs and rearing is uniquely called brood parasitism. TEMPTING WRONG: Ectoparasitism refers to feeding on the outside of a host (like ticks), not egg-laying behaviors."
   },
   {
@@ -5133,11 +4873,10 @@ var allQuestions = [
     "q": "Characteristic feature of mangrove plants is",
     "options": [
       "Apospory",
-      "Heterospory",
       "Vivipary",
+      "Heterospory",
       "Heterophily"
-    ],
-    "correct": 2,
+    ], "correct": 1,
     "explanation": "Vivipary is seed germination while attached to mother plant. CORRECT: Mangroves use vivipary to prevent seeds from washing away in tidal environments. TEMPTING WRONG: Heterospory is related to ferns and gymnosperms producing two types of spores, irrelevant to mangroves."
   },
   {
@@ -5147,12 +4886,11 @@ var allQuestions = [
     "type": "Direct",
     "q": "Exponential population growth is represented by",
     "options": [
-      "dN/dt = rN",
-      "dt/dN = rN",
       "rN/dt = dN",
+      "dt/dN = rN",
+      "dN/dt = rN",
       "dN/dt = dN"
-    ],
-    "correct": 0,
+    ], "correct": 2,
     "explanation": "dN/dt = rN, r is intrinsic rate of natural increase, this is call as biotic potential. CORRECT: This is the standard differential equation for unlimited, exponential growth. TEMPTING WRONG: dt/dN = rN reverses the derivative, changing the mathematical meaning completely."
   },
   {
@@ -5162,12 +4900,11 @@ var allQuestions = [
     "type": "Diagram",
     "q": "The graphic representation of age groups of a population given here shows that population is (Assume Triangular shape)",
     "options": [
-      "Increasing",
+      "Fluctuating",
       "Stable",
       "Declining",
-      "Fluctuating"
-    ],
-    "correct": 0,
+      "Increasing"
+    ], "correct": 3,
     "explanation": "Triangular shape of age pyramid represents expanding population. CORRECT: A broad base means high birth rates and a growing pre-reproductive cohort. TEMPTING WRONG: Stable populations have a bell shape, not a triangular one."
   },
   {
@@ -5177,12 +4914,11 @@ var allQuestions = [
     "type": "Direct",
     "q": "Which parameter is used for finding population density of banyan tree?",
     "options": [
-      "Relative density",
-      "Population count in number",
       "Biomass method",
+      "Population count in number",
+      "Relative density",
       "Number of prop roots"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "Banyan tree has a large canopy. The parameter used to find population density is Biomass or percent cover. CORRECT: Because a single Banyan can span acres, counting individuals is meaningless; biomass/cover is accurate. TEMPTING WRONG: Population count in number is the default for most animals, making it a trap for giant colonial plants."
   },
   {
@@ -5223,11 +4959,10 @@ var allQuestions = [
     "q": "The logistic population growth is expressed by the equation",
     "options": [
       "dt/dN = rN(K-N/K)",
-      "dN/dt = rN(K-N/K)",
       "dN/dt = rN",
+      "dN/dt = rN(K-N/K)",
       "dN/dt = rN(N-K/N)"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "dN/dt = rN(K-N/K). CORRECT: This integrates the carrying capacity (K) damping factor into the exponential growth equation. TEMPTING WRONG: dN/dt = rN is the equation for exponential, not logistic, growth."
   },
   {
@@ -5238,11 +4973,10 @@ var allQuestions = [
     "q": "The graph shows diagrammatic representation of response of organisms against temperature. Find out the correct match.<br><b>A</b> - Line parallel to X axis<br><b>B</b> - Diagonal Line<br><b>C</b> - Diagonal then flat",
     "options": [
       "A- Birds, B- Mammals",
-      "A- Plants, B- Birds",
+      "C- Mammals, B-Plants",
       "A- Birds, C- Mammals",
-      "C- Mammals, B-Plants"
-    ],
-    "correct": 1,
+      "A- Plants, B- Birds"
+    ], "correct": 3,
     "explanation": "<b>Plants = Conformers<br>Birds = Regulators<br>Mammals = Partial Regulators</b>"
   },
   {
@@ -5252,12 +4986,11 @@ var allQuestions = [
     "type": "Direct",
     "q": "Vital index of a population is represented by",
     "options": [
-      "(Natality - mortality) x 100",
       "(Natality / Mortality) x 100",
+      "(Natality - mortality) x 100",
       "(Mortality / Natality) x 100",
       "Natality / (Mortality x 100)"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "(Natality / Mortality) x 100. CORRECT: The vital index represents the ratio of births to deaths as a percentage. TEMPTING WRONG: Natality minus mortality gives the absolute growth difference, not the standardized vital index ratio."
   },
   {
@@ -5268,11 +5001,10 @@ var allQuestions = [
     "q": "Find out incorrect match.",
     "options": [
       "Edaphic factors - Soil factors",
-      "Climatic factors - Wind, humidity",
       "Topographic factors - Soil texture",
+      "Climatic factors - Wind, humidity",
       "Most important ecological factor - Temperature"
-    ],
-    "correct": 2,
+    ], "correct": 1,
     "explanation": "Topography is surface configuration of an area. CORRECT: Topography relates to altitude, slope, and landform, while soil texture is an edaphic factor. TEMPTING WRONG: Doubting that temperature is the 'most important' ecological factor, though it governs all enzyme kinetics."
   },
   {
@@ -5299,10 +5031,9 @@ var allQuestions = [
     "options": [
       "-, 0",
       "+, -",
-      "0, +",
-      "+, +"
-    ],
-    "correct": 2,
+      "+, +",
+      "0, +"
+    ], "correct": 3,
     "explanation": "'+' = Beneficial, '-' = Detrimental, '0' = Neutral. CORRECT: A '0, +' relationship directly maps to one being unaffected (0) and the other benefitting (+). TEMPTING WRONG: '+, +' indicates mutualism where both benefit."
   },
   {
@@ -5312,12 +5043,11 @@ var allQuestions = [
     "type": "Direct",
     "q": "What type of interaction is shown by orchids growing on mango plants?",
     "options": [
-      "Mutualism",
+      "Commensalism",
       "Amensalism",
       "Protocooperation",
-      "Commensalism"
-    ],
-    "correct": 3,
+      "Mutualism"
+    ], "correct": 0,
     "explanation": "Orchids get benefit, mango tree unaffected. CORRECT: This is classic commensalism (+, 0). The orchid gets physical support, and the mango tree is not sapped of nutrients. TEMPTING WRONG: Parasitism, as students often assume epiphytes steal nutrients from the host tree."
   },
   {
@@ -5342,12 +5072,11 @@ var allQuestions = [
     "type": "Direct",
     "q": "The phenomena of one organism being benefitted without affecting other is",
     "options": [
-      "Commensalism",
-      "Amensalism",
       "Scavenging",
+      "Amensalism",
+      "Commensalism",
       "Symbiosis"
-    ],
-    "correct": 0,
+    ], "correct": 2,
     "explanation": "Commensalism is '+' and '0' population interaction. CORRECT: This perfectly defines commensalism. TEMPTING WRONG: Amensalism is (-, 0), where one is harmed and the other is unaffected."
   },
   {
@@ -5359,10 +5088,9 @@ var allQuestions = [
     "options": [
       "Wheat",
       "Sunflower",
-      "Pistia",
-      "Pea"
-    ],
-    "correct": 2,
+      "Pea",
+      "Pistia"
+    ], "correct": 3,
     "explanation": "In Pistia, roots are used for balancing. CORRECT: Pistia is a free-floating hydrophyte; its roots function for buoyancy and balance, not primarily for water absorption since the whole plant is submerged/floating. TEMPTING WRONG: Wheat/Pea/Sunflower are terrestrial and strictly rely on roots for water."
   },
   {
@@ -5372,12 +5100,11 @@ var allQuestions = [
     "type": "Direct",
     "q": "Which of the following organism is capable of meeting its water requirement through internal fat oxidation?",
     "options": [
-      "Desert lizard",
       "Kangaroo rat",
+      "Desert lizard",
       "Seal",
       "Antarctic fish"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "Kangaroo rat has adaptation to minimize the water requirement. CORRECT: It produces water as a metabolic byproduct of internal fat oxidation. TEMPTING WRONG: Desert lizards use behavioral adaptations, not internal fat oxidation, to survive heat."
   },
   {
@@ -5403,11 +5130,10 @@ var allQuestions = [
     "q": "Which character is not present in hydrophytes?",
     "options": [
       "Poor roots",
-      "Abundant xylem and sclerenchyma",
       "Leaves with stomata on upper surface",
+      "Abundant xylem and sclerenchyma",
       "Aerenchyma"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "Xylem and sclerenchyma are poorly developed or absent in hydrophytes. CORRECT: Water supports the plant, removing the need for mechanical sclerenchyma, and water surrounds the plant, minimizing the need for complex xylem transport. TEMPTING WRONG: Aerenchyma is highly present in hydrophytes for buoyancy, so picking it for a 'not' question is a trap."
   },
   {
@@ -5418,11 +5144,10 @@ var allQuestions = [
     "q": "An orchid resembling female insect with ability to get pollinated is due to phenomenon of",
     "options": [
       "Mimicry",
-      "Pseudocopulation",
+      "Parthenogenesis",
       "Pseudopollination",
-      "Parthenogenesis"
-    ],
-    "correct": 1,
+      "Pseudocopulation"
+    ], "correct": 3,
     "explanation": "Ophrys employs sexual deceit to get pollination done[cite: 1080, 1081, 1082]. CORRECT: The orchid *Ophrys* uses sexual deceit, forcing the male insect into pseudocopulation to achieve pollination[cite: 1079, 1080, 1081]. TEMPTING WRONG: 'Pseudopollination' is a tempting made-up term, but the actual behavioral phenomenon is called pseudocopulation[cite: 271, 1079]."
   },
   {
@@ -5432,12 +5157,11 @@ var allQuestions = [
     "type": "Direct",
     "q": "Smaller animals tend to lose body heat very fast as compared to larger animals because they have",
     "options": [
-      "Lower surface area to volume ratio",
       "High surface area to volume ratio",
+      "Lower surface area to volume ratio",
       "Equal surface area and volume",
       "Low basal metabolic rate (BMR)"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "Heat loss or gain is a function of surface area[cite: 1084]. CORRECT: Smaller animals have a high surface area to volume ratio, meaning heat escapes very rapidly from their surface[cite: 276, 1083]. TEMPTING WRONG: 'Lower surface area to volume ratio' is what large animals possess to conserve heat, which is the exact opposite[cite: 275]."
   },
   {
@@ -5479,10 +5203,9 @@ var allQuestions = [
     "options": [
       "16",
       "1",
-      "0.16",
-      "1.6"
-    ],
-    "correct": 2,
+      "1.6",
+      "0.16"
+    ], "correct": 3,
     "explanation": "Birth rate = $\\Delta N / (N \\Delta t) = 10 / 60 = 0.16$[cite: 1093]. CORRECT: Birth rate is calculated by dividing the number of new individuals added (10) by the initial population size (60)[cite: 279, 1093]. TEMPTING WRONG: Dividing 10 by the current total population of 70, which gives a different, incorrect value[cite: 280]."
   },
   {
@@ -5508,11 +5231,10 @@ var allQuestions = [
     "q": "Study the age pyramids shown below and choose the correct option for A, B, and C.<br><b>A:</b> Broad base<br><b>B:</b> Equal pre-reproductive and reproductive<br><b>C:</b> Narrow base",
     "options": [
       "A-Triangular pyramid, B-Urn-shaped pyramid, C-Bell-shaped pyramid",
-      "A-Expanding population, B-Pyramid showing negative growth, C-Growth rate almost zero",
       "A-Expanding population, B-Stable population, C-Declining population",
+      "A-Expanding population, B-Pyramid showing negative growth, C-Growth rate almost zero",
       "A-Bell-shaped pyramid, B-Triangular pyramid, C-Urn shaped pyramid"
-    ],
-    "correct": 2,
+    ], "correct": 1,
     "explanation": "Age pyramids are made on the basis of populations of pre-reproductive, reproductive and post-reproductive individuals[cite: 1097]. CORRECT: Shape A is expanding (triangular), B is stable (bell-shaped), and C is declining/negative growth (urn-shaped)[cite: 295, 1097]. TEMPTING WRONG: Option (1) scrambles the names of the mathematical pyramid shapes corresponding to the data[cite: 295]."
   },
   {
@@ -5538,11 +5260,10 @@ var allQuestions = [
     "q": "Population growth curve is given. Find A, B and C where line 'A' is the straight dotted asymptote line, 'a' is exponential curve, and 'b' is sigmoid curve.",
     "options": [
       "A -> dN/dt = rN, B -> K, C -> dN/dt = rN((K-N)/K)",
-      "A -> K, B -> dN/dt = rN, C -> dN/dt = rN((K-N)/K)",
+      "A -> dN/dt = rN, B -> dN/dt = rN((K-N)/K), C -> dN/dt = rNK",
       "A -> K, B -> dN/dt = rN((K-N)/K), C -> dN/dt = rN",
-      "A -> dN/dt = rN, B -> dN/dt = rN((K-N)/K), C -> dN/dt = rNK"
-    ],
-    "correct": 1,
+      "A -> K, B -> dN/dt = rN, C -> dN/dt = rN((K-N)/K)"
+    ], "correct": 3,
     "explanation": "A is carrying capacity (K). B is exponential growth curve. C is logistic growth curve[cite: 1101, 1102, 1103]. CORRECT: Dotted asymptote 'A' represents Carrying Capacity ($K$), curve 'a' (labeled B in options text) is exponential, and curve 'b' (labeled C) is logistic[cite: 356, 1100]. TEMPTING WRONG: Reversing curves B and C, mistaking which formula belongs to the J-shape vs. Sigmoid shape[cite: 361]."
   },
   {
@@ -5567,12 +5288,11 @@ var allQuestions = [
     "type": "Match",
     "q": "Mark the incorrect match w.r.t. population interactions.",
     "options": [
-      "Amensalism: (+ , 0)",
       "Predation: (+ , -)",
+      "Amensalism: (+ , 0)",
       "Parasitism: (+ , -)",
       "Protocooperation: (+ , +)"
-    ],
-    "correct": 0,
+    ], "correct": 1,
     "explanation": "Amensalism = '0' interaction [Key specifies amensalism is negative/neutral][cite: 1107]. CORRECT: Amensalism is a (-, 0) interaction where one species is harmed and the other remains unaffected[cite: 1252]. TEMPTING WRONG: Predation (+, -) is completely accurate, so it cannot be chosen as the incorrect match[cite: 302, 1146]."
   },
   {
@@ -5597,12 +5317,11 @@ var allQuestions = [
     "type": "Direct",
     "q": "Which of the following pair of characters contribute an increase in population density?",
     "options": [
-      "Immigration and natality",
+      "Emigration and immigration",
       "Emigration and natality",
       "Natality and mortality",
-      "Emigration and immigration"
-    ],
-    "correct": 0,
+      "Immigration and natality"
+    ], "correct": 3,
     "explanation": "Two factors lead to increase in population density that are immigration and natality[cite: 1145]. CORRECT: Natality (births) and Immigration (inward movement) both add individuals to a population[cite: 352, 1145]. TEMPTING WRONG: Emigration and immigration are opposing forces; one decreases size while the other increases it[cite: 355]."
   },
   {
@@ -5642,12 +5361,11 @@ var allQuestions = [
     "type": "Direct",
     "q": "The interaction between clownfish and sea-anemone is a type of",
     "options": [
-      "Commensalism",
-      "Mutualism",
       "Protocooperation",
+      "Mutualism",
+      "Commensalism",
       "Amensalism"
-    ],
-    "correct": 0,
+    ], "correct": 2,
     "explanation": "Clown fish is commensal and sea anemone is host[cite: 1122]. CORRECT: Clownfish gains protection within stinging tentacles (+), while the sea-anemone is completely unaffected (0)[cite: 380, 1122]. TEMPTING WRONG: Many students mistake this for mutualism, assuming the clownfish actively brings food items to the anemone[cite: 384]."
   },
   {
@@ -5659,10 +5377,9 @@ var allQuestions = [
     "options": [
       "Red-billed oxpecker and black rhinoceros",
       "Crocodile bird and Crocodile",
-      "Barnacles and whale",
-      "Sea anemone and hermit crabs"
-    ],
-    "correct": 2,
+      "Sea anemone and hermit crabs",
+      "Barnacles and whale"
+    ], "correct": 3,
     "explanation": "Barnacle and whale interaction is an example of commensalism[cite: 1124]. CORRECT: Barnacles attached to whales show commensalism (+, 0), not non-obligatorily helpful protocooperation (+, +)[cite: 390, 1124]. TEMPTING WRONG: Hermit crabs and sea anemone is a famous mutual benefit example, leading students to mistakenly exclude it[cite: 391]."
   },
   {
@@ -5672,12 +5389,11 @@ var allQuestions = [
     "type": "Diagram",
     "q": "Study the graph carefully and find the suitable terms for a, b and c with respect to growth curve.<br><b>a:</b> Continuous steep upward line<br><b>b:</b> S-shaped flattening curve<br><b>c:</b> Topmost point of stabilization",
     "options": [
-      "a-exponential growth, b-decelerated growth, c-carrying capacity",
-      "a-unlimited resources, b-limited resources, c-carrying capacity",
       "a-exponential growth, b-logistic growth, c-asymptote",
+      "a-unlimited resources, b-limited resources, c-carrying capacity",
+      "a-exponential growth, b-decelerated growth, c-carrying capacity",
       "a-logistic growth, b-exponential growth, c-asymptote"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "a - Exponential growth, b - Logistic growth, c - Asymptote[cite: 1126, 1127, 1128]. CORRECT: Curve 'a' shows growth when resources are unchecked; 'b' shows resource limitations forming a sigmoid curve; 'c' is the flat asymptote ceiling[cite: 397, 1125]. TEMPTING WRONG: Option (1) sounds very descriptive, but 'asymptote' or 'logistic' are the precise technical matches requested by standard textbook keys[cite: 399, 429]."
   },
   {
@@ -5687,12 +5403,11 @@ var allQuestions = [
     "type": "Direct",
     "q": "At high altitude we feel altitude sickness. The reason for sickness may be due to",
     "options": [
-      "Low atmospheric pressure",
       "High atmospheric pressure",
+      "Low atmospheric pressure",
       "High temperature",
       "Low temperature"
-    ],
-    "correct": 0,
+    ], "correct": 1,
     "explanation": "Body does not get enough oxygen due to low atmospheric pressure[cite: 1130]. CORRECT: Low partial pressure of oxygen at high altitudes prevents normal hemoglobin saturation[cite: 435, 1130]. TEMPTING WRONG: Blaming low temperature, which causes hypothermia but is distinct from dynamic altitude hypoxia[cite: 438]."
   },
   {
@@ -5719,10 +5434,9 @@ var allQuestions = [
     "options": [
       "Expanding population",
       "Stable population",
-      "Declining population",
-      "Fluctuating population"
-    ],
-    "correct": 2,
+      "Fluctuating population",
+      "Declining population"
+    ], "correct": 3,
     "explanation": "In urn shaped age pyramid, reproductive age group is more than pre-reproductive age group[cite: 1135]. CORRECT: This inverted base structure indicates fewer young offspring than parental units, meaning the population is actively shrinking[cite: 405, 1135]. TEMPTING WRONG: Equating 'urn' with a 'stable' ancient pattern, when stable is actually bell-shaped[cite: 404]."
   },
   {
@@ -5732,12 +5446,11 @@ var allQuestions = [
     "type": "Direct",
     "q": "Find the relative density of species-A having 100 individuals in an area with total number of individuals of 50000 of different species.",
     "options": [
-      "0.5",
-      "0.1",
       "0.2",
+      "0.1",
+      "0.5",
       "2"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "Relative density of a species = (Total number of individual species / Total number of individual of all species) x 100 = (100 / 50000) x 100 = 0.2[cite: 1137]. CORRECT: Applying the clear relative density percentage calculation formula yields exactly 0.2[cite: 1137]. TEMPTING WRONG: Simply dividing 100 by 50,000 without multiplying by 100 to change it into percentage terms, resulting in an incorrect decimal placement[cite: 407]."
   },
   {
@@ -5748,11 +5461,10 @@ var allQuestions = [
     "q": "Choose the odd one out w.r.t. structure formed in the different organisms during suspended phase.",
     "options": [
       "Bacteria, fungi - Thick walled spores",
-      "Higher plants - Seed, vegetative propagules",
+      "Algae - Thin walled motile spores",
       "Zooplanktons - Diapause stage",
-      "Algae - Thin walled motile spores"
-    ],
-    "correct": 3,
+      "Higher plants - Seed, vegetative propagules"
+    ], "correct": 1,
     "explanation": "Thick walled spores are produced during unfavourable conditions in algae[cite: 1139]. CORRECT: Algae produce thick-walled resistant resting spores to survive stress, not delicate thin-walled motile zoospores[cite: 420, 1139]. TEMPTING WRONG: Selecting Zooplanktons - Diapause because it is not a physical 'spore' structure, though it is technically a valid suspended stage[cite: 416, 419]."
   },
   {
@@ -5764,10 +5476,9 @@ var allQuestions = [
     "options": [
       "Altitude sickness in humans is a physiological means to counteract the stressful condition",
       "Biochemical adaptations are seen in organisms present at great depths in oceans",
-      "Allen's rule is seen in mammals of colder climate",
-      "Desert lizards lack the physiological and behavioural means to manage their body temperature"
-    ],
-    "correct": 3,
+      "Desert lizards lack the physiological and behavioural means to manage their body temperature",
+      "Allen's rule is seen in mammals of colder climate"
+    ], "correct": 2,
     "explanation": "Desert lizard shows behavioural means to manage their body temperature[cite: 1141]. CORRECT: Statement (4) is false; desert lizards possess highly efficient *behavioral* adaptation loops (basking vs moving to shade)[cite: 425, 1141]. TEMPTING WRONG: Doubting statement (2) because deep oceans seem impossible to survive in without mechanical shells, but extreme enzymes handle it biochemically[cite: 424]."
   },
   {
@@ -5792,12 +5503,11 @@ var allQuestions = [
     "type": "Except",
     "q": "Population growth of a species is not related to which of the following parameters?",
     "options": [
-      "$N_{t+1} = N_t + [(B+I) - (D+E)]$",
       "Out of four basic processes affecting population growth three leads to increase in population size",
+      "$N_{t+1} = N_t + [(B+I) - (D+E)]$",
       "Under normal conditions, natality and mortality are most important factors",
       "For a newly colonised habitat immigration plays major role than birth rate"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "Two factors lead to increase in population density that are immigration and natality[cite: 1145]. CORRECT: Statement (2) is completely false; only two factors (Natality + Immigration) increase population size, while the other two (Mortality + Emigration) reduce it[cite: 449, 1145]. TEMPTING WRONG: Assuming the standard dynamic baseline equations like (1) are flawed because of bracket signs[cite: 448]."
   },
   {
@@ -5837,12 +5547,11 @@ var allQuestions = [
     "type": "Direct",
     "q": "For calculating the \"intrinsic rate of natural increase\" which of the following parameters are required?",
     "options": [
-      "Birth rate and death rate",
+      "Carrying capacity and mortality",
       "Natality and carrying capacity",
       "Population density and death rate",
-      "Carrying capacity and mortality"
-    ],
-    "correct": 0,
+      "Birth rate and death rate"
+    ], "correct": 3,
     "explanation": "$r = b - d$. Here r is intrinsic rate of natural increase. b is birth rate and d is death rate[cite: 1153, 1154]. CORRECT: Calculating '$r$' requires simply subtracting the death rate from the birth rate[cite: 462, 1154]. TEMPTING WRONG: Confusing raw parameter variables with carrying capacity ($K$), which belongs only to logistic limits[cite: 463]."
   },
   {
@@ -5884,10 +5593,9 @@ var allQuestions = [
     "options": [
       "Only a",
       "Only a and b",
-      "Only c",
-      "All a, b and c"
-    ],
-    "correct": 3,
+      "All a, b and c",
+      "Only c"
+    ], "correct": 2,
     "explanation": "Environmental resistance has its role and does not allow the population to grow beyond carrying capacity[cite: 1162, 1164]. CORRECT: All three statements accurately portray realistic logistic models operating within environmental limitations[cite: 528, 1162]. TEMPTING WRONG: Choosing just 'b' because asymptote is the single defining mathematical hallmark[cite: 526]."
   },
   {
@@ -5897,12 +5605,11 @@ var allQuestions = [
     "type": "Direct",
     "q": "Among various abiotic factors the most relevant factor is",
     "options": [
-      "Temperature",
+      "Soil",
       "Light",
       "Water",
-      "Soil"
-    ],
-    "correct": 0,
+      "Temperature"
+    ], "correct": 3,
     "explanation": "Temperature affects enzyme kinetics, hence the overall metabolism[cite: 1165]. CORRECT: Temperature directly regulates the kinetic energy of biochemical reactions across all biomes[cite: 478, 1165]. TEMPTING WRONG: Selecting 'Water', as it is absolutely vital for life, but temperature is designated textually as the *most ecologically relevant* overarching factor[cite: 479]."
   },
   {
@@ -5928,11 +5635,10 @@ var allQuestions = [
     "q": "Organisms cannot maintain a constant internal environment. They are",
     "options": [
       "Regulators",
-      "Partial conformers",
+      "Conformers",
       "All birds",
-      "Conformers"
-    ],
-    "correct": 3,
+      "Partial conformers"
+    ], "correct": 1,
     "explanation": "Conformers cannot maintain a constant internal environment[cite: 1169]. CORRECT: Conformers change their internal osmotic/thermal state to match external trends[cite: 492, 1169]. TEMPTING WRONG: Regulators are the exact opposite—they strictly keep internal baselines constant[cite: 489]."
   },
   {
@@ -5942,12 +5648,11 @@ var allQuestions = [
     "type": "Direct",
     "q": "A population of 50 Paramoecia in a water body becomes 150 after a period of 1 hour. What should be the change in population per individual?",
     "options": [
-      "2 per individual",
-      "3 per individual",
       "1 per individual",
+      "3 per individual",
+      "2 per individual",
       "2.5 per individual"
-    ],
-    "correct": 0,
+    ], "correct": 2,
     "explanation": "$\\Delta N =$ Change in population $= 100$, $\\Delta t =$ Change in time = 1 hour, $N =$ Initial population $= 50 \\Rightarrow \\frac{\\Delta N}{N \\Delta t} = \\frac{100}{50 \\times 1} = 2$ per individual[cite: 1171, 1172, 1173, 1174]. CORRECT: Change in population ($\\Delta N = 150 - 50 = 100$) divided by initial size ($50$) yields exactly 2[cite: 1171, 1174]. TEMPTING WRONG: Simply dividing the final population (150) by the initial population (50) to get 3, which calculates the scaling factor instead of the net birth rate per capita[cite: 497]."
   },
   {
@@ -5958,11 +5663,10 @@ var allQuestions = [
     "q": "The growth form called Verhulst-Pearl Logistic Growth is:<br><b>a.</b> Not followed by insects during rainy season<br><b>b.</b> Followed by algal blooms in a eutrophic lake<br><b>c.</b> Represented under limited resource conditions",
     "options": [
       "All are correct",
-      "Only a and c are correct",
+      "Only b is incorrect",
       "Only a is correct",
-      "Only b is incorrect"
-    ],
-    "correct": 1,
+      "Only a and c are correct"
+    ], "correct": 3,
     "explanation": "Growth of algal bloom forms shows J-shaped curve[cite: 1176]. CORRECT: Statements 'a' and 'b' portray J-shaped exponential paths; hence 'a' and 'c' correctly describe or contextualize true logistic growth[cite: 500, 502]. TEMPTING WRONG: Selecting 'All are correct' without realizing that algal blooms exhibit exponential spikes followed by sudden crashes[cite: 502, 1176]."
   },
   {
@@ -5972,12 +5676,11 @@ var allQuestions = [
     "type": "Diagram",
     "q": "Select a graphical representation which is experienced by a population having realised 'r' due to unlimited resource supply.",
     "options": [
-      "Sigmoid curve tracking ceiling at K",
-      "Line crashing sharply below K",
       "Continuous J-shape rocket curve climbing past K without stopping",
+      "Line crashing sharply below K",
+      "Sigmoid curve tracking ceiling at K",
       "Stepped flat pattern"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "In unlimited resources there is J-shaped curve[cite: 1178]. CORRECT: Unlimited resources cause uninhibited exponential growth, which completely ignores carrying capacity lines ($K$)[cite: 514, 1178]. TEMPTING WRONG: Choosing a sigmoid option because it shows 'realised' capacity limits under everyday realistic conditions[cite: 515]."
   },
   {
@@ -5988,11 +5691,10 @@ var allQuestions = [
     "q": "Gause proposed the principle of competitive exclusion using",
     "options": [
       "Trifolium",
-      "Euglena",
+      "Paramecium",
       "Amoeba",
-      "Paramecium"
-    ],
-    "correct": 3,
+      "Euglena"
+    ], "correct": 1,
     "explanation": "He used P. aurelia and P. caudatum[cite: 1180]. CORRECT: Gause's laboratory tests utilized *Paramecium aurelia* and *Paramecium caudatum* competing for resources[cite: 555, 1180]. TEMPTING WRONG: *Amoeba* is often selected by students who broadly remember 'protozoans' but choose the wrong organism genus[cite: 553]."
   },
   {
@@ -6002,12 +5704,11 @@ var allQuestions = [
     "type": "Direct",
     "q": "The most observed circumstantial evidences in favour of Gause's principle is",
     "options": [
-      "Extinction of Abingdon tortoise",
-      "Extinction of Passenger Pigeon",
       "Extinction of Tasmanian wolf",
+      "Extinction of Passenger Pigeon",
+      "Extinction of Abingdon tortoise",
       "Extinction of Dodo"
-    ],
-    "correct": 0,
+    ], "correct": 2,
     "explanation": "Tortoise inhabited Galapagos islands. It was competitor of goat[cite: 1182]. CORRECT: The introduction of goats on the Galapagos Islands led to the extinction of the Abingdon tortoise due to competitive exclusion for food resources[cite: 558, 1182]. TEMPTING WRONG: Extinction of the Dodo is famous, but it was driven by direct human hunting and predation, not niche competition[cite: 561]."
   },
   {
@@ -6018,11 +5719,10 @@ var allQuestions = [
     "q": "Population of less distributed species increases dramatically when its superior competitor is removed experimentally from a geographical area. The phenomenon is called",
     "options": [
       "Competitive exclusion",
-      "Competitive release",
+      "Niche displacement",
       "Resource partitioning",
-      "Niche displacement"
-    ],
-    "correct": 1,
+      "Competitive release"
+    ], "correct": 3,
     "explanation": "Competition release reflexes weak competitor[cite: 1184]. CORRECT: Competitive release occurs when a species expands its niche range when its competitor is experimentally removed[cite: 562, 1184]. TEMPTING WRONG: Competitive exclusion is the opposite process, where a superior competitor drives an inferior species to extinction[cite: 754]."
   },
   {
@@ -6078,11 +5778,10 @@ var allQuestions = [
     "q": "Find odd one out w.r.t. population interaction.",
     "options": [
       "Tiger and Deer",
-      "Orchids on trees like mango",
+      "Herbivores and plants",
       "Sparrow and seeds",
-      "Herbivores and plants"
-    ],
-    "correct": 1,
+      "Orchids on trees like mango"
+    ], "correct": 3,
     "explanation": "Orchids on trees like mango show commensalism. While others show predation[cite: 1199, 1200, 1201]. CORRECT: Orchids on a mango tree exhibit commensalism (+,0)[cite: 203, 209, 1201]. All other options are ecologic categories of predation (+,-)[cite: 39, 40, 370, 1201]. TEMPTING WRONG: Sparrow eating seeds feels like herbivory, so students often fail to group it as an ecological predator[cite: 370, 546]."
   },
   {
@@ -6092,12 +5791,11 @@ var allQuestions = [
     "type": "Direct",
     "q": "The relationship between ox-pecker and rhinoceros is",
     "options": [
-      "+ , -",
       "+ , +",
+      "+ , -",
       "0 , -",
       "0 , +"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "The relationship between oxpecker and rhinoceros is protocooperation[cite: 1202, 1203, 1205]. CORRECT: Protocooperation benefits both organisms, meaning it is represented mathematically as (+,+)[cite: 572, 1205]. TEMPTING WRONG: Choosing (4) if you confuse this with commensalism (+,0), forgetting that the rhinoceros benefits from tick removal[cite: 388, 955]."
   },
   {
@@ -6107,12 +5805,11 @@ var allQuestions = [
     "type": "Direct",
     "q": "Ecologically the most relevant environmental factor that directly affects the rate of metabolism of a species and decides its distribution is",
     "options": [
-      "Temperature",
       "Rainfall",
+      "Temperature",
       "Water",
       "Light"
-    ],
-    "correct": 0,
+    ], "correct": 1,
     "explanation": "Temperature is most relevant environmental factor[cite: 1206]. CORRECT: Temperature regulates foundational biological enzyme kinetics[cite: 1165]. TEMPTING WRONG: Water is critically important for life's processes, but temperature is the primary factor affecting basal kinetics and global geographic zoning[cite: 1165, 1206]."
   },
   {
@@ -6139,10 +5836,9 @@ var allQuestions = [
     "options": [
       "0.4",
       "0.8",
-      "0.2",
-      "0.6"
-    ],
-    "correct": 2,
+      "0.6",
+      "0.2"
+    ], "correct": 3,
     "explanation": "Birth rate $= \\frac{10}{50 \\times 1} = 0.2$[cite: 1210]. CORRECT: Per capita birth rate is calculated as $\\frac{\\Delta N}{N_{\\text{initial}}} = \\frac{10}{50} = 0.2$[cite: 1210]. TEMPTING WRONG: Dividing 10 by the current total population of 60, which incorrectly gives $\\approx 0.16$[cite: 280, 1093]."
   },
   {
@@ -6167,12 +5863,11 @@ var allQuestions = [
     "type": "Direct",
     "q": "The association of sea anemone and clown fish is",
     "options": [
-      "Commensalism",
-      "Mutualism",
       "Proto-cooperation",
+      "Mutualism",
+      "Commensalism",
       "Competition"
-    ],
-    "correct": 0,
+    ], "correct": 2,
     "explanation": "Commensalism is (+, 0) relationship[cite: 1214]. CORRECT: The clownfish finds safety among stinging cells (+), while the host anemone gets no net outcome (0)[cite: 1122, 1214]. TEMPTING WRONG: Choosing mutualism (+,+) due to mistaken assumptions that clownfish provide reciprocal defensive services[cite: 384, 621]."
   },
   {
@@ -6212,12 +5907,11 @@ var allQuestions = [
     "type": "Direct",
     "q": "If 8 individuals in a laboratory population of 40 fruit flies died during a specified time interval, say two weeks, the death rate in the population during this period is",
     "options": [
-      "8 / (40 * 2)",
+      "40 / (8 * 2)",
       "(8 * 2) / 40",
       "(8 * 7) / (40 * 2)",
-      "40 / (8 * 2)"
-    ],
-    "correct": 0,
+      "8 / (40 * 2)"
+    ], "correct": 3,
     "explanation": "$\\text{Death rate} = \\frac{\\text{Change in population}}{\\text{Initial population} \\times \\text{time}} = \\frac{8}{40 \\times 2}$[cite: 1220]. CORRECT: Per capita death rate scales total recorded losses relative to baseline count multiplied across interval steps[cite: 1220]. TEMPTING WRONG: Inverting variables into formatting seen in (4), which counts average lifespans rather than rates."
   },
   {
@@ -6243,11 +5937,10 @@ var allQuestions = [
     "q": "MacArthur found that closely related species of warblers living on the tree shows",
     "options": [
       "Competitive exclusion",
-      "Competitive coexistence",
+      "Competition release",
       "Interference competition",
-      "Competition release"
-    ],
-    "correct": 1,
+      "Competitive coexistence"
+    ], "correct": 3,
     "explanation": "Five closely related species of warblers show coexistence[cite: 1224]. CORRECT: MacArthur's warblers achieved stable competitive coexistence via behavioral resource partitioning[cite: 947, 1224]. TEMPTING WRONG: Assuming that close relation forces competitive exclusion according to Gause's raw laboratory baseline[cite: 754]."
   },
   {
@@ -6258,11 +5951,10 @@ var allQuestions = [
     "q": "Which statement is incorrect w.r.t. epiphytes?",
     "options": [
       "Commonly found in tropical rainforest",
-      "Having hygroscopic root",
+      "Show (+, +) relationship in population interaction",
       "They are photosynthetic",
-      "Show (+, +) relationship in population interaction"
-    ],
-    "correct": 3,
+      "Having hygroscopic root"
+    ], "correct": 1,
     "explanation": "In population interaction it is an example of commensalism (+, 0)[cite: 1226]. CORRECT: Epiphytes exhibit commensalism (+,0), not mutualism (+,+)[cite: 640, 1226]. TEMPTING WRONG: Questioning 'hygroscopic roots', which are a specialized adaptation epiphytes use to absorb water directly from humid air[cite: 638]."
   },
   {
@@ -6274,10 +5966,9 @@ var allQuestions = [
     "options": [
       "Exponential J-curve",
       "Linear constant line",
-      "Sigmoid S-curve equation with carrying capacity factor",
-      "Inverted curve"
-    ],
-    "correct": 2,
+      "Inverted curve",
+      "Sigmoid S-curve equation with carrying capacity factor"
+    ], "correct": 3,
     "explanation": "The growth curve is sigmoid curve[cite: 1228]. CORRECT: Resource limitations naturally shape a Verhulst-Pearl sigmoid profile[cite: 499, 1228]. TEMPTING WRONG: Choosing the J-shaped exponential option, which can only exist when resources are completely unlimited[cite: 466, 1178]."
   },
   {
@@ -6288,11 +5979,10 @@ var allQuestions = [
     "q": "All given features are characteristic to parasites, except",
     "options": [
       "Host specificity",
-      "Loss of unnecessary sense organs and presence of suckers",
       "Low reproductive potential",
+      "Loss of unnecessary sense organs and presence of suckers",
       "Complex life cycle pattern"
-    ],
-    "correct": 2,
+    ], "correct": 1,
     "explanation": "Parasites have high reproductive potential[cite: 1230]. CORRECT: Parasites evolve incredibly high reproductive outputs (fecundity) to balance the low statistical odds of locating new hosts[cite: 138, 1230]. TEMPTING WRONG: Complex life cycle patterns involving multiple intermediate hosts are typical, making that statement correct and thus the wrong answer here[cite: 684]."
   },
   {
@@ -6304,10 +5994,9 @@ var allQuestions = [
     "options": [
       "Symbiosis",
       "Extinction of biodiversity",
-      "Large number of niches formation",
-      "Increase the fitness of one species in the presence of another species"
-    ],
-    "correct": 2,
+      "Increase the fitness of one species in the presence of another species",
+      "Large number of niches formation"
+    ], "correct": 3,
     "explanation": "It can lead to large number of niches formation[cite: 1232]. CORRECT: Evolutionary niche specialization and character displacement are driven by past competition, which separates overlapping resource needs[cite: 688, 1232]. TEMPTING WRONG: Believing competition increases fitness in the direct presence of a rival, whereas resource overlap actually dampens fitness indexes ($r$)[cite: 865]."
   },
   {
@@ -6347,12 +6036,11 @@ var allQuestions = [
     "type": "Direct",
     "q": "What is the concentration of salt (measured as salinity in parts per thousand) in inland waters[cite: 702]?",
     "options": [
-      "Less than 5",
+      "More than 10",
       "30-35",
       "More than 5",
-      "More than 10"
-    ],
-    "correct": 0,
+      "Less than 5"
+    ], "correct": 3,
     "explanation": "30-35 in sea and > 100 in hypersaline lagoons[cite: 1239]. (Inland water salinity is textually < 5 parts per thousand). CORRECT: Inland freshwater bodies maintain low salt levels below 5 ppt. TEMPTING WRONG: Choosing '30-35', which is the standard salinity range for marine environments[cite: 1239]."
   },
   {
@@ -6363,11 +6051,10 @@ var allQuestions = [
     "q": "Population density[cite: 721]:",
     "options": [
       "Measured as biomass is generally the most appropriate",
-      "For tiger is estimated usually by total numbers",
+      "Measured as total number is not easily adaptable measure for larger population",
       "Is measured necessarily as relative densities",
-      "Measured as total number is not easily adaptable measure for larger population"
-    ],
-    "correct": 3,
+      "For tiger is estimated usually by total numbers"
+    ], "correct": 1,
     "explanation": "For larger population total number count is not feasible[cite: 1242, 1244]. CORRECT: Counting every single individual becomes practically impossible when dealing with massive numbers, like huge bacterial colonies or dense grass fields[cite: 1242, 1244]. TEMPTING WRONG: Option (1) sounds true, but biomass is only preferred in specific cases (like a giant canopy tree), not as a general rule[cite: 1043]."
   },
   {
@@ -6377,12 +6064,11 @@ var allQuestions = [
     "type": "Match",
     "q": "Match column-I with column-II and select the correct option[cite: 726, 727].<br><b>a. Regulate</b> - (i) Endotherms [cite: 748]<br><b>b. Conform</b> - (ii) Nearly all plants [cite: 748]<br><b>c. Diapause</b> - (iii) Zooplanktons [cite: 748]<br><b>d. Suspend</b> - (iv) Aestivation [cite: 748]",
     "options": [
-      "a(i), b(ii), c(iii), d(iv)",
+      "a(iv), b(iii), c(ii), d(i)",
       "a(ii), b(i), c(iii), d(iv)",
       "a(iii), b(iv), c(i), d(ii)",
-      "a(iv), b(iii), c(ii), d(i)"
-    ],
-    "correct": 0,
+      "a(i), b(ii), c(iii), d(iv)"
+    ], "correct": 3,
     "explanation": "Regulators can maintain homeostasis[cite: 1246]. CORRECT: Perfect direct structural matching layout [cite: 748]: Endotherms regulate [cite: 748, 1246], plants conform [cite: 748], zooplanktons undergo diapause [cite: 748], and aestivation is a type of suspension[cite: 748]. TEMPTING WRONG: Option (2) switches the positions of regulators and conformers."
   },
   {
@@ -6409,10 +6095,9 @@ var allQuestions = [
     "options": [
       "Allen's rule - Mammals with shorter ears and limbs in colder areas",
       "Expanding population - High number of individuals at pre-reproductive stage",
-      "Population density increases when - (B + I) < (D + E)",
-      "Sigmoid curve - Logistic growth"
-    ],
-    "correct": 2,
+      "Sigmoid curve - Logistic growth",
+      "Population density increases when - (B + I) < (D + E)"
+    ], "correct": 3,
     "explanation": "Population density increasing when $B+I>D+E$[cite: 1250]. CORRECT: If deaths and emigration ($D + E$) outweigh births and immigration ($B + I$), population density falls, making this match false[cite: 1250]. TEMPTING WRONG: Allen's rule is a well-known fact[cite: 712], so it cannot be chosen as a wrong match."
   },
   {
@@ -6438,11 +6123,10 @@ var allQuestions = [
     "q": "Examine the figure showing biome distribution with respect to annual temperature and precipitation and select the correct option[cite: 730, 731].<br><b>(A):</b> High temp, low rain | <b>(B):</b> Very low temp, low rain | <b>(C):</b> Mid temp, mid rain | <b>(D):</b> High temp, high rain",
     "options": [
       "(D) - Desert",
-      "(B) - Alpine tundra",
+      "(A) - Grassland",
       "(C) - Tropical forest",
-      "(A) - Grassland"
-    ],
-    "correct": 1,
+      "(B) - Alpine tundra"
+    ], "correct": 3,
     "explanation": "(A) Desert, (B) Alpine tundra, (C) Grassland, (D) Tropical forest[cite: 1254, 1255, 1256, 1257]. CORRECT: 'B' accurately points to the Arctic and Alpine Tundra zone characterized by sub-zero average temperatures[cite: 1255]. TEMPTING WRONG: Selecting (1) because you mismatch 'D' (Tropical Forest) with Deserts[cite: 1254, 1257]."
   },
   {
@@ -6483,11 +6167,10 @@ var allQuestions = [
     "q": "In the more common type of population growth curve[cite: 777]:",
     "options": [
       "Environmental resistance begins to operate to enhance the exponential phase",
-      "An equilibrium is reached when the size of population approaches the carrying capacity of the area",
+      "Population grows well beyond the carrying capacity of the area",
       "Equilibrium is never reached in population size",
-      "Population grows well beyond the carrying capacity of the area"
-    ],
-    "correct": 1,
+      "An equilibrium is reached when the size of population approaches the carrying capacity of the area"
+    ], "correct": 3,
     "explanation": "Most common growth is logistic growth[cite: 1264]. CORRECT: In nature, resources are limited, so populations follow a logistic curve that flattens out into an equilibrium at carrying capacity ($K$)[cite: 1264]. TEMPTING WRONG: Believing populations naturally grow well beyond carrying capacity indefinitely, which only happens right before a population crash in exponential models[cite: 1156]."
   },
   {
@@ -6514,10 +6197,9 @@ var allQuestions = [
     "options": [
       "Are evolutionarily successful",
       "Can maintain thermal and osmotic balance",
-      "Are 99% plants and animals",
-      "Show homeostasis"
-    ],
-    "correct": 2,
+      "Show homeostasis",
+      "Are 99% plants and animals"
+    ], "correct": 3,
     "explanation": "This type of response is shown by conformers[cite: 1269]. CORRECT: Line 'A' represents conformers, which include nearly all plants and 99% of all animal species[cite: 1218, 1269]. TEMPTING WRONG: Confusing line A with regulators, which are highly successful evolutionarily but keep internal conditions flat[cite: 1052]."
   },
   {
@@ -6527,12 +6209,11 @@ var allQuestions = [
     "type": "Direct",
     "q": "Organisms showing a logistic growth curve do not have which one of the features[cite: 763]?",
     "options": [
-      "Geometric growth of a population",
       "Lives under limited resource condition",
+      "Geometric growth of a population",
       "More realistic growth curve",
       "Growth form is characterised by function of carrying capacity (K)"
-    ],
-    "correct": 0,
+    ], "correct": 1,
     "explanation": "Logistic growth shows sigmoid curve growth[cite: 1271]. CORRECT: Geometric or exponential growth occurs only when resources are completely unlimited, which does not apply to logistic models[cite: 1271]. TEMPTING WRONG: Assuming option (3) is the answer because you forget that the question asks for a feature that is *not* present."
   },
   {
@@ -6558,11 +6239,10 @@ var allQuestions = [
     "q": "Mark the mis-matched pair[cite: 793].",
     "options": [
       "Zooplanktons - Diapause",
-      "Bamboo - Breed once in their life time",
+      "Mango trees - Can grow in temperate countries",
       "Pelagic fishes - Produce a large number of small-sized offspring",
-      "Mango trees - Can grow in temperate countries"
-    ],
-    "correct": 3,
+      "Bamboo - Breed once in their life time"
+    ], "correct": 1,
     "explanation": "Mango trees cannot grow in temperate countries[cite: 1275]. CORRECT: Mango trees are tropical plants that cannot survive the freezing winter temperatures of temperate zones[cite: 1275]. TEMPTING WRONG: Questioning option (2), but bamboo plants really are semelparous and flower only once in their lifetime before dying."
   },
   {
@@ -6574,10 +6254,9 @@ var allQuestions = [
     "options": [
       "They take more water from soil",
       "Light is a limiting factor",
-      "They are constantly overshadowed by tall canopied trees",
-      "Availability of light on land is not linked that of temperature"
-    ],
-    "correct": 2,
+      "Availability of light on land is not linked that of temperature",
+      "They are constantly overshadowed by tall canopied trees"
+    ], "correct": 3,
     "explanation": "Herbs and shrubs are constantly overshadowed by tall canopied trees[cite: 1279]. CORRECT: Forest floor plants adapt to low-light conditions because the tall trees above them block out most of the direct sunlight[cite: 1279]. TEMPTING WRONG: Selecting option (2) because light is a limiting factor, but it doesn't explain the ecological *reason* why they face low light."
   },
   {
@@ -6587,12 +6266,11 @@ var allQuestions = [
     "type": "Except",
     "q": "Which of the following organisms do not have mechanism to maintain internal temperature[cite: 807]?",
     "options": [
-      "Gymnosperms",
       "Birds",
+      "Gymnosperms",
       "Mammals",
       "Both (1) and (2)"
-    ],
-    "correct": 0,
+    ], "correct": 1,
     "explanation": "An overwhelming majority (99%) of animals and nearly all plants cannot maintain a constant internal environment[cite: 1281, 1283]. CORRECT: Gymnosperms (plants) are conformers and lack any physiological mechanism to regulate their internal temperature[cite: 1281]. TEMPTING WRONG: Choosing option (4) by mistakenly grouping birds with conformers, even though birds are endothermic regulators[cite: 1052, 1298]."
   },
   {
@@ -6604,10 +6282,9 @@ var allQuestions = [
     "options": [
       "Statement a, b & d are incorrect",
       "Statement b, c & d are correct",
-      "Statement c is incorrect",
-      "Statement c & d are correct"
-    ],
-    "correct": 2,
+      "Statement c & d are correct",
+      "Statement c is incorrect"
+    ], "correct": 3,
     "explanation": "To overcome altitude sickness there are physiological adaptations[cite: 1285]. CORRECT: Statement 'c' is incorrect because altitude sickness is a physiological breakdown that the body resolves through physiological changes, not physical/morphological ones[cite: 1285]. TEMPTING WRONG: Choosing option (1) because you overlook that statements a, b, and d are actually perfectly correct textbook facts[cite: 813, 814, 817]."
   },
   {
@@ -6634,10 +6311,9 @@ var allQuestions = [
     "options": [
       "Environmental resistance",
       "Intrinsic rate of natural increase",
-      "Carrying capacity",
-      "Exponential growth"
-    ],
-    "correct": 2,
+      "Exponential growth",
+      "Carrying capacity"
+    ], "correct": 3,
     "explanation": "Carrying capacity (K) is maximum limit of an environment to support an ecosystem[cite: 1290]. CORRECT: This exact environmental ceiling is defined as the ecosystem's carrying capacity ($K$)[cite: 1290]. TEMPTING WRONG: Choosing 'Environmental resistance', which is the collection of limiting forces that slow growth down as it approaches that carrying capacity ceiling[cite: 1014]."
   },
   {
@@ -6648,11 +6324,10 @@ var allQuestions = [
     "q": "Select the incorrect match w.r.t. population interactions[cite: 834, 835].",
     "options": [
       "Predation: Species A (+), Species B (-)",
-      "Parasitism: Species A (+), Species B (-)",
+      "Amensalism: Species A (+), Species B (-)",
       "Commensalism: Species A (+), Species B (0)",
-      "Amensalism: Species A (+), Species B (-)"
-    ],
-    "correct": 3,
+      "Parasitism: Species A (+), Species B (-)"
+    ], "correct": 1,
     "explanation": "(+) and (-) sign for amensalism is incorrect. It should be (-) and (0)[cite: 1292]. CORRECT: Amensalism is a (-,0) interaction where one species is harmed and the other is unaffected[cite: 1292]. TEMPTING WRONG: Commensalism (+,0) is correct[cite: 1214], so it cannot be chosen as the incorrect option."
   },
   {
@@ -6663,11 +6338,10 @@ var allQuestions = [
     "q": "Which one is of lower level in an expanding population[cite: 838, 839]?",
     "options": [
       "Biotic potential",
-      "Environmental resistance",
+      "Fertility rate",
       "Carrying capacity",
-      "Fertility rate"
-    ],
-    "correct": 1,
+      "Environmental resistance"
+    ], "correct": 3,
     "explanation": "Environmental resistance is less in expanding population[cite: 1294]. CORRECT: A population can only expand rapidly when environmental resistance (factors like predation and food shortages) is low[cite: 1294]. TEMPTING WRONG: Choosing 'Carrying capacity', which is a stable property of the habitat environment, not a variable level that drops during population growth."
   },
   {
@@ -6694,10 +6368,9 @@ var allQuestions = [
     "options": [
       "Mammals",
       "Bacteria, birds and lower plants",
-      "Majority of animals and nearly all plants",
-      "Birds"
-    ],
-    "correct": 2,
+      "Birds",
+      "Majority of animals and nearly all plants"
+    ], "correct": 3,
     "explanation": "Birds and mammals are regulators[cite: 1298]. CORRECT: The vast majority of animals (99%) and almost all plants are conformers[cite: 1218, 1281]. TEMPTING WRONG: Option (2) includes birds, which are highly efficient homeostatic regulators[cite: 1052, 1298]."
   },
   {
@@ -6708,11 +6381,10 @@ var allQuestions = [
     "q": "If in a pond there are 20 lotus plants last year and through reproduction 8 new plants are added, taking the current population to 28[cite: 854]. The birth rate is calculated as[cite: 854]:",
     "options": [
       "0.04 offspring per lotus per year",
-      "0.4 offspring per lotus per day",
+      "0.4 offspring per lotus per year",
       "0.28 offspring per lotus per day",
-      "0.4 offspring per lotus per year"
-    ],
-    "correct": 3,
+      "0.4 offspring per lotus per day"
+    ], "correct": 1,
     "explanation": "$\\frac{\\Delta N}{N\\Delta t} = \\frac{8}{20 \\times 1} = 0.4$[cite: 1300]. CORRECT: $\\frac{8 \\text{ new plants}}{20 \\text{ original plants}} = 0.4$ offspring per individual per year[cite: 1300]. TEMPTING WRONG: Selecting option (2) due to mechanical oversight, matching the number 0.4 but with the wrong time unit ('per day' instead of 'per year')."
   },
   {
@@ -6722,12 +6394,11 @@ var allQuestions = [
     "type": "Direct",
     "q": "The relationship of Yucca and Pronuba and that of clown fish and sea anemone are regarded as ________ and ________ respectively[cite: 859].",
     "options": [
-      "Mutualism, commensalism",
       "Amensalism, commensalism",
+      "Mutualism, commensalism",
       "Symbiosis, protocooperation",
       "Mutualism, predation"
-    ],
-    "correct": 0,
+    ], "correct": 1,
     "explanation": "Mutualism is (+, +) relationship and commensalism is (+, 0) relationship[cite: 1302]. CORRECT: The Yucca moth shares an obligate mutual dependence with the plant (+,+), while the clownfish benefits from the anemone without affecting it (+,0)[cite: 1302]. TEMPTING WRONG: Choosing option (3) because you confuse commensalism with non-obligated protocooperation."
   },
   {
@@ -6768,11 +6439,10 @@ var allQuestions = [
     "q": "The type of population interaction exhibited by visiting flamingos and resident fishes in South American Lakes, is also shown by",
     "options": [
       "Sparrow eating any seed",
-      "Cuckoo and crow",
       "Abingdon tortoise and goats in Galapagos Island",
+      "Cuckoo and crow",
       "Sea anemone and clown fish"
-    ],
-    "correct": 2,
+    ], "correct": 1,
     "explanation": "Abingdon tortoise and goats in Galapagos island show competition[cite: 1308]. CORRECT: Flamingos and resident fish compete for the same food source (zooplankton), which mirrors the resource competition between tortoises and goats[cite: 1308, 1349]. TEMPTING WRONG: Choosing cuckoo and crow, which is an example of brood parasitism rather than resource competition[cite: 1029]."
   },
   {
@@ -6783,11 +6453,10 @@ var allQuestions = [
     "q": "All birds and mammals[cite: 880]:",
     "options": [
       "Avoid stress by escaping in time only",
-      "Their body temperature changes with the ambient temperature",
+      "Maintain homeostasis by physiological or behavioural regulation",
       "Can regulate but only over a limited range of environmental conditions, beyond which they simply conform",
-      "Maintain homeostasis by physiological or behavioural regulation"
-    ],
-    "correct": 3,
+      "Their body temperature changes with the ambient temperature"
+    ], "correct": 1,
     "explanation": "All birds and mammals are regulators[cite: 1310]. CORRECT: Warm-blooded wildlife maintain constant internal conditions through advanced physiological and behavioral regulation[cite: 1310]. TEMPTING WRONG: Choosing option (3), which actually describes the limited tolerance of *partial* regulators."
   },
   {
@@ -6827,12 +6496,11 @@ var allQuestions = [
     "type": "Direct",
     "q": "Negative growth is represented by which of the following age pyramid graphs[cite: 922, 923]?",
     "options": [
-      "Urn shape",
       "Bell shape",
+      "Urn shape",
       "Triangular shape",
       "Both (1) & (2)"
-    ],
-    "correct": 0,
+    ], "correct": 1,
     "explanation": "Population having lesser number of pre-reproductive individuals than reproductive individuals is called negative population[cite: 1320]. CORRECT: An urn-shaped pyramid has a narrow base, which represents a shrinking population with negative growth[cite: 1320, 1323]. TEMPTING WRONG: Choosing 'bell shape', which represents zero net growth (a stable population) rather than negative growth[cite: 1237]."
   },
   {
@@ -6858,11 +6526,10 @@ var allQuestions = [
     "q": "Which statement stands true for an urn shaped pyramid[cite: 882]?",
     "options": [
       "This is shown by a mature stable population",
-      "This has a very high proportion of pre-reproductive individuals",
       "This has a very small number of pre-reproductive individuals",
+      "This has a very high proportion of pre-reproductive individuals",
       "This pyramid has least number of reproductive individuals"
-    ],
-    "correct": 2,
+    ], "correct": 1,
     "explanation": "Urn shaped age pyramid is shown by declining population[cite: 1326]. CORRECT: The key feature of an urn-shaped pyramid is its narrow base, which means it contains a small number of pre-reproductive individuals[cite: 1326]. TEMPTING WRONG: Option (1) describes a stable population, which is represented by a bell curve rather than an urn shape[cite: 1237]."
   },
   {

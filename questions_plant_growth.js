@@ -1,4 +1,4 @@
-// ─────────────────────────────────────────────────────────────
+﻿// ─────────────────────────────────────────────────────────────
 //  Plant Growth and Development – Question Bank
 //  Chapter: Class XI | Unit V
 // ─────────────────────────────────────────────────────────────
@@ -11,12 +11,11 @@ var allQuestions = [
     "type": "Statement",
     "q": "Which of the following statements is <b>correct</b> regarding plant development?<br>(a) Development is the sum of growth, differentiation, and reproduction<br>(b) Development is the sum of two processes: growth and differentiation<br>(c) Development is synonymous with growth only<br>(d) Development refers to differentiation but not growth",
     "options": [
-      "Only (a)",
       "Only (b)",
+      "Only (a)",
       "Both (a) and (b)",
       "Only (c)"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "NCERT exact line: 'Development is the sum of two processes: growth and differentiation.' Option (a) adds 'reproduction' which is NOT mentioned in NCERT — classic NTA one-word addition trap. Option (c) equates development with growth alone — wrong. Option (d) excludes growth — wrong. Common Mistake: Students add reproduction to the definition because development sounds like it should include everything. NCERT is specific — ONLY growth + differentiation."
   },
   {
@@ -42,11 +41,10 @@ var allQuestions = [
     "q": "Read the following statements:<br>I. All cells of a plant are descendents of the endosperm<br>II. The development from zygote to mature plant follows a random and unordered sequence<br>III. Trees continue to increase in height or girth over a period of time<br>IV. Leaves, flowers and fruits have unlimited dimensions<br><br>Which of the above statements is/are <b>correct</b>?",
     "options": [
       "I and III only",
-      "III only",
       "II and IV only",
+      "III only",
       "I, III and IV"
-    ],
-    "correct": 1,
+    ], "correct": 2,
     "explanation": "I: WRONG — NCERT says 'All cells of a plant are descendents of the zygote' (NOT endosperm). II: WRONG — NCERT says 'a precise and highly ordered succession of events' (NOT random). III: CORRECT — NCERT: 'trees continue to increase in height or girth over a period of time.' IV: WRONG — NCERT says 'have limited dimensions' (NOT unlimited). Only III is correct. NTA trap: Statement I changes ONE word (zygote → endosperm). Statement IV reverses 'limited' to 'unlimited.' Students who don't remember exact words get trapped."
   },
   {
@@ -193,10 +191,9 @@ var allQuestions = [
     "options": [
       "Two",
       "Three",
-      "Four",
-      "Five"
-    ],
-    "correct": 2,
+      "Five",
+      "Four"
+    ], "correct": 3,
     "explanation": "A: CORRECT — 'trees continue to increase in height or girth over a period of time.' B: CORRECT — same NCERT line mentions girth. C: CORRECT — 'leaves, flowers and fruits of the same tree not only have limited dimensions.' D: CORRECT — 'appear and fall periodically.' E: INCORRECT — NCERT mentions height AND girth (not 'root length only' — this is fabricated and restrictive). A, B, C, D = Four correct. NTA trap: Statement E uses 'unlimited increase' (which applies to trees) but restricts it to 'root length only' — a subtle but critical distortion of the NCERT concept."
   },
   {
@@ -266,12 +263,11 @@ var allQuestions = [
     "type": "HowMany",
     "q": "How many of the following represent the correct developmental sequence as mentioned in NCERT?<br>(A) Seed → Seedling<br>(B) Seedling → Plantlet<br>(C) Plantlet → Mature plant<br>(D) Mature plant → Spore formation<br>(E) Development ends with formation of seeds",
     "options": [
-      "One",
-      "Two",
       "Three",
+      "Two",
+      "One",
       "Four"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "NCERT mentions: 'seed, seedling, plantlet, mature plant' — so A (Seed → Seedling), B (Seedling → Plantlet), C (Plantlet → Mature plant) are all correct sequence steps. D: WRONG — 'Spore formation' is NOT mentioned in this context. This belongs to lower plants/pteridophytes, not the angiospermic developmental sequence described here. E: WRONG — NCERT says development ends with death ('and eventually they die'), not just seed formation. A, B, C = Three correct. NTA trap: Option E sounds logical but NCERT explicitly mentions death as the terminal event."
   },
   {
@@ -328,10 +324,9 @@ var allQuestions = [
     "options": [
       "I and II only",
       "II and IV only",
-      "I and III only",
-      "III and IV only"
-    ],
-    "correct": 2,
+      "III and IV only",
+      "I and III only"
+    ], "correct": 3,
     "explanation": "I: CORRECT — NCERT: 'The seed germinates when favourable conditions for growth exist in the environment.' II: WRONG — Dormancy is NOT irreversible; NCERT says seeds 'resume metabolic activities' when conditions improve — proving dormancy is reversible. III: CORRECT — NCERT: 'Once favourable conditions return, the seeds resume metabolic activities and growth takes place.' IV: WRONG — It is the FIRST step, not last: 'The first step in the process of plant growth is seed germination.' NTA trap: II adds 'irreversible' — one word that converts a correct statement into wrong. IV swaps 'first' with 'last' — classic reversal trap."
   },
   {
@@ -341,12 +336,11 @@ var allQuestions = [
     "type": "HowMany",
     "q": "How many of the following statements are <b>correct</b> as per NCERT?<br>(A) All plant organs are made up of a variety of tissues<br>(B) There is a relationship between the structure of a cell and the function it performs<br>(C) All cells of a plant are descendents of the endosperm<br>(D) Development from zygote follows a precise and highly ordered succession of events<br>(E) Extrinsic factors refer to factors internal to the plant",
     "options": [
-      "One",
-      "Two",
       "Three",
+      "Two",
+      "One",
       "Four"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "A: CORRECT — 'All plant organs are made up of a variety of tissues.' B: CORRECT — NCERT asks 'is there any relationship between the structure of a cell, a tissue, an organ and the function they perform?' (implied yes). C: WRONG — descendents of ZYGOTE, not endosperm. D: CORRECT — 'precise and highly ordered succession of events.' E: WRONG — Extrinsic = EXTERNAL, not internal. NCERT: 'intrinsic (internal) and extrinsic (external).' A, B, D = Three correct. NTA trap: C swaps zygote→endosperm (one-word change). E swaps the bracket definitions — extrinsic is labelled as internal instead of external."
   },
   {
@@ -402,11 +396,10 @@ var allQuestions = [
     "q": "According to NCERT, in the complex body organisation formed during development, all of the following are produced <b>EXCEPT:</b>",
     "options": [
       "Branches",
-      "Seeds",
       "Thorns",
+      "Seeds",
       "Fruits"
-    ],
-    "correct": 2,
+    ], "correct": 1,
     "explanation": "NCERT exact list: 'produces roots, leaves, branches, flowers, fruits, and seeds, and eventually they die.' Thorns are NOT mentioned in this specific NCERT line. Options A (branches), B (seeds), D (fruits) are all explicitly listed in the passage. NTA trap: Thorns are real plant structures studied in morphology of flowering plants, and students may assume they're part of any general plant development list. But this question tests recall of the EXACT NCERT sentence — and thorns are absent from it."
   },
   {
@@ -491,12 +484,11 @@ var allQuestions = [
     "type": "Statement",
     "q": "Read the following statements carefully:<br>I. Growth is accompanied by metabolic processes that are only anabolic in nature<br>II. Expansion of a leaf is considered as growth<br>III. Swelling of a piece of wood placed in water is considered as growth<br>IV. Growth occurs at the expense of energy<br><br>Which of the above statements is/are <b>correct</b>?",
     "options": [
-      "II and IV only",
+      "I, II, III and IV",
       "I, II and IV only",
       "II, III and IV only",
-      "I, II, III and IV"
-    ],
-    "correct": 0,
+      "II and IV only"
+    ], "correct": 3,
     "explanation": "I: WRONG — NCERT says 'both anabolic and catabolic' NOT only anabolic. The word 'only' makes it wrong. II: CORRECT — NCERT: 'expansion of a leaf is growth.' III: WRONG — Swelling of wood in water is imbibition (reversible), hence NOT true growth. NCERT raises this as a contrast question implying it is NOT growth because growth must be irreversible. IV: CORRECT — NCERT: 'occur at the expense of energy.' So II and IV only. NTA trap: Statement I adds 'only' before anabolic — a classic one-word-addition trap. Statement III is the famous NCERT trap question about imbibition vs growth."
   },
   {
@@ -536,12 +528,11 @@ var allQuestions = [
     "type": "Except",
     "q": "All of the following are listed as parameters to measure growth in NCERT, <b>EXCEPT:</b>",
     "options": [
-      "Cell number",
-      "Dry weight",
       "Colour intensity",
+      "Dry weight",
+      "Cell number",
       "Volume"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "NCERT exact list: 'increase in fresh weight, dry weight, length, area, volume and cell number.' Colour intensity is NOT mentioned as a growth parameter anywhere in this NCERT section. Options A (cell number), B (dry weight), D (volume) are all explicitly listed. NTA trap: 'Colour intensity' might sound plausible as a measurable biological parameter, but NCERT is specific about only six parameters for growth measurement."
   },
   {
@@ -627,11 +618,10 @@ var allQuestions = [
     "q": "Lateral meristems appear later in life in all of the following, <b>EXCEPT:</b>",
     "options": [
       "Dicotyledonous plants",
-      "Gymnosperms",
       "Monocotyledonous plants",
+      "Gymnosperms",
       "Both (a) and (b)"
-    ],
-    "correct": 2,
+    ], "correct": 1,
     "explanation": "NCERT exact line: 'in dicotyledonous plants and gymnosperms, the lateral meristems, vascular cambium and cork-cambium appear later in life.' NCERT specifically mentions dicots and gymnosperms — monocots are NOT mentioned. In fact, most monocots typically lack vascular cambium and secondary growth. Options A and B are both explicitly mentioned in NCERT. NTA trap: Students often assume 'all plants have lateral meristems' and include monocots. NCERT is very specific about dicots and gymnosperms only."
   },
   {
@@ -716,12 +706,11 @@ var allQuestions = [
     "type": "HowMany",
     "q": "How many of the following statements are <b>correct</b>?<br>(A) Growth of a pollen tube is measured in terms of surface area<br>(B) Growth in a dorsiventral leaf is measured by increase in length<br>(C) Maize root apical meristem gives rise to more than 17,500 new cells per hour<br>(D) Watermelon cells may increase in size by upto 3,50,000 times<br>(E) Growth in maize is expressed as increase in cell size",
     "options": [
-      "Two",
-      "Three",
       "Four",
+      "Three",
+      "Two",
       "One"
-    ],
-    "correct": 0,
+    ], "correct": 2,
     "explanation": "A: WRONG — Pollen tube growth is measured by LENGTH, not surface area. B: WRONG — Dorsiventral leaf growth is measured by SURFACE AREA, not length. C: CORRECT — NCERT: 'more than 17,500 new cells per hour.' D: CORRECT — NCERT: 'increase in size by upto 3,50,000 times.' E: WRONG — In maize, growth is expressed as increase in CELL NUMBER, not cell size. Cell size is the watermelon parameter. A, B, E have swapped parameters. Only C and D are correct = Two. NTA trap: This question specifically tests the most commonly confused pairs — pollen tube↔leaf (length↔area) and maize↔watermelon (cell number↔cell size). Statements A, B, E each contain exactly ONE swapped word."
   },
   {
@@ -732,11 +721,10 @@ var allQuestions = [
     "q": "Identify the <b>correct</b> pair of statements:<br>I. In watermelon, growth is expressed as increase in cell number<br>II. In maize root apical meristem, growth is expressed as increase in cell number<br>III. Product cells of meristems retain the capacity to divide indefinitely<br>IV. Open form of growth is unique to animal systems",
     "options": [
       "I and III",
-      "II only",
+      "III and IV",
       "I and IV",
-      "III and IV"
-    ],
-    "correct": 1,
+      "II only"
+    ], "correct": 3,
     "explanation": "I: WRONG — In watermelon, growth is expressed as increase in CELL SIZE, not cell number. NCERT: 'the latter (watermelon) expresses growth as increase in size of the cell.' II: CORRECT — NCERT: 'In the former (maize), growth is expressed as increase in cell number.' III: WRONG — NCERT: 'The product, however, soon loses the capacity to divide.' They do NOT retain it indefinitely. IV: WRONG — Open form of growth is characteristic of PLANTS, not animals. NCERT describes it in context of plant meristematic activity. Only II is correct. NTA trap: Statement I swaps watermelon's parameter from cell size to cell number — the single most common confusion in this topic."
   },
   {
@@ -941,12 +929,11 @@ var allQuestions = [
     "type": "Statement",
     "q": "Read the following statements about the meristematic phase:<br>I. Cells are rich in protoplasm and possess large conspicuous nuclei<br>II. Cell walls are secondary in nature, thick and lignified<br>III. Cells have abundant plasmodesmatal connections<br>IV. Cell walls are primary in nature, thin and cellulosic<br><br>Which statements are <b>correct</b>?",
     "options": [
-      "I, III and IV only",
+      "I and II only",
       "I, II and III only",
       "II and IV only",
-      "I and II only"
-    ],
-    "correct": 0,
+      "I, III and IV only"
+    ], "correct": 3,
     "explanation": "NCERT on meristematic phase: 'cells in this region are rich in protoplasm, possess large conspicuous nuclei' (I correct). 'Their cell walls are primary in nature, thin and cellulosic' (IV correct, II wrong). 'with abundant plasmodesmatal connections' (III correct). Statement II says 'secondary, thick and lignified' which describes MATURATION phase cells (wall thickening), not meristematic cells. I, III, IV correct. NTA trap: Statement II is the classic phase-swap trap — characteristics of maturation placed in meristematic phase context. This is tested repeatedly in NEET."
   },
   {
@@ -956,12 +943,11 @@ var allQuestions = [
     "type": "HowMany",
     "q": "How many of the following are characteristics of the <b>phase of elongation</b> as per NCERT?<br>(A) Increased vacuolation<br>(B) Cell enlargement<br>(C) New cell wall deposition<br>(D) Wall thickening and protoplasmic modifications<br>(E) Cells attain their maximal size",
     "options": [
-      "Two",
       "Three",
+      "Two",
       "Four",
       "Five"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "NCERT on elongation phase: 'Increased vacuolation, cell enlargement and new cell wall deposition are the characteristics of the cells in this phase.' A: CORRECT. B: CORRECT. C: CORRECT. D: WRONG — 'wall thickening and protoplasmic modifications' are features of the MATURATION phase, not elongation. E: WRONG — 'attain their maximal size' is also a maturation phase feature. A, B, C = Three correct. NTA trap: Statements D and E are maturation phase features placed here to confuse. The key distinction: elongation has 'new cell wall deposition' while maturation has 'wall thickening.' These are DIFFERENT processes — one adds new wall, the other thickens existing wall."
   },
   {
@@ -1196,12 +1182,11 @@ var allQuestions = [
     "type": "Statement",
     "q": "Identify the <b>correct</b> pair of statements:<br>I. 'r' in W1 = W0 e^rt is also called efficiency index<br>II. Arithmetic growth gives a sigmoid curve<br>III. Absolute growth rate is the total growth per unit time<br>IV. Relative growth rate is the total growth regardless of initial size",
     "options": [
-      "I and III",
+      "III and IV",
       "II and IV",
       "I and II",
-      "III and IV"
-    ],
-    "correct": 0,
+      "I and III"
+    ], "correct": 3,
     "explanation": "I: CORRECT — NCERT: 'r is the relative growth rate and is also the measure of the ability of the plant to produce new plant material, referred to as efficiency index.' II: WRONG — Arithmetic growth gives LINEAR curve, not sigmoid. Sigmoid is geometric. III: CORRECT — NCERT: 'measurement and the comparison of total growth per unit time is called the absolute growth rate.' IV: WRONG — Relative growth rate is expressed 'per unit initial parameter,' NOT regardless of initial size. It specifically ACCOUNTS FOR initial size. I and III correct. NTA trap: Statement IV swaps the key distinction — absolute is total growth, relative is growth PER UNIT initial parameter. Reversing this is a classic NEET error."
   },
   {
@@ -1317,11 +1302,10 @@ var allQuestions = [
     "q": "Read the following statements carefully and select the <b>correct</b> one:<br>(a) In arithmetic growth, both daughter cells continue to divide and a sigmoid curve is obtained<br>(b) In geometric growth, only one daughter cell divides and a linear curve is obtained<br>(c) In arithmetic growth, only one daughter cell divides and a linear curve is obtained<br>(d) In geometric growth, only one daughter cell divides and a sigmoid curve is obtained",
     "options": [
       "Only (a)",
-      "Only (b)",
       "Only (c)",
+      "Only (b)",
       "Only (d)"
-    ],
-    "correct": 2,
+    ], "correct": 1,
     "explanation": "From NCERT: Arithmetic growth — 'only one daughter cell continues to divide' + 'a linear curve is obtained' → (c) is CORRECT. (a) is WRONG — describes geometric division pattern with geometric curve but labels it arithmetic. (b) is WRONG — arithmetic division pattern with arithmetic curve but labels it geometric. (d) is WRONG — arithmetic division pattern with geometric curve labelled as geometric. NTA trap: This question tests TWO associations simultaneously: (1) which daughter cells divide, and (2) which curve is produced. Options (a), (b), (d) each swap one or both elements. Students must correctly match: Arithmetic = one daughter divides + linear; Geometric = both divide + sigmoid."
   },
   {
@@ -1451,12 +1435,11 @@ var allQuestions = [
     "type": "Statement",
     "q": "Read the following statements:<br>I. Elongation phase cells show new cell wall deposition<br>II. Maturation phase cells show new cell wall deposition<br>III. Elongation phase cells show wall thickening<br>IV. Maturation phase cells show wall thickening<br><br>Which statements are <b>correct</b>?",
     "options": [
-      "I and IV only",
+      "II and IV only",
       "II and III only",
       "I and III only",
-      "II and IV only"
-    ],
-    "correct": 0,
+      "I and IV only"
+    ], "correct": 3,
     "explanation": "NCERT: 'new cell wall deposition' is a characteristic of ELONGATION phase (I correct, II wrong). 'wall thickening' is a characteristic of MATURATION phase (IV correct, III wrong). So I and IV form the correct pair. NTA trap: This question DIRECTLY tests the most critical distinction: 'new cell wall deposition' (elongation) vs 'wall thickening' (maturation). Options B and C each swap one association. Students who treat these as synonyms will fail. ULTRA HIGH YIELD — this distinction has appeared in NEET 2020 and 2022."
   },
   {
@@ -1466,12 +1449,11 @@ var allQuestions = [
     "type": "HowMany",
     "q": "How many of the following correctly describe features of <b>arithmetic</b> growth?<br>(A) Only one daughter cell continues to divide<br>(B) The other daughter cell differentiates and matures<br>(C) Both progeny cells retain the ability to divide<br>(D) Root elongating at a constant rate is an example<br>(E) A sigmoid curve is obtained when plotted against time",
     "options": [
-      "Two",
       "Three",
+      "Two",
       "Four",
       "Five"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "A: CORRECT — NCERT: 'only one daughter cell continues to divide.' B: CORRECT — NCERT: 'while the other differentiates and matures.' C: WRONG — This describes GEOMETRIC growth, not arithmetic. NCERT: 'both the progeny cells...retain the ability to divide' is said for geometric growth. D: CORRECT — NCERT: 'simplest expression of arithmetic growth is exemplified by a root elongating at a constant rate.' E: WRONG — Arithmetic growth gives LINEAR curve, not sigmoid. A, B, D = Three correct. NTA trap: C and E are geometric growth features placed in arithmetic context. Students who confuse the two growth types will incorrectly include them."
   },
   {
@@ -1738,10 +1720,9 @@ var allQuestions = [
     "options": [
       "Water",
       "Oxygen",
-      "Soil pH",
-      "Nutrients"
-    ],
-    "correct": 2,
+      "Nutrients",
+      "Soil pH"
+    ], "correct": 3,
     "explanation": "NCERT: 'water, oxygen and nutrients as very essential elements for growth.' Soil pH is NOT mentioned as an essential condition for growth in this specific NCERT section. While soil pH is biologically relevant, the NCERT introduction to conditions for growth specifically lists only water, oxygen, and nutrients. Additionally, NCERT mentions optimum temperature, light, and gravity — but NOT soil pH. NTA trap: Soil pH is a valid concept from mineral nutrition chapter but is NOT listed here. Students who conflate chapters may incorrectly include it."
   },
   {
@@ -1827,11 +1808,10 @@ var allQuestions = [
     "q": "Cells derived from all of the following undergo differentiation as per NCERT, <b>EXCEPT:</b>",
     "options": [
       "Root apical meristem",
-      "Shoot apical meristem",
+      "Permanent tissues",
       "Cambium",
-      "Permanent tissues"
-    ],
-    "correct": 3,
+      "Shoot apical meristem"
+    ], "correct": 1,
     "explanation": "NCERT: 'The cells derived from root apical and shoot-apical meristems and cambium differentiate and mature to perform specific functions.' Root apical meristem (A), shoot apical meristem (B), and cambium (C) are all explicitly mentioned as sources of cells that differentiate. Permanent tissues (D) are ALREADY differentiated — they don't undergo differentiation; they are the PRODUCT of differentiation. NTA trap: 'Permanent tissues' is a valid botanical term but represents cells that have ALREADY completed differentiation. Students who confuse the source (meristems/cambium) with the product (permanent tissues) will pick the wrong answer."
   },
   {
@@ -1917,11 +1897,10 @@ var allQuestions = [
     "q": "How many of the following are examples of <b>dedifferentiation</b> as per NCERT?<br>(A) Formation of interfascicular cambium from parenchyma cells<br>(B) Formation of cork cambium from parenchyma cells<br>(C) Formation of tracheary elements from meristematic cells<br>(D) Formation of vascular cambium from procambium<br>(E) Formation of secondary xylem from vascular cambium",
     "options": [
       "One",
-      "Two",
+      "Four",
       "Three",
-      "Four"
-    ],
-    "correct": 1,
+      "Two"
+    ], "correct": 3,
     "explanation": "NCERT specifically mentions: 'formation of meristems – interfascicular cambium and cork cambium from fully differentiated parenchyma cells' as dedifferentiation examples. A: CORRECT — interfascicular cambium from parenchyma = dedifferentiation. B: CORRECT — cork cambium from parenchyma = dedifferentiation. C: WRONG — Tracheary elements from meristematic cells = DIFFERENTIATION, not dedifferentiation. D: WRONG — Vascular cambium from procambium is NOT mentioned as a dedifferentiation example. Procambium is itself meristematic. E: WRONG — Secondary xylem from vascular cambium = REDIFFERENTIATION. A and B = Two correct. NTA trap: Students often add vascular cambium (D) to the dedifferentiation list, but NCERT only mentions INTERFASCICULAR cambium and CORK cambium."
   },
   {
@@ -2036,12 +2015,11 @@ var allQuestions = [
     "type": "Statement",
     "q": "Consider the following statements:<br>I. Plant growth is intimately linked to the water status<br>II. Oxygen is required for cell enlargement through turgidity<br>III. Nutrients include macro and micro essential elements<br>IV. Any deviation from optimum temperature range could be detrimental to survival<br><br>Which statements are <b>correct</b>?",
     "options": [
-      "I, III and IV only",
       "I, II and III only",
+      "I, III and IV only",
       "II, III and IV only",
       "I, II, III and IV"
-    ],
-    "correct": 0,
+    ], "correct": 1,
     "explanation": "I: CORRECT — NCERT: 'plant growth and further development is intimately linked to the water status.' II: WRONG — Cell enlargement and turgidity are linked to WATER, not oxygen. NCERT: 'cell enlargement which in turn requires water. Turgidity of cells helps in extension growth.' Oxygen helps in 'releasing metabolic energy.' III: CORRECT — NCERT: 'Nutrients (macro and micro essential elements).' IV: CORRECT — NCERT: 'Any deviation from this range could be detrimental to its survival.' I, III, IV correct. NTA trap: Statement II assigns WATER's role to OXYGEN — the classic role swap."
   },
   {
@@ -2081,12 +2059,11 @@ var allQuestions = [
     "type": "Statement",
     "q": "Read the following statements about position-dependent differentiation:<br>I. Cells positioned away from root apical meristem differentiate as root-cap cells<br>II. Cells pushed to the periphery mature as root-cap cells<br>III. The final structure at maturity is determined by the location of the cell<br>IV. Cells pushed to the periphery mature as epidermis<br><br>Which statements are <b>correct</b>?",
     "options": [
-      "I, III and IV only",
+      "I, II, III and IV",
       "II, III and IV only",
       "I and II only",
-      "I, II, III and IV"
-    ],
-    "correct": 0,
+      "I, III and IV only"
+    ], "correct": 3,
     "explanation": "I: CORRECT — NCERT: 'cells positioned away from root apical meristems differentiate as root-cap cells.' II: WRONG — Cells at the periphery mature as EPIDERMIS, not root-cap. NCERT: 'those pushed to the periphery mature as epidermis.' III: CORRECT — NCERT: 'final structure at maturity of a cell/tissue is also determined by the location of the cell within.' IV: CORRECT — NCERT: 'those pushed to the periphery mature as epidermis.' I, III, IV correct. NTA trap: Statement II swaps EPIDERMIS with ROOT-CAP — the two examples of position-dependent differentiation are reversed. Away from tip → root cap. Periphery → epidermis. NEVER the reverse."
   },
   {
@@ -2141,12 +2118,11 @@ var allQuestions = [
     "type": "HowMany",
     "q": "How many of the following statements are <b>correct</b>?<br>(A) Turgidity of cells helps in extension growth<br>(B) Water provides the medium for enzymatic activities<br>(C) During differentiation, cells undergo changes only in cell walls, not protoplasm<br>(D) Tracheary elements lose protoplasm and develop lignocellulosic secondary walls<br>(E) Nutrients are required only for energy and not for protoplasm synthesis",
     "options": [
-      "Two",
       "Three",
+      "Two",
       "Four",
       "Five"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "A: CORRECT — NCERT: 'Turgidity of cells helps in extension growth.' B: CORRECT — NCERT: 'Water also provides the medium for enzymatic activities.' C: WRONG — NCERT says changes in BOTH 'cell walls and protoplasm.' Not only cell walls. D: CORRECT — NCERT: 'cells would lose their protoplasm' and 'develop lignocellulosic secondary cell walls.' E: WRONG — NCERT says nutrients are for 'synthesis of protoplasm AND act as source of energy' — both, not energy only. A, B, D = Three correct. NTA trap: C uses 'only' to make a correct statement wrong. E reverses the NCERT. Both traps use the word 'only' to create incorrect statements from correct NCERT facts."
   },
   {
@@ -2173,10 +2149,9 @@ var allQuestions = [
     "options": [
       "I and II only",
       "II and IV only",
-      "I, III and IV only",
-      "I, II and III only"
-    ],
-    "correct": 2,
+      "I, II and III only",
+      "I, III and IV only"
+    ], "correct": 3,
     "explanation": "I: CORRECT — NCERT: 'such meristems/tissues are able to divide and produce cells that...get redifferentiated.' II: WRONG — Redifferentiated cells LOSE the capacity to divide, they don't regain it. Regaining is DEDIFFERENTIATION. III: CORRECT — NCERT: 'once again lose the capacity to divide but mature to perform specific functions, i.e., get redifferentiated.' IV: CORRECT — Secondary xylem and phloem from dedifferentiated cambium are implied products of redifferentiation. I, III, IV correct. NTA trap: Statement II assigns DEDIFFERENTIATION's definition to REDIFFERENTIATION — the classic definition swap. This is tested almost every year."
   },
   {
@@ -2398,10 +2373,9 @@ var allQuestions = [
     "options": [
       "I, II, III and IV",
       "II, III, IV and V",
-      "I, II and III only",
-      "I, III, IV and V"
-    ],
-    "correct": 2,
+      "I, III, IV and V",
+      "I, II and III only"
+    ], "correct": 3,
     "explanation": "I: CORRECT — NCERT: 'cell enlargement which in turn requires water' and 'Water also provides the medium for enzymatic activities needed for growth.' II: CORRECT — NCERT: 'Environmental signals such as light and gravity also affect certain phases/stages of growth.' III: CORRECT — NCERT: 'final structure at maturity of a cell/tissue is also determined by the location of the cell within.' IV: WRONG — Cells away from RAM differentiate as ROOT-CAP CELLS, not epidermis. NCERT: 'cells positioned away from root apical meristems differentiate as root-cap cells.' Epidermis forms from cells pushed to the PERIPHERY. V: WRONG — Nutrients are for 'synthesis of protoplasm AND act as source of energy' — not ONLY metabolic energy release (that's oxygen's role). I, II, III correct. NTA trap: Statement IV swaps 'root-cap cells' with 'epidermis' (position-product swap). Statement V swaps NUTRIENTS' role with OXYGEN's role and adds 'only.' This final question integrates Conditions for Growth AND Open Differentiation simultaneously."
   },
   {
@@ -2441,12 +2415,11 @@ var allQuestions = [
     "type": "HowMany",
     "q": "How many of the following are examples of heterophylly mentioned in NCERT?<br>(A) Cotton<br>(B) Coriander<br>(C) Larkspur<br>(D) Buttercup<br>(E) Tobacco",
     "options": [
-      "Two",
-      "Three",
       "Four",
+      "Three",
+      "Two",
       "Five"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "NCERT mentions heterophylly in: 'cotton, coriander and larkspur' (A, B, C — due to phases of life/juvenile vs mature) and 'buttercup' (D — due to environment, air vs water leaves). Tobacco (E) is NOT mentioned as a heterophylly example — tobacco is mentioned in the context of Skoog's callus experiment. A, B, C, D = Four correct. NTA trap: Tobacco appears frequently in this chapter (Skoog's experiment) but NOT in heterophylly context. Students who conflate chapter contexts may incorrectly include it."
   },
   {
@@ -2472,11 +2445,10 @@ var allQuestions = [
     "q": "Read the following statements about heterophylly:<br>I. In cotton, coriander and larkspur, heterophylly is due to environment<br>II. In buttercup, heterophylly is due to phases of life<br>III. In cotton, juvenile plant leaves differ in shape from mature plant leaves<br>IV. In buttercup, leaves produced in air differ from those in water<br><br>Which statements are <b>correct</b>?",
     "options": [
       "I and II only",
-      "III and IV only",
+      "I, III and IV only",
       "I, II and III only",
-      "I, III and IV only"
-    ],
-    "correct": 1,
+      "III and IV only"
+    ], "correct": 3,
     "explanation": "I: WRONG — In cotton, coriander and larkspur, heterophylly is due to PHASES OF LIFE (juvenile vs mature), NOT environment. II: WRONG — In buttercup, heterophylly is due to ENVIRONMENT (air vs water), NOT phases of life. Statements I and II have the CAUSES SWAPPED. III: CORRECT — NCERT: 'leaves of the juvenile plant are different in shape from those in mature plants' (said in context of cotton, coriander, larkspur). IV: CORRECT — NCERT: 'difference in shapes of leaves produced in air and those produced in water in buttercup.' III and IV correct. NTA trap: Statements I and II are the CLASSIC CAUSE-SWAP trap — cotton/coriander/larkspur (phase of life) is swapped with buttercup (environment). THE MOST TESTED confusion in this section."
   },
   {
@@ -2486,12 +2458,11 @@ var allQuestions = [
     "type": "Except",
     "q": "Heterophylly due to phases of life (juvenile vs mature) is seen in all of the following, <b>EXCEPT:</b>",
     "options": [
-      "Cotton",
-      "Coriander",
       "Buttercup",
+      "Coriander",
+      "Cotton",
       "Larkspur"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "NCERT: 'heterophylly in cotton, coriander and larkspur' — these show heterophylly due to phases of life (juvenile vs mature). NCERT separately states: 'buttercup...represent the heterophyllous development due to environment.' Buttercup shows heterophylly due to ENVIRONMENT (air vs water leaves), NOT phases of life. NTA trap: All four plants show heterophylly, but the CAUSE differs. Cotton, coriander, larkspur = phase of life. Buttercup = environment. Students who remember all four as heterophylly examples but forget the distinction in cause will miss this."
   },
   {
@@ -2516,12 +2487,11 @@ var allQuestions = [
     "type": "Statement",
     "q": "Consider the following statements about intrinsic factors controlling development:<br>I. Intracellular factors include genetic factors<br>II. Intercellular factors include chemicals such as plant growth regulators<br>III. Intracellular factors include plant growth regulators<br>IV. Intercellular factors include genetic factors<br><br>Which statements are <b>correct</b>?",
     "options": [
-      "I and II only",
+      "I and IV only",
       "III and IV only",
       "I, II and III only",
-      "I and IV only"
-    ],
-    "correct": 0,
+      "I and II only"
+    ], "correct": 3,
     "explanation": "NCERT: 'The former (intrinsic) includes both intracellular (genetic) or intercellular factors (chemicals such as plant growth regulators).' I: CORRECT — Intracellular = genetic. II: CORRECT — Intercellular = PGRs. III: WRONG — PGRs are INTERCELLULAR, not intracellular. IV: WRONG — Genetic factors are INTRACELLULAR, not intercellular. Statements III and IV SWAP the subcategories. I and II correct. NTA trap: This is a SUBCATEGORY SWAP trap. INTRAcellular = genetic (inside cell) and INTERcellular = PGRs (between cells). Students who confuse intra/inter prefixes will swap the assignments."
   },
   {
@@ -2591,12 +2561,11 @@ var allQuestions = [
     "type": "HowMany",
     "q": "How many of the following PGR-chemical nature pairs are <b>correctly</b> matched?<br>(A) IAA — Indole compound<br>(B) Kinetin — Terpene<br>(C) ABA — Derivative of carotenoids<br>(D) GA₃ — Adenine derivative<br>(E) Ethylene — Gas (C₂H₄)",
     "options": [
-      "Two",
       "Three",
+      "Two",
       "Four",
       "Five"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "A: CORRECT — NCERT: 'indole compounds (indole-3-acetic acid, IAA).' B: WRONG — Kinetin is an ADENINE DERIVATIVE, not terpene. NCERT: 'adenine derivatives (N⁶-furfurylamino purine, kinetin).' C: CORRECT — NCERT: 'derivatives of carotenoids (abscisic acid, ABA).' D: WRONG — GA₃ is a TERPENE, not adenine derivative. NCERT: 'terpenes (gibberellic acid, GA₃).' E: CORRECT — NCERT: 'gases (ethylene, C₂H₄).' A, C, E = Three correct. NTA trap: Statements B and D swap the chemical natures of KINETIN (adenine) and GA₃ (terpene). This is a CROSS-SWAP — each statement takes the OTHER hormone's chemical nature. Ultra high yield."
   },
   {
@@ -2652,11 +2621,10 @@ var allQuestions = [
     "q": "Consider the following statements about auxin discovery:<br>I. Charles Darwin and Francis Darwin observed phototropism in coleoptiles of oat seedlings<br>II. The tip of coleoptile was the site of transmittable influence<br>III. F.W. Went isolated auxin from tips of coleoptiles of canary grass<br>IV. Coleoptiles grew towards the light source showing phototropism<br><br>Which statements are <b>correct</b>?",
     "options": [
       "I and III only",
-      "II and IV only",
+      "I, II, III and IV",
       "I, II and IV only",
-      "I, II, III and IV"
-    ],
-    "correct": 1,
+      "II and IV only"
+    ], "correct": 3,
     "explanation": "I: WRONG — Darwins observed phototropism in CANARY GRASS, not oat. NCERT: 'coleoptiles of canary grass responded to unilateral illumination.' II: CORRECT — NCERT: 'tip of coleoptile was the site of transmittable influence that caused the bending.' III: WRONG — Went isolated auxin from OAT seedlings, not canary grass. NCERT: 'Auxin was isolated by F.W. Went from tips of coleoptiles of oat seedlings.' IV: CORRECT — NCERT: 'growing towards the light source (phototropism).' II and IV correct. NTA trap: Statements I and III perform a CROSS-SWAP — Darwin is paired with oat (Went's plant) and Went is paired with canary grass (Darwin's plant). ULTRA HIGH YIELD trap."
   },
   {
@@ -2666,12 +2634,11 @@ var allQuestions = [
     "type": "HowMany",
     "q": "How many of the following statements about gibberellin discovery are <b>correct</b>?<br>(A) 'Bakanae' means foolish seedling disease<br>(B) It affected rice seedlings<br>(C) It was caused by a fungal pathogen Gibberella fujikuroi<br>(D) E. Kurosawa (1926) treated rice seedlings with sterile filtrates of the fungus<br>(E) F.W. Went first reported the symptoms of bakanae disease",
     "options": [
-      "Two",
-      "Three",
       "Four",
+      "Three",
+      "Two",
       "Five"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "A: CORRECT — NCERT: ''bakanae' (foolish seedling) disease.' B: CORRECT — NCERT: 'disease of rice seedlings.' C: CORRECT — NCERT: 'caused by a fungal pathogen Gibberella fujikuroi.' D: CORRECT — NCERT: 'E. Kurosawa (1926) reported the appearance of symptoms of the disease in rice seedlings when they were treated with sterile filtrates of the fungus.' E: WRONG — F.W. Went is associated with AUXIN isolation from oat, NOT bakanae disease. A, B, C, D = Four correct. NTA trap: Statement E swaps KUROSAWA with F.W. WENT — a scientist-swap trap. Both are involved in hormone discovery but for completely different hormones and plants."
   },
   {
@@ -2683,10 +2650,9 @@ var allQuestions = [
     "options": [
       "Extracts of vascular tissues",
       "Yeast extract",
-      "Gibberellic acid solution",
-      "Coconut milk"
-    ],
-    "correct": 2,
+      "Coconut milk",
+      "Gibberellic acid solution"
+    ], "correct": 3,
     "explanation": "NCERT: 'callus proliferated only if, in addition to auxins the nutrients medium was supplemented with one of the following: extracts of vascular tissues, yeast extract, coconut milk or DNA.' Gibberellic acid solution (C) is NOT in this list. NCERT lists four supplements: vascular tissue extracts, yeast extract, coconut milk, DNA. NTA trap: Gibberellic acid is a PGR from the same chapter, making it seem plausible. But NCERT's list for callus proliferation is very specific — students must recall all four supplements exactly."
   },
   {
@@ -2758,10 +2724,9 @@ var allQuestions = [
     "options": [
       "Three",
       "Four",
-      "Five",
-      "Six"
-    ],
-    "correct": 2,
+      "Six",
+      "Five"
+    ], "correct": 3,
     "explanation": "NCERT: 'growth promoting activities, such as cell division, cell enlargement, pattern formation, tropic growth, flowering, fruiting and seed formation.' A: CORRECT (cell division). B: CORRECT (cell enlargement). C: CORRECT (pattern formation). D: WRONG — Dormancy is a GROWTH INHIBITING activity. E: CORRECT (tropic growth). F: CORRECT (flowering, fruiting, seed formation). G: WRONG — Abscission is a GROWTH INHIBITING activity. A, B, C, E, F = Five correct. NTA trap: Statements D (dormancy) and G (abscission) are INHIBITING activities placed among promoting ones. NCERT separately lists 'dormancy and abscission' under growth INHIBITING activities of ABA."
   },
   {
@@ -2786,12 +2751,11 @@ var allQuestions = [
     "type": "Statement",
     "q": "Read the following statements and identify the <b>correct</b> ones:<br>I. IAA is an indole compound<br>II. ABA is a terpene<br>III. Kinetin is an adenine derivative<br>IV. GA₃ is a derivative of carotenoids<br>V. Ethylene is a gaseous PGR with formula C₂H₄",
     "options": [
-      "I, II and V only",
       "I, III and V only",
+      "I, II and V only",
       "II, III and IV only",
       "I, III, IV and V only"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "I: CORRECT — NCERT: 'indole compounds (IAA).' II: WRONG — ABA is a derivative of CAROTENOIDS, not terpene. NCERT: 'derivatives of carotenoids (ABA).' III: CORRECT — NCERT: 'adenine derivatives (kinetin).' IV: WRONG — GA₃ is a TERPENE, not carotenoid derivative. NCERT: 'terpenes (GA₃).' V: CORRECT — NCERT: 'gases (ethylene, C₂H₄).' I, III, V correct. NTA trap: II and IV swap ABA (carotenoid) and GA₃ (terpene) chemical natures. NTA tests this from multiple angles because it's the most confused chemical nature pair."
   },
   {
@@ -2817,11 +2781,10 @@ var allQuestions = [
     "q": "The 'bakanae' (foolish seedling) disease of rice seedlings was caused by the fungal pathogen:",
     "options": [
       "Aspergillus niger",
-      "Gibberella fujikuroi",
+      "Ustilago maydis",
       "Neurospora crassa",
-      "Ustilago maydis"
-    ],
-    "correct": 1,
+      "Gibberella fujikuroi"
+    ], "correct": 3,
     "explanation": "NCERT exact line: 'The 'bakanae' (foolish seedling) disease of rice seedlings, was caused by a fungal pathogen Gibberella fujikuroi.' Options A, C, D are all real fungi but not associated with bakanae disease in NCERT. NTA trap: The genus name 'Gibberella' directly connects to 'gibberellic acid' — this etymological connection helps recall but students must still remember the full name 'Gibberella fujikuroi.' NTA may test the species name (fujikuroi) specifically."
   },
   {
@@ -2831,12 +2794,11 @@ var allQuestions = [
     "type": "Statement",
     "q": "Consider the following about plasticity and heterophylly:<br>I. Heterophylly in cotton is due to environment<br>II. Heterophylly in buttercup is due to environment<br>III. Plasticity means plants form the same structure regardless of conditions<br>IV. Larkspur shows heterophylly where juvenile and mature leaves differ<br><br>Which statements are <b>correct</b>?",
     "options": [
-      "I and III only",
       "II and IV only",
+      "I and III only",
       "I, II and IV only",
       "II, III and IV only"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "I: WRONG — Cotton heterophylly is due to PHASES OF LIFE (juvenile vs mature), NOT environment. II: CORRECT — NCERT: 'buttercup also represent the heterophyllous development due to environment.' III: WRONG — Plasticity means plants form DIFFERENT kinds of structures in response to environment/phases, NOT the same. NCERT: 'form different kinds of structures. This ability is called plasticity.' IV: CORRECT — NCERT: 'heterophylly in cotton, coriander and larkspur...leaves of the juvenile plant are different in shape from those in mature plants.' II and IV correct. NTA trap: Statement I performs the CLASSIC cause swap — cotton's heterophylly is due to phases of life, not environment. Statement III reverses the definition of plasticity."
   },
   {
@@ -2908,10 +2870,9 @@ var allQuestions = [
     "options": [
       "Coconut milk",
       "DNA",
-      "ABA solution",
-      "Yeast extract"
-    ],
-    "correct": 2,
+      "Yeast extract",
+      "ABA solution"
+    ], "correct": 3,
     "explanation": "NCERT: 'callus proliferated only if, in addition to auxins the nutrients medium was supplemented with one of the following: extracts of vascular tissues, yeast extract, coconut milk or DNA.' Coconut milk (A), DNA (B), yeast extract (D) are all in the list. ABA solution (C) is NOT mentioned. NTA trap: ABA is a PGR from the same chapter section, making it seem plausible as a growth supplement. But NCERT specifically lists only four supplements — ABA is not one of them. In fact, ABA is a growth INHIBITOR, making it counterproductive for callus proliferation."
   },
   {
@@ -2921,12 +2882,11 @@ var allQuestions = [
     "type": "Statement",
     "q": "Read the following statements:<br>I. Development = growth + differentiation<br>II. Intrinsic factors include intracellular (genetic) and intercellular (PGRs)<br>III. Auxins, gibberellins, cytokinins and ABA are all growth promoters<br>IV. Extrinsic factors include light, temperature, water, oxygen and nutrition<br>V. Ethylene is largely an inhibitor of growth activities<br><br>Which combination is <b>correct</b>?",
     "options": [
-      "I, II, III and V",
       "I, II, IV and V",
+      "I, II, III and V",
       "I, III, IV and V",
       "II, III, IV and V"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "I: CORRECT — NCERT: 'development is considered as the sum of growth and differentiation.' II: CORRECT — NCERT: 'intrinsic...includes both intracellular (genetic) or intercellular factors (chemicals such as plant growth regulators).' III: WRONG — ABA is a growth INHIBITOR, not promoter. NCERT: 'growth promoters, e.g., auxins, gibberellins and cytokinins' (only three) and 'The PGR abscisic acid belongs to this (inhibitor) group.' IV: CORRECT — NCERT: 'extrinsic includes light, temperature, water, oxygen, nutrition.' V: CORRECT — NCERT: 'ethylene...is largely an inhibitor of growth activities.' I, II, IV, V correct. NTA trap: Statement III sneaks ABA into the growth promoters list — a list-contamination trap."
   },
   {
@@ -3057,11 +3017,10 @@ var allQuestions = [
     "q": "Read the following statements:<br>I. Heterophylly in buttercup is due to phases of life (juvenile vs mature)<br>II. PGRs are intercellular intrinsic factors controlling development<br>III. ABA is a growth promoter like auxins and gibberellins<br>IV. Ethylene could fit either promoter or inhibitor group<br>V. Kinetin is an adenine derivative identified by Miller et al. (1955)<br><br>Which statements are <b>correct</b>?",
     "options": [
       "I, III and IV",
-      "II, IV and V",
+      "II, III and IV",
       "I, II and V",
-      "II, III and IV"
-    ],
-    "correct": 1,
+      "II, IV and V"
+    ], "correct": 3,
     "explanation": "I: WRONG — Buttercup heterophylly is due to ENVIRONMENT (air vs water leaves), NOT phases of life. Cotton/coriander/larkspur = phases of life. II: CORRECT — NCERT: 'intrinsic...includes...intercellular factors (chemicals such as plant growth regulators).' III: WRONG — ABA is a growth INHIBITOR, not promoter. NCERT: 'growth inhibiting activities...The PGR abscisic acid belongs to this group.' IV: CORRECT — NCERT: 'ethylene, could fit either of the groups.' V: CORRECT — NCERT: 'adenine derivatives (kinetin)' and 'Miller et al. (1955), later identified and crystallised...kinetin.' II, IV, V correct. NTA trap: Statement I performs the classic buttercup cause-swap. Statement III sneaks ABA into the promoter category. Both are HIGH YIELD traps."
   },
   {
@@ -3146,12 +3105,11 @@ var allQuestions = [
     "type": "Statement",
     "q": "Read the following statements and identify the <b>correct</b> combination:<br>I. Plasticity is exemplified by heterophylly in cotton, coriander, larkspur and buttercup<br>II. In buttercup, heterophylly is due to environment (air vs water leaves)<br>III. Auxins, gibberellins, cytokinins and ABA are all growth promoters<br>IV. GA₃ is a terpene and ABA is a derivative of carotenoids<br>V. Ethylene is a gaseous PGR that could fit either promoter or inhibitor group",
     "options": [
-      "I, III and IV only",
       "I, II, IV and V only",
+      "I, III and IV only",
       "II, III and V only",
       "I, II, III and IV only"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "I: CORRECT — All four (cotton, coriander, larkspur, buttercup) are examples of heterophylly = plasticity. NCERT: 'This phenomenon of heterophylly is an example of plasticity.' II: CORRECT — NCERT: 'difference in shapes of leaves produced in air and those produced in water in buttercup...due to environment.' III: WRONG — ABA is a growth INHIBITOR, not promoter. Promoters are only auxins, gibberellins, cytokinins. NCERT: 'growth promoters, e.g., auxins, gibberellins and cytokinins' and 'abscisic acid belongs to this (inhibitor) group.' IV: CORRECT — NCERT: 'terpenes (gibberellic acid, GA₃)' and 'derivatives of carotenoids (abscisic acid, ABA).' V: CORRECT — NCERT: 'ethylene, could fit either of the groups.' I, II, IV, V correct. NTA trap: Statement III is the recurring ABA trap — sneaking it into the promoter list. This final question tests ALL major concepts: plasticity, heterophylly causes, PGR chemical nature, PGR classification, and ethylene's dual nature."
   },
   {
@@ -3192,11 +3150,10 @@ var allQuestions = [
     "q": "How many of the following are <b>natural</b> auxins as per NCERT?<br>(A) IAA (Indole-3-acetic acid)<br>(B) IBA (Indole butyric acid)<br>(C) NAA (Naphthalene acetic acid)<br>(D) 2,4-D (2,4-dichlorophenoxyacetic acid)<br>(E) Zeatin",
     "options": [
       "One",
-      "Two",
+      "Four",
       "Three",
-      "Four"
-    ],
-    "correct": 1,
+      "Two"
+    ], "correct": 3,
     "explanation": "NCERT: 'Auxins like IAA and indole butyric acid (IBA) have been isolated from plants' (= natural). 'NAA and 2,4-D are synthetic auxins' (C and D are synthetic, not natural). Zeatin (E) is a CYTOKININ, not an auxin. A and B = Two natural auxins. NTA trap: NAA and 2,4-D are the most commonly misidentified as natural. Students must remember: isolated FROM PLANTS = natural (IAA, IBA); synthesised in labs = synthetic (NAA, 2,4-D). Zeatin is included as a cross-PGR trap."
   },
   {
@@ -3282,11 +3239,10 @@ var allQuestions = [
     "q": "How many of the following physiological effects are correctly attributed to <b>auxins</b> as per NCERT?<br>(A) Initiate rooting in stem cuttings<br>(B) Promote flowering in pineapples<br>(C) Induce parthenocarpy in tomatoes<br>(D) Speed up malting process in brewing<br>(E) Kill dicotyledonous weeds (2,4-D)<br>(F) Bolting in rosette plants",
     "options": [
       "Three",
-      "Four",
+      "Six",
       "Five",
-      "Six"
-    ],
-    "correct": 1,
+      "Four"
+    ], "correct": 3,
     "explanation": "A: CORRECT — 'initiate rooting in stem cuttings.' B: CORRECT — 'Auxins promote flowering e.g. in pineapples.' C: CORRECT — 'induce parthenocarpy, e.g., in tomatoes.' D: WRONG — Malting in brewing = GA₃, not auxin. E: CORRECT — '2,4-D, widely used to kill dicotyledonous weeds.' F: WRONG — Bolting = GIBBERELLIN effect, not auxin. A, B, C, E = Four correct. NTA trap: D (malting = GA₃) and F (bolting = GA) are GIBBERELLIN effects placed in auxin context."
   },
   {
@@ -3341,12 +3297,11 @@ var allQuestions = [
     "type": "HowMany",
     "q": "How many of the following effects are correctly attributed to <b>gibberellins</b> as per NCERT?<br>(A) Increase length of grape stalks<br>(B) Elongate and improve shape of apple fruits<br>(C) Delay senescence<br>(D) Speed up malting in brewing (GA₃)<br>(E) Promote bolting in beet, cabbages and rosette plants<br>(F) Induce parthenocarpy in tomatoes",
     "options": [
-      "Three",
-      "Four",
       "Five",
+      "Four",
+      "Three",
       "Six"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "A: CORRECT — 'increase the length of grapes stalks.' B: CORRECT — 'cause fruits like apple to elongate and improve its shape.' C: CORRECT — 'They also delay senescence.' D: CORRECT — 'GA₃ is used to speed up the malting process in brewing industry.' E: CORRECT — 'promotes bolting...in beet, cabbages and many plants with rosette habit.' F: WRONG — Parthenocarpy in tomatoes = AUXIN, not GA. A, B, C, D, E = Five correct. NTA trap: Statement F is the auxin effect placed in GA context — the most common cross-PGR swap."
   },
   {
@@ -3402,11 +3357,10 @@ var allQuestions = [
     "q": "Read the following statements about cytokinins:<br>I. Kinetin occurs naturally in plants<br>II. Zeatin was isolated from corn-kernels and coconut milk<br>III. Natural cytokinins are synthesised in root apices, developing shoot buds and young fruits<br>IV. Cytokinins promote apical dominance<br><br>Which statements are <b>correct</b>?",
     "options": [
       "I and IV only",
-      "II and III only",
+      "II, III and IV only",
       "I, II and III only",
-      "II, III and IV only"
-    ],
-    "correct": 1,
+      "II and III only"
+    ], "correct": 3,
     "explanation": "I: WRONG — NCERT: 'Kinetin does not occur naturally in plants.' This is one of the most tested NCERT lines. II: CORRECT — NCERT: 'isolation of zeatin from corn-kernels and coconut milk.' III: CORRECT — NCERT: 'Natural cytokinins are synthesised in regions where rapid cell division occurs, for example, root apices, developing shoot buds, young fruits etc.' IV: WRONG — Cytokinins help OVERCOME apical dominance, not promote it. NCERT: 'Cytokinins help overcome the apical dominance.' Auxin PROMOTES apical dominance. II and III correct. NTA trap: Statement I is the ULTRA HIGH YIELD trap. Kinetin is NOT natural. Statement IV swaps 'overcome' with 'promote.'"
   },
   {
@@ -3416,12 +3370,11 @@ var allQuestions = [
     "type": "HowMany",
     "q": "How many of the following are effects of <b>cytokinins</b> as per NCERT?<br>(A) Produce new leaves<br>(B) Produce chloroplasts in leaves<br>(C) Promote lateral shoot growth<br>(D) Promote adventitious shoot formation<br>(E) Promote nutrient mobilisation and delay leaf senescence<br>(F) Promote apical dominance",
     "options": [
-      "Three",
-      "Four",
       "Five",
+      "Four",
+      "Three",
       "Six"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "A: CORRECT — 'produce new leaves.' B: CORRECT — 'chloroplasts in leaves.' C: CORRECT — 'lateral shoot growth.' D: CORRECT — 'adventitious shoot formation.' E: CORRECT — 'promote nutrient mobilisation which helps in the delay of leaf senescence.' F: WRONG — Cytokinins OVERCOME apical dominance, NOT promote it. Auxin promotes apical dominance. A, B, C, D, E = Five correct. NTA trap: Statement F reverses cytokinin's role — from 'overcome' to 'promote' — the classic one-word swap."
   },
   {
@@ -3491,12 +3444,11 @@ var allQuestions = [
     "type": "Statement",
     "q": "Consider the following effects of ethylene:<br>I. Horizontal growth of seedlings<br>II. Swelling of the axis<br>III. Apical hook formation in dicot seedlings<br>IV. Vertical straightening of seedlings<br>V. Promotes root growth and root hair formation<br><br>Which are <b>correct</b>?",
     "options": [
-      "I, II, III and V only",
+      "I, II, III, IV and V",
       "I, II, IV and V only",
       "II, III, IV and V only",
-      "I, II, III, IV and V"
-    ],
-    "correct": 0,
+      "I, II, III and V only"
+    ], "correct": 3,
     "explanation": "NCERT: 'horizontal growth of seedlings (I), swelling of the axis (II) and apical hook formation in dicot seedlings (III).' Also: 'promotes root growth and root hair formation' (V). Statement IV says 'vertical straightening' — NCERT says HORIZONTAL growth, not vertical. This is a direct reversal. I, II, III, V correct. NTA trap: Statement IV reverses 'horizontal' to 'vertical' — a one-word swap. The triple response (horizontal growth + swelling + apical hook) must be memorized exactly."
   },
   {
@@ -3506,12 +3458,11 @@ var allQuestions = [
     "type": "HowMany",
     "q": "How many of the following effects are correctly attributed to <b>ethylene</b> as per NCERT?<br>(A) Promotes senescence and abscission of leaves and flowers<br>(B) Breaks seed dormancy in peanut and bud dormancy in potato<br>(C) Promotes rapid internode elongation in deep water rice<br>(D) Promotes female flowers in cucumbers<br>(E) Delays senescence in fruits<br>(F) Initiates flowering in pineapples and mango",
     "options": [
-      "Three",
-      "Four",
       "Five",
+      "Four",
+      "Three",
       "Six"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "A: CORRECT — 'promotes senescence and abscission of plant organs especially of leaves and flowers.' B: CORRECT — 'breaks seed and bud dormancy, initiates germination in peanut seeds, sprouting of potato tubers.' C: CORRECT — 'promotes rapid internode/petiole elongation in deep water rice plants.' D: CORRECT — 'promotes female flowers in cucumbers.' E: WRONG — Ethylene PROMOTES senescence; GA DELAYS it. F: CORRECT — 'initiate flowering...in pineapples. It also induces flowering in mango.' A, B, C, D, F = Five correct. NTA trap: Statement E reverses ethylene's effect from 'promotes' to 'delays' senescence. GA DELAYS; ethylene PROMOTES senescence."
   },
   {
@@ -3581,12 +3532,11 @@ var allQuestions = [
     "type": "Statement",
     "q": "Consider the following statements about pineapple:<br>I. Auxins promote flowering in pineapples<br>II. Ethylene initiates flowering and synchronises fruit-set in pineapples<br>III. Gibberellins promote flowering in pineapples<br>IV. Both auxins and ethylene have roles in pineapple flowering<br><br>Which statements are <b>correct</b>?",
     "options": [
-      "I, II and IV only",
+      "I, II, III and IV",
       "I and III only",
       "II and III only",
-      "I, II, III and IV"
-    ],
-    "correct": 0,
+      "I, II and IV only"
+    ], "correct": 3,
     "explanation": "I: CORRECT — NCERT under Auxins: 'Auxins promote flowering e.g. in pineapples.' II: CORRECT — NCERT under Ethylene: 'Ethylene is used to initiate flowering and for synchronising fruit-set in pineapples.' III: WRONG — GA is NOT mentioned for pineapple flowering in NCERT. IV: CORRECT — Since both I and II are correct, BOTH auxins and ethylene affect pineapple flowering. I, II, IV correct. NTA trap: PINEAPPLE is the ONLY plant where BOTH auxin AND ethylene promote flowering. Statement III is the trap — GA promotes bolting, not pineapple flowering."
   },
   {
@@ -3596,12 +3546,11 @@ var allQuestions = [
     "type": "HowMany",
     "q": "How many of the following statements are <b>correct</b>?<br>(A) ABA inhibits seed germination<br>(B) Ethylene breaks seed and bud dormancy<br>(C) ABA induces dormancy to help seeds withstand desiccation<br>(D) Ethylene inhibits seed germination<br>(E) ABA breaks seed dormancy",
     "options": [
-      "Two",
       "Three",
+      "Two",
       "Four",
       "Five"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "A: CORRECT — NCERT: 'ABA inhibits seed germination.' B: CORRECT — NCERT: 'Ethylene breaks seed and bud dormancy.' C: CORRECT — NCERT: 'By inducing dormancy, ABA helps seeds to withstand desiccation.' D: WRONG — Ethylene INITIATES germination, not inhibits. NCERT: 'initiates germination in peanut seeds.' E: WRONG — ABA INDUCES dormancy, not breaks it. Ethylene breaks dormancy. A, B, C = Three correct. NTA trap: Statements D and E perform a CROSS-SWAP — ethylene is given ABA's effect (D) and ABA is given ethylene's effect (E). ABA: INDUCES dormancy + INHIBITS germination. Ethylene: BREAKS dormancy + INITIATES germination."
   },
   {
@@ -3671,12 +3620,11 @@ var allQuestions = [
     "type": "Statement",
     "q": "Read the following statements about ABA:<br>I. ABA acts as a general plant growth inhibitor<br>II. ABA stimulates the opening of stomata<br>III. ABA is called the stress hormone<br>IV. ABA acts as an antagonist to GAs<br>V. ABA promotes seed germination<br><br>Which statements are <b>correct</b>?",
     "options": [
-      "I, III and IV only",
+      "I, III, IV and V only",
       "I, II and III only",
       "II, III and V only",
-      "I, III, IV and V only"
-    ],
-    "correct": 0,
+      "I, III and IV only"
+    ], "correct": 3,
     "explanation": "I: CORRECT — NCERT: 'acts as a general plant growth inhibitor and an inhibitor of plant metabolism.' II: WRONG — ABA stimulates CLOSURE of stomata, not opening. NCERT: 'stimulates the closure of stomata.' III: CORRECT — NCERT: 'it is also called the stress hormone.' IV: CORRECT — NCERT: 'ABA acts as an antagonist to GAs.' V: WRONG — ABA INHIBITS seed germination, not promotes. NCERT: 'ABA inhibits seed germination.' I, III, IV correct. NTA trap: II reverses 'closure' to 'opening.' V reverses 'inhibits' to 'promotes.' Both are one-word reversals of critical ABA effects."
   },
   {
@@ -3868,10 +3816,9 @@ var allQuestions = [
     "options": [
       "Two",
       "Three",
-      "Four",
-      "Five"
-    ],
-    "correct": 2,
+      "Five",
+      "Four"
+    ], "correct": 3,
     "explanation": "NCERT: 'there are a number of events in the life of a plant where more than one PGR interact to affect that event, e.g., dormancy in seeds/buds (A), abscission (B), senescence (C), apical dominance (D), etc.' A, B, C, D = all mentioned as multi-PGR events. E: WRONG — NCERT says 'ABA acts as an antagonist to GAs,' NOT auxins. A, B, C, D = Four correct. NTA trap: Statement E swaps 'GAs' with 'auxins' as ABA's antagonist partner. NCERT is specific: ABA antagonises GA, not auxin."
   },
   {
@@ -3958,10 +3905,9 @@ var allQuestions = [
     "options": [
       "Two",
       "Three",
-      "Four",
-      "Five"
-    ],
-    "correct": 2,
+      "Five",
+      "Four"
+    ], "correct": 3,
     "explanation": "A: CORRECT — NCERT: 'prevent fruit and leaf drop at early stages.' B: CORRECT — NCERT: 'promote the abscission of older mature leaves and fruits.' C: CORRECT — NCERT: 'Ethylene promotes senescence and abscission of plant organs especially of leaves and flowers.' D: CORRECT — NCERT: 'accelerates abscission in flowers and fruits (thinning of cotton, cherry, walnut).' E: WRONG — While ABA's NAME comes from 'abscission,' NCERT's physiological effects section emphasizes its other roles (dormancy, stress, stomatal closure). Abscission is NOT described as ABA's primary role in the physiological effects section. A, B, C, D = Four correct."
   },
   {
@@ -4001,12 +3947,11 @@ var allQuestions = [
     "type": "Direct",
     "q": "According to NCERT, ethylene initiates germination in peanut seeds and sprouting of:",
     "options": [
-      "Onion bulbs",
       "Potato tubers",
+      "Onion bulbs",
       "Garlic cloves",
       "Ginger rhizomes"
-    ],
-    "correct": 1,
+    ], "correct": 0,
     "explanation": "NCERT exact line: 'Ethylene breaks seed and bud dormancy, initiates germination in peanut seeds, sprouting of potato tubers.' Options A, C, D are not mentioned in NCERT for ethylene-induced sprouting. NTA trap: Students must remember the EXACT pairing: peanut SEEDS (germination) + potato TUBERS (sprouting). Both are ethylene effects. NTA may swap these or add incorrect plant organs."
   },
   {
@@ -4108,10 +4053,9 @@ var allQuestions = [
     "options": [
       "Two",
       "Three",
-      "Four",
-      "Five"
-    ],
-    "correct": 2,
+      "Five",
+      "Four"
+    ], "correct": 3,
     "explanation": "A: CORRECT — 'induce parthenocarpy, e.g., in tomatoes.' B: CORRECT — 'GA₃ is used to speed up the malting process.' C: INCORRECT — 'Kinetin does not occur naturally in plants.' D: INCORRECT — ABA stimulates CLOSURE of stomata, not opening. E: CORRECT — 'promotes female flowers in cucumbers.' F: INCORRECT — 2,4-D kills DICOTYLEDONOUS weeds, not monocots. G: INCORRECT — Cytokinins OVERCOME apical dominance, not promote it. C, D, F, G = Four incorrect. NTA trap: This comprehensive question tests the FOUR most commonly reversed/swapped facts."
   },
   {
@@ -4168,10 +4112,9 @@ var allQuestions = [
     "options": [
       "Four",
       "Five",
-      "Six",
-      "Seven"
-    ],
-    "correct": 2,
+      "Seven",
+      "Six"
+    ], "correct": 3,
     "explanation": "NCERT Summary: 'irreversible increase expressed in parameters such as size, area, length, height, volume, cell number etc.' A: CORRECT (size). B: CORRECT (area). C: CORRECT (length). D: CORRECT (height). E: WRONG — Colour is NOT listed as a growth parameter. F: CORRECT (volume). G: CORRECT (cell number). A, B, C, D, F, G = Six correct. NTA trap: Statement E (colour) is a biological attribute but NOT listed as a growth parameter. Note: The summary list includes 'size' and 'height' rather than 'fresh weight/dry weight' mentioned elsewhere."
   },
   {
@@ -4256,12 +4199,11 @@ var allQuestions = [
     "type": "HowMany",
     "q": "How many of the following statements about PGRs from the NCERT Summary are <b>correct</b>?<br>(A) PGRs are intercellular intrinsic factors<br>(B) There are five principal groups of PGRs<br>(C) Any PGR has diverse physiological effects on plants<br>(D) Diverse PGRs also manifest similar effects<br>(E) PGRs always act synergistically, never antagonistically",
     "options": [
-      "Two",
-      "Three",
       "Four",
+      "Three",
+      "Two",
       "Five"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "A: CORRECT — NCERT Summary: 'Intercellular intrinsic factors are the chemical substances, called plant growth regulators.' B: CORRECT — NCERT Summary: 'five groups: auxins, gibberellins, cytokinins, abscisic acid and ethylene.' C: CORRECT — NCERT Summary: 'Any PGR has diverse physiological effects on plants.' D: CORRECT — NCERT Summary: 'Diverse PGRs also manifest similar effects.' E: WRONG — NCERT says 'PGRs may act synergistically OR antagonistically' — not ALWAYS synergistically. A, B, C, D = Four correct. NTA trap: Statement E uses absolute language ('always,' 'never') to make a correct concept wrong."
   },
   {
@@ -4376,12 +4318,11 @@ var allQuestions = [
     "type": "Statement",
     "q": "Read the following statements from the NCERT Summary:<br>I. Any PGR has diverse physiological effects on plants<br>II. Diverse PGRs also manifest similar effects<br>III. PGRs may act synergistically or antagonistically<br>IV. PGRs always have identical effects on all plant species<br><br>Which statements are <b>correct</b>?",
     "options": [
-      "I, II and III only",
+      "I, III and IV only",
       "I, II and IV only",
       "II, III and IV only",
-      "I, III and IV only"
-    ],
-    "correct": 0,
+      "I, II and III only"
+    ], "correct": 3,
     "explanation": "I: CORRECT — NCERT Summary: 'Any PGR has diverse physiological effects on plants.' (One PGR → many effects). II: CORRECT — NCERT Summary: 'Diverse PGRs also manifest similar effects.' (Many PGRs → one effect). III: CORRECT — NCERT Summary: 'PGRs may act synergistically or antagonistically.' IV: WRONG — NCERT does NOT say PGRs have 'identical effects on ALL plant species.' 'Always' and 'identical' and 'all' make this too absolute. I, II, III correct. NTA trap: Statements I and II are key complementary observations — one PGR → diverse effects AND diverse PGRs → similar effects."
   },
   {
@@ -4391,12 +4332,11 @@ var allQuestions = [
     "type": "HowMany",
     "q": "How many of the following statements are <b>incorrect</b> as per the NCERT Summary?<br>(A) Growth is a reversible increase in size<br>(B) Meristems are the sites of growth in plants<br>(C) Three principal phases of growth are lag, log and senescent<br>(D) Development is the sum of growth and reproduction<br>(E) PGRs are intercellular intrinsic factors<br>(F) Growth is sustained at a high rate throughout life",
     "options": [
-      "One",
-      "Two",
       "Three",
+      "Two",
+      "One",
       "Four"
-    ],
-    "correct": 2,
+    ], "correct": 0,
     "explanation": "A: INCORRECT — Growth is IRREVERSIBLE, not reversible. B: CORRECT — 'meristems are the sites of growth.' C: CORRECT — 'three principle phases of growth – the lag, the log and the senescent phase.' D: INCORRECT — Development = growth + DIFFERENTIATION, not reproduction. E: CORRECT — 'Intercellular intrinsic factors are the chemical substances, called plant growth regulators.' F: INCORRECT — 'Growth may not be and generally is not sustained at a high rate throughout the life.' A, D, F = Three incorrect. NTA trap: A changes 'irreversible' to 'reversible.' D changes 'differentiation' to 'reproduction.' F reverses the NCERT statement about growth rate sustainability."
   },
   {
@@ -4438,10 +4378,9 @@ var allQuestions = [
     "options": [
       "Three",
       "Four",
-      "Five",
-      "Six"
-    ],
-    "correct": 2,
+      "Six",
+      "Five"
+    ], "correct": 3,
     "explanation": "NCERT Summary: 'principally belonging to five groups: auxins, gibberellins, cytokinins, abscisic acid and ethylene.' NTA trap: Students must remember ALL five: auxins, gibberellins, cytokinins, ABA, ethylene. Some students forget one group or add extra ones like brassinosteroids."
   },
   {
@@ -4618,10 +4557,9 @@ var allQuestions = [
     "options": [
       "Three",
       "Four",
-      "Five",
-      "Six"
-    ],
-    "correct": 2,
+      "Six",
+      "Five"
+    ], "correct": 3,
     "explanation": "NCERT Summary: 'five groups: auxins, gibberellins, cytokinins, abscisic acid and ethylene.' A: CORRECT (auxins). B: CORRECT (gibberellins). C: CORRECT (cytokinins). D: WRONG — Florigen is NOT one of the five PGR groups. E: CORRECT (abscisic acid). F: CORRECT (ethylene). G: WRONG — Brassinosteroids are NOT in NCERT's five PGR groups. A, B, C, E, F = Five correct. NTA trap: Florigen and brassinosteroids are real plant hormones but are NOT part of NCERT's five PGR groups."
   },
   {
@@ -4632,11 +4570,10 @@ var allQuestions = [
     "q": "According to the NCERT Summary, the sites of growth in plants are meristems. Which of the following is NOT a meristematic region?",
     "options": [
       "Root apical meristems",
-      "Permanent tissues",
+      "Intercalary meristem",
       "Shoot apical meristems",
-      "Intercalary meristem"
-    ],
-    "correct": 1,
+      "Permanent tissues"
+    ], "correct": 3,
     "explanation": "NCERT Summary: 'In plants, meristems are the sites of growth.' Root apical meristems (A), shoot apical meristems (C), and intercalary meristem (D) are all meristematic regions = sites of growth. 'Permanent tissues' (B) are NOT sites of growth. Permanent tissues are DIFFERENTIATED cells that have lost the capacity to divide. NTA trap: Permanent tissues have COMPLETED growth (are mature/differentiated). They are the PRODUCT of growth, not the SITE of growth."
   },
   {
@@ -4678,10 +4615,9 @@ var allQuestions = [
     "options": [
       "Three",
       "Four",
-      "Five",
-      "Six"
-    ],
-    "correct": 2,
+      "Six",
+      "Five"
+    ], "correct": 3,
     "explanation": "A: CORRECT — 'irreversible increase' + 'increased protoplasmic material.' B: CORRECT — 'Growth is indeterminate in higher plants.' C: CORRECT — 'three principle phases of growth – the lag, the log and the senescent phase.' D: CORRECT — 'development is the sum of growth and differentiation.' E: CORRECT — 'Plant exhibit plasticity in development.' F: WRONG — PGRs are INTRINSIC (intercellular) factors, NOT extrinsic. A, B, C, D, E = Five correct. NTA trap: Statement F is the ONLY wrong one — it changes PGRs from intrinsic to extrinsic. This tests the fundamental classification of PGRs."
   },
   {
@@ -4692,11 +4628,10 @@ var allQuestions = [
     "q": "Read the following statements from the NCERT Summary:<br>I. Growth is generally sustained at a high rate throughout the life of an organism<br>II. Growth may not be sustained at a high rate throughout life<br>III. One can define three principal phases: lag, log and senescent<br>IV. The three phases prove growth rate is constant<br><br>Which statements are <b>correct</b>?",
     "options": [
       "I and IV only",
-      "II and III only",
+      "I and III only",
       "I, III and IV only",
-      "I and III only"
-    ],
-    "correct": 1,
+      "II and III only"
+    ], "correct": 3,
     "explanation": "I: WRONG — NCERT says 'Growth may not be and generally is NOT sustained at a high rate.' Statement I says it IS sustained — reversed. II: CORRECT — Directly matches NCERT wording. III: CORRECT — 'three principle phases of growth – the lag, the log and the senescent phase.' IV: WRONG — The three phases SHOW that growth rate CHANGES (lag = slow, log = fast, senescent = declining), proving growth rate is NOT constant. II and III correct. NTA trap: Statement I reverses the NCERT statement. Statement IV draws a WRONG conclusion — the three phases actually demonstrate VARIABLE growth rate, not constant rate."
   },
   {
@@ -4721,12 +4656,11 @@ var allQuestions = [
     "type": "Statement",
     "q": "Which of the following combinations of statements from the NCERT Summary are ALL <b>correct</b>?<br>I. Growth is irreversible and indeterminate in higher plants<br>II. Three growth phases: lag, log, senescent<br>III. Development = growth + differentiation; plants show plasticity<br>IV. PGRs are extrinsic factors; they always act synergistically<br>V. Differentiation is open; a differentiated cell may dedifferentiate then redifferentiate<br>VI. Growth involves increased protoplasmic material; meristems are sites of growth",
     "options": [
-      "I, II, III, V and VI only",
+      "I, II, III, IV, V and VI",
       "I, II, III, IV and V only",
       "I, III, IV, V and VI only",
-      "I, II, III, IV, V and VI"
-    ],
-    "correct": 0,
+      "I, II, III, V and VI only"
+    ], "correct": 3,
     "explanation": "I: CORRECT — 'irreversible increase' + 'Growth is indeterminate in higher plants.' II: CORRECT — 'the lag, the log and the senescent phase.' III: CORRECT — 'sum of growth and differentiation' + 'Plant exhibit plasticity.' IV: WRONG — Contains TWO errors: (1) PGRs are INTRINSIC (intercellular), not extrinsic. (2) PGRs may act synergistically OR antagonistically, not 'always synergistically.' V: CORRECT — 'differentiation in plants is open' + 'A differentiated cell may dedifferentiate and then redifferentiate.' VI: CORRECT — 'increased protoplasmic material' + 'meristems are the sites of growth.' I, II, III, V, VI correct. IV is wrong. NTA trap: Statement IV is the ONLY wrong one but contains TWO errors packed together — a 'combo trap' testing both PGR classification and PGR interaction type."
   }
 ];
